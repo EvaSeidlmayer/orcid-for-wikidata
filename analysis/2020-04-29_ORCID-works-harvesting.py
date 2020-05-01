@@ -11,15 +11,8 @@ __github__ = "https://github.com/foerstner-lab/TIP-lib"
 __status__ = "Production"
 __description__ = "Extraction of DOI and PubMed-ID from XML and retierval of ORCIDs for authors"
 
-import urllib.request
-import csv
-import re
-import sys
 import pandas as pd
-import tarfile
 import xmltodict
-from pprint import pprint
-import subprocess
 from collections import defaultdict
 import glob
 import argparse
@@ -113,7 +106,6 @@ if __name__ == "__main__":
     parser.add_argument('output_csv')
     args = parser.parse_args()
 
-    print(args.output_csv)
     files = glob.glob(f'{args.orcid_xml_path}/**/*works*.xml' , recursive=True)
 
     for file in files:
