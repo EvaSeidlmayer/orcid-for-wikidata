@@ -18,8 +18,8 @@ import glob
 import argparse
 
 class ORCIDData:
-    def __init__(self, affiliations_xml_txt=None):
-        self.affiliations_xml_txt = affiliations_xml_txt
+    def __init__(self, affiliations_xml=None):
+        self.affiliations_xml = affiliations_xml
         self.xmldict = None
         self.orcid = None
         self.results = None
@@ -29,14 +29,14 @@ class ORCIDData:
         self.org_disambigiation = None
 
 
-        if affiliations_xml_txt is not None:
+        if affiliations_xml is not None:
             self._preprocess_data()
         else:
             print('Enter ORCID archive or download URL')
 
 
     def _preprocess_data(self):
-        with open(self.affiliations_xml_txt) as file:
+        with open(self.affiliations_xml) as file:
             self.xmldict = xmltodict.parse(file.read())
 
     # get info from xml
@@ -58,7 +58,7 @@ class ORCIDData:
 
         #combine infos
             results = [self.orcid, self.org_name, self.org_address_city, self.org_address_country, self.org_disambigiation]
-            print(results)
+            #print(results)
             self.results = results
 
             csv_infos = pd.DataFrame.from_records([self.results])
@@ -84,5 +84,5 @@ if __name__ == "__main__":
     files = glob.glob(f'{args.orcid_xml_path}/**/*employments*.xml', recursive=True)
 
     for file in files:
-        Example = ORCIDData(affiliations_xml_txt=file)
+        Example = ORCIDData(affiliations_xml=file)
         print(Example)
