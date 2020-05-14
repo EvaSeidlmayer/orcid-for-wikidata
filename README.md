@@ -14,7 +14,8 @@ The repository contains a Python script to prepare JSON files for editing Wikida
 1. download ORCID archives at figshare,  eg. for 2019: https://orcid.figshare.com/articles/ORCID_Public_Data_File_2019/9988322/2 
 2. harvest summaries by using  	2020-04-01_ORCID_summaries.py  for ORCID, given name, family name and current affiliation with  arg-statements for path of extracted ORCID-summaries.xml and output-csv  
 
- ⋅⋅⋅e.g. python3  2020-04-01_ORCID_summaries.py /home/folder/orcid_summaries.xml orcid-researchers.csv
+ ⋅ ⋅ ⋅e.g. python3  2020-04-01_ORCID_summaries.py /home/folder/orcid_summaries.xml orcid-researchers.csv
+
 3. harvest affiliations by using  	2020-03-30_ORCID_affiliations.py 	for ORCID, affiliation name, affiliation adress, affiliation id for disambiguation with args-statements for path of extracted ORCID-activities.xml and output-csv
 
  ⋅⋅⋅ e.g. python3  2020-03-30_ORCID_affiliations.py /home/folder/orcid_activities_1.xml orcid-affiliations_1.csv
