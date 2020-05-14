@@ -9,7 +9,7 @@ __version__ = "1.0"
 __maintainer__ = "Eva Seidlmayer"
 __github__ = "https://github.com/foerstner-lab/TIP-lib"
 __status__ = "Production"
-__description__ = "Extraction of DOI and PubMed-ID from XML and retierval of ORCIDs for authors"
+__description__ = "Extraction of information on authors like ORCID ID, given name, familiy name and current affiliation"
 
 import pandas as pd
 import xmltodict
