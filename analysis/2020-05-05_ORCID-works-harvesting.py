@@ -9,10 +9,17 @@ __version__ = "1.0"
 __maintainer__ = "Eva Seidlmayer"
 __github__ = "https://github.com/foerstner-lab/TIP-lib"
 __status__ = "Production"
-__description__ = "Extraction of DOI and PubMed-ID from XML and retierval of ORCIDs for authors"
+__description__ = "Extraction of publications (author ORCID, IDs as DOI, WOS, PubMed-ID, title, subtitel) from ORCID XML"
 
+import urllib.request
+import csv
+import re
+import sys
 import pandas as pd
+import tarfile
 import xmltodict
+from pprint import pprint
+import subprocess
 from collections import defaultdict
 import glob
 import argparse
@@ -27,7 +34,6 @@ class ORCIDData:
         self.results = None
         self.title = None
         self.subtitle = None
-        self.citation = None
         pass
 
         if works_xml_txt is not None:
@@ -45,7 +51,7 @@ class ORCIDData:
         # get info from xml
         ##get orcid
             try:
-                self.orcid = self.xmldict['work:work']['common:source']['common:source-client-id'].get('common:path')
+                self.orcid = self.xmldict['work:work'].get('@path').rsplit('/')[1]
             except:
                 pass
 
@@ -80,12 +86,12 @@ class ORCIDData:
                 pass
 
             #combine infos
-            results = [self.orcid, self.title, self.subtitle, self.ids['pmid'], self.ids['pmc'], self.ids['doi'], self.ids['eid'], self.ids['dnb'], self.ids['wosuid'], self.citation]
+            results = [self.orcid, self.title, self.subtitle, self.ids['pmid'], self.ids['pmc'], self.ids['doi'], self.ids['eid'], self.ids['dnb'], self.ids['wosuid']]
             print(results)
             self.results = results
 
             csv_infos = pd.DataFrame.from_records([self.results])
-            csv_infos.to_csv(f'{args.output_csv}.csv', mode='a', index=False, header=False)
+            csv_infos.to_csv(args.output_csv, mode='a', index=False, header=False)
 
 
             #print(','.join(results))
@@ -94,8 +100,7 @@ class ORCIDData:
         return f"""ORCID: {self.orcid}:\n
             Work_title: {self.title}:\n
             Work_subtitle: {self.subtitle}:\n
-            Work_ID_Dict: {self.ids}\n
-            Work_citation: {self.citation}
+            Work_ID_Dict: {self.ids}
             """
 
 
@@ -107,7 +112,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     files = glob.glob(f'{args.orcid_xml_path}/**/*works*.xml' , recursive=True)
+    #print(files)
+    #sys.exit()
 
     for file in files:
-        Example3 = ORCIDData(works_xml_txt=file)
-        print(Example3)
+        publication = ORCIDData(works_xml_txt=file)
+        print(publication)
