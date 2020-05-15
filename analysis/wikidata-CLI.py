@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 __description__ = "adaption of wikidata CLI for ORCID data"
 __author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Konrad Foerstner <konrad@foerstner.org>"
@@ -14,6 +15,10 @@ import subprocess
 import time
 import pandas as pd
 import pprint as pp
+import logging
+
+logging.basicConfig(format='%(message)s')
+log = logging.getLogger(__name__)
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 
@@ -28,15 +33,11 @@ def main():
     orcid_data = pd.read_csv(args.orcid_summaries_csv)
 
     for _, row in orcid_data.iterrows():
-        if ( item_exists('orcid', row, args.wikidata_cli_executable) or
-        item_exists('name', row, args.wikidata_cli_executable) or
-        item_exists('alias', row, args.wikidata_cli_executable)):
+        if item_exists(row, args.wikidata_cli_executable):
             continue
-
         else:
             create_new_item(row, args.wikidata_cli_executable, args.log_file_name)
             time.sleep(3)
-
 
 
 def create_new_item(row, wikidata_cli_executable, log_file_name):
@@ -101,25 +102,21 @@ def _generate_date_list(row):
 
 
 
-def item_exists(switch, row, wikidata_cli_executable):
+def item_exists(row, wikidata_cli_executable):
     """
     Check by querying for items with a specific name, alias, or orcid.
     """
 
-    value = _generate_name_list(row)
+    name = _generate_name_list(row)
+    orcid = row['orcid']
     tmp_sparql_file = "tmp.sparql"
-    property = {'name': 'rdfs:label',
-                'alias': 'skos:altLabel',
-                'orcid': 'wdt:P496'}[switch]
-
-    value = {'name': _generate_name_list(row),
-             'alias': _generate_name_list(row),
-             'orcid': row['orcid']}[switch]
 
     with open(tmp_sparql_file, "w") as output_fh:
-        sparql_query = f'''SELECT  ?hallo WHERE {{ ?hallo {property}  "{value}".
-                        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }}
-                        }}'''
+        sparql_query = f'''SELECT ?item WHERE {{
+            {{ ?item wdt:P496 "{orcid}" }} UNION
+            {{ ?item rdfs:label "{name}" }} UNION
+            {{ ?item skos:altLabel "{name}" }}
+        }}'''
         output_fh.write(sparql_query)
         print(sparql_query)
     try:
@@ -128,7 +125,8 @@ def item_exists(switch, row, wikidata_cli_executable):
             f"{tmp_sparql_file} -e https://query.wikidata.org/sparql".split()
         )
     except subprocess.CalledProcessError:
-        return False
+        log.warning("SPARQL request failed! Skipping entry...")
+        return True
     # If this string is return the item is not existing
     return "no result found by name" in str(query_result)
 
