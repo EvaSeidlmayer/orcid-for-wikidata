@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 __description__ = "adaption of wikidata CLI for ORCID data"
-__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Konrad Foerstner <konrad@foerstner.org>"
-__copyright__ = "2020 by Eva Seidlmayer and Konrad Foerstner"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Konrad Foerstner <konrad@foerstner.org, Jakob Voß <> >"
+__copyright__ = "2020 by Eva Seidlmayer, Konrad Foerstner and Jakob Voß"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
 __version__ = "2 - adaption for ORCID"
@@ -117,7 +117,8 @@ def item_exists(row, wikidata_cli_executable):
         sparql_query = f'''SELECT ?item WHERE {{
             {{ ?item wdt:P496 "{orcid}" }} UNION
             {{ ?item rdfs:label "{name}" }} UNION
-            {{ ?item skos:altLabel "{name}" }}
+            {{ ?item skos:altLabel "{name}" .
+                SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}}
         }}'''
         output_fh.write(sparql_query)
         print(sparql_query)
