@@ -13,8 +13,8 @@ import argparse
 import json
 import subprocess
 import time
-import pandas as pd
-import pprint as pp
+from pandas import read_csv
+from pprint import pprint
 import logging
 
 logging.basicConfig(format='%(message)s')
@@ -30,7 +30,7 @@ def main():
     args = parser.parse_args()
 
 
-    orcid_data = pd.read_csv(args.orcid_summaries_csv)
+    orcid_data = read_csv(args.orcid_summaries_csv)
 
     for _, row in orcid_data.iterrows():
         if item_exists(row, args.wikidata_cli_executable):
@@ -47,21 +47,23 @@ def create_new_item(row, wikidata_cli_executable, log_file_name):
         name = _generate_name_list(row)
         #date = _generate_date_list(row)
 
-    # create json_dictionary with information for uploading to wikidata
+        # create json_dictionary with information for uploading to wikidata
+        affiliation = row['affiliation_name']
         entity_dict = {
             "labels": {"en": name}, # given_name and family_name
-            "descriptions": {"en": "researcher"}, # standard declaration as 'researcher'
+            "descriptions": {"en": f"researcher at {affiliation}" },
             "claims": {
                 "P31": "Q5", # human
                 "P496": row['orcid'], # orcid
                 "P106": "Q42240", # researcher
-                "P6424": {'value': row['affiliation_name'],# affiliation
+                "P6424": {'value': affiliation,
                            "qualifiers": {
-                            "P580": row['affiliation_year']} }    # start date employment
+                            "P580": row['affiliation_year'] } 
+                         }    # start date employment
                 #"P735": row['given_name'].title(),  # given_name
                 #"P734": row['family_name'].title(),  # family_name
             }}
-        pp.pprint(entity_dict)
+        pprint(entity_dict)
         tmp_json_file = "tmp.json"
 
         with open(tmp_json_file, "w") as entity_json_fh:
