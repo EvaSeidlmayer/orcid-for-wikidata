@@ -17,7 +17,7 @@ Scripts in this repository requiry Python 3 and [wikidata-cli]. To process ORCID
 
 ## Usage
 1. Preparation and extraction
-**Download ORCID archives** at figshare,  eg. for 2019: https://orcid.figshare.com/articles/ORCID_Public_Data_File_2019/9988322/2 
+* **Download ORCID archives** at figshare,  eg. for 2019: https://orcid.figshare.com/articles/ORCID_Public_Data_File_2019/9988322/2 
 
 2. Harvesting of basic author information and upload to Wikidata
  * **Harvest summaries** by using  	2020-04-01_ORCID_summaries.py  for **ORCID, given name, family name** and **current affiliation** with  arg-statements for path of extracted ORCID-summaries.xml and output-csv  
