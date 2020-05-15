@@ -115,6 +115,7 @@ def item_exists(row, wikidata_cli_executable):
 
     with open(tmp_sparql_file, "w") as output_fh:
         sparql_query = f'''SELECT ?item WHERE {{
+            {{ ?item wdt:P31 wd:Q5 }} AND
             {{ ?item wdt:P496 "{orcid}" }} UNION
             {{ ?item rdfs:label "{name}" }} UNION
             {{ ?item skos:altLabel "{name}" .
