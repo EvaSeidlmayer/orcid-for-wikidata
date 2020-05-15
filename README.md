@@ -56,4 +56,4 @@ the script uses Wikibase CLI internally. Download and informatin on Wikibase CLI
    
 ## License
 
-All source code licensed under GPL
+All source code licensed under [ISC license](https://www.isc.org/downloads/software-support-policy/isc-license/)
