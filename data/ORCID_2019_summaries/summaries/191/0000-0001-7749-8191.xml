@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7749-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7749-8191</common:uri>
+        <common:path>0000-0001-7749-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2018-02-16T02:36:03.949Z</history:submission-date>
+        <common:last-modified-date>2019-10-01T15:46:26.017Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7749-8191/person">
+        <person:name visibility="public" path="0000-0001-7749-8191">
+            <common:created-date>2018-02-16T02:36:03.949Z</common:created-date>
+            <common:last-modified-date>2018-02-16T02:36:04.167Z</common:last-modified-date>
+            <personal-details:given-names>Roger</personal-details:given-names>
+            <personal-details:family-name>Reeves</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7749-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7749-8191/researcher-urls"/>
+        <email:emails path="/0000-0001-7749-8191/email"/>
+        <address:addresses path="/0000-0001-7749-8191/address"/>
+        <keyword:keywords path="/0000-0001-7749-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7749-8191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7749-8191/activities">
+        <common:last-modified-date>2019-10-01T15:46:26.020Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7749-8191/distinctions"/>
+        <activities:educations path="/0000-0001-7749-8191/educations"/>
+        <activities:employments path="/0000-0001-7749-8191/employments">
+            <common:last-modified-date>2019-09-24T01:35:23.948Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-24T01:35:23.948Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8738065" display-index="1" path="/0000-0001-7749-8191/employment/8738065" visibility="public">
+                    <common:created-date>2019-09-24T01:34:35.707Z</common:created-date>
+                    <common:last-modified-date>2019-09-24T01:35:23.948Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7749-8191</common:uri>
+                            <common:path>0000-0001-7749-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Roger Reeves</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Physical and Chemical Sciences</common:department-name>
+                    <common:organization>
+                        <common:name>University of Canterbury</common:name>
+                        <common:address>
+                            <common:city>Christchurch</common:city>
+                            <common:region>Canterbury</common:region>
+                            <common:country>NZ</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-7749-8191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7749-8191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7749-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7749-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7749-8191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7749-8191/research-resources"/>
+        <activities:services path="/0000-0001-7749-8191/services"/>
+        <activities:works path="/0000-0001-7749-8191/works">
+            <common:last-modified-date>2019-10-01T15:46:26.020Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-10-01T15:46:26.020Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.5116719</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.5116719</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1063/1.5116719</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62428774" path="/0000-0001-7749-8191/work/62428774" visibility="public" display-index="0">
+                    <common:created-date>2019-10-01T15:46:26.020Z</common:created-date>
+                    <common:last-modified-date>2019-10-01T15:46:26.020Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical and electronic properties of high quality Sb-doped SnO2 thin films grown by mist chemical vapor deposition</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.5116719</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.5116719</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1063/1.5116719</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1063/1.5116719</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>10</common:month>
+                        <common:day>07</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Applied Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-27T01:09:56.604Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/LED.2019.2937494</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/led.2019.2937494</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/LED.2019.2937494</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62165200" path="/0000-0001-7749-8191/work/62165200" visibility="public" display-index="0">
+                    <common:created-date>2019-09-25T20:20:41.447Z</common:created-date>
+                    <common:last-modified-date>2019-09-27T01:09:56.604Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High-Temperature $\beta$ -Ga2O3 Schottky Diodes and UVC Photodetectors Using RuOx Contacts</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/LED.2019.2937494</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/led.2019.2937494</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/LED.2019.2937494</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109/LED.2019.2937494</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Electron Device Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-12T14:43:17.002Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.5099126</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.5099126</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1063/1.5099126</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58410930" path="/0000-0001-7749-8191/work/58410930" visibility="public" display-index="0">
+                    <common:created-date>2019-06-12T14:43:17.002Z</common:created-date>
+                    <common:last-modified-date>2019-06-12T14:43:17.002Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High-temperature (350 °C) oxidized iridium Schottky contacts on β-Ga2O3</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.5099126</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.5099126</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1063/1.5099126</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1063/1.5099126</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Applied Physics Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T04:24:38.735Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/LED.2019.2891304</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/led.2019.2891304</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/LED.2019.2891304</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55979456" path="/0000-0001-7749-8191/work/55979456" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T04:24:38.735Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T04:24:38.735Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Oxidized Metal Schottky Contacts on (010) &lt;inline-formula&gt; &lt;tex-math notation="LaTeX"&gt;$\beta$ &lt;/tex-math&gt; &lt;/inline-formula&gt;-Ga2O3</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/LED.2019.2891304</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/led.2019.2891304</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/LED.2019.2891304</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109/LED.2019.2891304</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Electron Device Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T04:24:38.581Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.5054355</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.5054355</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1063/1.5054355</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55979455" path="/0000-0001-7749-8191/work/55979455" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T04:24:38.581Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T04:24:38.581Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Size-controlled, high optical quality ZnO nanowires grown using colloidal Au nanoparticles and ultra-small cluster catalysts</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.5054355</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.5054355</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1063/1.5054355</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1063/1.5054355</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>APL Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T04:24:38.852Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.5079423</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.5079423</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1063/1.5079423</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55979457" path="/0000-0001-7749-8191/work/55979457" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T04:24:38.852Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T04:24:38.852Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Direct comparison of plain and oxidized metal Schottky contacts on β-Ga2O3</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.5079423</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.5079423</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1063/1.5079423</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1063/1.5079423</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                        <common:day>21</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Applied Physics Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T12:11:08.374Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1039/C9CP03040A</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1039/c9cp03040a</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1039/C9CP03040A</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60225206" path="/0000-0001-7749-8191/work/60225206" visibility="public" display-index="0">
+                    <common:created-date>2019-08-05T13:24:57.493Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T12:11:08.374Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effect of covalently bonded aryl layers on the band bending and electron density of SnO2 surfaces probed by synchrotron X-ray photoelectron spectroscopy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1039/C9CP03040A</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1039/c9cp03040a</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1039/C9CP03040A</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1039/C9CP03040A</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physical Chemistry Chemical Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

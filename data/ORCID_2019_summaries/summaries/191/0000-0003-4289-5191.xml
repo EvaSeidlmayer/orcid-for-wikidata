@@ -1,0 +1,2600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-4289-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-4289-5191</common:uri>
+        <common:path>0000-0003-4289-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2018-01-10T13:37:03.144Z</history:submission-date>
+        <common:last-modified-date>2019-09-18T11:28:23.666Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-4289-5191/person">
+        <person:name visibility="public" path="0000-0003-4289-5191">
+            <common:created-date>2018-01-10T13:37:03.144Z</common:created-date>
+            <common:last-modified-date>2018-01-10T13:37:03.367Z</common:last-modified-date>
+            <personal-details:given-names>Minna</personal-details:given-names>
+            <personal-details:family-name>Santaoja</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-4289-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-4289-5191/researcher-urls"/>
+        <email:emails path="/0000-0003-4289-5191/email"/>
+        <address:addresses path="/0000-0003-4289-5191/address"/>
+        <keyword:keywords path="/0000-0003-4289-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-4289-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-4289-5191/activities">
+        <common:last-modified-date>2019-09-18T11:28:23.891Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-4289-5191/distinctions"/>
+        <activities:educations path="/0000-0003-4289-5191/educations">
+            <common:last-modified-date>2018-03-05T10:28:07.768Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-03-05T10:28:07.768Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5474275" display-index="0" path="/0000-0003-4289-5191/education/5474275" visibility="public">
+                    <common:created-date>2018-03-05T10:28:07.768Z</common:created-date>
+                    <common:last-modified-date>2018-03-05T10:28:07.768Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4289-5191</common:uri>
+                            <common:path>0000-0003-4289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Minna Santaoja</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Management</common:department-name>
+                    <common:role-title>PhD, Doctor in Administrative Sciences</common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>10</common:month>
+                        <common:day>25</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Tampere</common:name>
+                        <common:address>
+                            <common:city>Tampere</common:city>
+                            <common:region>Pirkanmaa</common:region>
+                            <common:country>FI</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.5509.9</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-4289-5191/employments">
+            <common:last-modified-date>2018-03-05T10:30:03.691Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-03-05T10:30:03.691Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5474287" display-index="0" path="/0000-0003-4289-5191/employment/5474287" visibility="public">
+                    <common:created-date>2018-03-05T10:30:03.691Z</common:created-date>
+                    <common:last-modified-date>2018-03-05T10:30:03.691Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4289-5191</common:uri>
+                            <common:path>0000-0003-4289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Minna Santaoja</common:source-name>
+                    </common:source>
+                    <common:department-name>Turku School of Economics, Finland Futures Research Centre</common:department-name>
+                    <common:role-title>Postdoctoral researcher</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Turku Institute of Advanced Studies</common:name>
+                        <common:address>
+                            <common:city>Turku</common:city>
+                            <common:country>FI</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-4289-5191/fundings"/>
+        <activities:invited-positions path="/0000-0003-4289-5191/invited-positions"/>
+        <activities:memberships path="/0000-0003-4289-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-4289-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-4289-5191/qualifications"/>
+        <activities:research-resources path="/0000-0003-4289-5191/research-resources"/>
+        <activities:services path="/0000-0003-4289-5191/services"/>
+        <activities:works path="/0000-0003-4289-5191/works">
+            <common:last-modified-date>2019-09-18T11:28:23.891Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:47:06.176Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0d14876d-d085-4e1e-8b94-e1d9ca2faf66</common:external-id-value>
+                        <common:external-id-normalized transient="true">0d14876d-d085-4e1e-8b94-e1d9ca2faf66</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907666" path="/0000-0003-4289-5191/work/40907666" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:47:05.389Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:47:06.176Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>10 vuotta yhtä ympäristöä. Kaisu Anttonen: Kaupungin ympäristötyö etenee talouden ehdoilla</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0d14876d-d085-4e1e-8b94-e1d9ca2faf66</common:external-id-value>
+                            <common:external-id-normalized transient="true">0d14876d-d085-4e1e-8b94-e1d9ca2faf66</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.sll.fi/pirkanmaa/paikallisyhdistykset/tampere/tiedotus/jasenlehti/Tampereenluonto01_2013.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tampereen luonto</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-14T12:12:52.620Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.30663/ay.74257</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.30663/ay.74257</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>2305e856-e4a1-451e-9fb4-f4c53d4f0e9c</common:external-id-value>
+                        <common:external-id-normalized transient="true">2305e856-e4a1-451e-9fb4-f4c53d4f0e9c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54070018" path="/0000-0003-4289-5191/work/54070018" visibility="public" display-index="0">
+                    <common:created-date>2019-02-14T12:12:51.603Z</common:created-date>
+                    <common:last-modified-date>2019-02-14T12:12:52.620Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Allergioista uusia näkökulmia ihmisen ja muun luonnon keskinäisriippuvuuteen. Epifyytti.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.30663/ay.74257</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.30663/ay.74257</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>2305e856-e4a1-451e-9fb4-f4c53d4f0e9c</common:external-id-value>
+                            <common:external-id-normalized transient="true">2305e856-e4a1-451e-9fb4-f4c53d4f0e9c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T14:56:48.375Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>e44f1275-b7db-41f6-b2e5-b89680dda05d</common:external-id-value>
+                        <common:external-id-normalized transient="true">e44f1275-b7db-41f6-b2e5-b89680dda05d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40874254" path="/0000-0003-4289-5191/work/40874254" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T14:56:47.228Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T14:56:48.375Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Alue ja Ympäristö -lehti, Kokeileva ympäristöpolitiikka -teemanumero 2/2016</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>e44f1275-b7db-41f6-b2e5-b89680dda05d</common:external-id-value>
+                            <common:external-id-normalized transient="true">e44f1275-b7db-41f6-b2e5-b89680dda05d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/issue/view/4259</common:url>
+                    <work:type>edited-book</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-13T07:24:23.481Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0739456X18817089</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0739456x18817089</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>98285b2c-b911-43c1-8dda-e0da242574fe</common:external-id-value>
+                        <common:external-id-normalized transient="true">98285b2c-b911-43c1-8dda-e0da242574fe</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51734094" path="/0000-0003-4289-5191/work/51734094" visibility="public" display-index="0">
+                    <common:created-date>2018-12-17T12:53:45.898Z</common:created-date>
+                    <common:last-modified-date>2018-12-17T12:53:46.960Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Building Citizens’ Trust in Urban Infill: A Dynamic Approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0739456X18817089</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0739456x18817089</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>98285b2c-b911-43c1-8dda-e0da242574fe</common:external-id-value>
+                            <common:external-id-normalized transient="true">98285b2c-b911-43c1-8dda-e0da242574fe</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Journal of Planning Education and Research</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="56407796" path="/0000-0003-4289-5191/work/56407796" visibility="public" display-index="0">
+                    <common:created-date>2019-04-13T07:24:23.481Z</common:created-date>
+                    <common:last-modified-date>2019-04-13T07:24:23.481Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Building Citizens’ Trust in Urban Infill: A Dynamic Approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0739456X18817089</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0739456x18817089</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1177/0739456X18817089</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1177/0739456X18817089</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>13</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Planning Education and Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:23:11.989Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>30657e3c-ba1a-4301-8969-f982b2fc2dbd</common:external-id-value>
+                        <common:external-id-normalized transient="true">30657e3c-ba1a-4301-8969-f982b2fc2dbd</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875558" path="/0000-0003-4289-5191/work/40875558" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:23:11.137Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:23:11.989Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ekokumppanuus - mitä uutta Tampereelta? Ympäristökansalaisuuden näkökulma.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>30657e3c-ba1a-4301-8969-f982b2fc2dbd</common:external-id-value>
+                            <common:external-id-normalized transient="true">30657e3c-ba1a-4301-8969-f982b2fc2dbd</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Kunnallistieteellinen Aikakauskirja</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:42:07.011Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>a02c8ecb-b566-41e9-9150-9ec440b5cfa3</common:external-id-value>
+                        <common:external-id-normalized transient="true">a02c8ecb-b566-41e9-9150-9ec440b5cfa3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907622" path="/0000-0003-4289-5191/work/40907622" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:42:05.853Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:42:07.011Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ensin hoidellaan herrat, sitten alipäälliköt. Koijärven veteraani Terttu Laurila luottaa yhteistyön voimaan</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>a02c8ecb-b566-41e9-9150-9ec440b5cfa3</common:external-id-value>
+                            <common:external-id-normalized transient="true">a02c8ecb-b566-41e9-9150-9ec440b5cfa3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.sll.fi/pirkanmaa/paikallisyhdistykset/tampere/tiedotus/jasenlehti/TL1_2014.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tampereen luonto</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:35:35.102Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>b1a92662-269e-4d60-ac93-e5e1bc4f3923</common:external-id-value>
+                        <common:external-id-normalized transient="true">b1a92662-269e-4d60-ac93-e5e1bc4f3923</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907014" path="/0000-0003-4289-5191/work/40907014" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:35:33.984Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:35:35.102Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Eteläpuiston Visiotyö</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>b1a92662-269e-4d60-ac93-e5e1bc4f3923</common:external-id-value>
+                            <common:external-id-normalized transient="true">b1a92662-269e-4d60-ac93-e5e1bc4f3923</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>report</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T14:35:54.033Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>34462e3d-da5d-4a55-a90c-2919c9cf43e5</common:external-id-value>
+                        <common:external-id-normalized transient="true">34462e3d-da5d-4a55-a90c-2919c9cf43e5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40873412" path="/0000-0003-4289-5191/work/40873412" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T14:35:52.683Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T14:35:54.033Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>For the sake of the lake: multi-signification and improvisation in the practices of two lake restoration projects in Finland.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>34462e3d-da5d-4a55-a90c-2919c9cf43e5</common:external-id-value>
+                            <common:external-id-normalized transient="true">34462e3d-da5d-4a55-a90c-2919c9cf43e5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Local Environment</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-17T06:39:29.759Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>c99917f6-8223-4305-afe0-31d15a2eb2e0</common:external-id-value>
+                        <common:external-id-normalized transient="true">c99917f6-8223-4305-afe0-31d15a2eb2e0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57513859" path="/0000-0003-4289-5191/work/57513859" visibility="public" display-index="0">
+                    <common:created-date>2019-05-17T06:39:28.818Z</common:created-date>
+                    <common:last-modified-date>2019-05-17T06:39:29.759Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Futures studies - discipline of hope?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>c99917f6-8223-4305-afe0-31d15a2eb2e0</common:external-id-value>
+                            <common:external-id-normalized transient="true">c99917f6-8223-4305-afe0-31d15a2eb2e0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://ffrc.wordpress.com/2019/03/27/futures-studies-discipline-of-hope/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tulevaisuuden tutkimuskeskus, blogi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:26:19.647Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>a97bb5da-c245-415c-9e5a-0564bbc70a6d</common:external-id-value>
+                        <common:external-id-normalized transient="true">a97bb5da-c245-415c-9e5a-0564bbc70a6d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906773" path="/0000-0003-4289-5191/work/40906773" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:26:18.569Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:26:19.647Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Huomio inhimillisiin tekijöihin datan jakamisessa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>a97bb5da-c245-415c-9e5a-0564bbc70a6d</common:external-id-value>
+                            <common:external-id-normalized transient="true">a97bb5da-c245-415c-9e5a-0564bbc70a6d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ymparisto.fi/fi-FI/Envibase/Avauksiablogi/Huomio_inhimillisiin_tekijoihin_datan_ja(39766)</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Avauksia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T07:40:56.677Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-value>
+                        <common:external-id-normalized transient="true">cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49371794" path="/0000-0003-4289-5191/work/49371794" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T07:40:55.484Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T07:40:56.635Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hyönteissyönnin etiikka, ekologia ja estetiikka</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-value>
+                            <common:external-id-normalized transient="true">cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://netn.fi/node/7346</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>niin &amp; näin</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="49371793" path="/0000-0003-4289-5191/work/49371793" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T07:40:55.619Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T07:40:56.623Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hyönteissyönnin etiikka, ekologia ja estetiikka</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-value>
+                            <common:external-id-normalized transient="true">cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://netn.fi/node/7346</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>niin &amp; näin</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="49371795" path="/0000-0003-4289-5191/work/49371795" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T07:40:55.798Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T07:40:56.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hyönteissyönnin etiikka, ekologia ja estetiikka</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-value>
+                            <common:external-id-normalized transient="true">cdb5bf3e-5036-491c-a5d2-ee5acd0a15b9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://netn.fi/node/7346</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>niin &amp; näin</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T07:52:58.826Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>016f2c88-94b2-4535-a2f6-814bd4f1d01b</common:external-id-value>
+                        <common:external-id-normalized transient="true">016f2c88-94b2-4535-a2f6-814bd4f1d01b</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.30663/ay.69980</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.30663/ay.69980</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49372575" path="/0000-0003-4289-5191/work/49372575" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T07:52:58.190Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T07:52:58.826Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ilmastoahdistuksesta toimintaan – mahdollisten tulevaisuuksien jäljillä. Arvio Hanna Nikkasen ym. kirjasta Hyvän sään aikana sekä Panu Pihkalan kirjasta Päin helvettiä? Ympäristöahdistus ja toivo.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.30663/ay.69980</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.30663/ay.69980</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>016f2c88-94b2-4535-a2f6-814bd4f1d01b</common:external-id-value>
+                            <common:external-id-normalized transient="true">016f2c88-94b2-4535-a2f6-814bd4f1d01b</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/article/view/69980</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-15T07:11:01.223Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>1fae22a5-bd43-48bc-a8ea-50a540a3da04</common:external-id-value>
+                        <common:external-id-normalized transient="true">1fae22a5-bd43-48bc-a8ea-50a540a3da04</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54108463" path="/0000-0003-4289-5191/work/54108463" visibility="public" display-index="0">
+                    <common:created-date>2019-02-15T07:11:00.147Z</common:created-date>
+                    <common:last-modified-date>2019-02-15T07:11:01.223Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Imagining city futures across disciplines. Notes from a symposium</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>1fae22a5-bd43-48bc-a8ea-50a540a3da04</common:external-id-value>
+                            <common:external-id-normalized transient="true">1fae22a5-bd43-48bc-a8ea-50a540a3da04</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://ffrc.wordpress.com/2018/11/21/imagining-city-futures/</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:02:31.610Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-952-62-1399-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">9789526213996</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>c7025c20-bf2d-49a6-9211-8ecb707dc483</common:external-id-value>
+                        <common:external-id-normalized transient="true">c7025c20-bf2d-49a6-9211-8ecb707dc483</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40874527" path="/0000-0003-4289-5191/work/40874527" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:02:30.403Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:02:31.610Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interventions: Visualizing environmental change</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-952-62-1399-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">9789526213996</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>c7025c20-bf2d-49a6-9211-8ecb707dc483</common:external-id-value>
+                            <common:external-id-normalized transient="true">c7025c20-bf2d-49a6-9211-8ecb707dc483</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:44:59.745Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>5f321cb3-ad59-49cc-8a99-8de330c15e3f</common:external-id-value>
+                        <common:external-id-normalized transient="true">5f321cb3-ad59-49cc-8a99-8de330c15e3f</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907652" path="/0000-0003-4289-5191/work/40907652" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:44:59.016Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:44:59.745Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kansallinen kaupunkipuisto vihdoin Tampereelle?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>5f321cb3-ad59-49cc-8a99-8de330c15e3f</common:external-id-value>
+                            <common:external-id-normalized transient="true">5f321cb3-ad59-49cc-8a99-8de330c15e3f</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.sll.fi/pirkanmaa/paikallisyhdistykset/tampere/tiedotus/jasenlehti/TL1_2014.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tampereen luonto</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:50:45.364Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>4c5ac8d3-fa16-49c1-a38e-aafde6e61b0c</common:external-id-value>
+                        <common:external-id-normalized transient="true">4c5ac8d3-fa16-49c1-a38e-aafde6e61b0c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907715" path="/0000-0003-4289-5191/work/40907715" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:50:44.297Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:50:45.364Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kansanliike puolustaa vanhaa tavara-asemaa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>4c5ac8d3-fa16-49c1-a38e-aafde6e61b0c</common:external-id-value>
+                            <common:external-id-normalized transient="true">4c5ac8d3-fa16-49c1-a38e-aafde6e61b0c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.sll.fi/pirkanmaa/paikallisyhdistykset/tampere/tiedotus/jasenlehti/Tampereenluonto02_2013.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tampereen luonto</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:29:28.571Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>97a334b7-4122-42dc-b5e2-74bcff230f71</common:external-id-value>
+                        <common:external-id-normalized transient="true">97a334b7-4122-42dc-b5e2-74bcff230f71</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875877" path="/0000-0003-4289-5191/work/40875877" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:29:27.717Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:29:28.571Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Keskustan rajattu merkitys - tapaus Tampereen keskustan liikenneosayleiskaava.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>97a334b7-4122-42dc-b5e2-74bcff230f71</common:external-id-value>
+                            <common:external-id-normalized transient="true">97a334b7-4122-42dc-b5e2-74bcff230f71</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.yss.fi/laine_leino_santaoja.pdf</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Yhdyskuntasuunnittelu</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:06:23.429Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>ef2e2acb-081e-422c-97d7-84c8a455e2f1</common:external-id-value>
+                        <common:external-id-normalized transient="true">ef2e2acb-081e-422c-97d7-84c8a455e2f1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40874806" path="/0000-0003-4289-5191/work/40874806" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:06:22.567Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:06:23.429Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kiehtova toinen. Hyönteisharrastuksen järki ja tunteet</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>ef2e2acb-081e-422c-97d7-84c8a455e2f1</common:external-id-value>
+                            <common:external-id-normalized transient="true">ef2e2acb-081e-422c-97d7-84c8a455e2f1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/article/view/64863</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:47:53.938Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>f85e2287-889f-4bac-b74f-41aef24f75ed</common:external-id-value>
+                        <common:external-id-normalized transient="true">f85e2287-889f-4bac-b74f-41aef24f75ed</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40905390" path="/0000-0003-4289-5191/work/40905390" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:47:53.025Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:47:53.938Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kirjoituskurssilta helpotusta graduntekijän rimakauhuun</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>f85e2287-889f-4bac-b74f-41aef24f75ed</common:external-id-value>
+                            <common:external-id-normalized transient="true">f85e2287-889f-4bac-b74f-41aef24f75ed</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://lehti.yliopistopedagogiikka.fi/2016/12/22/kirjoituskurssilta-helpotusta-graduntekijan-rimakauhuun/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Yliopistopedagogiikka</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:30:52.451Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0332d791-858f-43c2-9ce2-78bc148ae0cd</common:external-id-value>
+                        <common:external-id-normalized transient="true">0332d791-858f-43c2-9ce2-78bc148ae0cd</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40904785" path="/0000-0003-4289-5191/work/40904785" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:30:51.344Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:30:52.451Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kokeillen kohti tuntematonta: dialogi Versuksen tulevaisuudesta</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0332d791-858f-43c2-9ce2-78bc148ae0cd</common:external-id-value>
+                            <common:external-id-normalized transient="true">0332d791-858f-43c2-9ce2-78bc148ae0cd</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ays.fi/versus-foorumi/versus-verkkojulkaisu/pdf/versus_8_7.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Versus</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:41:59.561Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>1399b4f7-2b62-46f9-b96c-a735d6c1af6d</common:external-id-value>
+                        <common:external-id-normalized transient="true">1399b4f7-2b62-46f9-b96c-a735d6c1af6d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40905303" path="/0000-0003-4289-5191/work/40905303" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:41:58.779Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:41:59.561Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kokeiluilla kestävyyteen? Pääkirjoitus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>1399b4f7-2b62-46f9-b96c-a735d6c1af6d</common:external-id-value>
+                            <common:external-id-normalized transient="true">1399b4f7-2b62-46f9-b96c-a735d6c1af6d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/article/view/60675</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:20:55.576Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>daf8368d-3831-483b-b8a1-c96944876ab5</common:external-id-value>
+                        <common:external-id-normalized transient="true">daf8368d-3831-483b-b8a1-c96944876ab5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906651" path="/0000-0003-4289-5191/work/40906651" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:20:54.268Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:20:55.576Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kokemuksellinen tieto ja uudet menetelmät. Versus teemanumero 2/2013</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>daf8368d-3831-483b-b8a1-c96944876ab5</common:external-id-value>
+                            <common:external-id-normalized transient="true">daf8368d-3831-483b-b8a1-c96944876ab5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ays.fi/versus-foorumi/versus-verkkojulkaisu/aiemmat.php</common:url>
+                    <work:type>edited-book</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:52:30.279Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>ffae7431-5a08-492a-a0ae-b5eaafcecddf</common:external-id-value>
+                        <common:external-id-normalized transient="true">ffae7431-5a08-492a-a0ae-b5eaafcecddf</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907781" path="/0000-0003-4289-5191/work/40907781" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:52:29.410Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:52:30.279Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lajintuntemusta on muuallakin kuin museoissa (mielipide)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>ffae7431-5a08-492a-a0ae-b5eaafcecddf</common:external-id-value>
+                            <common:external-id-normalized transient="true">ffae7431-5a08-492a-a0ae-b5eaafcecddf</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.hs.fi/mielipide/art-2000002687631.html</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Helsingin Sanomat</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:31:12.645Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>7d0d168a-87fc-44b3-a338-a83bbb84c5bc</common:external-id-value>
+                        <common:external-id-normalized transient="true">7d0d168a-87fc-44b3-a338-a83bbb84c5bc</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906838" path="/0000-0003-4289-5191/work/40906838" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:31:11.707Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:31:12.645Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lintuharrastajien kekseliäisyys kiehtoo tutkijoita</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>7d0d168a-87fc-44b3-a338-a83bbb84c5bc</common:external-id-value>
+                            <common:external-id-normalized transient="true">7d0d168a-87fc-44b3-a338-a83bbb84c5bc</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Lintuviesti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:33:34.771Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-0-415-4701-48</common:external-id-value>
+                        <common:external-id-normalized transient="true">9780415470148</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>1901f75e-6a77-4e56-8d79-bd272aedb630</common:external-id-value>
+                        <common:external-id-normalized transient="true">1901f75e-6a77-4e56-8d79-bd272aedb630</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40876221" path="/0000-0003-4289-5191/work/40876221" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:33:33.663Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:33:34.771Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Looking for a place to anchor: Confusing thoughts along an interdisciplinary dissertation journey.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-0-415-4701-48</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780415470148</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>1901f75e-6a77-4e56-8d79-bd272aedb630</common:external-id-value>
+                            <common:external-id-normalized transient="true">1901f75e-6a77-4e56-8d79-bd272aedb630</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T11:54:28.673Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-value>
+                        <common:external-id-normalized transient="true">8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49386122" path="/0000-0003-4289-5191/work/49386122" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T11:54:27.631Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:54:28.628Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luonnonhoitajuutta lapio kädessä</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-value>
+                            <common:external-id-normalized transient="true">8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://terra.journal.fi/issue/view/5302</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Terra: Maantieteellinen Aikakauskirja</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="49386123" path="/0000-0003-4289-5191/work/49386123" visibility="public" display-index="0">
+                    <common:created-date>2018-10-16T11:54:27.769Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:54:28.673Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luonnonhoitajuutta lapio kädessä</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-value>
+                            <common:external-id-normalized transient="true">8f28453a-bbcd-4e2d-b6ba-6b81e14bc5f7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://terra.journal.fi/issue/view/5302</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Terra: Maantieteellinen Aikakauskirja</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T09:05:52.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>b13c944e-13c9-43e2-8228-ab3dee7695ae</common:external-id-value>
+                        <common:external-id-normalized transient="true">b13c944e-13c9-43e2-8228-ab3dee7695ae</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40908406" path="/0000-0003-4289-5191/work/40908406" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T09:05:51.258Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T09:05:52.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luonnonsuojelu edellyttää harrastuneisuutta</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>b13c944e-13c9-43e2-8228-ab3dee7695ae</common:external-id-value>
+                            <common:external-id-normalized transient="true">b13c944e-13c9-43e2-8228-ab3dee7695ae</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.aumanet.fi/TarvasKotiseutulehti/Tarvas22013.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tarvas Kotiseutulehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:56:13.692Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>93506aa9-9c70-470b-acce-6b341deedf93</common:external-id-value>
+                        <common:external-id-normalized transient="true">93506aa9-9c70-470b-acce-6b341deedf93</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40907887" path="/0000-0003-4289-5191/work/40907887" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:56:12.529Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:56:13.692Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luontoharrastajat luonnon tuntijoina</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>93506aa9-9c70-470b-acce-6b341deedf93</common:external-id-value>
+                            <common:external-id-normalized transient="true">93506aa9-9c70-470b-acce-6b341deedf93</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://sateenvarjolla.blogspot.fi/2013/01/luontoharrastajat-luonnon-tuntijoina.html</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Sateen varjolla. Ajatuksia, kokemuksia ja tietoa rakennetusta ympäristöstä ja sen tietopalveluista.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:11:18.980Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>9c52daa5-c4e5-440b-be07-41401c7a3b6d</common:external-id-value>
+                        <common:external-id-normalized transient="true">9c52daa5-c4e5-440b-be07-41401c7a3b6d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875018" path="/0000-0003-4289-5191/work/40875018" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:11:17.893Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:11:18.980Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luontoharrastuksen ja luonnontieteellisen museotoiminnan yhteiset vaiheet - tamperelainen tarkastelu</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>9c52daa5-c4e5-440b-be07-41401c7a3b6d</common:external-id-value>
+                            <common:external-id-normalized transient="true">9c52daa5-c4e5-440b-be07-41401c7a3b6d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.uta.fi/yky/tutkimus/historia/projektit/iehg/Ymparistohistoria/No12014/YFJEH Vol 4 no 1.pdf</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Ympäristöhistoria: Finnish Journal of Environmental History</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:26:02.788Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>e68123d9-4568-424e-96bc-005450f2f871</common:external-id-value>
+                        <common:external-id-normalized transient="true">e68123d9-4568-424e-96bc-005450f2f871</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875612" path="/0000-0003-4289-5191/work/40875612" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:26:01.623Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:26:02.788Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luontoharrastuksen ristiriitainen poliittisuus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>e68123d9-4568-424e-96bc-005450f2f871</common:external-id-value>
+                            <common:external-id-normalized transient="true">e68123d9-4568-424e-96bc-005450f2f871</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.kulutustutkimus.net/nyt/wp-content/uploads/2008/11/kts2008santaoja.pdf</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Kulutustutkimus. Nyt</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-25T10:16:41.887Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0299b49e-ba2e-4d2f-8ccd-e37f5c76004d</common:external-id-value>
+                        <common:external-id-normalized transient="true">0299b49e-ba2e-4d2f-8ccd-e37f5c76004d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40951627" path="/0000-0003-4289-5191/work/40951627" visibility="public" display-index="0">
+                    <common:created-date>2018-01-25T10:16:40.728Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T10:16:41.887Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luovutettu tietoaineisto: FSD2956 Luontoharrastus ja yhdistystoiminta: haastattelut 2002-2011</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0299b49e-ba2e-4d2f-8ccd-e37f5c76004d</common:external-id-value>
+                            <common:external-id-normalized transient="true">0299b49e-ba2e-4d2f-8ccd-e37f5c76004d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://services.fsd.uta.fi/catalogue/FSD2956?tab=summary&amp;study_language=fi</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-25T10:21:54.131Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>2eabc35c-21f0-4849-93b5-c252e0ca230c</common:external-id-value>
+                        <common:external-id-normalized transient="true">2eabc35c-21f0-4849-93b5-c252e0ca230c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40951752" path="/0000-0003-4289-5191/work/40951752" visibility="public" display-index="0">
+                    <common:created-date>2018-01-25T10:21:53.097Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T10:21:54.131Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luovutettu tietoaineisto: FSD2957 Luontoharrastus ja yhdistystoiminta: havaintomuistiot 2006-2011.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>2eabc35c-21f0-4849-93b5-c252e0ca230c</common:external-id-value>
+                            <common:external-id-normalized transient="true">2eabc35c-21f0-4849-93b5-c252e0ca230c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://services.fsd.uta.fi/catalogue/FSD2957?tab=summary&amp;study_language=fi</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-25T10:24:58.293Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>36ccf356-cf08-458e-9cc2-5dcee7de7c4a</common:external-id-value>
+                        <common:external-id-normalized transient="true">36ccf356-cf08-458e-9cc2-5dcee7de7c4a</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40951871" path="/0000-0003-4289-5191/work/40951871" visibility="public" display-index="0">
+                    <common:created-date>2018-01-25T10:24:57.496Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T10:24:58.293Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luovutettu tietoaineisto: FSD3088 Luontoharrastus ja yhdistystoiminta: lehtiaineistot 1972-2011.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>36ccf356-cf08-458e-9cc2-5dcee7de7c4a</common:external-id-value>
+                            <common:external-id-normalized transient="true">36ccf356-cf08-458e-9cc2-5dcee7de7c4a</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://services.fsd.uta.fi/catalogue/FSD3088?tab=summary&amp;study_language=fi</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-17T09:06:02.709Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>6efff00f-ab92-4e22-8026-31b329a22456</common:external-id-value>
+                        <common:external-id-normalized transient="true">6efff00f-ab92-4e22-8026-31b329a22456</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49429544" path="/0000-0003-4289-5191/work/49429544" visibility="public" display-index="0">
+                    <common:created-date>2018-10-17T09:06:01.587Z</common:created-date>
+                    <common:last-modified-date>2018-10-17T09:06:02.709Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Luovutimmeko elämän merkityksen vallan vaihtokauppana? Arvio Yuval Noah Hararin kirjasta "Homo deus: Huomisen lyhyt historia".</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>6efff00f-ab92-4e22-8026-31b329a22456</common:external-id-value>
+                            <common:external-id-normalized transient="true">6efff00f-ab92-4e22-8026-31b329a22456</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.doria.fi/handle/10024/7307</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Futura</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-17T08:48:46.445Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>831e40c3-7786-493e-be7f-380537022471</common:external-id-value>
+                        <common:external-id-normalized transient="true">831e40c3-7786-493e-be7f-380537022471</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49427555" path="/0000-0003-4289-5191/work/49427555" visibility="public" display-index="0">
+                    <common:created-date>2018-10-17T08:48:45.424Z</common:created-date>
+                    <common:last-modified-date>2018-10-17T08:48:46.445Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Minä väitän: Miesten maailman luoma ympäristökriisi kaipaa feminististä korjausliikettä</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>831e40c3-7786-493e-be7f-380537022471</common:external-id-value>
+                            <common:external-id-normalized transient="true">831e40c3-7786-493e-be7f-380537022471</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.nessling.fi/blogi/mina-vaitan-miesten-maailman-luoma-ymparistokriisi-kaipaa-feministista-korjausliiketta/</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:49:40.752Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>eaebdd5f-49b2-413d-ba3b-01f102a3a3e4</common:external-id-value>
+                        <common:external-id-normalized transient="true">eaebdd5f-49b2-413d-ba3b-01f102a3a3e4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40905409" path="/0000-0003-4289-5191/work/40905409" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:49:39.944Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:49:40.752Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Monipuolinen johdatus visuaalisiin menetelmiin yhteiskunta- ja kulttuuritieteissä</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>eaebdd5f-49b2-413d-ba3b-01f102a3a3e4</common:external-id-value>
+                            <common:external-id-normalized transient="true">eaebdd5f-49b2-413d-ba3b-01f102a3a3e4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://agricola.utu.fi/julkaisut/kirja-arvostelut/index.php?id=3905</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Agricolan kirja-arvostelut</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-17T08:59:10.940Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>bfe5f9a9-5740-4278-b7e2-724652c10c91</common:external-id-value>
+                        <common:external-id-normalized transient="true">bfe5f9a9-5740-4278-b7e2-724652c10c91</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49429056" path="/0000-0003-4289-5191/work/49429056" visibility="public" display-index="0">
+                    <common:created-date>2018-10-17T08:59:10.239Z</common:created-date>
+                    <common:last-modified-date>2018-10-17T08:59:10.940Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Muistiinmerkintöjä residenssiviikolta Villa Tammekannista 3.-8.9.2018</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>bfe5f9a9-5740-4278-b7e2-724652c10c91</common:external-id-value>
+                            <common:external-id-normalized transient="true">bfe5f9a9-5740-4278-b7e2-724652c10c91</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.utu.fi/fi/yksikot/granokeskus/tilat/kayttajakokemuksia/Sivut/home.aspx</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:19:38.629Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>b5fdfab7-0963-4d1e-b42b-d753b6aa84bc</common:external-id-value>
+                        <common:external-id-normalized transient="true">b5fdfab7-0963-4d1e-b42b-d753b6aa84bc</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875440" path="/0000-0003-4289-5191/work/40875440" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:19:37.499Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:19:38.629Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Naiset luontoharrastajina</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>b5fdfab7-0963-4d1e-b42b-d753b6aa84bc</common:external-id-value>
+                            <common:external-id-normalized transient="true">b5fdfab7-0963-4d1e-b42b-d753b6aa84bc</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-13T07:24:23.637Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.30663/ay.75026</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.30663/ay.75026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>37b0cbb0-46c8-47a9-b822-f0145be2cde3</common:external-id-value>
+                        <common:external-id-normalized transient="true">37b0cbb0-46c8-47a9-b822-f0145be2cde3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54229051" path="/0000-0003-4289-5191/work/54229051" visibility="public" display-index="0">
+                    <common:created-date>2019-02-18T12:57:39.573Z</common:created-date>
+                    <common:last-modified-date>2019-02-18T12:57:40.667Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Normipaikka, normiaika. Miten ympäristöorientoituneiden tutkijoiden lounasvalinnat muodostuvat?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.30663/ay.75026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.30663/ay.75026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>37b0cbb0-46c8-47a9-b822-f0145be2cde3</common:external-id-value>
+                            <common:external-id-normalized transient="true">37b0cbb0-46c8-47a9-b822-f0145be2cde3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/article/view/75026</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="56407797" path="/0000-0003-4289-5191/work/56407797" visibility="public" display-index="0">
+                    <common:created-date>2019-04-13T07:24:23.637Z</common:created-date>
+                    <common:last-modified-date>2019-04-13T07:24:23.637Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Normipaikka, normiaika. Miten ympäristöorientoituneiden tutkijoiden lounasvalinnat muodostuvat?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.30663/ay.75026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.30663/ay.75026</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.30663/ay.75026</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.30663/ay.75026</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Alue ja Ympäristö</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T10:19:16.878Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>cfcabf96-e63f-45aa-b9ff-40995572b43c</common:external-id-value>
+                        <common:external-id-normalized transient="true">cfcabf96-e63f-45aa-b9ff-40995572b43c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61236972" path="/0000-0003-4289-5191/work/61236972" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T10:19:15.763Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T10:19:16.878Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ohjauksesta eväitä korkeakouluopiskelijoiden ympäristöahdistukseen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>cfcabf96-e63f-45aa-b9ff-40995572b43c</common:external-id-value>
+                            <common:external-id-normalized transient="true">cfcabf96-e63f-45aa-b9ff-40995572b43c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://lehti.yliopistopedagogiikka.fi/2019/07/04/ohjauksesta-evaita/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Yliopistopedagogiikka</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:38:51.543Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-952-60-6692-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">9789526066929</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>c3d7ca84-7aaa-4e9c-98a8-d51e529cd6e3</common:external-id-value>
+                        <common:external-id-normalized transient="true">c3d7ca84-7aaa-4e9c-98a8-d51e529cd6e3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40905142" path="/0000-0003-4289-5191/work/40905142" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:38:50.421Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:38:51.543Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Orchestrating sustainable urban development: Final report of the SASUI project</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-952-60-6692-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">9789526066929</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>c3d7ca84-7aaa-4e9c-98a8-d51e529cd6e3</common:external-id-value>
+                            <common:external-id-normalized transient="true">c3d7ca84-7aaa-4e9c-98a8-d51e529cd6e3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aaltodoc.aalto.fi/handle/123456789/19841</common:url>
+                    <work:type>book</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:09:16.884Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>627d703c-41e2-45dc-ab15-88375ba4ae72</common:external-id-value>
+                        <common:external-id-normalized transient="true">627d703c-41e2-45dc-ab15-88375ba4ae72</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906369" path="/0000-0003-4289-5191/work/40906369" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:09:16.100Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:09:16.884Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Paneeli pohti maantieteen tulevaisuutta</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>627d703c-41e2-45dc-ab15-88375ba4ae72</common:external-id-value>
+                            <common:external-id-normalized transient="true">627d703c-41e2-45dc-ab15-88375ba4ae72</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Terra: Maantieteellinen Aikakauskirja</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T14:43:30.782Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>92e40091-9327-4bf1-b7e6-b9a52266a449</common:external-id-value>
+                        <common:external-id-normalized transient="true">92e40091-9327-4bf1-b7e6-b9a52266a449</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-80-87197-28-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">9788087197288</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40873646" path="/0000-0003-4289-5191/work/40873646" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T14:43:29.592Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T14:43:30.782Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Potentials of volunteer involvement in conservation site management. Example from Ahtialanjärvi lake in Finland.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-80-87197-28-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">9788087197288</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>92e40091-9327-4bf1-b7e6-b9a52266a449</common:external-id-value>
+                            <common:external-id-normalized transient="true">92e40091-9327-4bf1-b7e6-b9a52266a449</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book-chapter</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:59:17.695Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-951-44-9215-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">9789514492150</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>5db6f78b-a6f2-4739-8782-995835d7fddd</common:external-id-value>
+                        <common:external-id-normalized transient="true">5db6f78b-a6f2-4739-8782-995835d7fddd</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40908231" path="/0000-0003-4289-5191/work/40908231" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:59:16.904Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:59:17.695Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rakkaudesta luontoon: Luontoharrastajat luonnonsuojelun toimijoina</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-951-44-9215-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">9789514492150</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>5db6f78b-a6f2-4739-8782-995835d7fddd</common:external-id-value>
+                            <common:external-id-normalized transient="true">5db6f78b-a6f2-4739-8782-995835d7fddd</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://tampub.uta.fi/handle/10024/94423</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:12:15.132Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>e9eb73dc-9ed1-4558-8cec-33f8f41cbb37</common:external-id-value>
+                        <common:external-id-normalized transient="true">e9eb73dc-9ed1-4558-8cec-33f8f41cbb37</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906532" path="/0000-0003-4289-5191/work/40906532" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:12:14.361Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:12:15.132Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rakkaudesta luontoon: luontoharrastajat luonnonsuojelun toimijoina. Väitöstilaisuuden lectio praecursoria</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>e9eb73dc-9ed1-4558-8cec-33f8f41cbb37</common:external-id-value>
+                            <common:external-id-normalized transient="true">e9eb73dc-9ed1-4558-8cec-33f8f41cbb37</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://aluejaymparisto.journal.fi/article/view/64791</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Alue ja Ympäristö -lehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T14:28:56.803Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>f230da3b-e11c-45b0-9b91-2637f9a59ff5</common:external-id-value>
+                        <common:external-id-normalized transient="true">f230da3b-e11c-45b0-9b91-2637f9a59ff5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40872582" path="/0000-0003-4289-5191/work/40872582" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T14:28:55.672Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T14:28:56.803Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Researchers as knowledge brokers: translating knowledge or co-producing legitimacy? An urban infill case from Finland.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>f230da3b-e11c-45b0-9b91-2637f9a59ff5</common:external-id-value>
+                            <common:external-id-normalized transient="true">f230da3b-e11c-45b0-9b91-2637f9a59ff5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.tandfonline.com/doi/full/10.1080/13563475.2017.1345301</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>International Planning Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:33:54.071Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>5c5ab2ad-96b4-442f-a991-677491db46a2</common:external-id-value>
+                        <common:external-id-normalized transient="true">5c5ab2ad-96b4-442f-a991-677491db46a2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40904826" path="/0000-0003-4289-5191/work/40904826" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:33:53.155Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:33:54.071Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sapiensin onneton voittokulku</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>5c5ab2ad-96b4-442f-a991-677491db46a2</common:external-id-value>
+                            <common:external-id-normalized transient="true">5c5ab2ad-96b4-442f-a991-677491db46a2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://agricola.utu.fi/julkaisut/kirja-arvostelut/index.php?id=4038</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Agricolan kirja-arvostelut</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-17T06:42:31.077Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>f8916a64-6b6d-4e8b-b19e-efdda160f01c</common:external-id-value>
+                        <common:external-id-normalized transient="true">f8916a64-6b6d-4e8b-b19e-efdda160f01c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57513887" path="/0000-0003-4289-5191/work/57513887" visibility="public" display-index="0">
+                    <common:created-date>2019-05-17T06:42:30.291Z</common:created-date>
+                    <common:last-modified-date>2019-05-17T06:42:31.077Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Signaaleja tulevaisuuden eläinsuhteista</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>f8916a64-6b6d-4e8b-b19e-efdda160f01c</common:external-id-value>
+                            <common:external-id-normalized transient="true">f8916a64-6b6d-4e8b-b19e-efdda160f01c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://ffrc.wordpress.com/2019/05/16/signaaleja-tulevaisuuden-elainsuhteista/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tulevaisuuden tutkimuskeskuksen blogi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-14T13:13:06.209Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-value>
+                        <common:external-id-normalized transient="true">543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54074490" path="/0000-0003-4289-5191/work/54074490" visibility="public" display-index="0">
+                    <common:created-date>2019-02-14T13:13:05.181Z</common:created-date>
+                    <common:last-modified-date>2019-02-14T13:13:06.200Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tarmokkaina kohti vedenpaisumusta. Ärjän festivaali kutsuu pohtimaan tulevaisuuksia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-value>
+                            <common:external-id-normalized transient="true">543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://kaltio.fi/paperilehdesta/tarmokkaina-kohti-vedenpaisumusta/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Kaltio - Pohjoinen kulttuurilehti</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="54074491" path="/0000-0003-4289-5191/work/54074491" visibility="public" display-index="0">
+                    <common:created-date>2019-02-14T13:13:05.202Z</common:created-date>
+                    <common:last-modified-date>2019-02-14T13:13:06.209Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tarmokkaina kohti vedenpaisumusta. Ärjän festivaali kutsuu pohtimaan tulevaisuuksia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-value>
+                            <common:external-id-normalized transient="true">543e4057-f15a-43b5-92db-b2b2e92ba712</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://kaltio.fi/paperilehdesta/tarmokkaina-kohti-vedenpaisumusta/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Kaltio - Pohjoinen kulttuurilehti</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-31T09:49:23.516Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-value>
+                        <common:external-id-normalized transient="true">fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50035297" path="/0000-0003-4289-5191/work/50035297" visibility="public" display-index="0">
+                    <common:created-date>2018-10-31T09:49:22.386Z</common:created-date>
+                    <common:last-modified-date>2018-10-31T09:49:23.494Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Technologies allow participation and learning on nature</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-value>
+                            <common:external-id-normalized transient="true">fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.utu.fi/en/research/research-collegia/tias/Pages/article-minna-santaoja.aspx</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+                <work:work-summary put-code="50035298" path="/0000-0003-4289-5191/work/50035298" visibility="public" display-index="0">
+                    <common:created-date>2018-10-31T09:49:22.491Z</common:created-date>
+                    <common:last-modified-date>2018-10-31T09:49:23.516Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Technologies allow participation and learning on nature</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-value>
+                            <common:external-id-normalized transient="true">fc1009e8-72f7-4a26-b601-8cdd919686c4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.utu.fi/en/research/research-collegia/tias/Pages/article-minna-santaoja.aspx</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-15T07:49:48.501Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>7c6705ca-a5f5-4b36-af4a-9a648193adcf</common:external-id-value>
+                        <common:external-id-normalized transient="true">7c6705ca-a5f5-4b36-af4a-9a648193adcf</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54110199" path="/0000-0003-4289-5191/work/54110199" visibility="public" display-index="0">
+                    <common:created-date>2019-02-15T07:49:47.503Z</common:created-date>
+                    <common:last-modified-date>2019-02-15T07:49:48.501Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Teknologiat luonnon tuntemuksessa - uhka vai mahdollisuus?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>7c6705ca-a5f5-4b36-af4a-9a648193adcf</common:external-id-value>
+                            <common:external-id-normalized transient="true">7c6705ca-a5f5-4b36-af4a-9a648193adcf</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://ffrc.wordpress.com/2018/12/07/teknologiat-luonnon-tuntemuksessa/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Tulevaisuuden tutkimuskeskuksen blogi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-18T11:28:23.891Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3920/978-90-8686-892-6_43</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3920/978-90-8686-892-6_43</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>dcd11818-8feb-46d7-bcc5-0af4dfa921e6</common:external-id-value>
+                        <common:external-id-normalized transient="true">dcd11818-8feb-46d7-bcc5-0af4dfa921e6</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-90-8686-341-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">9789086863419</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61741414" path="/0000-0003-4289-5191/work/61741414" visibility="public" display-index="0">
+                    <common:created-date>2019-09-18T11:27:29.027Z</common:created-date>
+                    <common:last-modified-date>2019-09-18T11:28:23.891Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The missing animal in entomophagy – ethical, ecological and aesthetic considerations on eating insects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-90-8686-341-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">9789086863419</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3920/978-90-8686-892-6_43</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3920/978-90-8686-892-6_43</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>dcd11818-8feb-46d7-bcc5-0af4dfa921e6</common:external-id-value>
+                            <common:external-id-normalized transient="true">dcd11818-8feb-46d7-bcc5-0af4dfa921e6</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-17T09:40:59.070Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>3e307494-2f51-49dc-8825-3f2b21ca8a98</common:external-id-value>
+                        <common:external-id-normalized transient="true">3e307494-2f51-49dc-8825-3f2b21ca8a98</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49432010" path="/0000-0003-4289-5191/work/49432010" visibility="public" display-index="0">
+                    <common:created-date>2018-10-17T09:40:58.084Z</common:created-date>
+                    <common:last-modified-date>2018-10-17T09:40:59.070Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tieteellisen kirjoittamisen saatanallisuudesta</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>3e307494-2f51-49dc-8825-3f2b21ca8a98</common:external-id-value>
+                            <common:external-id-normalized transient="true">3e307494-2f51-49dc-8825-3f2b21ca8a98</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://koneensaatio.fi/tieteellisen-kirjoittamisen-saatanallisuudesta/</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Koneen Säätiön Rohkeus-blogi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T15:15:41.109Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>bdadc7f5-4f32-4584-a001-8335798ef175</common:external-id-value>
+                        <common:external-id-normalized transient="true">bdadc7f5-4f32-4584-a001-8335798ef175</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40875230" path="/0000-0003-4289-5191/work/40875230" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T15:15:40.241Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T15:15:41.109Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tietoa luonnosta - rahasta vai rakkaudesta?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>bdadc7f5-4f32-4584-a001-8335798ef175</common:external-id-value>
+                            <common:external-id-normalized transient="true">bdadc7f5-4f32-4584-a001-8335798ef175</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Kulttuurintutkimus</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:15:21.046Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>f3b0a5bb-4d97-4457-8df7-fcf02f631654</common:external-id-value>
+                        <common:external-id-normalized transient="true">f3b0a5bb-4d97-4457-8df7-fcf02f631654</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906580" path="/0000-0003-4289-5191/work/40906580" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:15:20.150Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:15:21.046Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Uusilla menetelmillä kiinni kokemukselliseen tietoon</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>f3b0a5bb-4d97-4457-8df7-fcf02f631654</common:external-id-value>
+                            <common:external-id-normalized transient="true">f3b0a5bb-4d97-4457-8df7-fcf02f631654</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ays.fi/versus-foorumi/versus-verkkojulkaisu/pdf/versus_4_1.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Versus</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T07:57:29.960Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>afc43d61-71c5-4a30-8782-1d055e583c6f</common:external-id-value>
+                        <common:external-id-normalized transient="true">afc43d61-71c5-4a30-8782-1d055e583c6f</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40905967" path="/0000-0003-4289-5191/work/40905967" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T07:57:28.890Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T07:57:29.960Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Visualisoinnit mielikuvituksen avartajina – irti vastakkainasettelusta täydennysrakentamisessa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>afc43d61-71c5-4a30-8782-1d055e583c6f</common:external-id-value>
+                            <common:external-id-normalized transient="true">afc43d61-71c5-4a30-8782-1d055e583c6f</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ays.fi/versus-foorumi/versus-verkkojulkaisu/pdf/versus_6_5.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Versus</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T09:41:37.123Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>b77eb234-2774-45a2-804b-a477921980c9</common:external-id-value>
+                        <common:external-id-normalized transient="true">b77eb234-2774-45a2-804b-a477921980c9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40909272" path="/0000-0003-4289-5191/work/40909272" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T09:41:35.983Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T09:41:37.123Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Visualizing environmental change. Writing texts for a travelling exhibition.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>b77eb234-2774-45a2-804b-a477921980c9</common:external-id-value>
+                            <common:external-id-normalized transient="true">b77eb234-2774-45a2-804b-a477921980c9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-23T14:48:23.529Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>abd4cd73-8eb6-4100-968e-60775e5be83d</common:external-id-value>
+                        <common:external-id-normalized transient="true">abd4cd73-8eb6-4100-968e-60775e5be83d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40873978" path="/0000-0003-4289-5191/work/40873978" visibility="public" display-index="0">
+                    <common:created-date>2018-01-23T14:48:22.551Z</common:created-date>
+                    <common:last-modified-date>2018-01-23T14:48:23.529Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>”Joku palikka siitä puuttuu” – Luottamuksen rakentuminen täydennysrakentamisen suunnittelussa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>abd4cd73-8eb6-4100-968e-60775e5be83d</common:external-id-value>
+                            <common:external-id-normalized transient="true">abd4cd73-8eb6-4100-968e-60775e5be83d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.yss.fi/journal/joku-palikka-siita-puuttuu-luottamuksen-rakentuminen-taydennysrakentamisen-suunnittelussa/</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Yhdyskuntasuunnittelu</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T08:05:19.673Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>ccc47c16-2318-47ce-9439-e60c96bd7021</common:external-id-value>
+                        <common:external-id-normalized transient="true">ccc47c16-2318-47ce-9439-e60c96bd7021</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40906150" path="/0000-0003-4289-5191/work/40906150" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T08:05:18.402Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T08:05:19.673Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-5JU80HH550RFHRN6</common:uri>
+                            <common:path>APP-5JU80HH550RFHRN6</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Turku</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>”Tää on kuin sikaa säkissä ostais” : tulevaisuuden keskustan suunnittelun haasteet institutionaalisen epäselvyyden tilanteessa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>ccc47c16-2318-47ce-9439-e60c96bd7021</common:external-id-value>
+                            <common:external-id-normalized transient="true">ccc47c16-2318-47ce-9439-e60c96bd7021</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://elektra.helsinki.fi/se/f/0785-5494/34/1/taaonvah.pdf</common:url>
+                    <work:type>other</work:type>
+                    <work:journal-title>Futura</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

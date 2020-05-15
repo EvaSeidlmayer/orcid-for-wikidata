@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1902-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+        <common:path>0000-0002-1902-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>ru</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-06-06T07:26:25.386Z</history:submission-date>
+        <common:last-modified-date>2019-09-20T18:17:35.999Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1902-9191/person">
+        <person:name visibility="public" path="0000-0002-1902-9191">
+            <common:created-date>2019-06-06T07:26:25.386Z</common:created-date>
+            <common:last-modified-date>2019-06-06T07:26:25.606Z</common:last-modified-date>
+            <personal-details:given-names>Лариса</personal-details:given-names>
+            <personal-details:family-name>Шулинова</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1902-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1902-9191/researcher-urls"/>
+        <email:emails path="/0000-0002-1902-9191/email"/>
+        <address:addresses path="/0000-0002-1902-9191/address"/>
+        <keyword:keywords path="/0000-0002-1902-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1902-9191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1902-9191/activities">
+        <common:last-modified-date>2019-09-20T18:17:36.003Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1902-9191/distinctions"/>
+        <activities:educations path="/0000-0002-1902-9191/educations">
+            <common:last-modified-date>2019-06-06T07:32:42.190Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-06-06T07:32:42.190Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="8027453" display-index="1" path="/0000-0002-1902-9191/education/8027453" visibility="public">
+                    <common:created-date>2019-06-06T07:32:42.190Z</common:created-date>
+                    <common:last-modified-date>2019-06-06T07:32:42.190Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <common:department-name>Institute of Philology</common:department-name>
+                    <common:start-date>
+                        <common:year>1984</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1990</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Taras Shevchenko National University of Kyiv</common:name>
+                        <common:address>
+                            <common:city>Kiev</common:city>
+                            <common:country>UA</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.34555.32</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-1902-9191/employments">
+            <common:last-modified-date>2019-06-06T07:31:19.268Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-06-06T07:31:19.268Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8027445" display-index="1" path="/0000-0002-1902-9191/employment/8027445" visibility="public">
+                    <common:created-date>2019-06-06T07:31:19.268Z</common:created-date>
+                    <common:last-modified-date>2019-06-06T07:31:19.268Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <common:department-name>Institute of Philology</common:department-name>
+                    <common:role-title>Phd, assosiate professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1993</common:year>
+                        <common:month>02</common:month>
+                        <common:day>03</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Taras Shevchenko National University of Kyiv</common:name>
+                        <common:address>
+                            <common:city>Kyiv</common:city>
+                            <common:country>UA</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.34555.32</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-1902-9191/fundings"/>
+        <activities:invited-positions path="/0000-0002-1902-9191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1902-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1902-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1902-9191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1902-9191/research-resources"/>
+        <activities:services path="/0000-0002-1902-9191/services"/>
+        <activities:works path="/0000-0002-1902-9191/works">
+            <common:last-modified-date>2019-09-20T18:17:36.003Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-20T18:17:36.003Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.17721/APULTP.2018.37.72-89</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.17721/apultp.2018.37.72-89</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.17721/APULTP.2018.37.72-89</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61888470" path="/0000-0002-1902-9191/work/61888470" visibility="public" display-index="0">
+                    <common:created-date>2019-09-20T18:17:36.003Z</common:created-date>
+                    <common:last-modified-date>2019-09-20T18:17:36.003Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intertextuality in media texts of genre of interview with politicians. Article 2</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.17721/APULTP.2018.37.72-89</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.17721/apultp.2018.37.72-89</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.17721/APULTP.2018.37.72-89</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.17721/APULTP.2018.37.72-89</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Actual issues of Ukrainian linguistics: theory and practice</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:14:06.942Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692246" path="/0000-0002-1902-9191/work/58692246" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:14:06.940Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:14:06.942Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Інтертекстуальність у медійних текстах жанру інтервʼю з політиками. Стаття 2</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика: Збірник наукових праць. Київ: ВПЦ «Київський університет»,  Вип. 37. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:17:29.578Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692253" path="/0000-0002-1902-9191/work/58692253" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:17:29.576Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:17:29.578Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Комунікативний статус коментаря в сучасній лінгвостилістиці. </common:title>
+                        <common:translated-title language-code="hy">The communicative status of the commentary in modern linguistic style.</common:translated-title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Лінгвістика. Лінгвокультурологія. № 12. Ч 1. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:11:47.483Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692147" path="/0000-0002-1902-9191/work/58692147" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:11:47.481Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:11:47.483Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Стилістика української літературної мови: Книга 1: Тести, завдання, вправи: Навчальний посібник. Видання 4-е: доповнене й перероблене. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Київ: ВПЦ "Київський університет"</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:13:54.658Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692177" path="/0000-0002-1902-9191/work/58692177" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:13:54.655Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:13:54.658Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Стилістика української літературної мови: Книга 2: Функціональна діагностика тексту: Навчальний посібник. Видання 4-е: доповнене й перероблене</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Київ: ВПЦ «Київський університет»</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:13:40.517Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692259" path="/0000-0002-1902-9191/work/58692259" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:13:40.515Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:13:40.517Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Інтертекстуальність у медійних текстах жанру інтервʼю з політиками. Стаття 1. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика: Збірник наукових праць.  Вип. 35. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:13:28.903Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692282" path="/0000-0002-1902-9191/work/58692282" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:13:28.901Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:13:28.903Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Прецедентність української медійної рецензії мистецької тематики.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика.  Вип. 32. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:03:22.222Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692271" path="/0000-0002-1902-9191/work/58692271" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:03:22.222Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:03:22.222Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Світоглядні стереотипи в сучасному політичному медійному тексті.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика.  Вип. 33. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:13:12.877Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692298" path="/0000-0002-1902-9191/work/58692298" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:13:12.875Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:13:12.877Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Інтертекстуальність сучасної української медійної рецензії мистецької тематики</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика. Вип. 31. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:12:59.936Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692428" path="/0000-0002-1902-9191/work/58692428" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:12:59.934Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:12:59.936Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Синестеземи в українському медійному тексті мистецької тематики в інтернет-виданнях. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Вісник Київського національного університету імені Тараса Шевченка. Літературознавство. Мовознавство. Фольклористика. Київ: Київський університет. Вип. 1 (25). </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:12:47.314Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692497" path="/0000-0002-1902-9191/work/58692497" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:12:47.312Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:12:47.314Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Синестеземи в українському медійному тексті мистецької тематики неспеціалізованих інтернет-видань. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Актуальні проблеми української лінгвістики: теорія і практика. Вип. 28.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:12:36.910Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692522" path="/0000-0002-1902-9191/work/58692522" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:12:36.908Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:12:36.910Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Синестеземи в українському медійному тексті спеціалізованих інтернет-видань мистецької тематики. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Мовні і концептуальні картини світу. Київ: ВД Дмитра Бураго. Вип. 50. Частина 2. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-20T17:11:00.429Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="58692535" path="/0000-0002-1902-9191/work/58692535" visibility="public" display-index="1">
+                    <common:created-date>2019-06-20T17:11:00.429Z</common:created-date>
+                    <common:last-modified-date>2019-06-20T17:11:00.429Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1902-9191</common:uri>
+                            <common:path>0000-0002-1902-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Лариса Шулинова</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Науковий стиль сучасної української літературної мови: жанрова диференціація</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Університетська україністика в актуальних епістемах сучасного мовознавства / Упорядн.: Л.І.Шевченко, Д.В.Дергач, Д.Ю.Сизонов; за ред. Л.І.Шевченко. Київ: Видавничо-поліграфічний центр «Київський університет». </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

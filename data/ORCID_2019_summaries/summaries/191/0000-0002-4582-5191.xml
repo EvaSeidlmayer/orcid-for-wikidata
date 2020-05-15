@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4582-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+        <common:path>0000-0002-4582-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2018-01-15T10:47:37.947Z</history:submission-date>
+        <common:last-modified-date>2019-09-18T13:08:56.061Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4582-5191/person">
+        <common:last-modified-date>2018-12-04T14:27:26.877Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-4582-5191">
+            <common:created-date>2018-01-15T10:47:37.947Z</common:created-date>
+            <common:last-modified-date>2018-01-15T10:47:38.170Z</common:last-modified-date>
+            <personal-details:given-names>Tobias</personal-details:given-names>
+            <personal-details:family-name>Weinmann</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4582-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4582-5191/researcher-urls">
+            <common:last-modified-date>2018-12-04T14:27:26.877Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1609853" visibility="public" path="/0000-0002-4582-5191/researcher-urls/1609853" display-index="1">
+                <common:created-date>2018-12-04T14:27:26.877Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:27:26.877Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Institute and Clinic for Occupational, Social and Environmental Medicine</researcher-url:url-name>
+                <researcher-url:url>http://www.klinikum.uni-muenchen.de/Institut-und-Poliklinik-fuer-Arbeits-Sozial-und-Umweltmedizin/en/index.html</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0002-4582-5191/email"/>
+        <address:addresses path="/0000-0002-4582-5191/address">
+            <common:last-modified-date>2018-12-04T14:25:28.987Z</common:last-modified-date>
+            <address:address put-code="1126751" visibility="public" path="/0000-0002-4582-5191/address/1126751" display-index="1">
+                <common:created-date>2018-12-04T14:25:28.987Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:25:28.987Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <address:country>DE</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-4582-5191/keywords">
+            <common:last-modified-date>2018-12-04T14:26:26.056Z</common:last-modified-date>
+            <keyword:keyword put-code="1142681" visibility="public" path="/0000-0002-4582-5191/keywords/1142681" display-index="4">
+                <common:created-date>2018-12-04T14:25:49.666Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:26:26.056Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <keyword:content>Epidemiology</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="1142682" visibility="public" path="/0000-0002-4582-5191/keywords/1142682" display-index="3">
+                <common:created-date>2018-12-04T14:26:26.051Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:26:26.051Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <keyword:content>Public Health</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="1142683" visibility="public" path="/0000-0002-4582-5191/keywords/1142683" display-index="2">
+                <common:created-date>2018-12-04T14:26:26.054Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:26:26.054Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <keyword:content>Occupational Medicine</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="1142684" visibility="public" path="/0000-0002-4582-5191/keywords/1142684" display-index="1">
+                <common:created-date>2018-12-04T14:26:26.055Z</common:created-date>
+                <common:last-modified-date>2018-12-04T14:26:26.055Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                        <common:path>0000-0002-4582-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Tobias Weinmann</common:source-name>
+                </common:source>
+                <keyword:content>Environmental Medicine</keyword:content>
+            </keyword:keyword>
+        </keyword:keywords>
+        <external-identifier:external-identifiers path="/0000-0002-4582-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4582-5191/activities">
+        <common:last-modified-date>2019-01-08T11:16:00.021Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4582-5191/distinctions"/>
+        <activities:educations path="/0000-0002-4582-5191/educations">
+            <common:last-modified-date>2018-12-04T14:21:02.322Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-04T14:19:45.009Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6914184" display-index="1" path="/0000-0002-4582-5191/education/6914184" visibility="public">
+                    <common:created-date>2018-12-04T14:19:20.267Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:19:45.009Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <common:role-title>Master of Science (Epidemiology)</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>London School of Hygiene and Tropical Medicine</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4906</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-04T14:21:02.322Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6914197" display-index="1" path="/0000-0002-4582-5191/education/6914197" visibility="public">
+                    <common:created-date>2018-12-04T14:21:02.322Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:21:02.322Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <common:role-title>Diplom-Psychologie</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2009</common:year>
+                        <common:month>02</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Katholische Universität Eichstätt-Ingolstadt</common:name>
+                        <common:address>
+                            <common:city>Eichstatt</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>26541</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-4582-5191/employments">
+            <common:last-modified-date>2018-12-04T14:23:36.299Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-04T14:23:36.299Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6914210" display-index="1" path="/0000-0002-4582-5191/employment/6914210" visibility="public">
+                    <common:created-date>2018-12-04T14:23:36.299Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:23:36.299Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <common:department-name>Institute and Clinic for Occupational, Social and Environmental Medicine</common:department-name>
+                    <common:role-title>Research Fellow</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4582-5191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4582-5191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4582-5191/memberships">
+            <common:last-modified-date>2018-12-04T14:22:12.128Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-04T14:22:12.128Z</common:last-modified-date>
+                <common:external-ids/>
+                <membership:membership-summary put-code="6914206" display-index="1" path="/0000-0002-4582-5191/membership/6914206" visibility="public">
+                    <common:created-date>2018-12-04T14:22:12.128Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:22:12.128Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>Deutsche Gesellshaft für Epidemiologie</common:name>
+                        <common:address>
+                            <common:city>Ulm</common:city>
+                            <common:country>DE</common:country>
+                        </common:address>
+                    </common:organization>
+                </membership:membership-summary>
+            </activities:affiliation-group>
+        </activities:memberships>
+        <activities:peer-reviews path="/0000-0002-4582-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4582-5191/qualifications">
+            <common:last-modified-date>2018-12-04T14:25:05.430Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-04T14:25:05.430Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="6914222" display-index="1" path="/0000-0002-4582-5191/qualification/6914222" visibility="public">
+                    <common:created-date>2018-12-04T14:25:05.430Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:25:05.430Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <common:department-name>Medizinische Fakultät</common:department-name>
+                    <common:role-title>Doctoral thesis</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0002-4582-5191/research-resources"/>
+        <activities:services path="/0000-0002-4582-5191/services"/>
+        <activities:works path="/0000-0002-4582-5191/works">
+            <common:last-modified-date>2019-01-08T11:16:00.021Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:55.425Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1097/ede.0000000000000932</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1097/ede.0000000000000932</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312582" path="/0000-0002-4582-5191/work/51312582" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:55.425Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:55.425Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nonparticipation Selection Bias in the MOBI-Kids Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1097/ede.0000000000000932</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1097/ede.0000000000000932</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1097/EDE.0000000000000932</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Epidemiology (Cambridge, Mass.)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-08T11:16:00.021Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/s12874-018-0652-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/s12874-018-0652-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52362343" path="/0000-0002-4582-5191/work/52362343" visibility="public" display-index="1">
+                    <common:created-date>2019-01-08T11:16:00.021Z</common:created-date>
+                    <common:last-modified-date>2019-01-08T11:16:00.021Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Population-based assessment of health, healthcare utilisation, and specific needs of Syrian migrants in Germany: what is the best sampling method?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/s12874-018-0652-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/s12874-018-0652-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1186/s12874-018-0652-1</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>BMC Medical Research Methodology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:52.810Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/ijerph15091945</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/ijerph15091945</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312579" path="/0000-0002-4582-5191/work/51312579" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:52.810Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:52.810Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Developing an Awareness Campaign to Reduce Second Hand Smoke Among Disadvantaged Families-A Participatory M-Health Approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/ijerph15091945</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/ijerph15091945</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC6164457</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International journal of environmental research and public health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:54.154Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.envres.2018.04.018</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.envres.2018.04.018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312580" path="/0000-0002-4582-5191/work/51312580" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:54.154Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:54.154Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Recall of mobile phone usage and laterality in young people: The multinational Mobi-Expo study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.envres.2018.04.018</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.envres.2018.04.018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.envres.2018.04.018</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:56.789Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/s12889-018-6171-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/s12889-018-6171-5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312583" path="/0000-0002-4582-5191/work/51312583" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:56.789Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:56.789Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Shift work and cognitive impairment in later life - results of a cross-sectional pilot study testing the feasibility of a large-scale epidemiologic investigation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/s12889-018-6171-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/s12889-018-6171-5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC6234599</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>BMC public health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:50.904Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oemed-2016-104086</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oemed-2016-104086</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312578" path="/0000-0002-4582-5191/work/51312578" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:50.904Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:50.904Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Association of household cleaning agents and disinfectants with asthma in young German adults</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oemed-2016-104086</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oemed-2016-104086</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1136/oemed-2016-104086</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Occupational and environmental medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:49.494Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.envint.2017.06.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.envint.2017.06.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312576" path="/0000-0002-4582-5191/work/51312576" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:49.494Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:49.494Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Patterns of cellular phone use among young people in 12 countries: Implications for RF exposure</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.envint.2017.06.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.envint.2017.06.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.envint.2017.06.002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environment international</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:46.957Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/srep17714</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/srep17714</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312574" path="/0000-0002-4582-5191/work/51312574" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:46.957Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:46.957Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Plasminogen activator inhibitor-1 and type 2 diabetes: a systematic review and meta-analysis of observational studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/srep17714</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/srep17714</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4728395</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Scientific reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:48.212Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/s12889-015-2555-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/s12889-015-2555-y</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312575" path="/0000-0002-4582-5191/work/51312575" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:48.212Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:48.212Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Establishing a birth cohort to investigate the course and aetiology of asthma and allergies across three generations - rationale, design, and methods of the ACROSSOLAR study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/s12889-015-2555-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/s12889-015-2555-y</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4670515</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>BMC public health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:44.801Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/1758-5996-7-S1-A119</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/1758-5996-7-s1-a119</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312570" path="/0000-0002-4582-5191/work/51312570" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:44.801Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:44.801Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The relationship between plasminogen activator inhibitor-1 and type 2 diabetes: a systematic review and meta-analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/1758-5996-7-S1-A119</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/1758-5996-7-s1-a119</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4653508</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Diabetology &amp; metabolic syndrome</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:45.973Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/fpubh.2014.00124</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/fpubh.2014.00124</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312573" path="/0000-0002-4582-5191/work/51312573" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:45.973Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:45.973Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The MOBI-Kids Study Protocol: Challenges in Assessing Childhood and Adolescent Exposure to Electromagnetic Fields from Wireless Telecommunication Technologies and Possible Association with Brain Tumor Risk</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/fpubh.2014.00124</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/fpubh.2014.00124</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4172002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in public health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:41.676Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51312568" path="/0000-0002-4582-5191/work/51312568" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:41.676Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:41.676Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Are primary school students exposed to higher noise levels than secondary school students in Germany?</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>http://europepmc.org/abstract/MED/23279793</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>The international journal of occupational and environmental medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:43.072Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1055/s-0032-1331777</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1055/s-0032-1331777</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312569" path="/0000-0002-4582-5191/work/51312569" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:43.072Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:43.072Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>[Health effects of aircraft noise: current evidence]</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1055/s-0032-1331777</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1055/s-0032-1331777</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1055/s-0032-1331777</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gesundheitswesen (Bundesverband der Arzte des Offentlichen Gesundheitsdienstes (Germany))</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:25.600Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00420-011-0679-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00420-011-0679-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312561" path="/0000-0002-4582-5191/work/51312561" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:25.600Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:25.600Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Subjective and objective personal noise exposure and hypertension: an epidemiologic approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00420-011-0679-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00420-011-0679-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s00420-011-0679-7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International archives of occupational and environmental health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:38.047Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00038-012-0404-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00038-012-0404-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312566" path="/0000-0002-4582-5191/work/51312566" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:38.047Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:38.047Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Testing Skype as an interview method in epidemiologic research: response and feasibility</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00038-012-0404-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00038-012-0404-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s00038-012-0404-7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International journal of public health</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-04T14:17:35.758Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1055/s-0031-1285864</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1055/s-0031-1285864</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51312564" path="/0000-0002-4582-5191/work/51312564" visibility="public" display-index="1">
+                    <common:created-date>2018-12-04T14:17:35.758Z</common:created-date>
+                    <common:last-modified-date>2018-12-04T14:17:35.758Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4582-5191</common:uri>
+                            <common:path>0000-0002-4582-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tobias Weinmann</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>[Objective assessment of total noise exposure over 24 hours: a cross-sectional study in Bavaria]</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1055/s-0031-1285864</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1055/s-0031-1285864</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1055/s-0031-1285864</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gesundheitswesen (Bundesverband der Arzte des Offentlichen Gesundheitsdienstes (Germany))</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

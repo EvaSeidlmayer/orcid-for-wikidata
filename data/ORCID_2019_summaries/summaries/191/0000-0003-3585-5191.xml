@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-3585-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+        <common:path>0000-0003-3585-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-10-31T10:34:14.554Z</history:submission-date>
+        <common:last-modified-date>2019-07-17T22:56:46.107Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-3585-5191/person">
+        <person:name visibility="public" path="0000-0003-3585-5191">
+            <common:created-date>2017-10-31T10:34:14.554Z</common:created-date>
+            <common:last-modified-date>2017-10-31T10:34:14.796Z</common:last-modified-date>
+            <personal-details:given-names>Severin</personal-details:given-names>
+            <personal-details:family-name>Sidler</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-3585-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-3585-5191/researcher-urls"/>
+        <email:emails path="/0000-0003-3585-5191/email"/>
+        <address:addresses path="/0000-0003-3585-5191/address"/>
+        <keyword:keywords path="/0000-0003-3585-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-3585-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-3585-5191/activities">
+        <common:last-modified-date>2018-01-08T09:28:52.179Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-3585-5191/distinctions"/>
+        <activities:educations path="/0000-0003-3585-5191/educations"/>
+        <activities:employments path="/0000-0003-3585-5191/employments"/>
+        <activities:fundings path="/0000-0003-3585-5191/fundings"/>
+        <activities:invited-positions path="/0000-0003-3585-5191/invited-positions"/>
+        <activities:memberships path="/0000-0003-3585-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-3585-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-3585-5191/qualifications"/>
+        <activities:research-resources path="/0000-0003-3585-5191/research-resources"/>
+        <activities:services path="/0000-0003-3585-5191/services"/>
+        <activities:works path="/0000-0003-3585-5191/works">
+            <common:last-modified-date>2018-01-08T09:28:52.179Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-01-08T09:28:46.366Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/jeds.2017.2780275</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/jeds.2017.2780275</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40299376" path="/0000-0003-3585-5191/work/40299376" visibility="public" display-index="0">
+                    <common:created-date>2018-01-08T09:28:04.767Z</common:created-date>
+                    <common:last-modified-date>2018-01-08T09:28:46.366Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bidirectional Non-Filamentary RRAM as an Analog Neuromorphic Synapse, Part I: Al/Mo/Pr0.7Ca0.3MnO3 Material Improvements and Device Measurements</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/jeds.2017.2780275</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/jeds.2017.2780275</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2168-6734</common:external-id-value>
+                            <common:external-id-normalized transient="true">2168-6734</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Journal of the Electron Devices Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T13:47:42.151Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/tcsii.2017.2697457</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/tcsii.2017.2697457</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/tcsii.2017.2697457</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38189514" path="/0000-0003-3585-5191/work/38189514" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T13:47:21.120Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T13:47:42.151Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neuromorphic Architecture with 1M Memristive Synapses for Detection of Weakly Correlated Inputs</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/tcsii.2017.2697457</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/tcsii.2017.2697457</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/tcsii.2017.2697457</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>04</common:month>
+                        <common:day>24</common:day>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Circuits and Systems II: Express Briefs</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="38189300" path="/0000-0003-3585-5191/work/38189300" visibility="public" display-index="0">
+                    <common:created-date>2017-10-31T13:30:06.878Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T13:47:42.151Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neuromorphic Architecture with 1M Memristive Synapses for Detection of Weakly Correlated Inputs</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/tcsii.2017.2697457</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/tcsii.2017.2697457</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Circuits and Systems II: Express Briefs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-08T09:28:52.179Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/jeds.2017.2782184</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/jeds.2017.2782184</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40299377" path="/0000-0003-3585-5191/work/40299377" visibility="public" display-index="0">
+                    <common:created-date>2018-01-08T09:28:09.848Z</common:created-date>
+                    <common:last-modified-date>2018-01-08T09:28:52.179Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bidirectional non-filamentary RRAM as an analog neuromorphic synapse, Part II: Impact of Al/Mo/Pr0.7Ca0.3MnO3 device characteristics on neural network training accuracy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/jeds.2017.2782184</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/jeds.2017.2782184</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2168-6734</common:external-id-value>
+                            <common:external-id-normalized transient="true">2168-6734</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Journal of the Electron Devices Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T13:41:23.142Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-54313-0_11</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-54313-0_11</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/978-3-319-54313-0_11</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187575" path="/0000-0003-3585-5191/work/38187575" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T13:41:23.140Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T13:41:23.142Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multilayer Perceptron Algorithm: Impact of Nonideal Conductance and Area-Efficient Peripheral Circuits</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-54313-0_11</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-54313-0_11</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/978-3-319-54313-0_11</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-3-319-54313-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783319543130</common:external-id-normalized>
+                            <common:external-id-url>http://www.worldcat.org/isbn/9783319543130</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/978-3-319-54313-0_11</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neuro-inspired Computing Using Resistive Synaptic Devices</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T14:28:35.935Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/23746149.2016.1259585</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/23746149.2016.1259585</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1080/23746149.2016.1259585</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187573" path="/0000-0003-3585-5191/work/38187573" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T14:28:35.933Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T14:28:35.935Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neuromorphic computing using non-volatile memory</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/23746149.2016.1259585</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/23746149.2016.1259585</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1080/23746149.2016.1259585</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1080/23746149.2016.1259585</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advances in Physics: X</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T12:43:02.913Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-81-322-3703-7_7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-81-322-3703-7_7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187567" path="/0000-0003-3585-5191/work/38187567" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T12:28:41.252Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T12:43:02.913Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nonvolatile Memory Crossbar Arrays for Non-von Neumann Computing</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-81-322-3703-7_7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-81-322-3703-7_7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-81-322-3703-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">9788132237037</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1007/978-81-322-3703-7_7</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advances in Neuromorphic Hardware Exploiting Emerging Nanoscale Devices</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T14:29:02.096Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-68600-4_33</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-68600-4_33</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/978-3-319-68600-4_33</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38190632" path="/0000-0003-3585-5191/work/38190632" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T14:22:43.767Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T14:29:02.096Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unsupervised Learning Using Phase-Change Synapses and Complementary Patterns</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-68600-4_33</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-68600-4_33</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/978-3-319-68600-4_33</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-3-319-68600-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783319686004</common:external-id-normalized>
+                            <common:external-id-url>http://www.worldcat.org/isbn/9783319686004</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-68600-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-68600-4</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/978-3-319-68600-4</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Artificial Neural Networks and Machine Learning – ICANN 2017</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="38189290" path="/0000-0003-3585-5191/work/38189290" visibility="public" display-index="0">
+                    <common:created-date>2017-10-31T13:29:48.578Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T14:29:02.096Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unsupervised Learning Using Phase-Change Synapses and Complementary Patterns</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-68600-4_33</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-68600-4_33</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Artificial Neural Networks and Machine Learning – ICANN 2017</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T12:43:03.418Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/icrc.2016.7738684</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/icrc.2016.7738684</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187565" path="/0000-0003-3585-5191/work/38187565" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T12:28:38.515Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T12:43:03.418Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Accelerating machine learning with Non-Volatile Memory: Exploring device and circuit tradeoffs</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/icrc.2016.7738684</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/icrc.2016.7738684</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109%2Ficrc.2016.7738684</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2016 IEEE International Conference on Rebooting Computing (ICRC)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T13:39:51.805Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/essderc.2016.7599680</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/essderc.2016.7599680</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/essderc.2016.7599680</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38189361" path="/0000-0003-3585-5191/work/38189361" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T13:38:49.670Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T13:39:51.805Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale neural networks implemented with Non-Volatile Memory as the synaptic weight element: Impact of conductance response</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/essderc.2016.7599680</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/essderc.2016.7599680</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/essderc.2016.7599680</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109%2Fessderc.2016.7599680</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2016 46th European Solid-State Device Research Conference (ESSDERC)</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="38189302" path="/0000-0003-3585-5191/work/38189302" visibility="public" display-index="0">
+                    <common:created-date>2017-10-31T13:30:42.017Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T13:39:51.805Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale neural networks implemented with Non-Volatile Memory as the synaptic weight element: Impact of conductance response</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/essderc.2016.7599680</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/essderc.2016.7599680</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2016 46th European Solid-State Device Research Conference (ESSDERC)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T12:43:07.416Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/IEDM.2015.7409625</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/iedm.2015.7409625</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187561" path="/0000-0003-3585-5191/work/38187561" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T12:28:34.653Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T12:43:07.416Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale neural networks implemented with non-volatile memory as the synaptic weight element: Comparative performance analysis (accuracy, speed, and power)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/IEDM.2015.7409625</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/iedm.2015.7409625</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2015 IEEE International Electron Devices Meeting (IEDM)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-31T12:43:08.547Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/TED.2015.2439635</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/ted.2015.2439635</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38187559" path="/0000-0003-3585-5191/work/38187559" visibility="public" display-index="1">
+                    <common:created-date>2017-10-31T12:28:31.538Z</common:created-date>
+                    <common:last-modified-date>2017-10-31T12:43:08.547Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3585-5191</common:uri>
+                            <common:path>0000-0003-3585-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Severin Sidler</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimental Demonstration and Tolerancing of a Large-Scale Neural Network (165 000~Synapses) Using Phase-Change Memory as the Synaptic Weight Element</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/TED.2015.2439635</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/ted.2015.2439635</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Electron Devices</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

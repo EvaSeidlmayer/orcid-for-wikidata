@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7526-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+        <common:path>0000-0001-7526-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-07-03T11:13:08.517Z</history:submission-date>
+        <common:last-modified-date>2019-02-14T16:13:15.271Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7526-5191/person">
+        <common:last-modified-date>2018-10-04T08:24:09.754Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-7526-5191">
+            <common:created-date>2016-04-15T21:14:16.539Z</common:created-date>
+            <common:last-modified-date>2018-10-04T08:22:47.499Z</common:last-modified-date>
+            <personal-details:given-names>Pablo</personal-details:given-names>
+            <personal-details:family-name>Pedreira Conchado</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7526-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7526-5191/researcher-urls"/>
+        <email:emails path="/0000-0001-7526-5191/email"/>
+        <address:addresses path="/0000-0001-7526-5191/address">
+            <common:last-modified-date>2018-10-04T08:24:09.754Z</common:last-modified-date>
+            <address:address put-code="1075737" visibility="public" path="/0000-0001-7526-5191/address/1075737" display-index="1">
+                <common:created-date>2018-10-04T08:24:09.754Z</common:created-date>
+                <common:last-modified-date>2018-10-04T08:24:09.754Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                        <common:path>0000-0001-7526-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                </common:source>
+                <address:country>ES</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-7526-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7526-5191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="296956" visibility="public" path="/0000-0001-7526-5191/external-identifiers/296956" display-index="1">
+                <common:created-date>2015-07-03T15:08:01.345Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>H-3464-2015</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/H-3464-2015</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="728646" visibility="public" path="/0000-0001-7526-5191/external-identifiers/728646" display-index="0">
+                <common:created-date>2017-06-09T15:58:56.510Z</common:created-date>
+                <common:last-modified-date>2017-06-09T15:58:56.510Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57192671504</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57192671504&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7526-5191/activities">
+        <common:last-modified-date>2019-02-14T16:13:15.277Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7526-5191/distinctions"/>
+        <activities:educations path="/0000-0001-7526-5191/educations">
+            <common:last-modified-date>2015-07-03T12:45:50.851Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T12:45:50.851Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1007027" display-index="0" path="/0000-0001-7526-5191/education/1007027" visibility="public">
+                    <common:created-date>2015-07-03T12:45:50.851Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T12:45:50.851Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <common:department-name>Tecnología Electrónica</common:department-name>
+                    <common:role-title>Doctor en Ingeniería Eléctrica, Electrónica y Automática</common:role-title>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad Carlos III de Madrid Escuela Politécnica Superior</common:name>
+                        <common:address>
+                            <common:city>Leganes</common:city>
+                            <common:region>Comunidad de Madrid</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>88082</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T11:15:20.439Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1006826" display-index="0" path="/0000-0001-7526-5191/education/1006826" visibility="public">
+                    <common:created-date>2015-07-03T11:14:33.146Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T11:15:20.439Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <common:role-title>Licenciado en Física (Especialidad en Optoelectrónica)</common:role-title>
+                    <common:end-date>
+                        <common:year>2004</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidade de Santiago de Compostela</common:name>
+                        <common:address>
+                            <common:city>Santiago de Compostela</common:city>
+                            <common:region>Galicia</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16780</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-7526-5191/employments">
+            <common:last-modified-date>2015-07-03T11:19:11.067Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T11:19:11.067Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1006844" display-index="0" path="/0000-0001-7526-5191/employment/1006844" visibility="public">
+                    <common:created-date>2015-07-03T11:18:52.655Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T11:19:11.067Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <common:department-name>Experiments Division</common:department-name>
+                    <common:role-title>Científico Postdoctoral</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Sincrotrón ALBA</common:name>
+                        <common:address>
+                            <common:city>Cerdanyola del Valles</common:city>
+                            <common:region>BARCELONA</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>421722</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T11:17:04.485Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1006836" display-index="0" path="/0000-0001-7526-5191/employment/1006836" visibility="public">
+                    <common:created-date>2015-07-03T11:17:04.485Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T11:17:04.485Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <common:department-name>Tecnología Electrónica</common:department-name>
+                    <common:role-title>Ayudante no Doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>2005</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad Carlos III de Madrid Escuela Politécnica Superior</common:name>
+                        <common:address>
+                            <common:city>Leganes</common:city>
+                            <common:region>Comunidad de Madrid</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>88082</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-7526-5191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7526-5191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7526-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7526-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7526-5191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7526-5191/research-resources"/>
+        <activities:services path="/0000-0001-7526-5191/services"/>
+        <activities:works path="/0000-0001-7526-5191/works">
+            <common:last-modified-date>2019-02-14T16:13:15.277Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-02-14T16:13:15.277Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.5057768</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.5057768</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1063/1.5057768</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54082486" path="/0000-0001-7526-5191/work/54082486" visibility="public" display-index="0">
+                    <common:created-date>2019-02-14T16:13:15.277Z</common:created-date>
+                    <common:last-modified-date>2019-02-14T16:13:15.277Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Deflectometry encoding the measured angle in a time-dependent intensity signal</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.5057768</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.5057768</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1063/1.5057768</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1063/1.5057768</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Review of Scientific Instruments</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1117/12.2239533</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1117/12.2239533</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28302190" path="/0000-0001-7526-5191/work/28302190" visibility="public" display-index="0">
+                    <common:created-date>2016-11-22T10:33:09.443Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nanometer figure correction of x-ray mirrors using multiple spring actuators</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.2239533</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.2239533</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Adaptive X-Ray Optics IV</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1117/12.2238128</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1117/12.2238128</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28302119" path="/0000-0001-7526-5191/work/28302119" visibility="public" display-index="0">
+                    <common:created-date>2016-11-22T10:32:08.696Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nanometer accuracy with continuous scans at the ALBA-NOM</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.2238128</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.2238128</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Advances in Metrology for X-Ray and EUV Optics VI</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1117/12.2237599</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1117/12.2237599</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28302228" path="/0000-0001-7526-5191/work/28302228" visibility="public" display-index="0">
+                    <common:created-date>2016-11-22T10:34:17.700Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ray-tracing as a tool for efficient specification of beamline optical components</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.2237599</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.2237599</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Advances in Metrology for X-Ray and EUV Optics VI</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.4949339</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.4949339</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24240136" path="/0000-0001-7526-5191/work/24240136" visibility="public" display-index="0">
+                    <common:created-date>2016-05-20T04:33:56.178Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical pseudomotors for soft x-ray beamlines</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.4949339</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.4949339</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Review of Scientific Instruments</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="17348442" path="/0000-0001-7526-5191/work/17348442" visibility="public" display-index="6">
+                    <common:created-date>2015-07-09T13:42:33.929Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fault location in full-duplex plastic optical fiber links using synchronized decay time detection</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84890709553&amp;partnerID=40&amp;md5=4b133dbf9df8e2b7ac186854b4ac82b6</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of 22nd International Conference on Plastical Optical Fibers, POF 2013</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/2.1.1109.6325</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/2.1.1109.6325</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17229992" path="/0000-0001-7526-5191/work/17229992" visibility="public" display-index="0">
+                    <common:created-date>2015-07-03T12:48:38.906Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical design of modular multichannel Dispersion Interferometer for electronic density measurements in W7-X stellarator</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/2.1.1109.6325</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/2.1.1109.6325</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>21033872</common:external-id-value>
+                        <common:external-id-normalized transient="true">21033872</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.3475729</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.3475729</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17229541" path="/0000-0001-7526-5191/work/17229541" visibility="public" display-index="0">
+                    <common:created-date>2015-07-03T12:30:53.747Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Two color multichannel heterodyne interferometer set up for high spatial resolution electron density profile measurements in TJ-II.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>21033872</common:external-id-value>
+                            <common:external-id-normalized transient="true">21033872</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.3475729</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.3475729</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/21033872</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/rtc.2010.5750375</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/rtc.2010.5750375</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17230577" path="/0000-0001-7526-5191/work/17230577" visibility="public" display-index="0">
+                    <common:created-date>2015-07-03T13:02:06.813Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Development of efficient FPGA-based phase meters for IR-interferometers. optimizations for multi-channel interferometers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/rtc.2010.5750375</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/rtc.2010.5750375</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2010 17th IEEE-NPSS Real Time Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="17348389" path="/0000-0001-7526-5191/work/17348389" visibility="public" display-index="3">
+                    <common:created-date>2015-07-09T13:35:07.027Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Determination of spatial resolution for electron density profile measurements using a two color expanded-beam multichannel heterodyne interferometer in TJ-II</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781622763313</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781622763313</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84875662286&amp;partnerID=40&amp;md5=3ec17333f980cc2cc492544e30c80972</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>37th EPS Conference on Plasma Physics 2010, EPS 2010</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-13T16:42:50.775Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="33824450" path="/0000-0001-7526-5191/work/33824450" visibility="public" display-index="1">
+                    <common:created-date>2017-06-13T16:42:50.775Z</common:created-date>
+                    <common:last-modified-date>2017-06-13T16:42:50.775Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Very fast multiple input phase meter for TJ-II stellarator expanded beam interferometer</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>http://eps2009.uni-sofia.bg/progr/poster_presentations_list.pdf</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>36th EPS Conference on Plasma Physics </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="17348388" path="/0000-0001-7526-5191/work/17348388" visibility="public" display-index="2">
+                    <common:created-date>2015-07-09T13:34:52.402Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Works toward the evaluation of the ultimate spatial resolution of the new two-color heterodyne interferometer for electron density measurements in the TJ-II Stellarator</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781622763368</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781622763368</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84872742149&amp;partnerID=40&amp;md5=ff859794a2a8a66c1309211fd7accd03</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>36th EPS Conference on Plasma Physics 2009, EPS 2009 - Europhysics Conference Abstracts</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.2973326</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.2973326</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>19044531</common:external-id-value>
+                        <common:external-id-normalized transient="true">19044531</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17229540" path="/0000-0001-7526-5191/work/17229540" visibility="public" display-index="0">
+                    <common:created-date>2015-07-03T12:30:53.738Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Calibration of a high spatial resolution laser two-color heterodyne interferometer for density profile measurements in the TJ-II stellarator.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>19044531</common:external-id-value>
+                            <common:external-id-normalized transient="true">19044531</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.2973326</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.2973326</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/19044531</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1117/12.803907</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1117/12.803907</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17348392" path="/0000-0001-7526-5191/work/17348392" visibility="public" display-index="5">
+                    <common:created-date>2015-07-09T13:37:03.709Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of the diffuse light and optoacoustic signal generation in nanoparticles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.803907</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.803907</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780819472359</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780819472359</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-50249146188&amp;partnerID=40&amp;md5=2803411102eb1de454f2fd82262db924</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of SPIE - The International Society for Optical Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1117/12.772305</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1117/12.772305</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17348391" path="/0000-0001-7526-5191/work/17348391" visibility="public" display-index="4">
+                    <common:created-date>2015-07-09T13:36:05.629Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparative analysis of optical absorption and optoacoustic signal generation in nanoparticles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.772305</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.772305</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780819470317</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780819470317</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-42149149332&amp;partnerID=40&amp;md5=8d1bc76751b0606972fd33881e27aa79</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Progress in Biomedical Optics and Imaging - Proceedings of SPIE</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="17230618" path="/0000-0001-7526-5191/work/17230618" visibility="public" display-index="0">
+                    <common:created-date>2015-07-03T13:05:08.849Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>&lt;title&gt;Comparative analysis of optical absorption and optoacoustic signal generation in nanoparticles&lt;/title&gt;</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1117/12.772305</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1117/12.772305</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>02</common:month>
+                        <common:day>07</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Photons Plus Ultrasound: Imaging and Sensing 2008: The Ninth Conference on Biomedical Thermoacoustics, Optoacoustics, and Acousto-optics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="17348387" path="/0000-0001-7526-5191/work/17348387" visibility="public" display-index="1">
+                    <common:created-date>2015-07-09T13:34:47.499Z</common:created-date>
+                    <common:last-modified-date>2017-06-09T15:58:56.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7526-5191</common:uri>
+                            <common:path>0000-0001-7526-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pablo Pedreira Conchado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Systematic study of the sources of error in the high spatial resolution two-color laser interferometer for the TJ-II stellarator</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781622763351</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781622763351</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84873035867&amp;partnerID=40&amp;md5=b274e6fe92b715bdace884406dfb88d9</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>35th EPS Conference on Plasma Physics 2008, EPS 2008 - Europhysics Conference Abstracts</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

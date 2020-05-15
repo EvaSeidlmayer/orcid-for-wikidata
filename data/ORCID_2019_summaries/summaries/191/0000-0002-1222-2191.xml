@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1222-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1222-2191</common:uri>
+        <common:path>0000-0002-1222-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2016-02-21T18:08:45.541Z</history:submission-date>
+        <common:last-modified-date>2019-07-17T22:56:46.107Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1222-2191/person">
+        <common:last-modified-date>2018-01-24T05:18:55.886Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-1222-2191">
+            <common:created-date>2016-04-15T21:53:59.190Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:53:59.190Z</common:last-modified-date>
+            <personal-details:given-names>Wenying</personal-details:given-names>
+            <personal-details:family-name>Ji</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1222-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1222-2191/researcher-urls">
+            <common:last-modified-date>2017-08-20T05:51:06.770Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1224932" visibility="public" path="/0000-0002-1222-2191/researcher-urls/1224932" display-index="0">
+                <common:created-date>2017-08-20T05:51:06.770Z</common:created-date>
+                <common:last-modified-date>2017-08-20T05:51:06.770Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0001-6478-3604</common:uri>
+                        <common:path>0000-0001-6478-3604</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Elsevier - Mendeley</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Mendeley profile</researcher-url:url-name>
+                <researcher-url:url>https://www.mendeley.com/profiles/wenying-ji/</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0002-1222-2191/email"/>
+        <address:addresses path="/0000-0002-1222-2191/address"/>
+        <keyword:keywords path="/0000-0002-1222-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1222-2191/external-identifiers">
+            <common:last-modified-date>2018-01-24T05:18:55.886Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="840202" visibility="public" path="/0000-0002-1222-2191/external-identifiers/840202" display-index="0">
+                <common:created-date>2017-10-22T17:36:19.993Z</common:created-date>
+                <common:last-modified-date>2017-10-22T17:36:19.993Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>R-7535-2017</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/R-7535-2017</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="928382" visibility="public" path="/0000-0002-1222-2191/external-identifiers/928382" display-index="0">
+                <common:created-date>2018-01-24T05:18:55.886Z</common:created-date>
+                <common:last-modified-date>2018-01-24T05:18:55.886Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56996697800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56996697800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1222-2191/activities">
+        <common:last-modified-date>2018-03-03T06:32:03.426Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1222-2191/distinctions"/>
+        <activities:educations path="/0000-0002-1222-2191/educations">
+            <common:last-modified-date>2017-08-20T05:58:09.731Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-08-20T05:57:36.102Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="4496301" display-index="0" path="/0000-0002-1222-2191/education/4496301" visibility="public">
+                    <common:created-date>2017-08-20T05:57:36.102Z</common:created-date>
+                    <common:last-modified-date>2017-08-20T05:57:36.102Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1222-2191</common:uri>
+                            <common:path>0000-0002-1222-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenying Ji</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>University of Alberta</common:name>
+                        <common:address>
+                            <common:city>Edmonton</common:city>
+                            <common:region>AB</common:region>
+                            <common:country>CA</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3158</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-08-20T05:57:53.179Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="4496303" display-index="0" path="/0000-0002-1222-2191/education/4496303" visibility="public">
+                    <common:created-date>2017-08-20T05:57:53.179Z</common:created-date>
+                    <common:last-modified-date>2017-08-20T05:57:53.179Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1222-2191</common:uri>
+                            <common:path>0000-0002-1222-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenying Ji</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>Texas A&amp;M University</common:name>
+                        <common:address>
+                            <common:city>College Station</common:city>
+                            <common:region>TX</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>14736</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-08-20T05:58:09.731Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="4496305" display-index="0" path="/0000-0002-1222-2191/education/4496305" visibility="public">
+                    <common:created-date>2017-08-20T05:58:09.731Z</common:created-date>
+                    <common:last-modified-date>2017-08-20T05:58:09.731Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1222-2191</common:uri>
+                            <common:path>0000-0002-1222-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenying Ji</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>Southeast University</common:name>
+                        <common:address>
+                            <common:city>Nanjing</common:city>
+                            <common:region>Jiangsu</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>12579</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-1222-2191/employments"/>
+        <activities:fundings path="/0000-0002-1222-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-1222-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1222-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1222-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1222-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1222-2191/research-resources"/>
+        <activities:services path="/0000-0002-1222-2191/services"/>
+        <activities:works path="/0000-0002-1222-2191/works">
+            <common:last-modified-date>2018-03-03T06:32:03.426Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-03-03T06:29:40.226Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1061/(asce)cp.1943-5487.0000755</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1061/(asce)cp.1943-5487.0000755</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42254133" path="/0000-0002-1222-2191/work/42254133" visibility="public" display-index="0">
+                    <common:created-date>2018-03-03T06:29:40.226Z</common:created-date>
+                    <common:last-modified-date>2018-03-03T06:29:40.226Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Simulation-Based Analytics for Quality Control Decision Support: Pipe Welding Case Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1061/(asce)cp.1943-5487.0000755</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1061/(asce)cp.1943-5487.0000755</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0887-3801</common:external-id-value>
+                            <common:external-id-normalized transient="true">0887-3801</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Computing in Civil Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-03T06:30:53.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.24928/jc3-2017/0011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.24928/jc3-2017/0011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42254145" path="/0000-0002-1222-2191/work/42254145" visibility="public" display-index="0">
+                    <common:created-date>2018-03-03T06:30:53.373Z</common:created-date>
+                    <common:last-modified-date>2018-03-03T06:30:53.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Implementing a Data-Driven Simulation Method for Quantifying Pipe Welding Operator Quality Performance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.24928/jc3-2017/0011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.24928/jc3-2017/0011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780956595164</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780956595164</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>07</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Lean and Computing in Construction Congress - Volume 1: Proceedings of the Joint Conference on Computing in Construction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-03T06:31:33.763Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/WSC.2016.7822328</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/wsc.2016.7822328</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85014227854</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85014227854</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40901434" path="/0000-0002-1222-2191/work/40901434" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T05:19:36.444Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T05:19:36.444Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Bayesian inference based simulation approach for estimating fraction nonconforming of pipe spool welding processes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/WSC.2016.7822328</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/wsc.2016.7822328</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85014227854</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85014227854</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85014227854&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings - Winter Simulation Conference</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42254149" path="/0000-0002-1222-2191/work/42254149" visibility="public" display-index="0">
+                    <common:created-date>2018-03-03T06:31:33.763Z</common:created-date>
+                    <common:last-modified-date>2018-03-03T06:31:33.763Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Bayesian inference based simulation approach for estimating fraction nonconforming of pipe spool welding processes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/wsc.2016.7822328</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/wsc.2016.7822328</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781509044863</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781509044863</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2016 Winter Simulation Conference (WSC)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-10-22T17:50:21.642Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000411533400006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000411533400006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.autcon.2017.07.003</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.autcon.2017.07.003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="37903027" path="/0000-0002-1222-2191/work/37903027" visibility="public" display-index="0">
+                    <common:created-date>2017-10-22T17:50:21.642Z</common:created-date>
+                    <common:last-modified-date>2017-10-22T17:50:21.642Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Credible interval estimation for fraction nonconforming: Analytical and numerical solutions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.autcon.2017.07.003</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.autcon.2017.07.003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000411533400006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000411533400006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000411533400006&amp;KeyUID=WOS:000411533400006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Automation in Construction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T05:19:36.463Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/15623599.2016.1207366</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/15623599.2016.1207366</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84979649824</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84979649824</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40901435" path="/0000-0002-1222-2191/work/40901435" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T05:19:36.463Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T05:19:36.463Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Formalizing a path-float-based approach to determine and interpret total float in project scheduling analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/15623599.2016.1207366</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/15623599.2016.1207366</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84979649824</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84979649824</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84979649824&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Construction Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-03T06:32:03.426Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000395521200007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000395521200007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1061/(ASCE)CP.1943-5487.0000621</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1061/(asce)cp.1943-5487.0000621</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="37903028" path="/0000-0002-1222-2191/work/37903028" visibility="public" display-index="0">
+                    <common:created-date>2017-10-22T17:50:21.644Z</common:created-date>
+                    <common:last-modified-date>2017-10-22T17:50:21.644Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intelligent Approach to Estimation of Tunnel-Induced Ground Settlement Using Wavelet Packet and Support Vector Machines</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1061/(ASCE)CP.1943-5487.0000621</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1061/(asce)cp.1943-5487.0000621</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000395521200007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000395521200007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000395521200007&amp;KeyUID=WOS:000395521200007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Computing in Civil Engineering</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42254154" path="/0000-0002-1222-2191/work/42254154" visibility="public" display-index="0">
+                    <common:created-date>2018-03-03T06:32:03.426Z</common:created-date>
+                    <common:last-modified-date>2018-03-03T06:32:03.426Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intelligent Approach to Estimation of Tunnel-Induced Ground Settlement Using Wavelet Packet and Support Vector Machines</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1061/(asce)cp.1943-5487.0000621</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1061/(asce)cp.1943-5487.0000621</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0887-3801</common:external-id-value>
+                            <common:external-id-normalized transient="true">0887-3801</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Computing in Civil Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-24T05:19:36.426Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84949513679</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84949513679</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40901433" path="/0000-0002-1222-2191/work/40901433" visibility="public" display-index="0">
+                    <common:created-date>2018-01-24T05:19:36.426Z</common:created-date>
+                    <common:last-modified-date>2018-01-24T05:19:36.426Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Simulation-based assessment of the influence of requests for information on industrial module construction piping work</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84949513679</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84949513679</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84949513679&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>27th European Modeling and Simulation Symposium, EMSS 2015</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

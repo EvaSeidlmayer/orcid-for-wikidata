@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7484-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+        <common:path>0000-0001-7484-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-02-16T11:11:08.974Z</history:submission-date>
+        <common:last-modified-date>2019-08-30T16:08:20.451Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7484-4191/person">
+        <common:last-modified-date>2018-09-28T08:26:41.655Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-7484-4191">
+            <common:created-date>2016-04-15T21:13:51.323Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:13:51.323Z</common:last-modified-date>
+            <personal-details:given-names>Hiroshi</personal-details:given-names>
+            <personal-details:family-name>Tsujioka</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7484-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7484-4191/researcher-urls"/>
+        <email:emails path="/0000-0001-7484-4191/email"/>
+        <address:addresses path="/0000-0001-7484-4191/address"/>
+        <keyword:keywords path="/0000-0001-7484-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7484-4191/external-identifiers">
+            <common:last-modified-date>2018-09-28T08:26:41.655Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="119686" visibility="public" path="/0000-0001-7484-4191/external-identifiers/119686" display-index="0">
+                <common:created-date>2014-09-29T05:29:03.812Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>M-1343-2014</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/M-1343-2014</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1155167" visibility="public" path="/0000-0001-7484-4191/external-identifiers/1155167" display-index="0">
+                <common:created-date>2018-09-28T08:26:41.655Z</common:created-date>
+                <common:last-modified-date>2018-09-28T08:26:41.655Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-0212-1490</common:uri>
+                        <common:path>0000-0003-0212-1490</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>National Institute of Informatics</common:source-name>
+                </common:source>
+                <common:external-id-type>Researcher Name Resolver ID</common:external-id-type>
+                <common:external-id-value>1000020803505</common:external-id-value>
+                <common:external-id-url>https://nrid.nii.ac.jp/nrid/1000020803505/</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7484-4191/activities">
+        <common:last-modified-date>2019-08-01T02:01:39.963Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7484-4191/distinctions"/>
+        <activities:educations path="/0000-0001-7484-4191/educations">
+            <common:last-modified-date>2017-04-26T09:58:00.575Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-04-26T09:58:00.575Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3742671" display-index="0" path="/0000-0001-7484-4191/education/3742671" visibility="public">
+                    <common:created-date>2017-04-26T09:58:00.575Z</common:created-date>
+                    <common:last-modified-date>2017-04-26T09:58:00.575Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Biological Sciences, Graduate School of Science</common:department-name>
+                    <common:role-title>Ph.D.</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                        <common:day>23</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Tokyo</common:name>
+                        <common:address>
+                            <common:city>Bunkyo-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-04-26T09:56:45.391Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3742669" display-index="0" path="/0000-0001-7484-4191/education/3742669" visibility="public">
+                    <common:created-date>2017-04-26T09:56:45.391Z</common:created-date>
+                    <common:last-modified-date>2017-04-26T09:56:45.391Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Biological Sciences, Graduate School of Science</common:department-name>
+                    <common:role-title>Master of Science</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>03</common:month>
+                        <common:day>24</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Tokyo</common:name>
+                        <common:address>
+                            <common:city>Bunkyo-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-04-26T09:52:19.884Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3742651" display-index="0" path="/0000-0001-7484-4191/education/3742651" visibility="public">
+                    <common:created-date>2017-04-26T09:52:19.884Z</common:created-date>
+                    <common:last-modified-date>2017-04-26T09:52:19.884Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Medicine</common:department-name>
+                    <common:role-title>M.D.</common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>03</common:month>
+                        <common:day>24</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Tokyo</common:name>
+                        <common:address>
+                            <common:city>Bunkyo-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-7484-4191/employments">
+            <common:last-modified-date>2018-09-28T08:34:00.442Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-09-28T08:31:47.627Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6503148" display-index="1" path="/0000-0001-7484-4191/employment/6503148" visibility="public">
+                    <common:created-date>2018-09-28T08:31:47.627Z</common:created-date>
+                    <common:last-modified-date>2018-09-28T08:31:47.627Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <common:department-name>Graduate School of Medicine</common:department-name>
+                    <common:role-title>Assistant Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Osaka University</common:name>
+                        <common:address>
+                            <common:city>Suita</common:city>
+                            <common:region>Osaka</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100004206</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-09-28T08:34:00.442Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3742623" display-index="1" path="/0000-0001-7484-4191/employment/3742623" visibility="public">
+                    <common:created-date>2017-04-26T09:47:14.844Z</common:created-date>
+                    <common:last-modified-date>2018-09-28T08:34:00.442Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <common:department-name>Immunology Frontier Research Center</common:department-name>
+                    <common:role-title>Specially Appointed Assistant Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>04</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Osaka University</common:name>
+                        <common:address>
+                            <common:city>Suita</common:city>
+                            <common:region>Osaka</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-7484-4191/fundings">
+            <common:last-modified-date>2018-09-28T09:08:13.238Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-04-26T10:04:58.427Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="292115" path="/0000-0001-7484-4191/funding/292115" visibility="public" display-index="1">
+                    <common:created-date>2017-04-26T10:04:58.427Z</common:created-date>
+                    <common:last-modified-date>2017-04-26T10:04:58.427Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Grant-in-Aid for JSPS Research Fellow</common:title>
+                    </funding:title>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>04</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Japan Society for the Promotion of Science</common:name>
+                        <common:address>
+                            <common:city>Tokyo</common:city>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-09-28T09:08:13.238Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>18K15367</common:external-id-value>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="534505" path="/0000-0001-7484-4191/funding/534505" visibility="public" display-index="1">
+                    <common:created-date>2018-09-28T09:08:13.238Z</common:created-date>
+                    <common:last-modified-date>2018-09-28T09:08:13.238Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Grant-in-Aid for Early-Career Scientists</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>18K15367</common:external-id-value>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>04</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2020</common:year>
+                        <common:month>03</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Japan Society for the Promotion of Science</common:name>
+                        <common:address>
+                            <common:city>Tokyo</common:city>
+                            <common:country>JP</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100001691</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0001-7484-4191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7484-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7484-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7484-4191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7484-4191/research-resources"/>
+        <activities:services path="/0000-0001-7484-4191/services"/>
+        <activities:works path="/0000-0001-7484-4191/works">
+            <common:last-modified-date>2019-08-01T02:01:39.963Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-01T02:01:39.963Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/s12864-019-5974-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/s12864-019-5974-9</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1186/s12864-019-5974-9</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60086099" path="/0000-0001-7484-4191/work/60086099" visibility="public" display-index="1">
+                    <common:created-date>2019-08-01T02:01:39.963Z</common:created-date>
+                    <common:last-modified-date>2019-08-01T02:01:39.963Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparison of gene expression profile of the spinal cord of sprouting-capable neonatal and sprouting-incapable adult mice</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/s12864-019-5974-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/s12864-019-5974-9</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1186/s12864-019-5974-9</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1471-2164</common:external-id-value>
+                            <common:external-id-normalized transient="true">1471-2164</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1471-2164</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1186/s12864-019-5974-9</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>BMC Genomics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-09-11T06:08:30.676Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41467-017-00594-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41467-017-00594-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41467-017-00594-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="36674486" path="/0000-0001-7484-4191/work/36674486" visibility="public" display-index="1">
+                    <common:created-date>2017-09-11T06:08:30.676Z</common:created-date>
+                    <common:last-modified-date>2017-09-11T06:08:30.676Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7484-4191</common:uri>
+                            <common:path>0000-0001-7484-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Hiroshi Tsujioka</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>interleukin-11 induces and maintains progenitors of different cell lineages during Xenopus tadpole tail regeneration</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41467-017-00594-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41467-017-00594-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41467-017-00594-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Nature Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-04-26T10:08:31.063Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0111655</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0111655</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000351183500001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000351183500001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32161303" path="/0000-0001-7484-4191/work/32161303" visibility="public" display-index="0">
+                    <common:created-date>2017-04-26T10:08:31.063Z</common:created-date>
+                    <common:last-modified-date>2017-04-26T10:08:31.063Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unique Gene Expression Profile of the Proliferating Xenopus Tadpole Tail Blastema Cells Deciphered by RNA-Sequencing Analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0111655</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0111655</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000351183500001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000351183500001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000351183500001&amp;KeyUID=WOS:000351183500001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

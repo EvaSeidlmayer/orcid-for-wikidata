@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-8755-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-8755-8191</common:uri>
+        <common:path>0000-0002-8755-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>es</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-12-22T21:58:44.521Z</history:submission-date>
+        <common:last-modified-date>2019-04-19T14:59:06.363Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-8755-8191/person">
+        <common:last-modified-date>2019-04-15T23:01:36.552Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-8755-8191">
+            <common:created-date>2016-04-15T23:14:19.710Z</common:created-date>
+            <common:last-modified-date>2016-05-30T00:33:44.810Z</common:last-modified-date>
+            <personal-details:given-names>Luz Stella</personal-details:given-names>
+            <personal-details:family-name>Gomez-Villalba</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-8755-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-8755-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-8755-8191/email"/>
+        <address:addresses path="/0000-0002-8755-8191/address"/>
+        <keyword:keywords path="/0000-0002-8755-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-8755-8191/external-identifiers">
+            <common:last-modified-date>2019-04-15T23:01:36.552Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="523393" visibility="public" path="/0000-0002-8755-8191/external-identifiers/523393" display-index="0">
+                <common:created-date>2016-08-03T22:38:34.299Z</common:created-date>
+                <common:last-modified-date>2016-08-03T22:38:34.299Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>B-9309-2009</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/B-9309-2009</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1374297" visibility="public" path="/0000-0002-8755-8191/external-identifiers/1374297" display-index="0">
+                <common:created-date>2019-04-15T23:01:36.552Z</common:created-date>
+                <common:last-modified-date>2019-04-15T23:01:36.552Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>35366291600</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=35366291600&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-8755-8191/activities">
+        <common:last-modified-date>2019-04-15T23:02:06.565Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-8755-8191/distinctions"/>
+        <activities:educations path="/0000-0002-8755-8191/educations"/>
+        <activities:employments path="/0000-0002-8755-8191/employments"/>
+        <activities:fundings path="/0000-0002-8755-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-8755-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-8755-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-8755-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-8755-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-8755-8191/research-resources"/>
+        <activities:services path="/0000-0002-8755-8191/services"/>
+        <activities:works path="/0000-0002-8755-8191/works">
+            <common:last-modified-date>2019-04-15T23:02:06.565Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.441Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85062192348</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85062192348</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472146" path="/0000-0002-8755-8191/work/56472146" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.441Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.441Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Preface</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85062192348</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85062192348</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85062192348&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Solid State Phenomena</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.561Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10971-018-4890-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10971-018-4890-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85058128762</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85058128762</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472172" path="/0000-0002-8755-8191/work/56472172" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.561Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.561Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sol–gel synthesis of Mg(OH) &lt;inf&gt;2&lt;/inf&gt; and Ca(OH) &lt;inf&gt;2&lt;/inf&gt; nanoparticles: a comparative study of their antifungal activity in partially quaternized p(DMAEMA) nanocomposite films</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10971-018-4890-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10971-018-4890-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85058128762</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85058128762</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85058128762&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Sol-Gel Science and Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.565Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1039/c8ce00942b</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1039/c8ce00942b</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85053901515</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85053901515</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472173" path="/0000-0002-8755-8191/work/56472173" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.565Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.565Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Correlation between microstructure and cathodoluminescence properties of Mg(OH)&lt;inf&gt;2&lt;/inf&gt; (brucite) nanoparticles: Effect of synthesis method</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1039/c8ce00942b</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1039/c8ce00942b</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85053901515</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85053901515</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85053901515&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>CrystEngComm</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.540Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85047882025</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85047882025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.matchar.2018.05.043</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.matchar.2018.05.043</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472167" path="/0000-0002-8755-8191/work/56472167" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.540Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.540Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Crystal development during carbonation of lime-based mortars in different environmental conditions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.matchar.2018.05.043</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.matchar.2018.05.043</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85047882025</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85047882025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85047882025&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materials Characterization</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.461Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85045553676</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85045553676</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472148" path="/0000-0002-8755-8191/work/56472148" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.461Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.461Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Inorganic nanomaterials for the consolidation and antifungal protection of stone heritage</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-72260-3_6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-72260-3_6</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85045553676</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85045553676</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85045553676&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Materials for the Conservation of Stone</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.499Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84994705274</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84994705274</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.apt.2016.08.014</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.apt.2016.08.014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472158" path="/0000-0002-8755-8191/work/56472158" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.499Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.499Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Atomic scale study of the dehydration/structural transformation in micro and nanostructured brucite (Mg(OH)&lt;inf&gt;2&lt;/inf&gt;) particles: Influence of the hydrothermal synthesis conditions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.apt.2016.08.014</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.apt.2016.08.014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84994705274</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84994705274</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84994705274&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Powder Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.474Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3989/mc.2017.07616</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3989/mc.2017.07616</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85013427477</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85013427477</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472152" path="/0000-0002-8755-8191/work/56472152" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.474Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.474Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New nanomaterials for applications in conservation and restoration of stony materials: A review</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3989/mc.2017.07616</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3989/mc.2017.07616</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85013427477</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85013427477</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85013427477&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materiales de Construccion</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.492Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85026303266</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85026303266</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/acsami.7b06130</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/acsami.7b06130</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472156" path="/0000-0002-8755-8191/work/56472156" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.492Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.492Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis, Photocatalytic, and Antifungal Properties of MgO, ZnO and Zn/Mg Oxide Nanoparticles for the Protection of Calcareous Stone Heritage</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/acsami.7b06130</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/acsami.7b06130</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85026303266</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85026303266</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85026303266&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ACS Applied Materials and Interfaces</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.496Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1039/c6ra10336g</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1039/c6ra10336g</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84971635991</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84971635991</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472157" path="/0000-0002-8755-8191/work/56472157" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.496Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.496Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Application of magnesium hydroxide nanocoatings on cellulose fibers with different refining degrees</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1039/c6ra10336g</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1039/c6ra10336g</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84971635991</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84971635991</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84971635991&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>RSC Advances</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.535Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84977913831</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84977913831</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ceramint.2016.03.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ceramint.2016.03.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472166" path="/0000-0002-8755-8191/work/56472166" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.535Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.535Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>TEM-HRTEM study on the dehydration process of nanostructured Mg-Ca hydroxide into Mg-Ca oxide</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ceramint.2016.03.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ceramint.2016.03.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84977913831</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84977913831</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84977913831&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Ceramics International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.478Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84947428205</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84947428205</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2451/2015PM0029</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2451/2015pm0029</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472153" path="/0000-0002-8755-8191/work/56472153" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.478Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.478Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Microcracking of granite feldspar during thermal artificial processes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2451/2015PM0029</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2451/2015pm0029</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84947428205</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84947428205</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84947428205&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Periodico di Mineralogia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.515Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84888436795</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84888436795</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jeurceramsoc.2013.09.005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jeurceramsoc.2013.09.005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472161" path="/0000-0002-8755-8191/work/56472161" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.515Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.515Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Corrigendum to "Archaeological ceramic amphorae from underwater marine environments: Influence of firing temperature on salt crystallization decay" [J. Eur. Ceram. Soc. 33 (2013) 2031-2042]</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jeurceramsoc.2013.09.005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jeurceramsoc.2013.09.005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84888436795</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84888436795</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84888436795&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the European Ceramic Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.526Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84908029943</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84908029943</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.apt.2014.03.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.apt.2014.03.006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472164" path="/0000-0002-8755-8191/work/56472164" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.526Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.526Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Directed growth of nanoarchitected hybrid phosphor particles synthesized at low temperature</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.apt.2014.03.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.apt.2014.03.006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84908029943</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84908029943</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84908029943&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Powder Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.457Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85053650713</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85053650713</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472147" path="/0000-0002-8755-8191/work/56472147" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.457Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.457Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New consolidant product based on nanoparticles to preserve the dolomitic stone heritage</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1201/b17802</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1201/b17802</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85053650713</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85053650713</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85053650713&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Science, Technology and Cultural Heritage</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.464Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84940662918</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84940662918</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472149" path="/0000-0002-8755-8191/work/56472149" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.464Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.464Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New consolidant product based on nanoparticles to preserve the dolomitic stone heritage</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84940662918</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84940662918</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84940662918&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Science, Technology and Cultural Heritage - Proceedings of the 2nd International Congress on Science and Technology for the Conservation of Cultural Heritage, 2014</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.471Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84927135280</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84927135280</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472151" path="/0000-0002-8755-8191/work/56472151" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.471Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.471Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structural, optical and electrical properties of SnO2 and SnO2:F films deposited by ultrasonic spray pyrolysis,Propiedades estructurales, ópticas y eléctricas de películas de SnO&lt;inf&gt;2&lt;/inf&gt;y SnO&lt;inf&gt;2&lt;/inf&gt;:F depositadas por rocío pirolítico ultrasónico</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84927135280</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84927135280</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84927135280&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Superficies y Vacio</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.482Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84903904272</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84903904272</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ceramint.2014.04.073</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ceramint.2014.04.073</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472154" path="/0000-0002-8755-8191/work/56472154" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.482Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.482Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis and morpho-structural characterization of nanostructured magnesium hydroxide obtained by a hydrothermal method</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ceramint.2014.04.073</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ceramint.2014.04.073</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84903904272</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84903904272</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84903904272&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Ceramics International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.544Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jeurceramsoc.2013.03.009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jeurceramsoc.2013.03.009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84876716146</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84876716146</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472168" path="/0000-0002-8755-8191/work/56472168" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.544Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.544Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Archaeological ceramic amphorae from underwater marine environments: Influence of firing temperature on salt crystallization decay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jeurceramsoc.2013.03.009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jeurceramsoc.2013.03.009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84876716146</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84876716146</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84876716146&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the European Ceramic Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.468Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84940641908</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84940641908</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472150" path="/0000-0002-8755-8191/work/56472150" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.468Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.468Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mineralogical and textural considerations in the assessment of aesthetic changes in dolostones by effect of treatments with Ca(OH)&lt;inf&gt;2&lt;/inf&gt; nanoparticles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1201/b15577</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1201/b15577</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84940641908</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84940641908</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84940641908&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Science and Technology for the Conservation of Cultural Heritage</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1061/(ASCE)MT.1943-5533.0000740</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1061/(asce)mt.1943-5533.0000740</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84886893766</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84886893766</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472163" path="/0000-0002-8755-8191/work/56472163" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.523Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Short- and longer-term consolidation effects of portlandite (CaOH)&lt;inf&gt;2&lt;/inf&gt; nanoparticles in carbonate stones</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1061/(ASCE)MT.1943-5533.0000740</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1061/(asce)mt.1943-5533.0000740</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84886893766</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84886893766</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84886893766&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Materials in Civil Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.548Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.apt.2013.03.011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.apt.2013.03.011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84883819787</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84883819787</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472169" path="/0000-0002-8755-8191/work/56472169" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.548Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.548Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>TEM-STEM study of europium doped gadolinium oxide nanoparticles synthesized by spray pyrolysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.apt.2013.03.011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.apt.2013.03.011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84883819787</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84883819787</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84883819787&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Powder Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.509Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84867006583</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84867006583</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/cg300628m</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/cg300628m</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472160" path="/0000-0002-8755-8191/work/56472160" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.509Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.509Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Atomic defects and their relationship to aragonite-calcite transformation in portlandite nanocrystal carbonation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/cg300628m</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/cg300628m</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84867006583</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84867006583</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84867006583&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Crystal Growth and Design</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.552Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84355165235</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84355165235</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.matchemphys.2011.11.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.matchemphys.2011.11.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472170" path="/0000-0002-8755-8191/work/56472170" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.552Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.552Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High resolution transmission electron microscopy study on the development of nanostructured precipitates in Al-Cu obtained by mechanical alloying</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.matchemphys.2011.11.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.matchemphys.2011.11.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84355165235</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84355165235</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84355165235&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materials Chemistry and Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.519Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00339-011-6550-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00339-011-6550-6</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84856059931</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84856059931</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472162" path="/0000-0002-8755-8191/work/56472162" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.519Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.519Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nucleation of CaCO &lt;inf&gt;3&lt;/inf&gt; polymorphs from a colloidal alcoholic solution of Ca(OH) &lt;inf&gt;2&lt;/inf&gt; nanocrystals exposed to low humidity conditions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00339-011-6550-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00339-011-6550-6</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84856059931</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84856059931</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84856059931&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Physics A: Materials Science and Processing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.488Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79959782459</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79959782459</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3989/cyv.122011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3989/cyv.122011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472155" path="/0000-0002-8755-8191/work/56472155" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.488Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.488Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Evaluation of a consolidation treatment in dolostones by mean of calcium hydroxide nanoparticles in high relative humidity conditions,Evaluación del tratamiento de consolidación de dolomías mediante nanopartículas de hidróxido de calcio en condiciones de alta humedad relativa</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3989/cyv.122011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3989/cyv.122011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79959782459</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79959782459</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79959782459&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Boletin de la Sociedad Espanola de Ceramica y Vidrio</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.531Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.powtec.2010.09.026</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.powtec.2010.09.026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-78049319392</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-78049319392</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472165" path="/0000-0002-8755-8191/work/56472165" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.531Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.531Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of relative humidity on the carbonation of calcium hydroxide nanoparticles and the formation of calcium carbonate polymorphs</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.powtec.2010.09.026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.powtec.2010.09.026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-78049319392</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-78049319392</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-78049319392&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Powder Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.556Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80053931481</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80053931481</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00339-011-6457-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00339-011-6457-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472171" path="/0000-0002-8755-8191/work/56472171" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.556Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.556Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structural stability of a colloidal solution of Ca(OH) &lt;inf&gt;2&lt;/inf&gt;nanocrystals exposed to high relative humidity conditions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00339-011-6457-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00339-011-6457-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80053931481</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80053931481</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80053931481&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Physics A: Materials Science and Processing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-15T23:02:06.503Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-74449087592</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-74449087592</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.matchar.2009.11.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.matchar.2009.11.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56472159" path="/0000-0002-8755-8191/work/56472159" visibility="public" display-index="0">
+                    <common:created-date>2019-04-15T23:02:06.503Z</common:created-date>
+                    <common:last-modified-date>2019-04-15T23:02:06.503Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of porosity and relative humidity on consolidation of dolostone with calcium hydroxide nanoparticles: Effectiveness assessment with non-destructive techniques</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.matchar.2009.11.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.matchar.2009.11.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-74449087592</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-74449087592</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-74449087592&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materials Characterization</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

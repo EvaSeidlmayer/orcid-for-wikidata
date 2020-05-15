@@ -1,0 +1,2210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-6000-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+        <common:path>0000-0001-6000-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2014-04-29T15:36:53.259Z</history:submission-date>
+        <common:last-modified-date>2019-06-14T23:24:59.879Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-6000-4191/person">
+        <person:name visibility="public" path="0000-0001-6000-4191">
+            <common:created-date>2016-04-15T20:57:43.668Z</common:created-date>
+            <common:last-modified-date>2016-04-15T20:57:43.668Z</common:last-modified-date>
+            <personal-details:given-names>Sally</personal-details:given-names>
+            <personal-details:family-name>Jackson</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-6000-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-6000-4191/researcher-urls"/>
+        <email:emails path="/0000-0001-6000-4191/email"/>
+        <address:addresses path="/0000-0001-6000-4191/address"/>
+        <keyword:keywords path="/0000-0001-6000-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-6000-4191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-6000-4191/activities">
+        <common:last-modified-date>2018-08-22T17:12:41.151Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-6000-4191/distinctions"/>
+        <activities:educations path="/0000-0001-6000-4191/educations">
+            <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="243583" display-index="0" path="/0000-0001-6000-4191/education/243583" visibility="public">
+                    <common:created-date>2014-04-29T15:38:29.789Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Speech Communication</common:department-name>
+                    <common:role-title>PhD</common:role-title>
+                    <common:start-date>
+                        <common:year>1976</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1980</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Illinois at Urbana-Champaign</common:name>
+                        <common:address>
+                            <common:city>Urbana</common:city>
+                            <common:region>IL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>14589</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-6000-4191/employments">
+            <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="243584" display-index="0" path="/0000-0001-6000-4191/employment/243584" visibility="public">
+                    <common:created-date>2014-04-29T15:39:14.498Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Communication</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>05</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Illinois at Urbana-Champaign</common:name>
+                        <common:address>
+                            <common:city>Urbana</common:city>
+                            <common:region>IL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>14589</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="243585" display-index="0" path="/0000-0001-6000-4191/employment/243585" visibility="public">
+                    <common:created-date>2014-04-29T15:40:14.968Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Communication</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1991</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>05</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Arizona</common:name>
+                        <common:address>
+                            <common:city>Tucson</common:city>
+                            <common:region>AZ</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>8041</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="243601" display-index="0" path="/0000-0001-6000-4191/employment/243601" visibility="public">
+                    <common:created-date>2014-04-29T15:54:08.833Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Communication</common:department-name>
+                    <common:role-title>Associate Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1985</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1990</common:year>
+                        <common:month>12</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Oklahoma</common:name>
+                        <common:address>
+                            <common:city>Norman</common:city>
+                            <common:region>OK</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6187</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="243602" display-index="0" path="/0000-0001-6000-4191/employment/243602" visibility="public">
+                    <common:created-date>2014-04-29T15:54:57.612Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Communication</common:department-name>
+                    <common:role-title>Assistant Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1982</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1985</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Michigan State University</common:name>
+                        <common:address>
+                            <common:city>East Lansing</common:city>
+                            <common:region>MI</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3078</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="243604" display-index="0" path="/0000-0001-6000-4191/employment/243604" visibility="public">
+                    <common:created-date>2014-04-29T15:55:48.704Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T02:25:52.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6000-4191</common:uri>
+                            <common:path>0000-0001-6000-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sally Jackson</common:source-name>
+                    </common:source>
+                    <common:department-name>Speech Communication</common:department-name>
+                    <common:role-title>Assistant Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1979</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1982</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Nebraska-Lincoln</common:name>
+                        <common:address>
+                            <common:city>Lincoln</common:city>
+                            <common:region>NE</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>14719</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-6000-4191/fundings"/>
+        <activities:invited-positions path="/0000-0001-6000-4191/invited-positions"/>
+        <activities:memberships path="/0000-0001-6000-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-6000-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-6000-4191/qualifications"/>
+        <activities:research-resources path="/0000-0001-6000-4191/research-resources"/>
+        <activities:services path="/0000-0001-6000-4191/services"/>
+        <activities:works path="/0000-0001-6000-4191/works">
+            <common:last-modified-date>2018-08-22T17:12:41.151Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-08-22T17:12:41.151Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11245-018-9553-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11245-018-9553-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s11245-018-9553-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="47631137" path="/0000-0001-6000-4191/work/47631137" visibility="public" display-index="0">
+                    <common:created-date>2018-08-22T17:12:41.151Z</common:created-date>
+                    <common:last-modified-date>2018-08-22T17:12:41.151Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Reason-Giving and the Natural Normativity of Argumentation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11245-018-9553-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11245-018-9553-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s11245-018-9553-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s11245-018-9553-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Topoi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-22T17:12:40.836Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10503-017-9440-z</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10503-017-9440-z</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s10503-017-9440-z</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="47631135" path="/0000-0001-6000-4191/work/47631135" visibility="public" display-index="0">
+                    <common:created-date>2018-08-22T17:12:40.836Z</common:created-date>
+                    <common:last-modified-date>2018-08-22T17:12:40.836Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cochrane Review as a “Warranting Device” for Reasoning About Health</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10503-017-9440-z</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10503-017-9440-z</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s10503-017-9440-z</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s10503-017-9440-z</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-22T17:12:41.009Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10503-018-9459-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10503-018-9459-9</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s10503-018-9459-9</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="47631136" path="/0000-0001-6000-4191/work/47631136" visibility="public" display-index="0">
+                    <common:created-date>2018-08-22T17:12:41.009Z</common:created-date>
+                    <common:last-modified-date>2018-08-22T17:12:41.009Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Frans H. van Eemeren and Wu Peng (eds): Contextualizing Pragma-Dialectics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10503-018-9459-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10503-018-9459-9</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s10503-018-9459-9</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s10503-018-9459-9</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.856Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00909882.2014.882009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00909882.2014.882009</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436147" path="/0000-0001-6000-4191/work/12436147" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:51:59.708Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.856Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Becoming More Reflective about the Role of Design in Communication</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0090-9882</common:external-id-value>
+                            <common:external-id-normalized transient="true">0090-9882</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00909882.2014.882009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00909882.2014.882009</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>04</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Applied Communication Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:28.502Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10503-008-9094-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10503-008-9094-y</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435872" path="/0000-0001-6000-4191/work/12435872" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:41:32.226Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:28.502Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Black Box Arguments</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0920-427X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0920-427X</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10503-008-9094-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10503-008-9094-y</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:29.043Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10503-008-9099-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10503-008-9099-6</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435884" path="/0000-0001-6000-4191/work/12435884" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:43:04.853Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:29.043Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comments on ‘Strategic Maneuvering in Mathematical Proofs’</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0920-427X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0920-427X</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10503-008-9099-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10503-008-9099-6</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.106Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978-3-11-013710-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">9783110137101</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>issn</common:external-id-type>
+                        <common:external-id-value>1861-5090</common:external-id-value>
+                        <common:external-id-normalized transient="true">1861-5090</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/9783110211405.4.855</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/9783110211405.4.855</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436136" path="/0000-0001-6000-4191/work/12436136" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:50:19.382Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.106Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>50. Message effects research</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/9783110211405.4.855</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/9783110211405.4.855</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1861-5090</common:external-id-value>
+                            <common:external-id-normalized transient="true">1861-5090</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-3-11-013710-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783110137101</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Rhetoric and Stylistics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.108Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>issn</common:external-id-type>
+                        <common:external-id-value>1574-1583</common:external-id-value>
+                        <common:external-id-normalized transient="true">1574-1583</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>978 90 272 1886 5</common:external-id-value>
+                        <common:external-id-normalized transient="true">9789027218865</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1075/cvs.6.14jac</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1075/cvs.6.14jac</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436122" path="/0000-0001-6000-4191/work/12436122" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:47:42.885Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.108Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predicaments of politicization in the debate over abstinence-only sex education</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1075/cvs.6.14jac</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1075/cvs.6.14jac</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1574-1583</common:external-id-value>
+                            <common:external-id-normalized transient="true">1574-1583</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978 90 272 1886 5</common:external-id-value>
+                            <common:external-id-normalized transient="true">9789027218865</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Controversy and Confrontation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.029Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03634520109379247</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03634520109379247</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436135" path="/0000-0001-6000-4191/work/12436135" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:49:58.869Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.029Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Identification of and adaptation to students’ preinstructional beliefs in introductory communication research methods: Contributions of interactive web technology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-4523</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-4523</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03634520109379247</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03634520109379247</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communication Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.692Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00913367.2001.10673628</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00913367.2001.10673628</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436145" path="/0000-0001-6000-4191/work/12436145" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:51:48.222Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.692Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Effects of Sexual Social Marketing Appeals on Cognitive Processing and Persuasion</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0091-3367</common:external-id-value>
+                            <common:external-id-normalized transient="true">0091-3367</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00913367.2001.10673628</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00913367.2001.10673628</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Advertising</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.920Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00335630009384292</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00335630009384292</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436133" path="/0000-0001-6000-4191/work/12436133" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:49:48.477Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.920Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Book reviews</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0033-5630</common:external-id-value>
+                            <common:external-id-normalized transient="true">0033-5630</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00335630009384292</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00335630009384292</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Quarterly Journal of Speech</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.712Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1999.tb00456.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1999.tb00456.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436130" path="/0000-0001-6000-4191/work/12436130" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:48:54.950Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.712Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Changing Conceptions of "Message Effects" A 24-Year Overview</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1999.tb00456.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1999.tb00456.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Comm Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.391Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2307/1270421</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2307/1270421</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435919" path="/0000-0001-6000-4191/work/12435919" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:44:01.358Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.391Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Random Factors in ANOVA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0040-1706</common:external-id-value>
+                            <common:external-id-normalized transient="true">0040-1706</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2307/1270421</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2307/1270421</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Technometrics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.822Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1994.tb00327.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1994.tb00327.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435925" path="/0000-0001-6000-4191/work/12435925" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:45:08.216Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.822Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>M &gt; 1</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1994.tb00327.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1994.tb00327.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Communication Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.469Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1037/034004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1037/034004</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435920" path="/0000-0001-6000-4191/work/12435920" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:44:10.444Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.469Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>One Way of Looking at the Blackbird.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1037/034004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1037/034004</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1554-0138</common:external-id-value>
+                            <common:external-id-normalized transient="true">1554-0138</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PsycCRITIQUES</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.331Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2307/2074578</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2307/2074578</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436139" path="/0000-0001-6000-4191/work/12436139" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:51:08.985Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.331Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Meta-Analysis for Explanation: A Casebook.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0094-3061</common:external-id-value>
+                            <common:external-id-normalized transient="true">0094-3061</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2307/2074578</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2307/2074578</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Contemporary Sociology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:32.771Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10417949309372893</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10417949309372893</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436115" path="/0000-0001-6000-4191/work/12436115" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:47:23.837Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:32.771Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>How to do things to words: The experimental manipulation of message variables</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10417949309372893</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10417949309372893</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1041-794X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1041-794X</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Southern Communication Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.294Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/01463379209369837</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/01463379209369837</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436124" path="/0000-0001-6000-4191/work/12436124" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:48:04.459Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.294Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Statistical testing in treatment by replication designs: Three options reconsidered</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0146-3373</common:external-id-value>
+                            <common:external-id-normalized transient="true">0146-3373</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/01463379209369837</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/01463379209369837</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communication Quarterly</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.914Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/bf00154323</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/bf00154323</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435926" path="/0000-0001-6000-4191/work/12435926" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:45:17.820Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.914Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relevance and digressions in argumentative discussion: A pragmatic approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0920-427X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0920-427X</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/bf00154323</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/bf00154323</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:28.964Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1037/032490</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1037/032490</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435883" path="/0000-0001-6000-4191/work/12435883" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:42:46.207Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:28.964Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multiple Perspectives on Intentions.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1037/032490</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1037/032490</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1554-0138</common:external-id-value>
+                            <common:external-id-normalized transient="true">1554-0138</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PsycCRITIQUES</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.718Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03637759109376241</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03637759109376241</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435923" path="/0000-0001-6000-4191/work/12435923" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:44:38.051Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.718Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Meta‐analysis for primary and secondary data analysis: The super‐experiment metaphor</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-7751</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-7751</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03637759109376241</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03637759109376241</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1991</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Communication Monographs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03637758909390270</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03637758909390270</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436125" path="/0000-0001-6000-4191/work/12436125" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:48:15.063Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Messages as replications: Toward a message‐centered design strategy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-7751</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-7751</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03637758909390270</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03637758909390270</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Communication Monographs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:32.524Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1988.tb00176.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1988.tb00176.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436111" path="/0000-0001-6000-4191/work/12436111" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:46:55.824Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:32.524Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Reply to Morley</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1988.tb00176.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1988.tb00176.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1988</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Comm Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.566Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1988.tb00174.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1988.tb00174.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436128" path="/0000-0001-6000-4191/work/12436128" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:48:44.290Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.566Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Search for Reliable Generalizations About Messages A Comparison of Research Strategies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1988.tb00174.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1988.tb00174.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1988</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Comm Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:33.485Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1983.tb00691.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1983.tb00691.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436127" path="/0000-0001-6000-4191/work/12436127" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:48:37.986Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:33.485Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>GENERALIZING ABOUT MESSAGES: SUGGESTIONS FOR DESIGN AND ANALYSIS OF EXPERIMENTS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1983.tb00691.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1983.tb00691.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Comm Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:32.615Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03637758309390171</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03637758309390171</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436112" path="/0000-0001-6000-4191/work/12436112" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:47:08.324Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:32.615Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Strategy and structure in conversational influence attempts</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-7751</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-7751</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03637758309390171</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03637758309390171</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Communication Monographs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.451Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00335638209383627</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00335638209383627</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436140" path="/0000-0001-6000-4191/work/12436140" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:51:25.587Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.451Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Book reviews</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0033-5630</common:external-id-value>
+                            <common:external-id-normalized transient="true">0033-5630</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00335638209383627</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00335638209383627</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1982</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Quarterly Journal of Speech</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:32.696Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10510978209388453</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10510978209388453</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436113" path="/0000-0001-6000-4191/work/12436113" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:47:17.405Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:32.696Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Are compliance‐gaining strategies dependent on situational variables?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0008-9575</common:external-id-value>
+                            <common:external-id-normalized transient="true">0008-9575</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10510978209388453</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10510978209388453</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1982</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Central States Speech Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:31.014Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03637758209376082</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03637758209376082</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435928" path="/0000-0001-6000-4191/work/12435928" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:45:30.625Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:31.014Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Two models of syllogistic reasoning: An empirical comparison</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-7751</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-7751</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03637758209376082</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03637758209376082</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1982</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communication Monographs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:31.193Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0305000900003718</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0305000900003718</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436060" path="/0000-0001-6000-4191/work/12436060" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:46:35.100Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:31.193Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ambiguity and implicature in children's discourse comprehension</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0305-0009</common:external-id-value>
+                            <common:external-id-normalized transient="true">0305-0009</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0305000900003718</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0305000900003718</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1982</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>J. Child Lang.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.222Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1468-2958.1982.tb00661.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1468-2958.1982.tb00661.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436137" path="/0000-0001-6000-4191/work/12436137" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:50:54.988Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.222Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>NONSTATIONARY DATA SHOULD NOT BE "CORRECTED"</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0360-3989</common:external-id-value>
+                            <common:external-id-normalized transient="true">0360-3989</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1468-2958.1982.tb00661.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1468-2958.1982.tb00661.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1982</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Human Comm Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.554Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03637758109376060</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03637758109376060</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435921" path="/0000-0001-6000-4191/work/12435921" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:44:17.757Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.554Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Conversational implicature in children's comprehension of reference</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0363-7751</common:external-id-value>
+                            <common:external-id-normalized transient="true">0363-7751</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03637758109376060</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03637758109376060</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1981</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communication Monographs</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:34.535Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10570318109374035</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10570318109374035</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436143" path="/0000-0001-6000-4191/work/12436143" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:51:33.949Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:34.535Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Argument as a natural category: The routine grounds for arguing in conversation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0193-6700</common:external-id-value>
+                            <common:external-id-normalized transient="true">0193-6700</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10570318109374035</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10570318109374035</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1981</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Western Journal of Speech Communication</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:32.845Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00335638009383524</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00335638009383524</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436116" path="/0000-0001-6000-4191/work/12436116" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:47:33.799Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:32.845Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structure of conversational argument: Pragmatic bases for the enthymeme</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0033-5630</common:external-id-value>
+                            <common:external-id-normalized transient="true">0033-5630</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00335638009383524</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00335638009383524</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1980</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Quarterly Journal of Speech</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.623Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4135/9781446289068.n5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4135/9781446289068.n5</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>9781848606494</common:external-id-value>
+                        <common:external-id-normalized transient="true">9781848606494</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435922" path="/0000-0001-6000-4191/work/12435922" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:44:27.591Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.623Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Argumentation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4135/9781446289068.n5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4135/9781446289068.n5</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781848606494</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781848606494</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Discourse Studies: A Multidisciplinary Introduction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:31.115Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4135/9781446221884.n8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4135/9781446221884.n8</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>9780803978454</common:external-id-value>
+                        <common:external-id-normalized transient="true">9780803978454</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12436058" path="/0000-0001-6000-4191/work/12436058" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:46:19.275Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:31.115Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Argumentation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4135/9781446221884.n8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4135/9781446221884.n8</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780803978454</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780803978454</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Discourse as Structure and Process: Discourse Studies: A Multidisciplinary Introduction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:28.582Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>9783110867718</common:external-id-value>
+                        <common:external-id-normalized transient="true">9783110867718</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/9783110867718.217</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/9783110867718.217</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435873" path="/0000-0001-6000-4191/work/12435873" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:41:54.884Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:28.582Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chapter 19. Rational and Pragmatic Aspects of Argument</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/9783110867718.217</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/9783110867718.217</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783110867718</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783110867718</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Across the Lines of Disciplines</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-21T17:12:30.313Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/9783110885651.513</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/9783110885651.513</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>9783110885651</common:external-id-value>
+                        <common:external-id-normalized transient="true">9783110885651</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/9783110885651.681</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/9783110885651.681</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="12435896" path="/0000-0001-6000-4191/work/12435896" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:43:34.851Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:29.515Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chapter 25. The Arguer in Interpersonal Argument: Pros and Cons of Individual-Level Analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/9783110885651.513</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/9783110885651.513</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783110885651</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783110885651</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Readings in Argumentation</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="12435918" path="/0000-0001-6000-4191/work/12435918" visibility="public" display-index="0">
+                    <common:created-date>2014-04-29T15:43:52.699Z</common:created-date>
+                    <common:last-modified-date>2015-07-21T17:12:30.313Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chapter 34. Structure of Conversational Argument: Pragmatic Bases for the Enthymeme</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/9783110885651.681</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/9783110885651.681</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783110885651</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783110885651</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Readings in Argumentation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

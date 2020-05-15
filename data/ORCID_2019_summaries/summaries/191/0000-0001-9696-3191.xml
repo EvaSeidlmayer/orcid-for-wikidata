@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-9696-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+        <common:path>0000-0001-9696-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-01-11T13:05:05.220Z</history:submission-date>
+        <common:last-modified-date>2019-07-02T08:59:00.112Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-9696-3191/person">
+        <common:last-modified-date>2019-07-02T08:50:36.338Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-9696-3191">
+            <common:created-date>2018-01-11T13:05:05.220Z</common:created-date>
+            <common:last-modified-date>2018-01-11T13:05:05.448Z</common:last-modified-date>
+            <personal-details:given-names>Ian</personal-details:given-names>
+            <personal-details:family-name>Johnston</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-9696-3191/other-names"/>
+        <person:biography visibility="public" path="/0000-0001-9696-3191/biography">
+            <common:created-date>2018-01-18T22:19:38.087Z</common:created-date>
+            <common:last-modified-date>2019-07-02T08:46:36.517Z</common:last-modified-date>
+            <personal-details:content>Dr Ian Johnston is an Associate Professor of Research in the School of Engineering and Computer Science at the University of Hertfordshire.
+
+My research related roles include:
+Head of the Bioengineering Research Group.
+Interim Head of the Microfluidics &amp; Microengineering Research Group.
+Member of the Centre for Research in Biodetection Technologies. 
+Member of the Extracellular Vesicle Research Unit.
+
+I am a research Engineer who specialises in exploitation of microfluidic techniques for advancement of biodetection technologies. Current biodetection application areas include biowarfare, food security, healthcare monitoring, aquaculture and environmental monitoring, crop protection, woodland &amp; plant biosecurity. My academic interests lie in exploring the boundaries between and integration of engineering, physical sciences and biology to develop new approaches and solutions for real world challenges.
+
+My research focuses on academic and industrial experimental research into microfluidic lab-on-a-chip devices and integrated systems for both laboratory prototype and in-field Biodetection applications. Areas of expertise include droplet microfluidics, EWOD, microfluidic magnetic separation, biological sample processing and microfluidic flow control including micropumping and micromixing.</personal-details:content>
+        </person:biography>
+        <researcher-url:researcher-urls path="/0000-0001-9696-3191/researcher-urls">
+            <common:last-modified-date>2019-07-02T08:50:36.338Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1342236" visibility="public" path="/0000-0001-9696-3191/researcher-urls/1342236" display-index="2">
+                <common:created-date>2018-01-18T21:28:32.003Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:50:36.338Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Microfluidics &amp; Microengineering Research Group</researcher-url:url-name>
+                <researcher-url:url>http://go.herts.ac.uk/microfluidics</researcher-url:url>
+            </researcher-url:researcher-url>
+            <researcher-url:researcher-url put-code="1771405" visibility="public" path="/0000-0001-9696-3191/researcher-urls/1771405" display-index="1">
+                <common:created-date>2019-07-02T08:49:13.554Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:50:36.338Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Centre for Research in Biodetection Technologies</researcher-url:url-name>
+                <researcher-url:url>http://go.herts.ac.uk/biodetection-technologies</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0001-9696-3191/email"/>
+        <address:addresses path="/0000-0001-9696-3191/address">
+            <common:last-modified-date>2018-01-18T21:27:37.837Z</common:last-modified-date>
+            <address:address put-code="877488" visibility="public" path="/0000-0001-9696-3191/address/877488" display-index="1">
+                <common:created-date>2018-01-18T21:27:37.837Z</common:created-date>
+                <common:last-modified-date>2018-01-18T21:27:37.837Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <address:country>GB</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-9696-3191/keywords">
+            <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+            <keyword:keyword put-code="878086" visibility="public" path="/0000-0001-9696-3191/keywords/878086" display-index="10">
+                <common:created-date>2018-01-18T21:32:55.239Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Microfluidics</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878087" visibility="public" path="/0000-0001-9696-3191/keywords/878087" display-index="9">
+                <common:created-date>2018-01-18T21:32:55.240Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>MEMS</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878088" visibility="public" path="/0000-0001-9696-3191/keywords/878088" display-index="8">
+                <common:created-date>2018-01-18T21:32:55.241Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Biodetection</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878089" visibility="public" path="/0000-0001-9696-3191/keywords/878089" display-index="7">
+                <common:created-date>2018-01-18T21:32:55.242Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Systems</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878090" visibility="public" path="/0000-0001-9696-3191/keywords/878090" display-index="6">
+                <common:created-date>2018-01-18T21:34:05.594Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Aerosols</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878091" visibility="public" path="/0000-0001-9696-3191/keywords/878091" display-index="5">
+                <common:created-date>2018-01-18T21:34:05.595Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Sensors</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878092" visibility="public" path="/0000-0001-9696-3191/keywords/878092" display-index="4">
+                <common:created-date>2018-01-18T21:34:05.596Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Pathogen</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="878093" visibility="public" path="/0000-0001-9696-3191/keywords/878093" display-index="3">
+                <common:created-date>2018-01-18T21:34:05.597Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.992Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Agritec</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="1299898" visibility="public" path="/0000-0001-9696-3191/keywords/1299898" display-index="2">
+                <common:created-date>2019-07-02T08:48:12.989Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.989Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Sample Collectioon</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="1299899" visibility="public" path="/0000-0001-9696-3191/keywords/1299899" display-index="1">
+                <common:created-date>2019-07-02T08:48:12.991Z</common:created-date>
+                <common:last-modified-date>2019-07-02T08:48:12.991Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                        <common:path>0000-0001-9696-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ian Johnston</common:source-name>
+                </common:source>
+                <keyword:content>Sample Processing</keyword:content>
+            </keyword:keyword>
+        </keyword:keywords>
+        <external-identifier:external-identifiers path="/0000-0001-9696-3191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-9696-3191/activities">
+        <common:last-modified-date>2019-07-02T08:59:00.113Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-9696-3191/distinctions"/>
+        <activities:educations path="/0000-0001-9696-3191/educations">
+            <common:last-modified-date>2018-01-18T21:23:13.512Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-18T21:23:13.512Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5238177" display-index="0" path="/0000-0001-9696-3191/education/5238177" visibility="public">
+                    <common:created-date>2018-01-18T21:23:13.512Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:23:13.512Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>Science and Technology Research Institute</common:department-name>
+                    <common:role-title>PhD 'Development of a High Precision Micro-System Based Instrument for the Quantification of Erythrocyte Rheology'.</common:role-title>
+                    <common:start-date>
+                        <common:year>1994</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2001</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Hertfordshire</common:name>
+                        <common:address>
+                            <common:city>Hatfield</common:city>
+                            <common:region>Hertfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3769</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>http://www.herts.ac.uk/research/centres-and-groups/cer/microfluidics-and-microengineering</common:url>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-18T21:20:12.873Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5238162" display-index="0" path="/0000-0001-9696-3191/education/5238162" visibility="public">
+                    <common:created-date>2018-01-18T21:20:12.873Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:20:12.873Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>Physics</common:department-name>
+                    <common:role-title>BSc Physics with Astrophysics</common:role-title>
+                    <common:start-date>
+                        <common:year>1991</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1994</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Leeds</common:name>
+                        <common:address>
+                            <common:city>Leeds</common:city>
+                            <common:region>West Yorkshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4468</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>https://physicalsciences.leeds.ac.uk/info/37/school_of_physics_and_astronomy</common:url>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-9696-3191/employments">
+            <common:last-modified-date>2019-07-02T08:59:00.113Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-02T08:59:00.113Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8181056" display-index="1" path="/0000-0001-9696-3191/employment/8181056" visibility="public">
+                    <common:created-date>2019-07-02T08:58:34.810Z</common:created-date>
+                    <common:last-modified-date>2019-07-02T08:59:00.113Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Engineering and Computer Science</common:department-name>
+                    <common:role-title>Interim Head of the Microfluidics and Microengineering Research Group</common:role-title>
+                    <common:start-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Hertfordshire</common:name>
+                        <common:address>
+                            <common:city>Hatfield</common:city>
+                            <common:region>Hertfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3769</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-02T08:56:03.825Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8181037" display-index="1" path="/0000-0001-9696-3191/employment/8181037" visibility="public">
+                    <common:created-date>2019-07-02T08:56:03.825Z</common:created-date>
+                    <common:last-modified-date>2019-07-02T08:56:03.825Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Engineering and Computer Science</common:department-name>
+                    <common:role-title>Head of the Bioengineering Research Group</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Hertfordshire</common:name>
+                        <common:address>
+                            <common:city>Hatfield</common:city>
+                            <common:region>Hertfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3769</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-02T08:57:13.835Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5238232" display-index="1" path="/0000-0001-9696-3191/employment/5238232" visibility="public">
+                    <common:created-date>2018-01-18T21:36:28.864Z</common:created-date>
+                    <common:last-modified-date>2019-07-02T08:57:13.835Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Engineering and Technology</common:department-name>
+                    <common:role-title>Senior Research Fellow - Microfluidic Systems</common:role-title>
+                    <common:start-date>
+                        <common:year>2004</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Hertfordshire</common:name>
+                        <common:address>
+                            <common:city>Hatfield</common:city>
+                            <common:region>Hertfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3769</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>http://www.herts.ac.uk/research/centres-and-groups/cer/microfluidics-and-microengineering</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-18T21:38:46.648Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5238243" display-index="0" path="/0000-0001-9696-3191/employment/5238243" visibility="public">
+                    <common:created-date>2018-01-18T21:38:46.648Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:38:46.648Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <common:department-name>Science and Technology Research Institure</common:department-name>
+                    <common:role-title>Post Doctoral Research Fellow</common:role-title>
+                    <common:start-date>
+                        <common:year>2001</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2004</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Hertfordshire</common:name>
+                        <common:address>
+                            <common:city>Hatfield</common:city>
+                            <common:region>Hertfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3769</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-9696-3191/fundings">
+            <common:last-modified-date>2018-01-18T22:31:59.192Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T21:48:12.961Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="412660" path="/0000-0001-9696-3191/funding/412660" visibility="public" display-index="1">
+                    <common:created-date>2018-01-18T21:48:12.961Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:48:12.961Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Further development of the Integrated Breadboard Biological Detection (IBBD) system.</common:title>
+                    </funding:title>
+                    <funding:type>contract</funding:type>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Defence Science and Technology Laboratory</common:name>
+                        <common:address>
+                            <common:city>Porton Down</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/100010418</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T22:04:39.776Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>614057</common:external-id-value>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="412663" path="/0000-0001-9696-3191/funding/412663" visibility="public" display-index="1">
+                    <common:created-date>2018-01-18T22:04:39.776Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T22:04:39.776Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>EnviGuard</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>614057</common:external-id-value>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.enviguard.net</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>European Commission</common:name>
+                        <common:address>
+                            <common:city>Brussels</common:city>
+                            <common:country>BE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000780</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T22:08:52.447Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="412664" path="/0000-0001-9696-3191/funding/412664" visibility="public" display-index="1">
+                    <common:created-date>2018-01-18T22:08:52.447Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T22:08:52.447Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Automated Sample Processing Unit for Incorporation into a Biological Identification System.</common:title>
+                    </funding:title>
+                    <funding:type>contract</funding:type>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Defence Science and Technology Laboratory</common:name>
+                        <common:address>
+                            <common:city>Porton Down</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/100010418</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T22:15:11.169Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="412666" path="/0000-0001-9696-3191/funding/412666" visibility="public" display-index="1">
+                    <common:created-date>2018-01-18T22:15:11.169Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T22:15:11.169Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Bio Detection: Dean-Flow Sample Clean- Up to Optimize and Extend the Operational Envelope of Biodection Systems.</common:title>
+                    </funding:title>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Center for Defence  Enterprise</common:name>
+                        <common:address>
+                            <common:city>Porton Down</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000894</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T22:31:59.192Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="412668" path="/0000-0001-9696-3191/funding/412668" visibility="public" display-index="1">
+                    <common:created-date>2018-01-18T22:23:51.639Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T22:31:59.192Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9696-3191</common:uri>
+                            <common:path>0000-0001-9696-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ian Johnston</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Automated Sample Processing System for Biological Assays.</common:title>
+                    </funding:title>
+                    <funding:type>contract</funding:type>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Defence Science and Technology Laboratory</common:name>
+                        <common:address>
+                            <common:city>Porton `Down</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/100010418</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T21:42:29.496Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>grant.BB/J020532/1</common:external-id-value>
+                        <common:external-id-url>http://gtr.rcuk.ac.uk/project/996033FB-A7BD-4C31-8C97-2DD045296219</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="412650" path="/0000-0001-9696-3191/funding/412650" visibility="public" display-index="0">
+                    <common:created-date>2018-01-18T21:42:29.496Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:42:29.496Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Self-regenerating, suspended-phase whole-cell biosensor system employing micro-chemostat and cell engineering technologies</common:title>
+                        <common:translated-title language-code="en">Self-regenerating, suspended-phase whole-cell biosensor system employing micro-chemostat and cell engineering technologies</common:translated-title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>grant.BB/J020532/1</common:external-id-value>
+                            <common:external-id-url>http://gtr.rcuk.ac.uk/project/996033FB-A7BD-4C31-8C97-2DD045296219</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/501100000268/996033FB-A7BD-4C31-8C97-2DD045296219/Self-regenerating-suspended-phase-whole-cell-biosensor-system-employing-micro-chemostat-and-cell-engineering-technologies</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>12</common:month>
+                        <common:day>03</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>12</common:month>
+                        <common:day>02</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Biotechnology and Biological Sciences Research Council</common:name>
+                        <common:address>
+                            <common:city>n/a</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-18T21:42:29.610Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>grant.BB/M005453/1</common:external-id-value>
+                        <common:external-id-url>http://gtr.rcuk.ac.uk/project/E05FBF93-503D-4304-9901-97E6C5844076</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="412651" path="/0000-0001-9696-3191/funding/412651" visibility="public" display-index="0">
+                    <common:created-date>2018-01-18T21:42:29.610Z</common:created-date>
+                    <common:last-modified-date>2018-01-18T21:42:29.610Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>14TSB_ESAP Improved risk prediction for precision agriculture: automated monitoring of pathogen movement</common:title>
+                        <common:translated-title language-code="en">14TSB_ESAP Improved risk prediction for precision agriculture: automated monitoring of pathogen movement</common:translated-title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>grant.BB/M005453/1</common:external-id-value>
+                            <common:external-id-url>http://gtr.rcuk.ac.uk/project/E05FBF93-503D-4304-9901-97E6C5844076</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/501100000268/E05FBF93-503D-4304-9901-97E6C5844076/14TSB-ESAP-Improved-risk-prediction-for-precision-agriculture-automated-monitoring-of-pathogen-movement</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>01</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Biotechnology and Biological Sciences Research Council</common:name>
+                        <common:address>
+                            <common:city>n/a</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0001-9696-3191/invited-positions"/>
+        <activities:memberships path="/0000-0001-9696-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-9696-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-9696-3191/qualifications"/>
+        <activities:research-resources path="/0000-0001-9696-3191/research-resources"/>
+        <activities:services path="/0000-0001-9696-3191/services"/>
+        <activities:works path="/0000-0001-9696-3191/works"/>
+    </activities:activities-summary>
+</record:record>

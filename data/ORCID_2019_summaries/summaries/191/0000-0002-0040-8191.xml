@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-0040-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-0040-8191</common:uri>
+        <common:path>0000-0002-0040-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-08-24T08:12:18.294Z</history:submission-date>
+        <common:last-modified-date>2019-08-06T09:57:29.645Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-0040-8191/person">
+        <common:last-modified-date>2018-03-23T12:10:05.432Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-0040-8191">
+            <common:created-date>2017-08-24T08:12:18.294Z</common:created-date>
+            <common:last-modified-date>2017-08-24T08:12:18.523Z</common:last-modified-date>
+            <personal-details:given-names>Adrian</personal-details:given-names>
+            <personal-details:family-name>Luca</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-0040-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-0040-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-0040-8191/email"/>
+        <address:addresses path="/0000-0002-0040-8191/address"/>
+        <keyword:keywords path="/0000-0002-0040-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-0040-8191/external-identifiers">
+            <common:last-modified-date>2018-03-23T12:10:05.432Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="956130" visibility="public" path="/0000-0002-0040-8191/external-identifiers/956130" display-index="0">
+                <common:created-date>2018-02-24T17:38:42.902Z</common:created-date>
+                <common:last-modified-date>2018-02-24T17:38:42.902Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>O-4585-2016</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/O-4585-2016</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="983586" visibility="public" path="/0000-0002-0040-8191/external-identifiers/983586" display-index="0">
+                <common:created-date>2018-03-23T12:10:05.432Z</common:created-date>
+                <common:last-modified-date>2018-03-23T12:10:05.432Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>14632483400</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=14632483400&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-0040-8191/activities">
+        <common:last-modified-date>2018-03-23T12:13:46.421Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-0040-8191/distinctions"/>
+        <activities:educations path="/0000-0002-0040-8191/educations"/>
+        <activities:employments path="/0000-0002-0040-8191/employments"/>
+        <activities:fundings path="/0000-0002-0040-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-0040-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-0040-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-0040-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-0040-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-0040-8191/research-resources"/>
+        <activities:services path="/0000-0002-0040-8191/services"/>
+        <activities:works path="/0000-0002-0040-8191/works">
+            <common:last-modified-date>2018-03-23T12:13:46.421Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.316Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000419221500015</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000419221500015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ijcard.2017.09.214</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ijcard.2017.09.214</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.ijcard.2017.09.214</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42284973" path="/0000-0002-0040-8191/work/42284973" visibility="public" display-index="0">
+                    <common:created-date>2018-03-04T20:47:57.980Z</common:created-date>
+                    <common:last-modified-date>2018-03-04T20:47:57.980Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Concealed abnormal atrial phenotype in patients with Brugada syndrome and no history of atrial fibrillation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ijcard.2017.09.214</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ijcard.2017.09.214</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.ijcard.2017.09.214</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.ijcard.2017.09.214</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cardiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42912256" path="/0000-0002-0040-8191/work/42912256" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.316Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.316Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Concealed abnormal atrial phenotype in patients with Brugada syndrome and no history of atrial fibrillation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ijcard.2017.09.214</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ijcard.2017.09.214</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000419221500015</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000419221500015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000419221500015&amp;KeyUID=WOS:000419221500015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cardiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.324Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85006154576</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85006154576</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.amjcard.2016.09.043</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.amjcard.2016.09.043</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000392896900017</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000392896900017</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912122" path="/0000-0002-0040-8191/work/42912122" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.793Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.793Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Usefulness of P-Wave Duration and Morphologic Variability to Identify Patients Prone to Paroxysmal Atrial Fibrillation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.amjcard.2016.09.043</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.amjcard.2016.09.043</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85006154576</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85006154576</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85006154576&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Cardiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42912257" path="/0000-0002-0040-8191/work/42912257" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.324Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.324Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Usefulness of P-Wave Duration and Morphologic Variability to Identify Patients Prone to Paroxysmal Atrial Fibrillation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.amjcard.2016.09.043</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.amjcard.2016.09.043</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000392896900017</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000392896900017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000392896900017&amp;KeyUID=WOS:000392896900017</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Cardiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.327Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000392740000007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000392740000007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/europace/euw360</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/europace/euw360</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912258" path="/0000-0002-0040-8191/work/42912258" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.327Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.327Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Atrial fibrillation septal pacing: translation of modelling results</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/europace/euw360</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/europace/euw360</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000392740000007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000392740000007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000392740000007&amp;KeyUID=WOS:000392740000007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Europace</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.330Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000405710400245</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000405710400245</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912259" path="/0000-0002-0040-8191/work/42912259" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.330Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.330Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>ECG-derived Markers to Identify Patients Prone to Atrial Fibrillation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000405710400245</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000405710400245</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000405710400245&amp;KeyUID=WOS:000405710400245</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2016 Computing in Cardiology Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.333Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000383869500185</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000383869500185</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912260" path="/0000-0002-0040-8191/work/42912260" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.333Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.333Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimental testing of AF septal pacing modeling results</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000383869500185</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000383869500185</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000383869500185&amp;KeyUID=WOS:000383869500185</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Heart Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.337Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84961174968</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84961174968</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/0967-3334/37/3/347</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/0967-3334/37/3/347</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000371965800004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000371965800004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912117" path="/0000-0002-0040-8191/work/42912117" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.776Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.776Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nonlinear analysis of right atrial electrograms predicts termination of persistent atrial fibrillation within the left atrium by catheter ablation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/0967-3334/37/3/347</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/0967-3334/37/3/347</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84961174968</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84961174968</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84961174968&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physiological Measurement</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42912261" path="/0000-0002-0040-8191/work/42912261" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.337Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.337Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nonlinear analysis of right atrial electrograms predicts termination of persistent atrial fibrillation within the left atrium by catheter ablation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/0967-3334/37/3/347</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/0967-3334/37/3/347</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000371965800004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000371965800004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000371965800004&amp;KeyUID=WOS:000371965800004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physiological Measurement</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.340Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000405710400244</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000405710400244</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912262" path="/0000-0002-0040-8191/work/42912262" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.340Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.340Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prediction of Atrial Fibrillation Termination by Catheter Ablation using Adaptive Frequency Tracking of Atrial ECG Signals</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000405710400244</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000405710400244</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000405710400244&amp;KeyUID=WOS:000405710400244</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2016 Computing in Cardiology Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.343Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000383869503030</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000383869503030</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912263" path="/0000-0002-0040-8191/work/42912263" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.343Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.343Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Study of the impact of electrical heterogeneities in the right and left atrium on atrial fibrillation perpetuation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000383869503030</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000383869503030</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000383869503030&amp;KeyUID=WOS:000383869503030</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Heart Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.346Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000358518200202</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000358518200202</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912264" path="/0000-0002-0040-8191/work/42912264" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.346Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.346Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>IMPACT OF CONDUCTION VELOCITY ON LOCAL CAPTURE OF ATRIAL FIBRILLATION INDUCED BY RAPID PACING</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000358518200202</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000358518200202</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000358518200202&amp;KeyUID=WOS:000358518200202</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cardiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.349Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000380374700114</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000380374700114</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912265" path="/0000-0002-0040-8191/work/42912265" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.349Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.349Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of Right and Left Atrial Tissue Heterogeneity on Atrial Fibrillation Perpetuation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000380374700114</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000380374700114</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000380374700114&amp;KeyUID=WOS:000380374700114</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2015 Computing in Cardiology Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.353Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000370068300138</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000370068300138</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912266" path="/0000-0002-0040-8191/work/42912266" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.353Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.353Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Correlation Dimension as a Measure of the Atrial Fibrillation Capture during Atrial Septal Pacing</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000370068300138</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000370068300138</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000370068300138&amp;KeyUID=WOS:000370068300138</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2014 Computing in Cardiology Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.359Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000327924800003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000327924800003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912267" path="/0000-0002-0040-8191/work/42912267" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.359Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.359Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>GENERATING CHAOTIC SECURE SEQUENCES USING TENT MAP AND A RUNNING-KEY APPROACH</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000327924800003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000327924800003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000327924800003&amp;KeyUID=WOS:000327924800003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the Romanian Academy Series a-Mathematics Physics Technical Sciences Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.362Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000322847600012</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000322847600012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912268" path="/0000-0002-0040-8191/work/42912268" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.362Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.362Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>STATISTICAL ANALYSIS OF PSEUDORANDOM BINARY SEQUENCES GENERATED BY USING TENT MAP</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000322847600012</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000322847600012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000322847600012&amp;KeyUID=WOS:000322847600012</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>University Politehnica of Bucharest Scientific Bulletin-Series a-Applied Mathematics and Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.366Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000316341200006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000316341200006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84876220853</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84876220853</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s12243-012-0317-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s12243-012-0317-8</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912121" path="/0000-0002-0040-8191/work/42912121" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.789Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.789Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unifying running-key approach and logistic map to generate enciphering sequences</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12243-012-0317-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12243-012-0317-8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84876220853</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84876220853</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84876220853&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annales des Telecommunications/Annals of Telecommunications</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42912269" path="/0000-0002-0040-8191/work/42912269" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.366Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.366Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unifying running-key approach and logistic map to generate enciphering sequences</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12243-012-0317-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12243-012-0317-8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000316341200006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000316341200006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000316341200006&amp;KeyUID=WOS:000316341200006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Telecommunications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.369Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000305318700010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000305318700010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912270" path="/0000-0002-0040-8191/work/42912270" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.369Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.369Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A CLOSER VIEW OF RUNNING-KEY CIPHER ON NATURAL LANGUAGES AND ITS EXTENSION FOR NEW APPLICATIONS IN CRYPTOGRAPHY</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000305318700010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000305318700010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000305318700010&amp;KeyUID=WOS:000305318700010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the Romanian Academy Series a-Mathematics Physics Technical Sciences Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000307808200004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000307808200004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912271" path="/0000-0002-0040-8191/work/42912271" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.373Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Study on Binary Sequences Generated by Tent Map Having Cryptographic View</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000307808200004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000307808200004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000307808200004&amp;KeyUID=WOS:000307808200004</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2012 9th International Conference on Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:10:26.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ICComm.2012.6262540</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/iccomm.2012.6262540</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84866401883</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84866401883</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912116" path="/0000-0002-0040-8191/work/42912116" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.773Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A study on binary sequences generated by tent map having cryptographic view</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ICComm.2012.6262540</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/iccomm.2012.6262540</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84866401883</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84866401883</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84866401883&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2012 9th International Conference on Communications, COMM 2012 - Conference Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.376Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000301475600008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000301475600008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912272" path="/0000-0002-0040-8191/work/42912272" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.376Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.376Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>OBSERVABILITY AND SINGULARITY IN THE CONTEXT OF ROSSLER MAP</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000301475600008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000301475600008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000301475600008&amp;KeyUID=WOS:000301475600008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>University Politehnica of Bucharest Scientific Bulletin-Series a-Applied Mathematics and Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.379Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000307808200018</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000307808200018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912273" path="/0000-0002-0040-8191/work/42912273" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.380Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.379Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Statistical Study on a Literary Romanian Corpus for the Beginning and Ending of the Words</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000307808200018</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000307808200018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000307808200018&amp;KeyUID=WOS:000307808200018</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2012 9th International Conference on Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.383Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000376618200019</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000376618200019</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912274" path="/0000-0002-0040-8191/work/42912274" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.383Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.383Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Study on the Statistical Structure of Words and of Word Digrams in a Literary Romanian Corpus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000376618200019</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000376618200019</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000376618200019&amp;KeyUID=WOS:000376618200019</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2011 6th Conference on Speech Technology and Human-Computer Dialogue</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:10:26.802Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/SPED.2011.5940743</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/sped.2011.5940743</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80052128780</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80052128780</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912124" path="/0000-0002-0040-8191/work/42912124" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.802Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.802Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A study on the statistical structure of words and of word digrams in a literary romanian corpus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/SPED.2011.5940743</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/sped.2011.5940743</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80052128780</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80052128780</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80052128780&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the 6th International Conference on Speech Technology and Human-Computer Dialogue, SpeD 2011</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.387Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000337925400020</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000337925400020</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ISSCS.2011.5978664</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/isscs.2011.5978664</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80052628216</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80052628216</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912120" path="/0000-0002-0040-8191/work/42912120" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.786Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.786Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Generating random binary sequences using tent map</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ISSCS.2011.5978664</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/isscs.2011.5978664</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80052628216</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80052628216</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80052628216&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ISSCS 2011 - International Symposium on Signals, Circuits and Systems, Proceedings</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="42912275" path="/0000-0002-0040-8191/work/42912275" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.387Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.387Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Generating Random Binary Sequences Using Tent Map</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/isscs.2011.5978664</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/isscs.2011.5978664</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000337925400020</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000337925400020</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000337925400020&amp;KeyUID=WOS:000337925400020</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2011 10th International Symposium on Signals, Circuits and Systems</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.391Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000305796800055</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000305796800055</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912276" path="/0000-0002-0040-8191/work/42912276" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.391Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.391Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Statistical Behaviour of Discrete-Time Rossler System with Time Varying Delay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000305796800055</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000305796800055</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000305796800055&amp;KeyUID=WOS:000305796800055</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computational Science and Its Applications - Iccsa 2011, Pt I</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.396Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000299870700027</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000299870700027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912277" path="/0000-0002-0040-8191/work/42912277" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.396Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.396Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the Occurrences of Two Successive Words in a Literary Romanian Corpus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000299870700027</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000299870700027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000299870700027&amp;KeyUID=WOS:000299870700027</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the 2010 8th International Conference on Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:10:26.780Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ICCOMM.2010.5509036</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/iccomm.2010.5509036</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77955643913</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77955643913</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912118" path="/0000-0002-0040-8191/work/42912118" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.780Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.780Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the occurrences of two successive words in a literary Romanian corpus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ICCOMM.2010.5509036</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/iccomm.2010.5509036</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77955643913</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77955643913</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77955643913&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2010 8th International Conference on Communications, COMM 2010</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.399Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000275854200119</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000275854200119</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912278" path="/0000-0002-0040-8191/work/42912278" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.399Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.399Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Study on Statistical Independence in the Tent Map</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000275854200119</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000275854200119</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000275854200119&amp;KeyUID=WOS:000275854200119</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Isscs 2009: International Symposium on Signals, Circuits and Systems, Vols 1 and 2, Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.406Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000269031700059</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000269031700059</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912279" path="/0000-0002-0040-8191/work/42912279" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.406Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.406Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Computational Measurements of the Transient Time and of the Sampling Distance That Enables Statistical Independence in the Logistic Map</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000269031700059</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000269031700059</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000269031700059&amp;KeyUID=WOS:000269031700059</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computational Science and Its Applications - Iccsa 2009, Pt Ii</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:10:26.812Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-70350635793</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-70350635793</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-02457-3_59</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-02457-3_59</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912127" path="/0000-0002-0040-8191/work/42912127" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.812Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.812Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Computational measurements of the transient time and of the sampling distance that enables statistical independence in the logistic map</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-02457-3_59</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-02457-3_59</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-70350635793</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-70350635793</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-70350635793&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.410Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000260751300012</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000260751300012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912280" path="/0000-0002-0040-8191/work/42912280" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.410Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.410Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Molecular phylogeny of the Romanian cyprinids from the Danube River</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000260751300012</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000260751300012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000260751300012&amp;KeyUID=WOS:000260751300012</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Romanian Biotechnological Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.413Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000250471700123</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000250471700123</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912281" path="/0000-0002-0040-8191/work/42912281" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.413Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.413Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Generating chaotic sequences for enciphering purposes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000250471700123</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000250471700123</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000250471700123&amp;KeyUID=WOS:000250471700123</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Isscs 2007: International Symposium on Signals, Circuits and Systems, Vols 1 and 2</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.417Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000250429700040</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000250429700040</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912282" path="/0000-0002-0040-8191/work/42912282" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.417Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.417Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On statistical independence in the logistic map: A guide to design new chaotic sequences useful in cryptography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000250429700040</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000250429700040</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000250429700040&amp;KeyUID=WOS:000250429700040</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computational Science and Its Applications - Iccsa 2007, Pt 3, Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:10:26.768Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-38149092465</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-38149092465</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912114" path="/0000-0002-0040-8191/work/42912114" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:10:26.768Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:10:26.768Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On statistical independence in the logistic map: A guide to design new chaotic sequences useful in cryptography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-38149092465</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-38149092465</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-38149092465&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-23T12:13:46.421Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000231532900057</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000231532900057</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42912283" path="/0000-0002-0040-8191/work/42912283" visibility="public" display-index="0">
+                    <common:created-date>2018-03-23T12:13:46.421Z</common:created-date>
+                    <common:last-modified-date>2018-03-23T12:13:46.421Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Generating identically and independently distributed samples starting from chaotic signals</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000231532900057</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000231532900057</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000231532900057&amp;KeyUID=WOS:000231532900057</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ISSCS 2005: International Symposium on Signals, Circuits and Systems, Vols 1 and 2, Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

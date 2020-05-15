@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-9826-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+        <common:path>0000-0001-9826-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2013-12-23T16:48:43.925Z</history:submission-date>
+        <common:last-modified-date>2019-08-07T20:14:16.750Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-9826-4191/person">
+        <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-9826-4191">
+            <common:created-date>2016-04-15T21:39:30.718Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:39:30.718Z</common:last-modified-date>
+            <personal-details:given-names>Lino</personal-details:given-names>
+            <personal-details:family-name>Schmid</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-9826-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-9826-4191/researcher-urls"/>
+        <email:emails path="/0000-0001-9826-4191/email"/>
+        <address:addresses path="/0000-0001-9826-4191/address"/>
+        <keyword:keywords path="/0000-0001-9826-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-9826-4191/external-identifiers">
+            <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="11270" visibility="public" path="/0000-0001-9826-4191/external-identifiers/11270" display-index="0">
+                <common:created-date>2014-12-22T18:47:38.112Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56114651800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56114651800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-9826-4191/activities">
+        <common:last-modified-date>2019-08-07T20:14:16.762Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-9826-4191/distinctions"/>
+        <activities:educations path="/0000-0001-9826-4191/educations">
+            <common:last-modified-date>2016-08-08T13:24:25.822Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-08T13:24:25.822Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="45377" display-index="0" path="/0000-0001-9826-4191/education/45377" visibility="public">
+                    <common:created-date>2013-12-23T16:56:24.830Z</common:created-date>
+                    <common:last-modified-date>2016-08-08T13:24:25.822Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:department-name>WSL-Institute for Snow and Avalanche Research</common:department-name>
+                    <common:role-title>Dr.</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>06</common:month>
+                        <common:day>16</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>ETH-Bereich</common:name>
+                        <common:address>
+                            <common:city>Zürich</common:city>
+                            <common:region>ZH</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>27718</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="45373" display-index="0" path="/0000-0001-9826-4191/education/45373" visibility="public">
+                    <common:created-date>2013-12-23T16:53:28.269Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Information Technology and Electircal Engineering</common:department-name>
+                    <common:role-title>Master</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Eidgenössische Technische Hochschule Zürich</common:name>
+                        <common:address>
+                            <common:city>Zürich</common:city>
+                            <common:region>ZH</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>27219</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="45380" display-index="0" path="/0000-0001-9826-4191/education/45380" visibility="public">
+                    <common:created-date>2013-12-23T17:02:42.426Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:department-name>Elektronik, Mess- und Regeltechnik</common:department-name>
+                    <common:role-title>Ingenieur FH</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2006</common:year>
+                        <common:month>12</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Interstaatliche Hochschule fur Technik Buchs NTB</common:name>
+                        <common:address>
+                            <common:city>Buchs</common:city>
+                            <common:region>SG</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>30441</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="45384" display-index="0" path="/0000-0001-9826-4191/education/45384" visibility="public">
+                    <common:created-date>2013-12-23T17:05:41.506Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>Apprenticeship</common:role-title>
+                    <common:start-date>
+                        <common:year>1998</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2002</common:year>
+                        <common:month>07</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Swisscom AG</common:name>
+                        <common:address>
+                            <common:city>Chur</common:city>
+                            <common:region>GR</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>30415</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-9826-4191/employments">
+            <common:last-modified-date>2019-03-15T16:08:40.703Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-03-15T16:08:40.703Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7503229" display-index="1" path="/0000-0001-9826-4191/employment/7503229" visibility="public">
+                    <common:created-date>2019-03-15T16:08:20.763Z</common:created-date>
+                    <common:last-modified-date>2019-03-15T16:08:40.703Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Geopraevent</common:name>
+                        <common:address>
+                            <common:city>Zürich</common:city>
+                            <common:region>ZH</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                    <common:url>http://www.geopraevent.ch</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-12T00:31:04.418Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2106586" display-index="0" path="/0000-0001-9826-4191/employment/2106586" visibility="public">
+                    <common:created-date>2016-08-08T13:27:37.559Z</common:created-date>
+                    <common:last-modified-date>2017-05-12T00:31:04.418Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:department-name>Geophysics</common:department-name>
+                    <common:role-title>Postdoc</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>ETH Zurich</common:name>
+                        <common:address>
+                            <common:city>Zurich</common:city>
+                            <common:region>ZH</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-08T13:25:00.387Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="635882" display-index="0" path="/0000-0001-9826-4191/employment/635882" visibility="public">
+                    <common:created-date>2014-12-22T18:52:33.340Z</common:created-date>
+                    <common:last-modified-date>2016-08-08T13:25:00.387Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>Postdoc</common:role-title>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>06</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>WSL Institute for Snow and Avalanche Research SLF</common:name>
+                        <common:address>
+                            <common:city>Davos Dorf</common:city>
+                            <common:region>Graubünden</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-12-22T18:52:56.150Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="635879" display-index="0" path="/0000-0001-9826-4191/employment/635879" visibility="public">
+                    <common:created-date>2014-12-22T18:51:22.500Z</common:created-date>
+                    <common:last-modified-date>2014-12-22T18:52:56.150Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>PhD student</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>10</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>WSL Institute for Snow and Avalanche Research SLF</common:name>
+                        <common:address>
+                            <common:city>Davos Dorf</common:city>
+                            <common:region>Graubünden</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="45393" display-index="0" path="/0000-0001-9826-4191/employment/45393" visibility="public">
+                    <common:created-date>2013-12-23T17:11:40.658Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>Software Engineer</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>02</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>EPS Software Engineering AG </common:name>
+                        <common:address>
+                            <common:city>Wil</common:city>
+                            <common:region>SG</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="45389" display-index="0" path="/0000-0001-9826-4191/employment/45389" visibility="public">
+                    <common:created-date>2013-12-23T17:09:27.784Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>Electronic Technician</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2003</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Elektronik Hengartner</common:name>
+                        <common:address>
+                            <common:city>Chur</common:city>
+                            <common:region>GR</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="45388" display-index="0" path="/0000-0001-9826-4191/employment/45388" visibility="public">
+                    <common:created-date>2013-12-23T17:08:28.286Z</common:created-date>
+                    <common:last-modified-date>2014-07-21T01:28:51.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <common:role-title>electronic technician</common:role-title>
+                    <common:start-date>
+                        <common:year>2002</common:year>
+                        <common:month>11</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2003</common:year>
+                        <common:month>02</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Elektronik Hengartner</common:name>
+                        <common:address>
+                            <common:city>Chur</common:city>
+                            <common:region>GR</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-9826-4191/fundings"/>
+        <activities:invited-positions path="/0000-0001-9826-4191/invited-positions"/>
+        <activities:memberships path="/0000-0001-9826-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-9826-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-9826-4191/qualifications"/>
+        <activities:research-resources path="/0000-0001-9826-4191/research-resources"/>
+        <activities:services path="/0000-0001-9826-4191/services"/>
+        <activities:works path="/0000-0001-9826-4191/works">
+            <common:last-modified-date>2019-08-07T20:14:16.762Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-05-31T09:11:12.418Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1029/2018WR024431</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1029/2018wr024431</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1029/2018WR024431</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57002111" path="/0000-0001-9826-4191/work/57002111" visibility="public" display-index="0">
+                    <common:created-date>2019-05-02T19:38:38.564Z</common:created-date>
+                    <common:last-modified-date>2019-05-31T09:11:12.418Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Retrieval of Snow Water Equivalent, Liquid Water Content, and Snow Height of Dry and Wet Snow by Combining GPS Signal Attenuation and Time Delay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1029/2018WR024431</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1029/2018wr024431</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1029/2018WR024431</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1029/2018WR024431</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>31</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Water Resources Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-12T20:07:40.151Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/jog.2018.99</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/jog.2018.99</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1017/jog.2018.99</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51890581" path="/0000-0001-9826-4191/work/51890581" visibility="public" display-index="0">
+                    <common:created-date>2018-12-21T07:13:42.833Z</common:created-date>
+                    <common:last-modified-date>2019-04-12T20:07:40.151Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Glacier bed surveying with helicopter-borne dual-polarization ground-penetrating radar</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/jog.2018.99</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/jog.2018.99</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1017/jog.2018.99</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1017/jog.2018.99</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>21</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Glaciology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-01T19:12:13.159Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/TGRS.2018.2802494</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/tgrs.2018.2802494</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/TGRS.2018.2802494</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42397251" path="/0000-0001-9826-4191/work/42397251" visibility="public" display-index="0">
+                    <common:created-date>2018-03-07T20:01:44.773Z</common:created-date>
+                    <common:last-modified-date>2018-06-01T19:12:13.159Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Snow Water Equivalent of Dry Snow Derived From GNSS Carrier Phases</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/TGRS.2018.2802494</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/tgrs.2018.2802494</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/TGRS.2018.2802494</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109/TGRS.2018.2802494</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Geoscience and Remote Sensing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-07-08T08:38:20.960Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-9-2271-2015</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-9-2271-2015</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/tc-9-2271-2015</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="46359387" path="/0000-0001-9826-4191/work/46359387" visibility="public" display-index="0">
+                    <common:created-date>2018-07-08T08:38:20.960Z</common:created-date>
+                    <common:last-modified-date>2018-07-08T08:38:20.960Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Verification of the multi-layer SNOWPACK model with different water transport schemes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-9-2271-2015</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-9-2271-2015</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/tc-9-2271-2015</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/tc-9-2271-2015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>12</common:month>
+                        <common:day>07</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Cryosphere</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-07T20:14:16.762Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/2015JF003593</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/2015jf003593</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/2015JF003593</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="19523671" path="/0000-0001-9826-4191/work/19523671" visibility="public" display-index="0">
+                    <common:created-date>2015-10-22T12:24:19.388Z</common:created-date>
+                    <common:last-modified-date>2019-08-07T20:14:16.762Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Seasonal and diurnal cycles of liquid water in snow—Measurements and modeling</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/2015JF003593</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/2015jf003593</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/2015JF003593</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/2015JF003593</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Geophysical Research: Earth Surface</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-01-27T22:56:29.693Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/2015GL063732</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/2015gl063732</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1002/2015GL063732</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="19523670" path="/0000-0001-9826-4191/work/19523670" visibility="public" display-index="0">
+                    <common:created-date>2015-10-22T12:24:19.077Z</common:created-date>
+                    <common:last-modified-date>2017-01-27T22:56:29.693Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A novel sensor combination (upGPR-GPS) to continuously and nondestructively derive snow cover properties</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/2015GL063732</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/2015gl063732</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1002/2015GL063732</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>05</common:month>
+                        <common:day>16</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Geophysical Research Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T21:37:01.600Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84898630084</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84898630084</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3189/2014JoG13J084</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3189/2014jog13j084</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="14832937" path="/0000-0001-9826-4191/work/14832937" visibility="public" display-index="0">
+                    <common:created-date>2014-12-22T18:47:53.455Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T21:37:01.600Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Continuous snowpack monitoring using upward-looking ground-penetrating radar technology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3189/2014JoG13J084</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3189/2014jog13j084</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84898630084</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84898630084</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84898630084&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T21:37:01.561Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/s141120975</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/s141120975</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84908628068</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84908628068</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="14832936" path="/0000-0001-9826-4191/work/14832936" visibility="public" display-index="0">
+                    <common:created-date>2014-12-22T18:47:53.451Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T21:37:01.561Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Measuring snow liquid water content with low-cost gps receivers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/s141120975</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/s141120975</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84908628068</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84908628068</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84908628068&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-10-22T12:24:18.822Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.coldregions.2014.03.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.coldregions.2014.03.006</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84898629614</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84898629614</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="14832938" path="/0000-0001-9826-4191/work/14832938" visibility="public" display-index="0">
+                    <common:created-date>2014-12-22T18:47:53.458Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T21:37:01.634Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Upward-looking L-band FMCW radar for snow cover monitoring</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.coldregions.2014.03.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.coldregions.2014.03.006</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84898629614</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84898629614</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84898629614&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="19523669" path="/0000-0001-9826-4191/work/19523669" visibility="public" display-index="0">
+                    <common:created-date>2015-10-22T12:24:18.822Z</common:created-date>
+                    <common:last-modified-date>2015-10-22T12:24:18.822Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Upward-looking L-band FMCW radar for snow cover monitoring</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.coldregions.2014.03.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.coldregions.2014.03.006</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.coldregions.2014.03.006</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cold Regions Science and Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-20T17:45:47.724Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-16189-6_8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-16189-6_8</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="11357693" path="/0000-0001-9826-4191/work/11357693" visibility="public" display-index="0">
+                    <common:created-date>2013-12-23T17:16:47.861Z</common:created-date>
+                    <common:last-modified-date>2015-07-20T17:45:47.724Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9826-4191</common:uri>
+                            <common:path>0000-0001-9826-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Lino Schmid</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>RidersGuide</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-16189-6_8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-16189-6_8</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>11</common:month>
+                        <common:day>18</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Eingebettete Systeme : Fachtagung des gemeinsamen Fachausschusses Echtzeitsysteme der Gesellschaft für Informatik e.V. (GI), VDI/VDE-Gesellschaft für Mess- und Automatisierungstechnik (GMA) und der Informationstechnischen Gesellschaft im VDE (ITG)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7990-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+        <common:path>0000-0001-7990-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-07-03T01:50:30.650Z</history:submission-date>
+        <common:last-modified-date>2019-10-03T16:37:13.673Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7990-1191/person">
+        <person:name visibility="public" path="0000-0001-7990-1191">
+            <common:created-date>2016-04-15T21:20:11.987Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:20:11.987Z</common:last-modified-date>
+            <personal-details:given-names>Jorge Humberto</personal-details:given-names>
+            <personal-details:family-name>Sanchez Perez</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7990-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7990-1191/researcher-urls"/>
+        <email:emails path="/0000-0001-7990-1191/email"/>
+        <address:addresses path="/0000-0001-7990-1191/address"/>
+        <keyword:keywords path="/0000-0001-7990-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7990-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7990-1191/activities">
+        <common:last-modified-date>2019-10-03T16:36:17.352Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7990-1191/distinctions"/>
+        <activities:educations path="/0000-0001-7990-1191/educations">
+            <common:last-modified-date>2015-07-03T01:56:48.217Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T01:56:48.217Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1006002" display-index="0" path="/0000-0001-7990-1191/education/1006002" visibility="public">
+                    <common:created-date>2015-07-03T01:56:48.217Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T01:56:48.217Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+                            <common:path>0000-0001-7990-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge Humberto Sanchez Perez</common:source-name>
+                    </common:source>
+                    <common:department-name>Philosophy</common:department-name>
+                    <common:role-title>Master of Science in Philosophy</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>09</common:month>
+                        <common:day>10</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>08</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Edinburgh Philosophy Department</common:name>
+                        <common:address>
+                            <common:city>Edinburgh</common:city>
+                            <common:region>Edinburgh</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>151028</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T01:55:38.448Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1006001" display-index="0" path="/0000-0001-7990-1191/education/1006001" visibility="public">
+                    <common:created-date>2015-07-03T01:55:38.448Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T01:55:38.448Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+                            <common:path>0000-0001-7990-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge Humberto Sanchez Perez</common:source-name>
+                    </common:source>
+                    <common:department-name>Philosophy</common:department-name>
+                    <common:role-title>Magister in Philosophy</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>03</common:month>
+                        <common:day>02</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                        <common:month>12</common:month>
+                        <common:day>18</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad Nacional Mayor de San Marcos</common:name>
+                        <common:address>
+                            <common:city>Lima</common:city>
+                            <common:country>PE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>33209</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-07-03T01:53:46.833Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1005997" display-index="0" path="/0000-0001-7990-1191/education/1005997" visibility="public">
+                    <common:created-date>2015-07-03T01:53:46.833Z</common:created-date>
+                    <common:last-modified-date>2015-07-03T01:53:46.833Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+                            <common:path>0000-0001-7990-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge Humberto Sanchez Perez</common:source-name>
+                    </common:source>
+                    <common:department-name>Law School </common:department-name>
+                    <common:role-title>Bachelor of Laws</common:role-title>
+                    <common:start-date>
+                        <common:year>2002</common:year>
+                        <common:month>03</common:month>
+                        <common:day>04</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>12</common:month>
+                        <common:day>20</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Pontificia Universidad Católica del Perú</common:name>
+                        <common:address>
+                            <common:city>Lima</common:city>
+                            <common:country>PE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>185017</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-7990-1191/employments"/>
+        <activities:fundings path="/0000-0001-7990-1191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7990-1191/invited-positions">
+            <common:last-modified-date>2019-10-03T16:36:17.352Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-10-03T16:36:17.352Z</common:last-modified-date>
+                <common:external-ids/>
+                <invited-position:invited-position-summary put-code="8813039" display-index="1" path="/0000-0001-7990-1191/invited-position/8813039" visibility="public">
+                    <common:created-date>2019-10-03T16:36:17.352Z</common:created-date>
+                    <common:last-modified-date>2019-10-03T16:36:17.352Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+                            <common:path>0000-0001-7990-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge Humberto Sanchez Perez</common:source-name>
+                    </common:source>
+                    <common:department-name>Faculty of Law</common:department-name>
+                    <common:role-title>Visiting Researcher</common:role-title>
+                    <common:start-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2020</common:year>
+                        <common:month>12</common:month>
+                        <common:day>20</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Cambridge</common:name>
+                        <common:address>
+                            <common:city>Cambridge</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </invited-position:invited-position-summary>
+            </activities:affiliation-group>
+        </activities:invited-positions>
+        <activities:memberships path="/0000-0001-7990-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7990-1191/peer-reviews">
+            <common:last-modified-date>2019-09-30T04:30:45.878Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T04:30:45.878Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:1386-2820</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-30T04:30:45.878Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>4ceb22c6-8823-4ca0-880f-b36bab47c20e</common:external-id-value>
+                            <common:external-id-normalized transient="true">4ceb22c6-8823-4ca0-880f-b36bab47c20e</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="938860" path="/0000-0001-7990-1191/peer-review/938860" visibility="public" display-index="0">
+                        <common:created-date>2019-09-30T04:30:45.878Z</common:created-date>
+                        <common:last-modified-date>2019-09-30T04:30:45.878Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-945VYTN20C7BZXYT</common:uri>
+<common:path>APP-945VYTN20C7BZXYT</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Springer Nature</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>source-work-id</common:external-id-type>
+<common:external-id-value>4ceb22c6-8823-4ca0-880f-b36bab47c20e</common:external-id-value>
+<common:external-id-normalized transient="true">4ceb22c6-8823-4ca0-880f-b36bab47c20e</common:external-id-normalized>
+<common:external-id-url></common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1386-2820</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Springer Nature</common:name>
+                            <common:address>
+<common:city>New York</common:city>
+<common:country>US</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+        </activities:peer-reviews>
+        <activities:qualifications path="/0000-0001-7990-1191/qualifications">
+            <common:last-modified-date>2019-07-30T19:56:10.426Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-30T19:56:10.426Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="8361309" display-index="1" path="/0000-0001-7990-1191/qualification/8361309" visibility="public">
+                    <common:created-date>2019-07-30T19:56:10.426Z</common:created-date>
+                    <common:last-modified-date>2019-07-30T19:56:10.426Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7990-1191</common:uri>
+                            <common:path>0000-0001-7990-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge Humberto Sanchez Perez</common:source-name>
+                    </common:source>
+                    <common:department-name>Philosophy</common:department-name>
+                    <common:role-title>Ph.D. (c)</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>01</common:month>
+                        <common:day>04</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>McMaster University</common:name>
+                        <common:address>
+                            <common:city>Hamilton</common:city>
+                            <common:region>ON</common:region>
+                            <common:country>CA</common:country>
+                        </common:address>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0001-7990-1191/research-resources"/>
+        <activities:services path="/0000-0001-7990-1191/services"/>
+        <activities:works path="/0000-0001-7990-1191/works"/>
+    </activities:activities-summary>
+</record:record>

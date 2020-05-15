@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4211-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4211-4191</common:uri>
+        <common:path>0000-0002-4211-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-01-25T08:10:45.319Z</history:submission-date>
+        <common:last-modified-date>2018-08-13T05:40:59.852Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4211-4191/person">
+        <person:name visibility="public" path="0000-0002-4211-4191">
+            <common:created-date>2018-01-25T08:10:45.319Z</common:created-date>
+            <common:last-modified-date>2018-01-25T08:10:45.541Z</common:last-modified-date>
+            <personal-details:given-names>Alia</personal-details:given-names>
+            <personal-details:family-name>Rahmi</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4211-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4211-4191/researcher-urls"/>
+        <email:emails path="/0000-0002-4211-4191/email"/>
+        <address:addresses path="/0000-0002-4211-4191/address"/>
+        <keyword:keywords path="/0000-0002-4211-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4211-4191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4211-4191/activities">
+        <common:last-modified-date>2018-01-25T08:22:10.062Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4211-4191/distinctions"/>
+        <activities:educations path="/0000-0002-4211-4191/educations">
+            <common:last-modified-date>2018-01-25T08:21:04.770Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-25T08:21:04.770Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5271301" display-index="0" path="/0000-0002-4211-4191/education/5271301" visibility="public">
+                    <common:created-date>2018-01-25T08:21:04.770Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T08:21:04.770Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4211-4191</common:uri>
+                            <common:path>0000-0002-4211-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alia Rahmi</common:source-name>
+                    </common:source>
+                    <common:department-name>Food Science and Technology</common:department-name>
+                    <common:role-title>MEngSc in Food Process Engineering</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>02</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>12</common:month>
+                        <common:day>09</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of New South Wales</common:name>
+                        <common:address>
+                            <common:city>Sydney</common:city>
+                            <common:region>NSW</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-25T08:17:57.699Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5271287" display-index="0" path="/0000-0002-4211-4191/education/5271287" visibility="public">
+                    <common:created-date>2018-01-25T08:17:57.699Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T08:17:57.699Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4211-4191</common:uri>
+                            <common:path>0000-0002-4211-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alia Rahmi</common:source-name>
+                    </common:source>
+                    <common:department-name>Food Science and Technology</common:department-name>
+                    <common:role-title>S.TP. (Bachelor in Agricultural Technology</common:role-title>
+                    <common:start-date>
+                        <common:year>1999</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2003</common:year>
+                        <common:month>09</common:month>
+                        <common:day>23</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Bogor Agricultural University</common:name>
+                        <common:address>
+                            <common:city>Bogor</common:city>
+                            <common:country>ID</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.440754.6</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-4211-4191/employments">
+            <common:last-modified-date>2018-01-25T08:22:10.062Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-25T08:22:10.062Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5271306" display-index="0" path="/0000-0002-4211-4191/employment/5271306" visibility="public">
+                    <common:created-date>2018-01-25T08:22:10.062Z</common:created-date>
+                    <common:last-modified-date>2018-01-25T08:22:10.062Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4211-4191</common:uri>
+                            <common:path>0000-0002-4211-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alia Rahmi</common:source-name>
+                    </common:source>
+                    <common:department-name>Agro-industrial Technology</common:department-name>
+                    <common:role-title>Lecturer</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Universitas Lambung Mangkurat Fakultas Pertanian</common:name>
+                        <common:address>
+                            <common:city>Banjarmasin</common:city>
+                            <common:region>Kalimantan Selatan</common:region>
+                            <common:country>ID</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>359965</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4211-4191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4211-4191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4211-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4211-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4211-4191/qualifications"/>
+        <activities:research-resources path="/0000-0002-4211-4191/research-resources"/>
+        <activities:services path="/0000-0002-4211-4191/services"/>
+        <activities:works path="/0000-0002-4211-4191/works"/>
+    </activities:activities-summary>
+</record:record>

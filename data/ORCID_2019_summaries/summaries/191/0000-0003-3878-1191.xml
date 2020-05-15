@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-3878-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+        <common:path>0000-0003-3878-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-11-29T08:39:29.614Z</history:submission-date>
+        <common:last-modified-date>2019-06-04T17:14:36.982Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-3878-1191/person">
+        <person:name visibility="public" path="0000-0003-3878-1191">
+            <common:created-date>2016-11-29T08:39:29.838Z</common:created-date>
+            <common:last-modified-date>2016-11-29T08:39:29.838Z</common:last-modified-date>
+            <personal-details:given-names>Natalia</personal-details:given-names>
+            <personal-details:family-name>Curado</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-3878-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-3878-1191/researcher-urls"/>
+        <email:emails path="/0000-0003-3878-1191/email"/>
+        <address:addresses path="/0000-0003-3878-1191/address"/>
+        <keyword:keywords path="/0000-0003-3878-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-3878-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-3878-1191/activities">
+        <common:last-modified-date>2019-01-11T15:44:33.676Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-3878-1191/distinctions"/>
+        <activities:educations path="/0000-0003-3878-1191/educations">
+            <common:last-modified-date>2017-07-10T01:44:06.665Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-07-10T01:44:04.942Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2759492" display-index="0" path="/0000-0003-3878-1191/education/2759492" visibility="public">
+                    <common:created-date>2016-12-11T18:28:58.416Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:04.942Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>PhD in Chemistry</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                        <common:day>03</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de Sevilla</common:name>
+                        <common:address>
+                            <common:city>Sevilla</common:city>
+                            <common:region>Andalucía</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16778</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-07-10T01:44:03.298Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2759488" display-index="0" path="/0000-0003-3878-1191/education/2759488" visibility="public">
+                    <common:created-date>2016-12-11T18:27:57.921Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:03.298Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>Master in Crystallography and Crystallization</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>10</common:month>
+                        <common:day>20</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>07</common:month>
+                        <common:day>20</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Menéndez Pelayo International University</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:region>Madrid</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16746</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-07-10T01:44:06.665Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2759484" display-index="0" path="/0000-0003-3878-1191/education/2759484" visibility="public">
+                    <common:created-date>2016-12-11T18:26:06.287Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:06.665Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>Licenciado Degree in Chemistry</common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>07</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de Sevilla </common:name>
+                        <common:address>
+                            <common:city>Sevilla</common:city>
+                            <common:region>Andalucía</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>73063</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-3878-1191/employments">
+            <common:last-modified-date>2019-01-11T15:44:33.676Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-01-11T15:44:33.676Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3226829" display-index="1" path="/0000-0003-3878-1191/employment/3226829" visibility="public">
+                    <common:created-date>2017-02-18T04:59:38.257Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T15:44:33.676Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Chemistry</common:department-name>
+                    <common:role-title>Postdoctoral Fellow</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                        <common:day>15</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Brooklyn College</common:name>
+                        <common:address>
+                            <common:city>Brooklyn</common:city>
+                            <common:region>NY</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>2037</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-07-10T01:44:10.105Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2759502" display-index="0" path="/0000-0003-3878-1191/employment/2759502" visibility="public">
+                    <common:created-date>2016-12-11T18:32:46.246Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:10.105Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>Research Associate</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>11</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidade de Santiago de Compostela</common:name>
+                        <common:address>
+                            <common:city>Santiago de Compostela</common:city>
+                            <common:region>Galicia</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16780</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-07-10T01:44:11.374Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2759496" display-index="0" path="/0000-0003-3878-1191/employment/2759496" visibility="public">
+                    <common:created-date>2016-12-11T18:31:02.665Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:11.374Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>Research Scientist</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>03</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de Sevilla</common:name>
+                        <common:address>
+                            <common:city>Sevilla</common:city>
+                            <common:region>Andalucía</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16778</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-3878-1191/fundings">
+            <common:last-modified-date>2016-12-11T18:49:45.370Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-12-11T18:38:43.331Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>BES-2011-047643</common:external-id-value>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="245096" path="/0000-0003-3878-1191/funding/245096" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:38:43.331Z</common:created-date>
+                    <common:last-modified-date>2016-12-11T18:38:43.331Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Formación del Personal Investigador</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>BES-2011-047643</common:external-id-value>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ministerio de Economía y Competitividad</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100003329</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-11T18:44:22.253Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>EEBB-I-14-08562 </common:external-id-value>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="245097" path="/0000-0003-3878-1191/funding/245097" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:44:22.253Z</common:created-date>
+                    <common:last-modified-date>2016-12-11T18:44:22.253Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>FPI short-term stay award</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>EEBB-I-14-08562 </common:external-id-value>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <funding:type>award</funding:type>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ministerio de Economía y Competitividad</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100003329</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-11T18:49:45.370Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="245099" path="/0000-0003-3878-1191/funding/245099" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:49:45.370Z</common:created-date>
+                    <common:last-modified-date>2016-12-11T18:49:45.370Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>La inmunoquimiotempia como tratamiento contra el cáncer: oro y anticuerpos monoclonales como unidad</common:title>
+                    </funding:title>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Fundación Alfonso Martín Escudero</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0003-3878-1191/invited-positions"/>
+        <activities:memberships path="/0000-0003-3878-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-3878-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-3878-1191/qualifications"/>
+        <activities:research-resources path="/0000-0003-3878-1191/research-resources"/>
+        <activities:services path="/0000-0003-3878-1191/services"/>
+        <activities:works path="/0000-0003-3878-1191/works">
+            <common:last-modified-date>2017-07-10T01:44:25.255Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:15.945Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/chem.201604618</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/chem.201604618</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743835" path="/0000-0003-3878-1191/work/28743835" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:56:47.915Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:15.945Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Unsaturated Four-Coordinate Dimethyl Dimolybdenum Complex with a Molybdenum–Molybdenum Quadruple Bond</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201604618</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201604618</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1002/chem.201604618</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Chemistry – A European Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:16.973Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1039/C5CC09650B</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1039/c5cc09650b</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743839" path="/0000-0003-3878-1191/work/28743839" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:58:23.421Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:16.973Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Selective reduction of carbon dioxide to bis(silyl)acetal catalyzed by a PBP-supported nickel complex</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1039/C5CC09650B</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1039/c5cc09650b</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1039/C5CC09650B</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Chem. Commun.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:18.189Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:external-id-value>
+                        <common:external-id-normalized-error transient="true">
+                            <common:error-code>8001</common:error-code>
+                            <common:error-message>Cannot normalize identifier value arxiv:http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:error-message>
+                        </common:external-id-normalized-error>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/jacs.5b07899</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/jacs.5b07899</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743858" path="/0000-0003-3878-1191/work/28743858" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:59:34.044Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:18.189Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lithium Di- and Trimethyl Dimolybdenum(II) Complexes with Mo–Mo Quadruple Bonds and Bridging Methyl Groups</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/jacs.5b07899</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/jacs.5b07899</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:external-id-value>
+                            <common:external-id-normalized-error transient="true">
+<common:error-code>8001</common:error-code>
+<common:error-message>Cannot normalize identifier value arxiv:http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:error-message>
+                            </common:external-id-normalized-error>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1021/jacs.5b07899</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the American Chemical Society</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="28743861" path="/0000-0003-3878-1191/work/28743861" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T19:00:08.231Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:18.189Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lithium Di- and Trimethyl Dimolybdenum(II) Complexes with Mo–Mo Quadruple Bonds and Bridging Methyl Groups</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/jacs.5b07899</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/jacs.5b07899</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:external-id-value>
+                            <common:external-id-normalized-error transient="true">
+<common:error-code>8001</common:error-code>
+<common:error-message>Cannot normalize identifier value arxiv:http://dx.doi.org/10.1021/jacs.5b07899
+    
+</common:error-message>
+                            </common:external-id-normalized-error>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1021/jacs.5b07899</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the American Chemical Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:19.541Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>http://dx.doi.org/10.1016/j.ica.2014.07.055</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ica.2014.07.055</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743836" path="/0000-0003-3878-1191/work/28743836" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:57:02.420Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:19.541Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis and structure of mixed carboxylate-aminopyridinate and -amidinate complexes of dimolybdenum and ditungsten </common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>http://dx.doi.org/10.1016/j.ica.2014.07.055</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ica.2014.07.055</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.sciencedirect.com/science/article/pii/S0020169314004630</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Inorganica Chimica Acta </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:22.339Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1039/C4CC07616H</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1039/c4cc07616h</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743840" path="/0000-0003-3878-1191/work/28743840" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:58:33.789Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:22.339Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Boryl-assisted hydrogenolysis of a nickel-methyl bond</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1039/C4CC07616H</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1039/c4cc07616h</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1039/C4CC07616H</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Chem. Commun.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:24.037Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/chem.201400236</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/chem.201400236</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743832" path="/0000-0003-3878-1191/work/28743832" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:56:39.428Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:24.037Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimental and Theoretical Studies on Arene-Bridged Metal–Metal-Bonded Dimolybdenum Complexes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201400236</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201400236</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1002/chem.201400236</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Chemistry – A European Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T01:44:25.255Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/anie.201209064</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/anie.201209064</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28743831" path="/0000-0003-3878-1191/work/28743831" visibility="public" display-index="1">
+                    <common:created-date>2016-12-11T18:56:26.162Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T01:44:25.255Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3878-1191</common:uri>
+                            <common:path>0000-0003-3878-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Natalia Curado</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interconversion of Quadruply and Quintuply Bonded Molybdenum Complexes by Reductive Elimination and Oxidative Addition of Dihydrogen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/anie.201209064</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/anie.201209064</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1002/anie.201209064</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Angewandte Chemie International Edition</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

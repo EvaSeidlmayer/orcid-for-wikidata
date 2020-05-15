@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-0151-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-0151-5191</common:uri>
+        <common:path>0000-0002-0151-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-09-04T16:46:23.065Z</history:submission-date>
+        <common:last-modified-date>2019-09-04T16:57:33.458Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-0151-5191/person">
+        <person:name visibility="public" path="0000-0002-0151-5191">
+            <common:created-date>2019-09-04T16:46:23.293Z</common:created-date>
+            <common:last-modified-date>2019-09-04T16:46:23.293Z</common:last-modified-date>
+            <personal-details:given-names>Colin</personal-details:given-names>
+            <personal-details:family-name>Sauder</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-0151-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-0151-5191/researcher-urls"/>
+        <email:emails path="/0000-0002-0151-5191/email"/>
+        <address:addresses path="/0000-0002-0151-5191/address"/>
+        <keyword:keywords path="/0000-0002-0151-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-0151-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-0151-5191/activities">
+        <common:last-modified-date>2019-09-04T16:53:38.741Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-0151-5191/distinctions"/>
+        <activities:educations path="/0000-0002-0151-5191/educations"/>
+        <activities:employments path="/0000-0002-0151-5191/employments"/>
+        <activities:fundings path="/0000-0002-0151-5191/fundings"/>
+        <activities:invited-positions path="/0000-0002-0151-5191/invited-positions"/>
+        <activities:memberships path="/0000-0002-0151-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-0151-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-0151-5191/qualifications"/>
+        <activities:research-resources path="/0000-0002-0151-5191/research-resources"/>
+        <activities:services path="/0000-0002-0151-5191/services"/>
+        <activities:works path="/0000-0002-0151-5191/works">
+            <common:last-modified-date>2019-09-04T16:53:38.741Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:48:50.508Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jad.2019.05.077</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jad.2019.05.077</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251705" path="/0000-0002-0151-5191/work/61251705" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:48:50.508Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:48:50.508Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Consistency checks to improve measurement with the Montgomery-Asberg Depression Rating Scale (MADRS)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jad.2019.05.077</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jad.2019.05.077</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0165-0327</common:external-id-value>
+                            <common:external-id-normalized transient="true">0165-0327</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Affective Disorders</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:50:11.347Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0954579418000822</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0954579418000822</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251747" path="/0000-0002-0151-5191/work/61251747" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:50:11.347Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:50:11.347Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Self-injuring adolescent girls exhibit insular cortex volumetric abnormalities that are similar to those seen in adults with borderline personality disorder</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0954579418000822</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0954579418000822</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0954-5794</common:external-id-value>
+                            <common:external-id-normalized transient="true">0954-5794</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                        <common:day>05</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Development and Psychopathology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:49:52.170Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bpsc.2018.07.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bpsc.2018.07.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251736" path="/0000-0002-0151-5191/work/61251736" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:49:52.170Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:49:52.170Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ventral Striatal Function Interacts With Positive and Negative Life Events to Predict Concurrent Youth Depressive Symptoms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bpsc.2018.07.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bpsc.2018.07.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2451-9022</common:external-id-value>
+                            <common:external-id-normalized transient="true">2451-9022</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biological Psychiatry: Cognitive Neuroscience and Neuroimaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:52:01.817Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bpsc.2016.12.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bpsc.2016.12.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251792" path="/0000-0002-0151-5191/work/61251792" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:52:01.817Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:52:01.817Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Internal Consistency of Functional Magnetic Resonance Imaging and Electroencephalography Measures of Reward in Late Childhood and Early Adolescence</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bpsc.2016.12.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bpsc.2016.12.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2451-9022</common:external-id-value>
+                            <common:external-id-normalized transient="true">2451-9022</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biological Psychiatry: Cognitive Neuroscience and Neuroimaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:53:38.741Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jaac.2016.09.424</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jaac.2016.09.424</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251801" path="/0000-0002-0151-5191/work/61251801" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:53:38.741Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:53:38.741Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>6.105 OVERWEIGHT, OBESITY, AND PUBERTAL DEVELOPMENT: CHARACTERIZING RISK FOR DEPRESSION IN ADOLESCENT GIRLS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jaac.2016.09.424</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jaac.2016.09.424</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0890-8567</common:external-id-value>
+                            <common:external-id-normalized transient="true">0890-8567</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the American Academy of Child &amp; Adolescent Psychiatry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-04T16:53:10.809Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/15374416.2012.658612</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/15374416.2012.658612</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61251798" path="/0000-0002-0151-5191/work/61251798" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T16:53:10.809Z</common:created-date>
+                    <common:last-modified-date>2019-09-04T16:53:10.809Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neuroanatomical Correlates of Heterotypic Comorbidity in Externalizing Male Adolescents</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/15374416.2012.658612</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/15374416.2012.658612</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1537-4416</common:external-id-value>
+                            <common:external-id-normalized transient="true">1537-4416</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical Child &amp; Adolescent Psychology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

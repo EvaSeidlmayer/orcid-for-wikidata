@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6784-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6784-8191</common:uri>
+        <common:path>0000-0002-6784-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2017-11-30T08:04:06.990Z</history:submission-date>
+        <common:last-modified-date>2019-08-13T16:10:53.563Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6784-8191/person">
+        <common:last-modified-date>2019-06-05T04:29:55.863Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-6784-8191">
+            <common:created-date>2017-11-30T08:04:06.990Z</common:created-date>
+            <common:last-modified-date>2017-11-30T08:04:07.222Z</common:last-modified-date>
+            <personal-details:given-names>SeokJoon</personal-details:given-names>
+            <personal-details:family-name>Yoon</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6784-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-6784-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-6784-8191/email"/>
+        <address:addresses path="/0000-0002-6784-8191/address">
+            <common:last-modified-date>2018-04-07T04:45:59.958Z</common:last-modified-date>
+            <address:address put-code="941060" visibility="public" path="/0000-0002-6784-8191/address/941060" display-index="1">
+                <common:created-date>2018-04-07T04:45:59.957Z</common:created-date>
+                <common:last-modified-date>2018-04-07T04:45:59.958Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-6784-8191</common:uri>
+                        <common:path>0000-0002-6784-8191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>SeokJoon Yoon</common:source-name>
+                </common:source>
+                <address:country>KR</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-6784-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6784-8191/external-identifiers">
+            <common:last-modified-date>2019-06-05T04:29:55.863Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1401967" visibility="public" path="/0000-0002-6784-8191/external-identifiers/1401967" display-index="0">
+                <common:created-date>2019-06-05T04:29:55.862Z</common:created-date>
+                <common:last-modified-date>2019-06-05T04:29:55.863Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>55206845600</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=55206845600&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6784-8191/activities">
+        <common:last-modified-date>2019-06-05T04:30:07.286Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6784-8191/distinctions"/>
+        <activities:educations path="/0000-0002-6784-8191/educations"/>
+        <activities:employments path="/0000-0002-6784-8191/employments">
+            <common:last-modified-date>2018-04-07T04:47:23.486Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-04-07T04:47:23.486Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5648193" display-index="0" path="/0000-0002-6784-8191/employment/5648193" visibility="public">
+                    <common:created-date>2018-04-07T04:47:23.486Z</common:created-date>
+                    <common:last-modified-date>2018-04-07T04:47:23.486Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6784-8191</common:uri>
+                            <common:path>0000-0002-6784-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>SeokJoon Yoon</common:source-name>
+                    </common:source>
+                    <common:department-name>Family medicine</common:department-name>
+                    <common:role-title>Assistant professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Chungnam National University School of Medicine</common:name>
+                        <common:address>
+                            <common:city>Daejeon</common:city>
+                            <common:region>Daejeon</common:region>
+                            <common:country>KR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>90159</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-6784-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6784-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6784-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6784-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-6784-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6784-8191/research-resources"/>
+        <activities:services path="/0000-0002-6784-8191/services"/>
+        <activities:works path="/0000-0002-6784-8191/works">
+            <common:last-modified-date>2019-06-05T04:30:07.286Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.160Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85065047593</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85065047593</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/ggi.13640</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/ggi.13640</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157787" path="/0000-0002-6784-8191/work/58157787" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.160Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.160Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Factors associated with potentially harmful drug–drug interactions in older Korean people: A population-based study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/ggi.13640</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/ggi.13640</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85065047593</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85065047593</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85065047593&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Geriatrics and Gerontology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.237Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.17.0059</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.17.0059</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85061066498</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85061066498</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157802" path="/0000-0002-6784-8191/work/58157802" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.237Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.237Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relationship between health behaviors and marital adjustment and marital intimacy in multicultural family female immigrants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.17.0059</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.17.0059</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85061066498</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85061066498</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85061066498&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.178Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/ggi.13495</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/ggi.13495</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85052824300</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85052824300</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157789" path="/0000-0002-6784-8191/work/58157789" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.178Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.178Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Factors associated with potentially harmful drug–drug interactions in older Korean people: A population-based study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/ggi.13495</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/ggi.13495</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85052824300</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85052824300</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85052824300&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Geriatrics and Gerontology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.214Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/S1478951517001031</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s1478951517001031</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85042211875</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85042211875</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157797" path="/0000-0002-6784-8191/work/58157797" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.214Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.214Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Is spirituality related to survival in advanced cancer inpatients in Korea?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/S1478951517001031</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s1478951517001031</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85042211875</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85042211875</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85042211875&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Palliative and Supportive Care</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.226Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85045665378</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85045665378</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1049909118770604</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1049909118770604</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157800" path="/0000-0002-6784-8191/work/58157800" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.226Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.226Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Palliative Performance Scale Score at 1 Week After Palliative Care Unit Admission is More Useful for Survival Prediction in Patients With Advanced Cancer in South Korea</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1049909118770604</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1049909118770604</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85045665378</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85045665378</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85045665378&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Hospice and Palliative Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.130Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jpainsymman.2018.09.001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2018.09.001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85055053653</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85055053653</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157783" path="/0000-0002-6784-8191/work/58157783" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.130Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.130Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spiritual Well-being Among Palliative Care Patients With Different Religious Affiliations: A Multicenter Korean Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jpainsymman.2018.09.001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2018.09.001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85055053653</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85055053653</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85055053653&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Pain and Symptom Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.286Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85056816696</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85056816696</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.17.0042</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.17.0042</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157804" path="/0000-0002-6784-8191/work/58157804" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.286Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.286Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Usefulness of the alcohol use disorders identification Test-Korean revised version in screening for diagnostic and statistical manual of mental disorders 5th edition alcohol use disorder among college students</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.17.0042</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.17.0042</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85056816696</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85056816696</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85056816696&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.203Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2017.38.2.108</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2017.38.2.108</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85016440855</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85016440855</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157794" path="/0000-0002-6784-8191/work/58157794" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.203Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.203Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Authors' reply to the letter to the editor "validity of an alcohol use disorder identification test: Methodological issues"</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2017.38.2.108</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2017.38.2.108</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85016440855</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85016440855</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85016440855&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.199Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2017.38.5.291</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2017.38.5.291</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85030838464</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85030838464</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157793" path="/0000-0002-6784-8191/work/58157793" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.199Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.199Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Carbohydrate-deficient transferrin as a biomarker for screening at-risk drinking in elderly men</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2017.38.5.291</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2017.38.5.291</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85030838464</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85030838464</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85030838464&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.210Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1089/jpm.2016.0044</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1089/jpm.2016.0044</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85007270905</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85007270905</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157796" path="/0000-0002-6784-8191/work/58157796" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.210Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.210Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prospective Validation of Objective Prognostic Score for Advanced Cancer Inpatients in South Korea: A Multicenter Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1089/jpm.2016.0044</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1089/jpm.2016.0044</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85007270905</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85007270905</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85007270905&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Palliative Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.191Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2016.37.1.18</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2016.37.1.18</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84959298945</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84959298945</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157791" path="/0000-0002-6784-8191/work/58157791" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.191Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.191Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Development of a simple tool for identifying alcohol use disorder in female Korean drinkers from previous questionnaires</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2016.37.1.18</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2016.37.1.18</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84959298945</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84959298945</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84959298945&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.230Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84979774550</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84979774550</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jpainsymman.2016.03.015</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2016.03.015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157801" path="/0000-0002-6784-8191/work/58157801" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.230Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.230Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prospective Validation of the Objective Prognostic Score for Advanced Cancer Patients in Diverse Palliative Settings</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jpainsymman.2016.03.015</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2016.03.015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84979774550</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84979774550</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84979774550&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Pain and Symptom Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.173Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84998692559</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84998692559</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2016.37.6.323</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2016.37.6.323</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157788" path="/0000-0002-6784-8191/work/58157788" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.173Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.173Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Validity of alcohol use disorder identification test-korean revised version for screening alcohol use disorder according to diagnostic and statistical manual of mental disorders, fifth edition criteria</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2016.37.6.323</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2016.37.6.323</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84998692559</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84998692559</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84998692559&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.278Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1049909113503486</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1049909113503486</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84915780484</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84915780484</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157803" path="/0000-0002-6784-8191/work/58157803" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.278Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.278Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparison of Accuracy Among Prognostic Scores for Predicting Life Expectancy in Korean Patients With Cancer With Weeks of Survival</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1049909113503486</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1049909113503486</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84915780484</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84915780484</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84915780484&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Hospice and Palliative Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.156Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84898000969</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84898000969</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/acer.12302</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/acer.12302</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157786" path="/0000-0002-6784-8191/work/58157786" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.156Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.156Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hypertension Associated with Alcohol Consumption Based on the Facial Flushing Reaction to Drinking</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/acer.12302</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/acer.12302</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84898000969</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84898000969</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84898000969&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Alcoholism: Clinical and Experimental Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.151Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84912026328</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84912026328</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2014.35.6.295</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2014.35.6.295</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157785" path="/0000-0002-6784-8191/work/58157785" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.151Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.151Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of the flushing response in the relationship between alcohol consumption and cardiovascular disease risk</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2014.35.6.295</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2014.35.6.295</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84912026328</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84912026328</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84912026328&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.207Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84897528187</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84897528187</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00520-013-2077-z</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00520-013-2077-z</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157795" path="/0000-0002-6784-8191/work/58157795" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.207Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.207Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modifiable factors associated with caregiver burden among family caregivers of terminally ill Korean cancer patients</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00520-013-2077-z</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00520-013-2077-z</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84897528187</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84897528187</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84897528187&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Supportive Care in Cancer</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.187Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84893502231</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84893502231</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2014.35.1.2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2014.35.1.2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157790" path="/0000-0002-6784-8191/work/58157790" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.187Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.187Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Reliability and validity of alcohol use disorder identification test-Korean revised version for screening at-risk drinking and alcohol use disorders</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2014.35.1.2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2014.35.1.2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84893502231</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84893502231</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84893502231&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.147Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84899895783</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84899895783</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1049909113492557</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1049909113492557</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157784" path="/0000-0002-6784-8191/work/58157784" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.147Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.147Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Retrospective Assessment of Objective Prognostic Score in Terminally Ill Korean Patients With Cancer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1049909113492557</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1049909113492557</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84899895783</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84899895783</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84899895783&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Hospice and Palliative Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.218Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84881501834</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84881501834</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2013.34.4.250</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2013.34.4.250</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157798" path="/0000-0002-6784-8191/work/58157798" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.218Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.218Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of alcohol consumption on risk of hyperhomocysteinemia based on alcohol- related facial flushing response</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2013.34.4.250</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2013.34.4.250</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84881501834</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84881501834</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84881501834&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.222Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4082/kjfm.2013.34.4.272</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4082/kjfm.2013.34.4.272</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84881495941</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84881495941</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157799" path="/0000-0002-6784-8191/work/58157799" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.222Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.222Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Utility of the alcohol consumption questions in the alcohol use disorders identification test for screening at-risk drinking and alcohol use disorders among korean college students</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4082/kjfm.2013.34.4.272</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4082/kjfm.2013.34.4.272</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84881495941</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84881495941</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84881495941&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Korean Journal of Family Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-05T04:30:07.196Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84861949463</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84861949463</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.annepidem.2012.04.014</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.annepidem.2012.04.014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58157792" path="/0000-0002-6784-8191/work/58157792" visibility="public" display-index="0">
+                    <common:created-date>2019-06-05T04:30:07.196Z</common:created-date>
+                    <common:last-modified-date>2019-06-05T04:30:07.196Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relationships Among Alcohol Consumption, Facial Flushing Response, and Metabolic Syndrome in Healthy Men</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.annepidem.2012.04.014</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.annepidem.2012.04.014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84861949463</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84861949463</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84861949463&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Epidemiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

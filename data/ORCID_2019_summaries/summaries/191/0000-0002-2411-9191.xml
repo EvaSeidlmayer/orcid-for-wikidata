@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-2411-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-2411-9191</common:uri>
+        <common:path>0000-0002-2411-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-11-12T16:56:39.135Z</history:submission-date>
+        <common:last-modified-date>2019-09-09T09:43:32.426Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-2411-9191/person">
+        <common:last-modified-date>2017-05-29T12:47:32.422Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-2411-9191">
+            <common:created-date>2016-04-15T22:06:27.810Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:06:27.810Z</common:last-modified-date>
+            <personal-details:given-names>Vladimir</personal-details:given-names>
+            <personal-details:family-name>Zhukov</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-2411-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-2411-9191/researcher-urls"/>
+        <email:emails path="/0000-0002-2411-9191/email"/>
+        <address:addresses path="/0000-0002-2411-9191/address">
+            <common:last-modified-date>2017-05-29T12:36:36.803Z</common:last-modified-date>
+            <address:address put-code="712973" visibility="public" path="/0000-0002-2411-9191/address/712973" display-index="1">
+                <common:created-date>2017-05-29T12:36:36.803Z</common:created-date>
+                <common:last-modified-date>2017-05-29T12:36:36.803Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-2411-9191</common:uri>
+                        <common:path>0000-0002-2411-9191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Vladimir Zhukov</common:source-name>
+                </common:source>
+                <address:country>RU</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-2411-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-2411-9191/external-identifiers">
+            <common:last-modified-date>2017-05-29T12:47:32.422Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="717978" visibility="public" path="/0000-0002-2411-9191/external-identifiers/717978" display-index="0">
+                <common:created-date>2017-05-29T12:47:32.422Z</common:created-date>
+                <common:last-modified-date>2017-05-29T12:47:32.422Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>35325957900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=35325957900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-2411-9191/activities">
+        <common:last-modified-date>2019-06-27T00:11:07.958Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-2411-9191/distinctions"/>
+        <activities:educations path="/0000-0002-2411-9191/educations"/>
+        <activities:employments path="/0000-0002-2411-9191/employments">
+            <common:last-modified-date>2017-05-29T12:38:32.191Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-29T12:38:32.191Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3957595" display-index="0" path="/0000-0002-2411-9191/employment/3957595" visibility="public">
+                    <common:created-date>2017-05-29T12:38:32.191Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:38:32.191Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-2411-9191</common:uri>
+                            <common:path>0000-0002-2411-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Vladimir Zhukov</common:source-name>
+                    </common:source>
+                    <common:start-date>
+                        <common:year>2002</common:year>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>All-Russia Research Institute for Agricultural Microbiology</common:name>
+                        <common:address>
+                            <common:city>Saint Petersburg</common:city>
+                            <common:country>RU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>117473</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-2411-9191/fundings"/>
+        <activities:invited-positions path="/0000-0002-2411-9191/invited-positions"/>
+        <activities:memberships path="/0000-0002-2411-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-2411-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-2411-9191/qualifications"/>
+        <activities:research-resources path="/0000-0002-2411-9191/research-resources"/>
+        <activities:services path="/0000-0002-2411-9191/services"/>
+        <activities:works path="/0000-0002-2411-9191/works">
+            <common:last-modified-date>2019-06-27T00:11:07.958Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-04-28T02:04:46.104Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24081603</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24081603</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24081603</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56856109" path="/0000-0002-2411-9191/work/56856109" visibility="public" display-index="0">
+                    <common:created-date>2019-04-28T02:04:46.104Z</common:created-date>
+                    <common:last-modified-date>2019-04-28T02:04:46.104Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Profiling of Seed Proteome in Pea (&lt;i&gt;Pisum sativum&lt;/i&gt; L.) Lines Characterized with High and Low Responsivity to Combined Inoculation with Nodule Bacteria and Arbuscular Mycorrhizal Fungi</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24081603</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24081603</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24081603</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1420-3049/24/8/1603</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-27T00:11:07.958Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1104/pp.18.00610</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1104/pp.18.00610</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1104/pp.18.00610</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48098486" path="/0000-0002-2411-9191/work/48098486" visibility="public" display-index="0">
+                    <common:created-date>2018-09-07T18:06:33.320Z</common:created-date>
+                    <common:last-modified-date>2019-06-27T00:11:07.958Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MtNODULE ROOT1 and MtNODULE ROOT2 Are Essential for Indeterminate Nodule Identity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1104/pp.18.00610</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1104/pp.18.00610</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1104/pp.18.00610</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1104/pp.18.00610</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Plant Physiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-11-21T17:28:24.228Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0186713</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0186713</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1371/journal.pone.0186713</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38857880" path="/0000-0002-2411-9191/work/38857880" visibility="public" display-index="0">
+                    <common:created-date>2017-11-21T17:28:24.228Z</common:created-date>
+                    <common:last-modified-date>2017-11-21T17:28:24.228Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Pea Marker Database (PMD) – A new online database combining known pea (Pisum sativum L.) gene-based markers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0186713</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0186713</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1371/journal.pone.0186713</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1371/journal.pone.0186713</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>26</common:day>
+                    </common:publication-date>
+                    <work:journal-title>PLOS ONE</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-08-30T16:56:05.925Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.gdata.2016.12.003</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.gdata.2016.12.003</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1016/j.gdata.2016.12.003</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30334570" path="/0000-0002-2411-9191/work/30334570" visibility="public" display-index="0">
+                    <common:created-date>2017-02-13T11:21:35.725Z</common:created-date>
+                    <common:last-modified-date>2017-08-30T16:56:05.925Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Draft genome of the strain RCAM1026 Rhizobium leguminosarum bv.  viciae</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.gdata.2016.12.003</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.gdata.2016.12.003</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.gdata.2016.12.003</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Genomics Data</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-05T17:21:52.397Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15389/agrobiology.2017.3.607eng</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15389/agrobiology.2017.3.607eng</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.15389/agrobiology.2017.3.607eng</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34711704" path="/0000-0002-2411-9191/work/34711704" visibility="public" display-index="0">
+                    <common:created-date>2017-07-05T17:21:52.397Z</common:created-date>
+                    <common:last-modified-date>2017-07-05T17:21:52.397Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>EVALUATION OF THE SYMBIOTIC EFFECTIVENESS OF PEA (Pisum sativum L.) GENOTYPES IN POT EXPERIMENT</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15389/agrobiology.2017.3.607eng</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15389/agrobiology.2017.3.607eng</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.15389/agrobiology.2017.3.607eng</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Sel'skokhozyaistvennaya Biologiya</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-08-30T16:56:05.759Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.gdata.2016.12.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.gdata.2016.12.004</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1016/j.gdata.2016.12.004</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30334568" path="/0000-0002-2411-9191/work/30334568" visibility="public" display-index="0">
+                    <common:created-date>2017-02-13T11:21:35.405Z</common:created-date>
+                    <common:last-modified-date>2017-08-30T16:56:05.759Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Massive Analysis of cDNA Ends (MACE) for transcript-based marker design in pea ( Pisum sativum L.)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.gdata.2016.12.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.gdata.2016.12.004</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.gdata.2016.12.004</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Genomics Data</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.709Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15389/agrobiology.2017.1.3eng</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15389/agrobiology.2017.1.3eng</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85015244253</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85015244253</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278106" path="/0000-0002-2411-9191/work/33278106" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.709Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.709Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Plant defensins: Biological function, mechanisms of action and methods of analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15389/agrobiology.2017.1.3eng</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15389/agrobiology.2017.1.3eng</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85015244253</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85015244253</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85015244253&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sel'skokhozyaistvennaya Biologiya</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.768Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84957614921</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84957614921</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s13199-016-0382-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s13199-016-0382-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278121" path="/0000-0002-2411-9191/work/33278121" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.768Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.768Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Arbuscular mycorrhiza development in pea (Pisum sativum L.) mutants impaired in five early nodulation genes including putative orthologs of NSP1 and NSP2</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s13199-016-0382-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s13199-016-0382-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84957614921</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84957614921</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84957614921&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Symbiosis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.760Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1022795416040128</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1022795416040128</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84969902347</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84969902347</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278113" path="/0000-0002-2411-9191/work/33278113" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.760Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.760Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Features of expression of the PsSst1 and PsIgn1 genes in nodules of pea (Pisum sativum L.) symbiotic mutants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1022795416040128</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1022795416040128</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84969902347</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84969902347</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84969902347&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Journal of Genetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.765Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15389/agrobiology.2016.5.593rus</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15389/agrobiology.2016.5.593rus</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85010988820</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85010988820</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278118" path="/0000-0002-2411-9191/work/33278118" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.765Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.765Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Genetic mapping of pea (Pisum sativum L.) genes involved in symbiosis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15389/agrobiology.2016.5.593rus</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15389/agrobiology.2016.5.593rus</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85010988820</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85010988820</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85010988820&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sel'skokhozyaistvennaya Biologiya</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.712Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1155/2015/695947</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1155/2015/695947</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84949226382</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84949226382</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278109" path="/0000-0002-2411-9191/work/33278109" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.712Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.712Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>De Novo Assembly of the Pea (Pisum sativum L.) Nodule Transcriptome</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1155/2015/695947</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1155/2015/695947</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84949226382</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84949226382</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84949226382&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Genomics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.764Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/jxb/erv414</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/jxb/erv414</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84963944139</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84963944139</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278117" path="/0000-0002-2411-9191/work/33278117" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.764Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.764Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>KNOTTED1-LIKE HOMEOBOX 3: A new regulator of symbiotic nodule development</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/jxb/erv414</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/jxb/erv414</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84963944139</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84963944139</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84963944139&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Experimental Botany</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.696Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84953345236</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84953345236</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278098" path="/0000-0002-2411-9191/work/33278098" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.696Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.696Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Principle of Genome Complementarity in the Enhancement of Plant Adaptive Capacities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84953345236</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84953345236</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84953345236&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Genetika</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.761Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84942020650</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84942020650</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1022795415090124</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1022795415090124</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278114" path="/0000-0002-2411-9191/work/33278114" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.761Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.761Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The principle of genome complementarity in the enhancement of plant adaptive capacities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1022795415090124</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1022795415090124</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84942020650</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84942020650</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84942020650&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Journal of Genetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.758Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15389/agrobiology.2015.3.288eng</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15389/agrobiology.2015.3.288eng</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84943793151</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84943793151</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278112" path="/0000-0002-2411-9191/work/33278112" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.758Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.758Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tilling: The modern technology in «reverse» genetic of plants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15389/agrobiology.2015.3.288eng</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15389/agrobiology.2015.3.288eng</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84943793151</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84943793151</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84943793151&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sel'skokhozyaistvennaya Biologiya</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.708Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15389/agrobiology.2015.3.278eng</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15389/agrobiology.2015.3.278eng</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84943788909</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84943788909</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278105" path="/0000-0002-2411-9191/work/33278105" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.708Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.708Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>«Next Generation Sequencing» for studying transcriptome profiles of tissues and organs of garden pea (Pisum sativum L.)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15389/agrobiology.2015.3.278eng</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15389/agrobiology.2015.3.278eng</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84943788909</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84943788909</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84943788909&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sel'skokhozyaistvennaya Biologiya</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.767Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S0003683813030149</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s0003683813030149</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84877349988</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84877349988</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278120" path="/0000-0002-2411-9191/work/33278120" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.767Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.767Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comigration of root nodule bacteria and bean plants to new habitats: Coevolution mechanisms and practical importance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S0003683813030149</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s0003683813030149</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84877349988</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84877349988</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84877349988&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Biochemistry and Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.762Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.7868/S0555109913030148</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.7868/s0555109913030148</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84881294801</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84881294801</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278115" path="/0000-0002-2411-9191/work/33278115" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.762Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.762Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>[Comigration of root nodule bacteria and bean plants to new habitats: coevolution mechanisms and practical importance (review)].</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.7868/S0555109913030148</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.7868/s0555109913030148</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84881294801</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84881294801</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84881294801&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Prikladnaia biokhimiia i mikrobiologiia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.699Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84973483755</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84973483755</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1142/9789814405041_0017</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1142/9789814405041_0017</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278102" path="/0000-0002-2411-9191/work/33278102" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.699Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.699Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Dynamics of symbiotic bacteria populations elicited by their comigration into the novel environments together with the host plants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1142/9789814405041_0017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1142/9789814405041_0017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84973483755</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84973483755</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84973483755&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Microbes in Applied Research: Current Advances and Challenges, Malaga, Spain, 14 - 16 September 2011</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.701Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84864741159</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84864741159</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S2079059712020116</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s2079059712020116</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278104" path="/0000-0002-2411-9191/work/33278104" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.701Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.701Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multicomponent symbiosis of legumes with beneficial soil microorganisms: Genetic and evolutionary bases of application in sustainable crop production</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S2079059712020116</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s2079059712020116</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84864741159</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84864741159</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84864741159&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Journal of Genetics: Applied Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.710Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84874929664</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84874929664</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s13199-013-0226-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s13199-013-0226-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278107" path="/0000-0002-2411-9191/work/33278107" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.710Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.710Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mutually beneficial legume symbioses with soil microbes and their potential for plant production</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s13199-013-0226-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s13199-013-0226-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84874929664</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84874929664</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84874929664&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Symbiosis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.763Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84871861973</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84871861973</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1105/tpc.112.103747</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1105/tpc.112.103747</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278116" path="/0000-0002-2411-9191/work/33278116" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.763Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.763Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>NODULE ROOT and COCHLEATA maintain nodule development and are legume orthologs of arabidopsis BLADE-ON-PETIOLE genes&lt;sup&gt;w oa&lt;/sup&gt;</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1105/tpc.112.103747</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1105/tpc.112.103747</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84871861973</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84871861973</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84871861973&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plant Cell</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.766Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84864745944</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84864745944</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S2079059711050066</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s2079059711050066</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278119" path="/0000-0002-2411-9191/work/33278119" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.766Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.766Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Expression of Pisum Sativum recombinant receptor proteins Sym10 and Sym37 involved in perception of lipochitooligosaccharide nod factors</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S2079059711050066</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s2079059711050066</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84864745944</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84864745944</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84864745944&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Journal of Genetics: Applied Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.711Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80054735372</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80054735372</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1094/MPMI-01-11-0013</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1094/mpmi-01-11-0013</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278108" path="/0000-0002-2411-9191/work/33278108" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.711Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.711Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>IPD3 controls the formation of nitrogen-fixing symbiosomes in pea and Medicago spp.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1094/MPMI-01-11-0013</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1094/mpmi-01-11-0013</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80054735372</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80054735372</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80054735372&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular Plant-Microbe Interactions</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.697Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84892113210</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84892113210</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278099" path="/0000-0002-2411-9191/work/33278099" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.697Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.697Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Developmental genetics of plant-microbe symbioses</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84892113210</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84892113210</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84892113210&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Developmental Genetics of Plant-Microbe Symbioses</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.712Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-90-481-9479-7_5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-90-481-9479-7_5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80051875235</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80051875235</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278110" path="/0000-0002-2411-9191/work/33278110" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.712Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.712Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intimate associations of beneficial soil microbes with host plants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-90-481-9479-7_5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-90-481-9479-7_5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80051875235</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80051875235</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80051875235&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Microbiology and Sustainable Crop Production</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.694Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-74949103805</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-74949103805</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278097" path="/0000-0002-2411-9191/work/33278097" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.694Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.694Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Molecular genetic mechanisms used by legumes to control early stages of mutually beneficial (mutualistic) symbiosis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-74949103805</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-74949103805</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-74949103805&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Genetika</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.713Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1022795409110039</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1022795409110039</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-76149143387</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-76149143387</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278111" path="/0000-0002-2411-9191/work/33278111" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.713Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.713Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Molecular genetic mechanisms used by legumes to control early stages of mutually beneficial (mutualistic) symbiosis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1022795409110039</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1022795409110039</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-76149143387</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-76149143387</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-76149143387&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Journal of Genetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.698Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1094/MPMI-21-12-1600</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1094/mpmi-21-12-1600</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-57149096651</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-57149096651</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278101" path="/0000-0002-2411-9191/work/33278101" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.698Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.698Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The pea Sym37 receptor kinase gene controls infection-thread initiation and nodule development</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1094/MPMI-21-12-1600</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1094/mpmi-21-12-1600</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-57149096651</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-57149096651</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-57149096651&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular Plant-Microbe Interactions</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.700Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S0003683807030027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s0003683807030027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-34249652344</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-34249652344</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278103" path="/0000-0002-2411-9191/work/33278103" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.700Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.700Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regulatory genes of garden pea (Pisum sativum L.) controlling the development of nitrogen-fixing nodules and arbuscular mycorrhiza: A review of basic and applied aspects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S0003683807030027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s0003683807030027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-34249652344</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-34249652344</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-34249652344&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Biochemistry and Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-29T12:51:49.697Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-34648840563</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-34648840563</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="33278100" path="/0000-0002-2411-9191/work/33278100" visibility="public" display-index="0">
+                    <common:created-date>2017-05-29T12:51:49.697Z</common:created-date>
+                    <common:last-modified-date>2017-05-29T12:51:49.697Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regulatory genes of garden pea (Pisum sativum L.) controlling the development of nitrogen-fixing nodules and arbuscular mycorrhiza: a review of basic and applied aspects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-34648840563</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-34648840563</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-34648840563&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Prikladnaia biokhimiia i mikrobiologiia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

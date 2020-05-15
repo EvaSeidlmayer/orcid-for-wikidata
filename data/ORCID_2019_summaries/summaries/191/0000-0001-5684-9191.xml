@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5684-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+        <common:path>0000-0001-5684-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>it</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-12-09T18:47:41.180Z</history:submission-date>
+        <common:last-modified-date>2019-01-15T11:31:08.454Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5684-9191/person">
+        <common:last-modified-date>2019-01-15T11:31:04.074Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-5684-9191">
+            <common:created-date>2018-12-09T18:47:41.180Z</common:created-date>
+            <common:last-modified-date>2018-12-09T18:47:41.398Z</common:last-modified-date>
+            <personal-details:given-names>Luigi</personal-details:given-names>
+            <personal-details:family-name>Lembo Fazio</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5684-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5684-9191/researcher-urls"/>
+        <email:emails path="/0000-0001-5684-9191/email"/>
+        <address:addresses path="/0000-0001-5684-9191/address"/>
+        <keyword:keywords path="/0000-0001-5684-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5684-9191/external-identifiers">
+            <common:last-modified-date>2019-01-15T11:31:04.074Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1269828" visibility="public" path="/0000-0001-5684-9191/external-identifiers/1269828" display-index="0">
+                <common:created-date>2019-01-15T11:31:04.073Z</common:created-date>
+                <common:last-modified-date>2019-01-15T11:31:04.074Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>24825010900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=24825010900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5684-9191/activities">
+        <common:last-modified-date>2019-01-15T11:31:08.702Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5684-9191/distinctions"/>
+        <activities:educations path="/0000-0001-5684-9191/educations">
+            <common:last-modified-date>2018-12-09T19:17:07.344Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-09T19:17:07.344Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6940882" display-index="1" path="/0000-0001-5684-9191/education/6940882" visibility="public">
+                    <common:created-date>2018-12-09T19:17:07.344Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:17:07.344Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <common:department-name>Dipartimento di Biologia e Biotecnologie C. Darwin</common:department-name>
+                    <common:role-title>phD</common:role-title>
+                    <common:organization>
+                        <common:name>Università degli Studi di Roma La Sapienza</common:name>
+                        <common:address>
+                            <common:city>Roma</common:city>
+                            <common:region>Lazio</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9311</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-5684-9191/employments">
+            <common:last-modified-date>2018-12-09T18:51:17.008Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-09T18:51:17.008Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6940836" display-index="1" path="/0000-0001-5684-9191/employment/6940836" visibility="public">
+                    <common:created-date>2018-12-09T18:51:17.008Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T18:51:17.008Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <common:department-name>Dipartimento di Biologia e Biotecnologie C. Darwin</common:department-name>
+                    <common:organization>
+                        <common:name>Sapienza University of Rome</common:name>
+                        <common:address>
+                            <common:city>Rome</common:city>
+                            <common:region>Lazio</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.7841.a</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-09T18:50:09.241Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6940834" display-index="1" path="/0000-0001-5684-9191/employment/6940834" visibility="public">
+                    <common:created-date>2018-12-09T18:50:09.241Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T18:50:09.241Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>Università degli Studi di Roma La Sapienza </common:name>
+                        <common:address>
+                            <common:city>Roma</common:city>
+                            <common:region>Lazio</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>154921</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-5684-9191/fundings"/>
+        <activities:invited-positions path="/0000-0001-5684-9191/invited-positions"/>
+        <activities:memberships path="/0000-0001-5684-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5684-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5684-9191/qualifications"/>
+        <activities:research-resources path="/0000-0001-5684-9191/research-resources"/>
+        <activities:services path="/0000-0001-5684-9191/services"/>
+        <activities:works path="/0000-0001-5684-9191/works">
+            <common:last-modified-date>2019-01-15T11:31:08.702Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:46:21.179Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51476254" path="/0000-0001-5684-9191/work/51476254" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:46:21.179Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:46:21.179Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bradyrhizobium Lipid A: Immunological Properties and Molecular Basis of Its Binding to the Myeloid Differentiation Protein-2/Toll-Like Receptor 4 Complex. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.3389/fimmu.2018.01888</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>08</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Front Immunol. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.690Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/fimmu.2018.01888</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/fimmu.2018.01888</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85051487565</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85051487565</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657368" path="/0000-0001-5684-9191/work/52657368" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.690Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.690Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bradyrhizobium lipid A: Immunological properties and molecular basis of its binding to the myeloid differentiation protein-2/Toll-like receptor 4 complex</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/fimmu.2018.01888</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/fimmu.2018.01888</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85051487565</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85051487565</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85051487565&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in Immunology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.470Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85059503563</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85059503563</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.ppat.1007469</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.ppat.1007469</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657364" path="/0000-0001-5684-9191/work/52657364" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.470Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.470Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of a fluid-phase PRR in fighting an intracellular pathogen: PTX3 in Shigella infection</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.ppat.1007469</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.ppat.1007469</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85059503563</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85059503563</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85059503563&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PLoS Pathogens</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:44:50.032Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51476228" path="/0000-0001-5684-9191/work/51476228" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:44:50.032Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:44:50.032Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Determination of the structure of the O-antigen and the lipid A from the entomopathogenic bacterium Pseudomonas entomophila lipopolysaccharide along with its immunological properties. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1016/j.carres.2015.04.017</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>08</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Carbohydrate Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.476Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84929346953</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84929346953</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.carres.2015.04.017</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.carres.2015.04.017</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657365" path="/0000-0001-5684-9191/work/52657365" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.476Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.476Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Determination of the structure of the O-antigen and the lipid A from the entomopathogenic bacterium Pseudomonas entomophila lipopolysaccharide along with its immunological properties</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.carres.2015.04.017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.carres.2015.04.017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84929346953</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84929346953</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84929346953&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Carbohydrate Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.685Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/cbic.201402233</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/cbic.201402233</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84908155434</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84908155434</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657366" path="/0000-0001-5684-9191/work/52657366" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.685Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.685Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Thermophiles as potential source of novel endotoxin antagonists: The full structure and bioactivity of theLipo-oligosaccharide from thermomonas hydrothermalis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/cbic.201402233</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/cbic.201402233</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84908155434</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84908155434</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84908155434&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ChemBioChem</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:42:41.076Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51476100" path="/0000-0001-5684-9191/work/51476100" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:42:41.076Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:42:41.076Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Thermophiles as Potential Source of Novel Endotoxin Antagonists: the Full Structure and Bioactivity of the Lipo-oligosaccharide from Thermomonas hydrothermalis. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1002/cbic.201402233</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                        <common:day>29</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chembiochem</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.466Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84892860331</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84892860331</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/clr.12089</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/clr.12089</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657363" path="/0000-0001-5684-9191/work/52657363" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.466Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.466Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Microscopical and microbiologic characterization of customized titanium abutments after different cleaning procedures</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/clr.12089</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/clr.12089</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84892860331</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84892860331</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84892860331&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Oral Implants Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:41:03.029Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51476058" path="/0000-0001-5684-9191/work/51476058" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:41:03.029Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:41:03.029Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intracellular Shigella remodels its LPS to dampen the innate immune recognition and evade inflammasome activation. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1073/pnas.1303641110</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>10</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>PNAS</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:38:33.312Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51476038" path="/0000-0001-5684-9191/work/51476038" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:38:33.312Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:38:33.312Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chemistry and biology of the potent endotoxin from a Burkholderia dolosa clinical isolate from a cystic fibrosis patient</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1002/cbic.201300062</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>06</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chembiochem</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.699Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/cbic.201300062</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/cbic.201300062</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84879124962</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84879124962</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657371" path="/0000-0001-5684-9191/work/52657371" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.699Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.699Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chemistry and biology of the potent endotoxin from a burkholderia dolosa clinical isolate from a cystic fibrosis patient</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/cbic.201300062</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/cbic.201300062</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84879124962</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84879124962</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84879124962&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ChemBioChem</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.693Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1073/pnas.1320851110</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1073/pnas.1320851110</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84890842954</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84890842954</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657369" path="/0000-0001-5684-9191/work/52657369" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.693Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.693Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Erratum: Intracellular Shigella remodels its LPS to dampen the innate immune recognition and evade inflammasome activation (Proceedings of the National Academy of Sciences of the United States of America (2013) 110: (E4345-E4354) DOI: 10.1073/pnas.1303641110)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1073/pnas.1320851110</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1073/pnas.1320851110</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84890842954</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84890842954</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84890842954&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the National Academy of Sciences of the United States of America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.696Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1073/pnas.1303641110</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1073/pnas.1303641110</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84887431806</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84887431806</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657370" path="/0000-0001-5684-9191/work/52657370" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.696Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.696Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intracellular Shigella remodels its LPS to dampen the innate immune recognition and evade inflammasome activation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1073/pnas.1303641110</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1073/pnas.1303641110</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84887431806</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84887431806</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84887431806&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the National Academy of Sciences of the United States of America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:31:07.629Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51475996" path="/0000-0001-5684-9191/work/51475996" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:31:07.629Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:31:07.629Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Microscopical and microbiologic characterization of customized titanium abutments after different cleaning procedures. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1111/clr.12089</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>12</common:month>
+                        <common:day>05</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Clin Oral Implants Res</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:26:24.230Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51475875" path="/0000-0001-5684-9191/work/51475875" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:26:24.230Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:26:24.230Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Gadd45α activity is the principal effector of Shigella mitochondria dependent epithelial cell death in vitro and ex vivo. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://www.nature.com/articles/cddis20114</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>02</common:month>
+                        <common:day>24</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell Death Dis. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.688Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/cddis.2011.4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/cddis.2011.4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79960018823</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79960018823</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657367" path="/0000-0001-5684-9191/work/52657367" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.688Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.688Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Gadd45α activity is the principal effector of Shigella mitochondria-dependent epithelial cell death in vitro and ex vivo</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/cddis.2011.4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/cddis.2011.4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79960018823</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79960018823</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79960018823&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cell Death and Disease</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:23:42.295Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51475833" path="/0000-0001-5684-9191/work/51475833" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:23:42.295Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:23:42.295Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intracellular bacteriolysis triggers a massive apoptotic cell death in Shigella-infected epithelial cells</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1016/j.micinf.2008.06.004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Microbes Infect</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.702Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-54049136825</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-54049136825</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.micinf.2008.06.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.micinf.2008.06.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657372" path="/0000-0001-5684-9191/work/52657372" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.702Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.702Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Intracellular bacteriolysis triggers a massive apoptotic cell death in Shigella-infected epithelial cells</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.micinf.2008.06.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.micinf.2008.06.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-54049136825</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-54049136825</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-54049136825&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Microbes and Infection</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T11:31:08.457Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-38849087905</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-38849087905</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1462-5822.2007.01075.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1462-5822.2007.01075.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52657362" path="/0000-0001-5684-9191/work/52657362" visibility="public" display-index="0">
+                    <common:created-date>2019-01-15T11:31:08.457Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T11:31:08.457Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Muramylpeptide shedding modulates cell sensing of Shigella flexneri</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1462-5822.2007.01075.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1462-5822.2007.01075.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-38849087905</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-38849087905</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-38849087905&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cellular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-09T19:21:06.023Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51475770" path="/0000-0001-5684-9191/work/51475770" visibility="public" display-index="1">
+                    <common:created-date>2018-12-09T19:21:06.021Z</common:created-date>
+                    <common:last-modified-date>2018-12-09T19:21:06.023Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5684-9191</common:uri>
+                            <common:path>0000-0001-5684-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Luigi Lembo Fazio</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Muramylpeptide shedding modulates cell sensing of Shigella flexneri</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://doi.org/10.1111/j.1462-5822.2007.01075.x</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                        <common:month>10</common:month>
+                        <common:day>23</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell. Microbiol</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-5415-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+        <common:path>0000-0002-5415-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-01-07T13:38:31.725Z</history:submission-date>
+        <common:last-modified-date>2018-08-03T18:28:49.789Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-5415-8191/person">
+        <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-5415-8191">
+            <common:created-date>2016-04-15T22:40:31.292Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:40:31.292Z</common:last-modified-date>
+            <personal-details:given-names>Paolo</personal-details:given-names>
+            <personal-details:family-name>Pezzutto</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-5415-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-5415-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-5415-8191/email"/>
+        <address:addresses path="/0000-0002-5415-8191/address">
+            <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+            <address:address put-code="195564" visibility="public" path="/0000-0002-5415-8191/address/195564" display-index="0">
+                <common:created-date>2016-01-24T18:20:32.200Z</common:created-date>
+                <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                        <common:path>0000-0002-5415-8191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Paolo Pezzutto</common:source-name>
+                </common:source>
+                <address:country>IT</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-5415-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-5415-8191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="30112" visibility="public" path="/0000-0002-5415-8191/external-identifiers/30112" display-index="1">
+                <common:created-date>2015-01-07T13:38:34.700Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>A-2222-2015</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/A-2222-2015</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-5415-8191/activities">
+        <common:last-modified-date>2016-12-08T18:51:06.559Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-5415-8191/distinctions"/>
+        <activities:educations path="/0000-0002-5415-8191/educations"/>
+        <activities:employments path="/0000-0002-5415-8191/employments"/>
+        <activities:fundings path="/0000-0002-5415-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-5415-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-5415-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-5415-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-5415-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-5415-8191/research-resources"/>
+        <activities:services path="/0000-0002-5415-8191/services"/>
+        <activities:works path="/0000-0002-5415-8191/works">
+            <common:last-modified-date>2016-12-08T18:51:06.559Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.coastaleng.2016.06.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.coastaleng.2016.06.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28692398" path="/0000-0002-5415-8191/work/28692398" visibility="public" display-index="0">
+                    <common:created-date>2016-12-08T18:15:41.888Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Extension of 2D second-order irregular waves generation equations to non-continuous wavemaker shapes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.coastaleng.2016.06.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.coastaleng.2016.06.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Coastal Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:51:06.559Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ocemod.2016.06.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ocemod.2016.06.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28693382" path="/0000-0002-5415-8191/work/28693382" visibility="public" display-index="1">
+                    <common:created-date>2016-12-08T18:50:56.554Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:51:06.559Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Performance comparison of meso-scale ensemble wave forecasting systems for Mediterranean sea states</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ocemod.2016.06.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ocemod.2016.06.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Ocean Modelling</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939518" path="/0000-0002-5415-8191/work/14939518" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:47:46.897Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ensemble mean wave height or wave height of ensemble mean?</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-poster</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2014 WISE meeting</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939516" path="/0000-0002-5415-8191/work/14939516" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:47:03.405Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MyWave-D1.4 - Report on Wave Coupling</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939538" path="/0000-0002-5415-8191/work/14939538" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:49:42.923Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MyWave-D3.4 - Inter-comparison of MetOffice and CNMCA ensemble prediction systems for Mediterranean Sea</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/en6094696</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/en6094696</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="14939412" path="/0000-0002-5415-8191/work/14939412" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:41:47.818Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimentally Based Model to Size the Geometry of a New OWC Device, with Reference to the Mediterranean Sea Wave Environment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/en6094696</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/en6094696</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Energies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1061/(ASCE)WW.1943-5460.0000153</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1061/(asce)ww.1943-5460.0000153</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="14939413" path="/0000-0002-5415-8191/work/14939413" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:41:47.824Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Formula to Predict Transmission for pi-Type Floating Breakwaters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1061/(ASCE)WW.1943-5460.0000153</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1061/(asce)ww.1943-5460.0000153</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Waterway Port Coastal and Ocean Engineering-Asce</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939509" path="/0000-0002-5415-8191/work/14939509" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:46:46.966Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MyWave-D3.1 - Met Office Wave Model Ensemble Prediction Systems in the "Atlantic-Euro Zone" and USAM-CNMCA "Nettuno" Ensemble Prediction System in the Mediterranean Sea</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://webgate.ec.europa.eu/sesam-fp7/deliverables.action?action=view&amp;sessionId=y2hYJJpbZXhLh1CwGTvLp12722GQTVtvkBvz164lzHbpl1LVmg26!-490239641!1418288667322&amp;selectedId=1235311&amp;version=2.0&amp;idType=cpm</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939532" path="/0000-0002-5415-8191/work/14939532" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:48:46.403Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MyWave-D4.2a - Proposal of metrics for user focused verification of deterministic wave prediction systems</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://webgate.ec.europa.eu/sesam-fp7/deliverables.action?action=view&amp;sessionId=y2hYJJpbZXhLh1CwGTvLp12722GQTVtvkBvz164lzHbpl1LVmg26!-490239641!1418288667322&amp;selectedId=1235316&amp;version=1.0&amp;idType=cpm</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939507" path="/0000-0002-5415-8191/work/14939507" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:46:24.019Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MyWave-D4.2b - Proposal of metrics for developer and user focused verification of wave ensemble prediction systems</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://webgate.ec.europa.eu/sesam-fp7/deliverables.action?action=view&amp;sessionId=y2hYJJpbZXhLh1CwGTvLp12722GQTVtvkBvz164lzHbpl1LVmg26!-490239641!1418288667322&amp;selectedId=1235316&amp;version=1.0&amp;idType=cpm</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939535" path="/0000-0002-5415-8191/work/14939535" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:49:15.444Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A parametric analysis of dissipation capacity for π-type floating breakwaters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781880653944</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781880653944</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/record/display.url?eid=2-s2.0-84866135891&amp;origin=inward</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>The proceedings of the 22nd ISOPE Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939529" path="/0000-0002-5415-8191/work/14939529" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:48:13.486Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimental and numerical investigation of the effect of mooring stiffness on the behaviour of \pi-type floating breakwaters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781880653944</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781880653944</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/record/display.url?eid=2-s2.0-84866099719&amp;origin=inward</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>The proceedings of the 22nd ISOPE Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939530" path="/0000-0002-5415-8191/work/14939530" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:48:29.665Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Formula sperimentale per la stima dell'efficienza di frangiflutti galleggianti di tipo π</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Atti del XXXIII convegno nazionale di idrauilca e costruzioni idrauliche</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939534" path="/0000-0002-5415-8191/work/14939534" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:49:08.707Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Limits of the new transmission formula for π-type floating breakwaters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780989661119</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780989661119</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/record/display.url?eid=2-s2.0-84884970012&amp;origin=inward</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the Coastal Engineering Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939515" path="/0000-0002-5415-8191/work/14939515" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:46:55.709Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Theseus-OD2.7 - Integrated report on design of innovative coastal structures and best practices for coastal defence. Results from numerical, experimental and prototype testing. Part E: Floating structures.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939531" path="/0000-0002-5415-8191/work/14939531" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:48:39.215Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multi-chamber OWC devices to reduce and convert wave energy in harbour entrance and inner channels</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781880653968</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781880653968</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/record/display.url?eid=2-s2.0-80052758003&amp;origin=inward</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>The proceedings of the 21st ISOPE Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939533" path="/0000-0002-5415-8191/work/14939533" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:48:57.961Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analisi sperimentale sulla risposta 2D di molteplici frangiflutti galleggianti</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Atti del XXXII convegno nazionale di idrauilca e costruzioni idrauliche</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14939536" path="/0000-0002-5415-8191/work/14939536" visibility="public" display-index="0">
+                    <common:created-date>2015-01-07T13:49:36.516Z</common:created-date>
+                    <common:last-modified-date>2016-12-08T18:33:22.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5415-8191</common:uri>
+                            <common:path>0000-0002-5415-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Paolo Pezzutto</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Theseus-OD2.1 - Integrated inventory of data and prototype experience on coastal defences and technologies. Part F: Floating Structures</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

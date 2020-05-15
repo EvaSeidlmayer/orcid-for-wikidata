@@ -1,0 +1,2622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6738-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6738-9191</common:uri>
+        <common:path>0000-0002-6738-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>es</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-07-15T09:27:52.604Z</history:submission-date>
+        <common:last-modified-date>2019-10-02T18:11:01.730Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6738-9191/person">
+        <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-6738-9191">
+            <common:created-date>2016-04-15T22:54:10.535Z</common:created-date>
+            <common:last-modified-date>2016-09-21T11:57:45.662Z</common:last-modified-date>
+            <personal-details:given-names>Jorge V.</personal-details:given-names>
+            <personal-details:family-name>Perez-Rodriguez</personal-details:family-name>
+            <personal-details:credit-name>Jorge V. Pérez-Rodríguez (Professor)</personal-details:credit-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6738-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-6738-9191/researcher-urls"/>
+        <email:emails path="/0000-0002-6738-9191/email"/>
+        <address:addresses path="/0000-0002-6738-9191/address"/>
+        <keyword:keywords path="/0000-0002-6738-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6738-9191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="305098" visibility="public" path="/0000-0002-6738-9191/external-identifiers/305098" display-index="0">
+                <common:created-date>2015-07-15T09:41:44.547Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>I-1689-2015</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/I-1689-2015</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="469592" visibility="public" path="/0000-0002-6738-9191/external-identifiers/469592" display-index="0">
+                <common:created-date>2016-04-28T09:08:22.673Z</common:created-date>
+                <common:last-modified-date>2016-04-28T09:08:22.673Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56216749800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56216749800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6738-9191/activities">
+        <common:last-modified-date>2019-08-29T08:48:43.590Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6738-9191/distinctions"/>
+        <activities:educations path="/0000-0002-6738-9191/educations">
+            <common:last-modified-date>2016-09-21T12:00:53.963Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-21T11:58:04.428Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1786697" display-index="0" path="/0000-0002-6738-9191/education/1786697" visibility="public">
+                    <common:created-date>2016-04-28T11:53:51.561Z</common:created-date>
+                    <common:last-modified-date>2016-09-21T11:58:04.428Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6738-9191</common:uri>
+                            <common:path>0000-0002-6738-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge V. Pérez-Rodríguez (Professor)</common:source-name>
+                    </common:source>
+                    <common:role-title>PhD in Economics</common:role-title>
+                    <common:start-date>
+                        <common:year>1995</common:year>
+                        <common:month>02</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1995</common:year>
+                        <common:month>02</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de Barcelona</common:name>
+                        <common:address>
+                            <common:city>Barcelona</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-21T12:00:53.963Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1033511" display-index="0" path="/0000-0002-6738-9191/education/1033511" visibility="public">
+                    <common:created-date>2015-07-15T09:29:57.968Z</common:created-date>
+                    <common:last-modified-date>2016-09-21T12:00:53.963Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6738-9191</common:uri>
+                            <common:path>0000-0002-6738-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge V. Pérez-Rodríguez (Professor)</common:source-name>
+                    </common:source>
+                    <common:role-title>B.Sc. in Economics</common:role-title>
+                    <common:start-date>
+                        <common:year>1984</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1989</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de La Laguna</common:name>
+                        <common:address>
+                            <common:city>La Laguna</common:city>
+                            <common:region>Islas Canarias</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16749</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-6738-9191/employments">
+            <common:last-modified-date>2016-09-21T12:01:11.765Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-21T12:01:11.765Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1786685" display-index="0" path="/0000-0002-6738-9191/employment/1786685" visibility="public">
+                    <common:created-date>2016-04-28T11:48:36.607Z</common:created-date>
+                    <common:last-modified-date>2016-09-21T12:01:11.765Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6738-9191</common:uri>
+                            <common:path>0000-0002-6738-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge V. Pérez-Rodríguez (Professor)</common:source-name>
+                    </common:source>
+                    <common:department-name>Quantitative Methods for Economics and Management</common:department-name>
+                    <common:role-title>Professor of Econometrics and Statistics</common:role-title>
+                    <common:start-date>
+                        <common:year>1996</common:year>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Universidad de Las Palmas de Gran Canaria</common:name>
+                        <common:address>
+                            <common:city>Las Palmas de Gran Canaria</common:city>
+                            <common:region>Islas Canarias</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16750</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-04-28T12:05:37.256Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1786704" display-index="0" path="/0000-0002-6738-9191/employment/1786704" visibility="public">
+                    <common:created-date>2016-04-28T11:56:00.979Z</common:created-date>
+                    <common:last-modified-date>2016-04-28T12:05:37.256Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6738-9191</common:uri>
+                            <common:path>0000-0002-6738-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jorge V. Pérez-Rodríguez (Professor)</common:source-name>
+                    </common:source>
+                    <common:department-name>Econometrics and Statistics</common:department-name>
+                    <common:role-title>Associate Professor of Econometrics and Statistics</common:role-title>
+                    <common:start-date>
+                        <common:year>1990</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1996</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad de Barcelona</common:name>
+                        <common:address>
+                            <common:city>Barcelona</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-6738-9191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6738-9191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6738-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6738-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-6738-9191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6738-9191/research-resources"/>
+        <activities:services path="/0000-0002-6738-9191/services"/>
+        <activities:works path="/0000-0002-6738-9191/works">
+            <common:last-modified-date>2019-08-29T08:48:43.590Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-29T08:48:43.590Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/s41283-019-00054-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/s41283-019-00054-y</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1057/s41283-019-00054-y</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61036461" path="/0000-0002-6738-9191/work/61036461" visibility="public" display-index="0">
+                    <common:created-date>2019-08-29T08:48:43.590Z</common:created-date>
+                    <common:last-modified-date>2019-08-29T08:48:43.590Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Another look at the implied and realised volatility relation: a copula-based approach</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/s41283-019-00054-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/s41283-019-00054-y</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1057/s41283-019-00054-y</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1057/s41283-019-00054-y</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>29</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Risk Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-15T06:48:01.965Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/jtr.2301</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/jtr.2301</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/jtr.2301</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59481603" path="/0000-0002-6738-9191/work/59481603" visibility="public" display-index="0">
+                    <common:created-date>2019-07-15T06:48:01.965Z</common:created-date>
+                    <common:last-modified-date>2019-07-15T06:48:01.965Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Air pollution and tourism demand: A case study of Beijing, China</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/jtr.2301</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/jtr.2301</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/jtr.2301</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/jtr.2301</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Tourism Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-03T14:15:24.896Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1354816619840845</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1354816619840845</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1177/1354816619840845</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56056360" path="/0000-0002-6738-9191/work/56056360" visibility="public" display-index="0">
+                    <common:created-date>2019-04-03T14:15:24.896Z</common:created-date>
+                    <common:last-modified-date>2019-04-03T14:15:24.896Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling tourist expenditure at origin and destination</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1354816619840845</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1354816619840845</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1177/1354816619840845</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1177/1354816619840845</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-25T20:27:23.329Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00181-019-01668-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00181-019-01668-7</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s00181-019-01668-7</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55793410" path="/0000-0002-6738-9191/work/55793410" visibility="public" display-index="0">
+                    <common:created-date>2019-03-27T22:14:05.461Z</common:created-date>
+                    <common:last-modified-date>2019-04-25T20:27:23.329Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Economic growth and market segment choice in tourism-based economies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00181-019-01668-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00181-019-01668-7</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s00181-019-01668-7</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s00181-019-01668-7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                        <common:day>27</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Empirical Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-31T07:51:27.612Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.annals.2019.01.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.annals.2019.01.006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53421149" path="/0000-0002-6738-9191/work/53421149" visibility="public" display-index="0">
+                    <common:created-date>2019-01-31T07:51:27.612Z</common:created-date>
+                    <common:last-modified-date>2019-01-31T07:51:27.612Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling bimodality of length of tourist stay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.annals.2019.01.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.annals.2019.01.006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0160-7383</common:external-id-value>
+                            <common:external-id-normalized transient="true">0160-7383</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Tourism Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-19T11:40:16.791Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1354816619828170</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1354816619828170</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1177/1354816619828170</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54285845" path="/0000-0002-6738-9191/work/54285845" visibility="public" display-index="0">
+                    <common:created-date>2019-02-19T11:40:16.791Z</common:created-date>
+                    <common:last-modified-date>2019-02-19T11:40:16.791Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling tourism receipts and associated risks, using long-range dependence models</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1354816619828170</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1354816619828170</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1177/1354816619828170</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1177/1354816619828170</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>19</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-27T10:37:09.870Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/02102412.2018.1556878</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/02102412.2018.1556878</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1080/02102412.2018.1556878</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52023749" path="/0000-0002-6738-9191/work/52023749" visibility="public" display-index="0">
+                    <common:created-date>2018-12-27T10:37:09.870Z</common:created-date>
+                    <common:last-modified-date>2018-12-27T10:37:09.870Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Assessing branch efficiency and managerial behaviour in a large Spanish commercial bank</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/02102412.2018.1556878</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/02102412.2018.1556878</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1080/02102412.2018.1556878</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1080/02102412.2018.1556878</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>26</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Spanish Journal of Finance and Accounting / Revista Española de Financiación y Contabilidad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-08T18:40:41.442Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.najef.2018.11.009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.najef.2018.11.009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51458568" path="/0000-0002-6738-9191/work/51458568" visibility="public" display-index="0">
+                    <common:created-date>2018-12-08T18:40:41.442Z</common:created-date>
+                    <common:last-modified-date>2018-12-08T18:40:41.442Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>International trade, exchange rate regimes, and financial crises</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.najef.2018.11.009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.najef.2018.11.009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1062-9408</common:external-id-value>
+                            <common:external-id-normalized transient="true">1062-9408</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The North American Journal of Economics and Finance</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-14T16:48:43.515Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.econmod.2018.09.027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.econmod.2018.09.027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="49312997" path="/0000-0002-6738-9191/work/49312997" visibility="public" display-index="0">
+                    <common:created-date>2018-10-14T16:48:43.515Z</common:created-date>
+                    <common:last-modified-date>2018-10-14T16:48:43.515Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling distribution of aggregate expenditure on tourism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.econmod.2018.09.027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.econmod.2018.09.027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0264-9993</common:external-id-value>
+                            <common:external-id-normalized transient="true">0264-9993</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Economic Modelling</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-03-26T12:07:46.158Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jairtraman.2017.03.001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jairtraman.2017.03.001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31348485" path="/0000-0002-6738-9191/work/31348485" visibility="public" display-index="0">
+                    <common:created-date>2017-03-26T12:07:46.158Z</common:created-date>
+                    <common:last-modified-date>2017-03-26T12:07:46.158Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling the asymmetric probabilistic delay of aircraft arrival</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jairtraman.2017.03.001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jairtraman.2017.03.001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Air Transport Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:48.411Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85021702424</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85021702424</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="37638994" path="/0000-0002-6738-9191/work/37638994" visibility="public" display-index="0">
+                    <common:created-date>2017-10-14T18:17:14.320Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:48.411Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Stochastic frontier models with dependent errors based on normal and exponential margins</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85021702424</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85021702424</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85021702424&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Revista de Metodos Cuantitativos para la Economia y la Empresa</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-10-12T15:04:52.571Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/02102412.2016.1236481</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/02102412.2016.1236481</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27340346" path="/0000-0002-6738-9191/work/27340346" visibility="public" display-index="0">
+                    <common:created-date>2016-10-12T15:04:52.571Z</common:created-date>
+                    <common:last-modified-date>2016-10-12T15:04:52.571Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modelling time-varying asymmetric information component of transaction costs</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/02102412.2016.1236481</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/02102412.2016.1236481</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Spanish Journal of Finance and Accounting / Revista Española de Financiación y Contabilidad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-08-31T09:56:40.316Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03610926.2016.1200094</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03610926.2016.1200094</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="36409761" path="/0000-0002-6738-9191/work/36409761" visibility="public" display-index="0">
+                    <common:created-date>2017-08-31T09:56:40.316Z</common:created-date>
+                    <common:last-modified-date>2017-08-31T09:56:40.316Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mixture inverse Gaussian for unobserved heterogeneity in the autoregressive conditional duration model</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03610926.2016.1200094</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03610926.2016.1200094</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communications in Statistics - Theory and Methods</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-07-28T10:30:37.638Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15446/rce.v39n2.51584</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15446/rce.v39n2.51584</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25733881" path="/0000-0002-6738-9191/work/25733881" visibility="public" display-index="0">
+                    <common:created-date>2016-07-28T10:30:37.638Z</common:created-date>
+                    <common:last-modified-date>2016-07-28T10:30:37.638Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Conditional Duration Model and Unobserved Market Heterogeneity of Traders. An Infinite Mixture of Non–Exponentials</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15446/rce.v39n2.51584</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15446/rce.v39n2.51584</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Rev. colomb. estad.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:54.112Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84958670531</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84958670531</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.econmod.2015.10.043</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.econmod.2015.10.043</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825967" path="/0000-0002-6738-9191/work/23825967" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.082Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:54.112Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>International trade and tourism flows: An extension of the gravity model</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.econmod.2015.10.043</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.econmod.2015.10.043</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84958670531</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84958670531</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84958670531&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Economic Modelling</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:51.017Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1465116515600533</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1465116515600533</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84958159109</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84958159109</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825953" path="/0000-0002-6738-9191/work/23825953" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.019Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:51.017Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The euro effect: Tourism creation, tourism diversion and tourism potential within the European Union</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1465116515600533</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1465116515600533</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84958159109</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84958159109</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84958159109&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Union Politics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:53.399Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11123-014-0395-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11123-014-0395-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84939893146</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84939893146</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825964" path="/0000-0002-6738-9191/work/23825964" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.069Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:53.399Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Closed-form solution for a bivariate distribution in stochastic frontier models with dependent errors</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11123-014-0395-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11123-014-0395-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84939893146</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84939893146</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84939893146&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Productivity Analysis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:51.370Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84947870692</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84947870692</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/14697688.2014.991748</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/14697688.2014.991748</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825955" path="/0000-0002-6738-9191/work/23825955" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.031Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:51.370Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spread component costs and stock trading characteristics in the Spanish Stock Exchange. Two flexible fractional response models</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/14697688.2014.991748</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/14697688.2014.991748</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84947870692</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84947870692</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84947870692&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Quantitative Finance</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:54.883Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84918771401</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84918771401</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.tourman.2014.11.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.tourman.2014.11.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825969" path="/0000-0002-6738-9191/work/23825969" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.091Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:54.883Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Testing dependence between GDP and tourism's growth rates</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.tourman.2014.11.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.tourman.2014.11.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84918771401</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84918771401</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84918771401&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:49.340Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84957379082</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84957379082</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825943" path="/0000-0002-6738-9191/work/23825943" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.938Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:49.340Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>International trade, gravity equations and tourism: An application for intra-latin American trade flows</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84957379082</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84957379082</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84957379082&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Current Issues in International Trade: Methodologies and Development Implications for the World Economy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:49.706Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84875415765</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84875415765</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00180-012-0325-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00180-012-0325-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825945" path="/0000-0002-6738-9191/work/23825945" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.946Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:49.706Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Estimating critical values for testing the i.i.d. in standardized residuals from GARCH models in finite samples</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00180-012-0325-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00180-012-0325-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84875415765</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84875415765</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84875415765&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computational Statistics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:51.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80051714171</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80051714171</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00036846.2011.562172</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00036846.2011.562172</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825957" path="/0000-0002-6738-9191/work/23825957" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.040Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:51.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Do product innovation and news about the R&amp;amp;D process produce large price changes and overreaction? The case of pharmaceutical stock prices</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00036846.2011.562172</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00036846.2011.562172</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80051714171</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80051714171</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80051714171&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:53.206Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84863227904</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84863227904</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.gaceta.2011.07.028</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.gaceta.2011.07.028</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825963" path="/0000-0002-6738-9191/work/23825963" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.063Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:53.206Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Does innovation in obesity drugs affect stock markets? An event study analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.gaceta.2011.07.028</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.gaceta.2011.07.028</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84863227904</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84863227904</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84863227904&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gaceta Sanitaria</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:52.860Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79956074424</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79956074424</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00036840802600384</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00036840802600384</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825962" path="/0000-0002-6738-9191/work/23825962" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.059Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:52.860Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Implicit bands in the yen/dollar exchange rate</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00036840802600384</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00036840802600384</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79956074424</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79956074424</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79956074424&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:53.771Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79957863272</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79957863272</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/14697681003685555</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/14697681003685555</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825966" path="/0000-0002-6738-9191/work/23825966" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.078Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:53.771Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Probability of an incoming order signal</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/14697681003685555</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/14697681003685555</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79957863272</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79957863272</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79957863272&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Quantitative Finance</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:49.887Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80052377629</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80052377629</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00181-011-0477-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00181-011-0477-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825946" path="/0000-0002-6738-9191/work/23825946" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.986Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:49.887Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tourism and trade in OECD countries. A dynamic heterogeneous panel data analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00181-011-0477-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00181-011-0477-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80052377629</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80052377629</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80052377629&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Empirical Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:50.627Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79551566750</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79551566750</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5367/te.2011.0029</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5367/te.2011.0029</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825950" path="/0000-0002-6738-9191/work/23825950" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.001Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:50.627Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tourism and trade in small island regions: The case of the canary islands</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5367/te.2011.0029</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5367/te.2011.0029</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79551566750</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79551566750</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79551566750&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-29T22:51:42.534Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5367/000000010790872015</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5367/000000010790872015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23863445" path="/0000-0002-6738-9191/work/23863445" visibility="public" display-index="0">
+                    <common:created-date>2016-04-29T22:51:42.534Z</common:created-date>
+                    <common:last-modified-date>2016-04-29T22:51:42.534Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Exchange rate regimes and tourism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5367/000000010790872015</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5367/000000010790872015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-15T12:36:12.731Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>13315977005</common:external-id-value>
+                        <common:external-id-normalized transient="true">13315977005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23826006" path="/0000-0002-6738-9191/work/23826006" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:15:03.765Z</common:created-date>
+                    <common:last-modified-date>2017-07-15T12:36:12.731Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-AWSI2JKPFWG891ZC</common:uri>
+                            <common:path>APP-AWSI2JKPFWG891ZC</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Redalyc</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Contraste de los modelos de asignación presupuestaria en el presupuesto social municipal</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>13315977005</common:external-id-value>
+                            <common:external-id-normalized transient="true">13315977005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.redalyc.org/articulo.oa?id=13315977005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gestión y Política Pública</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:50.256Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-82455246798</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-82455246798</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1467-9701.2010.01305.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1467-9701.2010.01305.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825949" path="/0000-0002-6738-9191/work/23825949" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.997Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:50.256Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Does a common currency promote countries' growth via trade and tourism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1467-9701.2010.01305.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1467-9701.2010.01305.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-82455246798</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-82455246798</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-82455246798&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>World Economy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:51.739Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1540-5850.2010.00955.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1540-5850.2010.00955.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77955139193</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77955139193</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825956" path="/0000-0002-6738-9191/work/23825956" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.035Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:51.739Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Models of Municipal Budget Allocation: Empirical Data from Spanish Municipalities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1540-5850.2010.00955.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1540-5850.2010.00955.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77955139193</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77955139193</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77955139193&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Public Budgeting and Finance</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:48.784Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84911212224</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84911212224</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825948" path="/0000-0002-6738-9191/work/23825948" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.993Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:48.784Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the relationship between tourism and trade</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780203842331</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780203842331</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84911212224</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84911212224</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84911212224&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Economics of Sustainable Tourism</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:50.439Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-67649623158</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-67649623158</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10368-009-0133-4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10368-009-0133-4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825951" path="/0000-0002-6738-9191/work/23825951" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.005Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:50.439Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Implicit exchange regimes in Central and Eastern Europe: A first exploration</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10368-009-0133-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10368-009-0133-4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-67649623158</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-67649623158</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-67649623158&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Economics and Economic Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:52.118Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-58549120387</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-58549120387</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/13504850701719645</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/13504850701719645</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825958" path="/0000-0002-6738-9191/work/23825958" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.043Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:52.118Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Purchasing power parity and nonlinear adjustment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/13504850701719645</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/13504850701719645</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-58549120387</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-58549120387</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-58549120387&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-29T22:42:17.656Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0210-0266(08)70023-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0210-0266(08)70023-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23863436" path="/0000-0002-6738-9191/work/23863436" visibility="public" display-index="0">
+                    <common:created-date>2016-04-29T22:42:17.656Z</common:created-date>
+                    <common:last-modified-date>2016-04-29T22:42:17.656Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Credibility of the European monetary System: A Review</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0210-0266(08)70023-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0210-0266(08)70023-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cuadernos de Economía</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:53.587Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.tourman.2006.08.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.tourman.2006.08.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-33947572509</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-33947572509</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825965" path="/0000-0002-6738-9191/work/23825965" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.073Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:53.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cost efficiency of the lodging industry in the tourist destination of Gran Canaria (Spain)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.tourman.2006.08.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.tourman.2006.08.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-33947572509</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-33947572509</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-33947572509&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:50.823Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-34547506378</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-34547506378</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/09603100600843916</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/09603100600843916</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825952" path="/0000-0002-6738-9191/work/23825952" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.012Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:50.823Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Implicit bands in the Spanish peseta/Deutschmark exchange rate, 1965-1998</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/09603100600843916</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/09603100600843916</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-34547506378</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-34547506378</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-34547506378&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Financial Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:50.077Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.japwor.2006.05.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.japwor.2006.05.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-34447636219</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-34447636219</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825947" path="/0000-0002-6738-9191/work/23825947" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.990Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:50.077Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Volatility transmission for cross-listed firms and the role of international exposure</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.japwor.2006.05.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.japwor.2006.05.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-34447636219</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-34447636219</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-34447636219&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Japan and the World Economy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:51.560Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-33749673599</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-33749673599</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/13504850500425311</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/13504850500425311</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825954" path="/0000-0002-6738-9191/work/23825954" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.027Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:51.560Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An empirical examination of exchange-rate credibility determinants in the EMS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/13504850500425311</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/13504850500425311</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-33749673599</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-33749673599</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-33749673599&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:52.502Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11293-006-9042-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11293-006-9042-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-33845221765</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-33845221765</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825960" path="/0000-0002-6738-9191/work/23825960" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.051Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:52.502Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Euro and other major currencies floating against the U.S. dollar</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11293-006-9042-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11293-006-9042-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-33845221765</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-33845221765</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-33845221765&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Atlantic Economic Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:54.308Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-27644509709</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-27644509709</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/09603100500108220</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/09603100500108220</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825968" path="/0000-0002-6738-9191/work/23825968" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.086Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:54.308Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Are Spanish Ibex35 stock future index returns forecasted with non-linear models?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/09603100500108220</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/09603100500108220</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-27644509709</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-27644509709</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-27644509709&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Financial Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:49.520Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-27744519436</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-27744519436</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00036840500293722</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00036840500293722</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825944" path="/0000-0002-6738-9191/work/23825944" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.942Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:49.520Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Assessing the credibility of a target zone: Evidence from the EMS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00036840500293722</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00036840500293722</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-27744519436</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-27744519436</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-27744519436&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-15T12:36:12.731Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>96915886003</common:external-id-value>
+                        <common:external-id-normalized transient="true">96915886003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23826007" path="/0000-0002-6738-9191/work/23826007" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:15:03.769Z</common:created-date>
+                    <common:last-modified-date>2017-07-15T12:36:12.731Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-AWSI2JKPFWG891ZC</common:uri>
+                            <common:path>APP-AWSI2JKPFWG891ZC</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Redalyc</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>PERIODICIDAD INTRADÍA EN LA RELACIÓN ENTRE CONTADO Y FUTURO</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>96915886003</common:external-id-value>
+                            <common:external-id-normalized transient="true">96915886003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.redalyc.org/articulo.oa?id=96915886003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Revista de Economía Aplicada</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-29T22:53:53.432Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0212610900012155</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0212610900012155</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23863448" path="/0000-0002-6738-9191/work/23863448" visibility="public" display-index="0">
+                    <common:created-date>2016-04-29T22:53:53.432Z</common:created-date>
+                    <common:last-modified-date>2016-04-29T22:53:53.432Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regímenes cambiarios de iure y de facto. El caso de la peseta/dólar, 1965–1998</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0212610900012155</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0212610900012155</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>RHE / JILAEH</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:52.305Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00036840500293474</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00036840500293474</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-27744468400</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-27744468400</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825959" path="/0000-0002-6738-9191/work/23825959" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.047Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:52.305Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Return to tourist destination. Is it reputation, after all?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00036840500293474</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00036840500293474</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-27744468400</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-27744468400</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-27744468400&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:52.677Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jempfin.2004.03.001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jempfin.2004.03.001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-19644366535</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-19644366535</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825961" path="/0000-0002-6738-9191/work/23825961" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:35.055Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:52.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>STAR and ANN models: Forecasting performance on the Spanish "Ibex-35" stock index</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jempfin.2004.03.001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jempfin.2004.03.001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-19644366535</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-19644366535</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-19644366535&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Empirical Finance</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:48.966Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77953572896</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77953572896</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825940" path="/0000-0002-6738-9191/work/23825940" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.927Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:48.966Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Contagion or Interdependence between USA, Europe and Japan during the 1997 crisis?,¿Contagio o interdependencia entre los mercados USA, europa y japón durante la crisis del 97?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77953572896</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77953572896</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77953572896&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Revista Espanola de Financiacion y Contabilidad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:48.597Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77953761693</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77953761693</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825939" path="/0000-0002-6738-9191/work/23825939" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.922Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:48.597Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mean reversion, non-linearity and regime in time series of Ibex 35,Reversión a la media, no linealidad y cambios de régimen en la evolución temporal del IBEX35</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77953761693</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77953761693</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77953761693&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Revista Espanola de Financiacion y Contabilidad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:54.502Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77953850353</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77953850353</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/02102412.2002.10779463</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/02102412.2002.10779463</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825942" path="/0000-0002-6738-9191/work/23825942" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.934Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:54.502Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Havariadoeneltiempo la remuneración del riesgo en el mercado bursátil español?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/02102412.2002.10779463</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/02102412.2002.10779463</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77953850353</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77953850353</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77953850353&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Revista Espanola de Financiacion y Contabilidad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-29T22:43:10.370Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5367/000000001101297748</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5367/000000001101297748</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23863437" path="/0000-0002-6738-9191/work/23863437" visibility="public" display-index="0">
+                    <common:created-date>2016-04-29T22:43:10.370Z</common:created-date>
+                    <common:last-modified-date>2016-04-29T22:43:10.370Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Panel data and tourism: a case study of Tenerife</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5367/000000001101297748</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5367/000000001101297748</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Tourism Economics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-08-08T16:26:49.157Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0033845723</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0033845723</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23825941" path="/0000-0002-6738-9191/work/23825941" visibility="public" display-index="0">
+                    <common:created-date>2016-04-28T09:08:34.931Z</common:created-date>
+                    <common:last-modified-date>2018-08-08T16:26:49.157Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the credibility of the Irish Pound in the EMS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0033845723</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0033845723</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0033845723&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Economic and Social Review</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

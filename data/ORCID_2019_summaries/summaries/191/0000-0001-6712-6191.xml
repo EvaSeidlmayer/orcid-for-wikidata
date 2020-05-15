@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-6712-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-6712-6191</common:uri>
+        <common:path>0000-0001-6712-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2016-11-19T01:42:36.266Z</history:submission-date>
+        <common:last-modified-date>2018-12-13T02:30:41.714Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>false</history:verified-email>
+        <history:verified-primary-email>false</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-6712-6191/person">
+        <person:name visibility="public" path="0000-0001-6712-6191">
+            <common:created-date>2016-11-19T01:42:36.496Z</common:created-date>
+            <common:last-modified-date>2016-11-19T01:42:36.496Z</common:last-modified-date>
+            <personal-details:given-names>Yu</personal-details:given-names>
+            <personal-details:family-name>Yu</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-6712-6191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-6712-6191/researcher-urls"/>
+        <email:emails path="/0000-0001-6712-6191/email"/>
+        <address:addresses path="/0000-0001-6712-6191/address"/>
+        <keyword:keywords path="/0000-0001-6712-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-6712-6191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-6712-6191/activities">
+        <common:last-modified-date>2018-12-13T02:01:07.359Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-6712-6191/distinctions"/>
+        <activities:educations path="/0000-0001-6712-6191/educations">
+            <common:last-modified-date>2017-02-21T08:28:33.258Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-21T08:28:33.258Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3249720" display-index="0" path="/0000-0001-6712-6191/education/3249720" visibility="public">
+                    <common:created-date>2017-02-21T08:28:33.258Z</common:created-date>
+                    <common:last-modified-date>2017-02-21T08:28:33.258Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6712-6191</common:uri>
+                            <common:path>0000-0001-6712-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yu Yu</common:source-name>
+                    </common:source>
+                    <common:role-title>Doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Tianjin University</common:name>
+                        <common:address>
+                            <common:city>Tianjin</common:city>
+                            <common:region>Tianjin</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>12605</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-6712-6191/employments"/>
+        <activities:fundings path="/0000-0001-6712-6191/fundings"/>
+        <activities:invited-positions path="/0000-0001-6712-6191/invited-positions"/>
+        <activities:memberships path="/0000-0001-6712-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-6712-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-6712-6191/qualifications"/>
+        <activities:research-resources path="/0000-0001-6712-6191/research-resources"/>
+        <activities:services path="/0000-0001-6712-6191/services"/>
+        <activities:works path="/0000-0001-6712-6191/works">
+            <common:last-modified-date>2018-12-13T02:01:07.359Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-12-13T02:01:07.359Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/s18124337</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/s18124337</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/s18124337</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51606433" path="/0000-0001-6712-6191/work/51606433" visibility="public" display-index="0">
+                    <common:created-date>2018-12-13T02:01:07.359Z</common:created-date>
+                    <common:last-modified-date>2018-12-13T02:01:07.359Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Fast Response−Recovery 3D Graphene Foam Humidity Sensor for User Interaction</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/s18124337</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/s18124337</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/s18124337</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.mdpi.com/1424-8220/18/12/4337</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Sensors</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

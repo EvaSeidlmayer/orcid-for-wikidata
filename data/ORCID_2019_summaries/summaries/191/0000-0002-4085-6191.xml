@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4085-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+        <common:path>0000-0002-4085-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2019-05-23T12:06:00.498Z</history:submission-date>
+        <common:last-modified-date>2019-05-25T13:38:55.269Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4085-6191/person">
+        <person:name visibility="public" path="0000-0002-4085-6191">
+            <common:created-date>2019-05-23T12:06:00.498Z</common:created-date>
+            <common:last-modified-date>2019-05-23T12:06:00.724Z</common:last-modified-date>
+            <personal-details:given-names>Tao</personal-details:given-names>
+            <personal-details:family-name>Xu</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4085-6191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4085-6191/researcher-urls"/>
+        <email:emails path="/0000-0002-4085-6191/email"/>
+        <address:addresses path="/0000-0002-4085-6191/address"/>
+        <keyword:keywords path="/0000-0002-4085-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4085-6191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4085-6191/activities">
+        <common:last-modified-date>2019-05-23T12:51:16.209Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4085-6191/distinctions"/>
+        <activities:educations path="/0000-0002-4085-6191/educations"/>
+        <activities:employments path="/0000-0002-4085-6191/employments">
+            <common:last-modified-date>2019-05-23T12:51:16.209Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-23T12:50:39.607Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7942823" display-index="1" path="/0000-0002-4085-6191/employment/7942823" visibility="public">
+                    <common:created-date>2019-05-23T12:10:22.789Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:50:39.607Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <common:department-name>Zhongshan School of Medicine</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Sun Yat-Sen University</common:name>
+                        <common:address>
+                            <common:city>Guangzhou</common:city>
+                            <common:region>Guangdong</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>26469</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>http://zssom.sysu.edu.cn/teacher/524</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-23T12:50:58.228Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7942850" display-index="1" path="/0000-0002-4085-6191/employment/7942850" visibility="public">
+                    <common:created-date>2019-05-23T12:13:47.078Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:50:58.228Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <common:department-name>Immuno-oncology</common:department-name>
+                    <common:role-title>Research Scientist</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>10</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Amgen Inc San Francisco</common:name>
+                        <common:address>
+                            <common:city>South San Francisco</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>371104</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-23T12:51:16.209Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7942841" display-index="1" path="/0000-0002-4085-6191/employment/7942841" visibility="public">
+                    <common:created-date>2019-05-23T12:12:28.970Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:51:16.209Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <common:department-name>The J.David Gladstone Institutes</common:department-name>
+                    <common:role-title>Postdoc</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of California San Francisco</common:name>
+                        <common:address>
+                            <common:city>San Francisco</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>8785</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-23T12:15:48.707Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7942868" display-index="1" path="/0000-0002-4085-6191/employment/7942868" visibility="public">
+                    <common:created-date>2019-05-23T12:15:48.707Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:15:48.707Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemical Biology </common:department-name>
+                    <common:role-title>Postdoc</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>06</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Scripps Research Institute</common:name>
+                        <common:address>
+                            <common:city>La Jolla</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4356</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4085-6191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4085-6191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4085-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4085-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4085-6191/qualifications">
+            <common:last-modified-date>2019-05-23T12:17:21.470Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-23T12:17:21.470Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="7942876" display-index="1" path="/0000-0002-4085-6191/qualification/7942876" visibility="public">
+                    <common:created-date>2019-05-23T12:17:21.470Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:17:21.470Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <common:role-title>Ph.D Candidate</common:role-title>
+                    <common:start-date>
+                        <common:year>2001</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                        <common:month>07</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Institute of Biochemistry and Cell Biology</common:name>
+                        <common:address>
+                            <common:city>Shanghai</common:city>
+                            <common:region>Shanghai</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>85426</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0002-4085-6191/research-resources"/>
+        <activities:services path="/0000-0002-4085-6191/services"/>
+        <activities:works path="/0000-0002-4085-6191/works">
+            <common:last-modified-date>2019-05-23T12:44:33.561Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:20:17.174Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>28783731</common:external-id-value>
+                        <common:external-id-normalized transient="true">28783731</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/28783731</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/nature23475</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/nature23475</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/nature23475</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738384" path="/0000-0002-4085-6191/work/57738384" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:20:17.174Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:20:17.174Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Metabolic control of TH17 and induced Treg cell balance by an epigenetic mechanism.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>28783731</common:external-id-value>
+                            <common:external-id-normalized transient="true">28783731</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/28783731</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/nature23475</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/nature23475</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/nature23475</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/nature23475</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Nature</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:36:00.318Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.celrep.2016.12.062</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.celrep.2016.12.062</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.celrep.2016.12.062</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>28099842</common:external-id-value>
+                        <common:external-id-normalized transient="true">28099842</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/28099842</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739424" path="/0000-0002-4085-6191/work/57739424" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:36:00.318Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:36:00.318Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Brown Adipogenic Reprogramming Induced by a Small Molecule.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>28099842</common:external-id-value>
+                            <common:external-id-normalized transient="true">28099842</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/28099842</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.celrep.2016.12.062</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.celrep.2016.12.062</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.celrep.2016.12.062</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.celrep.2016.12.062</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:30:23.318Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>27127239</common:external-id-value>
+                        <common:external-id-normalized transient="true">27127239</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/27127239</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1126/science.aaf1502</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1126/science.aaf1502</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1126/science.aaf1502</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739111" path="/0000-0002-4085-6191/work/57739111" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:30:23.318Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:30:23.318Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Conversion of human fibroblasts into functional cardiomyocytes by small molecules.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>27127239</common:external-id-value>
+                            <common:external-id-normalized transient="true">27127239</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/27127239</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1126/science.aaf1502</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1126/science.aaf1502</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1126/science.aaf1502</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1126/science.aaf1502</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>04</common:month>
+                        <common:day>28</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Science (New York, N.Y.)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:29:02.815Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC5826660</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC5826660</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC5826660</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26942852</common:external-id-value>
+                        <common:external-id-normalized transient="true">26942852</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26942852</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.stem.2016.02.001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.stem.2016.02.001</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.stem.2016.02.001</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738969" path="/0000-0002-4085-6191/work/57738969" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:29:02.815Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:29:02.815Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Expandable Cardiovascular Progenitor Cells Reprogrammed from Fibroblasts.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26942852</common:external-id-value>
+                            <common:external-id-normalized transient="true">26942852</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26942852</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC5826660</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC5826660</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC5826660</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.stem.2016.02.001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.stem.2016.02.001</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.stem.2016.02.001</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC5826660</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell stem cell</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:28:02.401Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26733021</common:external-id-value>
+                        <common:external-id-normalized transient="true">26733021</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26733021</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4729817</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4729817</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC4729817</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/ncomms10080</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/ncomms10080</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/ncomms10080</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738846" path="/0000-0002-4085-6191/work/57738846" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:28:02.401Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:28:02.401Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Human pancreatic beta-like cells converted from fibroblasts.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26733021</common:external-id-value>
+                            <common:external-id-normalized transient="true">26733021</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26733021</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4729817</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4729817</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC4729817</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/ncomms10080</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/ncomms10080</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/ncomms10080</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4729817</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>01</common:month>
+                        <common:day>06</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Nature communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:27:04.693Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26502054</common:external-id-value>
+                        <common:external-id-normalized transient="true">26502054</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26502054</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/ncb3256</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/ncb3256</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/ncb3256</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738832" path="/0000-0002-4085-6191/work/57738832" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:27:04.693Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:27:04.693Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Atg5-independent autophagy regulates mitochondrial clearance and is essential for iPSC reprogramming.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26502054</common:external-id-value>
+                            <common:external-id-normalized transient="true">26502054</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/26502054</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/ncb3256</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/ncb3256</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/ncb3256</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/ncb3256</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>10</common:month>
+                        <common:day>26</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Nature cell biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:44:33.561Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>25284223</common:external-id-value>
+                        <common:external-id-normalized transient="true">25284223</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/25284223</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.molcel.2014.09.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.molcel.2014.09.006</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.molcel.2014.09.006</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4224670</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4224670</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC4224670</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739817" path="/0000-0002-4085-6191/work/57739817" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:44:33.561Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:44:33.561Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Oxidative stress diverts tRNA synthetase to nucleus for protection against DNA damage.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>25284223</common:external-id-value>
+                            <common:external-id-normalized transient="true">25284223</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/25284223</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4224670</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4224670</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC4224670</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.molcel.2014.09.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.molcel.2014.09.006</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.molcel.2014.09.006</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4224670</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>10</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Molecular cell</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:25:28.233Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>24561253</common:external-id-value>
+                        <common:external-id-normalized transient="true">24561253</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/24561253</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4004339</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4004339</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC4004339</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.celrep.2014.01.038</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.celrep.2014.01.038</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.celrep.2014.01.038</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738579" path="/0000-0002-4085-6191/work/57738579" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:25:28.233Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:25:28.233Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Small molecules enable cardiac reprogramming of mouse fibroblasts with a single factor, Oct4.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>24561253</common:external-id-value>
+                            <common:external-id-normalized transient="true">24561253</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/24561253</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4004339</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4004339</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC4004339</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.celrep.2014.01.038</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.celrep.2014.01.038</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.celrep.2014.01.038</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4004339</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>02</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:23:12.579Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>24506886</common:external-id-value>
+                        <common:external-id-normalized transient="true">24506886</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/24506886</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4747235</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4747235</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC4747235</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.stem.2014.01.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.stem.2014.01.006</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.stem.2014.01.006</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57738500" path="/0000-0002-4085-6191/work/57738500" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:23:12.579Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:23:12.579Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Small molecules facilitate the reprogramming of mouse fibroblasts into pancreatic lineages.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>24506886</common:external-id-value>
+                            <common:external-id-normalized transient="true">24506886</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/24506886</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4747235</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4747235</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC4747235</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.stem.2014.01.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.stem.2014.01.006</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.stem.2014.01.006</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC4747235</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>02</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell stem cell</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:38:32.019Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>23580542</common:external-id-value>
+                        <common:external-id-normalized transient="true">23580542</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/23580542</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5966/sctm.2012-0172</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5966/sctm.2012-0172</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5966/sctm.2012-0172</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC3667559</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC3667559</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC3667559</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739510" path="/0000-0002-4085-6191/work/57739510" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:38:32.019Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:38:32.019Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Concise review: chemical approaches for modulating lineage-specific stem cells and progenitors.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>23580542</common:external-id-value>
+                            <common:external-id-normalized transient="true">23580542</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/23580542</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC3667559</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC3667559</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC3667559</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5966/sctm.2012-0172</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5966/sctm.2012-0172</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5966/sctm.2012-0172</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC3667559</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>04</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Stem cells translational medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:43:50.140Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC3308776</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC3308776</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC3308776</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1074/jbc.C111.325902</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1074/jbc.c111.325902</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1074/jbc.C111.325902</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>22291016</common:external-id-value>
+                        <common:external-id-normalized transient="true">22291016</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/22291016</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739781" path="/0000-0002-4085-6191/work/57739781" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:43:50.140Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:43:50.140Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>tRNA-controlled nuclear import of a human tRNA synthetase.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>22291016</common:external-id-value>
+                            <common:external-id-normalized transient="true">22291016</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/22291016</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC3308776</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC3308776</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC3308776</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1074/jbc.C111.325902</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1074/jbc.c111.325902</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1074/jbc.C111.325902</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC3308776</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>01</common:month>
+                        <common:day>30</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Journal of biological chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:37:05.776Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>21566134</common:external-id-value>
+                        <common:external-id-normalized transient="true">21566134</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/21566134</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1074/jbc.C111.250407</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1074/jbc.c111.250407</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1074/jbc.C111.250407</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC3123037</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC3123037</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC3123037</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739440" path="/0000-0002-4085-6191/work/57739440" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:37:05.776Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:37:05.776Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ursolic acid suppresses interleukin-17 (IL-17) production by selectively antagonizing the function of RORgamma t protein.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>21566134</common:external-id-value>
+                            <common:external-id-normalized transient="true">21566134</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/21566134</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC3123037</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC3123037</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC3123037</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1074/jbc.C111.250407</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1074/jbc.c111.250407</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1074/jbc.C111.250407</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC3123037</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>05</common:month>
+                        <common:day>12</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Journal of biological chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:39:50.033Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>17632516</common:external-id-value>
+                        <common:external-id-normalized transient="true">17632516</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/17632516</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/ni1491</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/ni1491</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/ni1491</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739621" path="/0000-0002-4085-6191/work/57739621" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:39:50.033Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:39:50.033Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>P-selectin primes leukocyte integrin activation during inflammation.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>17632516</common:external-id-value>
+                            <common:external-id-normalized transient="true">17632516</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/17632516</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/ni1491</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/ni1491</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/ni1491</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/ni1491</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                        <common:month>07</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Nature immunology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-23T12:42:40.141Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4161/cam.1.3.4984</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4161/cam.1.3.4984</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4161/cam.1.3.4984</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC2634010</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC2634010</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC2634010</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>19262138</common:external-id-value>
+                        <common:external-id-normalized transient="true">19262138</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/19262138</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57739716" path="/0000-0002-4085-6191/work/57739716" visibility="public" display-index="1">
+                    <common:created-date>2019-05-23T12:42:40.141Z</common:created-date>
+                    <common:last-modified-date>2019-05-23T12:42:40.141Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4085-6191</common:uri>
+                            <common:path>0000-0002-4085-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Tao Xu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>P-selectin cross-links PSGL-1 and enhances neutrophil adhesion to fibrinogen and ICAM-1 in a Src kinase-dependent, but GPCR-independent mechanism.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>19262138</common:external-id-value>
+                            <common:external-id-normalized transient="true">19262138</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/19262138</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC2634010</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC2634010</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC2634010</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4161/cam.1.3.4984</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4161/cam.1.3.4984</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4161/cam.1.3.4984</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC2634010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                        <common:month>07</common:month>
+                        <common:day>05</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell adhesion &amp; migration</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

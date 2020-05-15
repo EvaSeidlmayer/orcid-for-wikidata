@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5166-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5166-9191</common:uri>
+        <common:path>0000-0001-5166-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-12-02T13:01:22.533Z</history:submission-date>
+        <common:last-modified-date>2018-10-10T06:32:11.217Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5166-9191/person">
+        <person:name visibility="public" path="0000-0001-5166-9191">
+            <common:created-date>2016-04-15T20:47:37.445Z</common:created-date>
+            <common:last-modified-date>2016-04-15T20:47:37.445Z</common:last-modified-date>
+            <personal-details:given-names>Janet</personal-details:given-names>
+            <personal-details:family-name>Todd</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5166-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5166-9191/researcher-urls"/>
+        <email:emails path="/0000-0001-5166-9191/email"/>
+        <address:addresses path="/0000-0001-5166-9191/address"/>
+        <keyword:keywords path="/0000-0001-5166-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5166-9191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5166-9191/activities">
+        <common:last-modified-date>2015-12-02T13:14:53.744Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5166-9191/distinctions"/>
+        <activities:educations path="/0000-0001-5166-9191/educations"/>
+        <activities:employments path="/0000-0001-5166-9191/employments">
+            <common:last-modified-date>2015-12-02T13:04:02.117Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-12-02T13:04:02.117Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1382956" display-index="0" path="/0000-0001-5166-9191/employment/1382956" visibility="public">
+                    <common:created-date>2015-12-02T13:04:02.117Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:04:02.117Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5166-9191</common:uri>
+                            <common:path>0000-0001-5166-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Janet Todd</common:source-name>
+                    </common:source>
+                    <common:role-title>President</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Cambridge Lucy Cavendish College</common:name>
+                        <common:address>
+                            <common:city>Cambridge</common:city>
+                            <common:region>Cambridgeshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>61448</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-5166-9191/fundings"/>
+        <activities:invited-positions path="/0000-0001-5166-9191/invited-positions"/>
+        <activities:memberships path="/0000-0001-5166-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5166-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5166-9191/qualifications"/>
+        <activities:research-resources path="/0000-0001-5166-9191/research-resources"/>
+        <activities:services path="/0000-0001-5166-9191/services"/>
+        <activities:works path="/0000-0001-5166-9191/works">
+            <common:last-modified-date>2015-12-02T13:14:53.744Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.090Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>77F5C9E4055A781785257E2A006788D7</common:external-id-value>
+                        <common:external-id-normalized transient="true">77f5c9e4055a781785257e2a006788d7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657090" path="/0000-0001-5166-9191/work/20657090" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.090Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.090Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Introduction to Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>77F5C9E4055A781785257E2A006788D7</common:external-id-value>
+                            <common:external-id-normalized transient="true">77f5c9e4055a781785257e2a006788d7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.091Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>B7786711F92B322C85257BA000114BB1</common:external-id-value>
+                        <common:external-id-normalized transient="true">b7786711f92b322c85257ba000114bb1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657092" path="/0000-0001-5166-9191/work/20657092" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.091Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.091Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Criticism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>B7786711F92B322C85257BA000114BB1</common:external-id-value>
+                            <common:external-id-normalized transient="true">b7786711f92b322c85257ba000114bb1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:03.282Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0506DBDFD0EB629685257B910051937D</common:external-id-value>
+                        <common:external-id-normalized transient="true">0506dbdfd0eb629685257b910051937d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657112" path="/0000-0001-5166-9191/work/20657112" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:03.282Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:03.282Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Companion to Pride and Prejudice</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0506DBDFD0EB629685257B910051937D</common:external-id-value>
+                            <common:external-id-normalized transient="true">0506dbdfd0eb629685257b910051937d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.090Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>CF03A864BA55087385257BA0001161BE</common:external-id-value>
+                        <common:external-id-normalized transient="true">cf03a864ba55087385257ba0001161be</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657091" path="/0000-0001-5166-9191/work/20657091" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.090Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.090Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Romantic Hero</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>CF03A864BA55087385257BA0001161BE</common:external-id-value>
+                            <common:external-id-normalized transient="true">cf03a864ba55087385257ba0001161be</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.092Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>015FBCAD60381DE185257A2A007A6EAF</common:external-id-value>
+                        <common:external-id-normalized transient="true">015fbcad60381de185257a2a007a6eaf</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657093" path="/0000-0001-5166-9191/work/20657093" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.092Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.092Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>'I Do Not See How It Can Ever Be Ascertained': Aphra Behn and Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>015FBCAD60381DE185257A2A007A6EAF</common:external-id-value>
+                            <common:external-id-normalized transient="true">015fbcad60381de185257a2a007a6eaf</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.095Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>50FEAB9391A01B3C85257680007D5D03</common:external-id-value>
+                        <common:external-id-normalized transient="true">50feab9391a01b3c85257680007d5d03</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657094" path="/0000-0001-5166-9191/work/20657094" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.095Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.095Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Why I Like Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>50FEAB9391A01B3C85257680007D5D03</common:external-id-value>
+                            <common:external-id-normalized transient="true">50feab9391a01b3c85257680007d5d03</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:25.447Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>DDAD7F903B5AAB79852575EE0079A007</common:external-id-value>
+                        <common:external-id-normalized transient="true">ddad7f903b5aab79852575ee0079a007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657100" path="/0000-0001-5166-9191/work/20657100" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:25.447Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:25.447Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Jane Austen's Unfinished Business</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>DDAD7F903B5AAB79852575EE0079A007</common:external-id-value>
+                            <common:external-id-normalized transient="true">ddad7f903b5aab79852575ee0079a007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:04.096Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>3A461113B93C107E8525799700559567</common:external-id-value>
+                        <common:external-id-normalized transient="true">3a461113b93c107e8525799700559567</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657095" path="/0000-0001-5166-9191/work/20657095" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:04.096Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:04.096Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Reason and Sensibility in Mary Wollstonecraft's The Wrongs of Woman</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>3A461113B93C107E8525799700559567</common:external-id-value>
+                            <common:external-id-normalized transient="true">3a461113b93c107e8525799700559567</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:12.074Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>56085AB4E949D46F85257561005589BD</common:external-id-value>
+                        <common:external-id-normalized transient="true">56085ab4e949d46f85257561005589bd</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657096" path="/0000-0001-5166-9191/work/20657096" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:12.074Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:12.074Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Edition of the Works of Jane Austen: Later Manuscripts</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>56085AB4E949D46F85257561005589BD</common:external-id-value>
+                            <common:external-id-normalized transient="true">56085ab4e949d46f85257561005589bd</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:38.545Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>AACC80AEAE8C62E78525749600779640</common:external-id-value>
+                        <common:external-id-normalized transient="true">aacc80aeae8c62e78525749600779640</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657102" path="/0000-0001-5166-9191/work/20657102" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:38.545Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:38.545Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Anxiety of Emma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>AACC80AEAE8C62E78525749600779640</common:external-id-value>
+                            <common:external-id-normalized transient="true">aacc80aeae8c62e78525749600779640</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:48.764Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>97BAE4CD342B47A385257346006E3EFB</common:external-id-value>
+                        <common:external-id-normalized transient="true">97bae4cd342b47a385257346006e3efb</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657110" path="/0000-0001-5166-9191/work/20657110" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:48.764Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:48.764Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Jane Austen and the Professional Wife</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>97BAE4CD342B47A385257346006E3EFB</common:external-id-value>
+                            <common:external-id-normalized transient="true">97bae4cd342b47a385257346006e3efb</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:11.206Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>27E4828DFB5FA3238525727B005DF457</common:external-id-value>
+                        <common:external-id-normalized transient="true">27e4828dfb5fa3238525727b005df457</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657114" path="/0000-0001-5166-9191/work/20657114" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:11.206Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:11.206Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Edition of the Works of Jane Austen: Persuasion</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>27E4828DFB5FA3238525727B005DF457</common:external-id-value>
+                            <common:external-id-normalized transient="true">27e4828dfb5fa3238525727b005df457</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:06:57.020Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>E47F3C0102C680C08525728300709C75</common:external-id-value>
+                        <common:external-id-normalized transient="true">e47f3c0102c680c08525728300709c75</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657111" path="/0000-0001-5166-9191/work/20657111" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:06:57.020Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:06:57.020Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Introduction to Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>E47F3C0102C680C08525728300709C75</common:external-id-value>
+                            <common:external-id-normalized transient="true">e47f3c0102c680c08525728300709c75</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:18.997Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>EB925F2FB48EAEB08525716C005D1AB5</common:external-id-value>
+                        <common:external-id-normalized transient="true">eb925f2fb48eaeb08525716c005d1ab5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657126" path="/0000-0001-5166-9191/work/20657126" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:18.997Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:18.997Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ivory Miniatures and the Art of Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>EB925F2FB48EAEB08525716C005D1AB5</common:external-id-value>
+                            <common:external-id-normalized transient="true">eb925f2fb48eaeb08525716c005d1ab5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:25.933Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>BD1C65A19BC5FC86852572CF00702C13</common:external-id-value>
+                        <common:external-id-normalized transient="true">bd1c65a19bc5fc86852572cf00702c13</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657127" path="/0000-0001-5166-9191/work/20657127" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:25.933Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:25.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Some Thoughts on Editing Oroonoko</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>BD1C65A19BC5FC86852572CF00702C13</common:external-id-value>
+                            <common:external-id-normalized transient="true">bd1c65a19bc5fc86852572cf00702c13</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:33.600Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>A0326733D89301B085257117006346F0</common:external-id-value>
+                        <common:external-id-normalized transient="true">a0326733d89301b085257117006346f0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657128" path="/0000-0001-5166-9191/work/20657128" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:33.600Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:33.600Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Edition of the Works of Jane Austen: Jane Austen in Context</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>A0326733D89301B085257117006346F0</common:external-id-value>
+                            <common:external-id-normalized transient="true">a0326733d89301b085257117006346f0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:08:16.385Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>5BAACA4359B03304852571AB00669AEF</common:external-id-value>
+                        <common:external-id-normalized transient="true">5baaca4359b03304852571ab00669aef</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657133" path="/0000-0001-5166-9191/work/20657133" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:08:16.385Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:08:16.385Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ivory Miniatures and the Art of Jane Austen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>5BAACA4359B03304852571AB00669AEF</common:external-id-value>
+                            <common:external-id-normalized transient="true">5baaca4359b03304852571ab00669aef</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:08:03.415Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>70020D6D3D24F4D685256FE40063EB3A</common:external-id-value>
+                        <common:external-id-normalized transient="true">70020d6d3d24f4d685256fe40063eb3a</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657132" path="/0000-0001-5166-9191/work/20657132" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:08:03.415Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:08:03.415Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Suicide and Biography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>70020D6D3D24F4D685256FE40063EB3A</common:external-id-value>
+                            <common:external-id-normalized transient="true">70020d6d3d24f4d685256fe40063eb3a</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:07:49.820Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>2E7B58B03CC1FC2585256FD6004BADCB</common:external-id-value>
+                        <common:external-id-normalized transient="true">2e7b58b03cc1fc2585256fd6004badcb</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657129" path="/0000-0001-5166-9191/work/20657129" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:07:49.820Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:07:49.820Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Cambridge Companion to Aphra Behn</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>2E7B58B03CC1FC2585256FD6004BADCB</common:external-id-value>
+                            <common:external-id-normalized transient="true">2e7b58b03cc1fc2585256fd6004badcb</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:08:41.017Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>EC1551AFE9957B6B85256FD6004D4862</common:external-id-value>
+                        <common:external-id-normalized transient="true">ec1551afe9957b6b85256fd6004d4862</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657136" path="/0000-0001-5166-9191/work/20657136" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:08:41.017Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:08:41.017Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tragedy and Tragicomedy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>EC1551AFE9957B6B85256FD6004D4862</common:external-id-value>
+                            <common:external-id-normalized transient="true">ec1551afe9957b6b85256fd6004d4862</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:08:29.893Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>66FA268D7035939085256E9A0062F9D8</common:external-id-value>
+                        <common:external-id-normalized transient="true">66fa268d7035939085256e9a0062f9d8</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657134" path="/0000-0001-5166-9191/work/20657134" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:08:29.893Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:08:29.893Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ascendancy: Lady Mount Cashell, Lady Moira, Mary Wollstonecraft and the Union Pamphlets</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>66FA268D7035939085256E9A0062F9D8</common:external-id-value>
+                            <common:external-id-normalized transient="true">66fa268d7035939085256e9a0062f9d8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:08:49.363Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>43DEE1537F0C1B24852570F4006F4342</common:external-id-value>
+                        <common:external-id-normalized transient="true">43dee1537f0c1b24852570f4006f4342</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657137" path="/0000-0001-5166-9191/work/20657137" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:08:49.363Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:08:49.363Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Collected Letters of Mary Wollenscraft</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>43DEE1537F0C1B24852570F4006F4342</common:external-id-value>
+                            <common:external-id-normalized transient="true">43dee1537f0c1b24852570f4006f4342</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:06.807Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>D9C469200468877E85256C070056C36F</common:external-id-value>
+                        <common:external-id-normalized transient="true">d9c469200468877e85256c070056c36f</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657139" path="/0000-0001-5166-9191/work/20657139" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:06.807Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:06.807Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mary Wollstonecraft's Letters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>D9C469200468877E85256C070056C36F</common:external-id-value>
+                            <common:external-id-normalized transient="true">d9c469200468877e85256c070056c36f</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:19.918Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>DC4A0E40EBE667AF852578D9001B7A09</common:external-id-value>
+                        <common:external-id-normalized transient="true">dc4a0e40ebe667af852578d9001b7a09</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657140" path="/0000-0001-5166-9191/work/20657140" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:19.918Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:19.918Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Desmond/Charlotte Smith</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>DC4A0E40EBE667AF852578D9001B7A09</common:external-id-value>
+                            <common:external-id-normalized transient="true">dc4a0e40ebe667af852578d9001b7a09</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:29.311Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>E715472EBE06089B85256DA4006DCE5B</common:external-id-value>
+                        <common:external-id-normalized transient="true">e715472ebe06089b85256da4006dce5b</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657141" path="/0000-0001-5166-9191/work/20657141" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:29.311Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:29.311Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fatal Fluency: Behn's Fiction and the Restoration Letter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>E715472EBE06089B85256DA4006DCE5B</common:external-id-value>
+                            <common:external-id-normalized transient="true">e715472ebe06089b85256da4006dce5b</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:35.215Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>98CD98384E45A0F985256A260050AE2F</common:external-id-value>
+                        <common:external-id-normalized transient="true">98cd98384e45a0f985256a260050ae2f</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657142" path="/0000-0001-5166-9191/work/20657142" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:35.215Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:35.215Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Love-Letters and Critical History</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>98CD98384E45A0F985256A260050AE2F</common:external-id-value>
+                            <common:external-id-normalized transient="true">98cd98384e45a0f985256a260050ae2f</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:41.351Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0DA8489A063B089385256EDD0067C7E1</common:external-id-value>
+                        <common:external-id-normalized transient="true">0da8489a063b089385256edd0067c7e1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657143" path="/0000-0001-5166-9191/work/20657143" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:41.351Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:41.351Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mary Wollstonecraft: A Revolutionary Life</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0DA8489A063B089385256EDD0067C7E1</common:external-id-value>
+                            <common:external-id-normalized transient="true">0da8489a063b089385256edd0067c7e1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:49.976Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>A15236EB4210CCB68525693E006A1A8E</common:external-id-value>
+                        <common:external-id-normalized transient="true">a15236eb4210ccb68525693e006a1a8e</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657144" path="/0000-0001-5166-9191/work/20657144" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:49.976Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:49.976Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The German Princess: Criminalities of Gender and Class</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>A15236EB4210CCB68525693E006A1A8E</common:external-id-value>
+                            <common:external-id-normalized transient="true">a15236eb4210ccb68525693e006a1a8e</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:09:55.128Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>E2CE8799B5845CD38525687E007F0333</common:external-id-value>
+                        <common:external-id-normalized transient="true">e2ce8799b5845cd38525687e007f0333</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657146" path="/0000-0001-5166-9191/work/20657146" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:09:55.128Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:09:55.128Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mary Wollstonecraft and Enlightenment Desire</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>E2CE8799B5845CD38525687E007F0333</common:external-id-value>
+                            <common:external-id-normalized transient="true">e2ce8799b5845cd38525687e007f0333</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:00.866Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>D7D76CF0E4AAA6E485256BAE0070A305</common:external-id-value>
+                        <common:external-id-normalized transient="true">d7d76cf0e4aaa6e485256bae0070a305</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657147" path="/0000-0001-5166-9191/work/20657147" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:00.866Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:00.866Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Critical Fortunes of Aphra Behn</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>D7D76CF0E4AAA6E485256BAE0070A305</common:external-id-value>
+                            <common:external-id-normalized transient="true">d7d76cf0e4aaa6e485256bae0070a305</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:35.011Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>F80A1E3FE20831A885256AD9005333C7</common:external-id-value>
+                        <common:external-id-normalized transient="true">f80a1e3fe20831a885256ad9005333c7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657153" path="/0000-0001-5166-9191/work/20657153" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:35.011Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:35.011Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aphra Behn Studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>F80A1E3FE20831A885256AD9005333C7</common:external-id-value>
+                            <common:external-id-normalized transient="true">f80a1e3fe20831a885256ad9005333c7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:27.859Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>0DF05EDC21C3B638852566080061089D</common:external-id-value>
+                        <common:external-id-normalized transient="true">0df05edc21c3b638852566080061089d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657152" path="/0000-0001-5166-9191/work/20657152" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:27.859Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:27.859Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Secret Life of Aphra Behn</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>0DF05EDC21C3B638852566080061089D</common:external-id-value>
+                            <common:external-id-normalized transient="true">0df05edc21c3b638852566080061089d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:12.668Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>B8E512F58E126F3785256AD900531FC7</common:external-id-value>
+                        <common:external-id-normalized transient="true">b8e512f58e126f3785256ad900531fc7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657149" path="/0000-0001-5166-9191/work/20657149" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:12.668Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:12.668Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Works of Aphra Behn, VI: The Plays 1678-1682</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>B8E512F58E126F3785256AD900531FC7</common:external-id-value>
+                            <common:external-id-normalized transient="true">b8e512f58e126f3785256ad900531fc7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:05.971Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>1BC50F2B1F8C135785256AD900531FCE</common:external-id-value>
+                        <common:external-id-normalized transient="true">1bc50f2b1f8c135785256ad900531fce</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657148" path="/0000-0001-5166-9191/work/20657148" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:05.971Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:05.971Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Works of Aphra Behn, VII: The Plays 1682-1696</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>1BC50F2B1F8C135785256AD900531FCE</common:external-id-value>
+                            <common:external-id-normalized transient="true">1bc50f2b1f8c135785256ad900531fce</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:20.188Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>208258FB4E8016E185256AD900533456</common:external-id-value>
+                        <common:external-id-normalized transient="true">208258fb4e8016e185256ad900533456</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657151" path="/0000-0001-5166-9191/work/20657151" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:20.188Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:20.188Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Who Is Silvia? What Is She? Feminine Identity in Aphra Behn's Love-Letters between a Nobleman and His Sister</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>208258FB4E8016E185256AD900533456</common:external-id-value>
+                            <common:external-id-normalized transient="true">208258fb4e8016e185256ad900533456</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:10:51.548Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>1A756C389AA20A9A85256AE8004D9693</common:external-id-value>
+                        <common:external-id-normalized transient="true">1a756c389aa20a9a85256ae8004d9693</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657154" path="/0000-0001-5166-9191/work/20657154" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:10:51.548Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:10:51.548Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>'Pursue That Way of Fooling, and Be Damn'd': Editing Aphra Behn</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>1A756C389AA20A9A85256AE8004D9693</common:external-id-value>
+                            <common:external-id-normalized transient="true">1a756c389aa20a9a85256ae8004d9693</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:11:02.506Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>59A23C0B9CE0B5A285256AE80052132C</common:external-id-value>
+                        <common:external-id-normalized transient="true">59a23c0b9ce0b5a285256ae80052132c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657155" path="/0000-0001-5166-9191/work/20657155" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:11:02.506Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:11:02.506Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Works of Aphra Behn, III: The Fair Jilt and Other Stories</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>59A23C0B9CE0B5A285256AE80052132C</common:external-id-value>
+                            <common:external-id-normalized transient="true">59a23c0b9ce0b5a285256ae80052132c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:11:22.955Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>190C548D66CF90BF852569D900588919</common:external-id-value>
+                        <common:external-id-normalized transient="true">190c548d66cf90bf852569d900588919</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657158" path="/0000-0001-5166-9191/work/20657158" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:11:22.955Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:11:22.955Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>'The Hot Brute Drudges On': Ambiguities of Desire in Aphra Behn's Love-Letters between a Nobleman and His Sister</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>190C548D66CF90BF852569D900588919</common:external-id-value>
+                            <common:external-id-normalized transient="true">190c548d66cf90bf852569d900588919</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:11:11.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>05833C8B0E5AA13785256AF70051DAD0</common:external-id-value>
+                        <common:external-id-normalized transient="true">05833c8b0e5aa13785256af70051dad0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657156" path="/0000-0001-5166-9191/work/20657156" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:11:11.373Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:11:11.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Female Pen: Women Writers and Novelists 1621-1818</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>05833C8B0E5AA13785256AF70051DAD0</common:external-id-value>
+                            <common:external-id-normalized transient="true">05833c8b0e5aa13785256af70051dad0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:11:45.353Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>3810D9A36E98EAB285256AFF00637C8B</common:external-id-value>
+                        <common:external-id-normalized transient="true">3810d9a36e98eab285256aff00637c8b</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657161" path="/0000-0001-5166-9191/work/20657161" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:11:45.353Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:11:45.353Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mary Wollstonecraft: Political Writings: A Vindication of the Rights of Men; A Vindication of the Rights of Woman; An Historical and Moral View of the French Revolution</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>3810D9A36E98EAB285256AFF00637C8B</common:external-id-value>
+                            <common:external-id-normalized transient="true">3810d9a36e98eab285256aff00637c8b</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:12:16.377Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>728E70EC2BB23C8985256AFF00644607</common:external-id-value>
+                        <common:external-id-normalized transient="true">728e70ec2bb23c8985256aff00644607</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657210" path="/0000-0001-5166-9191/work/20657210" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:12:16.377Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:12:16.377Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aphra Behn/Oroonoko, The Rover and Other Works</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>728E70EC2BB23C8985256AFF00644607</common:external-id-value>
+                            <common:external-id-normalized transient="true">728e70ec2bb23c8985256aff00644607</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:12:32.708Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>2C13F4B111FE139685256AFF0063429F</common:external-id-value>
+                        <common:external-id-normalized transient="true">2c13f4b111fe139685256aff0063429f</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657212" path="/0000-0001-5166-9191/work/20657212" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:12:32.708Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:12:32.708Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aphra Behn: A Female Poet</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>2C13F4B111FE139685256AFF0063429F</common:external-id-value>
+                            <common:external-id-normalized transient="true">2c13f4b111fe139685256aff0063429f</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:11:54.899Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>DFB1F265A9A9286685256CB60052AD7D</common:external-id-value>
+                        <common:external-id-normalized transient="true">dfb1f265a9a9286685256cb60052ad7d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657162" path="/0000-0001-5166-9191/work/20657162" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:11:54.899Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:11:54.899Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Feminist Criticism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>DFB1F265A9A9286685256CB60052AD7D</common:external-id-value>
+                            <common:external-id-normalized transient="true">dfb1f265a9a9286685256cb60052ad7d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:12:07.269Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>B5BCECE04EE19CAA85256B0400526AEB</common:external-id-value>
+                        <common:external-id-normalized transient="true">b5bcece04ee19caa85256b0400526aeb</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657163" path="/0000-0001-5166-9191/work/20657163" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:12:07.269Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:12:07.269Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mary; Maria; Matilda</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>B5BCECE04EE19CAA85256B0400526AEB</common:external-id-value>
+                            <common:external-id-normalized transient="true">b5bcece04ee19caa85256b0400526aeb</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:12:43.998Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>30970E560F22784D85256B05007151C9</common:external-id-value>
+                        <common:external-id-normalized transient="true">30970e560f22784d85256b05007151c9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657214" path="/0000-0001-5166-9191/work/20657214" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:12:43.998Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:12:43.998Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>'Rebellions Antidote': A New Attribution to Aphra Behn</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>30970E560F22784D85256B05007151C9</common:external-id-value>
+                            <common:external-id-normalized transient="true">30970e560f22784d85256b05007151c9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1991</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:15.949Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>B1C3278EDFD7937C85256B09005FA565</common:external-id-value>
+                        <common:external-id-normalized transient="true">b1c3278edfd7937c85256b09005fa565</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657307" path="/0000-0001-5166-9191/work/20657307" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:15.949Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:15.949Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>British Women Writers: A Critical Reference Guide</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>B1C3278EDFD7937C85256B09005FA565</common:external-id-value>
+                            <common:external-id-normalized transient="true">b1c3278edfd7937c85256b09005fa565</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:24.574Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>81097A73819C161485256B09005FA570</common:external-id-value>
+                        <common:external-id-normalized transient="true">81097a73819c161485256b09005fa570</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657308" path="/0000-0001-5166-9191/work/20657308" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:24.574Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:24.574Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>British Women Writers: An Anthology from the Fourteenth Century to the Present</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>81097A73819C161485256B09005FA570</common:external-id-value>
+                            <common:external-id-normalized transient="true">81097a73819c161485256b09005fa570</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:01.926Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>380C7CBF64D9B0CE85256B0600521D8A</common:external-id-value>
+                        <common:external-id-normalized transient="true">380c7cbf64d9b0ce85256b0600521d8a</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657217" path="/0000-0001-5166-9191/work/20657217" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:01.926Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:01.926Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Pioneering</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>380C7CBF64D9B0CE85256B0600521D8A</common:external-id-value>
+                            <common:external-id-normalized transient="true">380c7cbf64d9b0ce85256b0600521d8a</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:32.591Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>8551AE188886B11985256B040051D582</common:external-id-value>
+                        <common:external-id-normalized transient="true">8551ae188886b11985256b040051d582</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657309" path="/0000-0001-5166-9191/work/20657309" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:32.591Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:32.591Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Sign of Angelica: Women, Writing and Fiction, 1660-1800</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>8551AE188886B11985256B040051D582</common:external-id-value>
+                            <common:external-id-normalized transient="true">8551ae188886b11985256b040051d582</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:44.625Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>F87CBE97F735F25385256B0A00517E0E</common:external-id-value>
+                        <common:external-id-normalized transient="true">f87cbe97f735f25385256b0a00517e0e</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657310" path="/0000-0001-5166-9191/work/20657310" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:44.625Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:44.625Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Women and Film</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>F87CBE97F735F25385256B0A00517E0E</common:external-id-value>
+                            <common:external-id-normalized transient="true">f87cbe97f735f25385256b0a00517e0e</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1988</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:13:55.220Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>75B96EB5257A446985256B11006B60B3</common:external-id-value>
+                        <common:external-id-normalized transient="true">75b96eb5257a446985256b11006b60b3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657350" path="/0000-0001-5166-9191/work/20657350" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:13:55.220Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:13:55.220Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Dictionary of British and American Women Writers 1660-1800</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>75B96EB5257A446985256B11006B60B3</common:external-id-value>
+                            <common:external-id-normalized transient="true">75b96eb5257a446985256b11006b60b3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1985</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:14:07.277Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>00BFB9D4621D5E2885256B1300531EFA</common:external-id-value>
+                        <common:external-id-normalized transient="true">00bfb9d4621d5e2885256b1300531efa</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657352" path="/0000-0001-5166-9191/work/20657352" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:14:07.277Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:14:07.277Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Jane Austen: New Perspectives</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>00BFB9D4621D5E2885256B1300531EFA</common:external-id-value>
+                            <common:external-id-normalized transient="true">00bfb9d4621d5e2885256b1300531efa</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:14:20.220Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>E3389EB970B9023E85256B120058B6B2</common:external-id-value>
+                        <common:external-id-normalized transient="true">e3389eb970b9023e85256b120058b6b2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657361" path="/0000-0001-5166-9191/work/20657361" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:14:20.220Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:14:20.220Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Marketing the Self: Mary Carleton, Miss F and Susannah Gunning</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>E3389EB970B9023E85256B120058B6B2</common:external-id-value>
+                            <common:external-id-normalized transient="true">e3389eb970b9023e85256b120058b6b2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:14:40.527Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>F77E2FF9FE18B04485256AF70052B383</common:external-id-value>
+                        <common:external-id-normalized transient="true">f77e2ff9fe18b04485256af70052b383</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657366" path="/0000-0001-5166-9191/work/20657366" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:14:40.527Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:14:40.527Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Women Writers Talking</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>F77E2FF9FE18B04485256AF70052B383</common:external-id-value>
+                            <common:external-id-normalized transient="true">f77e2ff9fe18b04485256af70052b383</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:14:29.390Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>400470097A6EEE5F85256B130051862D</common:external-id-value>
+                        <common:external-id-normalized transient="true">400470097a6eee5f85256b130051862d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657364" path="/0000-0001-5166-9191/work/20657364" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:14:29.390Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:14:29.390Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Women's Friendship in Literature</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>400470097A6EEE5F85256B130051862D</common:external-id-value>
+                            <common:external-id-normalized transient="true">400470097a6eee5f85256b130051862d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1983</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-02T13:14:53.744Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>A6CE9A0FD341BEDB85256B100051A77D</common:external-id-value>
+                        <common:external-id-normalized transient="true">a6ce9a0fd341bedb85256b100051a77d</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20657368" path="/0000-0001-5166-9191/work/20657368" visibility="public" display-index="0">
+                    <common:created-date>2015-12-02T13:14:53.744Z</common:created-date>
+                    <common:last-modified-date>2015-12-02T13:14:53.744Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Historical and Moral View of the Origin and Progress of the French Revolution and the Effect It Has Produced in Europe</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>A6CE9A0FD341BEDB85256B100051A77D</common:external-id-value>
+                            <common:external-id-normalized transient="true">a6ce9a0fd341bedb85256b100051a77d</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>1975</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7448-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7448-1191</common:uri>
+        <common:path>0000-0001-7448-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-09-17T16:30:43.318Z</history:submission-date>
+        <common:last-modified-date>2019-09-17T16:59:29.084Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7448-1191/person">
+        <common:last-modified-date>2019-09-17T16:53:03.549Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-7448-1191">
+            <common:created-date>2019-09-17T16:30:43.553Z</common:created-date>
+            <common:last-modified-date>2019-09-17T16:30:43.553Z</common:last-modified-date>
+            <personal-details:given-names>Sara</personal-details:given-names>
+            <personal-details:family-name>Mernitz</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7448-1191/other-names">
+            <common:last-modified-date>2019-09-17T16:51:37.469Z</common:last-modified-date>
+            <other-name:other-name put-code="1292657" visibility="public" path="/0000-0001-7448-1191/other-names/1292657" display-index="1">
+                <common:created-date>2019-09-17T16:51:37.468Z</common:created-date>
+                <common:last-modified-date>2019-09-17T16:51:37.469Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-7448-1191</common:uri>
+                        <common:path>0000-0001-7448-1191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Sara Mernitz</common:source-name>
+                </common:source>
+                <other-name:content>Sara Sandberg-Thoma</other-name:content>
+            </other-name:other-name>
+        </other-name:other-names>
+        <researcher-url:researcher-urls path="/0000-0001-7448-1191/researcher-urls"/>
+        <email:emails path="/0000-0001-7448-1191/email"/>
+        <address:addresses path="/0000-0001-7448-1191/address"/>
+        <keyword:keywords path="/0000-0001-7448-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7448-1191/external-identifiers">
+            <common:last-modified-date>2019-09-17T16:53:03.549Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1468218" visibility="public" path="/0000-0001-7448-1191/external-identifiers/1468218" display-index="0">
+                <common:created-date>2019-09-17T16:51:10.139Z</common:created-date>
+                <common:last-modified-date>2019-09-17T16:51:10.140Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56946821900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56946821900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1468220" visibility="public" path="/0000-0001-7448-1191/external-identifiers/1468220" display-index="0">
+                <common:created-date>2019-09-17T16:53:03.543Z</common:created-date>
+                <common:last-modified-date>2019-09-17T16:53:03.549Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>55917048800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=55917048800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7448-1191/activities">
+        <common:last-modified-date>2019-09-17T16:55:26.804Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7448-1191/distinctions"/>
+        <activities:educations path="/0000-0001-7448-1191/educations"/>
+        <activities:employments path="/0000-0001-7448-1191/employments"/>
+        <activities:fundings path="/0000-0001-7448-1191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7448-1191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7448-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7448-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7448-1191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7448-1191/research-resources"/>
+        <activities:services path="/0000-0001-7448-1191/services"/>
+        <activities:works path="/0000-0001-7448-1191/works">
+            <common:last-modified-date>2019-09-17T16:55:26.804Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:55:26.804Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1037/0000099-037</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1037/0000099-037</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1037/0000099-037</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711924" path="/0000-0001-7448-1191/work/61711924" visibility="public" display-index="1">
+                    <common:created-date>2019-09-17T16:55:26.804Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:55:26.804Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7448-1191</common:uri>
+                            <common:path>0000-0001-7448-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sara Mernitz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cohabitation and single mothering in the United States: A review and call for psychological research.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1037/0000099-037</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1037/0000099-037</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1037/0000099-037</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>1433829657</common:external-id-value>
+                            <common:external-id-normalized transient="true">1433829657</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/1433829657</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>1433829665</common:external-id-value>
+                            <common:external-id-normalized transient="true">1433829665</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/1433829665</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781433829659</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781433829659</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/9781433829659</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9781433829666</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781433829666</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/9781433829666</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1037/0000099-037</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>APA handbook of contemporary family psychology: Foundations, methods, and contemporary issues across the lifespan (Vol. 1).</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:51:17.682Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00918369.2019.1656032</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00918369.2019.1656032</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85071309735</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85071309735</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711829" path="/0000-0001-7448-1191/work/61711829" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:51:17.682Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:51:17.682Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heteronormativity in the Lives of Lesbian, Gay, Bisexual, and Queer Young People</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00918369.2019.1656032</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00918369.2019.1656032</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85071309735</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85071309735</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85071309735&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Homosexuality</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:49:33.407Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/geroni/igy023.1037</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/geroni/igy023.1037</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711685" path="/0000-0001-7448-1191/work/61711685" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:49:33.407Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:49:33.407Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>RELATIONSHIP CLOSENESS BETWEEN PARENT AND YOUNG-ADULT CHILDREN BY GEOGRAPHIC DISTANCE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/geroni/igy023.1037</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/geroni/igy023.1037</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2399-5300</common:external-id-value>
+                            <common:external-id-normalized transient="true">2399-5300</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Innovation in Aging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:51:17.684Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0205732</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0205732</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85056541985</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85056541985</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711686" path="/0000-0001-7448-1191/work/61711686" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:49:38.664Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:49:38.664Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The intergenerational transmission of partnering</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0205732</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0205732</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1932-6203</common:external-id-value>
+                            <common:external-id-normalized transient="true">1932-6203</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>PLOS ONE</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="61711830" path="/0000-0001-7448-1191/work/61711830" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:51:17.684Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:51:17.684Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The intergenerational transmission of partnering</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0205732</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0205732</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85056541985</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85056541985</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85056541985&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PLoS ONE</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:51:17.677Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4054/demres.2018.38.66</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4054/demres.2018.38.66</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85050248597</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85050248597</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711682" path="/0000-0001-7448-1191/work/61711682" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:49:25.495Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:49:25.495Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A cohort comparison of trends in first cohabitation duration in the United States</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4054/demres.2018.38.66</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4054/demres.2018.38.66</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1435-9871</common:external-id-value>
+                            <common:external-id-normalized transient="true">1435-9871</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Demographic Research</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="61711826" path="/0000-0001-7448-1191/work/61711826" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:51:17.677Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:51:17.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A cohort comparison of trends in first cohabitation duration in the United States</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4054/DemRes.2018.38.66</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4054/demres.2018.38.66</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85050248597</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85050248597</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85050248597&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Demographic Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:51:17.680Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85050134139</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85050134139</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/2167696817733913</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/2167696817733913</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711828" path="/0000-0001-7448-1191/work/61711828" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:51:17.680Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:51:17.680Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Mental Health Implications of Emerging Adult Long-Term Cohabitation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/2167696817733913</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/2167696817733913</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85050134139</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85050134139</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85050134139&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Emerging Adulthood</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:51:17.679Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1037/fam0000159</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1037/fam0000159</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84946430797</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84946430797</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711827" path="/0000-0001-7448-1191/work/61711827" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:51:17.679Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:51:17.679Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Emotional health across the transition to first and second unions among emerging adults</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1037/fam0000159</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1037/fam0000159</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84946430797</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84946430797</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84946430797&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Family Psychology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:53:06.266Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jomf.12183</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jomf.12183</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84928419455</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84928419455</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711872" path="/0000-0001-7448-1191/work/61711872" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:53:06.266Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:53:06.266Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Exiting and Returning to the Parental Home for Boomerang Kids</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jomf.12183</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jomf.12183</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84928419455</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84928419455</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84928419455&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Marriage and Family</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:53:06.270Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84893936323</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84893936323</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00224499.2013.821440</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00224499.2013.821440</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711874" path="/0000-0001-7448-1191/work/61711874" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:53:06.270Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:53:06.270Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Casual sexual relationships and mental health in adolescence and emerging adulthood</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00224499.2013.821440</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00224499.2013.821440</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84893936323</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84893936323</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84893936323&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Sex Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:54:06.023Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1037/cfp0000006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1037/cfp0000006</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1037/cfp0000006</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711899" path="/0000-0001-7448-1191/work/61711899" visibility="public" display-index="1">
+                    <common:created-date>2019-09-17T16:54:06.023Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:54:06.023Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7448-1191</common:uri>
+                            <common:path>0000-0001-7448-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Sara Mernitz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Commitment across the transition to parenthood among married and cohabiting couples.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1037/cfp0000006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1037/cfp0000006</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1037/cfp0000006</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2160-410X</common:external-id-value>
+                            <common:external-id-normalized transient="true">2160-410X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/2160-410X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2160-4096</common:external-id-value>
+                            <common:external-id-normalized transient="true">2160-4096</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/2160-4096</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1037/cfp0000006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Couple and Family Psychology: Research and Practice</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T16:53:06.268Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jomf.12081</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jomf.12081</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84892402747</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84892402747</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61711873" path="/0000-0001-7448-1191/work/61711873" visibility="public" display-index="0">
+                    <common:created-date>2019-09-17T16:53:06.268Z</common:created-date>
+                    <common:last-modified-date>2019-09-17T16:53:06.268Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Indicators of adolescent depression and relationship progression in emerging adulthood</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jomf.12081</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jomf.12081</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84892402747</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84892402747</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84892402747&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Marriage and Family</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

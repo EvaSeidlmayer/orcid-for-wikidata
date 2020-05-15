@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-9424-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+        <common:path>0000-0002-9424-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-11-05T16:56:51.178Z</history:submission-date>
+        <common:last-modified-date>2018-11-05T19:40:32.008Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-9424-8191/person">
+        <person:name visibility="public" path="0000-0002-9424-8191">
+            <common:created-date>2018-11-05T16:56:51.178Z</common:created-date>
+            <common:last-modified-date>2018-11-05T16:56:51.402Z</common:last-modified-date>
+            <personal-details:given-names>Barbara</personal-details:given-names>
+            <personal-details:family-name>Wolny</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-9424-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-9424-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-9424-8191/email"/>
+        <address:addresses path="/0000-0002-9424-8191/address"/>
+        <keyword:keywords path="/0000-0002-9424-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-9424-8191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-9424-8191/activities">
+        <common:last-modified-date>2018-11-05T19:40:32.009Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-9424-8191/distinctions">
+            <common:last-modified-date>2018-11-05T18:13:49.926Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T18:10:30.121Z</common:last-modified-date>
+                <common:external-ids/>
+                <distinction:distinction-summary put-code="6733825" display-index="1" path="/0000-0002-9424-8191/distinction/6733825" visibility="public">
+                    <common:created-date>2018-11-05T18:10:30.121Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:10:30.121Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Medal Srebrny za długoletnią służbę </common:department-name>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>12</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>06</common:month>
+                        <common:day>21</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Prezydent Rzeczypospolitej Polskiej</common:name>
+                        <common:address>
+                            <common:city>Warszawa</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>154689</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </distinction:distinction-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T18:13:49.926Z</common:last-modified-date>
+                <common:external-ids/>
+                <distinction:distinction-summary put-code="6733818" display-index="1" path="/0000-0002-9424-8191/distinction/6733818" visibility="public">
+                    <common:created-date>2018-11-05T18:08:28.426Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:13:49.926Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Medal Komisji Edukacji Narodowej </common:department-name>
+                    <common:role-title>Medal </common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>12</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2009</common:year>
+                        <common:month>06</common:month>
+                        <common:day>25</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Rzeczpospolita Ministerstwo Edukacji Narodowej</common:name>
+                        <common:address>
+                            <common:city>Warszawa</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>86895</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </distinction:distinction-summary>
+            </activities:affiliation-group>
+        </activities:distinctions>
+        <activities:educations path="/0000-0002-9424-8191/educations">
+            <common:last-modified-date>2018-11-05T18:02:11.343Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T18:02:11.343Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6733781" display-index="1" path="/0000-0002-9424-8191/education/6733781" visibility="public">
+                    <common:created-date>2018-11-05T18:02:11.343Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:02:11.343Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Oligofrenopedagogika</common:department-name>
+                    <common:role-title>Kurs kwalifikacyjny </common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>01</common:month>
+                        <common:day>03</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                        <common:month>05</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Podkarpackie Centrum Edukacji Nauczycieli </common:name>
+                        <common:address>
+                            <common:city>Rzeszów</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T17:59:54.073Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6733767" display-index="1" path="/0000-0002-9424-8191/education/6733767" visibility="public">
+                    <common:created-date>2018-11-05T17:59:54.073Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T17:59:54.073Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Zarządzania oświatą – dla oświatowej kadry kierowniczej</common:department-name>
+                    <common:role-title>Kurs kwalifikacyjny </common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>11</common:month>
+                        <common:day>20</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                        <common:month>05</common:month>
+                        <common:day>15</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Podkarpackie Centrum Edukacji Nauczycieli </common:name>
+                        <common:address>
+                            <common:city>Rzeszów</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T17:19:19.505Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6733430" display-index="1" path="/0000-0002-9424-8191/education/6733430" visibility="public">
+                    <common:created-date>2018-11-05T17:19:19.505Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T17:19:19.505Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:role-title>doktor nauk humanistycznych w zakresie pedagogiki </common:role-title>
+                    <common:start-date>
+                        <common:year>2001</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2005</common:year>
+                        <common:month>10</common:month>
+                        <common:day>20</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Katolicki Uniwersytet Lubelski Jana Pawla II</common:name>
+                        <common:address>
+                            <common:city>Lublin</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>49642</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T17:56:44.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6733738" display-index="1" path="/0000-0002-9424-8191/education/6733738" visibility="public">
+                    <common:created-date>2018-11-05T17:56:44.587Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T17:56:44.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Edukator specjalność Konstruowanie programów szkolnych</common:department-name>
+                    <common:role-title>Kurs kwalifikacyjny </common:role-title>
+                    <common:start-date>
+                        <common:year>2002</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2003</common:year>
+                        <common:month>05</common:month>
+                        <common:day>09</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Podkarpacki  Ośrodek Doskonalenia Nauczycieli</common:name>
+                        <common:address>
+                            <common:city>Rzeszów</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-9424-8191/employments">
+            <common:last-modified-date>2018-11-05T19:40:32.009Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T18:25:46.070Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6733362" display-index="1" path="/0000-0002-9424-8191/employment/6733362" visibility="public">
+                    <common:created-date>2018-11-05T17:08:34.576Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:25:46.070Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>pedagogika </common:department-name>
+                    <common:role-title>adiunkt </common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Akademia Humanistyczno-Ekonomiczna w Lodzi</common:name>
+                        <common:address>
+                            <common:city>Jasło </common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>150522</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T19:40:32.009Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6733918" display-index="1" path="/0000-0002-9424-8191/employment/6733918" visibility="public">
+                    <common:created-date>2018-11-05T18:29:00.196Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T19:40:32.009Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>pedagogika </common:department-name>
+                    <common:role-title>asystent/adiunkt</common:role-title>
+                    <common:start-date>
+                        <common:year>2004</common:year>
+                        <common:month>10</common:month>
+                        <common:day>04</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Katolicki Uniwersytet Lubelski Jana Pawla II</common:name>
+                        <common:address>
+                            <common:city>Lublin</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>49642</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-9424-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-9424-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-9424-8191/memberships">
+            <common:last-modified-date>2018-11-05T18:12:55.250Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T18:12:55.250Z</common:last-modified-date>
+                <common:external-ids/>
+                <membership:membership-summary put-code="6733839" display-index="1" path="/0000-0002-9424-8191/membership/6733839" visibility="public">
+                    <common:created-date>2018-11-05T18:12:55.250Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:12:55.250Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Zespół  Pedagogiki Chrześcijańskiej Komitetu Nauk Pedagogicznych PAN </common:department-name>
+                    <common:role-title>członek </common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Katolicki Uniwersytet Lubelski Jana Pawla II</common:name>
+                        <common:address>
+                            <common:city>Lublin</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>49642</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </membership:membership-summary>
+            </activities:affiliation-group>
+        </activities:memberships>
+        <activities:peer-reviews path="/0000-0002-9424-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-9424-8191/qualifications">
+            <common:last-modified-date>2018-11-05T17:51:51.743Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-05T17:51:51.743Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="6733696" display-index="1" path="/0000-0002-9424-8191/qualification/6733696" visibility="public">
+                    <common:created-date>2018-11-05T17:51:51.743Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T17:51:51.743Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <common:department-name>Wychowanie fizyczne z gimnastyką korekcyjno – kompensacyjną</common:department-name>
+                    <common:role-title>Podyplomowe </common:role-title>
+                    <common:start-date>
+                        <common:year>2000</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2001</common:year>
+                        <common:month>03</common:month>
+                        <common:day>24</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Wyższa Szkoła Pedagogiczna w Rzeszowie </common:name>
+                        <common:address>
+                            <common:city>Rzeszów </common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0002-9424-8191/research-resources"/>
+        <activities:services path="/0000-0002-9424-8191/services"/>
+        <activities:works path="/0000-0002-9424-8191/works">
+            <common:last-modified-date>2018-11-05T19:39:59.674Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T18:23:08.571Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50219477" path="/0000-0002-9424-8191/work/50219477" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T18:23:08.571Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:23:08.571Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Zdrowie jako wartość w edukacji wczesnoszkolnej. Uczeń w świecie wartości. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T19:39:59.674Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50222571" path="/0000-0002-9424-8191/work/50222571" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T19:39:59.674Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T19:39:59.674Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title> Edukacja zdrowotna w szkole. Poradnik dla nauczycieli realizujących edukację prozdrowotną w szkole podstawowej, gimnazjum i szkole ponadgimnazjalnej, Wydanie VII poprawione i rozszerzone o realizację edukacji zdrowotnej według nowej „Podstawy programowej”.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T18:21:26.711Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50219462" path="/0000-0002-9424-8191/work/50219462" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T18:21:26.711Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:21:26.711Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Szkolna edukacja zdrowotna ukierunkowana na doskonalenie jakości życia uczniów.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T19:38:33.067Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50222557" path="/0000-0002-9424-8191/work/50222557" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T19:38:33.067Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T19:38:33.067Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Edukacja zdrowotna w szkole. Poradnik dla nauczycieli realizujących edukację zdrowotną. Wydanie IV poprawione i rozszerzone o realizację edukacji zdrowotnej według nowej „Podstawy programowej”. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T19:36:26.937Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50222401" path="/0000-0002-9424-8191/work/50222401" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T19:36:26.937Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T19:36:26.937Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Edukacja zdrowotna w szkole. Poradnik dla nauczycieli realizujących edukację prozdrowotną. Wydanie II. </common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T18:19:15.843Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50219355" path="/0000-0002-9424-8191/work/50219355" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T18:19:15.840Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:19:15.843Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Wychowanie fizyczne w zreformowanej szkole. Wartości i wartościowanie wychowania fizycznego przez współczesną szkołę.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-05T18:19:30.083Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50219339" path="/0000-0002-9424-8191/work/50219339" visibility="public" display-index="1">
+                    <common:created-date>2018-11-05T18:19:30.081Z</common:created-date>
+                    <common:last-modified-date>2018-11-05T18:19:30.083Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9424-8191</common:uri>
+                            <common:path>0000-0002-9424-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Barbara Wolny</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Wychowanie fizyczne w zreformowanej szkole. Ranga i miejsce wychowania fizycznego w polskiej szkole.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

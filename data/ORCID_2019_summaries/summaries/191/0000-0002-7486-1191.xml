@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-7486-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-7486-1191</common:uri>
+        <common:path>0000-0002-7486-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-09-09T13:16:06.446Z</history:submission-date>
+        <common:last-modified-date>2019-09-20T11:51:51.183Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-7486-1191/person">
+        <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-7486-1191">
+            <common:created-date>2016-04-15T23:01:44.988Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:01:44.988Z</common:last-modified-date>
+            <personal-details:given-names>Regin</personal-details:given-names>
+            <personal-details:family-name>Rønn</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-7486-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-7486-1191/researcher-urls"/>
+        <email:emails path="/0000-0002-7486-1191/email"/>
+        <address:addresses path="/0000-0002-7486-1191/address"/>
+        <keyword:keywords path="/0000-0002-7486-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-7486-1191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="109453" visibility="public" path="/0000-0002-7486-1191/external-identifiers/109453" display-index="0">
+                <common:created-date>2014-09-09T13:16:33.032Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>K-4460-2014</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/K-4460-2014</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-7486-1191/activities">
+        <common:last-modified-date>2019-05-30T09:40:43.288Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-7486-1191/distinctions"/>
+        <activities:educations path="/0000-0002-7486-1191/educations"/>
+        <activities:employments path="/0000-0002-7486-1191/employments"/>
+        <activities:fundings path="/0000-0002-7486-1191/fundings"/>
+        <activities:invited-positions path="/0000-0002-7486-1191/invited-positions"/>
+        <activities:memberships path="/0000-0002-7486-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-7486-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-7486-1191/qualifications"/>
+        <activities:research-resources path="/0000-0002-7486-1191/research-resources"/>
+        <activities:services path="/0000-0002-7486-1191/services"/>
+        <activities:works path="/0000-0002-7486-1191/works">
+            <common:last-modified-date>2019-05-30T09:40:43.288Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-05-30T09:40:43.288Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.soilbio.2019.05.021</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.soilbio.2019.05.021</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.soilbio.2019.05.021</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57968771" path="/0000-0002-7486-1191/work/57968771" visibility="public" display-index="0">
+                    <common:created-date>2019-05-30T09:40:43.288Z</common:created-date>
+                    <common:last-modified-date>2019-05-30T09:40:43.288Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ash application enhances decomposition of recalcitrant organic matter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.soilbio.2019.05.021</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.soilbio.2019.05.021</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.soilbio.2019.05.021</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.soilbio.2019.05.021</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology and Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.196Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.soilbio.2013.10.030</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.soilbio.2013.10.030</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000332261600024</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000332261600024</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612955" path="/0000-0002-7486-1191/work/13612955" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.321Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.196Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Biological C-12-C-13 fractionation increases with increasing community-complexity in soil microcosms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.soilbio.2013.10.030</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.soilbio.2013.10.030</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000332261600024</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000332261600024</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000332261600024&amp;KeyUID=WOS:000332261600024</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.203Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/nature12921</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/nature12921</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000330648100028</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000330648100028</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612956" path="/0000-0002-7486-1191/work/13612956" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.328Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.203Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fifty thousand years of Arctic vegetation and megafaunal diet</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/nature12921</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/nature12921</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000330648100028</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000330648100028</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000330648100028&amp;KeyUID=WOS:000330648100028</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nature</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.210Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000309452600009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000309452600009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0045306</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0045306</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612957" path="/0000-0002-7486-1191/work/13612957" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.332Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.210Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Disturbance Promotes Non-Indigenous Bacterial Invasion in Soil Microcosms: Analysis of the Roles of Resource Availability and Community Structure</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0045306</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0045306</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000309452600009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000309452600009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000309452600009&amp;KeyUID=WOS:000309452600009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.215Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4467/16890027AP.12.018.0764</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4467/16890027ap.12.018.0764</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000314646400004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000314646400004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612958" path="/0000-0002-7486-1191/work/13612958" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.339Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.215Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interactions between Bacteria, Protozoa and Nematodes in Soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4467/16890027AP.12.018.0764</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4467/16890027ap.12.018.0764</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000314646400004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000314646400004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000314646400004&amp;KeyUID=WOS:000314646400004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Acta Protozoologica</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.222Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ejsobi.2011.11.012</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ejsobi.2011.11.012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000304509600005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000304509600005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612959" path="/0000-0002-7486-1191/work/13612959" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.346Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.222Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nematodes and protozoa affect plants differently, depending on soil nutrient status</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ejsobi.2011.11.012</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ejsobi.2011.11.012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000304509600005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000304509600005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000304509600005&amp;KeyUID=WOS:000304509600005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Soil Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T18:47:35.867Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612960" path="/0000-0002-7486-1191/work/13612960" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.350Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T18:47:35.867Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Significantly Higher Carabid Beetle (Coleoptera: Carabidae) Catch in Conventionally than in Organically Managed Christmas Tree Plantations</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Entomological Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.477Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000304893100002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000304893100002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736122" path="/0000-0002-7486-1191/work/26736122" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.477Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.477Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Significantly Higher Carabid Beetle (Coleoptera: Carabidae) Catch in Conventionally than in Organically Managed Christmas Tree Plantations</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000304893100002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000304893100002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000304893100002&amp;KeyUID=WOS:000304893100002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Entomological Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.227Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/ismej.2009.28</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/ismej.2009.28</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000267818100002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000267818100002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612961" path="/0000-0002-7486-1191/work/13612961" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.353Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.227Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Functional GacS in Pseudomonas DSS73 prevents digestion by Caenorhabditis elegans and protects the nematode from killer flagellates</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/ismej.2009.28</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/ismej.2009.28</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000267818100002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000267818100002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000267818100002&amp;KeyUID=WOS:000267818100002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Isme Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.232Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000258047400007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000258047400007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.soilbio.2008.04.011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.soilbio.2008.04.011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612962" path="/0000-0002-7486-1191/work/13612962" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.357Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.232Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>'David and Goliath' of the soil food web - Flagellates that kill nematodes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.soilbio.2008.04.011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.soilbio.2008.04.011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000258047400007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000258047400007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000258047400007&amp;KeyUID=WOS:000258047400007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.237Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1574-6941.2008.00486.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1574-6941.2008.00486.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000256717200010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000256717200010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612963" path="/0000-0002-7486-1191/work/13612963" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.361Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.237Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A common soil flagellate (Cercomonas sp.) grows slowly when feeding on the bacterium Rhodococcus fascians in isolation, but does not discriminate against it in a mixed culture with Sphingopyxis witflariensis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1574-6941.2008.00486.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1574-6941.2008.00486.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000256717200010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000256717200010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000256717200010&amp;KeyUID=WOS:000256717200010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Fems Microbiology Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.242Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/453587a</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/453587a</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000256185200018</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000256185200018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612964" path="/0000-0002-7486-1191/work/13612964" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.365Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.242Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>If you don't need change, maybe you don't need sex</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/453587a</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/453587a</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000256185200018</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000256185200018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000256185200018&amp;KeyUID=WOS:000256185200018</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nature</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.249Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000249333600041</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000249333600041</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1073/pnas.0706787104</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1073/pnas.0706787104</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612965" path="/0000-0002-7486-1191/work/13612965" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.369Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.249Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ancient bacteria show evidence of DNA repair</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1073/pnas.0706787104</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1073/pnas.0706787104</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000249333600041</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000249333600041</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000249333600041&amp;KeyUID=WOS:000249333600041</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the National Academy of Sciences of the United States of America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.255Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000247279100010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000247279100010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11104-007-9267-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11104-007-9267-8</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612966" path="/0000-0002-7486-1191/work/13612966" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.375Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.255Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Decreasing prevalence of rhizosphere IAA producing and seedling root growth promoting bacteria with barley development irrespective of protozoan grazing regime</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11104-007-9267-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11104-007-9267-8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000247279100010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000247279100010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000247279100010&amp;KeyUID=WOS:000247279100010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plant and Soil</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.260Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000238650900056</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000238650900056</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1534/genetics.106.057349</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1534/genetics.106.057349</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612967" path="/0000-0002-7486-1191/work/13612967" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.381Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.260Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Crosslinks rather than strand breaks determine access to ancient DNA sequences from frozen sediments</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1534/genetics.106.057349</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1534/genetics.106.057349</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000238650900056</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000238650900056</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000238650900056&amp;KeyUID=WOS:000238650900056</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Genetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.266Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000240059900001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000240059900001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00374-005-0052-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00374-005-0052-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612968" path="/0000-0002-7486-1191/work/13612968" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.385Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.266Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Trophic interactions between rhizosphere bacteria and bacterial feeders influenced by phosphate and aphids in barley</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00374-005-0052-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00374-005-0052-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000240059900001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000240059900001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000240059900001&amp;KeyUID=WOS:000240059900001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biology and Fertility of Soils</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.271Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000188118500007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000188118500007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.cub.2003.12.012</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.cub.2003.12.012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612969" path="/0000-0002-7486-1191/work/13612969" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.389Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.271Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Long-term persistence of bacterial DNA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.cub.2003.12.012</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.cub.2003.12.012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000188118500007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000188118500007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000188118500007&amp;KeyUID=WOS:000188118500007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Current Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.277Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000181818900002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000181818900002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1023/A:1022931830078</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1023/a:1022931830078</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612970" path="/0000-0002-7486-1191/work/13612970" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.393Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.277Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of elevated atmospheric CO2 on protozoan abundance in soil planted with wheat and on decomposition of wheat roots</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1023/A:1022931830078</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1023/a:1022931830078</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000181818900002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000181818900002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000181818900002&amp;KeyUID=WOS:000181818900002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plant and Soil</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.282Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000184498700033</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000184498700033</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0140-6736(03)14039-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0140-6736(03)14039-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612971" path="/0000-0002-7486-1191/work/13612971" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.399Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.282Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Panspermia-true or false?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0140-6736(03)14039-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0140-6736(03)14039-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000184498700033</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000184498700033</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000184498700033&amp;KeyUID=WOS:000184498700033</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Lancet</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.289Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1128/AEM.68.12.6094-6105.2002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1128/aem.68.12.6094-6105.2002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000179500700037</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000179500700037</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612972" path="/0000-0002-7486-1191/work/13612972" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.403Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.289Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact of protozoan grazing on bacterial community structure in soil microcosms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1128/AEM.68.12.6094-6105.2002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1128/aem.68.12.6094-6105.2002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000179500700037</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000179500700037</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000179500700037&amp;KeyUID=WOS:000179500700037</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied and Environmental Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.294Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000174206200011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000174206200011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1128/AEM.68.3.1096-1101.2002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1128/aem.68.3.1096-1101.2002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612973" path="/0000-0002-7486-1191/work/13612973" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.408Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.294Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Population dynamics of active and total ciliate populations in arable soil amended with wheat</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1128/AEM.68.3.1096-1101.2002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1128/aem.68.3.1096-1101.2002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000174206200011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000174206200011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000174206200011&amp;KeyUID=WOS:000174206200011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied and Environmental Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.303Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0038-0717(02)00024-X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0038-0717(02)00024-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000176977600004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000176977600004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612974" path="/0000-0002-7486-1191/work/13612974" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.413Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.303Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Response of free-living soil protozoa and microorganisms to elevated atmospheric CO2 and presence of mycorrhiza</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0038-0717(02)00024-X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0038-0717(02)00024-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000176977600004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000176977600004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000176977600004&amp;KeyUID=WOS:000176977600004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.308Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0038-0717(00)00188-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0038-0717(00)00188-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000167756300007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000167756300007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612975" path="/0000-0002-7486-1191/work/13612975" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.417Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.308Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Distribution with depth of protozoa, bacteria and fungi in soil profiles from three Danish forest sites</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0038-0717(00)00188-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0038-0717(00)00188-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000167756300007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000167756300007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000167756300007&amp;KeyUID=WOS:000167756300007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.312Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000168254900009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000168254900009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1046/j.1365-2486.2001.00399.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1046/j.1365-2486.2001.00399.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612976" path="/0000-0002-7486-1191/work/13612976" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.421Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.312Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of elevated atmospheric CO2 and vegetation type on microbiota associated with decomposing straw</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1046/j.1365-2486.2001.00399.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1046/j.1365-2486.2001.00399.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000168254900009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000168254900009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000168254900009&amp;KeyUID=WOS:000168254900009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Global Change Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.318Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1078/0031-4056-00101</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1078/0031-4056-00101</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000172790900001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000172790900001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612977" path="/0000-0002-7486-1191/work/13612977" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.425Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.318Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Protozoa, nematodes and N-mineralization across a prescribed soil textural gradient</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1078/0031-4056-00101</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1078/0031-4056-00101</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000172790900001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000172790900001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000172790900001&amp;KeyUID=WOS:000172790900001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Pedobiologia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.323Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s003740000299</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s003740000299</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000167000900006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000167000900006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612978" path="/0000-0002-7486-1191/work/13612978" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.432Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.323Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Protozoan response to addition of the bacteria Mycobacterium chlorophenolicum and Pseudomonas chlororaphis to soil microcosms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s003740000299</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s003740000299</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000167000900006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000167000900006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000167000900006&amp;KeyUID=WOS:000167000900006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biology and Fertility of Soils</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.328Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1078/1434-4610-00069</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1078/1434-4610-00069</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000173273700004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000173273700004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612979" path="/0000-0002-7486-1191/work/13612979" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.438Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.328Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantitative estimation of flagellate community structure and diversity in soil samples</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1078/1434-4610-00069</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1078/1434-4610-00069</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000173273700004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000173273700004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000173273700004&amp;KeyUID=WOS:000173273700004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Protist</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.335Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000171415500024</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000171415500024</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0038-0717(01)00107-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0038-0717(01)00107-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612980" path="/0000-0002-7486-1191/work/13612980" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.444Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.335Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Reduced particle size of plant material does not stimulate decomposition, but affects the microbivorous microfauna</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0038-0717(01)00107-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0038-0717(01)00107-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000171415500024</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000171415500024</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000171415500024&amp;KeyUID=WOS:000171415500024</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.343Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0043-1354(01)00181-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0043-1354(01)00181-6</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000172436800014</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000172436800014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612981" path="/0000-0002-7486-1191/work/13612981" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.448Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.343Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Transport and fate of Cryptosporidium parvum oocysts in intermittent sand filters</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0043-1354(01)00181-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0043-1354(01)00181-6</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000172436800014</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000172436800014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000172436800014&amp;KeyUID=WOS:000172436800014</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Water Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.350Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0167-7012(99)00086-X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0167-7012(99)00086-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000083247300001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000083247300001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612982" path="/0000-0002-7486-1191/work/13612982" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.472Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.350Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An automated technique for most-probable-number (MPN) analysis of densities of phagotrophic protists with lux AB labelled bacteria as growth medium</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0167-7012(99)00086-X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0167-7012(99)00086-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000083247300001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000083247300001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000083247300001&amp;KeyUID=WOS:000083247300001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Microbiological Methods</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-09T12:32:17.521Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612983" path="/0000-0002-7486-1191/work/13612983" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.476Z</common:created-date>
+                    <common:last-modified-date>2015-07-09T12:32:17.521Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predation by protozoa on Escherichia coli K12 in soil and transfer of resistance plasmid RP4 to indigenous bacteria in soil</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Soil Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.482Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000078245400009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000078245400009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736123" path="/0000-0002-7486-1191/work/26736123" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.482Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.482Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predation by protozoa on Escherichia coli K12 in soil and transfer of resistance plasmid RP4 to indigenous bacteria in soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000078245400009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000078245400009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000078245400009&amp;KeyUID=WOS:000078245400009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Soil Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.357Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0038-0717(97)00275-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0038-0717(97)00275-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000074866400019</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000074866400019</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612984" path="/0000-0002-7486-1191/work/13612984" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.480Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.357Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Dynamics of nematodes and protozoa following the experimental addition of cattle or pig slurry to soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0038-0717(97)00275-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0038-0717(97)00275-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000074866400019</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000074866400019</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000074866400019&amp;KeyUID=WOS:000074866400019</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.365Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000074277200003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000074277200003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0929-1393(97)00070-X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0929-1393(97)00070-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612985" path="/0000-0002-7486-1191/work/13612985" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.485Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.365Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nutrients limiting microbial growth in a tropical forest soil of Ghana under different management</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0929-1393(97)00070-X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0929-1393(97)00070-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000074277200003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000074277200003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000074277200003&amp;KeyUID=WOS:000074277200003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Soil Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.371Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997WL91300001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997wl91300001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s003740050221</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s003740050221</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612986" path="/0000-0002-7486-1191/work/13612986" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.489Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.371Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bacteria and protozoa in soil microhabitats as affected by earthworms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s003740050221</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s003740050221</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997WL91300001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997wl91300001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997WL91300001&amp;KeyUID=WOS:A1997WL91300001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biology and Fertility of Soils</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.424Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1996VH84200005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1996vh84200005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0038-0717(96)00064-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0038-0717(96)00064-8</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612987" path="/0000-0002-7486-1191/work/13612987" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.493Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.424Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Soil respiration profiles and protozoan enumeration agree as microbial growth indicators</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0038-0717(96)00064-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0038-0717(96)00064-8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1996VH84200005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1996vh84200005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1996VH84200005&amp;KeyUID=WOS:A1996VH84200005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.433Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2307/2404938</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2307/2404938</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1996VQ85000002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1996vq85000002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612988" path="/0000-0002-7486-1191/work/13612988" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.497Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.433Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spatial distribution and successional pattern of microbial activity and micro-faunal populations on decomposing barley roots</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2307/2404938</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2307/2404938</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1996VQ85000002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1996vq85000002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1996VQ85000002&amp;KeyUID=WOS:A1996VQ85000002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Applied Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.443Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QC11300012</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qc11300012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0038-0717(94)00133-L</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0038-0717(94)00133-l</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612989" path="/0000-0002-7486-1191/work/13612989" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.502Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.443Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>BACTERIAL PRODUCTION DETERMINED BY [H-3] THYMIDINE INCORPORATION IN-FIELD RHIZOSPHERES AS EVALUATED BY COMPARISON TO RHIZODEPOSITION</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0038-0717(94)00133-L</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0038-0717(94)00133-l</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QC11300012</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qc11300012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QC11300012&amp;KeyUID=WOS:A1995QC11300012</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T18:47:50.383Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612990" path="/0000-0002-7486-1191/work/13612990" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.505Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T18:47:50.383Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heterotrophic flagellates in soil</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.488Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>BCI:BCI199698716572</common:external-id-value>
+                        <common:external-id-normalized transient="true">bci:bci199698716572</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736124" path="/0000-0002-7486-1191/work/26736124" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.488Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.488Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heterotrophic flagellates in soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>BCI:BCI199698716572</common:external-id-value>
+                            <common:external-id-normalized transient="true">bci:bci199698716572</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=BCI&amp;KeyUT=BCI:BCI199698716572&amp;KeyUID=BCI:BCI199698716572</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T18:47:50.401Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612991" path="/0000-0002-7486-1191/work/13612991" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.509Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T18:47:50.401Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Naked amoebae, flagellates, and nematodes in soils of different texture</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Soil Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.495Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995TV06800003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995tv06800003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736125" path="/0000-0002-7486-1191/work/26736125" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.495Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.495Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Naked amoebae, flagellates, and nematodes in soils of different texture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995TV06800003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995tv06800003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995TV06800003&amp;KeyUID=WOS:A1995TV06800003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Soil Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T18:47:50.420Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612992" path="/0000-0002-7486-1191/work/13612992" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.512Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T18:47:50.420Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>OPTIMIZING SOIL EXTRACT AND BROTH MEDIA FOR MPN-ENUMERATION OF NAKED AMEBAS AND HETEROTROPHIC FLAGELLATES IN SOIL</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Pedobiologia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.501Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QE46500002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qe46500002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736126" path="/0000-0002-7486-1191/work/26736126" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.501Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.501Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>OPTIMIZING SOIL EXTRACT AND BROTH MEDIA FOR MPN-ENUMERATION OF NAKED AMEBAS AND HETEROTROPHIC FLAGELLATES IN SOIL</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QE46500002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qe46500002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QE46500002&amp;KeyUID=WOS:A1995QE46500002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Pedobiologia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T18:47:50.444Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612993" path="/0000-0002-7486-1191/work/13612993" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.516Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T18:47:50.444Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Decomposition patterns in barley root hot spots: Populations of protozoa and nematodes</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Eukaryotic Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.508Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>BCI:BCI199497205328</common:external-id-value>
+                        <common:external-id-normalized transient="true">bci:bci199497205328</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736127" path="/0000-0002-7486-1191/work/26736127" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.508Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.508Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Decomposition patterns in barley root hot spots: Populations of protozoa and nematodes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>BCI:BCI199497205328</common:external-id-value>
+                            <common:external-id-normalized transient="true">bci:bci199497205328</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=BCI&amp;KeyUT=BCI:BCI199497205328&amp;KeyUID=BCI:BCI199497205328</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Eukaryotic Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.450Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0168-6445(94)90068-X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0168-6445(94)90068-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994QA59200001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994qa59200001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612994" path="/0000-0002-7486-1191/work/13612994" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.521Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.450Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>NOTES ON PROTOZOA IN AGRICULTURAL SOIL WITH EMPHASIS ON HETEROTROPHIC FLAGELLATES AND NAKED AMEBAS AND THEIR ECOLOGY</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0168-6445(94)90068-X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0168-6445(94)90068-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994QA59200001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994qa59200001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994QA59200001&amp;KeyUID=WOS:A1994QA59200001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Fems Microbiology Reviews</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.457Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/ps.2780420202</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/ps.2780420202</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994PN02000001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994pn02000001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612995" path="/0000-0002-7486-1191/work/13612995" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.526Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.457Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>THE EFFECT OF 3 DIFFERENT PESTICIDES ON SOIL PROTOZOAN ACTIVITY</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/ps.2780420202</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/ps.2780420202</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994PN02000001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994pn02000001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994PN02000001&amp;KeyUID=WOS:A1994PN02000001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Pesticide Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.466Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LV85900021</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993lv85900021</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0038-0717(93)90228-4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0038-0717(93)90228-4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612996" path="/0000-0002-7486-1191/work/13612996" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.530Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.466Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>PROTOZOA AND NEMATODES ON DECOMPOSING BARLEY ROOTS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0038-0717(93)90228-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0038-0717(93)90228-4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LV85900021</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993lv85900021</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LV85900021&amp;KeyUID=WOS:A1993LV85900021</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Biology &amp; Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.473Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0378-1097(92)90794-O</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0378-1097(92)90794-o</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1992HN95600004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1992hn95600004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="13612997" path="/0000-0002-7486-1191/work/13612997" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.535Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.473Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>HUGE INCREASE IN BACTERIVORES ON FRESHLY KILLED BARLEY ROOTS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0378-1097(92)90794-O</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0378-1097(92)90794-o</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1992HN95600004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1992hn95600004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1992HN95600004&amp;KeyUID=WOS:A1992HN95600004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Fems Microbiology Ecology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-06T23:22:26.311Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612998" path="/0000-0002-7486-1191/work/13612998" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.539Z</common:created-date>
+                    <common:last-modified-date>2015-07-06T23:22:26.311Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Local increase in protozoan numbers on decomposing barley roots in soil</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.514Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>BCI:BCI199344019198</common:external-id-value>
+                        <common:external-id-normalized transient="true">bci:bci199344019198</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736128" path="/0000-0002-7486-1191/work/26736128" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.514Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.514Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Local increase in protozoan numbers on decomposing barley roots in soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>BCI:BCI199344019198</common:external-id-value>
+                            <common:external-id-normalized transient="true">bci:bci199344019198</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=BCI&amp;KeyUT=BCI:BCI199344019198&amp;KeyUID=BCI:BCI199344019198</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-06T23:22:26.330Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13612999" path="/0000-0002-7486-1191/work/13612999" visibility="public" display-index="0">
+                    <common:created-date>2014-09-09T13:30:55.542Z</common:created-date>
+                    <common:last-modified-date>2015-07-06T23:22:26.330Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Soil protozoa as indicators of side effects of pesticides</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-09-14T10:33:15.520Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>BCI:BCI199344019123</common:external-id-value>
+                        <common:external-id-normalized transient="true">bci:bci199344019123</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26736129" path="/0000-0002-7486-1191/work/26736129" visibility="public" display-index="0">
+                    <common:created-date>2016-09-14T10:33:15.520Z</common:created-date>
+                    <common:last-modified-date>2016-09-14T10:33:15.520Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Soil protozoa as indicators of side effects of pesticides</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>BCI:BCI199344019123</common:external-id-value>
+                            <common:external-id-normalized transient="true">bci:bci199344019123</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=BCI&amp;KeyUT=BCI:BCI199344019123&amp;KeyUID=BCI:BCI199344019123</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Protistology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

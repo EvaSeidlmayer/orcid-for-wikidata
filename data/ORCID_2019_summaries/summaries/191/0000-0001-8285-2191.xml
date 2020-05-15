@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-8285-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+        <common:path>0000-0001-8285-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-03-10T13:25:41.838Z</history:submission-date>
+        <common:last-modified-date>2019-09-06T08:19:43.567Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-8285-2191/person">
+        <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-8285-2191">
+            <common:created-date>2016-04-15T21:23:13.922Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:23:13.922Z</common:last-modified-date>
+            <personal-details:given-names>Rebecca</personal-details:given-names>
+            <personal-details:family-name>Parry</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-8285-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-8285-2191/researcher-urls"/>
+        <email:emails path="/0000-0001-8285-2191/email"/>
+        <address:addresses path="/0000-0001-8285-2191/address">
+            <common:last-modified-date>2016-03-10T13:28:30.054Z</common:last-modified-date>
+            <address:address put-code="437787" visibility="public" path="/0000-0001-8285-2191/address/437787" display-index="0">
+                <common:created-date>2016-03-10T13:28:30.054Z</common:created-date>
+                <common:last-modified-date>2016-03-10T13:28:30.054Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                        <common:path>0000-0001-8285-2191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Rebecca Parry</common:source-name>
+                </common:source>
+                <address:country>GB</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-8285-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-8285-2191/external-identifiers">
+            <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="525920" visibility="public" path="/0000-0001-8285-2191/external-identifiers/525920" display-index="1">
+                <common:created-date>2016-08-09T09:59:16.870Z</common:created-date>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>L-4934-2016</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/L-4934-2016</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-8285-2191/activities">
+        <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-8285-2191/distinctions"/>
+        <activities:educations path="/0000-0001-8285-2191/educations"/>
+        <activities:employments path="/0000-0001-8285-2191/employments">
+            <common:last-modified-date>2016-03-10T13:28:15.115Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-03-10T13:28:15.115Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1637381" display-index="0" path="/0000-0001-8285-2191/employment/1637381" visibility="public">
+                    <common:created-date>2016-03-10T13:28:15.115Z</common:created-date>
+                    <common:last-modified-date>2016-03-10T13:28:15.115Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <common:department-name>Nottingham Law School</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Nottingham Trent University</common:name>
+                        <common:address>
+                            <common:city>Nottingham</common:city>
+                            <common:region>Nottingham</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6122</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-8285-2191/fundings"/>
+        <activities:invited-positions path="/0000-0001-8285-2191/invited-positions"/>
+        <activities:memberships path="/0000-0001-8285-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-8285-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-8285-2191/qualifications"/>
+        <activities:research-resources path="/0000-0001-8285-2191/research-resources"/>
+        <activities:services path="/0000-0001-8285-2191/services"/>
+        <activities:works path="/0000-0001-8285-2191/works">
+            <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819512" path="/0000-0001-8285-2191/work/22819512" visibility="public" display-index="0">
+                    <common:created-date>2016-03-10T13:27:08.200Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Law of insolvent partnerships and limited liability partnerships</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/12956/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819514" path="/0000-0001-8285-2191/work/22819514" visibility="public" display-index="1">
+                    <common:created-date>2016-03-10T13:27:08.831Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>China?s new bankruptcy law: notable features and key enforcement issues</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/18186/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International insolvency law: reforms and challenges</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819519" path="/0000-0001-8285-2191/work/22819519" visibility="public" display-index="7">
+                    <common:created-date>2016-03-10T14:11:55.782Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rejection of a "hindsight" approach to the calculation of client money claims in MF Global UK</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/17275/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>INSOL Electronic Newsletter</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819518" path="/0000-0001-8285-2191/work/22819518" visibility="public" display-index="5">
+                    <common:created-date>2016-03-10T13:27:09.431Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Too big to fail? Large national and international failures under the spotlight: papers from the INSOL Europe Academic Forum and Nottingham Law School Joint International Insolvency Conference, Nottingham, 28-29 June 2012</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/18832/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819515" path="/0000-0001-8285-2191/work/22819515" visibility="public" display-index="2">
+                    <common:created-date>2016-03-10T13:27:08.943Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Substantive harmonisation and the convergence of laws in Europe: papers from the INSOL Europe Academic Forum Annual Insolvency Conference, Venice, 21-22 September 2011</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/7758/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819517" path="/0000-0001-8285-2191/work/22819517" visibility="public" display-index="4">
+                    <common:created-date>2016-03-10T13:27:09.378Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The reform of international insolvency rules at European and national level</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/5617/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819516" path="/0000-0001-8285-2191/work/22819516" visibility="public" display-index="3">
+                    <common:created-date>2016-03-10T13:27:09.108Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Transaction avoidance in insolvencies</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/20647/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819520" path="/0000-0001-8285-2191/work/22819520" visibility="public" display-index="6">
+                    <common:created-date>2016-03-10T13:27:09.728Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Administrator: appointment and remuneration</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/8011/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>China's new enterprise bankruptcy law: context, interpretation and application</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819521" path="/0000-0001-8285-2191/work/22819521" visibility="public" display-index="8">
+                    <common:created-date>2016-03-10T13:27:10.012Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>China's new enterprise bankruptcy law: context, interpretation and application</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/23167/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819523" path="/0000-0001-8285-2191/work/22819523" visibility="public" display-index="10">
+                    <common:created-date>2016-03-10T13:27:10.378Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Conclusion</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/20657/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>China's new enterprise bankruptcy law: context, interpretation and application</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819522" path="/0000-0001-8285-2191/work/22819522" visibility="public" display-index="9">
+                    <common:created-date>2016-03-10T13:27:10.257Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Introduction</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/9620/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>China's new enterprise bankruptcy law: context, interpretation and application</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819528" path="/0000-0001-8285-2191/work/22819528" visibility="public" display-index="14">
+                    <common:created-date>2016-03-10T13:27:11.329Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The global financial crisis and the call for reform of insolvency law systems</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/1698/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Insolvency and Restructuring International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819525" path="/0000-0001-8285-2191/work/22819525" visibility="public" display-index="12">
+                    <common:created-date>2016-03-10T13:27:10.689Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Transaction avoidance</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/9697/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>China's new enterprise bankruptcy law: context, interpretation and application</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819524" path="/0000-0001-8285-2191/work/22819524" visibility="public" display-index="11">
+                    <common:created-date>2016-03-10T13:27:10.676Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Underlying factors and legal cultures influencing the new Chinese bankruptcy law</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/16149/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Insolvency law in the United Kingdom: the Cork Report at 30 years</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819526" path="/0000-0001-8285-2191/work/22819526" visibility="public" display-index="13">
+                    <common:created-date>2016-03-10T13:27:10.993Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Is UK insolvency law failing struggling companies?</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/1468/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nottingham Law Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819527" path="/0000-0001-8285-2191/work/22819527" visibility="public" display-index="15">
+                    <common:created-date>2016-03-10T13:27:11.196Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>China's new corporate rescue laws: perspectives and principles</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/16607/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Corporate Law Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819529" path="/0000-0001-8285-2191/work/22819529" visibility="public" display-index="18">
+                    <common:created-date>2016-03-10T13:27:11.413Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Corporate rescue</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/25077/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819530" path="/0000-0001-8285-2191/work/22819530" visibility="public" display-index="17">
+                    <common:created-date>2016-03-10T13:27:11.659Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Corporate rescue, an overview of recent developments from selected countries</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/22873/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819531" path="/0000-0001-8285-2191/work/22819531" visibility="public" display-index="16">
+                    <common:created-date>2016-03-10T13:27:11.890Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>England and Wales: administration orders</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/5809/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Corporate rescue in Europe: an overview of recent developments in selected countries</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819532" path="/0000-0001-8285-2191/work/22819532" visibility="public" display-index="19">
+                    <common:created-date>2016-03-10T13:27:12.403Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Directors' duties within the United Kingdom</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/22753/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Research handbook on corporate legal responsibility</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819533" path="/0000-0001-8285-2191/work/22819533" visibility="public" display-index="20">
+                    <common:created-date>2016-03-10T13:27:12.953Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Floating charges over book debts</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/2409/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>King's College Law Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819534" path="/0000-0001-8285-2191/work/22819534" visibility="public" display-index="21">
+                    <common:created-date>2016-03-10T13:27:13.311Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The position of family sureties within the framework of protection for consumer debtors in European Union Member States</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/22743/</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Review of Private Law</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819535" path="/0000-0001-8285-2191/work/22819535" visibility="public" display-index="22">
+                    <common:created-date>2016-03-10T13:27:13.687Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Introduction</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/4894/</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Corporate rescue in Europe: an overview of recent developments from selected countries in Europe</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="22819536" path="/0000-0001-8285-2191/work/22819536" visibility="public" display-index="23">
+                    <common:created-date>2016-03-10T13:27:14.051Z</common:created-date>
+                    <common:last-modified-date>2016-08-09T10:00:00.162Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8285-2191</common:uri>
+                            <common:path>0000-0001-8285-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rebecca Parry</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Transaction avoidance in insolvencies</common:title>
+                    </work:title>
+                    <common:url>http://irep.ntu.ac.uk/24734/</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

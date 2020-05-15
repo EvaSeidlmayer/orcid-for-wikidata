@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5940-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5940-9191</common:uri>
+        <common:path>0000-0001-5940-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2018-06-01T14:23:14.992Z</history:submission-date>
+        <common:last-modified-date>2019-09-23T11:39:41.958Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5940-9191/person">
+        <person:name visibility="public" path="0000-0001-5940-9191">
+            <common:created-date>2018-06-01T14:23:14.992Z</common:created-date>
+            <common:last-modified-date>2018-06-01T14:23:15.217Z</common:last-modified-date>
+            <personal-details:given-names>David</personal-details:given-names>
+            <personal-details:family-name>Hesmondhalgh</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5940-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5940-9191/researcher-urls"/>
+        <email:emails path="/0000-0001-5940-9191/email"/>
+        <address:addresses path="/0000-0001-5940-9191/address"/>
+        <keyword:keywords path="/0000-0001-5940-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5940-9191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5940-9191/activities">
+        <common:last-modified-date>2019-09-23T11:39:41.970Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5940-9191/distinctions"/>
+        <activities:educations path="/0000-0001-5940-9191/educations">
+            <common:last-modified-date>2018-06-01T14:26:10.080Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-06-01T14:26:10.080Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5921819" display-index="0" path="/0000-0001-5940-9191/education/5921819" visibility="public">
+                    <common:created-date>2018-06-01T14:26:10.080Z</common:created-date>
+                    <common:last-modified-date>2018-06-01T14:26:10.080Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5940-9191</common:uri>
+                            <common:path>0000-0001-5940-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>David Hesmondhalgh</common:source-name>
+                    </common:source>
+                    <common:department-name>Media and Communication</common:department-name>
+                    <common:role-title>PhD</common:role-title>
+                    <common:start-date>
+                        <common:year>1992</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1996</common:year>
+                        <common:month>07</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Goldsmiths University of London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4898</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-5940-9191/employments">
+            <common:last-modified-date>2019-08-26T16:07:02.214Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-08-26T16:07:02.214Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8530691" display-index="1" path="/0000-0001-5940-9191/employment/8530691" visibility="public">
+                    <common:created-date>2019-08-26T16:07:02.214Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:07:02.214Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5940-9191</common:uri>
+                            <common:path>0000-0001-5940-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>David Hesmondhalgh</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Media and Communication </common:department-name>
+                    <common:role-title>Professor of Media, Music and Culture</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>04</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Leeds</common:name>
+                        <common:address>
+                            <common:city>Leeds</common:city>
+                            <common:region>West Yorkshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4468</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>https://ahc.leeds.ac.uk/media/staff/297/professor-david-hesmondhalgh</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-5940-9191/fundings"/>
+        <activities:invited-positions path="/0000-0001-5940-9191/invited-positions"/>
+        <activities:memberships path="/0000-0001-5940-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5940-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5940-9191/qualifications"/>
+        <activities:research-resources path="/0000-0001-5940-9191/research-resources"/>
+        <activities:services path="/0000-0001-5940-9191/services"/>
+        <activities:works path="/0000-0001-5940-9191/works">
+            <common:last-modified-date>2019-09-23T11:39:41.970Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-23T11:39:41.970Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0163443719857615</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0163443719857615</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1177/0163443719857615</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60771586" path="/0000-0001-5940-9191/work/60771586" visibility="public" display-index="0">
+                    <common:created-date>2019-08-22T06:14:18.845Z</common:created-date>
+                    <common:last-modified-date>2019-09-23T11:39:41.970Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Television device ecologies, prominence and datafication: the neglected importance of the set-top box</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0163443719857615</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0163443719857615</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1177/0163443719857615</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1177/0163443719857615</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>10</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Media, Culture &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:35.962Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.7551/mitpress/9781906897710.003.0018</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.7551/mitpress/9781906897710.003.0018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927940" path="/0000-0001-5940-9191/work/60927940" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:35.962Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:35.962Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Television, Quality of Life and the Value of Culture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.7551/mitpress/9781906897710.003.0018</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.7551/mitpress/9781906897710.003.0018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>A Future for Public Service Television</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:39.534Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9781315387987-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9781315387987-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927944" path="/0000-0001-5940-9191/work/60927944" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:39.534Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:39.534Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The media's failure to represent the working class: Explanations from media production and beyond 1</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9781315387987-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9781315387987-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Media and class</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:48.975Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9781315088631-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9781315088631-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927824" path="/0000-0001-5940-9191/work/60927824" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:48.975Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:48.975Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Indie: The Institutional Politics and Aesthetics of a Popular Music Genre</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9781315088631-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9781315088631-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>07</common:month>
+                        <common:day>05</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Rock Music</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:10.383Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/1369118x.2017.1340498</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/1369118x.2017.1340498</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927964" path="/0000-0001-5940-9191/work/60927964" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:10.383Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:10.383Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>What the digitalisation of music tells us about capitalism, culture and the power of the information technology sector</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/1369118x.2017.1340498</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/1369118x.2017.1340498</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1369-118X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1369-118X</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Information, Communication &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:52.373Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0964663906060973</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0964663906060973</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927884" path="/0000-0001-5940-9191/work/60927884" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:52.373Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:52.373Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Digital Sampling and Cultural Inequality</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0964663906060973</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0964663906060973</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0964-6639</common:external-id-value>
+                            <common:external-id-normalized transient="true">0964-6639</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Social &amp; Legal Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:44.035Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0163443716643153</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0163443716643153</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927882" path="/0000-0001-5940-9191/work/60927882" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:44.035Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:44.035Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Capitalism and the media: moral economy, well-being and capabilities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0163443716643153</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0163443716643153</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0163-4437</common:external-id-value>
+                            <common:external-id-normalized transient="true">0163-4437</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>07</common:month>
+                        <common:day>09</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Media, Culture &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:00:56.637Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0163443706061682</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0163443706061682</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927853" path="/0000-0001-5940-9191/work/60927853" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:00:56.637Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:00:56.637Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bourdieu, the media and cultural production</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0163443706061682</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0163443706061682</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0163-4437</common:external-id-value>
+                            <common:external-id-normalized transient="true">0163-4437</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Media, Culture &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:30.406Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/016344396018003006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/016344396018003006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927873" path="/0000-0001-5940-9191/work/60927873" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:30.406Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:30.406Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Flexibility, post-Fordism and the music industries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/016344396018003006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/016344396018003006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0163-4437</common:external-id-value>
+                            <common:external-id-normalized transient="true">0163-4437</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Media, Culture &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:00:11.994Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9780203404119-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9780203404119-3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927840" path="/0000-0001-5940-9191/work/60927840" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:00:11.994Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:00:11.994Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Exploitation and Media Labor</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780203404119-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780203404119-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Routledge Companion to Labor and Media</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:57.408Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/1467-954x.12238</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/1467-954x.12238</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927954" path="/0000-0001-5940-9191/work/60927954" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:57.408Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:57.408Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sex, Gender and Work Segregation in the Cultural Industries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/1467-954x.12238</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/1467-954x.12238</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0038-0261</common:external-id-value>
+                            <common:external-id-normalized transient="true">0038-0261</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Sociological Review</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:00:35.622Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3917/res.192.0169</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3917/res.192.0169</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927847" path="/0000-0001-5940-9191/work/60927847" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:00:35.622Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:00:35.622Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cultural studies, production et économie morale</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3917/res.192.0169</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3917/res.192.0169</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0751-7971</common:external-id-value>
+                            <common:external-id-normalized transient="true">0751-7971</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Réseaux</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:06.682Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/9781137426383</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/9781137426383</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927778" path="/0000-0001-5940-9191/work/60927778" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:06.682Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:06.682Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Culture, Economy and Politics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/9781137426383</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/9781137426383</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:24.497Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/09548963.2014.912044</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/09548963.2014.912044</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927976" path="/0000-0001-5940-9191/work/60927976" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:24.497Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:24.497Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regional creative industries policy-making under New Labour</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/09548963.2014.912044</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/09548963.2014.912044</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0954-8963</common:external-id-value>
+                            <common:external-id-normalized transient="true">0954-8963</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cultural Trends</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:56.901Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3998/mij.15031809.0001.105</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3998/mij.15031809.0001.105</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927829" path="/0000-0001-5940-9191/work/60927829" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:56.901Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:56.901Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Menace of Instrumentalism in Media Industries Research and Education</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3998/mij.15031809.0001.105</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3998/mij.15031809.0001.105</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2373-9037</common:external-id-value>
+                            <common:external-id-normalized transient="true">2373-9037</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Media Industries Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:31.443Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/bp.2013.34</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/bp.2013.34</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927908" path="/0000-0001-5940-9191/work/60927908" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:31.443Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:31.443Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The national trust for talent? NESTA and New Labour’s cultural policy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/bp.2013.34</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/bp.2013.34</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1746-918X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1746-918X</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>British Politics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:36.245Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0267323113516726</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0267323113516726</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927911" path="/0000-0001-5940-9191/work/60927911" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:36.245Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:36.245Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Unpaid work in the UK television and film industries: Resistance and changing attitudes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0267323113516726</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0267323113516726</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0267-3231</common:external-id-value>
+                            <common:external-id-normalized transient="true">0267-3231</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Communication</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:19.390Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/15405702.2013.810068</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/15405702.2013.810068</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927901" path="/0000-0001-5940-9191/work/60927901" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:19.390Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:19.390Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Race, Ethnicity, and Cultural Production</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/15405702.2013.810068</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/15405702.2013.810068</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1540-5702</common:external-id-value>
+                            <common:external-id-normalized transient="true">1540-5702</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Popular Communication</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:26.210Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/14791420.2013.813783</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/14791420.2013.813783</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927907" path="/0000-0001-5940-9191/work/60927907" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:26.210Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:26.210Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>What Cultural, Critical and Communication Might Mean—And Why Cultural Studies Is a Bit Like Rave Culture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/14791420.2013.813783</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/14791420.2013.813783</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1479-1420</common:external-id-value>
+                            <common:external-id-normalized transient="true">1479-1420</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Communication and Critical/Cultural Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:46.345Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/9781444395402.ch17</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/9781444395402.ch17</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927950" path="/0000-0001-5940-9191/work/60927950" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:46.345Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:46.345Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Toward a Political Economy of Labor in the Media Industries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/9781444395402.ch17</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/9781444395402.ch17</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Handbook of Political Economy of Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:42.954Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/14797581003791461</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/14797581003791461</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927948" path="/0000-0001-5940-9191/work/60927948" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:42.954Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:42.954Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Normativity and Social Justice in the Analysis of Creative Labour</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/14797581003791461</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/14797581003791461</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1479-7585</common:external-id-value>
+                            <common:external-id-normalized transient="true">1479-7585</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal for Cultural Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:12.879Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10286630903029708</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10286630903029708</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927934" path="/0000-0001-5940-9191/work/60927934" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:12.879Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:12.879Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Russell Keat,Cultural goods and the limits of the market</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10286630903029708</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10286630903029708</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1028-6632</common:external-id-value>
+                            <common:external-id-normalized transient="true">1028-6632</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cultural Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:16.865Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.poetic.2009.10.001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.poetic.2009.10.001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927970" path="/0000-0001-5940-9191/work/60927970" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:16.865Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:16.865Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>‘A very complicated version of freedom’: Conditions and experiences of creative labour in three cultural industries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.poetic.2009.10.001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.poetic.2009.10.001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0304-422X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0304-422X</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Poetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:07.250Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10286630902923323</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10286630902923323</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927959" path="/0000-0001-5940-9191/work/60927959" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:07.250Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:07.250Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Looking for work in creative industries policy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10286630902923323</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10286630902923323</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1028-6632</common:external-id-value>
+                            <common:external-id-normalized transient="true">1028-6632</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cultural Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:09.079Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1533-1598.2009.01199_1.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1533-1598.2009.01199_1.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927933" path="/0000-0001-5940-9191/work/60927933" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:09.079Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:09.079Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Voicing the Popular: On the Subjects of Popular Music by Richard Middleton</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1533-1598.2009.01199_1.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1533-1598.2009.01199_1.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1524-2226</common:external-id-value>
+                            <common:external-id-normalized transient="true">1524-2226</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Popular Music Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:27.468Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9780203880012-3a</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9780203880012-3a</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927819" path="/0000-0001-5940-9191/work/60927819" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:27.468Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:27.468Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The digitalisation of music</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780203880012-3a</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780203880012-3a</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                        <common:month>03</common:month>
+                        <common:day>09</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Creativity, Innovation and the Cultural Economy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:36.990Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0261143000000635</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0261143000000635</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927878" path="/0000-0001-5940-9191/work/60927878" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:36.990Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:36.990Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Essay review: club culture goes mental</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0261143000000635</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0261143000000635</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0261-1430</common:external-id-value>
+                            <common:external-id-normalized transient="true">0261-1430</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Popular Music</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:58.221Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0261143000008400</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0261143000008400</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927928" path="/0000-0001-5940-9191/work/60927928" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:58.221Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:58.221Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Post-Punk's attempt to democratise the music industry: the success and failure of Rough Trade</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0261143000008400</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0261143000008400</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0261-1430</common:external-id-value>
+                            <common:external-id-normalized transient="true">0261-1430</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Popular Music</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:47.556Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/s0261143000007492</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/s0261143000007492</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927883" path="/0000-0001-5940-9191/work/60927883" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:47.556Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:47.556Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Technoprophecy: a Response to Tagg</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/s0261143000007492</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/s0261143000007492</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0261-1430</common:external-id-value>
+                            <common:external-id-normalized transient="true">0261-1430</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Popular Music</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:13.771Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10253860802391334</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10253860802391334</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927897" path="/0000-0001-5940-9191/work/60927897" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:13.771Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:13.771Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Towards a critical understanding of music, emotion and self‐identity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10253860802391334</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10253860802391334</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1025-3866</common:external-id-value>
+                            <common:external-id-normalized transient="true">1025-3866</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Consumption Markets &amp; Culture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:00:50.936Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/1527476408325728</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/1527476408325728</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927851" path="/0000-0001-5940-9191/work/60927851" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:00:50.936Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:00:50.936Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>My Media Studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/1527476408325728</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/1527476408325728</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1527-4764</common:external-id-value>
+                            <common:external-id-normalized transient="true">1527-4764</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Television &amp; New Media</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:57:03.002Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9780203930472</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9780203930472</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927739" path="/0000-0001-5940-9191/work/60927739" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:57:03.002Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:57:03.002Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Media and Social Theory</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780203930472</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780203930472</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:20.683Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0263276408097798</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0263276408097798</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927974" path="/0000-0001-5940-9191/work/60927974" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:20.683Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:20.683Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Creative Work and Emotional Labour in the Television Industry</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0263276408097798</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0263276408097798</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0263-2764</common:external-id-value>
+                            <common:external-id-normalized transient="true">0263-2764</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Theory, Culture &amp; Society</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:44.615Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3166/rseaux.141-142.203-230</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3166/rseaux.141-142.203-230</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927823" path="/0000-0001-5940-9191/work/60927823" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:44.615Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:44.615Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Musique, émotion et individualisation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3166/rseaux.141-142.203-230</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3166/rseaux.141-142.203-230</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0751-7971</common:external-id-value>
+                            <common:external-id-normalized transient="true">0751-7971</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Réseaux</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:00:08.166Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3917/res.141.0203</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3917/res.141.0203</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927837" path="/0000-0001-5940-9191/work/60927837" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:00:08.166Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:00:08.166Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Musique, émotion et individualisation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3917/res.141.0203</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3917/res.141.0203</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0751-7971</common:external-id-value>
+                            <common:external-id-normalized transient="true">0751-7971</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Réseaux</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:02.187Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10286630500067598</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10286630500067598</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927930" path="/0000-0001-5940-9191/work/60927930" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:02.187Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:02.187Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cultural industries and cultural policy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10286630500067598</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10286630500067598</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1028-6632</common:external-id-value>
+                            <common:external-id-normalized transient="true">1028-6632</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cultural Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:03:51.406Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/10286630500067861</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/10286630500067861</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927952" path="/0000-0001-5940-9191/work/60927952" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:03:51.406Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:03:51.406Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Media and cultural policy as public policy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/10286630500067861</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/10286630500067861</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1028-6632</common:external-id-value>
+                            <common:external-id-normalized transient="true">1028-6632</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cultural Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:33.612Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/13676260500063652</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/13676260500063652</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927876" path="/0000-0001-5940-9191/work/60927876" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:33.612Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:33.612Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Subcultures, Scenes or Tribes? None of the Above</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/13676260500063652</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/13676260500063652</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1367-6261</common:external-id-value>
+                            <common:external-id-normalized transient="true">1367-6261</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Youth Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:02:22.908Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/095023899335365</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/095023899335365</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927903" path="/0000-0001-5940-9191/work/60927903" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:02:22.908Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:02:22.908Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>INDIE: THE INSTITUTIONAL POLITICS AND AESTHETICS OF A POPULAR MUSIC GENRE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/095023899335365</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/095023899335365</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0950-2386</common:external-id-value>
+                            <common:external-id-normalized transient="true">0950-2386</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cultural Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:04:13.673Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2307/591311</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2307/591311</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927968" path="/0000-0001-5940-9191/work/60927968" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:04:13.673Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:04:13.673Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The British Dance Music Industry: A Case Study of Independent Cultural Production</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2307/591311</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2307/591311</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0007-1315</common:external-id-value>
+                            <common:external-id-normalized transient="true">0007-1315</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The British Journal of Sociology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T15:59:16.339Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4135/9781848608443.n27</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4135/9781848608443.n27</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927781" path="/0000-0001-5940-9191/work/60927781" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T15:59:16.339Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T15:59:16.339Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cultural and Creative Industries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4135/9781848608443.n27</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4135/9781848608443.n27</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>The SAGE Handbook of Cultural Analysis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T16:01:13.027Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4324/9780203347164_chapter_7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4324/9780203347164_chapter_7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60927857" path="/0000-0001-5940-9191/work/60927857" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T16:01:13.027Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T16:01:13.027Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Globalisation and cultural imperialism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780203347164_chapter_7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780203347164_chapter_7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <work:journal-title>Globalisation and the Third World</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

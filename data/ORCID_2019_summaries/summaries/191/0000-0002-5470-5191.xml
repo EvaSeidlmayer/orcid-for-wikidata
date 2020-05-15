@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-5470-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-5470-5191</common:uri>
+        <common:path>0000-0002-5470-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>website</history:creation-method>
+        <history:completion-date>2013-03-30T07:27:52.070Z</history:completion-date>
+        <history:submission-date>2013-03-30T07:27:26.603Z</history:submission-date>
+        <common:last-modified-date>2019-10-04T23:45:10.606Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-5470-5191/person">
+        <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-5470-5191">
+            <common:created-date>2016-04-15T22:41:05.527Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:41:05.527Z</common:last-modified-date>
+            <personal-details:given-names>Paul</personal-details:given-names>
+            <personal-details:family-name>Chin</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-5470-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-5470-5191/researcher-urls"/>
+        <email:emails path="/0000-0002-5470-5191/email"/>
+        <address:addresses path="/0000-0002-5470-5191/address"/>
+        <keyword:keywords path="/0000-0002-5470-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-5470-5191/external-identifiers">
+            <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="284404" visibility="public" path="/0000-0002-5470-5191/external-identifiers/284404" display-index="0">
+                <common:created-date>2015-06-09T22:17:00.662Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>37461054900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=37461054900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="284405" visibility="public" path="/0000-0002-5470-5191/external-identifiers/284405" display-index="0">
+                <common:created-date>2015-06-09T22:22:30.296Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>G-2431-2015</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/G-2431-2015</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-5470-5191/activities">
+        <common:last-modified-date>2019-09-30T04:17:56.806Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-5470-5191/distinctions"/>
+        <activities:educations path="/0000-0002-5470-5191/educations"/>
+        <activities:employments path="/0000-0002-5470-5191/employments"/>
+        <activities:fundings path="/0000-0002-5470-5191/fundings"/>
+        <activities:invited-positions path="/0000-0002-5470-5191/invited-positions"/>
+        <activities:memberships path="/0000-0002-5470-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-5470-5191/peer-reviews">
+            <common:last-modified-date>2019-09-30T04:17:56.806Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T04:17:56.806Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:0344-5704</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-30T04:17:56.806Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>65bfa72c-3bee-4e4f-a56b-7e97b6e242ce</common:external-id-value>
+                            <common:external-id-normalized transient="true">65bfa72c-3bee-4e4f-a56b-7e97b6e242ce</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="935644" path="/0000-0002-5470-5191/peer-review/935644" visibility="public" display-index="0">
+                        <common:created-date>2019-09-30T04:17:56.806Z</common:created-date>
+                        <common:last-modified-date>2019-09-30T04:17:56.806Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-945VYTN20C7BZXYT</common:uri>
+<common:path>APP-945VYTN20C7BZXYT</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Springer Nature</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>source-work-id</common:external-id-type>
+<common:external-id-value>65bfa72c-3bee-4e4f-a56b-7e97b6e242ce</common:external-id-value>
+<common:external-id-normalized transient="true">65bfa72c-3bee-4e4f-a56b-7e97b6e242ce</common:external-id-normalized>
+<common:external-id-url></common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:0344-5704</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Springer Nature</common:name>
+                            <common:address>
+<common:city>New York</common:city>
+<common:country>US</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+        </activities:peer-reviews>
+        <activities:qualifications path="/0000-0002-5470-5191/qualifications"/>
+        <activities:research-resources path="/0000-0002-5470-5191/research-resources"/>
+        <activities:services path="/0000-0002-5470-5191/services"/>
+        <activities:works path="/0000-0002-5470-5191/works">
+            <common:last-modified-date>2019-09-13T23:24:49.034Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-03-21T23:49:49.468Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/imj.14038</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/imj.14038</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/imj.14038</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55572424" path="/0000-0002-5470-5191/work/55572424" visibility="public" display-index="0">
+                    <common:created-date>2019-03-21T23:49:49.468Z</common:created-date>
+                    <common:last-modified-date>2019-03-21T23:49:49.468Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A randomised controlled trial of patient information leaflets as a medication counselling aid</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/imj.14038</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/imj.14038</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/imj.14038</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/imj.14038</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Internal Medicine Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-13T23:24:49.034Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41598-018-32162-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41598-018-32162-2</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41598-018-32162-2</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48153321" path="/0000-0002-5470-5191/work/48153321" visibility="public" display-index="0">
+                    <common:created-date>2018-09-10T10:57:05.290Z</common:created-date>
+                    <common:last-modified-date>2019-09-13T23:24:49.034Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of adjunctive single high-dose vitamin D3 on outcome of community-acquired pneumonia in hospitalised adults: The VIDCAPS randomised controlled trial</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41598-018-32162-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41598-018-32162-2</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41598-018-32162-2</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41598-018-32162-2</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-09-16T11:51:59.030Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bcp.13673</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bcp.13673</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/bcp.13673</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="45734325" path="/0000-0002-5470-5191/work/45734325" visibility="public" display-index="0">
+                    <common:created-date>2018-06-16T12:49:34.078Z</common:created-date>
+                    <common:last-modified-date>2018-09-16T11:51:59.030Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Total flucloxacillin plasma concentrations poorly reflect unbound concentrations in hospitalized patients with Staphylococcus aureus bacteraemia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.13673</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.13673</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/bcp.13673</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/bcp.13673</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>10</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-13T17:48:09.113Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/imj.12791</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/imj.12791</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1111/imj.12791</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21474810" path="/0000-0002-5470-5191/work/21474810" visibility="public" display-index="0">
+                    <common:created-date>2016-01-13T17:48:09.113Z</common:created-date>
+                    <common:last-modified-date>2016-01-13T17:48:09.113Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Removal of body surface area normalisation improves raw-measured glomerular filtration rate estimation by the Chronic Kidney Disease Epidemiology Collaboration equation and drug dosing in the obese</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/imj.12791</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/imj.12791</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1111/imj.12791</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Internal Medicine Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.020Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4155/bio.15.32</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4155/bio.15.32</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84929320123</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84929320123</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919098" path="/0000-0002-5470-5191/work/16919098" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.173Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.020Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantification of dabigatran and indirect quantification of dabigatran acylglucuronides in human plasma by LC-MS/MS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4155/bio.15.32</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4155/bio.15.32</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84929320123</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84929320123</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84929320123&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bioanalysis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-13T17:46:51.114Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84921497407</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84921497407</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bcp.12501</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bcp.12501</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919097" path="/0000-0002-5470-5191/work/16919097" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.171Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:09.975Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The performance of contemporary cystatin C-based GFR equations in predicting gentamicin clearance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12501</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12501</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84921497407</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84921497407</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84921497407&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21474537" path="/0000-0002-5470-5191/work/21474537" visibility="public" display-index="0">
+                    <common:created-date>2016-01-13T17:46:51.114Z</common:created-date>
+                    <common:last-modified-date>2016-01-13T17:46:51.114Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The performance of contemporary cystatin C-based GFR equations in predicting gentamicin clearance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12501</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12501</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1111/bcp.12501</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:09.932Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84923933857</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84923933857</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1055/s-0035-1546465</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1055/s-0035-1546465</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919096" path="/0000-0002-5470-5191/work/16919096" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.168Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:09.932Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Which patients may benefit from dose adjustment of non-vitamin k antagonist oral anticoagulants?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1055/s-0035-1546465</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1055/s-0035-1546465</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84923933857</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84923933857</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84923933857&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Seminars in Thrombosis and Hemostasis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-13T17:38:19.232Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84904368894</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84904368894</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bcp.12364</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bcp.12364</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919105" path="/0000-0002-5470-5191/work/16919105" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.185Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.279Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A proposal for dose-adjustment of dabigatran etexilate in atrial fibrillation guided by thrombin time</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12364</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12364</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84904368894</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84904368894</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84904368894&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21472490" path="/0000-0002-5470-5191/work/21472490" visibility="public" display-index="0">
+                    <common:created-date>2016-01-13T17:38:19.232Z</common:created-date>
+                    <common:last-modified-date>2016-01-13T17:38:19.232Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A proposal for dose-adjustment of dabigatran etexilate in atrial fibrillation guided by thrombin time</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12364</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12364</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1111/bcp.12364</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-13T17:43:20.502Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84906517804</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84906517804</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bcp.12366</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bcp.12366</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919104" path="/0000-0002-5470-5191/work/16919104" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.184Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.244Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Coagulation assays and plasma fibrinogen concentrations in real-world patients with atrial fibrillation treated with dabigatran</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12366</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12366</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84906517804</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84906517804</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84906517804&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21473679" path="/0000-0002-5470-5191/work/21473679" visibility="public" display-index="0">
+                    <common:created-date>2016-01-13T17:43:20.502Z</common:created-date>
+                    <common:last-modified-date>2016-01-13T17:43:20.502Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Coagulation assays and plasma fibrinogen concentrations in real-world patients with atrial fibrillation treated with dabigatran</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bcp.12366</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bcp.12366</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1111/bcp.12366</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.204Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84904296706</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84904296706</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s40268-014-0045-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s40268-014-0045-9</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919103" path="/0000-0002-5470-5191/work/16919103" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.182Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.204Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Correlation between trough plasma dabigatran concentrations and estimates of glomerular filtration rate based on creatinine and cystatin C</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s40268-014-0045-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s40268-014-0045-9</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84904296706</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84904296706</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84904296706&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Drugs in R and D</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.169Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84892756700</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84892756700</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1056/NEJMc1315004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1056/nejmc1315004</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919102" path="/0000-0002-5470-5191/work/16919102" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.180Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.169Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Dabigatran in patients with mechanical heart valves [4]</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1056/NEJMc1315004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1056/nejmc1315004</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84892756700</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84892756700</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84892756700&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>New England Journal of Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.131Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84902603189</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84902603189</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jacc.2013.11.069</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jacc.2013.11.069</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919101" path="/0000-0002-5470-5191/work/16919101" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.178Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.131Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Learning more from the dabigatran concentrations in the RE-LY study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jacc.2013.11.069</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jacc.2013.11.069</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84902603189</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84902603189</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84902603189&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the American College of Cardiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.096Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84922479745</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84922479745</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1161/CIRCULATIONAHA.114.010099</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1161/circulationaha.114.010099</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919100" path="/0000-0002-5470-5191/work/16919100" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.176Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.096Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Letter by Chin et al regarding article, "Efficacy and safety of dabigatran compared with warfarin in relation to baseline renal function in patients with atrial fibrillation: a RE-LY (Randomized Evaluation of Long-Term Anticoagulation Therapy) trial analysis"</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1161/CIRCULATIONAHA.114.010099</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1161/circulationaha.114.010099</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84922479745</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84922479745</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84922479745&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Circulation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.057Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1097/FTD.0b013e31829dc940</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1097/ftd.0b013e31829dc940</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84892928157</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84892928157</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919099" path="/0000-0002-5470-5191/work/16919099" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.175Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.057Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Thirteen years' experience of pharmacokinetic monitoring and dosing of busulfan: Can the strategy be improved?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1097/FTD.0b013e31829dc940</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1097/ftd.0b013e31829dc940</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84892928157</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84892928157</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84892928157&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Therapeutic Drug Monitoring</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.615Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84890205188</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84890205188</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0004563212473441</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0004563212473441</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919114" path="/0000-0002-5470-5191/work/16919114" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.202Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.615Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Biological variation of thiopurine methyltransferase enzyme activity: When has a significant change taken place?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0004563212473441</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0004563212473441</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84890205188</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84890205188</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84890205188&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Clinical Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.572Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84877886428</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84877886428</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/imj.12067</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/imj.12067</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919113" path="/0000-0002-5470-5191/work/16919113" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.201Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.572Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparing dose prediction software used to manage gentamicin dosing</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/imj.12067</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/imj.12067</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84877886428</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84877886428</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84877886428&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Internal Medicine Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.533Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84880393661</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84880393661</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/imj.12170</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/imj.12170</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919112" path="/0000-0002-5470-5191/work/16919112" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.199Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.533Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Dosing of dabigatran etexilate in relation to renal function and drug interactions at a tertiary hospital</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/imj.12170</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/imj.12170</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84880393661</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84880393661</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84880393661&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Internal Medicine Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.497Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0004563212474558</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0004563212474558</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84890178101</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84890178101</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919111" path="/0000-0002-5470-5191/work/16919111" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.197Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.497Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Preanalytical stringency: What factors may confound interpretation of thiopurine S-methyl transferase enzyme activity?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0004563212474558</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0004563212474558</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84890178101</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84890178101</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84890178101&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Clinical Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.458Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2125.2012.04408.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04408.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84872241787</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84872241787</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919110" path="/0000-0002-5470-5191/work/16919110" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.195Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.458Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rifampicin and dabigatran etexilate: A place for laboratory coagulation monitoring</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2125.2012.04408.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04408.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84872241787</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84872241787</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84872241787&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.417Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84879491199</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84879491199</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919109" path="/0000-0002-5470-5191/work/16919109" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.193Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.417Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rifampicin and dabigatran etexilate: a place for laboratory coagulation monitoring.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84879491199</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84879491199</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84879491199&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British journal of clinical pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.383Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1177/0004563213492320</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1177/0004563213492320</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84884691365</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84884691365</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919108" path="/0000-0002-5470-5191/work/16919108" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.191Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.383Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The performances of the Cockcroft-Gault, Modification of Diet in Renal Disease study and Chronic Kidney Disease Epidemiology Collaboration equations in predicting gentamicin clearance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1177/0004563213492320</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1177/0004563213492320</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84884691365</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84884691365</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84884691365&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Clinical Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.346Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84884676759</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84884676759</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919107" path="/0000-0002-5470-5191/work/16919107" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.189Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.346Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Usage of renal function equations to guide prescribing in general medicine</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84884676759</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84884676759</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84884676759&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>New Zealand Medical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.314Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84891586106</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84891586106</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919106" path="/0000-0002-5470-5191/work/16919106" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.187Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.314Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Usage of renal function equations to guide prescribing in general medicine.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84891586106</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84891586106</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84891586106&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>The New Zealand medical journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.971Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2125.2011.04089.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2125.2011.04089.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84857024882</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84857024882</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919123" path="/0000-0002-5470-5191/work/16919123" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.221Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.971Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A unified pharmacokinetic approach to individualized drug dosing</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2125.2011.04089.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2125.2011.04089.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84857024882</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84857024882</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84857024882&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.933Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84869101627</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84869101627</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1200/JCO.2012.44.1626</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1200/jco.2012.44.1626</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919122" path="/0000-0002-5470-5191/work/16919122" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.218Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Clarifying the American Society of Clinical Oncology Practice Guideline for chemotherapy dosing for obese adults</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1200/JCO.2012.44.1626</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1200/jco.2012.44.1626</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84869101627</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84869101627</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84869101627&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical Oncology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.901Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jpainsymman.2011.04.013</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2011.04.013</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84857065302</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84857065302</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919121" path="/0000-0002-5470-5191/work/16919121" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.216Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.901Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Exploring hospice patients' views about participating in research</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jpainsymman.2011.04.013</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2011.04.013</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84857065302</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84857065302</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84857065302&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Pain and Symptom Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.863Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2036.2012.05084.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2036.2012.05084.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84859918881</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84859918881</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919120" path="/0000-0002-5470-5191/work/16919120" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.214Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.863Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High TPMT enzyme activity does not explain drug resistance due to preferential 6-methylmercaptopurine production in patients on thiopurine treatment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2036.2012.05084.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2036.2012.05084.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84859918881</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84859918881</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84859918881&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Alimentary Pharmacology and Therapeutics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.813Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84867359146</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84867359146</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2125.2012.04259.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04259.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919119" path="/0000-0002-5470-5191/work/16919119" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.212Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.813Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of adult age on the total and free clearance and protein binding of (R)- and (S)-warfarin</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2125.2012.04259.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04259.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84867359146</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84867359146</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84867359146&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.774Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84859958488</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84859958488</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919118" path="/0000-0002-5470-5191/work/16919118" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.211Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.774Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Is late-night salivary cortisol a better screening test for possible cortisol excess than standard screening tests in obese patients with Type 2 diabetes?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84859958488</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84859958488</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84859958488&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>New Zealand Medical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.735Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2036.2012.05171.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2036.2012.05171.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84862556478</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84862556478</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919117" path="/0000-0002-5470-5191/work/16919117" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.209Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.735Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Letter: TPMT - Not all that glitters is gold; Authors' reply</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2036.2012.05171.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2036.2012.05171.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84862556478</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84862556478</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84862556478&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Alimentary Pharmacology and Therapeutics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.698Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84867357013</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84867357013</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2125.2012.04266.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04266.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919116" path="/0000-0002-5470-5191/work/16919116" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.207Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.698Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Perspective on dabigatran etexilate dosing: Why not follow standard pharmacological principles?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2125.2012.04266.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2125.2012.04266.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84867357013</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84867357013</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84867357013&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:10.659Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84857037005</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84857037005</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jpainsymman.2011.04.022</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2011.04.022</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919115" path="/0000-0002-5470-5191/work/16919115" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.205Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:10.659Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The pharmacokinetics and pharmacogenetics of the antiemetic cyclizine in palliative care patients</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jpainsymman.2011.04.022</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jpainsymman.2011.04.022</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84857037005</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84857037005</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84857037005&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Pain and Symptom Management</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.086Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80855124330</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80855124330</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2125.2011.04036.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2125.2011.04036.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919126" path="/0000-0002-5470-5191/work/16919126" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.227Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.086Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Adult age and ex vivo protein binding of lorazepam, oxazepam and temazepam in healthy subjects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2125.2011.04036.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2125.2011.04036.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80855124330</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80855124330</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80855124330&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Clinical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.055Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-80255134496</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-80255134496</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00216-011-5303-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00216-011-5303-x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919125" path="/0000-0002-5470-5191/work/16919125" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.225Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.055Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantification of total and free concentrations of R- and S-warfarin in human plasma by ultrafiltration and LC-MS/MS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00216-011-5303-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00216-011-5303-x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-80255134496</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-80255134496</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-80255134496&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Analytical and Bioanalytical Chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.006Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79955381468</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79955381468</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4155/bio.11.46</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4155/bio.11.46</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919124" path="/0000-0002-5470-5191/work/16919124" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.223Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.006Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantification of total and unbound concentrations of lorazepam, oxazepam and temazepam in human plasma by ultrafiltration and LC-MS/MS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4155/bio.11.46</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4155/bio.11.46</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79955381468</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79955381468</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79955381468&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bioanalysis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.153Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1445-5994.2008.01828.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1445-5994.2008.01828.x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-73649126924</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-73649126924</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919128" path="/0000-0002-5470-5191/work/16919128" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.231Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.153Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Audit of anticoagulant thromboprophylaxis in hospitalized oncology patients</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1445-5994.2008.01828.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1445-5994.2008.01828.x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-73649126924</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-73649126924</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-73649126924&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Internal Medicine Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.121Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-59649119232</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-59649119232</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919127" path="/0000-0002-5470-5191/work/16919127" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.229Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.121Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Insights into future directions for diabetes management and prevention</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-59649119232</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-59649119232</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-59649119232&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>New Zealand Medical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T03:08:11.193Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-33746346193</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-33746346193</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="16919129" path="/0000-0002-5470-5191/work/16919129" visibility="public" display-index="0">
+                    <common:created-date>2015-06-15T02:36:37.233Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T03:08:11.193Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The role of CT pulmonary angiography in patients with suspected pulmonary embolism admitted to general medicine</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-33746346193</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-33746346193</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-33746346193&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>New Zealand Medical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

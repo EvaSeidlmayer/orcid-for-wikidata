@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-3364-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-3364-8191</common:uri>
+        <common:path>0000-0002-3364-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-08-24T03:44:45.013Z</history:submission-date>
+        <common:last-modified-date>2019-10-04T00:04:05.697Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>false</history:verified-email>
+        <history:verified-primary-email>false</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-3364-8191/person">
+        <person:name visibility="public" path="0000-0002-3364-8191">
+            <common:created-date>2016-04-15T22:16:24.792Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:16:24.792Z</common:last-modified-date>
+            <personal-details:given-names>Xiuting</personal-details:given-names>
+            <personal-details:family-name>Li</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-3364-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-3364-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-3364-8191/email"/>
+        <address:addresses path="/0000-0002-3364-8191/address"/>
+        <keyword:keywords path="/0000-0002-3364-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-3364-8191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-3364-8191/activities">
+        <common:last-modified-date>2019-10-04T00:04:05.718Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-3364-8191/distinctions"/>
+        <activities:educations path="/0000-0002-3364-8191/educations"/>
+        <activities:employments path="/0000-0002-3364-8191/employments"/>
+        <activities:fundings path="/0000-0002-3364-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-3364-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-3364-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-3364-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-3364-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-3364-8191/research-resources"/>
+        <activities:services path="/0000-0002-3364-8191/services"/>
+        <activities:works path="/0000-0002-3364-8191/works">
+            <common:last-modified-date>2019-10-04T00:04:05.718Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-10-04T00:04:05.718Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24193528</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24193528</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24193528</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62350105" path="/0000-0002-3364-8191/work/62350105" visibility="public" display-index="0">
+                    <common:created-date>2019-09-30T11:48:02.562Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T11:48:02.562Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Insight into the Modification of Phosphatidylcholine with n-3 Polyunsaturated Fatty Acids-Rich Ethyl Esters by Immobilized MAS1 Lipase</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24193528</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24193528</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24193528</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3390/molecules24193528</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>29</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="62578065" path="/0000-0002-3364-8191/work/62578065" visibility="public" display-index="0">
+                    <common:created-date>2019-10-04T00:04:05.718Z</common:created-date>
+                    <common:last-modified-date>2019-10-04T00:04:05.718Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Insight into the Modification of Phosphatidylcholine with n-3 Polyunsaturated Fatty Acids-Rich Ethyl Esters by Immobilized MAS1 Lipase</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24193528</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24193528</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24193528</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1420-3049/24/19/3528</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-27T12:55:35.062Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24101844</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24101844</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24101844</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57408934" path="/0000-0002-3364-8191/work/57408934" visibility="public" display-index="0">
+                    <common:created-date>2019-05-14T15:15:33.387Z</common:created-date>
+                    <common:last-modified-date>2019-06-27T12:55:35.062Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bioassay-Guided Isolation of Triterpenoids as α-Glucosidase Inhibitors from Cirsium setosum</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24101844</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24101844</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24101844</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3390/molecules24101844</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="57560906" path="/0000-0002-3364-8191/work/57560906" visibility="public" display-index="0">
+                    <common:created-date>2019-05-19T00:01:38.479Z</common:created-date>
+                    <common:last-modified-date>2019-05-19T00:01:38.479Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bioassay-Guided Isolation of Triterpenoids as &lt;i&gt;α&lt;/i&gt;-Glucosidase Inhibitors from &lt;i&gt;Cirsium setosum&lt;/i&gt;</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24101844</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24101844</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24101844</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1420-3049/24/10/1844</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:13:07.345Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24091701</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24091701</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24091701</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56981061" path="/0000-0002-3364-8191/work/56981061" visibility="public" display-index="0">
+                    <common:created-date>2019-05-02T07:41:19.515Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:13:07.345Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sesquiterpenoids and Their Anti-Inflammatory Activity: Evaluation of Ainsliaea yunnanensis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24091701</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24091701</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24091701</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3390/molecules24091701</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="57101836" path="/0000-0002-3364-8191/work/57101836" visibility="public" display-index="0">
+                    <common:created-date>2019-05-06T02:01:26.348Z</common:created-date>
+                    <common:last-modified-date>2019-05-06T02:01:26.348Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sesquiterpenoids and Their Anti-Inflammatory Activity: Evaluation of &lt;i&gt;Ainsliaea yunnanensis&lt;/i&gt;</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24091701</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24091701</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24091701</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1420-3049/24/9/1701</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-17T02:03:02.781Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/ijms20030780</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/ijms20030780</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/ijms20030780</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54001156" path="/0000-0002-3364-8191/work/54001156" visibility="public" display-index="0">
+                    <common:created-date>2019-02-13T08:40:21.898Z</common:created-date>
+                    <common:last-modified-date>2019-02-13T08:40:21.898Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Thermostable Monoacylglycerol Lipase from Marine Geobacillus sp. 12AMOR1: Biochemical Characterization and Mutagenesis Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/ijms20030780</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/ijms20030780</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/ijms20030780</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3390/ijms20030780</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>12</common:day>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Molecular Sciences</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="54171725" path="/0000-0002-3364-8191/work/54171725" visibility="public" display-index="0">
+                    <common:created-date>2019-02-17T02:03:02.781Z</common:created-date>
+                    <common:last-modified-date>2019-02-17T02:03:02.781Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Thermostable Monoacylglycerol Lipase from Marine &lt;i&gt;Geobacillus&lt;/i&gt; sp. 12AMOR1: Biochemical Characterization and Mutagenesis Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/ijms20030780</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/ijms20030780</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/ijms20030780</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.mdpi.com/1422-0067/20/3/780</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Molecular Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-16T02:01:13.909Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24030619</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24030619</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24030619</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54148572" path="/0000-0002-3364-8191/work/54148572" visibility="public" display-index="0">
+                    <common:created-date>2019-02-16T02:01:13.909Z</common:created-date>
+                    <common:last-modified-date>2019-02-16T02:01:13.909Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>HPLC Profile of Longan (cv. Shixia) Pericarp-Sourced Phenolics and Their Antioxidant and Cytotoxic Effects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24030619</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24030619</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24030619</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.mdpi.com/1420-3049/24/3/619</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-14T01:50:17.171Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1155/2019/1470543</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1155/2019/1470543</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1155/2019/1470543</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52587312" path="/0000-0002-3364-8191/work/52587312" visibility="public" display-index="0">
+                    <common:created-date>2019-01-14T01:50:17.171Z</common:created-date>
+                    <common:last-modified-date>2019-01-14T01:50:17.171Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Improving Ethyl Acetate Production in Baijiu Manufacture by Wickerhamomyces anomalus and Saccharomyces cerevisiae Mixed Culture Fermentations</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1155/2019/1470543</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1155/2019/1470543</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1155/2019/1470543</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1155/2019/1470543</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                        <common:day>13</common:day>
+                    </common:publication-date>
+                    <work:journal-title>BioMed Research International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-21T02:01:47.438Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24020306</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24020306</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24020306</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52904596" path="/0000-0002-3364-8191/work/52904596" visibility="public" display-index="0">
+                    <common:created-date>2019-01-21T02:01:47.438Z</common:created-date>
+                    <common:last-modified-date>2019-01-21T02:01:47.438Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lignans from the Twigs of &lt;i&gt;Litsea cubeba&lt;/i&gt; and Their Bioactivities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24020306</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24020306</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24020306</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.mdpi.com/1420-3049/24/2/306</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-23T04:00:02.796Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.20944/preprints201812.0256.v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.20944/preprints201812.0256.v1</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.20944/preprints201812.0256.v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52968713" path="/0000-0002-3364-8191/work/52968713" visibility="public" display-index="0">
+                    <common:created-date>2019-01-22T09:49:32.443Z</common:created-date>
+                    <common:last-modified-date>2019-01-22T09:49:32.443Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lignans from the Twigs of &lt;em&gt;Litsea cubeba&lt;/em&gt; and Their Bioactivities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.20944/preprints201812.0256.v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.20944/preprints201812.0256.v1</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.20944/preprints201812.0256.v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.20944/preprints201812.0256.v1</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>21</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="53020080" path="/0000-0002-3364-8191/work/53020080" visibility="public" display-index="0">
+                    <common:created-date>2019-01-23T04:00:02.796Z</common:created-date>
+                    <common:last-modified-date>2019-01-23T04:00:02.796Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lignans from the Twigs of &lt;em&gt;Litsea cubeba&lt;/em&gt; and Their Bioactivities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.20944/preprints201812.0256.v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.20944/preprints201812.0256.v1</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.20944/preprints201812.0256.v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>working-paper</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

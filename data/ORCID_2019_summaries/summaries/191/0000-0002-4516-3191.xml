@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4516-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+        <common:path>0000-0002-4516-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>it</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-08-10T09:31:19.205Z</history:submission-date>
+        <common:last-modified-date>2018-07-30T15:17:37.948Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4516-3191/person">
+        <common:last-modified-date>2018-07-30T15:17:18.583Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-4516-3191">
+            <common:created-date>2016-04-15T22:27:58.995Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:27:58.995Z</common:last-modified-date>
+            <personal-details:given-names>Simone</personal-details:given-names>
+            <personal-details:family-name>Marcocci</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4516-3191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4516-3191/researcher-urls"/>
+        <email:emails path="/0000-0002-4516-3191/email"/>
+        <address:addresses path="/0000-0002-4516-3191/address">
+            <common:last-modified-date>2017-02-09T12:14:41.089Z</common:last-modified-date>
+            <address:address put-code="628801" visibility="public" path="/0000-0002-4516-3191/address/628801" display-index="1">
+                <common:created-date>2017-02-09T12:14:41.089Z</common:created-date>
+                <common:last-modified-date>2017-02-09T12:14:41.089Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                        <common:path>0000-0002-4516-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Simone Marcocci</common:source-name>
+                </common:source>
+                <address:country>IT</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-4516-3191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4516-3191/external-identifiers">
+            <common:last-modified-date>2018-07-30T15:17:18.583Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="644920" visibility="public" path="/0000-0002-4516-3191/external-identifiers/644920" display-index="0">
+                <common:created-date>2017-02-09T12:13:32.699Z</common:created-date>
+                <common:last-modified-date>2017-02-09T12:13:32.699Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56317079600</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56317079600&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1096907" visibility="public" path="/0000-0002-4516-3191/external-identifiers/1096907" display-index="0">
+                <common:created-date>2018-07-30T15:17:18.582Z</common:created-date>
+                <common:last-modified-date>2018-07-30T15:17:18.583Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>O-6537-2018</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/O-6537-2018</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4516-3191/activities">
+        <common:last-modified-date>2018-04-04T21:29:21.294Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4516-3191/distinctions"/>
+        <activities:educations path="/0000-0002-4516-3191/educations">
+            <common:last-modified-date>2017-02-09T12:11:47.210Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-09T12:11:32.174Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1084480" display-index="0" path="/0000-0002-4516-3191/education/1084480" visibility="public">
+                    <common:created-date>2015-08-10T09:34:44.742Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:11:32.174Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <common:department-name>Astroparticle Physics</common:department-name>
+                    <common:role-title>PhD Student</common:role-title>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                        <common:day>19</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Gran Sasso Science Institute</common:name>
+                        <common:address>
+                            <common:city>L'Aquila</common:city>
+                            <common:region>Abruzzo</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-09T12:11:47.210Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1084478" display-index="0" path="/0000-0002-4516-3191/education/1084478" visibility="public">
+                    <common:created-date>2015-08-10T09:34:01.706Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:11:47.210Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <common:department-name>Dipartimento di Fisica</common:department-name>
+                    <common:role-title>Laurea Magistrale in Fisica</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Università degli Studi di Genova</common:name>
+                        <common:address>
+                            <common:city>Genova</common:city>
+                            <common:region>Liguria</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9302</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-08-10T09:33:14.414Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1084475" display-index="0" path="/0000-0002-4516-3191/education/1084475" visibility="public">
+                    <common:created-date>2015-08-10T09:33:14.414Z</common:created-date>
+                    <common:last-modified-date>2015-08-10T09:33:14.414Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <common:department-name>Dipartimento di Fisica</common:department-name>
+                    <common:role-title>Laurea in Fisica</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>07</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universita' degli Studi di Genova</common:name>
+                        <common:address>
+                            <common:city>Genova</common:city>
+                            <common:region>Ligura</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-4516-3191/employments">
+            <common:last-modified-date>2018-04-04T21:29:21.294Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-04-04T21:29:21.294Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5636562" display-index="0" path="/0000-0002-4516-3191/employment/5636562" visibility="public">
+                    <common:created-date>2018-04-04T21:27:28.516Z</common:created-date>
+                    <common:last-modified-date>2018-04-04T21:29:21.294Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <common:department-name>Neutrino Division</common:department-name>
+                    <common:role-title>Research Associate</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Fermi National Accelerator Laboratory</common:name>
+                        <common:address>
+                            <common:city>Batavia</common:city>
+                            <common:region>IL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>53744</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4516-3191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4516-3191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4516-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4516-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4516-3191/qualifications"/>
+        <activities:research-resources path="/0000-0002-4516-3191/research-resources"/>
+        <activities:services path="/0000-0002-4516-3191/services"/>
+        <activities:works path="/0000-0002-4516-3191/works">
+            <common:last-modified-date>2017-02-09T12:13:42.983Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.976Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84994680412</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84994680412</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.astropartphys.2016.10.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.astropartphys.2016.10.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250887" path="/0000-0002-4516-3191/work/30250887" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.976Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.976Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Borexino's search for low-energy neutrino and antineutrino signals correlated with gamma-ray bursts</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.astropartphys.2016.10.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.astropartphys.2016.10.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84994680412</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84994680412</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84994680412&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Astroparticle Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.939Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/0034-4885/79/12/124201</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/0034-4885/79/12/124201</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84994465411</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84994465411</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250866" path="/0000-0002-4516-3191/work/30250866" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.939Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.939Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A facility to search for hidden particles at the CERN SPS: The SHiP physics case</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/0034-4885/79/12/124201</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/0034-4885/79/12/124201</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84994465411</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84994465411</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84994465411&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Reports on Progress in Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.975Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966440643</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966440643</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012040</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012040</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250886" path="/0000-0002-4516-3191/work/30250886" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.975Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.975Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CNO and pep solar neutrino measurements and perspectives in Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012040</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012040</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966440643</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966440643</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966440643&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.980Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84978719037</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84978719037</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1051/epjconf/201612101001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1051/epjconf/201612101001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250889" path="/0000-0002-4516-3191/work/30250889" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.980Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.980Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>First real-time detection of solar pp neutrinos by Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1051/epjconf/201612101001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1051/epjconf/201612101001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84978719037</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84978719037</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84978719037&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>EPJ Web of Conferences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.936Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012029</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012029</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966320711</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966320711</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250865" path="/0000-0002-4516-3191/work/30250865" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.936Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.936Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Geo-neutrino results with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012029</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012029</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966320711</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966320711</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966320711&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.978Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981313257</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981313257</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/718/6/062025</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250888" path="/0000-0002-4516-3191/work/30250888" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.978Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.978Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High significance measurement of the terrestrial neutrino flux with the Borexino detector</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/718/6/062025</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981313257</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981313257</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981313257&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.935Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966372585</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966372585</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250864" path="/0000-0002-4516-3191/work/30250864" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.935Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.935Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Measurement of Solar pp-neutrino flux with Borexino: Results and implications</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966372585</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966372585</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966372585&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.973Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84969776647</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84969776647</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1155/2016/2162659</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1155/2016/2162659</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250885" path="/0000-0002-4516-3191/work/30250885" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.973Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.973Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neutrinoless double beta decay: 2015 review</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1155/2016/2162659</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1155/2016/2162659</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84969776647</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84969776647</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84969776647&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advances in High Energy Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.971Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966340094</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966340094</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012036</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012036</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250884" path="/0000-0002-4516-3191/work/30250884" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.971Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.971Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Overview and accomplishments of the Borexino experiment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012036</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012036</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966340094</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966340094</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966340094&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.959Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84997769343</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84997769343</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1051/epjconf/201612602008</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1051/epjconf/201612602008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250877" path="/0000-0002-4516-3191/work/30250877" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.959Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.959Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Recent Borexino results and prospects for the near future</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1051/epjconf/201612602008</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1051/epjconf/201612602008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84997769343</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84997769343</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84997769343&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>EPJ Web of Conferences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.949Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/718/6/062059</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062059</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981357136</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981357136</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250872" path="/0000-0002-4516-3191/work/30250872" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.949Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.949Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Recent results from Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/718/6/062059</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062059</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981357136</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981357136</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981357136&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.942Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nuclphysbps.2015.09.282</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.09.282</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84973151661</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84973151661</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250868" path="/0000-0002-4516-3191/work/30250868" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.942Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.942Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Recent results from Borexino and the first real time measure of solar pp neutrinos</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nuclphysbps.2015.09.282</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.09.282</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84973151661</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84973151661</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84973151661&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuclear and Particle Physics Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.952Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/718/6/062012</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981350716</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981350716</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250874" path="/0000-0002-4516-3191/work/30250874" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.952Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.952Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Recent results from cosmology and neutrinoless double beta decay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/718/6/062012</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981350716</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981350716</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981350716&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.982Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/718/6/062066</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062066</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981343274</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981343274</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250890" path="/0000-0002-4516-3191/work/30250890" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.982Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.982Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SOX: Search for short baseline neutrino oscillations with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/718/6/062066</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/718/6/062066</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981343274</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981343274</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981343274&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.941Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nuclphysbps.2015.09.283</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.09.283</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84973177489</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84973177489</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250867" path="/0000-0002-4516-3191/work/30250867" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.941Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.941Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SOX: Short Distance Neutrino Oscillations with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nuclphysbps.2015.09.283</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.09.283</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84973177489</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84973177489</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84973177489&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuclear and Particle Physics Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.961Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84979993654</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84979993654</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1393/ncc/i2016-16236-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1393/ncc/i2016-16236-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250878" path="/0000-0002-4516-3191/work/30250878" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.961Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.961Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Search for sterile neutrinos with the SOX experiment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1393/ncc/i2016-16236-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1393/ncc/i2016-16236-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84979993654</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84979993654</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84979993654&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuovo Cimento della Societa Italiana di Fisica C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.983Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1051/epjconf/201612101002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1051/epjconf/201612101002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84978676864</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84978676864</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250891" path="/0000-0002-4516-3191/work/30250891" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.983Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.983Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Short distance neutrino oscillations with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1051/epjconf/201612101002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1051/epjconf/201612101002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84978676864</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84978676864</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84978676864&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>EPJ Web of Conferences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.945Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012025</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966405085</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966405085</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250869" path="/0000-0002-4516-3191/work/30250869" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.945Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.945Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Test of the electric charge conservation law with Borexino detector</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012025</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966405085</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966405085</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966405085&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.965Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966359447</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966359447</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012032</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012032</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250880" path="/0000-0002-4516-3191/work/30250880" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.965Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.965Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The &lt;sup&gt;144&lt;/sup&gt;Ce source for SOX</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012032</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012032</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966359447</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966359447</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966359447&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.966Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012035</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012035</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966327431</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966327431</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250881" path="/0000-0002-4516-3191/work/30250881" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.966Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.966Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The high precision measurement of the &lt;sup&gt;144&lt;/sup&gt;Ce activity in the SOX experiment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012035</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012035</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966327431</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966327431</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966327431&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.970Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/675/1/012012</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84966320592</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84966320592</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250883" path="/0000-0002-4516-3191/work/30250883" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.970Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.970Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Understanding the detector behavior through Montecarlo and calibration studies in view of the SOX measurement</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/675/1/012012</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/675/1/012012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84966320592</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84966320592</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84966320592&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physics: Conference Series</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>1504.04855</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1504.04855</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292413" path="/0000-0002-4516-3191/work/21292413" visibility="public" display-index="2">
+                    <common:created-date>2016-01-09T09:57:55.741Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A facility to Search for Hidden Particles at the CERN SPS: the SHiP physics case</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>1504.04855</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1504.04855</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:41.062Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84949666309</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84949666309</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>1509.01223</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1509.01223</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/PhysRevLett.115.231802</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physrevlett.115.231802</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292416" path="/0000-0002-4516-3191/work/21292416" visibility="public" display-index="5">
+                    <common:created-date>2016-01-09T10:00:34.504Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A test of electric charge conservation with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/PhysRevLett.115.231802</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevlett.115.231802</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>1509.01223</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1509.01223</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Phys. Rev. Lett.</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="30250856" path="/0000-0002-4516-3191/work/30250856" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:41.062Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:41.062Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Test of Electric Charge Conservation with Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/PhysRevLett.115.231802</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevlett.115.231802</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84949666309</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84949666309</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84949666309&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physical Review Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.928Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84988660564</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84988660564</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250860" path="/0000-0002-4516-3191/work/30250860" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.928Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.928Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Borexino: From the sun to the earth</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84988660564</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84988660564</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84988660564&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.968Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1063779615020148</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1063779615020148</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84924809148</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84924809148</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250882" path="/0000-0002-4516-3191/work/30250882" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.968Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.968Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Geo-neutrinos and Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1063779615020148</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1063779615020148</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84924809148</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84924809148</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84924809148&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physics of Particles and Nuclei</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.963Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84947573644</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84947573644</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nuclphysbps.2015.06.023</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.06.023</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250879" path="/0000-0002-4516-3191/work/30250879" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.963Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.963Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Low-energy (anti)neutrino physics with Borexino: Neutrinos from the primary proton-proton fusion process in the Sun</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nuclphysbps.2015.06.023</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nuclphysbps.2015.06.023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84947573644</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84947573644</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84947573644&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuclear and Particle Physics Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.951Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1063/1.4915567</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1063/1.4915567</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85006192535</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85006192535</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250873" path="/0000-0002-4516-3191/work/30250873" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.951Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.951Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neutrino measurements from the Sun and Earth: Results from Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1063/1.4915567</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1063/1.4915567</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85006192535</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85006192535</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85006192535&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>AIP Conference Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.956Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1393/ncc/i2015-15120-4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1393/ncc/i2015-15120-4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84960366686</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84960366686</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250875" path="/0000-0002-4516-3191/work/30250875" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.956Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.956Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New results of the Borexino experiment: Pp solar neutrino detection</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1393/ncc/i2015-15120-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1393/ncc/i2015-15120-4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84960366686</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84960366686</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84960366686&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuovo Cimento della Societa Italiana di Fisica C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1393/ncc/i2015-15051-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1393/ncc/i2015-15051-0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292415" path="/0000-0002-4516-3191/work/21292415" visibility="public" display-index="4">
+                    <common:created-date>2016-01-09T09:59:41.821Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>R&amp;D project for neutrinoless double beta decay in Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1393/ncc/i2015-15051-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1393/ncc/i2015-15051-0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuovo Cim.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.930Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84988664664</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84988664664</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250861" path="/0000-0002-4516-3191/work/30250861" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.930Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.930Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Radioactive source experiments in Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84988664664</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84988664664</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84988664664&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.933Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84988584657</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84988584657</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250863" path="/0000-0002-4516-3191/work/30250863" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.933Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SOX: Neutrino oscillometry in Borexino</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84988584657</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84988584657</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84988584657&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.948Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84995569519</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84995569519</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.phpro.2014.12.115</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.phpro.2014.12.115</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250871" path="/0000-0002-4516-3191/work/30250871" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.948Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.948Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Short Distance Neutrino Oscillations with BoreXino: SOX</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.phpro.2014.12.115</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.phpro.2014.12.115</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84995569519</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84995569519</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84995569519&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physics Procedia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.958Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84924810611</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84924810611</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1063779615020185</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1063779615020185</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250876" path="/0000-0002-4516-3191/work/30250876" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.958Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.958Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Solar neutrino with Borexino: Results and perspectives</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1063779615020185</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1063779615020185</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84924810611</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84924810611</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84924810611&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physics of Particles and Nuclei</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:41.064Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/PhysRevD.92.031101</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physrevd.92.031101</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>1506.04610</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1506.04610</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84940522039</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84940522039</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292414" path="/0000-0002-4516-3191/work/21292414" visibility="public" display-index="3">
+                    <common:created-date>2016-01-09T09:58:42.951Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectroscopy of geoneutrinos from 2056 days of Borexino data</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/PhysRevD.92.031101</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevd.92.031101</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>1506.04610</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1506.04610</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Phys. Rev.</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="30250857" path="/0000-0002-4516-3191/work/30250857" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:41.064Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:41.064Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectroscopy of geoneutrinos from 2056 days of Borexino data</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/PhysRevD.92.031101</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevd.92.031101</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84940522039</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84940522039</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84940522039&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physical Review D - Particles, Fields, Gravitation and Cosmology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.932Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84988564484</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84988564484</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30250862" path="/0000-0002-4516-3191/work/30250862" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.932Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.932Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Status of the search for neutrinoless double beta decay, circa 2015</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84988564484</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84988564484</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84988564484&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:41.065Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>1505.02722</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1505.02722</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84953721800</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84953721800</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1475-7516/2015/12/023</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1475-7516/2015/12/023</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292536" path="/0000-0002-4516-3191/work/21292536" visibility="public" display-index="7">
+                    <common:created-date>2016-01-09T10:12:41.186Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The contribution of light Majorana neutrinos to neutrinoless double beta decay and cosmology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1475-7516/2015/12/023</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1475-7516/2015/12/023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>1505.02722</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1505.02722</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>JCAP</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="30250858" path="/0000-0002-4516-3191/work/30250858" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:41.065Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:41.065Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The contribution of light Majorana neutrinos to neutrinoless double beta decay and cosmology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1475-7516/2015/12/023</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1475-7516/2015/12/023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84953721800</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84953721800</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84953721800&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Cosmology and Astroparticle Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1393/ncc/i2015-15033-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1393/ncc/i2015-15033-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292538" path="/0000-0002-4516-3191/work/21292538" visibility="public" display-index="8">
+                    <common:created-date>2016-01-09T10:14:28.089Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Updated bounds for Neutrinoless Double Beta Decay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1393/ncc/i2015-15033-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1393/ncc/i2015-15033-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nuovo Cim.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:42.946Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/physrevd.90.033005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physrevd.90.033005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84905728149</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84905728149</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21279008" path="/0000-0002-4516-3191/work/21279008" visibility="public" display-index="0">
+                    <common:created-date>2016-01-08T15:30:04.492Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New expectations and uncertainties on neutrinoless double beta decay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/physrevd.90.033005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevd.90.033005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                        <common:day>06</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Phys. Rev. D</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="30250870" path="/0000-0002-4516-3191/work/30250870" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:42.946Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:42.946Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>New expectations and uncertainties on neutrinoless double beta decay</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/PhysRevD.90.033005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physrevd.90.033005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84905728149</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84905728149</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84905728149&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Physical Review D - Particles, Fields, Gravitation and Cosmology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-09T12:13:41.066Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84907396570</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84907396570</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/nature13702</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/nature13702</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21292404" path="/0000-0002-4516-3191/work/21292404" visibility="public" display-index="1">
+                    <common:created-date>2016-01-09T09:54:39.478Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:32.773Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4516-3191</common:uri>
+                            <common:path>0000-0002-4516-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Simone Marcocci</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neutrinos from the primary proton--proton fusion process in the Sun</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/nature13702</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/nature13702</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nature</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="30250859" path="/0000-0002-4516-3191/work/30250859" visibility="public" display-index="0">
+                    <common:created-date>2017-02-09T12:13:41.066Z</common:created-date>
+                    <common:last-modified-date>2017-02-09T12:13:41.066Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neutrinos from the primary proton-proton fusion process in the Sun</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/nature13702</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/nature13702</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84907396570</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84907396570</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84907396570&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nature</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

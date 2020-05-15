@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5067-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+        <common:path>0000-0001-5067-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2017-03-09T13:25:41.455Z</history:submission-date>
+        <common:last-modified-date>2019-08-15T07:21:25.088Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5067-4191/person">
+        <common:last-modified-date>2019-08-15T07:21:25.080Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-5067-4191">
+            <common:created-date>2017-03-09T13:25:41.455Z</common:created-date>
+            <common:last-modified-date>2017-03-09T13:47:05.328Z</common:last-modified-date>
+            <personal-details:given-names>Irina</personal-details:given-names>
+            <personal-details:family-name>Brass</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5067-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5067-4191/researcher-urls">
+            <common:last-modified-date>2019-08-15T07:21:25.080Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1802455" visibility="public" path="/0000-0001-5067-4191/researcher-urls/1802455" display-index="0">
+                <common:created-date>2019-08-15T07:21:25.080Z</common:created-date>
+                <common:last-modified-date>2019-08-15T07:21:25.080Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0001-6478-3604</common:uri>
+                        <common:path>0000-0001-6478-3604</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Elsevier - Mendeley</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Mendeley profile</researcher-url:url-name>
+                <researcher-url:url>https://www.mendeley.com/profiles/irina-brass3/</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0001-5067-4191/email"/>
+        <address:addresses path="/0000-0001-5067-4191/address"/>
+        <keyword:keywords path="/0000-0001-5067-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5067-4191/external-identifiers">
+            <common:last-modified-date>2019-08-15T07:11:11.073Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1447050" visibility="public" path="/0000-0001-5067-4191/external-identifiers/1447050" display-index="0">
+                <common:created-date>2019-08-15T07:11:11.072Z</common:created-date>
+                <common:last-modified-date>2019-08-15T07:11:11.073Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57202448447</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57202448447&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5067-4191/activities">
+        <common:last-modified-date>2019-08-15T07:11:21.135Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5067-4191/distinctions"/>
+        <activities:educations path="/0000-0001-5067-4191/educations">
+            <common:last-modified-date>2017-03-09T13:35:21.919Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:34:58.328Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3384146" display-index="0" path="/0000-0001-5067-4191/education/3384146" visibility="public">
+                    <common:created-date>2017-03-09T13:34:58.328Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:34:58.328Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:department-name>Government</common:department-name>
+                    <common:role-title>PhD in Government</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>London School of Economics and Political Science</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4905</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:35:21.919Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3384142" display-index="0" path="/0000-0001-5067-4191/education/3384142" visibility="public">
+                    <common:created-date>2017-03-09T13:33:52.572Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:35:21.919Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:department-name>European Institute</common:department-name>
+                    <common:role-title>MSc in Politics and Government in the EU</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>London School of Economics and Political Science</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4905</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:32:46.573Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3384136" display-index="0" path="/0000-0001-5067-4191/education/3384136" visibility="public">
+                    <common:created-date>2017-03-09T13:32:46.573Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:32:46.573Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:role-title>BA in International Relations</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Richmond The American International University in London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4909</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-5067-4191/employments">
+            <common:last-modified-date>2017-03-09T13:40:10.440Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:40:10.440Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3384170" display-index="0" path="/0000-0001-5067-4191/employment/3384170" visibility="public">
+                    <common:created-date>2017-03-09T13:40:10.440Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:40:10.440Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:department-name>Science, Technology, Engineering and Public Policy</common:department-name>
+                    <common:role-title>Research Associate, PETRAS IoT Research Hub</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University College London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4919</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:39:07.327Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3384165" display-index="0" path="/0000-0001-5067-4191/employment/3384165" visibility="public">
+                    <common:created-date>2017-03-09T13:39:07.327Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:39:07.327Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:role-title>Adjunct Assistant Professor in International Relations</common:role-title>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Richmond The American International University in London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4909</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:36:42.946Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3384152" display-index="0" path="/0000-0001-5067-4191/employment/3384152" visibility="public">
+                    <common:created-date>2017-03-09T13:36:42.946Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:36:42.946Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:department-name>LSE100</common:department-name>
+                    <common:role-title>Graduate Teaching Assistant</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>London School of Economics and Political Science</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4905</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-03-09T13:38:10.662Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3384161" display-index="0" path="/0000-0001-5067-4191/employment/3384161" visibility="public">
+                    <common:created-date>2017-03-09T13:38:10.662Z</common:created-date>
+                    <common:last-modified-date>2017-03-09T13:38:10.662Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <common:department-name>Science, Technology, Engineering and Public Policy</common:department-name>
+                    <common:role-title>Teaching Fellow in Regulation and Public Policy</common:role-title>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University College London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4919</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-5067-4191/fundings">
+            <common:last-modified-date>2017-07-10T12:15:32.909Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T12:15:32.909Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>EP/N02334X/1</common:external-id-value>
+                        <common:external-id-url>http://gtr.rcuk.ac.uk/project/FDC66B07-3877-4FE9-9959-944877E4AC59</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="324241" path="/0000-0001-5067-4191/funding/324241" visibility="public" display-index="0">
+                    <common:created-date>2017-07-10T12:15:32.909Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T12:15:32.909Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Cyber Security of the Internet of Things</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>EP/N02334X/1</common:external-id-value>
+                            <common:external-id-url>http://gtr.rcuk.ac.uk/project/FDC66B07-3877-4FE9-9959-944877E4AC59</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/501100000266/FDC66B07-3877-4FE9-9959-944877E4AC59/Cyber-Security-of-the-Internet-of-Things</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                        <common:day>29</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>28</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Engineering and Physical Sciences Research Council</common:name>
+                        <common:address>
+                            <common:city>Swindon</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000266</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0001-5067-4191/invited-positions"/>
+        <activities:memberships path="/0000-0001-5067-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5067-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5067-4191/qualifications"/>
+        <activities:research-resources path="/0000-0001-5067-4191/research-resources"/>
+        <activities:services path="/0000-0001-5067-4191/services"/>
+        <activities:works path="/0000-0001-5067-4191/works">
+            <common:last-modified-date>2019-08-15T07:11:21.135Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T07:11:21.135Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/1758-5899.12625</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/1758-5899.12625</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85057468304</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85057468304</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60553434" path="/0000-0001-5067-4191/work/60553434" visibility="public" display-index="0">
+                    <common:created-date>2019-08-15T07:11:21.135Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T07:11:21.135Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CSIRTs and Global Cybersecurity: How Technical Experts Support Science Diplomacy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/1758-5899.12625</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/1758-5899.12625</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85057468304</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85057468304</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85057468304&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Global Policy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T07:11:21.132Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85048384465</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85048384465</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60553433" path="/0000-0001-5067-4191/work/60553433" visibility="public" display-index="0">
+                    <common:created-date>2019-08-15T07:11:21.132Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T07:11:21.132Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Standardising a moving target: The development and evolution of IoT security standards</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85048384465</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85048384465</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85048384465&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IET Conference Publications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-15T17:14:00.395Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="34869859" path="/0000-0001-5067-4191/work/34869859" visibility="public" display-index="1">
+                    <common:created-date>2017-07-10T12:59:22.852Z</common:created-date>
+                    <common:last-modified-date>2019-01-15T17:14:00.395Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5067-4191</common:uri>
+                            <common:path>0000-0001-5067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Irina Brass</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Who Runs the Radio Commons? The Role of Strategic Associations in Governing Transnational Common Pool Resources</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>http://etheses.lse.ac.uk/3076/1/Iordachescu_Who_Runs_the_Radio_Commons.pdf</common:url>
+                    <work:type>dissertation-thesis</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>04</common:month>
+                        <common:day>30</common:day>
+                    </common:publication-date>
+                    <work:journal-title>LSE</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-10T12:45:25.625Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4104/pcrj.2013.00035</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4104/pcrj.2013.00035</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34869070" path="/0000-0001-5067-4191/work/34869070" visibility="public" display-index="0">
+                    <common:created-date>2017-07-10T12:45:25.625Z</common:created-date>
+                    <common:last-modified-date>2017-07-10T12:45:25.625Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effectiveness gap in COPD: a mixed methods international comparative study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4104/pcrj.2013.00035</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4104/pcrj.2013.00035</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>04</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Primary Care Respiratory Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

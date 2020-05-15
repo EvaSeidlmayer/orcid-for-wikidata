@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-8289-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+        <common:path>0000-0001-8289-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-01-03T10:19:13.863Z</history:submission-date>
+        <common:last-modified-date>2019-08-19T16:07:12.325Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-8289-5191/person">
+        <person:name visibility="public" path="0000-0001-8289-5191">
+            <common:created-date>2019-01-03T10:19:13.863Z</common:created-date>
+            <common:last-modified-date>2019-01-03T10:19:14.080Z</common:last-modified-date>
+            <personal-details:given-names>Asli</personal-details:given-names>
+            <personal-details:family-name>Kirectepe Aydin</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-8289-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-8289-5191/researcher-urls"/>
+        <email:emails path="/0000-0001-8289-5191/email"/>
+        <address:addresses path="/0000-0001-8289-5191/address"/>
+        <keyword:keywords path="/0000-0001-8289-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-8289-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-8289-5191/activities">
+        <common:last-modified-date>2019-08-15T18:22:23.839Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-8289-5191/distinctions"/>
+        <activities:educations path="/0000-0001-8289-5191/educations"/>
+        <activities:employments path="/0000-0001-8289-5191/employments"/>
+        <activities:fundings path="/0000-0001-8289-5191/fundings"/>
+        <activities:invited-positions path="/0000-0001-8289-5191/invited-positions"/>
+        <activities:memberships path="/0000-0001-8289-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-8289-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-8289-5191/qualifications">
+            <common:last-modified-date>2019-08-15T18:22:23.839Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-08-15T18:22:23.839Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="8463256" display-index="1" path="/0000-0001-8289-5191/qualification/8463256" visibility="public">
+                    <common:created-date>2019-08-15T18:22:23.839Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:22:23.839Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <common:department-name>Molecular Biology and Genetics</common:department-name>
+                    <common:organization>
+                        <common:name>Istanbul Technical University</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.10516.33</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-08-15T18:19:55.280Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="8463239" display-index="1" path="/0000-0001-8289-5191/qualification/8463239" visibility="public">
+                    <common:created-date>2019-08-15T18:19:55.280Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:19:55.280Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <common:department-name>Medical Biological Sciences</common:department-name>
+                    <common:organization>
+                        <common:name>Istanbul University</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.9601.e</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0001-8289-5191/research-resources"/>
+        <activities:services path="/0000-0001-8289-5191/services"/>
+        <activities:works path="/0000-0001-8289-5191/works">
+            <common:last-modified-date>2019-08-15T18:12:24.183Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:12:24.183Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00296-019-04252-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00296-019-04252-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s00296-019-04252-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570918" path="/0000-0001-8289-5191/work/60570918" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:12:24.183Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:12:24.183Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Diagnostic utility of a targeted next-generation sequencing gene panel in the clinical suspicion of systemic autoinflammatory diseases: a multi-center study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00296-019-04252-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00296-019-04252-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s00296-019-04252-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0172-8172</common:external-id-value>
+                            <common:external-id-normalized transient="true">0172-8172</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/0172-8172</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1437-160X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1437-160X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1437-160X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1007/s00296-019-04252-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Rheumatology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:11:33.158Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00296-017-3796-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00296-017-3796-0</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s00296-017-3796-0</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570910" path="/0000-0001-8289-5191/work/60570910" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:11:33.158Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:11:33.158Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Familial Mediterranean fever in childhood: a single-center experience</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00296-017-3796-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00296-017-3796-0</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s00296-017-3796-0</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0172-8172</common:external-id-value>
+                            <common:external-id-normalized transient="true">0172-8172</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/0172-8172</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1437-160X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1437-160X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1437-160X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1007/s00296-017-3796-0</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Rheumatology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:11:53.998Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5152/turkpediatriars.2017.4953</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5152/turkpediatriars.2017.4953</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5152/turkpediatriars.2017.4953</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570914" path="/0000-0001-8289-5191/work/60570914" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:11:53.998Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:11:53.998Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of genetics in pediatric rheumatology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5152/turkpediatriars.2017.4953</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5152/turkpediatriars.2017.4953</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5152/turkpediatriars.2017.4953</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1306-0015</common:external-id-value>
+                            <common:external-id-normalized transient="true">1306-0015</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1306-0015</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1308-6278</common:external-id-value>
+                            <common:external-id-normalized transient="true">1308-6278</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1308-6278</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.5152/turkpediatriars.2017.4953</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Türk Pediatri Arşivi</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:10:31.315Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1590/1678-4685-gmb-2016-0234</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1590/1678-4685-gmb-2016-0234</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1590/1678-4685-gmb-2016-0234</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570876" path="/0000-0001-8289-5191/work/60570876" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:10:31.315Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:10:31.315Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Alternatively spliced MEFV transcript lacking exon 2 and its protein isoform pyrin-2d implies an epigenetic regulation of the gene in inflammatory cell culture models</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1590/1678-4685-gmb-2016-0234</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1590/1678-4685-gmb-2016-0234</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1590/1678-4685-gmb-2016-0234</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1678-4685</common:external-id-value>
+                            <common:external-id-normalized transient="true">1678-4685</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1678-4685</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1415-4757</common:external-id-value>
+                            <common:external-id-normalized transient="true">1415-4757</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1415-4757</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1590/1678-4685-gmb-2016-0234</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                        <common:day>31</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Genetics and Molecular Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:09:52.798Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/1471-2350-12-105</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/1471-2350-12-105</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1186/1471-2350-12-105</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570816" path="/0000-0001-8289-5191/work/60570816" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:09:52.798Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:09:52.798Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of MEFV exon methylation and expression patterns in familial Mediterranean fever</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/1471-2350-12-105</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/1471-2350-12-105</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1186/1471-2350-12-105</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1471-2350</common:external-id-value>
+                            <common:external-id-normalized transient="true">1471-2350</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1471-2350</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1186/1471-2350-12-105</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>BMC Medical Genetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-15T18:09:20.430Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1744-313x.2011.01015.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1744-313x.2011.01015.x</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/j.1744-313x.2011.01015.x</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60570809" path="/0000-0001-8289-5191/work/60570809" visibility="public" display-index="1">
+                    <common:created-date>2019-08-15T18:09:20.430Z</common:created-date>
+                    <common:last-modified-date>2019-08-15T18:09:20.430Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8289-5191</common:uri>
+                            <common:path>0000-0001-8289-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Asli Kirectepe Aydin</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Increased expression of exon 2 deleted MEFV transcript in familial Mediterranean fever patients</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1744-313x.2011.01015.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1744-313x.2011.01015.x</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/j.1744-313x.2011.01015.x</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1744-3121</common:external-id-value>
+                            <common:external-id-normalized transient="true">1744-3121</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1744-3121</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1111/j.1744-313x.2011.01015.x</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Immunogenetics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

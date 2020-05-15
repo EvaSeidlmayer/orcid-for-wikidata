@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4552-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4552-6191</common:uri>
+        <common:path>0000-0002-4552-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2019-01-20T16:35:16.345Z</history:submission-date>
+        <common:last-modified-date>2019-09-09T16:02:30.779Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4552-6191/person">
+        <person:name visibility="public" path="0000-0002-4552-6191">
+            <common:created-date>2019-01-20T16:35:16.345Z</common:created-date>
+            <common:last-modified-date>2019-01-20T16:35:16.567Z</common:last-modified-date>
+            <personal-details:given-names>DUANGJAI</personal-details:given-names>
+            <personal-details:family-name>TUNGMUNNITHUM</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4552-6191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4552-6191/researcher-urls"/>
+        <email:emails path="/0000-0002-4552-6191/email"/>
+        <address:addresses path="/0000-0002-4552-6191/address"/>
+        <keyword:keywords path="/0000-0002-4552-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4552-6191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4552-6191/activities">
+        <common:last-modified-date>2019-07-29T02:00:06.836Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4552-6191/distinctions"/>
+        <activities:educations path="/0000-0002-4552-6191/educations"/>
+        <activities:employments path="/0000-0002-4552-6191/employments">
+            <common:last-modified-date>2019-01-20T16:41:50.754Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-01-20T16:41:50.754Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7150840" display-index="1" path="/0000-0002-4552-6191/employment/7150840" visibility="public">
+                    <common:created-date>2019-01-20T16:41:50.754Z</common:created-date>
+                    <common:last-modified-date>2019-01-20T16:41:50.754Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4552-6191</common:uri>
+                            <common:path>0000-0002-4552-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DUANGJAI TUNGMUNNITHUM</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Pharmaceutical Botany, Faculty of Pharmacy</common:department-name>
+                    <common:role-title>Lecturer </common:role-title>
+                    <common:organization>
+                        <common:name>Mahidol University Phayathai Campus</common:name>
+                        <common:address>
+                            <common:city>Bangkok</common:city>
+                            <common:country>TH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>68000</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4552-6191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4552-6191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4552-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4552-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4552-6191/qualifications"/>
+        <activities:research-resources path="/0000-0002-4552-6191/research-resources"/>
+        <activities:services path="/0000-0002-4552-6191/services"/>
+        <activities:works path="/0000-0002-4552-6191/works">
+            <common:last-modified-date>2019-07-29T02:00:06.836Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-04-16T02:01:23.596Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/ijms20071787</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/ijms20071787</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/ijms20071787</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56475622" path="/0000-0002-4552-6191/work/56475622" visibility="public" display-index="0">
+                    <common:created-date>2019-04-16T02:01:23.596Z</common:created-date>
+                    <common:last-modified-date>2019-04-16T02:01:23.596Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of Ultraviolet-C Radiation and Melatonin Stress on Biosynthesis of Antioxidant and Antidiabetic Metabolites Produced in In Vitro Callus Cultures of &lt;i&gt;Lepidium sativum&lt;/i&gt; L.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/ijms20071787</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/ijms20071787</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/ijms20071787</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1422-0067/20/7/1787</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Molecular Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-01T02:05:53.365Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/molecules24071207</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/molecules24071207</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/molecules24071207</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55914238" path="/0000-0002-4552-6191/work/55914238" visibility="public" display-index="0">
+                    <common:created-date>2019-04-01T02:05:53.365Z</common:created-date>
+                    <common:last-modified-date>2019-04-01T02:05:53.365Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interactive Effects of Light and Melatonin on Biosynthesis of Silymarin and Anti-Inflammatory Potential in Callus Cultures of &lt;i&gt;Silybum marianum&lt;/i&gt; (L.) Gaertn.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/molecules24071207</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/molecules24071207</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/molecules24071207</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/1420-3049/24/7/1207</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-04T02:05:37.729Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/plants8030050</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/plants8030050</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/plants8030050</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54833434" path="/0000-0002-4552-6191/work/54833434" visibility="public" display-index="0">
+                    <common:created-date>2019-03-04T02:05:37.729Z</common:created-date>
+                    <common:last-modified-date>2019-03-04T02:05:37.729Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Green Ultrasound Assisted Extraction of &lt;i&gt;trans&lt;/i&gt; Rosmarinic Acid from &lt;i&gt;Plectranthus scutellarioides&lt;/i&gt; (L.) R.Br. Leaves</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/plants8030050</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/plants8030050</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/plants8030050</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/2223-7747/8/3/50</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Plants</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-26T02:04:56.776Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/ijms20020452</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/ijms20020452</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/ijms20020452</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53183346" path="/0000-0002-4552-6191/work/53183346" visibility="public" display-index="0">
+                    <common:created-date>2019-01-26T02:04:56.776Z</common:created-date>
+                    <common:last-modified-date>2019-01-26T02:04:56.776Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>&lt;i&gt;Isodon rugosus&lt;/i&gt; (Wall. ex Benth.) Codd In Vitro Cultures: Establishment, Phytochemical Characterization and In Vitro Antioxidant and Anti-Aging Activities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/ijms20020452</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/ijms20020452</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/ijms20020452</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.mdpi.com/1422-0067/20/2/452</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Molecular Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-29T02:00:06.836Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.20944/preprints201907.0252.v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.20944/preprints201907.0252.v1</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.20944/preprints201907.0252.v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59965602" path="/0000-0002-4552-6191/work/59965602" visibility="public" display-index="0">
+                    <common:created-date>2019-07-29T02:00:06.836Z</common:created-date>
+                    <common:last-modified-date>2019-07-29T02:00:06.836Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Green Ultrasound-Assisted Extraction Optimization of the Natural Antioxidant and Anti-aging Flavonolignans from Milk Thistle &lt;em&gt;Silybum marianum&lt;/em&gt; (L.) Gaertn. Fruits for Cosmetic Applications</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.20944/preprints201907.0252.v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.20944/preprints201907.0252.v1</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.20944/preprints201907.0252.v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>working-paper</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-13T04:00:11.110Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.20944/preprints201903.0007.v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.20944/preprints201903.0007.v1</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.20944/preprints201903.0007.v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55204163" path="/0000-0002-4552-6191/work/55204163" visibility="public" display-index="0">
+                    <common:created-date>2019-03-13T04:00:11.110Z</common:created-date>
+                    <common:last-modified-date>2019-03-13T04:00:11.110Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interactive Effects of Light and Melatonin on Biosynthesis of Silymarin and Anti-inflammatory Potential in Callus Cultures of Silybum marianum L.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.20944/preprints201903.0007.v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.20944/preprints201903.0007.v1</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.20944/preprints201903.0007.v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>working-paper</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

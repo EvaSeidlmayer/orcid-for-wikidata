@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7539-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7539-6191</common:uri>
+        <common:path>0000-0001-7539-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>website</history:creation-method>
+        <history:submission-date>2013-10-15T07:52:22.964Z</history:submission-date>
+        <common:last-modified-date>2019-10-03T11:20:12.846Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7539-6191/person">
+        <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-7539-6191">
+            <common:created-date>2016-04-15T21:14:24.809Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:14:24.809Z</common:last-modified-date>
+            <personal-details:given-names>Maria</personal-details:given-names>
+            <personal-details:family-name>Knadel</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7539-6191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7539-6191/researcher-urls"/>
+        <email:emails path="/0000-0001-7539-6191/email"/>
+        <address:addresses path="/0000-0001-7539-6191/address"/>
+        <keyword:keywords path="/0000-0001-7539-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7539-6191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="381588" visibility="public" path="/0000-0001-7539-6191/external-identifiers/381588" display-index="0">
+                <common:created-date>2015-12-04T12:56:08.258Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>O-9886-2015</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/O-9886-2015</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7539-6191/activities">
+        <common:last-modified-date>2017-03-02T12:56:35.148Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7539-6191/distinctions"/>
+        <activities:educations path="/0000-0001-7539-6191/educations"/>
+        <activities:employments path="/0000-0001-7539-6191/employments"/>
+        <activities:fundings path="/0000-0001-7539-6191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7539-6191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7539-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7539-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7539-6191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7539-6191/research-resources"/>
+        <activities:services path="/0000-0001-7539-6191/services"/>
+        <activities:works path="/0000-0001-7539-6191/works">
+            <common:last-modified-date>2017-03-02T12:56:35.148Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-03-02T12:55:34.578Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="30798796" path="/0000-0001-7539-6191/work/30798796" visibility="public" display-index="1">
+                    <common:created-date>2017-03-02T12:55:34.578Z</common:created-date>
+                    <common:last-modified-date>2017-03-02T12:55:34.578Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7539-6191</common:uri>
+                            <common:path>0000-0001-7539-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Maria Knadel</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparing predictive ability of laser-induced breakdown spectroscopy to visible near infrared spectroscopy for soil property determination</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biosystems Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-03-02T12:56:35.148Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="30798803" path="/0000-0001-7539-6191/work/30798803" visibility="public" display-index="1">
+                    <common:created-date>2017-03-02T12:56:35.148Z</common:created-date>
+                    <common:last-modified-date>2017-03-02T12:56:35.148Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7539-6191</common:uri>
+                            <common:path>0000-0001-7539-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Maria Knadel</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Digital Mapping of Heavy Metals in Qatar Soils using Remote Sensing and Ancillary Data</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                        <common:day>09</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:01.994Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0142295</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0142295</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000364430700079</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000364430700079</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703682" path="/0000-0001-7539-6191/work/20703682" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:01.994Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:01.994Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modeling Soil Organic Carbon at Regional Scale by Combining Multi-Spectral Images with Laboratory Spectra</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0142295</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0142295</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000364430700079</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000364430700079</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000364430700079&amp;KeyUID=WOS:000364430700079</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PLoS One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:01.997Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000357241400015</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000357241400015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.compag.2015.03.013</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.compag.2015.03.013</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703683" path="/0000-0001-7539-6191/work/20703683" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:01.997Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:01.997Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Soil organic carbon and particle sizes mapping using vis-NIR, EC and temperature mobile sensor platform</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.compag.2015.03.013</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.compag.2015.03.013</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000357241400015</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000357241400015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000357241400015&amp;KeyUID=WOS:000357241400015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computers and Electronics in Agriculture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.000Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>CABI:20153190714</common:external-id-value>
+                        <common:external-id-normalized transient="true">cabi:20153190714</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703684" path="/0000-0001-7539-6191/work/20703684" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.000Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.000Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Soil spectroscopy: an alternative to wet chemistry for soil monitoring.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>CABI:20153190714</common:external-id-value>
+                            <common:external-id-normalized transient="true">cabi:20153190714</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=CABI&amp;KeyUT=CABI:20153190714&amp;KeyUID=CABI:20153190714</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advances in Agronomy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.003Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000345626600001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000345626600001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1097/SS.0000000000000074</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1097/ss.0000000000000074</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703685" path="/0000-0001-7539-6191/work/20703685" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.003Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.003Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantification of SOC and Clay Content Using Visible Near-Infrared Reflectance-Mid-Infrared Reflectance Spectroscopy With Jack-Knifing Partial Least Squares Regression</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1097/SS.0000000000000074</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1097/ss.0000000000000074</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000345626600001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000345626600001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000345626600001&amp;KeyUID=WOS:000345626600001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.007Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2136/sssaj2012.0401</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2136/sssaj2012.0401</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000334354400009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000334354400009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703686" path="/0000-0001-7539-6191/work/20703686" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.007Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.007Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Effects of Moisture Conditions-From Wet to Hyper dry-On Visible Near-Infrared Spectra of Danish Reference Soils</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2136/sssaj2012.0401</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2136/sssaj2012.0401</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000334354400009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000334354400009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000334354400009&amp;KeyUID=WOS:000334354400009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Science Society of America Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.010Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1255/jnirs.1035</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1255/jnirs.1035</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000317248500008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000317248500008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703687" path="/0000-0001-7539-6191/work/20703687" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.010Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.010Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparing predictive abilities of three visible-near infrared spectrophotometers for soil organic carbon and clay determination</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1255/jnirs.1035</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1255/jnirs.1035</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000317248500008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000317248500008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000317248500008&amp;KeyUID=WOS:000317248500008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Near Infrared Spectroscopy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.012Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1255/jnirs.1053</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1255/jnirs.1053</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000322416600006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000322416600006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703688" path="/0000-0001-7539-6191/work/20703688" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.012Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.012Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predicting soil organic carbon at field scale using a national soil spectral library</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1255/jnirs.1053</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1255/jnirs.1053</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000322416600006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000322416600006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000322416600006&amp;KeyUID=WOS:000322416600006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Near Infrared Spectroscopy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.015Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1097/SS.0000000000000002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1097/ss.0000000000000002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000330321600002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000330321600002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703689" path="/0000-0001-7539-6191/work/20703689" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.015Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.015Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Using Vis-NIR Spectroscopy for Monitoring Temporal Changes in Soil Organic Carbon</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1097/SS.0000000000000002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1097/ss.0000000000000002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000330321600002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000330321600002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000330321600002&amp;KeyUID=WOS:000330321600002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.018Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2136/sssaj2012.0093</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2136/sssaj2012.0093</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000322827900025</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000322827900025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703690" path="/0000-0001-7539-6191/work/20703690" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.018Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.018Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Visible-Near Infrared Spectra as a Proxy for Topsoil Texture and Glacial Boundaries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2136/sssaj2012.0093</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2136/sssaj2012.0093</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000322827900025</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000322827900025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000322827900025&amp;KeyUID=WOS:000322827900025</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Science Society of America Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.020Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000305452500010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000305452500010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1365-2699.2012.02689.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1365-2699.2012.02689.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703691" path="/0000-0001-7539-6191/work/20703691" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.020Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.020Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Environment versus dispersal in the assembly of western Amazonian palm communities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1365-2699.2012.02689.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1365-2699.2012.02689.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000305452500010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000305452500010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000305452500010&amp;KeyUID=WOS:000305452500010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Biogeography</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.023Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2136/sssaj2010.0452</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2136/sssaj2010.0452</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000294810500021</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000294810500021</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703692" path="/0000-0001-7539-6191/work/20703692" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.023Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.023Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multisensor On-The-Go Mapping of Soil Organic Carbon Content</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2136/sssaj2010.0452</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2136/sssaj2010.0452</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000294810500021</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000294810500021</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000294810500021&amp;KeyUID=WOS:000294810500021</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Soil Science Society of America Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-04T13:09:02.026Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>CABI:20113297804</common:external-id-value>
+                        <common:external-id-normalized transient="true">cabi:20113297804</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20703693" path="/0000-0001-7539-6191/work/20703693" visibility="public" display-index="0">
+                    <common:created-date>2015-12-04T13:09:02.026Z</common:created-date>
+                    <common:last-modified-date>2015-12-04T13:09:02.026Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sampling intensity required to adequately describe soil variations at three Danish ecosystems: heather, oak and spruce.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>CABI:20113297804</common:external-id-value>
+                            <common:external-id-normalized transient="true">cabi:20113297804</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=CABI&amp;KeyUT=CABI:20113297804&amp;KeyUID=CABI:20113297804</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the 19th World Congress of Soil Science: Soil solutions for a changing world, Brisbane, Australia, 1-6 August 2010. Symposium 1.4.1 Classification and information demand</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6509-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+        <common:path>0000-0002-6509-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>website</history:creation-method>
+        <history:submission-date>2013-11-01T08:41:42.860Z</history:submission-date>
+        <common:last-modified-date>2019-06-18T12:42:17.847Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6509-2191/person">
+        <person:name visibility="public" path="0000-0002-6509-2191">
+            <common:created-date>2016-04-15T22:51:51.098Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:51:51.098Z</common:last-modified-date>
+            <personal-details:given-names>Elke</personal-details:given-names>
+            <personal-details:family-name>Hebisch</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6509-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-6509-2191/researcher-urls"/>
+        <email:emails path="/0000-0002-6509-2191/email"/>
+        <address:addresses path="/0000-0002-6509-2191/address"/>
+        <keyword:keywords path="/0000-0002-6509-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6509-2191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6509-2191/activities">
+        <common:last-modified-date>2019-06-18T12:42:17.857Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6509-2191/distinctions"/>
+        <activities:educations path="/0000-0002-6509-2191/educations">
+            <common:last-modified-date>2016-08-10T13:20:19.905Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-10T13:20:19.905Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2114938" display-index="0" path="/0000-0002-6509-2191/education/2114938" visibility="public">
+                    <common:created-date>2016-08-10T12:43:38.566Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:20:19.905Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+                            <common:path>0000-0002-6509-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Elke Hebisch</common:source-name>
+                    </common:source>
+                    <common:department-name>NanoBiophotonics (Prof. S. W. Hell)</common:department-name>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>09</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Max-Planck-Institut für biophysikalische Chemie</common:name>
+                        <common:address>
+                            <common:city>Gottingen</common:city>
+                            <common:region>Niedersachsen</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>28282</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-10T12:44:47.655Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2114930" display-index="0" path="/0000-0002-6509-2191/education/2114930" visibility="public">
+                    <common:created-date>2016-08-10T12:42:48.467Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T12:44:47.655Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+                            <common:path>0000-0002-6509-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Elke Hebisch</common:source-name>
+                    </common:source>
+                    <common:role-title>MSc in Physics and Biophysics</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>03</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-10T12:44:34.433Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2114944" display-index="0" path="/0000-0002-6509-2191/education/2114944" visibility="public">
+                    <common:created-date>2016-08-10T12:44:34.433Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T12:44:34.433Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+                            <common:path>0000-0002-6509-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Elke Hebisch</common:source-name>
+                    </common:source>
+                    <common:role-title>BSc in Physics</common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2009</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-6509-2191/employments">
+            <common:last-modified-date>2016-08-10T13:18:38.290Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-10T13:18:38.290Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2115042" display-index="0" path="/0000-0002-6509-2191/employment/2115042" visibility="public">
+                    <common:created-date>2016-08-10T13:18:38.290Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:18:38.290Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+                            <common:path>0000-0002-6509-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Elke Hebisch</common:source-name>
+                    </common:source>
+                    <common:department-name>NanoBiophotonics (Prof. S. W. Hell)</common:department-name>
+                    <common:role-title>PhD Student</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>09</common:month>
+                        <common:day>17</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Max-Planck-Institut für biophysikalische Chemie</common:name>
+                        <common:address>
+                            <common:city>Gottingen</common:city>
+                            <common:region>Niedersachsen</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>28282</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-08-10T12:46:40.912Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2114947" display-index="0" path="/0000-0002-6509-2191/employment/2114947" visibility="public">
+                    <common:created-date>2016-08-10T12:46:40.912Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T12:46:40.912Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6509-2191</common:uri>
+                            <common:path>0000-0002-6509-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Elke Hebisch</common:source-name>
+                    </common:source>
+                    <common:department-name>Soft Condensed Matter (Prof J. O. Rädler)</common:department-name>
+                    <common:role-title>Scientific associate</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-6509-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6509-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6509-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6509-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-6509-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6509-2191/research-resources"/>
+        <activities:services path="/0000-0002-6509-2191/services"/>
+        <activities:works path="/0000-0002-6509-2191/works">
+            <common:last-modified-date>2019-06-18T12:42:17.857Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-06-18T12:42:17.857Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/chem.201601252</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/chem.201601252</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>27385071</common:external-id-value>
+                        <common:external-id-normalized transient="true">27385071</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25977855" path="/0000-0002-6509-2191/work/25977855" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:23:17.181Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:23:17.181Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>"Reduced" Coumarin Dyes with an O-Phosphorylated 2,2-Dimethyl-4-(hydroxymethyl)-1,2,3,4-tetrahydroquinoline Fragment: Synthesis, Spectra, and STED Microscopy.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>27385071</common:external-id-value>
+                            <common:external-id-normalized transient="true">27385071</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201601252</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201601252</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/27385071</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="26530965" path="/0000-0002-6509-2191/work/26530965" visibility="public" display-index="0">
+                    <common:created-date>2016-09-06T15:51:57.551Z</common:created-date>
+                    <common:last-modified-date>2019-06-18T12:42:17.857Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>“Reduced” Coumarin Dyes with an O -Phosphorylated 2,2-Dimethyl-4-(hydroxymethyl)-1,2,3,4-tetrahydroquinoline Fragment: Synthesis, Spectra, and STED Microscopy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201601252</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201601252</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/chem.201601252</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/chem.201601252</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chemistry - A European Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-10T13:39:11.283Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bpj.2015.11.1454</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bpj.2015.11.1454</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25978439" path="/0000-0002-6509-2191/work/25978439" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:39:11.283Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:39:11.283Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Axial Membrane Tubules in Atrial Cardiomyocytes Confine Ultrarapid Intracellular Calcium Signals through a New Super-Hub Mechanism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bpj.2015.11.1454</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bpj.2015.11.1454</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biophysical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-10T13:23:17.183Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26272226</common:external-id-value>
+                        <common:external-id-normalized transient="true">26272226</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/chem.201501394</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/chem.201501394</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25977856" path="/0000-0002-6509-2191/work/25977856" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:23:17.183Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:23:17.183Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Far-Red Emitting Fluorescent Dyes for Optical Nanoscopy: Fluorinated Silicon-Rhodamines (SiRF Dyes) and Phosphorylated Oxazines.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26272226</common:external-id-value>
+                            <common:external-id-normalized transient="true">26272226</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201501394</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201501394</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/26272226</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-10T13:23:17.184Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>25196166</common:external-id-value>
+                        <common:external-id-normalized transient="true">25196166</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/chem.201403316</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/chem.201403316</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25977857" path="/0000-0002-6509-2191/work/25977857" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:23:17.184Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:23:17.184Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Masked rhodamine dyes of five principal colors revealed by photolysis of a 2-diazo-1-indanone caging group: synthesis, photophysics, and light microscopy applications.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>25196166</common:external-id-value>
+                            <common:external-id-normalized transient="true">25196166</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/chem.201403316</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/chem.201403316</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/25196166</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-10T13:23:17.187Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>24806706</common:external-id-value>
+                        <common:external-id-normalized transient="true">24806706</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1098/rsif.2014.0172</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1098/rsif.2014.0172</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4032534</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4032534</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25977859" path="/0000-0002-6509-2191/work/25977859" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:23:17.187Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:23:17.187Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chemical warfare and survival strategies in bacterial range expansions.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>24806706</common:external-id-value>
+                            <common:external-id-normalized transient="true">24806706</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4032534</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4032534</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1098/rsif.2014.0172</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1098/rsif.2014.0172</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/24806706</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-10T13:23:17.186Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>24155882</common:external-id-value>
+                        <common:external-id-normalized transient="true">24155882</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0075991</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0075991</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC3796512</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC3796512</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25977858" path="/0000-0002-6509-2191/work/25977858" visibility="public" display-index="0">
+                    <common:created-date>2016-08-10T13:23:17.186Z</common:created-date>
+                    <common:last-modified-date>2016-08-10T13:23:17.186Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High variation of fluorescence protein maturation times in closely related Escherichia coli strains.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>24155882</common:external-id-value>
+                            <common:external-id-normalized transient="true">24155882</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC3796512</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC3796512</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0075991</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0075991</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/24155882</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

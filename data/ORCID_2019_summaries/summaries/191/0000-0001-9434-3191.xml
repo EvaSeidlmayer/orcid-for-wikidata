@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-9434-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-9434-3191</common:uri>
+        <common:path>0000-0001-9434-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-09-14T09:23:19.820Z</history:submission-date>
+        <common:last-modified-date>2019-08-15T15:33:18.367Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>false</history:verified-email>
+        <history:verified-primary-email>false</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-9434-3191/person">
+        <person:name visibility="public" path="0000-0001-9434-3191">
+            <common:created-date>2016-04-15T21:35:20.888Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:35:20.888Z</common:last-modified-date>
+            <personal-details:given-names>Juergen</personal-details:given-names>
+            <personal-details:family-name>Evers</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-9434-3191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-9434-3191/researcher-urls"/>
+        <email:emails path="/0000-0001-9434-3191/email"/>
+        <address:addresses path="/0000-0001-9434-3191/address"/>
+        <keyword:keywords path="/0000-0001-9434-3191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-9434-3191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-9434-3191/activities">
+        <common:last-modified-date>2016-12-01T20:25:28.178Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-9434-3191/distinctions"/>
+        <activities:educations path="/0000-0001-9434-3191/educations">
+            <common:last-modified-date>2016-12-01T20:23:56.463Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-12-01T20:23:56.463Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2699399" display-index="0" path="/0000-0001-9434-3191/education/2699399" visibility="public">
+                    <common:created-date>2016-12-01T20:23:56.463Z</common:created-date>
+                    <common:last-modified-date>2016-12-01T20:23:56.463Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9434-3191</common:uri>
+                            <common:path>0000-0001-9434-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Juergen Evers</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Chemistry</common:department-name>
+                    <common:role-title>Professor Doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>1974</common:year>
+                        <common:month>08</common:month>
+                        <common:day>18</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Ludwig-Maximilians-Universitat Munchen</common:name>
+                        <common:address>
+                            <common:city>Munchen</common:city>
+                            <common:region>Bayern</common:region>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>9183</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-9434-3191/employments">
+            <common:last-modified-date>2016-12-01T20:25:28.178Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-12-01T20:25:28.178Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2699403" display-index="0" path="/0000-0001-9434-3191/employment/2699403" visibility="public">
+                    <common:created-date>2016-12-01T20:25:28.178Z</common:created-date>
+                    <common:last-modified-date>2016-12-01T20:25:28.178Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9434-3191</common:uri>
+                            <common:path>0000-0001-9434-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Juergen Evers</common:source-name>
+                    </common:source>
+                    <common:department-name>Solid State Physics</common:department-name>
+                    <common:role-title>Doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>1972</common:year>
+                        <common:month>01</common:month>
+                        <common:day>10</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Eidgenössische Technische Hochschule Zürich</common:name>
+                        <common:address>
+                            <common:city>Zurich</common:city>
+                            <common:region>ZH</common:region>
+                            <common:country>CH</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>27219</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-9434-3191/fundings"/>
+        <activities:invited-positions path="/0000-0001-9434-3191/invited-positions"/>
+        <activities:memberships path="/0000-0001-9434-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-9434-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-9434-3191/qualifications"/>
+        <activities:research-resources path="/0000-0001-9434-3191/research-resources"/>
+        <activities:services path="/0000-0001-9434-3191/services"/>
+        <activities:works path="/0000-0001-9434-3191/works"/>
+    </activities:activities-summary>
+</record:record>

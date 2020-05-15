@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-6419-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-6419-5191</common:uri>
+        <common:path>0000-0001-6419-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-07-31T07:25:24.216Z</history:submission-date>
+        <common:last-modified-date>2019-04-10T05:32:58.643Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-6419-5191/person">
+        <common:last-modified-date>2019-04-10T05:23:52.514Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-6419-5191">
+            <common:created-date>2017-07-31T07:25:24.216Z</common:created-date>
+            <common:last-modified-date>2017-07-31T07:25:24.446Z</common:last-modified-date>
+            <personal-details:given-names>Daisuke</personal-details:given-names>
+            <personal-details:family-name>Kawagoe</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-6419-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-6419-5191/researcher-urls"/>
+        <email:emails path="/0000-0001-6419-5191/email"/>
+        <address:addresses path="/0000-0001-6419-5191/address"/>
+        <keyword:keywords path="/0000-0001-6419-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-6419-5191/external-identifiers">
+            <common:last-modified-date>2019-04-10T05:23:52.514Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1370523" visibility="public" path="/0000-0001-6419-5191/external-identifiers/1370523" display-index="0">
+                <common:created-date>2019-04-10T05:23:52.514Z</common:created-date>
+                <common:last-modified-date>2019-04-10T05:23:52.514Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57197730667</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57197730667&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-6419-5191/activities">
+        <common:last-modified-date>2019-04-10T05:32:58.653Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-6419-5191/distinctions"/>
+        <activities:educations path="/0000-0001-6419-5191/educations"/>
+        <activities:employments path="/0000-0001-6419-5191/employments"/>
+        <activities:fundings path="/0000-0001-6419-5191/fundings"/>
+        <activities:invited-positions path="/0000-0001-6419-5191/invited-positions"/>
+        <activities:memberships path="/0000-0001-6419-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-6419-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-6419-5191/qualifications"/>
+        <activities:research-resources path="/0000-0001-6419-5191/research-resources"/>
+        <activities:services path="/0000-0001-6419-5191/services"/>
+        <activities:works path="/0000-0001-6419-5191/works">
+            <common:last-modified-date>2019-04-10T05:32:58.653Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T05:32:58.653Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3934/ipi.2019017</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3934/ipi.2019017</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3934/ipi.2019017</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56297903" path="/0000-0001-6419-5191/work/56297903" visibility="public" display-index="1">
+                    <common:created-date>2019-04-10T05:32:58.653Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T05:32:58.653Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6419-5191</common:uri>
+                            <common:path>0000-0001-6419-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Daisuke Kawagoe</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Propagation of boundary-induced discontinuity in stationary radiative transfer and its application to the optical tomography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3934/ipi.2019017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3934/ipi.2019017</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3934/ipi.2019017</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1930-8345</common:external-id-value>
+                            <common:external-id-normalized transient="true">1930-8345</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.3934/ipi.2019017</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T05:24:45.732Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.anihpc.2018.09.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.anihpc.2018.09.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85054157628</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85054157628</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56297776" path="/0000-0001-6419-5191/work/56297776" visibility="public" display-index="0">
+                    <common:created-date>2019-04-10T05:24:45.732Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T05:24:45.732Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regularity for diffuse reflection boundary problem to the stationary linearized Boltzmann equation in a convex domain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.anihpc.2018.09.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.anihpc.2018.09.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85054157628</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85054157628</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85054157628&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annales de l'Institut Henri Poincare (C) Analyse Non Lineaire</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T05:30:39.038Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>arXiv:1810.09693v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1810.09693v1</common:external-id-normalized>
+                        <common:external-id-url>http://arxiv.org/abs/1810.09693v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56297827" path="/0000-0001-6419-5191/work/56297827" visibility="public" display-index="1">
+                    <common:created-date>2019-04-10T05:30:39.038Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T05:30:39.038Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6419-5191</common:uri>
+                            <common:path>0000-0001-6419-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Daisuke Kawagoe</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectral structure of the Neumann--Poincaré operator on tori</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>arXiv:1810.09693v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1810.09693v1</common:external-id-normalized>
+                            <common:external-id-url>http://arxiv.org/abs/1810.09693v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>preprint</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>10</common:month>
+                        <common:day>23</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T05:29:54.200Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>arXiv:1806.02026v2</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1806.02026v2</common:external-id-normalized>
+                        <common:external-id-url>http://arxiv.org/abs/1806.02026v2</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56297823" path="/0000-0001-6419-5191/work/56297823" visibility="public" display-index="1">
+                    <common:created-date>2019-04-10T05:29:54.200Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T05:29:54.200Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6419-5191</common:uri>
+                            <common:path>0000-0001-6419-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Daisuke Kawagoe</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Surface Riesz transforms and spectral property of elastic Neumann--Poincaé operators on less smooth domains in three dimensions</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>arXiv:1806.02026v2</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1806.02026v2</common:external-id-normalized>
+                            <common:external-id-url>http://arxiv.org/abs/1806.02026v2</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>preprint</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                        <common:day>06</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T05:24:45.723Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10955-017-1922-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10955-017-1922-8</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s10955-017-1922-8</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85034239947</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85034239947</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38765032" path="/0000-0001-6419-5191/work/38765032" visibility="public" display-index="0">
+                    <common:created-date>2017-11-19T08:34:11.112Z</common:created-date>
+                    <common:last-modified-date>2018-01-04T11:12:07.717Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Propagation of Boundary-Induced Discontinuity in Stationary Radiative Transfer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10955-017-1922-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10955-017-1922-8</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s10955-017-1922-8</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s10955-017-1922-8</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>01</common:month>
+                        <common:day>17</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Statistical Physics</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="56297775" path="/0000-0001-6419-5191/work/56297775" visibility="public" display-index="0">
+                    <common:created-date>2019-04-10T05:24:45.723Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T05:24:45.723Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Propagation of Boundary-Induced Discontinuity in Stationary Radiative Transfer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10955-017-1922-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10955-017-1922-8</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85034239947</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85034239947</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85034239947&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Statistical Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

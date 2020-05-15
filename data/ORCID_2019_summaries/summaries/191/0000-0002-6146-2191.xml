@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6146-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6146-2191</common:uri>
+        <common:path>0000-0002-6146-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-09-14T13:41:57.308Z</history:submission-date>
+        <common:last-modified-date>2019-10-01T14:25:28.462Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6146-2191/person">
+        <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-6146-2191">
+            <common:created-date>2016-04-15T22:48:01.709Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:48:01.709Z</common:last-modified-date>
+            <personal-details:given-names>J. Levi</personal-details:given-names>
+            <personal-details:family-name>Chazen</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6146-2191/other-names">
+            <common:last-modified-date>2015-09-14T13:42:45.764Z</common:last-modified-date>
+            <other-name:other-name put-code="527926" visibility="public" path="/0000-0002-6146-2191/other-names/527926" display-index="0">
+                <common:created-date>2015-09-14T13:42:45.764Z</common:created-date>
+                <common:last-modified-date>2015-09-14T13:42:45.764Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-6146-2191</common:uri>
+                        <common:path>0000-0002-6146-2191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>J. Levi Chazen</common:source-name>
+                </common:source>
+                <other-name:content>Joseph Levi Chazen</other-name:content>
+            </other-name:other-name>
+        </other-name:other-names>
+        <researcher-url:researcher-urls path="/0000-0002-6146-2191/researcher-urls"/>
+        <email:emails path="/0000-0002-6146-2191/email"/>
+        <address:addresses path="/0000-0002-6146-2191/address">
+            <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+            <address:address put-code="29628" visibility="public" path="/0000-0002-6146-2191/address/29628" display-index="0">
+                <common:created-date>2016-01-24T18:05:14.132Z</common:created-date>
+                <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-6146-2191</common:uri>
+                        <common:path>0000-0002-6146-2191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>J. Levi Chazen</common:source-name>
+                </common:source>
+                <address:country>US</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-6146-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6146-2191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6146-2191/activities">
+        <common:last-modified-date>2019-08-14T20:39:55.756Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6146-2191/distinctions"/>
+        <activities:educations path="/0000-0002-6146-2191/educations">
+            <common:last-modified-date>2015-09-14T13:45:24.519Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-09-14T13:45:24.519Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1171684" display-index="0" path="/0000-0002-6146-2191/education/1171684" visibility="public">
+                    <common:created-date>2015-09-14T13:44:50.531Z</common:created-date>
+                    <common:last-modified-date>2015-09-14T13:45:24.519Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6146-2191</common:uri>
+                            <common:path>0000-0002-6146-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>J. Levi Chazen</common:source-name>
+                    </common:source>
+                    <common:department-name>Medicine</common:department-name>
+                    <common:role-title>M.D.</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Thomas Jefferson University</common:name>
+                        <common:address>
+                            <common:city>Philadelphia</common:city>
+                            <common:region>PA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6559</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2015-09-14T13:43:46.231Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1171681" display-index="0" path="/0000-0002-6146-2191/education/1171681" visibility="public">
+                    <common:created-date>2015-09-14T13:43:46.231Z</common:created-date>
+                    <common:last-modified-date>2015-09-14T13:43:46.231Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6146-2191</common:uri>
+                            <common:path>0000-0002-6146-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>J. Levi Chazen</common:source-name>
+                    </common:source>
+                    <common:department-name>Biomedical Engineering</common:department-name>
+                    <common:role-title>B.S.</common:role-title>
+                    <common:start-date>
+                        <common:year>1998</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2002</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Johns Hopkins University</common:name>
+                        <common:address>
+                            <common:city>Baltimore</common:city>
+                            <common:region>MD</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>1466</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-6146-2191/employments"/>
+        <activities:fundings path="/0000-0002-6146-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6146-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6146-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6146-2191/peer-reviews">
+            <common:last-modified-date>2019-07-31T04:18:12.717Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-07-31T04:18:12.717Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:1432-1084</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-07-31T04:18:12.717Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>625e31e9-55d8-4502-a8a0-785c519ff93c</common:external-id-value>
+                            <common:external-id-normalized transient="true">625e31e9-55d8-4502-a8a0-785c519ff93c</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="642896" path="/0000-0002-6146-2191/peer-review/642896" visibility="public" display-index="0">
+                        <common:created-date>2019-07-31T04:18:12.717Z</common:created-date>
+                        <common:last-modified-date>2019-07-31T04:18:12.717Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-945VYTN20C7BZXYT</common:uri>
+<common:path>APP-945VYTN20C7BZXYT</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Springer Nature</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>source-work-id</common:external-id-type>
+<common:external-id-value>625e31e9-55d8-4502-a8a0-785c519ff93c</common:external-id-value>
+<common:external-id-normalized transient="true">625e31e9-55d8-4502-a8a0-785c519ff93c</common:external-id-normalized>
+<common:external-id-url></common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1432-1084</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Springer Nature</common:name>
+                            <common:address>
+<common:city>New York</common:city>
+<common:country>US</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+        </activities:peer-reviews>
+        <activities:qualifications path="/0000-0002-6146-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6146-2191/research-resources"/>
+        <activities:services path="/0000-0002-6146-2191/services"/>
+        <activities:works path="/0000-0002-6146-2191/works">
+            <common:last-modified-date>2019-08-14T20:39:55.756Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-14T20:39:55.756Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3174/ajnr.A6127</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3174/ajnr.a6127</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3174/ajnr.A6127</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59156739" path="/0000-0002-6146-2191/work/59156739" visibility="public" display-index="0">
+                    <common:created-date>2019-07-04T20:16:38.494Z</common:created-date>
+                    <common:last-modified-date>2019-08-14T20:39:55.756Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CT-Guided Block and Radiofrequency Ablation of the C2 Dorsal Root Ganglion for Cervicogenic Headache</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3174/ajnr.A6127</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3174/ajnr.a6127</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3174/ajnr.A6127</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3174/ajnr.A6127</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Neuroradiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-15T17:15:09.836Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3174/ajnr.A5797</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3174/ajnr.a5797</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3174/ajnr.A5797</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48687094" path="/0000-0002-6146-2191/work/48687094" visibility="public" display-index="0">
+                    <common:created-date>2018-09-27T14:33:24.013Z</common:created-date>
+                    <common:last-modified-date>2018-11-15T17:15:09.836Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MR Neurography of the Lumbosacral Plexus for Lower Extremity Radiculopathy: Frequency of Findings, Characteristics of Abnormal Intraneural Signal, and Correlation with Electromyography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3174/ajnr.A5797</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3174/ajnr.a5797</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3174/ajnr.A5797</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3174/ajnr.A5797</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                        <common:day>27</common:day>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Neuroradiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-11-21T16:57:39.167Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.clinimag.2017.10.013</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.clinimag.2017.10.013</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.clinimag.2017.10.013</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="38853505" path="/0000-0002-6146-2191/work/38853505" visibility="public" display-index="0">
+                    <common:created-date>2017-11-21T16:57:39.167Z</common:created-date>
+                    <common:last-modified-date>2017-11-21T16:57:39.167Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Percutaneous CT-guided facet joint synovial cyst rupture: Success with refractory cases and technical considerations</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.clinimag.2017.10.013</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.clinimag.2017.10.013</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.clinimag.2017.10.013</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.clinimag.2017.10.013</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-11-21T15:45:57.796Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.clinimag.2017.02.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.clinimag.2017.02.007</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.clinimag.2017.02.007</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32504966" path="/0000-0002-6146-2191/work/32504966" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:25:42.382Z</common:created-date>
+                    <common:last-modified-date>2017-11-21T15:45:57.796Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Automated segmentation of MR imaging to determine normative central nervous system cerebrospinal fluid volumes in healthy volunteers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.clinimag.2017.02.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.clinimag.2017.02.007</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.clinimag.2017.02.007</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.clinimag.2017.02.007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:25:42.202Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.clinimag.2016.08.010</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.clinimag.2016.08.010</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1016/j.clinimag.2016.08.010</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32504965" path="/0000-0002-6146-2191/work/32504965" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:25:42.202Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:25:42.202Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CT-guided epidural blood patch for treatment of CSF leak and pseudomeningocele following tethered cord release in a 3-year-old</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.clinimag.2016.08.010</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.clinimag.2016.08.010</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.clinimag.2016.08.010</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:29:41.868Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1053/j.sult.2016.05.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1053/j.sult.2016.05.006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505222" path="/0000-0002-6146-2191/work/32505222" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:29:41.868Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:29:41.868Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Imaging-Based Approach to Spinal Cord Infection</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1053/j.sult.2016.05.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1053/j.sult.2016.05.006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Seminars in Ultrasound, CT and MRI</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:29:37.643Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.pmrj.2016.04.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.pmrj.2016.04.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505220" path="/0000-0002-6146-2191/work/32505220" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:29:37.643Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:29:37.643Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optimal Noninvasive Imaging for Suspected Zygapophyseal (Facet)-Mediated Low Back Pain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.pmrj.2016.04.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.pmrj.2016.04.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>PM&amp;R</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:26:58.734Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1212/wnl.0000000000002544</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1212/wnl.0000000000002544</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32504982" path="/0000-0002-6146-2191/work/32504982" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:26:58.734Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:26:58.734Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Teaching NeuroImages: Acute crossed cerebellar diaschisis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1212/wnl.0000000000002544</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1212/wnl.0000000000002544</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>04</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Neurology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-02-28T09:59:53.453Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3174/ajnr.A4588</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3174/ajnr.a4588</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3174/ajnr.A4588</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42148968" path="/0000-0002-6146-2191/work/42148968" visibility="public" display-index="0">
+                    <common:created-date>2018-02-28T09:59:53.453Z</common:created-date>
+                    <common:last-modified-date>2018-02-28T09:59:53.453Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Protrusion of the Infraorbital Nerve into the Maxillary Sinus on CT: Prevalence, Proposed Grading Method, and Suggested Clinical Implications</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3174/ajnr.A4588</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3174/ajnr.a4588</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3174/ajnr.A4588</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3174/ajnr.A4588</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Neuroradiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:34:11.720Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.clinimag.2015.07.016</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.clinimag.2015.07.016</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505375" path="/0000-0002-6146-2191/work/32505375" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:34:11.720Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:34:11.720Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Brain MRI findings with vigabatrin therapy: case report and literature review</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.clinimag.2015.07.016</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.clinimag.2015.07.016</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-02-28T09:59:53.314Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3174/ajnr.A4598</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3174/ajnr.a4598</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3174/ajnr.A4598</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42148967" path="/0000-0002-6146-2191/work/42148967" visibility="public" display-index="0">
+                    <common:created-date>2018-02-28T09:59:53.314Z</common:created-date>
+                    <common:last-modified-date>2018-02-28T09:59:53.314Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Carotid Web: Appearance at MR Angiography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3174/ajnr.A4598</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3174/ajnr.a4598</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3174/ajnr.A4598</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3174/ajnr.A4598</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Neuroradiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:28:27.098Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1097/rmr.0000000000000044</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1097/rmr.0000000000000044</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505000" path="/0000-0002-6146-2191/work/32505000" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:28:27.098Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:28:27.098Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Temporal Bone Imaging</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1097/rmr.0000000000000044</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1097/rmr.0000000000000044</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Topics in Magnetic Resonance Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:27:33.974Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.rcl.2014.09.009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.rcl.2014.09.009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32504991" path="/0000-0002-6146-2191/work/32504991" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:27:33.974Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:27:33.974Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Imaging Evaluation of the Suprahyoid Neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.rcl.2014.09.009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.rcl.2014.09.009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Radiologic Clinics of North America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:28:50.309Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.clinimag.2014.04.019</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.clinimag.2014.04.019</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505153" path="/0000-0002-6146-2191/work/32505153" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:28:50.309Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:28:50.309Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Total laryngectomy for squamous cell carcinoma: recognizing disease patterns to aid detection of tumor recurrence</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.clinimag.2014.04.019</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.clinimag.2014.04.019</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Clinical Imaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:29:04.263Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nic.2014.03.005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nic.2014.03.005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505216" path="/0000-0002-6146-2191/work/32505216" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:29:04.263Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:29:04.263Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Orbital Soft-Tissue Trauma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nic.2014.03.005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nic.2014.03.005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Neuroimaging Clinics of North America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:28:46.153Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.otc.2012.08.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.otc.2012.08.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32505152" path="/0000-0002-6146-2191/work/32505152" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:28:46.153Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:28:46.153Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Imaging Evaluation of the Parapharyngeal Space</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.otc.2012.08.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.otc.2012.08.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Otolaryngologic Clinics of North America</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-08T13:27:14.500Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.acra.2010.04.011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.acra.2010.04.011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32504984" path="/0000-0002-6146-2191/work/32504984" visibility="public" display-index="0">
+                    <common:created-date>2017-05-08T13:27:14.500Z</common:created-date>
+                    <common:last-modified-date>2017-05-08T13:27:14.500Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Post-CABG Coronary CT Angiography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.acra.2010.04.011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.acra.2010.04.011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Academic Radiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

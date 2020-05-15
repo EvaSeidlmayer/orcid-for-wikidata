@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1647-7191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1647-7191</common:uri>
+        <common:path>0000-0002-1647-7191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-04-21T12:29:22.081Z</history:submission-date>
+        <common:last-modified-date>2019-10-04T16:35:39.630Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1647-7191/person">
+        <person:name visibility="public" path="0000-0002-1647-7191">
+            <common:created-date>2017-04-21T12:29:22.081Z</common:created-date>
+            <common:last-modified-date>2017-04-21T12:29:22.304Z</common:last-modified-date>
+            <personal-details:given-names>Dana</personal-details:given-names>
+            <personal-details:family-name>Floricioiu</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1647-7191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1647-7191/researcher-urls"/>
+        <email:emails path="/0000-0002-1647-7191/email"/>
+        <address:addresses path="/0000-0002-1647-7191/address"/>
+        <keyword:keywords path="/0000-0002-1647-7191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1647-7191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1647-7191/activities">
+        <common:last-modified-date>2019-10-04T16:35:39.640Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1647-7191/distinctions"/>
+        <activities:educations path="/0000-0002-1647-7191/educations">
+            <common:last-modified-date>2018-06-25T09:40:50.269Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-06-25T09:40:50.269Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6028430" display-index="0" path="/0000-0002-1647-7191/education/6028430" visibility="public">
+                    <common:created-date>2018-06-25T09:40:50.269Z</common:created-date>
+                    <common:last-modified-date>2018-06-25T09:40:50.269Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1647-7191</common:uri>
+                            <common:path>0000-0002-1647-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Dana Floricioiu</common:source-name>
+                    </common:source>
+                    <common:department-name>Meteorology and Geophysics</common:department-name>
+                    <common:role-title>Dr.rer.nat</common:role-title>
+                    <common:start-date>
+                        <common:year>1997</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1997</common:year>
+                        <common:month>11</common:month>
+                        <common:day>15</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Innsbruck</common:name>
+                        <common:address>
+                            <common:city>Innsbruck</common:city>
+                            <common:country>AT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.5771.4</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-1647-7191/employments">
+            <common:last-modified-date>2018-06-25T09:45:23.540Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-06-25T09:45:23.540Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6028444" display-index="0" path="/0000-0002-1647-7191/employment/6028444" visibility="public">
+                    <common:created-date>2018-06-25T09:45:23.540Z</common:created-date>
+                    <common:last-modified-date>2018-06-25T09:45:23.540Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1647-7191</common:uri>
+                            <common:path>0000-0002-1647-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Dana Floricioiu</common:source-name>
+                    </common:source>
+                    <common:department-name>Earth Obeservation Center Remote Sensing Technology Institute</common:department-name>
+                    <common:role-title>research fellow</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                        <common:day>06</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>German Aerospace Center</common:name>
+                        <common:address>
+                            <common:city>Wessling</common:city>
+                            <common:country>DE</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.7551.6</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>http://www.dlr.de/eoc</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-1647-7191/fundings"/>
+        <activities:invited-positions path="/0000-0002-1647-7191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1647-7191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1647-7191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1647-7191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1647-7191/research-resources"/>
+        <activities:services path="/0000-0002-1647-7191/services"/>
+        <activities:works path="/0000-0002-1647-7191/works">
+            <common:last-modified-date>2019-10-04T16:35:39.640Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-27T14:45:32.561Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-13-2511-2019</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-13-2511-2019</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/tc-13-2511-2019</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62262488" path="/0000-0002-1647-7191/work/62262488" visibility="public" display-index="0">
+                    <common:created-date>2019-09-27T14:45:32.561Z</common:created-date>
+                    <common:last-modified-date>2019-09-27T14:45:32.561Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heterogeneous spatial and temporal pattern of surface elevation change and mass balance of the Patagonian ice fields between 2000 and 2016</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-13-2511-2019</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-13-2511-2019</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/tc-13-2511-2019</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/tc-13-2511-2019</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>27</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Cryosphere</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-10-04T16:35:39.459Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-2019-197</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-2019-197</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/tc-2019-197</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61228481" path="/0000-0002-1647-7191/work/61228481" visibility="public" display-index="0">
+                    <common:created-date>2019-09-04T06:04:42.648Z</common:created-date>
+                    <common:last-modified-date>2019-10-04T16:35:39.459Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Decade of Variability on Jakobshavn Isbrae: Ocean Temperatures Pace Speed Through Influence on Mélange Rigidity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-2019-197</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-2019-197</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/tc-2019-197</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/tc-2019-197</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-10-04T16:35:39.640Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-2019-197-supplement</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-2019-197-supplement</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/tc-2019-197-supplement</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62260956" path="/0000-0002-1647-7191/work/62260956" visibility="public" display-index="0">
+                    <common:created-date>2019-09-27T14:24:48.302Z</common:created-date>
+                    <common:last-modified-date>2019-10-04T16:35:39.640Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Decade of Variability on Jakobshavn Isbrae: Ocean Temperatures Pace Speed Through Influence on Mélange Rigidity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-2019-197-supplement</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-2019-197-supplement</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/tc-2019-197-supplement</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/tc-2019-197-supplement</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-22T21:24:55.348Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-2018-258</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-2018-258</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/tc-2018-258</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53005511" path="/0000-0002-1647-7191/work/53005511" visibility="public" display-index="0">
+                    <common:created-date>2019-01-22T21:24:55.348Z</common:created-date>
+                    <common:last-modified-date>2019-01-22T21:24:55.348Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heterogeneous spatial and temporal pattern of surface elevation change and mass balance of the Patagonian icefields between 2000 and 2016</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-2018-258</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-2018-258</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/tc-2018-258</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/tc-2018-258</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>12</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Cryosphere Discussions</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-16T23:12:18.704Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41467-018-05180-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41467-018-05180-x</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41467-018-05180-x</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="46462329" path="/0000-0002-1647-7191/work/46462329" visibility="public" display-index="0">
+                    <common:created-date>2018-07-11T10:33:58.911Z</common:created-date>
+                    <common:last-modified-date>2019-07-16T23:12:18.704Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large ice loss variability at Nioghalvfjerdsfjorden Glacier, Northeast-Greenland</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41467-018-05180-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41467-018-05180-x</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41467-018-05180-x</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41467-018-05180-x</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Nature Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-23T09:24:06.125Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-12-1273-2018</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-12-1273-2018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53031644" path="/0000-0002-1647-7191/work/53031644" visibility="public" display-index="0">
+                    <common:created-date>2019-01-23T09:24:06.125Z</common:created-date>
+                    <common:last-modified-date>2019-01-23T09:24:06.125Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Changing pattern of ice flow and mass balance for glaciers discharging into the Larsen A and B embayments, Antarctic Peninsula, 2011 to 2016</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-12-1273-2018</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-12-1273-2018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1994-0424</common:external-id-value>
+                            <common:external-id-normalized transient="true">1994-0424</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>04</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Cryosphere</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-23T09:25:45.128Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/tc-11-2481-2017</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/tc-11-2481-2017</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53031670" path="/0000-0002-1647-7191/work/53031670" visibility="public" display-index="0">
+                    <common:created-date>2019-01-23T09:25:45.128Z</common:created-date>
+                    <common:last-modified-date>2019-01-23T09:25:45.128Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of ice shelf flexure and its InSAR representation in the grounding zone of the southern McMurdo Ice Shelf</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/tc-11-2481-2017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/tc-11-2481-2017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1994-0424</common:external-id-value>
+                            <common:external-id-normalized transient="true">1994-0424</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>11</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Cryosphere</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-25T09:48:23.993Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/2016JF004133</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/2016jf004133</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/2016JF004133</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="45985496" path="/0000-0002-1647-7191/work/45985496" visibility="public" display-index="0">
+                    <common:created-date>2018-06-25T09:48:23.993Z</common:created-date>
+                    <common:last-modified-date>2018-06-25T09:48:23.993Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Seasonal and interannual variabilities in terminus position, glacier velocity, and surface elevation at Helheim and Kangerlussuaq Glaciers from 2008 to 2016</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/2016JF004133</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/2016jf004133</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/2016JF004133</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/2016JF004133</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Geophysical Research: Earth Surface</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-23T09:25:03.115Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/rs9040388</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/rs9040388</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="53031659" path="/0000-0002-1647-7191/work/53031659" visibility="public" display-index="0">
+                    <common:created-date>2019-01-23T09:25:03.115Z</common:created-date>
+                    <common:last-modified-date>2019-01-23T09:25:03.115Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Glacier Surge of Bivachny Glacier, Pamir Mountains, Observed by a Time Series of High-Resolution Digital Elevation Models and Glacier Velocities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/rs9040388</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/rs9040388</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2072-4292</common:external-id-value>
+                            <common:external-id-normalized transient="true">2072-4292</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Remote Sensing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

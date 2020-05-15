@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-8782-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-8782-2191</common:uri>
+        <common:path>0000-0002-8782-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2019-01-11T14:09:58.161Z</history:submission-date>
+        <common:last-modified-date>2019-10-02T12:17:34.313Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-8782-2191/person">
+        <common:last-modified-date>2019-09-26T07:38:36.621Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-8782-2191">
+            <common:created-date>2019-01-11T14:09:58.161Z</common:created-date>
+            <common:last-modified-date>2019-01-11T14:09:58.382Z</common:last-modified-date>
+            <personal-details:given-names>Metehan</personal-details:given-names>
+            <personal-details:family-name>Çiçek</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-8782-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-8782-2191/researcher-urls"/>
+        <email:emails path="/0000-0002-8782-2191/email"/>
+        <address:addresses path="/0000-0002-8782-2191/address"/>
+        <keyword:keywords path="/0000-0002-8782-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-8782-2191/external-identifiers">
+            <common:last-modified-date>2019-09-26T07:38:36.621Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1266441" visibility="public" path="/0000-0002-8782-2191/external-identifiers/1266441" display-index="0">
+                <common:created-date>2019-01-11T14:13:37.306Z</common:created-date>
+                <common:last-modified-date>2019-01-11T14:13:37.308Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>7004621944</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=7004621944&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1475538" visibility="public" path="/0000-0002-8782-2191/external-identifiers/1475538" display-index="0">
+                <common:created-date>2019-09-26T07:38:36.621Z</common:created-date>
+                <common:last-modified-date>2019-09-26T07:38:36.621Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/APP-4DPEW6SVSNQHKC8G</common:uri>
+                        <common:path>APP-4DPEW6SVSNQHKC8G</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Loop</common:source-name>
+                </common:source>
+                <common:external-id-type>Loop profile</common:external-id-type>
+                <common:external-id-value>2460</common:external-id-value>
+                <common:external-id-url>http://loop.frontiersin.org/people/2460/overview?referrer=orcid_profile</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-8782-2191/activities">
+        <common:last-modified-date>2019-10-02T12:17:34.322Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-8782-2191/distinctions"/>
+        <activities:educations path="/0000-0002-8782-2191/educations"/>
+        <activities:employments path="/0000-0002-8782-2191/employments">
+            <common:last-modified-date>2019-08-27T09:20:20.025Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-01-11T15:05:49.016Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7098612" display-index="1" path="/0000-0002-8782-2191/employment/7098612" visibility="public">
+                    <common:created-date>2019-01-11T14:23:12.462Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T15:05:49.016Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8782-2191</common:uri>
+                            <common:path>0000-0002-8782-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Metehan Çiçek</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Physiology</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>04</common:month>
+                        <common:day>27</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Ankara University School of Medicine</common:name>
+                        <common:address>
+                            <common:city>Ankara</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-01-11T15:06:33.390Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7098656" display-index="1" path="/0000-0002-8782-2191/employment/7098656" visibility="public">
+                    <common:created-date>2019-01-11T14:27:02.374Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T15:06:33.390Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8782-2191</common:uri>
+                            <common:path>0000-0002-8782-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Metehan Çiçek</common:source-name>
+                    </common:source>
+                    <common:department-name>Brain Imaging Lab</common:department-name>
+                    <common:role-title>Professor (Lab Director)</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>01</common:month>
+                        <common:day>05</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Ankara University Brain Research Center</common:name>
+                        <common:address>
+                            <common:city>Ankara</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-08-27T09:20:20.025Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7098676" display-index="1" path="/0000-0002-8782-2191/employment/7098676" visibility="public">
+                    <common:created-date>2019-01-11T14:29:00.012Z</common:created-date>
+                    <common:last-modified-date>2019-08-27T09:20:20.025Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8782-2191</common:uri>
+                            <common:path>0000-0002-8782-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Metehan Çiçek</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Interdisciplinary Neuroscience</common:department-name>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Ankara University Health Science Institute</common:name>
+                        <common:address>
+                            <common:city>Ankara</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-8782-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-8782-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-8782-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-8782-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-8782-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-8782-2191/research-resources"/>
+        <activities:services path="/0000-0002-8782-2191/services"/>
+        <activities:works path="/0000-0002-8782-2191/works">
+            <common:last-modified-date>2019-10-02T12:17:34.322Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-05T10:07:23.955Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/ejn.14537</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/ejn.14537</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/ejn.14537</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60952969" path="/0000-0002-8782-2191/work/60952969" visibility="public" display-index="1">
+                    <common:created-date>2019-08-27T09:17:39.312Z</common:created-date>
+                    <common:last-modified-date>2019-08-27T09:17:39.312Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8782-2191</common:uri>
+                            <common:path>0000-0002-8782-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Metehan Çiçek</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Amygdala‐prefrontal cortex connectivity increased during face discrimination but not time perception</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/ejn.14537</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/ejn.14537</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/ejn.14537</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0953-816X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0953-816X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/0953-816X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1460-9568</common:external-id-value>
+                            <common:external-id-normalized transient="true">1460-9568</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1460-9568</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1111/ejn.14537</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Neuroscience</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="61280409" path="/0000-0002-8782-2191/work/61280409" visibility="public" display-index="0">
+                    <common:created-date>2019-09-05T10:07:23.955Z</common:created-date>
+                    <common:last-modified-date>2019-09-05T10:07:23.955Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Amygdala–prefrontal cortex connectivity increased during face discrimination but not time perception</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/ejn.14537</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/ejn.14537</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/ejn.14537</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/ejn.14537</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>05</common:day>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-10-02T12:17:34.322Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4274/atfm.galenos.2019.91885</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4274/atfm.galenos.2019.91885</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4274/atfm.galenos.2019.91885</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62485901" path="/0000-0002-8782-2191/work/62485901" visibility="public" display-index="0">
+                    <common:created-date>2019-10-02T12:17:34.322Z</common:created-date>
+                    <common:last-modified-date>2019-10-02T12:17:34.322Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Evaluation of Time and Color Perception in Children and Adults</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4274/atfm.galenos.2019.91885</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4274/atfm.galenos.2019.91885</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4274/atfm.galenos.2019.91885</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.4274/atfm.galenos.2019.91885</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ankara University Faculty of Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-26T13:42:21.730Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4274/atfm.galenos.2019.29591</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4274/atfm.galenos.2019.29591</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4274/atfm.galenos.2019.29591</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60921795" path="/0000-0002-8782-2191/work/60921795" visibility="public" display-index="0">
+                    <common:created-date>2019-08-26T13:42:21.730Z</common:created-date>
+                    <common:last-modified-date>2019-08-26T13:42:21.730Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Relationship Between Short-term Memory And Fasting Blood Glucose</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4274/atfm.galenos.2019.29591</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4274/atfm.galenos.2019.29591</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4274/atfm.galenos.2019.29591</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.4274/atfm.galenos.2019.29591</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ankara University Faculty of Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.876Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.29333/ejmste/90089</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.29333/ejmste/90089</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85046425405</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85046425405</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527875" path="/0000-0002-8782-2191/work/52527875" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.876Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.876Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of changed school entry rules: Age effects within third grade students</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.29333/ejmste/90089</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.29333/ejmste/90089</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85046425405</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85046425405</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85046425405&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Eurasia Journal of Mathematics, Science and Technology Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.813Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/fnhum.2018.00115</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/fnhum.2018.00115</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85046886487</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85046886487</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527858" path="/0000-0002-8782-2191/work/52527858" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.813Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.813Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neural mechanisms underlying time perception and reward anticipation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/fnhum.2018.00115</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/fnhum.2018.00115</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85046886487</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85046886487</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85046886487&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in Human Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.828Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/fnhum.2017.00083</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/fnhum.2017.00083</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85014045036</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85014045036</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527861" path="/0000-0002-8782-2191/work/52527861" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.828Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.828Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neural networks for time perception and working memory</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/fnhum.2017.00083</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/fnhum.2017.00083</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85014045036</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85014045036</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85014045036&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in Human Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.831Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/EMBC.2014.6943756</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/embc.2014.6943756</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84929471053</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84929471053</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527862" path="/0000-0002-8782-2191/work/52527862" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.831Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.831Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A comparative analysis of functional connectivity data in resting and task-related conditions of the brain for disease signature of OCD</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/EMBC.2014.6943756</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/embc.2014.6943756</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84929471053</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84929471053</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84929471053&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBC 2014</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.861Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/BMEI.2013.6746921</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/bmei.2013.6746921</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84896272248</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84896272248</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527871" path="/0000-0002-8782-2191/work/52527871" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.861Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.861Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Detection of obsessive compulsive disorder using resting-state functional connectivity data</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/BMEI.2013.6746921</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/bmei.2013.6746921</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84896272248</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84896272248</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84896272248&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the 2013 6th International Conference on Biomedical Engineering and Informatics, BMEI 2013</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.834Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84872439149</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84872439149</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/BF03379589</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/bf03379589</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527863" path="/0000-0002-8782-2191/work/52527863" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.834Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.834Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Default mode network connectivity differences in obsessive-compulsive disorder</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/BF03379589</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/bf03379589</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84872439149</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84872439149</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84872439149&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Activitas Nervosa Superior</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.844Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.psychres.2012.04.025</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.psychres.2012.04.025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84872400319</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84872400319</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527866" path="/0000-0002-8782-2191/work/52527866" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.844Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.844Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hemispatial neglect evaluated by visual line bisection task in schizophrenic patients and their unaffected siblings</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.psychres.2012.04.025</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.psychres.2012.04.025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84872400319</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84872400319</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84872400319&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Psychiatry Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.837Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bandc.2011.03.020</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bandc.2011.03.020</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79957930761</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79957930761</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527864" path="/0000-0002-8782-2191/work/52527864" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.837Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.837Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cognitive control of a simple mental image in patients with obsessive-compulsive disorder</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bandc.2011.03.020</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bandc.2011.03.020</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79957930761</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79957930761</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79957930761&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Brain and Cognition</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.854Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/neuro.09.007.2009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/neuro.09.007.2009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77950449901</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77950449901</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527869" path="/0000-0002-8782-2191/work/52527869" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.854Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.854Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Brain activity during landmark and line bisection tasks</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/neuro.09.007.2009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/neuro.09.007.2009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77950449901</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77950449901</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77950449901&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in Human Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.851Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00207450802328482</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00207450802328482</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-54349098538</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-54349098538</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527868" path="/0000-0002-8782-2191/work/52527868" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.851Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.851Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>How is cognitive control of a simple mental image achieved? An fMRI study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00207450802328482</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00207450802328482</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-54349098538</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-54349098538</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-54349098538&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.858Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-36248962650</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-36248962650</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/cercor/bhm014</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/cercor/bhm014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527870" path="/0000-0002-8782-2191/work/52527870" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.858Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.858Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Anatomical physiology of spatial extinction</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/cercor/bhm014</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/cercor/bhm014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-36248962650</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-36248962650</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-36248962650&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cerebral Cortex</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.841Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2466/PMS.105.2.587-608</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2466/pms.105.2.587-608</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-36348973022</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-36348973022</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527865" path="/0000-0002-8782-2191/work/52527865" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.841Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.841Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Frontal and posterior erps related to line bisection</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2466/PMS.105.2.587-608</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2466/pms.105.2.587-608</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-36348973022</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-36348973022</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-36348973022&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Perceptual and Motor Skills</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.872Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00207450390200981</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00207450390200981</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-18544403067</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-18544403067</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527874" path="/0000-0002-8782-2191/work/52527874" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.872Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.872Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Line bisection task performance and resting EEG alpha power</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00207450390200981</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00207450390200981</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-18544403067</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-18544403067</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-18544403067&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Neuroscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.865Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0301-0511(01)00103-X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0301-0511(01)00103-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0035452470</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0035452470</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527872" path="/0000-0002-8782-2191/work/52527872" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.865Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.865Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interhemispheric asymmetry of EEG alpha activity at rest and during the Wisconsin Card Sorting Test: relations with performance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0301-0511(01)00103-X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0301-0511(01)00103-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0035452470</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0035452470</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0035452470&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biological Psychology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.824Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/S0010-9452(08)70589-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0010-9452(08)70589-6</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0034777032</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0034777032</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527860" path="/0000-0002-8782-2191/work/52527860" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.824Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.824Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The relationship between handedness and fine motor performance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/S0010-9452(08)70589-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0010-9452(08)70589-6</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0034777032</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0034777032</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0034777032&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cortex</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.868Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2466/pms.2000.91.3.883</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2466/pms.2000.91.3.883</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0034567106</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0034567106</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527873" path="/0000-0002-8782-2191/work/52527873" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.868Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.868Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Magical ideation and right-sided hemispatial inattention on a spatial working memory task: Influences of sex and handedness</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2466/pms.2000.91.3.883</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2466/pms.2000.91.3.883</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0034567106</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0034567106</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0034567106&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Perceptual and Motor Skills</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.847Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1006/brcg.2000.1217</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1006/brcg.2000.1217</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0034535481</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0034535481</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527867" path="/0000-0002-8782-2191/work/52527867" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.847Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.847Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effect of familial sinistrality on the relation between schizophrenialike thinking and pseudoneglect</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1006/brcg.2000.1217</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1006/brcg.2000.1217</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0034535481</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0034535481</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0034535481&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Brain and Cognition</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-11T14:13:41.822Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.2466/pms.1997.84.1.99</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.2466/pms.1997.84.1.99</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-0031066967</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-0031066967</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52527859" path="/0000-0002-8782-2191/work/52527859" visibility="public" display-index="0">
+                    <common:created-date>2019-01-11T14:13:41.822Z</common:created-date>
+                    <common:last-modified-date>2019-01-11T14:13:41.822Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Pseudoneglect of males and females on a spatial short-term memory task</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.2466/pms.1997.84.1.99</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.2466/pms.1997.84.1.99</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-0031066967</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-0031066967</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-0031066967&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Perceptual and Motor Skills</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

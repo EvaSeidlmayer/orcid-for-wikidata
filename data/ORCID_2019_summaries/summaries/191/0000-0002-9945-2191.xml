@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-9945-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+        <common:path>0000-0002-9945-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-03-12T00:27:10.096Z</history:submission-date>
+        <common:last-modified-date>2019-09-30T22:29:54.246Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-9945-2191/person">
+        <person:name visibility="public" path="0000-0002-9945-2191">
+            <common:created-date>2016-04-15T23:26:10.341Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:26:10.341Z</common:last-modified-date>
+            <personal-details:given-names>Remek</personal-details:given-names>
+            <personal-details:family-name>Kocz</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-9945-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-9945-2191/researcher-urls"/>
+        <email:emails path="/0000-0002-9945-2191/email"/>
+        <address:addresses path="/0000-0002-9945-2191/address"/>
+        <keyword:keywords path="/0000-0002-9945-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-9945-2191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-9945-2191/activities">
+        <common:last-modified-date>2019-09-30T22:25:08.610Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-9945-2191/distinctions"/>
+        <activities:educations path="/0000-0002-9945-2191/educations">
+            <common:last-modified-date>2019-09-30T22:16:14.865Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-30T22:15:37.868Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="8787080" display-index="1" path="/0000-0002-9945-2191/education/8787080" visibility="public">
+                    <common:created-date>2019-09-30T22:15:37.868Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:15:37.868Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <common:department-name>Medicine</common:department-name>
+                    <common:role-title>MD</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University at Buffalo</common:name>
+                        <common:address>
+                            <common:city>Buffalo</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-30T22:16:02.633Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="8787075" display-index="1" path="/0000-0002-9945-2191/education/8787075" visibility="public">
+                    <common:created-date>2019-09-30T22:14:25.039Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:16:02.633Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>MS</common:role-title>
+                    <common:start-date>
+                        <common:year>1991</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1998</common:year>
+                        <common:month>05</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Chicago</common:name>
+                        <common:address>
+                            <common:city>Chicago</common:city>
+                            <common:region>IL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-30T22:16:14.865Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="8787066" display-index="1" path="/0000-0002-9945-2191/education/8787066" visibility="public">
+                    <common:created-date>2019-09-30T22:11:22.552Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:16:14.865Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>BS</common:role-title>
+                    <common:start-date>
+                        <common:year>1991</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1995</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Wayne  State University</common:name>
+                        <common:address>
+                            <common:city>Detroit</common:city>
+                            <common:region>MI</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-9945-2191/employments">
+            <common:last-modified-date>2019-09-30T22:05:42.770Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-30T22:05:42.770Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8787048" display-index="1" path="/0000-0002-9945-2191/employment/8787048" visibility="public">
+                    <common:created-date>2019-09-30T22:05:42.770Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:05:42.770Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <common:department-name>Anesthesiology</common:department-name>
+                    <common:role-title>Anesthesiologist</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>12</common:month>
+                        <common:day>05</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Erie County Medical Center</common:name>
+                        <common:address>
+                            <common:city>Buffalo</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-9945-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-9945-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-9945-2191/memberships">
+            <common:last-modified-date>2019-09-30T22:18:20.501Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-09-30T22:18:20.501Z</common:last-modified-date>
+                <common:external-ids/>
+                <membership:membership-summary put-code="8787092" display-index="1" path="/0000-0002-9945-2191/membership/8787092" visibility="public">
+                    <common:created-date>2019-09-30T22:18:20.501Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:18:20.501Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>American Society of Anesthesiologists</common:name>
+                        <common:address>
+                            <common:city>Shamburg</common:city>
+                            <common:region>IL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </membership:membership-summary>
+            </activities:affiliation-group>
+        </activities:memberships>
+        <activities:peer-reviews path="/0000-0002-9945-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-9945-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-9945-2191/research-resources"/>
+        <activities:services path="/0000-0002-9945-2191/services"/>
+        <activities:works path="/0000-0002-9945-2191/works">
+            <common:last-modified-date>2019-09-30T22:25:08.610Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:42:08.456Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>31450175</common:external-id-value>
+                        <common:external-id-normalized transient="true">31450175</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/31450175</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jclinane.2019.08.009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jclinane.2019.08.009</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.jclinane.2019.08.009</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372334" path="/0000-0002-9945-2191/work/62372334" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:42:08.456Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:42:08.456Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A randomized trial of the glottic views with the classic Miller, Wis-Hipple and C-MAC (videolaryngoscope and direct views) straight size 1 blades in young children.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>31450175</common:external-id-value>
+                            <common:external-id-normalized transient="true">31450175</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/31450175</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jclinane.2019.08.009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jclinane.2019.08.009</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.jclinane.2019.08.009</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.jclinane.2019.08.009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>23</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of clinical anesthesia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:43:12.898Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>25813224</common:external-id-value>
+                        <common:external-id-normalized transient="true">25813224</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/25813224</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1053/j.jvca.2014.12.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1053/j.jvca.2014.12.002</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1053/j.jvca.2014.12.002</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372344" path="/0000-0002-9945-2191/work/62372344" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:43:12.898Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:43:12.898Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prolonged Hypotension Following Innominate and Left Common Carotid Artery Bypass.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>25813224</common:external-id-value>
+                            <common:external-id-normalized transient="true">25813224</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/25813224</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1053/j.jvca.2014.12.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1053/j.jvca.2014.12.002</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1053/j.jvca.2014.12.002</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1053/j.jvca.2014.12.002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>12</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of cardiothoracic and vascular anesthesia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-01-24T18:57:02.230Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.arth.2014.06.027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.arth.2014.06.027</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1016/j.arth.2014.06.027</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21938695" path="/0000-0002-9945-2191/work/21938695" visibility="public" display-index="0">
+                    <common:created-date>2016-01-28T11:39:54.916Z</common:created-date>
+                    <common:last-modified-date>2017-01-24T18:57:02.230Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Medication Safety: Does Intravenous Acetaminophen Promote Perioperative Hypothermia for Total Hip Arthroplasty?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.arth.2014.06.027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.arth.2014.06.027</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.arth.2014.06.027</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Journal of Arthroplasty</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:43:45.672Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4103/0971-9784.97975</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4103/0971-9784.97975</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4103/0971-9784.97975</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>22772513</common:external-id-value>
+                        <common:external-id-normalized transient="true">22772513</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/22772513</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372345" path="/0000-0002-9945-2191/work/62372345" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:43:45.672Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:43:45.672Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effect of weight loss on the outcome after coronary artery bypass grafting in obese patients.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>22772513</common:external-id-value>
+                            <common:external-id-normalized transient="true">22772513</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/22772513</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4103/0971-9784.97975</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4103/0971-9784.97975</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4103/0971-9784.97975</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.4103/0971-9784.97975</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Annals of cardiac anaesthesia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:44:18.250Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s1074-5521(00)00007-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s1074-5521(00)00007-7</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/s1074-5521(00)00007-7</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>11048952</common:external-id-value>
+                        <common:external-id-normalized transient="true">11048952</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/11048952</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372349" path="/0000-0002-9945-2191/work/62372349" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:44:18.250Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:44:18.250Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>At the maize/Agrobacterium interface: natural factors limiting host transformation.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>11048952</common:external-id-value>
+                            <common:external-id-normalized transient="true">11048952</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/11048952</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s1074-5521(00)00007-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s1074-5521(00)00007-7</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/s1074-5521(00)00007-7</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/S1074-5521(00)00007-7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chemistry &amp; biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:44:34.703Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0960-894x(98)00444-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0960-894x(98)00444-2</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/s0960-894x(98)00444-2</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>9873562</common:external-id-value>
+                        <common:external-id-normalized transient="true">9873562</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/9873562</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372353" path="/0000-0002-9945-2191/work/62372353" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:44:34.703Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:44:34.703Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Templates for design of inhibitors for serine proteases: application of the program DOCK to the discovery of novel inhibitors for thrombin.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>9873562</common:external-id-value>
+                            <common:external-id-normalized transient="true">9873562</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/9873562</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0960-894x(98)00444-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0960-894x(98)00444-2</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/s0960-894x(98)00444-2</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/S0960-894X(98)00444-2</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Bioorganic &amp; medicinal chemistry letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T18:45:09.072Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s1074-5521(98)90144-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s1074-5521(98)90144-2</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/s1074-5521(98)90144-2</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>9495831</common:external-id-value>
+                        <common:external-id-normalized transient="true">9495831</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/9495831</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62372356" path="/0000-0002-9945-2191/work/62372356" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T18:45:09.072Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T18:45:09.072Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On becoming a parasite: evaluating the role of wall oxidases in parasitic plant development.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>9495831</common:external-id-value>
+                            <common:external-id-normalized transient="true">9495831</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/9495831</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s1074-5521(98)90144-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s1074-5521(98)90144-2</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/s1074-5521(98)90144-2</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/S1074-5521(98)90144-2</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                        <common:month>02</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chemistry &amp; biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-30T22:25:08.610Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/jo00089a046</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/jo00089a046</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1021/jo00089a046</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="62377958" path="/0000-0002-9945-2191/work/62377958" visibility="public" display-index="1">
+                    <common:created-date>2019-09-30T22:25:08.610Z</common:created-date>
+                    <common:last-modified-date>2019-09-30T22:25:08.610Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9945-2191</common:uri>
+                            <common:path>0000-0002-9945-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Remek Kocz</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Convenient Triphosgene-Mediated Synthesis of Symmetric Carboxylic Acid Anhydrides</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/jo00089a046</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/jo00089a046</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1021/jo00089a046</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0022-3263</common:external-id-value>
+                            <common:external-id-normalized transient="true">0022-3263</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/0022-3263</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1520-6904</common:external-id-value>
+                            <common:external-id-normalized transient="true">1520-6904</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1520-6904</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1021/jo00089a046</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Journal of Organic Chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

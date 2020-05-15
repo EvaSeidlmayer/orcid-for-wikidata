@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-8683-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+        <common:path>0000-0002-8683-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-06-02T09:00:56.309Z</history:submission-date>
+        <common:last-modified-date>2019-08-05T13:17:38.168Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-8683-8191/person">
+        <common:last-modified-date>2018-03-19T14:20:30.666Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-8683-8191">
+            <common:created-date>2017-06-02T09:00:56.309Z</common:created-date>
+            <common:last-modified-date>2018-03-19T14:20:17.656Z</common:last-modified-date>
+            <personal-details:given-names>Angharad</personal-details:given-names>
+            <personal-details:family-name>Green</personal-details:family-name>
+            <personal-details:credit-name>Angharad E Green</personal-details:credit-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-8683-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-8683-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-8683-8191/email"/>
+        <address:addresses path="/0000-0002-8683-8191/address">
+            <common:last-modified-date>2017-06-02T09:46:47.686Z</common:last-modified-date>
+            <address:address put-code="716511" visibility="public" path="/0000-0002-8683-8191/address/716511" display-index="1">
+                <common:created-date>2017-06-02T09:46:47.686Z</common:created-date>
+                <common:last-modified-date>2017-06-02T09:46:47.686Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                        <common:path>0000-0002-8683-8191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Angharad E Green</common:source-name>
+                </common:source>
+                <address:country>GB</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-8683-8191/keywords">
+            <common:last-modified-date>2018-03-19T14:20:30.666Z</common:last-modified-date>
+            <keyword:keyword put-code="715489" visibility="public" path="/0000-0002-8683-8191/keywords/715489" display-index="1">
+                <common:created-date>2017-06-02T09:47:25.982Z</common:created-date>
+                <common:last-modified-date>2018-03-19T14:20:30.666Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                        <common:path>0000-0002-8683-8191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Angharad E Green</common:source-name>
+                </common:source>
+                <keyword:content>Pneumococcus, experimental evolution, host pathogen interactions, bacterial genomics,Pseudomonas aer</keyword:content>
+            </keyword:keyword>
+        </keyword:keywords>
+        <external-identifier:external-identifiers path="/0000-0002-8683-8191/external-identifiers">
+            <common:last-modified-date>2018-03-19T14:12:27.359Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="979203" visibility="public" path="/0000-0002-8683-8191/external-identifiers/979203" display-index="0">
+                <common:created-date>2018-03-19T14:12:27.359Z</common:created-date>
+                <common:last-modified-date>2018-03-19T14:12:27.359Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>55246507900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=55246507900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-8683-8191/activities">
+        <common:last-modified-date>2019-08-05T13:17:38.180Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-8683-8191/distinctions"/>
+        <activities:educations path="/0000-0002-8683-8191/educations">
+            <common:last-modified-date>2018-03-02T13:37:58.770Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-03-02T13:37:58.770Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3986138" display-index="0" path="/0000-0002-8683-8191/education/3986138" visibility="public">
+                    <common:created-date>2017-06-02T09:02:18.416Z</common:created-date>
+                    <common:last-modified-date>2018-03-02T13:37:58.770Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:department-name>Cardiff School of Biosciences</common:department-name>
+                    <common:role-title>PhD- Molecular Microbiology</common:role-title>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>10</common:month>
+                        <common:day>10</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>12</common:month>
+                        <common:day>07</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Cardiff University</common:name>
+                        <common:address>
+                            <common:city>Cardiff</common:city>
+                            <common:region>Cardiff</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>2112</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-06-02T09:03:35.499Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3986139" display-index="0" path="/0000-0002-8683-8191/education/3986139" visibility="public">
+                    <common:created-date>2017-06-02T09:03:35.499Z</common:created-date>
+                    <common:last-modified-date>2017-06-02T09:03:35.499Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:department-name>Biomedical Sceinces</common:department-name>
+                    <common:role-title>MSc Biomedical Science (Medical Microbiology)</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Cardiff Metropolitan University</common:name>
+                        <common:address>
+                            <common:city>Cardiff</common:city>
+                            <common:region>Cardiff</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>11352</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-06-02T09:04:45.772Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3986142" display-index="0" path="/0000-0002-8683-8191/education/3986142" visibility="public">
+                    <common:created-date>2017-06-02T09:04:45.772Z</common:created-date>
+                    <common:last-modified-date>2017-06-02T09:04:45.772Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Biological and Medical Sciences</common:department-name>
+                    <common:role-title>BSc (Hons) Equine Science</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                        <common:month>07</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Oxford Brookes University</common:name>
+                        <common:address>
+                            <common:city>Oxford</common:city>
+                            <common:region>Oxfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6395</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-06-02T09:05:49.786Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3986144" display-index="0" path="/0000-0002-8683-8191/education/3986144" visibility="public">
+                    <common:created-date>2017-06-02T09:05:49.786Z</common:created-date>
+                    <common:last-modified-date>2017-06-02T09:05:49.786Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:role-title>A Levels: Biology, Psychology, Chemistry, History (AS-Level)</common:role-title>
+                    <common:start-date>
+                        <common:year>2005</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Brynteg School</common:name>
+                        <common:address>
+                            <common:city>Bridgend</common:city>
+                            <common:region>Bridgend</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>263774</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-8683-8191/employments">
+            <common:last-modified-date>2019-01-16T16:36:48.932Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-01-16T16:36:48.932Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7128854" display-index="1" path="/0000-0002-8683-8191/employment/7128854" visibility="public">
+                    <common:created-date>2019-01-16T16:36:48.932Z</common:created-date>
+                    <common:last-modified-date>2019-01-16T16:36:48.932Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:department-name>Clinical Infection Microbiology &amp; Immunology</common:department-name>
+                    <common:role-title>Postdoctoral Research Associate </common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Liverpool</common:name>
+                        <common:address>
+                            <common:city>Liverpool</common:city>
+                            <common:region>Merseyside</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4591</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-06-02T09:39:12.130Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3986314" display-index="0" path="/0000-0002-8683-8191/employment/3986314" visibility="public">
+                    <common:created-date>2017-06-02T09:39:12.130Z</common:created-date>
+                    <common:last-modified-date>2017-06-02T09:39:12.130Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <common:department-name>Conjugation</common:department-name>
+                    <common:role-title>Conjugation/QC Scientist </common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>03</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>09</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>BBI Holdings Plc</common:name>
+                        <common:address>
+                            <common:city>Cardiff</common:city>
+                            <common:region>Cardiff</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>64647</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-8683-8191/fundings">
+            <common:last-modified-date>2017-06-02T09:43:41.557Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-06-02T09:43:41.557Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="308899" path="/0000-0002-8683-8191/funding/308899" visibility="public" display-index="1">
+                    <common:created-date>2017-06-02T09:43:41.557Z</common:created-date>
+                    <common:last-modified-date>2017-06-02T09:43:41.557Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Reconstruction of an industrial P. aeruginosa computational model</common:title>
+                    </funding:title>
+                    <funding:type>award</funding:type>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>03</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Cardiff University</common:name>
+                        <common:address>
+                            <common:city>Cardiff</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-8683-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-8683-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-8683-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-8683-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-8683-8191/research-resources"/>
+        <activities:services path="/0000-0002-8683-8191/services"/>
+        <activities:works path="/0000-0002-8683-8191/works">
+            <common:last-modified-date>2019-08-05T13:17:38.180Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-08-05T13:17:38.180Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1099/mgen.0.000276</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1099/mgen.0.000276</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1099/mgen.0.000276</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58219513" path="/0000-0002-8683-8191/work/58219513" visibility="public" display-index="0">
+                    <common:created-date>2019-06-06T16:14:21.114Z</common:created-date>
+                    <common:last-modified-date>2019-08-05T13:17:38.180Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Not all Pseudomonas aeruginosa are equal: strains from industrial sources possess uniquely large multireplicon genomes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1099/mgen.0.000276</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1099/mgen.0.000276</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1099/mgen.0.000276</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1099/mgen.0.000276</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Microbial Genomics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-06T20:27:48.977Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41564-019-0383-z</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41564-019-0383-z</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41564-019-0383-z</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58225791" path="/0000-0002-8683-8191/work/58225791" visibility="public" display-index="1">
+                    <common:created-date>2019-06-06T20:27:48.977Z</common:created-date>
+                    <common:last-modified-date>2019-06-06T20:27:48.977Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8683-8191</common:uri>
+                            <common:path>0000-0002-8683-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Angharad E Green</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Genome mining identifies cepacin as a plant-protective metabolite of the biopesticidal bacterium Burkholderia ambifaria</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41564-019-0383-z</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41564-019-0383-z</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41564-019-0383-z</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2058-5276</common:external-id-value>
+                            <common:external-id-normalized transient="true">2058-5276</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/2058-5276</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1038/s41564-019-0383-z</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Nature Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-16T17:23:07.157Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/femsle/fny062</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/femsle/fny062</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1093/femsle/fny062</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>29548026</common:external-id-value>
+                        <common:external-id-normalized transient="true">29548026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42768185" path="/0000-0002-8683-8191/work/42768185" visibility="public" display-index="0">
+                    <common:created-date>2018-03-19T14:17:42.359Z</common:created-date>
+                    <common:last-modified-date>2018-03-19T14:17:42.359Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The consistent differential expression of genetic pathways following exposure of an industrial Pseudomonas aeruginosa strain to preservatives and a laundry detergent formulation.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>29548026</common:external-id-value>
+                            <common:external-id-normalized transient="true">29548026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/femsle/fny062</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/femsle/fny062</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1093/femsle/fny062</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/29548026</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>FEMS microbiology letters</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="43688229" path="/0000-0002-8683-8191/work/43688229" visibility="public" display-index="0">
+                    <common:created-date>2018-04-16T17:23:07.157Z</common:created-date>
+                    <common:last-modified-date>2018-04-16T17:23:07.157Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The consistent differential expression of genetic pathways following exposure of an industrial Pseudomonas aeruginosa strain to preservatives and a laundry detergent formulation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/femsle/fny062</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/femsle/fny062</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1093/femsle/fny062</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1093/femsle/fny062</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>FEMS Microbiology Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-03-19T14:12:35.659Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84863836268</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84863836268</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1574-6968.2012.02598.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1574-6968.2012.02598.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42768070" path="/0000-0002-8683-8191/work/42768070" visibility="public" display-index="0">
+                    <common:created-date>2018-03-19T14:12:35.659Z</common:created-date>
+                    <common:last-modified-date>2018-03-19T14:12:35.659Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effect of the flavonol morin on adhesion and aggregation of Streptococcus pyogenes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1574-6968.2012.02598.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1574-6968.2012.02598.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84863836268</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84863836268</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84863836268&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>FEMS Microbiology Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

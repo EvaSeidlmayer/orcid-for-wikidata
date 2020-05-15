@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-8559-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+        <common:path>0000-0001-8559-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-12-18T20:54:19.121Z</history:submission-date>
+        <common:last-modified-date>2019-09-20T23:19:15.329Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-8559-4191/person">
+        <common:last-modified-date>2019-02-22T17:08:01.456Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-8559-4191">
+            <common:created-date>2017-12-18T20:54:19.121Z</common:created-date>
+            <common:last-modified-date>2019-02-22T16:22:42.314Z</common:last-modified-date>
+            <personal-details:given-names>Zainab M.</personal-details:given-names>
+            <personal-details:family-name>Alawad</personal-details:family-name>
+            <personal-details:credit-name>Zainab M. Alawad</personal-details:credit-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-8559-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-8559-4191/researcher-urls"/>
+        <email:emails path="/0000-0001-8559-4191/email"/>
+        <address:addresses path="/0000-0001-8559-4191/address">
+            <common:last-modified-date>2019-02-22T16:23:06.806Z</common:last-modified-date>
+            <address:address put-code="1186717" visibility="public" path="/0000-0001-8559-4191/address/1186717" display-index="1">
+                <common:created-date>2019-02-22T16:23:06.806Z</common:created-date>
+                <common:last-modified-date>2019-02-22T16:23:06.806Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                        <common:path>0000-0001-8559-4191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Zainab M. Alawad</common:source-name>
+                </common:source>
+                <address:country>IQ</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-8559-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-8559-4191/external-identifiers">
+            <common:last-modified-date>2019-02-22T17:08:01.456Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1315533" visibility="public" path="/0000-0001-8559-4191/external-identifiers/1315533" display-index="0">
+                <common:created-date>2019-02-22T17:08:01.455Z</common:created-date>
+                <common:last-modified-date>2019-02-22T17:08:01.456Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57203725245</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57203725245&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-8559-4191/activities">
+        <common:last-modified-date>2019-09-20T23:19:15.331Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-8559-4191/distinctions"/>
+        <activities:educations path="/0000-0001-8559-4191/educations">
+            <common:last-modified-date>2019-05-01T21:20:35.669Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:33:02.188Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="7367246" display-index="1" path="/0000-0001-8559-4191/education/7367246" visibility="public">
+                    <common:created-date>2019-02-22T16:33:02.188Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:33:02.188Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>Master’s degree in Reproductive Science and women’s health</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University College London Institute for Women's Health</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>384710</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:35:21.876Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="5087137" display-index="1" path="/0000-0001-8559-4191/education/5087137" visibility="public">
+                    <common:created-date>2017-12-18T21:05:28.655Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:35:21.876Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>M.B.Ch.B</common:role-title>
+                    <common:start-date>
+                        <common:year>2004</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                        <common:month>07</common:month>
+                        <common:day>15</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Baghdad Bab al-Moadham Campus College of Medicine</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>108494</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-01T21:20:35.669Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="7804288" display-index="1" path="/0000-0001-8559-4191/education/7804288" visibility="public">
+                    <common:created-date>2019-05-01T21:20:35.669Z</common:created-date>
+                    <common:last-modified-date>2019-05-01T21:20:35.669Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:department-name>Scientific</common:department-name>
+                    <common:role-title>Highschool</common:role-title>
+                    <common:start-date>
+                        <common:year>1998</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2004</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Al-Akeeda highschool </common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-8559-4191/employments">
+            <common:last-modified-date>2019-02-22T16:46:35.004Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:35:58.746Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5087148" display-index="1" path="/0000-0001-8559-4191/employment/5087148" visibility="public">
+                    <common:created-date>2017-12-18T21:08:56.726Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:35:58.746Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:department-name>Physiology department</common:department-name>
+                    <common:role-title>Assistant Lecturer</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>02</common:month>
+                        <common:day>21</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Baghdad Bab al-Moadham Campus College of Medicine</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>108494</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:46:35.004Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7367303" display-index="1" path="/0000-0001-8559-4191/employment/7367303" visibility="public">
+                    <common:created-date>2019-02-22T16:40:22.055Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:46:35.004Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>Infertility specialist doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>12</common:month>
+                        <common:day>10</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Dr. Samara Fadhil private gynecology and infertility clinic</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:38:00.569Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7367286" display-index="1" path="/0000-0001-8559-4191/employment/7367286" visibility="public">
+                    <common:created-date>2019-02-22T16:38:00.569Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:38:00.569Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>junior house officer (rotator doctor)</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>12</common:month>
+                        <common:day>13</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>02</common:month>
+                        <common:day>21</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Baghdad Medical City</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>275686</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-8559-4191/fundings"/>
+        <activities:invited-positions path="/0000-0001-8559-4191/invited-positions"/>
+        <activities:memberships path="/0000-0001-8559-4191/memberships">
+            <common:last-modified-date>2019-02-22T17:03:59.631Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T17:03:59.631Z</common:last-modified-date>
+                <common:external-ids/>
+                <membership:membership-summary put-code="7367479" display-index="1" path="/0000-0001-8559-4191/membership/7367479" visibility="public">
+                    <common:created-date>2019-02-22T17:03:59.631Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T17:03:59.631Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>Member</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>11</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Iraqi Academics syndecate</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                    </common:organization>
+                </membership:membership-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:59:46.596Z</common:last-modified-date>
+                <common:external-ids/>
+                <membership:membership-summary put-code="7367452" display-index="1" path="/0000-0001-8559-4191/membership/7367452" visibility="public">
+                    <common:created-date>2019-02-22T16:59:46.596Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:59:46.596Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>MSc doctor</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>12</common:month>
+                        <common:day>10</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Iraqi Medical Association</common:name>
+                        <common:address>
+                            <common:city>Baghdad</common:city>
+                            <common:region>Baghdad</common:region>
+                            <common:country>IQ</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>430699</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </membership:membership-summary>
+            </activities:affiliation-group>
+        </activities:memberships>
+        <activities:peer-reviews path="/0000-0001-8559-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-8559-4191/qualifications">
+            <common:last-modified-date>2019-02-22T16:57:35.097Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:57:35.097Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="7367439" display-index="1" path="/0000-0001-8559-4191/qualification/7367439" visibility="public">
+                    <common:created-date>2019-02-22T16:57:35.097Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:57:35.097Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:department-name>CLIE</common:department-name>
+                    <common:role-title>pre-sessional English language course </common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                        <common:day>14</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                        <common:day>11</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University College London</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4919</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:52:11.197Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="7367405" display-index="1" path="/0000-0001-8559-4191/qualification/7367405" visibility="public">
+                    <common:created-date>2019-02-22T16:52:11.197Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:52:11.197Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>IELTS language exam</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                        <common:day>06</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>09</common:month>
+                        <common:day>06</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>British Council</common:name>
+                        <common:address>
+                            <common:city>Coventry</common:city>
+                            <common:region>Birmingham</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000308</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-02-22T16:50:14.572Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="7367393" display-index="1" path="/0000-0001-8559-4191/qualification/7367393" visibility="public">
+                    <common:created-date>2019-02-22T16:50:14.572Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T16:50:14.572Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <common:role-title>IELTS Language exam</common:role-title>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>11</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                        <common:month>11</common:month>
+                        <common:day>16</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>British Council</common:name>
+                        <common:address>
+                            <common:city>Amman</common:city>
+                            <common:region>Amman</common:region>
+                            <common:country>JO</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000308</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0001-8559-4191/research-resources"/>
+        <activities:services path="/0000-0001-8559-4191/services"/>
+        <activities:works path="/0000-0001-8559-4191/works">
+            <common:last-modified-date>2019-09-20T23:19:15.331Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-20T23:17:15.916Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.25179/tjem.2019-65572</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.25179/tjem.2019-65572</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.25179/tjem.2019-65572</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61899701" path="/0000-0001-8559-4191/work/61899701" visibility="public" display-index="1">
+                    <common:created-date>2019-09-20T23:17:15.916Z</common:created-date>
+                    <common:last-modified-date>2019-09-20T23:17:15.916Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cell-free DNA as a Clinical Indicator in Maternal Blood</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.25179/tjem.2019-65572</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.25179/tjem.2019-65572</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.25179/tjem.2019-65572</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1301-2193</common:external-id-value>
+                            <common:external-id-normalized transient="true">1301-2193</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1301-2193</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1308-9846</common:external-id-value>
+                            <common:external-id-normalized transient="true">1308-9846</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1308-9846</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.25179/tjem.2019-65572</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>13</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Turkish Journal of Endocrinology and Metabolism</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-20T23:19:15.331Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12669/pjms.35.4.558</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12669/pjms.35.4.558</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.12669/pjms.35.4.558</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61899824" path="/0000-0001-8559-4191/work/61899824" visibility="public" display-index="1">
+                    <common:created-date>2019-09-20T23:19:15.331Z</common:created-date>
+                    <common:last-modified-date>2019-09-20T23:19:15.331Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Maternal and cord blood prolactin level and pregnancy complications</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12669/pjms.35.4.558</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12669/pjms.35.4.558</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.12669/pjms.35.4.558</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1681-715X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1681-715X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1681-715X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1682-024X</common:external-id-value>
+                            <common:external-id-normalized transient="true">1682-024X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1682-024X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.12669/pjms.35.4.558</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                        <common:day>27</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Pakistan Journal of Medical Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-19T19:51:37.884Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57576908" path="/0000-0001-8559-4191/work/57576908" visibility="public" display-index="1">
+                    <common:created-date>2019-05-19T19:51:37.884Z</common:created-date>
+                    <common:last-modified-date>2019-05-19T19:51:37.884Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Level of follicular fluid vitamin D and embryo quality in a sample of Iraqi women undergoing IVF</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.32007/med.1936/jfacmedbagdad.v60i4.7</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0041-9419</common:external-id-value>
+                            <common:external-id-normalized transient="true">0041-9419</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2410-8057</common:external-id-value>
+                            <common:external-id-normalized transient="true">2410-8057</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.32007/med.1936/jfacmedbagdad.v60i4.7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>12</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of the Faculty of Medicine Baghdad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-01T21:15:51.759Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="56968855" path="/0000-0001-8559-4191/work/56968855" visibility="public" display-index="1">
+                    <common:created-date>2019-05-01T21:15:51.759Z</common:created-date>
+                    <common:last-modified-date>2019-05-01T21:15:51.759Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cord Blood Sex Hormones Concentration: Relation to Birth Weight and Pregnancy Complications</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>3rd International Medical Conference, Kerbala-2018</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-01T21:10:57.041Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4328/jcam.5908</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4328/jcam.5908</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4328/jcam.5908</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56968801" path="/0000-0001-8559-4191/work/56968801" visibility="public" display-index="1">
+                    <common:created-date>2019-05-01T21:10:57.041Z</common:created-date>
+                    <common:last-modified-date>2019-05-01T21:10:57.041Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lead among children with autism in Iraq. Is it a potential factor?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4328/jcam.5908</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4328/jcam.5908</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4328/jcam.5908</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1309-0720</common:external-id-value>
+                            <common:external-id-normalized transient="true">1309-0720</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.4328/jcam.5908</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical &amp; Analytical Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-22T17:08:08.143Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85053639787</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85053639787</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13005/bpj/1394</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13005/bpj/1394</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54473660" path="/0000-0001-8559-4191/work/54473660" visibility="public" display-index="0">
+                    <common:created-date>2019-02-22T17:08:08.143Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T17:08:08.143Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Anti CD20 monoclonal antibody (rituximab) as a rescue treatment in severe and refractory SLE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13005/bpj/1394</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13005/bpj/1394</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85053639787</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85053639787</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85053639787&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biomedical and Pharmacology Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-02-22T17:08:08.153Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.7860/JCDR/2018/37181.12050</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.7860/jcdr/2018/37181.12050</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85052757597</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85052757597</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54473661" path="/0000-0001-8559-4191/work/54473661" visibility="public" display-index="0">
+                    <common:created-date>2019-02-22T17:08:08.153Z</common:created-date>
+                    <common:last-modified-date>2019-02-22T17:08:08.153Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lymphocyte apoptosis in third trimester of pregnancy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.7860/JCDR/2018/37181.12050</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.7860/jcdr/2018/37181.12050</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85052757597</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85052757597</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85052757597&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical and Diagnostic Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-01T21:04:05.389Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="54474465" path="/0000-0001-8559-4191/work/54474465" visibility="public" display-index="1">
+                    <common:created-date>2019-02-22T21:04:05.387Z</common:created-date>
+                    <common:last-modified-date>2019-05-01T21:04:05.389Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Environmental Lead Exposure and Male Infertility</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>04</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>10th Scientific Conference, College of Medicine, AL-Nahrain University</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-01T21:00:40.929Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="54474491" path="/0000-0001-8559-4191/work/54474491" visibility="public" display-index="1">
+                    <common:created-date>2019-02-22T21:00:40.926Z</common:created-date>
+                    <common:last-modified-date>2019-05-01T21:00:40.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multiple choice questions and essay questions in assessment of success rate in medical physiology</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://www.iasj.net/iasj?func=article&amp;aId=138831</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Faculty of Medicine Baghdad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-03T12:04:29.918Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="57025536" path="/0000-0001-8559-4191/work/57025536" visibility="public" display-index="1">
+                    <common:created-date>2019-05-03T12:04:29.918Z</common:created-date>
+                    <common:last-modified-date>2019-05-03T12:04:29.918Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Can follicular fluid Anti-Mullerian hormone predict IVF treatment outcome and embryo quality in PCOS and non-PCOS patients undergoing mild ovarian stimulation?</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>dissertation-thesis</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>University College London</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-03T12:09:13.668Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="54474355" path="/0000-0001-8559-4191/work/54474355" visibility="public" display-index="1">
+                    <common:created-date>2019-02-22T12:09:13.662Z</common:created-date>
+                    <common:last-modified-date>2019-05-03T12:09:13.668Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8559-4191</common:uri>
+                            <common:path>0000-0001-8559-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zainab M. Alawad</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The effect of mineral levels in the mother’s circulation on the outcome of pregnancy</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>http://iqjmc.uobaghdad.edu.iq/index.php/19JFacMedBaghdad36/article/view/319</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>04</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Faculty of Medicine Baghdad</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

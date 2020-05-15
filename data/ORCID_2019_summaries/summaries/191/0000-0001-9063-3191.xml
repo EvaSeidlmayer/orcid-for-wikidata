@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-9063-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-9063-3191</common:uri>
+        <common:path>0000-0001-9063-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>es</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-04-30T14:21:30.155Z</history:submission-date>
+        <common:last-modified-date>2017-05-04T15:16:19.034Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-9063-3191/person">
+        <common:last-modified-date>2016-04-15T10:44:16.522Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-9063-3191">
+            <common:created-date>2016-04-15T21:31:33.069Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:31:33.069Z</common:last-modified-date>
+            <personal-details:given-names>Pilar</personal-details:given-names>
+            <personal-details:family-name>Martinez</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-9063-3191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-9063-3191/researcher-urls"/>
+        <email:emails path="/0000-0001-9063-3191/email"/>
+        <address:addresses path="/0000-0001-9063-3191/address">
+            <common:last-modified-date>2016-04-15T10:44:16.522Z</common:last-modified-date>
+            <address:address put-code="456895" visibility="public" path="/0000-0001-9063-3191/address/456895" display-index="0">
+                <common:created-date>2016-04-15T10:44:16.522Z</common:created-date>
+                <common:last-modified-date>2016-04-15T10:44:16.522Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-9063-3191</common:uri>
+                        <common:path>0000-0001-9063-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Pilar Martinez</common:source-name>
+                </common:source>
+                <address:country>ES</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-9063-3191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-9063-3191/external-identifiers">
+            <common:last-modified-date>2016-04-15T09:34:51.496Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="461958" visibility="public" path="/0000-0001-9063-3191/external-identifiers/461958" display-index="0">
+                <common:created-date>2016-04-15T09:34:51.496Z</common:created-date>
+                <common:last-modified-date>2016-04-15T09:34:51.496Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>E-8591-2016</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/E-8591-2016</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-9063-3191/activities">
+        <common:last-modified-date>2017-05-04T15:14:07.740Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-9063-3191/distinctions"/>
+        <activities:educations path="/0000-0001-9063-3191/educations">
+            <common:last-modified-date>2016-04-15T10:00:05.886Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-04-15T10:00:05.886Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1751771" display-index="0" path="/0000-0001-9063-3191/education/1751771" visibility="public">
+                    <common:created-date>2016-04-15T10:00:05.886Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:00:05.886Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9063-3191</common:uri>
+                            <common:path>0000-0001-9063-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pilar Martinez</common:source-name>
+                    </common:source>
+                    <common:department-name>Anatomía y Anatomía Patológica Comparadas</common:department-name>
+                    <common:role-title>Doctor en Veterinaria</common:role-title>
+                    <common:organization>
+                        <common:name>Universidad Complutense de Madrid</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:region>Comunidad de Madrid</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16734</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-9063-3191/employments">
+            <common:last-modified-date>2016-04-15T10:01:08.371Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-04-15T10:01:08.371Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1751775" display-index="0" path="/0000-0001-9063-3191/employment/1751775" visibility="public">
+                    <common:created-date>2016-04-15T10:01:08.371Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:01:08.371Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9063-3191</common:uri>
+                            <common:path>0000-0001-9063-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Pilar Martinez</common:source-name>
+                    </common:source>
+                    <common:department-name>Anatomía y Anatomía Patológica Comparadas</common:department-name>
+                    <common:role-title>Profesor Contratado Doctor</common:role-title>
+                    <common:organization>
+                        <common:name>Universidad Complutense de Madrid</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:region>Comunidad de Madrid</common:region>
+                            <common:country>ES</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>16734</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-9063-3191/fundings"/>
+        <activities:invited-positions path="/0000-0001-9063-3191/invited-positions"/>
+        <activities:memberships path="/0000-0001-9063-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-9063-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-9063-3191/qualifications"/>
+        <activities:research-resources path="/0000-0001-9063-3191/research-resources"/>
+        <activities:services path="/0000-0001-9063-3191/services"/>
+        <activities:works path="/0000-0001-9063-3191/works">
+            <common:last-modified-date>2017-05-04T15:14:07.740Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-05-04T15:13:03.735Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bph.13579</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bph.13579</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000386763200002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000386763200002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32413204" path="/0000-0001-9063-3191/work/32413204" visibility="public" display-index="0">
+                    <common:created-date>2017-05-04T15:13:03.735Z</common:created-date>
+                    <common:last-modified-date>2017-05-04T15:13:03.735Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Augmented oxidative stress and preserved vasoconstriction induced by hydrogen peroxide in coronary arteries in obesity: role of COX-2</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bph.13579</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bph.13579</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000386763200002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000386763200002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000386763200002&amp;KeyUID=WOS:000386763200002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-04T15:13:03.738Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0157424</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0157424</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000377564000066</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000377564000066</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32413205" path="/0000-0001-9063-3191/work/32413205" visibility="public" display-index="0">
+                    <common:created-date>2017-05-04T15:13:03.738Z</common:created-date>
+                    <common:last-modified-date>2017-05-04T15:13:03.738Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impaired Excitatory Neurotransmission in the Urinary Bladder from the Obese Zucker Rat: Role of Cannabinoid Receptors</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0157424</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0157424</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000377564000066</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000377564000066</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000377564000066&amp;KeyUID=WOS:000377564000066</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.645Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/nau.22685</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/nau.22685</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000370481500023</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000370481500023</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683743" path="/0000-0001-9063-3191/work/23683743" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.645Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.645Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Pre- and Post-Junctional Bradykinin B-2 Receptors Regulate Smooth Muscle Tension to the Pig Intravesical Ureter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/nau.22685</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/nau.22685</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000370481500023</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000370481500023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000370481500023&amp;KeyUID=WOS:000370481500023</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neurourology and Urodynamics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-04T15:14:07.740Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000390515100001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000390515100001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.pupt.2016.09.003</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.pupt.2016.09.003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32413215" path="/0000-0001-9063-3191/work/32413215" visibility="public" display-index="0">
+                    <common:created-date>2017-05-04T15:14:07.740Z</common:created-date>
+                    <common:last-modified-date>2017-05-04T15:14:07.740Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of endogenous hydrogen sulfide in nerve-evoked relaxation of pig terminal bronchioles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.pupt.2016.09.003</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.pupt.2016.09.003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000390515100001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000390515100001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000390515100001&amp;KeyUID=WOS:000390515100001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Pulmonary Pharmacology &amp;amp; Therapeutics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.648Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000355896500008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000355896500008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.freeradbiomed.2015.03.024</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.freeradbiomed.2015.03.024</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683744" path="/0000-0001-9063-3191/work/23683744" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.648Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.648Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>COX-2 is involved in vascular oxidative stress and endothelial dysfunction of renal interlobar arteries from obese Zucker rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.freeradbiomed.2015.03.024</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.freeradbiomed.2015.03.024</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000355896500008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000355896500008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000355896500008&amp;KeyUID=WOS:000355896500008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Free Radical Biology and Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.650Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000341774300010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000341774300010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0106372</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0106372</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683745" path="/0000-0001-9063-3191/work/23683745" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.650Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.650Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Diminished Neurogenic Femoral Artery Vasoconstrictor Response in a Zucker Obese Rat Model: Differential Regulation of NOS and COX Derivatives</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0106372</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0106372</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000341774300010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000341774300010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000341774300010&amp;KeyUID=WOS:000341774300010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.653Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jsm.12526</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jsm.12526</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000337563800010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000337563800010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683746" path="/0000-0001-9063-3191/work/23683746" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.653Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.653Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endothelin A (ETA) Receptors Are Involved in Augmented Adrenergic Vasoconstriction and Blunted Nitric Oxide-Mediated Relaxation of Penile Arteries from Insulin-Resistant Obese Zucker Rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jsm.12526</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jsm.12526</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000337563800010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000337563800010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000337563800010&amp;KeyUID=WOS:000337563800010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Sexual Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.657Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000345965500015</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000345965500015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/bph.12870</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/bph.12870</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683747" path="/0000-0001-9063-3191/work/23683747" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.657Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.657Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endothelin-1 contributes to endothelial dysfunction and enhanced vasoconstriction through augmented superoxide production in penile arteries from insulin-resistant obese rats: role of ETA and ETB receptors</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/bph.12870</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/bph.12870</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000345965500015</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000345965500015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000345965500015&amp;KeyUID=WOS:000345965500015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.660Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0113580</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0113580</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000346906600060</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000346906600060</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683748" path="/0000-0001-9063-3191/work/23683748" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.660Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.660Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrogen Sulfide Plays a Key Role in the Inhibitory Neurotransmission to the Pig Intravesical Ureter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0113580</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0113580</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000346906600060</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000346906600060</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000346906600060&amp;KeyUID=WOS:000346906600060</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.662Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/nau.22434</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/nau.22434</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000337630600016</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000337630600016</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683749" path="/0000-0001-9063-3191/work/23683749" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.662Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.662Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neuronal and non-neuronal bradykinin receptors are involved in the contraction and/or relaxation to the pig bladder neck smooth muscle</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/nau.22434</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/nau.22434</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000337630600016</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000337630600016</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000337630600016&amp;KeyUID=WOS:000337630600016</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neurourology and Urodynamics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.664Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000333672900011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000333672900011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jsm.12456</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jsm.12456</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683750" path="/0000-0001-9063-3191/work/23683750" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.664Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.664Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Powerful Relaxation of Phosphodiesterase Type 4 Inhibitor Rolipram in the Pig and Human Bladder Neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jsm.12456</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jsm.12456</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000333672900011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000333672900011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000333672900011&amp;KeyUID=WOS:000333672900011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Sexual Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.667Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0109432</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0109432</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000343730400057</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000343730400057</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683751" path="/0000-0001-9063-3191/work/23683751" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.667Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.667Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Upregulation of SK3 and IK1 Channels Contributes to the Enhanced Endothelial Calcium Signaling and the Preserved Coronary Relaxation in Obese Zucker Rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0109432</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0109432</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000343730400057</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000343730400057</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000343730400057&amp;KeyUID=WOS:000343730400057</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.672Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.juro.2012.10.006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.juro.2012.10.006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000317721800127</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000317721800127</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683752" path="/0000-0001-9063-3191/work/23683752" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.672Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.672Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endogenous Hydrogen Sulfide has a Powerful Role in Inhibitory Neurotransmission to the Pig Bladder Neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.juro.2012.10.006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.juro.2012.10.006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000317721800127</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000317721800127</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000317721800127&amp;KeyUID=WOS:000317721800127</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Urology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.675Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000323826900004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000323826900004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jsm.12234</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jsm.12234</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683753" path="/0000-0001-9063-3191/work/23683753" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.675Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.675Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impaired Endothelin Calcium Signaling Coupled to Endothelin Type B Receptors in Penile Arteries from Insulin-Resistant Obese Zucker Rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jsm.12234</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jsm.12234</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000323826900004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000323826900004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000323826900004&amp;KeyUID=WOS:000323826900004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Sexual Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.678Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000301012000008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000301012000008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bcp.2011.12.038</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bcp.2011.12.038</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683754" path="/0000-0001-9063-3191/work/23683754" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.678Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.678Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endothelial and neural factors functionally involved in the modulation of noradrenergic vasoconstriction in healthy pig internal mammary artery</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bcp.2011.12.038</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bcp.2011.12.038</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000301012000008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000301012000008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000301012000008&amp;KeyUID=WOS:000301012000008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.680Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/nau.22203</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/nau.22203</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000305389800017</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000305389800017</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683755" path="/0000-0001-9063-3191/work/23683755" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.680Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.680Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endothelin ETB Receptors Are Involved in the Relaxation to the Pig Urinary Bladder neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/nau.22203</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/nau.22203</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000305389800017</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000305389800017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000305389800017&amp;KeyUID=WOS:000305389800017</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neurourology and Urodynamics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.683Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000299372300028</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000299372300028</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/nau.21187</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/nau.21187</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683756" path="/0000-0001-9063-3191/work/23683756" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.683Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.683Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mechanisms involved in endothelin-1-induced contraction of the pig urinary bladder neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/nau.21187</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/nau.21187</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000299372300028</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000299372300028</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000299372300028&amp;KeyUID=WOS:000299372300028</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neurourology and Urodynamics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.685Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000305341000083</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000305341000083</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0036027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0036027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683757" path="/0000-0001-9063-3191/work/23683757" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.685Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.685Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of Neural NO Synthase (nNOS) Uncoupling in the Dysfunctional Nitrergic Vasorelaxation of Penile Arteries from Insulin-Resistant Obese Zucker Rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0036027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0036027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000305341000083</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000305341000083</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000305341000083&amp;KeyUID=WOS:000305341000083</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.689Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11302-011-9238-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11302-011-9238-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000297498200006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000297498200006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683758" path="/0000-0001-9063-3191/work/23683758" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.689Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.689Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mechanisms involved in the adenosine-induced vasorelaxation to the pig prostatic small arteries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11302-011-9238-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11302-011-9238-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000297498200006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000297498200006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000297498200006&amp;KeyUID=WOS:000297498200006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Purinergic Signalling</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.693Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00210-011-0666-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00210-011-0666-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000294060100004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000294060100004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683759" path="/0000-0001-9063-3191/work/23683759" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.693Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.693Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mechanisms involved in the nitric oxide-induced vasorelaxation in porcine prostatic small arteries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00210-011-0666-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00210-011-0666-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000294060100004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000294060100004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000294060100004&amp;KeyUID=WOS:000294060100004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Naunyn-Schmiedebergs Archives of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.700Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.juro.2011.03.142</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.juro.2011.03.142</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000292545100125</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000292545100125</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683760" path="/0000-0001-9063-3191/work/23683760" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.700Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.700Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of Calcitonin Gene-Related Peptide in Inhibitory Neurotransmission to the Pig Bladder Neck</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.juro.2011.03.142</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.juro.2011.03.142</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000292545100125</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000292545100125</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000292545100125&amp;KeyUID=WOS:000292545100125</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Urology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.572Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1476-5381.2009.00553.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1476-5381.2009.00553.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000274407400010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000274407400010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667905" path="/0000-0001-9063-3191/work/23667905" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.572Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.572Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Altered arachidonic acid metabolism via COX-1 and COX-2 contributes to the endothelial dysfunction of penile arteries from obese Zucker rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1476-5381.2009.00553.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1476-5381.2009.00553.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000274407400010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000274407400010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000274407400010&amp;KeyUID=WOS:000274407400010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.704Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.atherosclerosis.2010.09.022</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.atherosclerosis.2010.09.022</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000284869700010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000284869700010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683761" path="/0000-0001-9063-3191/work/23683761" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.704Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.704Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Enhanced cyclooxygenase 2-mediated vasorelaxation in coronary arteries from insulin-resistant obese Zucker rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.atherosclerosis.2010.09.022</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.atherosclerosis.2010.09.022</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000284869700010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000284869700010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000284869700010&amp;KeyUID=WOS:000284869700010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Atherosclerosis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-20T10:24:33.712Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1476-5381.2010.00825.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1476-5381.2010.00825.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000281210400007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000281210400007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23683762" path="/0000-0001-9063-3191/work/23683762" visibility="public" display-index="0">
+                    <common:created-date>2016-04-20T10:24:33.712Z</common:created-date>
+                    <common:last-modified-date>2016-04-20T10:24:33.712Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Insulin resistance in penile arteries from a rat model of metabolic syndrome</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1476-5381.2010.00825.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1476-5381.2010.00825.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000281210400007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000281210400007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000281210400007&amp;KeyUID=WOS:000281210400007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.578Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1152/ajpheart.01308.2008</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1152/ajpheart.01308.2008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000268348200026</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000268348200026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667906" path="/0000-0001-9063-3191/work/23667906" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.578Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.578Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Differential structural and functional changes in penile and coronary arteries from obese Zucker rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1152/ajpheart.01308.2008</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1152/ajpheart.01308.2008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000268348200026</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000268348200026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000268348200026&amp;KeyUID=WOS:000268348200026</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Physiology-Heart and Circulatory Physiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.581Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000269933100026</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000269933100026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ejphar.2009.06.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ejphar.2009.06.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667907" path="/0000-0001-9063-3191/work/23667907" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.581Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.581Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endothelial and potassium channel dependent modulation of noradrenergic vasoconstriction in the pig radial artery</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ejphar.2009.06.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ejphar.2009.06.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000269933100026</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000269933100026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000269933100026&amp;KeyUID=WOS:000269933100026</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.584Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000252475900002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000252475900002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00210-007-0227-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00210-007-0227-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667908" path="/0000-0001-9063-3191/work/23667908" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.584Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.584Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Noradrenergic vasoconstriction of pig prostatic small arteries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00210-007-0227-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00210-007-0227-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000252475900002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000252475900002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000252475900002&amp;KeyUID=WOS:000252475900002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Naunyn-Schmiedebergs Archives of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.598Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1439-0264.2004.00575.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1439-0264.2004.00575.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000227720100004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000227720100004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667909" path="/0000-0001-9063-3191/work/23667909" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.598Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.598Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Stereological study of the external urethral sphincter in the female urethra of the lamb: A new model for studies on urinary continence</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1439-0264.2004.00575.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1439-0264.2004.00575.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000227720100004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000227720100004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000227720100004&amp;KeyUID=WOS:000227720100004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Anatomia Histologia Embryologia-Journal of Veterinary Medicine Series C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.602Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000225967300009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000225967300009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/sj.bjp.0706005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/sj.bjp.0706005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667910" path="/0000-0001-9063-3191/work/23667910" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.602Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.602Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Heterogeneity of the neuropeptide Y (NPY) contractile and relaxing receptors in horse penile small arteries</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/sj.bjp.0706005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/sj.bjp.0706005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000225967300009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000225967300009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000225967300009&amp;KeyUID=WOS:000225967300009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Journal of Pharmacology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.605Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000225576000004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000225576000004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/sj.ijir.3901228</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/sj.ijir.3901228</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667911" path="/0000-0001-9063-3191/work/23667911" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.605Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.605Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Immunohistochemical and functional evidence for a noradrenergic regulation in the horse penile deep dorsal vein</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/sj.ijir.3901228</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/sj.ijir.3901228</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000225576000004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000225576000004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000225576000004&amp;KeyUID=WOS:000225576000004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2004</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Impotence Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.611Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0165-3806(03)00194-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0165-3806(03)00194-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000185443700009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000185443700009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667912" path="/0000-0001-9063-3191/work/23667912" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.611Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.611Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Neurochemical heterogeneity of the thalamic reticular and perireticular nuclei in developing rabbits: patterns of calbindin expression</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0165-3806(03)00194-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0165-3806(03)00194-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000185443700009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000185443700009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000185443700009&amp;KeyUID=WOS:000185443700009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Developmental Brain Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.617Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1046/j.1469-7580.2002.00025.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1046/j.1469-7580.2002.00025.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000175371500010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000175371500010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667913" path="/0000-0001-9063-3191/work/23667913" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.617Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.617Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>NADPH-diaphorase distribution in the rabbit superior colliculus and co-localization with calcium-binding proteins</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1046/j.1469-7580.2002.00025.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1046/j.1469-7580.2002.00025.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000175371500010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000175371500010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000175371500010&amp;KeyUID=WOS:000175371500010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Anatomy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-19T14:39:10.622Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0165-3806(02)00356-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0165-3806(02)00356-5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000177022800005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000177022800005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23667914" path="/0000-0001-9063-3191/work/23667914" visibility="public" display-index="0">
+                    <common:created-date>2016-04-19T14:39:10.622Z</common:created-date>
+                    <common:last-modified-date>2016-04-19T14:39:10.622Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The thalamic reticular and perireticular nuclei in developing rabbits: patterns of parvalbumin expression</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0165-3806(02)00356-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0165-3806(02)00356-5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000177022800005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000177022800005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000177022800005&amp;KeyUID=WOS:000177022800005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Developmental Brain Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-15T10:53:09.630Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000168749400014</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000168749400014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0940-9602(01)80236-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0940-9602(01)80236-3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23593394" path="/0000-0001-9063-3191/work/23593394" visibility="public" display-index="0">
+                    <common:created-date>2016-04-15T10:53:09.630Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:53:09.630Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Age-related changes in the ventricular system of the dog brain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0940-9602(01)80236-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0940-9602(01)80236-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000168749400014</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000168749400014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000168749400014&amp;KeyUID=WOS:000168749400014</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Annals of Anatomy-Anatomischer Anzeiger</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-15T10:53:09.633Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000087958300010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000087958300010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/1097-0185(20000701)259:3&lt;334::aid-ar100&gt;3.0.co;2-k</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/1097-0185(20000701)259:3&lt;334::aid-ar100&gt;3.0.co;2-k</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23593395" path="/0000-0001-9063-3191/work/23593395" visibility="public" display-index="0">
+                    <common:created-date>2016-04-15T10:53:09.633Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:53:09.633Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Calbindin D28k and parvalbumin immunoreactivity in the rabbit superior colliculus: An anatomical study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/1097-0185(20000701)259:3&lt;334::aid-ar100&gt;3.0.co;2-k</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/1097-0185(20000701)259:3&lt;334::aid-ar100&gt;3.0.co;2-k</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000087958300010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000087958300010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000087958300010&amp;KeyUID=WOS:000087958300010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Anatomical Record</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-15T10:49:45.811Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997WY24200005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997wy24200005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1439-0264.1997.tb00101.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1439-0264.1997.tb00101.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23593251" path="/0000-0001-9063-3191/work/23593251" visibility="public" display-index="0">
+                    <common:created-date>2016-04-15T10:49:45.811Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:49:45.811Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A quantitative study of ganglion cells in the goat retina</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1439-0264.1997.tb00101.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1439-0264.1997.tb00101.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997WY24200005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997wy24200005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997WY24200005&amp;KeyUID=WOS:A1997WY24200005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Anatomia Histologia Embryologia-Journal of Veterinary Medicine Series C-Zentralblatt Fur Veterinarmedizin Reihe C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-15T10:02:08.582Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/j.1439-0264.1995.tb00010.x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/j.1439-0264.1995.tb00010.x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QZ06600010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qz06600010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23592053" path="/0000-0001-9063-3191/work/23592053" visibility="public" display-index="0">
+                    <common:created-date>2016-04-15T10:02:08.582Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T10:02:08.582Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A QUANTITATIVE STUDY OF GANGLION-CELLS IN THE GERMAN-SHEPHERD DOG RETINA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/j.1439-0264.1995.tb00010.x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/j.1439-0264.1995.tb00010.x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QZ06600010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qz06600010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QZ06600010&amp;KeyUID=WOS:A1995QZ06600010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Anatomia Histologia Embryologia-Journal of Veterinary Medicine Series C-Zentralblatt Fur Veterinarmedizin Reihe C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-04-15T09:43:29.896Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/jmor.1052240209</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/jmor.1052240209</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QX89500008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qx89500008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23591605" path="/0000-0001-9063-3191/work/23591605" visibility="public" display-index="0">
+                    <common:created-date>2016-04-15T09:43:29.896Z</common:created-date>
+                    <common:last-modified-date>2016-04-15T09:43:29.896Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SPINAL-CORD CENTRAL CANAL OF THE GERMAN-SHEPHERD DOG - MORPHOLOGICAL, HISTOLOGICAL, AND ULTRASTRUCTURAL CONSIDERATIONS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/jmor.1052240209</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/jmor.1052240209</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QX89500008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qx89500008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QX89500008&amp;KeyUID=WOS:A1995QX89500008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Morphology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

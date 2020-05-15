@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-4676-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+        <common:path>0000-0003-4676-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>ko</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-06-12T11:26:37.196Z</history:submission-date>
+        <common:last-modified-date>2019-10-04T23:19:35.013Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-4676-5191/person">
+        <person:name visibility="public" path="0000-0003-4676-5191">
+            <common:created-date>2016-04-16T00:26:40.807Z</common:created-date>
+            <common:last-modified-date>2016-04-16T00:26:40.807Z</common:last-modified-date>
+            <personal-details:given-names>Jong-Wan</personal-details:given-names>
+            <personal-details:family-name>Park</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-4676-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-4676-5191/researcher-urls"/>
+        <email:emails path="/0000-0003-4676-5191/email"/>
+        <address:addresses path="/0000-0003-4676-5191/address"/>
+        <keyword:keywords path="/0000-0003-4676-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-4676-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-4676-5191/activities">
+        <common:last-modified-date>2019-10-04T23:19:35.025Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-4676-5191/distinctions"/>
+        <activities:educations path="/0000-0003-4676-5191/educations">
+            <common:last-modified-date>2014-10-24T06:48:33.838Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-10-24T06:48:33.838Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="539118" display-index="0" path="/0000-0003-4676-5191/education/539118" visibility="public">
+                    <common:created-date>2014-10-24T06:48:33.838Z</common:created-date>
+                    <common:last-modified-date>2014-10-24T06:48:33.838Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <common:department-name>Pharmacology</common:department-name>
+                    <common:role-title>MD, PhD</common:role-title>
+                    <common:start-date>
+                        <common:year>1980</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1994</common:year>
+                        <common:month>02</common:month>
+                        <common:day>28</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Seoul National University College of Medicine</common:name>
+                        <common:address>
+                            <common:city>Seoul</common:city>
+                            <common:country>KR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>37990</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-4676-5191/employments">
+            <common:last-modified-date>2014-10-24T06:49:10.605Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-10-24T06:49:10.605Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="539121" display-index="0" path="/0000-0003-4676-5191/employment/539121" visibility="public">
+                    <common:created-date>2014-10-24T06:49:10.605Z</common:created-date>
+                    <common:last-modified-date>2014-10-24T06:49:10.605Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <common:department-name>Pharmacology</common:department-name>
+                    <common:role-title>professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1994</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Seoul National University College of Medicine</common:name>
+                        <common:address>
+                            <common:city>Seoul</common:city>
+                            <common:country>KR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>37990</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-4676-5191/fundings"/>
+        <activities:invited-positions path="/0000-0003-4676-5191/invited-positions"/>
+        <activities:memberships path="/0000-0003-4676-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-4676-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-4676-5191/qualifications"/>
+        <activities:research-resources path="/0000-0003-4676-5191/research-resources"/>
+        <activities:services path="/0000-0003-4676-5191/services"/>
+        <activities:works path="/0000-0003-4676-5191/works">
+            <common:last-modified-date>2019-10-04T23:19:35.025Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-03-05T12:43:54.688Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41598-019-39843-6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41598-019-39843-6</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41598-019-39843-6</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54900987" path="/0000-0003-4676-5191/work/54900987" visibility="public" display-index="0">
+                    <common:created-date>2019-03-05T12:43:54.688Z</common:created-date>
+                    <common:last-modified-date>2019-03-05T12:43:54.688Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nuclear FGFR2 negatively regulates hypoxia-induced cell invasion in prostate cancer by interacting with HIF-1 and HIF-2</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41598-019-39843-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41598-019-39843-6</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41598-019-39843-6</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41598-019-39843-6</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-22T10:51:44.995Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41598-019-47071-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41598-019-47071-1</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41598-019-47071-1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59724445" path="/0000-0003-4676-5191/work/59724445" visibility="public" display-index="0">
+                    <common:created-date>2019-07-22T10:51:44.995Z</common:created-date>
+                    <common:last-modified-date>2019-07-22T10:51:44.995Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>PIN1 transcript variant 2 acts as a long non-coding RNA that controls the HIF-1-driven hypoxic response</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41598-019-47071-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41598-019-47071-1</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41598-019-47071-1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41598-019-47071-1</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-08-14T16:40:10.889Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ebiom.2019.07.035</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ebiom.2019.07.035</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.ebiom.2019.07.035</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59657371" path="/0000-0003-4676-5191/work/59657371" visibility="public" display-index="0">
+                    <common:created-date>2019-07-19T12:20:14.406Z</common:created-date>
+                    <common:last-modified-date>2019-08-14T16:40:10.889Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Interleukin (IL)-13 and IL-17A contribute to neo-osteogenesis in chronic rhinosinusitis by inducing RUNX2</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ebiom.2019.07.035</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ebiom.2019.07.035</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.ebiom.2019.07.035</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.ebiom.2019.07.035</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>EBioMedicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-29T11:55:38.500Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/mats.201900009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/mats.201900009</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/mats.201900009</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56573046" path="/0000-0003-4676-5191/work/56573046" visibility="public" display-index="0">
+                    <common:created-date>2019-04-18T12:22:21.093Z</common:created-date>
+                    <common:last-modified-date>2019-07-29T11:55:38.500Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Graphoepitaxial Assembly of Block Copolymer for Bending Stripe Patterns</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/mats.201900009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/mats.201900009</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/mats.201900009</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/mats.201900009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                        <common:day>18</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Macromolecular Theory and Simulations</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-30T12:27:03.313Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41388-019-0676-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41388-019-0676-y</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41388-019-0676-y</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52833950" path="/0000-0003-4676-5191/work/52833950" visibility="public" display-index="0">
+                    <common:created-date>2019-01-18T12:10:33.973Z</common:created-date>
+                    <common:last-modified-date>2019-07-30T12:27:03.313Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Oxygen sensor FIH inhibits HACE1-dependent ubiquitination of Rac1 to enhance metastatic potential in breast cancer cells</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41388-019-0676-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41388-019-0676-y</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41388-019-0676-y</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41388-019-0676-y</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>05</common:month>
+                        <common:day>18</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Oncogene</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-22T05:14:07.710Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4168/aair.2019.11.5.691</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4168/aair.2019.11.5.691</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.4168/aair.2019.11.5.691</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59712791" path="/0000-0003-4676-5191/work/59712791" visibility="public" display-index="0">
+                    <common:created-date>2019-07-22T05:14:07.710Z</common:created-date>
+                    <common:last-modified-date>2019-07-22T05:14:07.710Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>In-Depth, Proteomic Analysis of Nasal Secretions from Patients With Chronic Rhinosinusitis and Nasal Polyps</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4168/aair.2019.11.5.691</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4168/aair.2019.11.5.691</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.4168/aair.2019.11.5.691</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.4168/aair.2019.11.5.691</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Allergy, Asthma &amp; Immunology Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-10-04T23:19:35.025Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41467-018-06606-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41467-018-06606-2</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41467-018-06606-2</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48819225" path="/0000-0003-4676-5191/work/48819225" visibility="public" display-index="0">
+                    <common:created-date>2018-10-01T15:07:59.704Z</common:created-date>
+                    <common:last-modified-date>2019-10-04T23:19:35.025Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aberrant expression of CITED2 promotes prostate cancer metastasis by activating the nucleolin-AKT pathway</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41467-018-06606-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41467-018-06606-2</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41467-018-06606-2</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41467-018-06606-2</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Nature Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-17T23:49:19.400Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41598-018-24356-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41598-018-24356-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41598-018-24356-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43563342" path="/0000-0003-4676-5191/work/43563342" visibility="public" display-index="0">
+                    <common:created-date>2018-04-12T14:31:54.136Z</common:created-date>
+                    <common:last-modified-date>2019-04-17T23:49:19.400Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Wogonin attenuates nasal polyp formation by inducing eosinophil apoptosis through HIF-1α and survivin suppression</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41598-018-24356-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41598-018-24356-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41598-018-24356-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41598-018-24356-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-30T15:09:13.277Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41388-018-0354-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41388-018-0354-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41388-018-0354-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="45661028" path="/0000-0003-4676-5191/work/45661028" visibility="public" display-index="0">
+                    <common:created-date>2018-06-13T20:15:27.790Z</common:created-date>
+                    <common:last-modified-date>2019-07-30T15:09:13.277Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The E3 ligase C-CBL inhibits cancer cell migration by neddylating the proto-oncogene c-Src</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41388-018-0354-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41388-018-0354-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41388-018-0354-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41388-018-0354-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>10</common:month>
+                        <common:day>13</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Oncogene</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-28T23:18:26.369Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41388-018-0339-4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41388-018-0339-4</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41388-018-0339-4</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="45223046" path="/0000-0003-4676-5191/work/45223046" visibility="public" display-index="0">
+                    <common:created-date>2018-05-29T11:45:24.503Z</common:created-date>
+                    <common:last-modified-date>2019-05-28T23:18:26.369Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cervical cancer is addicted to SIRT1 disarming the AIM2 antiviral defense</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41388-018-0339-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41388-018-0339-4</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41388-018-0339-4</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41388-018-0339-4</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                        <common:day>29</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Oncogene</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-02T14:07:45.983Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41388-018-0182-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41388-018-0182-7</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41388-018-0182-7</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42522650" path="/0000-0003-4676-5191/work/42522650" visibility="public" display-index="0">
+                    <common:created-date>2018-03-12T09:36:55.761Z</common:created-date>
+                    <common:last-modified-date>2018-10-02T14:07:45.983Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Astrocyte-derived CCL20 reinforces HIF-1-mediated hypoxic responses in glioblastoma by stimulating the CCR6-NF-κB signaling pathway</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41388-018-0182-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41388-018-0182-7</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41388-018-0182-7</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41388-018-0182-7</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Oncogene</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-30T15:48:02.850Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bbrc.2018.04.061</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bbrc.2018.04.061</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.bbrc.2018.04.061</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43594829" path="/0000-0003-4676-5191/work/43594829" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T05:40:36.981Z</common:created-date>
+                    <common:last-modified-date>2018-04-30T15:48:02.850Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CST3 and GDF15 ameliorate renal fibrosis by inhibiting fibroblast growth and activation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bbrc.2018.04.061</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bbrc.2018.04.061</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.bbrc.2018.04.061</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.bbrc.2018.04.061</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-08T07:11:47.939Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/s41419-018-0530-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/s41419-018-0530-0</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1038/s41419-018-0530-0</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44250095" path="/0000-0003-4676-5191/work/44250095" visibility="public" display-index="0">
+                    <common:created-date>2018-05-03T10:33:31.200Z</common:created-date>
+                    <common:last-modified-date>2018-06-08T07:11:47.939Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Epithelial cell-derived cytokines CST3 and GDF15 as potential therapeutics for pulmonary fibrosis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/s41419-018-0530-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/s41419-018-0530-0</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1038/s41419-018-0530-0</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1038/s41419-018-0530-0</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cell Death &amp; Disease</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-18T16:46:24.263Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bbrc.2018.03.173</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bbrc.2018.03.173</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016/j.bbrc.2018.03.173</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43073138" path="/0000-0003-4676-5191/work/43073138" visibility="public" display-index="0">
+                    <common:created-date>2018-03-29T02:32:41.477Z</common:created-date>
+                    <common:last-modified-date>2018-04-18T16:46:24.263Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ferritin heavy chain controls the HIF-driven hypoxic response by activating the asparaginyl hydroxylase FIH</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bbrc.2018.03.173</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bbrc.2018.03.173</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016/j.bbrc.2018.03.173</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1016/j.bbrc.2018.03.173</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-02-15T02:44:14.490Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/cbin.10895</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/cbin.10895</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/cbin.10895</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="39046309" path="/0000-0003-4676-5191/work/39046309" visibility="public" display-index="0">
+                    <common:created-date>2017-11-27T23:26:41.497Z</common:created-date>
+                    <common:last-modified-date>2018-02-15T02:44:14.490Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A novel HIF1AN substrate KANK3 plays a tumor-suppressive role in hepatocellular carcinoma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/cbin.10895</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/cbin.10895</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/cbin.10895</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/cbin.10895</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>03</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell Biology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-25T06:17:09.123Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.phrs.2016.01.026</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.phrs.2016.01.026</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1016/j.phrs.2016.01.026</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="30664571" path="/0000-0003-4676-5191/work/30664571" visibility="public" display-index="0">
+                    <common:created-date>2017-02-25T06:17:09.123Z</common:created-date>
+                    <common:last-modified-date>2017-02-25T06:17:09.123Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Jumonji histone demethylases as emerging therapeutic targets</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.phrs.2016.01.026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.phrs.2016.01.026</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1016/j.phrs.2016.01.026</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Pharmacological Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-02T00:47:17.825Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3346/jkms.2015.30.10.1388</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3346/jkms.2015.30.10.1388</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3346/jkms.2015.30.10.1388</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48836417" path="/0000-0003-4676-5191/work/48836417" visibility="public" display-index="0">
+                    <common:created-date>2018-10-02T00:47:17.825Z</common:created-date>
+                    <common:last-modified-date>2018-10-02T00:47:17.825Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>HIF-1α Upregulation due to Depletion of the Free Ubiquitin Pool</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3346/jkms.2015.30.10.1388</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3346/jkms.2015.30.10.1388</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3346/jkms.2015.30.10.1388</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3346/jkms.2015.30.10.1388</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Korean Medical Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:23.420Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179647" path="/0000-0003-4676-5191/work/14179647" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:53:58.068Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:23.420Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>NAA10 controls osteoblast differentiation and bone formation as a feedback regulator of Runx2</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>12</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>. Nature Communications 2014 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:23.789Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179656" path="/0000-0003-4676-5191/work/14179656" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:54:38.692Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:23.789Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Plant homeodomain finger protein 2 promotes bone formation by demethylating and activating Runx2 for osteoblast differentiation</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>12</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cell Research 2014 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.285Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179844" path="/0000-0003-4676-5191/work/14179844" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:55:13.689Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.285Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>. ITF2 Prevents Activation of the β-Catenin-TCF4 Complex in Colon Cancer Cells and Levels Decrease With Tumor Progression</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Gastroenterology 2014</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.305Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179845" path="/0000-0003-4676-5191/work/14179845" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:55:49.657Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.305Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SIRT1 and AMPK mediate hypoxia-induced resistance of non-small cell lung cancers to cisplatin and doxorubicin.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Res. 2014 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.332Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179846" path="/0000-0003-4676-5191/work/14179846" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:56:18.391Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.332Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hypoxia-inducible Factor 1 Mediates Nasal Polypogenesis by Inducing Epithelial-to-Mesenchymal Transition.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Am J Respir Crit Care Med. 2012 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.352Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179847" path="/0000-0003-4676-5191/work/14179847" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:56:49.069Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.352Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Antihepatoma activity of chaetocin due to deregulated splicing of hypoxia-inducible factor 1α pre-mRNA in mice and in vitro.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Hepatology. 2011</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.380Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179848" path="/0000-0003-4676-5191/work/14179848" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:57:19.265Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.380Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>HIF-2alpha Enhances beta-Catenin/TCF-Driven Transcription by Interacting with beta-Catenin.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Res. 2010 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.404Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179849" path="/0000-0003-4676-5191/work/14179849" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:57:54.730Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.404Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sirtuin 1 Modulates Cellular Responses to Hypoxia by Deacetylating Hypoxia-inducible Factor 1.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Molecular Cell 2010 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.430Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179900" path="/0000-0003-4676-5191/work/14179900" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:58:29.330Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.430Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>HIF-1obstructs a Wnt-signaling pathway by inhibiting the hARD1-mediated activation of -catenin.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Res. 2008 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.500Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179955" path="/0000-0003-4676-5191/work/14179955" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:59:08.122Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.500Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Oxygen-dependent effect of bortezomib on FIH-mediated repression of HIF-1.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Blood (Letter-to-Editor) 2008 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.523Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179956" path="/0000-0003-4676-5191/work/14179956" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T06:59:34.755Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bortezomib inhibits tumor adaptation to hypoxia by stimulating the FIH-mediated repression of hypoxia-inducible factor-1.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Blood 2008 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.545Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179957" path="/0000-0003-4676-5191/work/14179957" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T07:00:06.811Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.545Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>CITED2 mediates the paradoxical responses of HIF-1a to proteasome inhibition.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Oncogene 2008 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:34.015Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14180001" path="/0000-0003-4676-5191/work/14180001" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T07:00:57.460Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:34.015Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Amphotericin B blunts erythropoietin response to hypoxia by reinforcing FIH-mediated repression of HIF-1.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Blood. 2006</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:32.567Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14179958" path="/0000-0003-4676-5191/work/14179958" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T07:00:32.916Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:32.567Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>YC-1 Induces S Cell Cycle Arrest and Apoptosis by Activating Checkpoint Kinases.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Res. 2006</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:34.037Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14180003" path="/0000-0003-4676-5191/work/14180003" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T07:01:21.851Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:34.037Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Phorbol ester stimulates non-hypoxic induction of a novel HIF-1alpha isoform: Implications for tumor promotion.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Res. 2003 </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-23T14:37:34.061Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="14180005" path="/0000-0003-4676-5191/work/14180005" visibility="public" display-index="0">
+                    <common:created-date>2014-10-24T07:01:44.653Z</common:created-date>
+                    <common:last-modified-date>2015-07-23T14:37:34.061Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-4676-5191</common:uri>
+                            <common:path>0000-0003-4676-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Jong-Wan Park</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>YC-1: A potential anticancer drug targeting hypoxia-inducible factor 1.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>J Natl Cancer Inst. 2003</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

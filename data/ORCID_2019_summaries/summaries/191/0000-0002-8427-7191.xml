@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-8427-7191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-8427-7191</common:uri>
+        <common:path>0000-0002-8427-7191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-09-03T10:44:11.783Z</history:submission-date>
+        <common:last-modified-date>2019-01-19T13:14:15.721Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-8427-7191/person">
+        <common:last-modified-date>2019-01-15T17:36:30.370Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-8427-7191">
+            <common:created-date>2018-09-03T10:44:11.783Z</common:created-date>
+            <common:last-modified-date>2018-09-03T10:44:12.003Z</common:last-modified-date>
+            <personal-details:given-names>Robert</personal-details:given-names>
+            <personal-details:family-name>Czubaszek</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-8427-7191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-8427-7191/researcher-urls"/>
+        <email:emails path="/0000-0002-8427-7191/email"/>
+        <address:addresses path="/0000-0002-8427-7191/address"/>
+        <keyword:keywords path="/0000-0002-8427-7191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-8427-7191/external-identifiers">
+            <common:last-modified-date>2019-01-15T17:36:30.370Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1128626" visibility="public" path="/0000-0002-8427-7191/external-identifiers/1128626" display-index="0">
+                <common:created-date>2018-09-04T07:20:45.470Z</common:created-date>
+                <common:last-modified-date>2018-09-04T07:20:45.470Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>26645713200</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=26645713200&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1270337" visibility="public" path="/0000-0002-8427-7191/external-identifiers/1270337" display-index="0">
+                <common:created-date>2019-01-15T17:36:30.369Z</common:created-date>
+                <common:last-modified-date>2019-01-15T17:36:30.370Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>A-8811-2019</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/A-8811-2019</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-8427-7191/activities">
+        <common:last-modified-date>2019-01-17T08:19:23.958Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-8427-7191/distinctions"/>
+        <activities:educations path="/0000-0002-8427-7191/educations"/>
+        <activities:employments path="/0000-0002-8427-7191/employments">
+            <common:last-modified-date>2018-09-04T06:49:14.994Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-09-04T06:49:14.994Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6371124" display-index="1" path="/0000-0002-8427-7191/employment/6371124" visibility="public">
+                    <common:created-date>2018-09-04T06:49:14.994Z</common:created-date>
+                    <common:last-modified-date>2018-09-04T06:49:14.994Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-8427-7191</common:uri>
+                            <common:path>0000-0002-8427-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Robert Czubaszek</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Agri-Food Engineering and Environmental Management</common:department-name>
+                    <common:start-date>
+                        <common:year>1996</common:year>
+                        <common:month>09</common:month>
+                        <common:day>30</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Bialystok University of Technology</common:name>
+                        <common:address>
+                            <common:city>Białystok</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.446127.2</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>https://pb.edu.pl/</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-8427-7191/fundings"/>
+        <activities:invited-positions path="/0000-0002-8427-7191/invited-positions"/>
+        <activities:memberships path="/0000-0002-8427-7191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-8427-7191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-8427-7191/qualifications"/>
+        <activities:research-resources path="/0000-0002-8427-7191/research-resources"/>
+        <activities:services path="/0000-0002-8427-7191/services"/>
+        <activities:works path="/0000-0002-8427-7191/works">
+            <common:last-modified-date>2019-01-17T08:19:23.958Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.933Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000449235300018</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000449235300018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12911/22998993/93798</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12911/22998993/93798</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52762850" path="/0000-0002-8427-7191/work/52762850" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.933Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Exchange of Carbon Dioxide between the Atmosphere and the Maize Field Fertilized with Digestate from Agricultural Biogas Plant</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993/93798</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993/93798</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000449235300018</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000449235300018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000449235300018&amp;KeyUID=WOS:000449235300018</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.975Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.22616/ERDev2018.17.N383</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.22616/erdev2018.17.n383</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85048955109</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85048955109</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902780" path="/0000-0002-8427-7191/work/48902780" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.975Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.975Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Agricultural use of anaerobically digested wetland biomass</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.22616/ERDev2018.17.N383</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.22616/erdev2018.17.n383</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85048955109</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85048955109</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85048955109&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Engineering for Rural Development</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.969Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85048966099</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85048966099</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.22616/ERDev2018.17.N367</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.22616/erdev2018.17.n367</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902778" path="/0000-0002-8427-7191/work/48902778" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.969Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.969Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparative study on effects of digestate and cattle slurry application on N dynamics in fertilized soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.22616/ERDev2018.17.N367</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.22616/erdev2018.17.n367</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85048966099</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85048966099</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85048966099&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Engineering for Rural Development</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.942Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-72371-6_13</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-72371-6_13</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000454336500013</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000454336500013</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52762851" path="/0000-0002-8427-7191/work/52762851" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.942Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.942Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Does Wetland Biomass Provide an Alternative to Maize in Biogas Generation?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-72371-6_13</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-72371-6_13</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000454336500013</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000454336500013</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000454336500013&amp;KeyUID=WOS:000454336500013</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Renewable Energy Sources: Engineering, Technology, Innovation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.945Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85041960894</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85041960894</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/intag-2016-0087</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/intag-2016-0087</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000423852900004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000423852900004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902779" path="/0000-0002-8427-7191/work/48902779" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.972Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.972Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Emissions of carbon dioxide and methane from fields fertilized with digestate from an agricultural biogas plant</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/intag-2016-0087</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/intag-2016-0087</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85041960894</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85041960894</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85041960894&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Agrophysics</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="52762852" path="/0000-0002-8427-7191/work/52762852" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.945Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.945Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Emissions of carbon dioxide and methane from fields fertilized with digestate from an agricultural biogas plant</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/intag-2016-0087</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/intag-2016-0087</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000423852900004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000423852900004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000423852900004&amp;KeyUID=WOS:000423852900004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Agrophysics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.950Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85045400685</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85045400685</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12911/22998993/86155</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12911/22998993/86155</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000436675100028</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000436675100028</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902775" path="/0000-0002-8427-7191/work/48902775" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.959Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.959Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Methane and nitrous oxide emissions from agriculture on a regional scale</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993/86155</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993/86155</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85045400685</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85045400685</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85045400685&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="52762853" path="/0000-0002-8427-7191/work/52762853" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.950Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.950Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Methane and Nitrous Oxide Emissions from Agriculture on a Regional Scale</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993/86155</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993/86155</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000436675100028</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000436675100028</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000436675100028&amp;KeyUID=WOS:000436675100028</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.962Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85048983933</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85048983933</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.22616/ERDev2018.17.N421</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.22616/erdev2018.17.n421</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902776" path="/0000-0002-8427-7191/work/48902776" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.962Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.962Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quality of digestate from anaerobic digestion of wetland biomass</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.22616/ERDev2018.17.N421</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.22616/erdev2018.17.n421</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85048983933</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85048983933</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85048983933&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Engineering for Rural Development</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.954Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000416829900009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000416829900009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12911/22998993/63323</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12911/22998993/63323</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84976875377</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84976875377</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902782" path="/0000-0002-8427-7191/work/48902782" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.989Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.989Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Urban heat island in bialystok</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993/63323</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993/63323</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84976875377</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84976875377</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84976875377&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="52762854" path="/0000-0002-8427-7191/work/52762854" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.954Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.954Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>URBAN HEAT ISLAND IN BIALYSTOK</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993/63323</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993/63323</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000416829900009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000416829900009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000416829900009&amp;KeyUID=WOS:000416829900009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.956Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12911/22998993.1109122</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12911/22998993.1109122</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84903693426</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84903693426</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902774" path="/0000-0002-8427-7191/work/48902774" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.956Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.956Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Methane emission from livestock in the Podlaskie Voivodeship</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993.1109122</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993.1109122</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84903693426</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84903693426</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84903693426&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.966Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.17951/pjss.2014.47.1.1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.17951/pjss.2014.47.1.1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981205687</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981205687</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902777" path="/0000-0002-8427-7191/work/48902777" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.966Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.966Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantification of water erosion rates on the narew river valley-sides using universal soil loss equation,Ocena erozji wodnej na zboczach doliny narwi przy pomocy uniwersalnego równania strat gleby</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.17951/pjss.2014.47.1.1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.17951/pjss.2014.47.1.1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981205687</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981205687</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981205687&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Polish Journal of Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.983Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12911/22998993.1125470</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12911/22998993.1125470</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84908102729</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84908102729</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902781" path="/0000-0002-8427-7191/work/48902781" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.983Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.983Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tillage erosion: The principles, controlling factors and main implications for future research</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12911/22998993.1125470</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12911/22998993.1125470</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84908102729</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84908102729</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84908102729&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Ecological Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.940Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84981283809</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84981283809</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902771" path="/0000-0002-8427-7191/work/48902771" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.940Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.940Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mineral composition of the material building inpeatlend dunes in the Biebrza river valley and Narew river valley,Skład mineralny utworów glebowych budujących wydmy śródtorfowe w kotlinie biebrzańskiej i dolinie narwi</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84981283809</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84981283809</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84981283809&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Polish Journal of Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-01-17T08:19:23.958Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000310119200006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000310119200006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52762855" path="/0000-0002-8427-7191/work/52762855" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T08:19:23.958Z</common:created-date>
+                    <common:last-modified-date>2019-01-17T08:19:23.958Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Decomposition of the litter fall in plant communities growing on the inpeatland dunes in the Narew River Valley</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000310119200006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000310119200006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000310119200006&amp;KeyUID=WOS:000310119200006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sylwan</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.953Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84859150709</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84859150709</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902773" path="/0000-0002-8427-7191/work/48902773" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.953Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.953Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Habitat assessment of soils developed on the inpeatland dunes in the Biebrza river valley and the arew river valley based on the numerical trophic indices and the ecological indicator values,Waloryzacja siedliskowa gleb wyksztalconych na wydmach śródtorfowych w kotlinie biebrzańskiej i dolinie narwi z wykorzystaniem liczbowych indeksów troficznych i ekologicznych liczb wska nikowych</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84859150709</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84859150709</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84859150709&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Polish Journal of Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-03T10:02:53.950Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-65949084945</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-65949084945</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="48902772" path="/0000-0002-8427-7191/work/48902772" visibility="public" display-index="0">
+                    <common:created-date>2018-10-03T10:02:53.950Z</common:created-date>
+                    <common:last-modified-date>2018-10-03T10:02:53.950Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Systematic position of the podzolic soils developed on the inpeatland dunes in the biebrza river valley and Narew River Valley</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-65949084945</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-65949084945</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-65949084945&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Polish Journal of Soil Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

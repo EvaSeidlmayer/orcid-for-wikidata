@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-1791-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-1791-3191</common:uri>
+        <common:path>0000-0003-1791-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2014-05-25T02:33:28.758Z</history:submission-date>
+        <common:last-modified-date>2017-11-03T17:33:19.605Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-1791-3191/person">
+        <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0003-1791-3191">
+            <common:created-date>2016-04-15T23:44:58.315Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:44:58.315Z</common:last-modified-date>
+            <personal-details:given-names>Dzul Nizam</personal-details:given-names>
+            <personal-details:family-name>Mahmud Pauzi</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-1791-3191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-1791-3191/researcher-urls"/>
+        <email:emails path="/0000-0003-1791-3191/email"/>
+        <address:addresses path="/0000-0003-1791-3191/address">
+            <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+            <address:address put-code="344978" visibility="public" path="/0000-0003-1791-3191/address/344978" display-index="0">
+                <common:created-date>2016-01-24T18:33:31.571Z</common:created-date>
+                <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0003-1791-3191</common:uri>
+                        <common:path>0000-0003-1791-3191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Dzul Nizam Mahmud Pauzi</common:source-name>
+                </common:source>
+                <address:country>MY</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0003-1791-3191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-1791-3191/external-identifiers">
+            <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="531710" visibility="public" path="/0000-0003-1791-3191/external-identifiers/531710" display-index="1">
+                <common:created-date>2016-08-22T08:20:56.496Z</common:created-date>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-2962-8024</common:uri>
+                        <common:path>0000-0002-2962-8024</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                </common:source>
+                <common:external-id-type>Custom</common:external-id-type>
+                <common:external-id-value>DEF 456</common:external-id-value>
+                <common:external-id-url>http://google.com</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="531711" visibility="public" path="/0000-0003-1791-3191/external-identifiers/531711" display-index="0">
+                <common:created-date>2016-08-22T08:20:56.497Z</common:created-date>
+                <common:last-modified-date>2016-08-22T08:20:56.497Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-2962-8024</common:uri>
+                        <common:path>0000-0002-2962-8024</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                </common:source>
+                <common:external-id-type>ORCID</common:external-id-type>
+                <common:external-id-value>0000-0003-1791-3191</common:external-id-value>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-1791-3191/activities">
+        <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-1791-3191/distinctions"/>
+        <activities:educations path="/0000-0003-1791-3191/educations"/>
+        <activities:employments path="/0000-0003-1791-3191/employments"/>
+        <activities:fundings path="/0000-0003-1791-3191/fundings"/>
+        <activities:invited-positions path="/0000-0003-1791-3191/invited-positions"/>
+        <activities:memberships path="/0000-0003-1791-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-1791-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-1791-3191/qualifications"/>
+        <activities:research-resources path="/0000-0003-1791-3191/research-resources"/>
+        <activities:services path="/0000-0003-1791-3191/services"/>
+        <activities:works path="/0000-0003-1791-3191/works">
+            <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="13036091" path="/0000-0003-1791-3191/work/13036091" visibility="public" display-index="0">
+                    <common:created-date>2014-07-01T08:18:42.073Z</common:created-date>
+                    <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1791-3191</common:uri>
+                            <common:path>0000-0003-1791-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Dzul Nizam Mahmud Pauzi</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tipu je</common:title>
+                    </work:title>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>compulsary</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>myrid-pub#71</common:external-id-value>
+                        <common:external-id-normalized transient="true">myrid-pub#71</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25994489" path="/0000-0003-1791-3191/work/25994489" visibility="public" display-index="0">
+                    <common:created-date>2016-08-11T06:29:28.693Z</common:created-date>
+                    <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-2962-8024</common:uri>
+                            <common:path>0000-0002-2962-8024</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Information and Communication Technology (ICT) Enabled Knowledge-Based Malay Society</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>myrid-pub#71</common:external-id-value>
+                            <common:external-id-normalized transient="true">myrid-pub#71</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2002</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Malaysian Journal of Library &amp; Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>myrid-pub#150</common:external-id-value>
+                        <common:external-id-normalized transient="true">myrid-pub#150</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25994490" path="/0000-0003-1791-3191/work/25994490" visibility="public" display-index="0">
+                    <common:created-date>2016-08-11T06:29:28.695Z</common:created-date>
+                    <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-2962-8024</common:uri>
+                            <common:path>0000-0002-2962-8024</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Publication Productivity of Malaysian Researchers in the Field of Computer Science and Information Technology</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>myrid-pub#150</common:external-id-value>
+                            <common:external-id-normalized transient="true">myrid-pub#150</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Malaysian Journal of Library &amp; Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>myrid-pub#151</common:external-id-value>
+                        <common:external-id-normalized transient="true">myrid-pub#151</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25994643" path="/0000-0003-1791-3191/work/25994643" visibility="public" display-index="0">
+                    <common:created-date>2016-08-11T06:58:27.332Z</common:created-date>
+                    <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-2962-8024</common:uri>
+                            <common:path>0000-0002-2962-8024</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Electronic support and research productivity: the case of academic engineers and scientists</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>myrid-pub#151</common:external-id-value>
+                            <common:external-id-normalized transient="true">myrid-pub#151</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Malaysian Journal of Library &amp; Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>myrid-pub#152</common:external-id-value>
+                        <common:external-id-normalized transient="true">myrid-pub#152</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25994644" path="/0000-0003-1791-3191/work/25994644" visibility="public" display-index="0">
+                    <common:created-date>2016-08-11T06:58:27.334Z</common:created-date>
+                    <common:last-modified-date>2016-08-22T08:20:56.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-2962-8024</common:uri>
+                            <common:path>0000-0002-2962-8024</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Malaysian Researchers' ID Database</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Identifying and categorising published conference proceedings</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>myrid-pub#152</common:external-id-value>
+                            <common:external-id-normalized transient="true">myrid-pub#152</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Malaysian Journal of Library &amp; Information Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-9154-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-9154-8191</common:uri>
+        <common:path>0000-0001-9154-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-09-21T10:57:39.782Z</history:submission-date>
+        <common:last-modified-date>2019-09-26T09:06:41.757Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-9154-8191/person">
+        <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-9154-8191">
+            <common:created-date>2016-04-15T21:32:28.730Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:32:28.730Z</common:last-modified-date>
+            <personal-details:given-names>Patrycja</personal-details:given-names>
+            <personal-details:family-name>Golinska</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-9154-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-9154-8191/researcher-urls"/>
+        <email:emails path="/0000-0001-9154-8191/email"/>
+        <address:addresses path="/0000-0001-9154-8191/address"/>
+        <keyword:keywords path="/0000-0001-9154-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-9154-8191/external-identifiers">
+            <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="378288" visibility="public" path="/0000-0001-9154-8191/external-identifiers/378288" display-index="0">
+                <common:created-date>2015-11-29T21:48:49.977Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>G-4206-2014</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/G-4206-2014</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="410548" visibility="public" path="/0000-0001-9154-8191/external-identifiers/410548" display-index="0">
+                <common:created-date>2016-01-25T12:57:16.727Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>43461232700</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=43461232700&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-9154-8191/activities">
+        <common:last-modified-date>2019-03-26T09:20:09.155Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-9154-8191/distinctions"/>
+        <activities:educations path="/0000-0001-9154-8191/educations"/>
+        <activities:employments path="/0000-0001-9154-8191/employments">
+            <common:last-modified-date>2018-11-20T22:52:59.105Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-20T22:52:59.105Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6830506" display-index="1" path="/0000-0001-9154-8191/employment/6830506" visibility="public">
+                    <common:created-date>2018-11-20T22:52:59.105Z</common:created-date>
+                    <common:last-modified-date>2018-11-20T22:52:59.105Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-9154-8191</common:uri>
+                            <common:path>0000-0001-9154-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Patrycja Golinska</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Microbiology</common:department-name>
+                    <common:role-title>Associate professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Nicolaus Copernicus University</common:name>
+                        <common:address>
+                            <common:city>Toruń</common:city>
+                            <common:country>PL</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-9154-8191/fundings"/>
+        <activities:invited-positions path="/0000-0001-9154-8191/invited-positions"/>
+        <activities:memberships path="/0000-0001-9154-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-9154-8191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-9154-8191/qualifications"/>
+        <activities:research-resources path="/0000-0001-9154-8191/research-resources"/>
+        <activities:services path="/0000-0001-9154-8191/services"/>
+        <activities:works path="/0000-0001-9154-8191/works">
+            <common:last-modified-date>2019-03-26T09:20:09.155Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-03-15T02:02:07.874Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3390/jcm8030334</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3390/jcm8030334</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3390/jcm8030334</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55161977" path="/0000-0001-9154-8191/work/55161977" visibility="public" display-index="0">
+                    <common:created-date>2019-03-12T08:54:11.097Z</common:created-date>
+                    <common:last-modified-date>2019-03-12T08:54:11.097Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>“To Be Microbiocidal and Not to Be Cytotoxic at the Same Time…”—Silver Nanoparticles and Their Main Role on the Surface of Titanium Alloy Implants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/jcm8030334</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/jcm8030334</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/jcm8030334</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3390/jcm8030334</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical Medicine</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="55307856" path="/0000-0001-9154-8191/work/55307856" visibility="public" display-index="0">
+                    <common:created-date>2019-03-15T02:02:07.874Z</common:created-date>
+                    <common:last-modified-date>2019-03-15T02:02:07.874Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-WRQOUAK78G5F7GMD</common:uri>
+                            <common:path>APP-WRQOUAK78G5F7GMD</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Multidisciplinary Digital Publishing Institute</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>“To Be Microbiocidal and Not to Be Cytotoxic at the Same Time…”—Silver Nanoparticles and Their Main Role on the Surface of Titanium Alloy Implants</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3390/jcm8030334</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3390/jcm8030334</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3390/jcm8030334</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.mdpi.com/2077-0383/8/3/334</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-26T09:20:09.155Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/gps-2018-0070</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/gps-2018-0070</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1515/gps-2018-0070</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54707557" path="/0000-0001-9154-8191/work/54707557" visibility="public" display-index="0">
+                    <common:created-date>2019-02-28T09:18:47.076Z</common:created-date>
+                    <common:last-modified-date>2019-03-26T09:20:09.155Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Controllable biosynthesis of silver nanoparticles using actinobacterial strains</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/gps-2018-0070</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/gps-2018-0070</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1515/gps-2018-0070</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1515/gps-2018-0070</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>01</common:month>
+                        <common:day>28</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Green Processing and Synthesis</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-10T07:43:39.350Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jam.13723</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jam.13723</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/jam.13723</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="42933470" path="/0000-0001-9154-8191/work/42933470" visibility="public" display-index="0">
+                    <common:created-date>2018-03-24T05:20:37.633Z</common:created-date>
+                    <common:last-modified-date>2018-05-10T07:43:39.350Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Antimicrobial and cytotoxic activity of silver nanoparticles synthesized from two haloalkaliphilic actinobacterial strains alone and in combination with antibiotics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jam.13723</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jam.13723</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/jam.13723</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/jam.13723</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                        <common:day>23</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Applied Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-20T22:59:56.084Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-018-1049-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-018-1049-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50856691" path="/0000-0001-9154-8191/work/50856691" visibility="public" display-index="0">
+                    <common:created-date>2018-11-20T22:59:56.084Z</common:created-date>
+                    <common:last-modified-date>2018-11-20T22:59:56.084Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hunting for cultivable Micromonospora strains in soils of the Atacama Desert</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-018-1049-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-018-1049-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0003-6072</common:external-id-value>
+                            <common:external-id-normalized transient="true">0003-6072</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-02-19T05:00:18.400Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11274-017-2406-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11274-017-2406-3</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s11274-017-2406-3</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40208943" path="/0000-0001-9154-8191/work/40208943" visibility="public" display-index="0">
+                    <common:created-date>2018-01-05T05:58:35.741Z</common:created-date>
+                    <common:last-modified-date>2018-02-19T05:00:18.400Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis, characterization and evaluation of antimicrobial and cytotoxic activities of biogenic silver nanoparticles synthesized from Streptomyces xinghaiensis OF1 strain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11274-017-2406-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11274-017-2406-3</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s11274-017-2406-3</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s11274-017-2406-3</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>World Journal of Microbiology and Biotechnology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-09-04T06:49:45.521Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/jobm.201700121</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/jobm.201700121</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1002/jobm.201700121</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34586246" path="/0000-0001-9154-8191/work/34586246" visibility="public" display-index="0">
+                    <common:created-date>2017-07-03T06:47:55.657Z</common:created-date>
+                    <common:last-modified-date>2017-09-04T06:49:45.521Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Silver nanoparticles from Pilimelia columellifera subsp. pallida SL19 strain demonstrated antifungal activity against fungi causing superficial mycoses</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/jobm.201700121</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/jobm.201700121</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1002/jobm.201700121</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                        <common:day>03</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Basic Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-20T22:58:37.783Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-70299-5_1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-70299-5_1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50856659" path="/0000-0001-9154-8191/work/50856659" visibility="public" display-index="0">
+                    <common:created-date>2018-11-20T22:58:37.783Z</common:created-date>
+                    <common:last-modified-date>2018-11-20T22:58:37.783Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Bioinspired Metal Nanoparticles with Special Reference to Mechanism</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-70299-5_1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-70299-5_1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783319702988</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783319702988</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nanotechnology Applied To Pharmaceutical Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-11-10T13:36:03.084Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-016-0759-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-016-0759-5</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1007/s10482-016-0759-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26229873" path="/0000-0001-9154-8191/work/26229873" visibility="public" display-index="0">
+                    <common:created-date>2016-08-24T06:15:44.295Z</common:created-date>
+                    <common:last-modified-date>2016-11-10T13:36:03.084Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Streptacidiphilus toruniensis sp. nov., isolated from a pine forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-016-0759-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-016-0759-5</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1007/s10482-016-0759-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                        <common:day>24</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-11-02T11:43:54.429Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00430-016-0477-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00430-016-0477-7</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1007/s00430-016-0477-7</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26684009" path="/0000-0001-9154-8191/work/26684009" visibility="public" display-index="0">
+                    <common:created-date>2016-09-12T12:30:17.903Z</common:created-date>
+                    <common:last-modified-date>2016-11-02T11:43:54.429Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Evaluation of cytotoxicity, immune compatibility and antibacterial activity of biogenic silver nanoparticles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00430-016-0477-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00430-016-0477-7</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1007/s00430-016-0477-7</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                        <common:day>12</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Medical Microbiology and Immunology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-29T11:30:00.299Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00430-016-0462-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00430-016-0462-1</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1007/s00430-016-0462-1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25757736" path="/0000-0001-9154-8191/work/25757736" visibility="public" display-index="0">
+                    <common:created-date>2016-07-29T12:35:32.605Z</common:created-date>
+                    <common:last-modified-date>2016-08-29T11:30:00.299Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A new report of Nocardiopsis valliformis strain OT1 from alkaline Lonar crater of India and its use in synthesis of silver nanoparticles with special reference to evaluation of antibacterial activity and cytotoxicity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00430-016-0462-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00430-016-0462-1</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1007/s00430-016-0462-1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>10</common:month>
+                        <common:day>09</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Medical Microbiology and Immunology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-08-24T16:44:55.961Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1049/iet-nbt.2016.0112</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1049/iet-nbt.2016.0112</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="26242837" path="/0000-0001-9154-8191/work/26242837" visibility="public" display-index="0">
+                    <common:created-date>2016-08-24T16:44:55.961Z</common:created-date>
+                    <common:last-modified-date>2016-08-24T16:44:55.961Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Actinobacterial-mediated synthesis of silver nanoparticles and their activity against pathogenic bacteria</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1049/iet-nbt.2016.0112</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1049/iet-nbt.2016.0112</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IET Nanobiotechnology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-07-29T12:41:49.434Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26864807</common:external-id-value>
+                        <common:external-id-normalized transient="true">26864807</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/jam.13093</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/jam.13093</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25757864" path="/0000-0001-9154-8191/work/25757864" visibility="public" display-index="0">
+                    <common:created-date>2016-07-29T12:41:49.434Z</common:created-date>
+                    <common:last-modified-date>2016-07-29T12:41:49.434Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Study of silver nanoparticles synthesized by acidophilic strain of Actinobacteria isolated from the of Picea sitchensis forest soil.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26864807</common:external-id-value>
+                            <common:external-id-normalized transient="true">26864807</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/jam.13093</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/jam.13093</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/26864807</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-07-29T12:41:49.437Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>27103501</common:external-id-value>
+                        <common:external-id-normalized transient="true">27103501</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jmii.2016.03.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jmii.2016.03.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25757865" path="/0000-0001-9154-8191/work/25757865" visibility="public" display-index="0">
+                    <common:created-date>2016-07-29T12:41:49.437Z</common:created-date>
+                    <common:last-modified-date>2016-07-29T12:41:49.437Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Antimicrobial activity of biosilver nanoparticles produced by a novel Streptacidiphilus durhamensis strain.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>27103501</common:external-id-value>
+                            <common:external-id-normalized transient="true">27103501</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jmii.2016.03.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jmii.2016.03.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/27103501</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12657/denbio.074.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12657/denbio.074.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84946415137</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84946415137</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587943" path="/0000-0001-9154-8191/work/20587943" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T23:38:49.240Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Myxobacteria as a potential biocontrol agent effective against pathogenic fungi of economically important forest trees</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12657/denbio.074.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12657/denbio.074.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>11</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21814004" path="/0000-0001-9154-8191/work/21814004" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.918Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.918Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Myxobacteria as a potential biocontrol agent effective against pathogenic fungi of economically important forest trees</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12657/denbio.074.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12657/denbio.074.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84946415137</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84946415137</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84946415137&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4491342</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4491342</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26026797</common:external-id-value>
+                        <common:external-id-normalized transient="true">26026797</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-015-0496-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-015-0496-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84943450437</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84943450437</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587062" path="/0000-0001-9154-8191/work/20587062" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T22:01:51.388Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Actinospica durhamensis sp. nov., isolated from a spruce forest soil.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26026797</common:external-id-value>
+                            <common:external-id-normalized transient="true">26026797</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4491342</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4491342</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-015-0496-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-015-0496-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/26026797</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="21814006" path="/0000-0001-9154-8191/work/21814006" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.919Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.919Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Actinospica durhamensis sp. Nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-015-0496-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-015-0496-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84943450437</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84943450437</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84943450437&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84943454066</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84943454066</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4491368</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4491368</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-015-0502-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-015-0502-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>26093915</common:external-id-value>
+                        <common:external-id-normalized transient="true">26093915</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587061" path="/0000-0001-9154-8191/work/20587061" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T22:01:51.383Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endophytic actinobacteria of medicinal plants: diversity and bioactivity.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>26093915</common:external-id-value>
+                            <common:external-id-normalized transient="true">26093915</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4491368</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4491368</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-015-0502-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-015-0502-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/26093915</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="21814005" path="/0000-0001-9154-8191/work/21814005" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.919Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.919Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Endophytic actinobacteria of medicinal plants: Diversity and bioactivity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-015-0502-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-015-0502-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84943454066</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84943454066</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84943454066&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:33.501Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/myc.12445</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/myc.12445</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84950138178</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84950138178</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21814014" path="/0000-0001-9154-8191/work/21814014" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:33.501Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:33.501Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Acidophilic actinobacteria synthesised silver nanoparticles showed remarkable activity against fungi-causing superficial mycoses in humans</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/myc.12445</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/myc.12445</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84950138178</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84950138178</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84950138178&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Mycoses</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/jobm.201500516</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/jobm.201500516</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21813726" path="/0000-0001-9154-8191/work/21813726" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:50:18.828Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis of silver nanoparticles from two acidophilic strains of Pilimelia columellifera subsp. pallida and their antibacterial activities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/jobm.201500516</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/jobm.201500516</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>J. Basic Microbiol.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>25158833</common:external-id-value>
+                        <common:external-id-normalized transient="true">25158833</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84906446356</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84906446356</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s00253-014-5953-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s00253-014-5953-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587063" path="/0000-0001-9154-8191/work/20587063" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T22:01:51.393Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Biogenic synthesis of metal nanoparticles from actinomycetes: biomedical applications and cytotoxicity.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>25158833</common:external-id-value>
+                            <common:external-id-normalized transient="true">25158833</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00253-014-5953-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00253-014-5953-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/med/25158833</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="21814007" path="/0000-0001-9154-8191/work/21814007" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.920Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.920Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Biogenic synthesis of metal nanoparticles from actinomycetes: biomedical applications and cytotoxicity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s00253-014-5953-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s00253-014-5953-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84906446356</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84906446356</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84906446356&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Microbiology and Biotechnology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.12657/denbio.069.010</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.12657/denbio.069.010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000313000300010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000313000300010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84872145464</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84872145464</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586991" path="/0000-0001-9154-8191/work/20586991" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.256Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Antagonistic properties of Streptomyces isolated from forest soils against fungal pathogens of pine seedlings</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12657/denbio.069.010</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12657/denbio.069.010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000313000300010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000313000300010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000313000300010&amp;KeyUID=WOS:000313000300010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21814012" path="/0000-0001-9154-8191/work/21814012" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.926Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.926Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Antagonistic properties of Streptomyces isolated from forest soils against fungal pathogens of pine seedlings</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.12657/denbio.069.010</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.12657/denbio.069.010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84872145464</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84872145464</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84872145464&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC4079639</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC4079639</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587064" path="/0000-0001-9154-8191/work/20587064" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T22:01:51.397Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                            <common:path>0000-0002-9157-3431</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Europe PubMed Central</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Erratum to: Streptacidiphilus durhamensis sp. nov., isolated from a spruce forest soil.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC4079639</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC4079639</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/abstract/PMC/PMC4079639</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.924Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-013-0005-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-013-0005-3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84886592222</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84886592222</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21814011" path="/0000-0001-9154-8191/work/21814011" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.924Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.924Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Erratum: Streptacidiphilus durhamensis Sp. Nov., isolated from a spruce forest soil (Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology (2013) 104 (199-206))</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-0005-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-0005-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84886592222</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84886592222</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84886592222&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000319268600014</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000319268600014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84876669230</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84876669230</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-013-9887-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-013-9887-3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586992" path="/0000-0001-9154-8191/work/20586992" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.259Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nocardia aciditolerans sp nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-9887-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-9887-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000319268600014</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000319268600014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000319268600014&amp;KeyUID=WOS:000319268600014</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie Van Leeuwenhoek International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21814010" path="/0000-0001-9154-8191/work/21814010" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.923Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.923Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nocardia aciditolerans sp. nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-9887-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-9887-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84876669230</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84876669230</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84876669230&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000321067600004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000321067600004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-013-9938-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-013-9938-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84879887833</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84879887833</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586993" path="/0000-0001-9154-8191/work/20586993" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.269Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Streptacidiphilus durhamensis sp nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-9938-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-9938-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000321067600004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000321067600004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000321067600004&amp;KeyUID=WOS:000321067600004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie Van Leeuwenhoek International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21814009" path="/0000-0001-9154-8191/work/21814009" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.922Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.922Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Streptacidiphilus durhamensis sp. nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-9938-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-9938-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84879887833</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84879887833</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84879887833&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000326804000007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000326804000007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84889602179</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84889602179</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10482-013-0015-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10482-013-0015-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586995" path="/0000-0001-9154-8191/work/20586995" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.279Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Streptacidiphilus hamsterleyensis sp nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-0015-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-0015-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000326804000007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000326804000007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000326804000007&amp;KeyUID=WOS:000326804000007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie Van Leeuwenhoek International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="21814008" path="/0000-0001-9154-8191/work/21814008" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:28.921Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.921Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Streptacidiphilus hamsterleyensis sp. nov., isolated from a spruce forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10482-013-0015-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10482-013-0015-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84889602179</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84889602179</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84889602179&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Antonie van Leeuwenhoek, International Journal of General and Molecular Microbiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000299590500004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000299590500004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586996" path="/0000-0001-9154-8191/work/20586996" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.282Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Enzymatic activity of actinomycetes from the genus Streptomyces isolated from the bulk soil and rhizosphere of the Pinus sylvestris</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000299590500004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000299590500004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000299590500004&amp;KeyUID=WOS:000299590500004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:33.514Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79960530474</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79960530474</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="21814016" path="/0000-0001-9154-8191/work/21814016" visibility="public" display-index="0">
+                    <common:created-date>2016-01-25T12:57:33.514Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:33.514Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Enzymatic activity of actinomycetes from the genus streptomyces isolated from the bulk soil and rhizosphere of the pinus sylvestris</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79960530474</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79960530474</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79960530474&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000299590600001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000299590600001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20586997" path="/0000-0001-9154-8191/work/20586997" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T21:50:36.285Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.930Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Occurrence of actinomycetes in forest soil</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000299590600001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000299590600001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000299590600001&amp;KeyUID=WOS:000299590600001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Dendrobiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-15196-5_16</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-15196-5_16</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20587942" path="/0000-0001-9154-8191/work/20587942" visibility="public" display-index="0">
+                    <common:created-date>2015-11-29T23:38:27.357Z</common:created-date>
+                    <common:last-modified-date>2016-01-25T12:57:28.929Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ectomycorrhiza and Secondary Metabolites</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-15196-5_16</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-15196-5_16</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Diversity and Biotechnology of Ectomycorrhizae</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

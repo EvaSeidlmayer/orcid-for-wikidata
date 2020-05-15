@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-1122-0191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+        <common:path>0000-0003-1122-0191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-10-05T09:32:11.531Z</history:submission-date>
+        <common:last-modified-date>2019-09-20T10:04:29.476Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-1122-0191/person">
+        <person:name visibility="public" path="0000-0003-1122-0191">
+            <common:created-date>2018-10-05T09:32:11.531Z</common:created-date>
+            <common:last-modified-date>2018-10-05T09:32:11.749Z</common:last-modified-date>
+            <personal-details:given-names>Ozge</personal-details:given-names>
+            <personal-details:family-name>Kirezli</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-1122-0191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-1122-0191/researcher-urls"/>
+        <email:emails path="/0000-0003-1122-0191/email"/>
+        <address:addresses path="/0000-0003-1122-0191/address"/>
+        <keyword:keywords path="/0000-0003-1122-0191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-1122-0191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-1122-0191/activities">
+        <common:last-modified-date>2018-10-05T09:37:52.357Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-1122-0191/distinctions"/>
+        <activities:educations path="/0000-0003-1122-0191/educations">
+            <common:last-modified-date>2018-10-05T09:36:14.087Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-05T09:36:14.087Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6543618" display-index="1" path="/0000-0003-1122-0191/education/6543618" visibility="public">
+                    <common:created-date>2018-10-05T09:36:14.087Z</common:created-date>
+                    <common:last-modified-date>2018-10-05T09:36:14.087Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+                            <common:path>0000-0003-1122-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ozge Kirezli</common:source-name>
+                    </common:source>
+                    <common:department-name>Institiute of Social Sciences</common:department-name>
+                    <common:role-title>Phd in Production Management and Marketing</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Marmara  Üniversitesi</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:region>Istanbul</common:region>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>52982</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-05T09:35:31.856Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6543609" display-index="1" path="/0000-0003-1122-0191/education/6543609" visibility="public">
+                    <common:created-date>2018-10-05T09:35:31.856Z</common:created-date>
+                    <common:last-modified-date>2018-10-05T09:35:31.856Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+                            <common:path>0000-0003-1122-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ozge Kirezli</common:source-name>
+                    </common:source>
+                    <common:department-name>Institute of Social Sciences</common:department-name>
+                    <common:role-title>Graduate / Production Management and Marketing</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Marmara  Üniversitesi</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:region>Istanbul</common:region>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>52982</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-05T09:34:19.055Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6543597" display-index="1" path="/0000-0003-1122-0191/education/6543597" visibility="public">
+                    <common:created-date>2018-10-05T09:34:19.055Z</common:created-date>
+                    <common:last-modified-date>2018-10-05T09:34:19.055Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+                            <common:path>0000-0003-1122-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ozge Kirezli</common:source-name>
+                    </common:source>
+                    <common:department-name>İşletme Fakültesi</common:department-name>
+                    <common:role-title>Undergraduate</common:role-title>
+                    <common:start-date>
+                        <common:year>2003</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Marmara Üniversitesi İşletme Fakültesi</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:region>Istanbul</common:region>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>370001</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-1122-0191/employments">
+            <common:last-modified-date>2018-10-05T09:37:52.357Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-05T09:37:52.357Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6543633" display-index="1" path="/0000-0003-1122-0191/employment/6543633" visibility="public">
+                    <common:created-date>2018-10-05T09:37:52.357Z</common:created-date>
+                    <common:last-modified-date>2018-10-05T09:37:52.357Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+                            <common:path>0000-0003-1122-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ozge Kirezli</common:source-name>
+                    </common:source>
+                    <common:department-name>Faculty of Business Administration</common:department-name>
+                    <common:role-title>Lecturere as Dr. </common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>İstanbul Bilgi Üniversitesi</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>52968</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-05T09:37:04.753Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6543627" display-index="1" path="/0000-0003-1122-0191/employment/6543627" visibility="public">
+                    <common:created-date>2018-10-05T09:37:04.753Z</common:created-date>
+                    <common:last-modified-date>2018-10-05T09:37:04.753Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1122-0191</common:uri>
+                            <common:path>0000-0003-1122-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ozge Kirezli</common:source-name>
+                    </common:source>
+                    <common:department-name>Faculty of Business Administration</common:department-name>
+                    <common:role-title>Research Assistant</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>İstanbul Bilgi Üniversitesi</common:name>
+                        <common:address>
+                            <common:city>Istanbul</common:city>
+                            <common:country>TR</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>52968</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-1122-0191/fundings"/>
+        <activities:invited-positions path="/0000-0003-1122-0191/invited-positions"/>
+        <activities:memberships path="/0000-0003-1122-0191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-1122-0191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-1122-0191/qualifications"/>
+        <activities:research-resources path="/0000-0003-1122-0191/research-resources"/>
+        <activities:services path="/0000-0003-1122-0191/services"/>
+        <activities:works path="/0000-0003-1122-0191/works"/>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-3370-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-3370-1191</common:uri>
+        <common:path>0000-0002-3370-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-11-08T00:31:42.129Z</history:submission-date>
+        <common:last-modified-date>2019-09-01T14:19:57.038Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-3370-1191/person">
+        <person:name visibility="public" path="0000-0002-3370-1191">
+            <common:created-date>2016-11-08T00:31:42.364Z</common:created-date>
+            <common:last-modified-date>2016-11-08T00:31:42.364Z</common:last-modified-date>
+            <personal-details:given-names>George</personal-details:given-names>
+            <personal-details:family-name>Durner</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-3370-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-3370-1191/researcher-urls"/>
+        <email:emails path="/0000-0002-3370-1191/email"/>
+        <address:addresses path="/0000-0002-3370-1191/address"/>
+        <keyword:keywords path="/0000-0002-3370-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-3370-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-3370-1191/activities">
+        <common:last-modified-date>2019-09-01T14:19:57.043Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-3370-1191/distinctions"/>
+        <activities:educations path="/0000-0002-3370-1191/educations"/>
+        <activities:employments path="/0000-0002-3370-1191/employments">
+            <common:last-modified-date>2016-11-08T00:33:35.745Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-11-08T00:33:35.745Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2558715" display-index="0" path="/0000-0002-3370-1191/employment/2558715" visibility="public">
+                    <common:created-date>2016-11-08T00:33:35.745Z</common:created-date>
+                    <common:last-modified-date>2016-11-08T00:33:35.745Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3370-1191</common:uri>
+                            <common:path>0000-0002-3370-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>George Durner</common:source-name>
+                    </common:source>
+                    <common:role-title>Research Zoologist</common:role-title>
+                    <common:start-date>
+                        <common:year>1991</common:year>
+                        <common:month>10</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>US Geological Survey Alaska Science Center</common:name>
+                        <common:address>
+                            <common:city>Anchorage</common:city>
+                            <common:region>AK</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>288473</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-3370-1191/fundings"/>
+        <activities:invited-positions path="/0000-0002-3370-1191/invited-positions"/>
+        <activities:memberships path="/0000-0002-3370-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-3370-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-3370-1191/qualifications"/>
+        <activities:research-resources path="/0000-0002-3370-1191/research-resources"/>
+        <activities:services path="/0000-0002-3370-1191/services"/>
+        <activities:works path="/0000-0002-3370-1191/works">
+            <common:last-modified-date>2019-09-01T14:19:57.043Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-01T14:19:57.043Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/ece3.5401</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/ece3.5401</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1002/ece3.5401</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59167667" path="/0000-0002-3370-1191/work/59167667" visibility="public" display-index="0">
+                    <common:created-date>2019-07-05T03:43:21.739Z</common:created-date>
+                    <common:last-modified-date>2019-09-01T14:19:57.043Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Are polar bear habitat resource selection functions developed from 1985–1995 data still useful?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/ece3.5401</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/ece3.5401</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1002/ece3.5401</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1002/ece3.5401</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Ecology and Evolution</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:40.093Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1126/science.aan8677</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1126/science.aan8677</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1126/science.aan8677</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061712" path="/0000-0002-3370-1191/work/51061712" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:40.093Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:40.093Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>High-energy, high-fat lifestyle challenges an Arctic apex predator, the polar bear</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1126/science.aan8677</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1126/science.aan8677</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1126/science.aan8677</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1126/science.aan8677</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>02</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:39.916Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/gcb.13933</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/gcb.13933</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/gcb.13933</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061710" path="/0000-0002-3370-1191/work/51061710" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:39.916Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:39.916Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spring fasting behavior in a marine apex predator provides an index of ecosystem productivity</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/gcb.13933</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/gcb.13933</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/gcb.13933</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/gcb.13933</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Global Change Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:40.250Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3133/ofr20181083</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3133/ofr20181083</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3133/ofr20181083</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061713" path="/0000-0002-3370-1191/work/51061713" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:40.250Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:40.250Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A comparison of photograph-interpreted and IfSAR-derived maps of polar bear denning habitat for the 1002 Area of the Arctic National Wildlife Refuge, Alaska</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3133/ofr20181083</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3133/ofr20181083</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3133/ofr20181083</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3133/ofr20181083</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-10T06:07:03.362Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/gcb.13746</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/gcb.13746</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1111/gcb.13746</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061709" path="/0000-0002-3370-1191/work/51061709" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:39.742Z</common:created-date>
+                    <common:last-modified-date>2019-04-10T06:07:03.362Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Increased Arctic sea ice drift alters adult female polar bear movements and energetics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/gcb.13746</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/gcb.13746</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1111/gcb.13746</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1111/gcb.13746</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Global Change Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:39.212Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3133/ofr20141254</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3133/ofr20141254</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3133/ofr20141254</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061706" path="/0000-0002-3370-1191/work/51061706" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:39.212Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:39.212Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Evaluating and ranking threats to the long-term persistence of polar bears</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3133/ofr20141254</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3133/ofr20141254</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3133/ofr20141254</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3133/ofr20141254</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:40.397Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3133/ds568</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3133/ds568</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3133/ds568</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061714" path="/0000-0002-3370-1191/work/51061714" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:40.397Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:40.397Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Catalogue of polar bear (&lt;i&gt;Ursus maritimus&lt;/i&gt;) maternal den locations in the Beaufort Sea and neighboring regions, Alaska, 1910-2010</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3133/ds568</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3133/ds568</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3133/ds568</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3133/ds568</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:39.562Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3133/70174083</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3133/70174083</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3133/70174083</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061708" path="/0000-0002-3370-1191/work/51061708" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:39.562Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:39.562Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predicting movements of female polar bears between summer sea ice foraging habitats and terrestrial denning habitats of Alaska in the 21st century: Proposed methodology and pilot assessment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3133/70174083</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3133/70174083</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3133/70174083</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3133/70174083</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-26T19:07:39.394Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3133/70174076</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3133/70174076</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3133/70174076</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51061707" path="/0000-0002-3370-1191/work/51061707" visibility="public" display-index="0">
+                    <common:created-date>2018-11-26T19:07:39.395Z</common:created-date>
+                    <common:last-modified-date>2018-11-26T19:07:39.394Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Predicting the future distribution of Polar Bear Habitat in the polar basin from resource selection functions applied to 21st century general circulation model projections of sea ice</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3133/70174076</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3133/70174076</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3133/70174076</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.3133/70174076</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1113-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1113-1191</common:uri>
+        <common:path>0000-0002-1113-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-03-23T15:25:13.149Z</history:submission-date>
+        <common:last-modified-date>2019-07-17T19:08:33.858Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1113-1191/person">
+        <person:name visibility="public" path="0000-0002-1113-1191">
+            <common:created-date>2016-04-15T21:52:51.174Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:52:51.174Z</common:last-modified-date>
+            <personal-details:given-names>Alison</personal-details:given-names>
+            <personal-details:family-name>Johnson</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1113-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1113-1191/researcher-urls"/>
+        <email:emails path="/0000-0002-1113-1191/email"/>
+        <address:addresses path="/0000-0002-1113-1191/address"/>
+        <keyword:keywords path="/0000-0002-1113-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1113-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1113-1191/activities">
+        <common:last-modified-date>2019-07-17T19:08:33.861Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1113-1191/distinctions"/>
+        <activities:educations path="/0000-0002-1113-1191/educations">
+            <common:last-modified-date>2016-03-23T15:26:25.033Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-03-23T15:26:25.033Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1681699" display-index="0" path="/0000-0002-1113-1191/education/1681699" visibility="public">
+                    <common:created-date>2016-03-23T15:26:25.033Z</common:created-date>
+                    <common:last-modified-date>2016-03-23T15:26:25.033Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1113-1191</common:uri>
+                            <common:path>0000-0002-1113-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alison Johnson</common:source-name>
+                    </common:source>
+                    <common:role-title>Masters of Business Administration</common:role-title>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>05</common:month>
+                        <common:day>12</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Vermont</common:name>
+                        <common:address>
+                            <common:city>Burlington</common:city>
+                            <common:region>VT</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>2092</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-1113-1191/employments">
+            <common:last-modified-date>2016-03-23T15:27:19.194Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-03-23T15:27:19.194Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1681703" display-index="0" path="/0000-0002-1113-1191/employment/1681703" visibility="public">
+                    <common:created-date>2016-03-23T15:27:19.194Z</common:created-date>
+                    <common:last-modified-date>2016-03-23T15:27:19.194Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1113-1191</common:uri>
+                            <common:path>0000-0002-1113-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alison Johnson</common:source-name>
+                    </common:source>
+                    <common:department-name>Vermont Department of Health</common:department-name>
+                    <common:start-date>
+                        <common:year>1996</common:year>
+                        <common:month>05</common:month>
+                        <common:day>06</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>State of Vermont</common:name>
+                        <common:address>
+                            <common:city>Burlington</common:city>
+                            <common:region>VT</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>114423</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-1113-1191/fundings">
+            <common:last-modified-date>2018-05-08T18:54:06.874Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T18:50:33.027Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>grant.U55DP121972</common:external-id-value>
+                        <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=7453018</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="469532" path="/0000-0002-1113-1191/funding/469532" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T18:50:33.027Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T18:50:33.027Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>NATIONAL CANCER PREVENTION AND CONTROL PROGRAM</common:title>
+                        <common:translated-title language-code="en">NATIONAL CANCER PREVENTION AND CONTROL PROGRAM</common:translated-title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>grant.U55DP121972</common:external-id-value>
+                            <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=7453018</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/100000030/U55DP121972/NATIONAL-CANCER-PREVENTION-AND-CONTROL-PROGRAM</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2002</common:year>
+                        <common:month>09</common:month>
+                        <common:day>30</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2007</common:year>
+                        <common:month>06</common:month>
+                        <common:day>29</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Centers for Disease Control and Prevention</common:name>
+                        <common:address>
+                            <common:city>n/a</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T18:52:00.286Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>grant.U58DP000800</common:external-id-value>
+                        <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=8073176</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="469534" path="/0000-0002-1113-1191/funding/469534" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T18:52:00.286Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T18:52:00.286Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>VERMONT CANCER PREVENTION AND CONTROL PROGRAM</common:title>
+                        <common:translated-title language-code="en">VERMONT CANCER PREVENTION AND CONTROL PROGRAM</common:translated-title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>grant.U58DP000800</common:external-id-value>
+                            <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=8073176</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/100000030/U58DP000800/VERMONT-CANCER-PREVENTION-AND-CONTROL-PROGRAM</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>06</common:month>
+                        <common:day>29</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Centers for Disease Control and Prevention</common:name>
+                        <common:address>
+                            <common:city>n/a</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T18:54:06.874Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>grant.U58DP003911</common:external-id-value>
+                        <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=8688186</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="469535" path="/0000-0002-1113-1191/funding/469535" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T18:54:06.874Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T18:54:06.874Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0003-2174-0924</common:uri>
+                            <common:path>0000-0003-2174-0924</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ÜberWizard</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>VERMONT CANCER PREVENTION &amp; CONTROL PROGRAM</common:title>
+                        <common:translated-title language-code="en">VERMONT CANCER PREVENTION &amp; CONTROL PROGRAM</common:translated-title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>grant.U58DP003911</common:external-id-value>
+                            <common:external-id-url>http://projectreporter.nih.gov/project_info_description.cfm?aid=8688186</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://grants.uberresearch.com/100000030/U58DP003911/VERMONT-CANCER-PREVENTION-CONTROL-PROGRAM</common:url>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                        <common:day>29</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Centers for Disease Control and Prevention</common:name>
+                        <common:address>
+                            <common:city>n/a</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-1113-1191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1113-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1113-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1113-1191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1113-1191/research-resources"/>
+        <activities:services path="/0000-0002-1113-1191/services"/>
+        <activities:works path="/0000-0002-1113-1191/works">
+            <common:last-modified-date>2019-07-17T19:08:33.861Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-07-17T19:08:33.861Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oemed-2019-105744</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oemed-2019-105744</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1136/oemed-2019-105744</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59592441" path="/0000-0002-1113-1191/work/59592441" visibility="public" display-index="1">
+                    <common:created-date>2019-07-17T19:08:33.861Z</common:created-date>
+                    <common:last-modified-date>2019-07-17T19:08:33.861Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1113-1191</common:uri>
+                            <common:path>0000-0002-1113-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Alison Johnson</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Validity of retrospective occupational exposure estimates of lead and manganese in a case–control study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oemed-2019-105744</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oemed-2019-105744</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1136/oemed-2019-105744</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1351-0711</common:external-id-value>
+                            <common:external-id-normalized transient="true">1351-0711</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1351-0711</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1470-7926</common:external-id-value>
+                            <common:external-id-normalized transient="true">1470-7926</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1470-7926</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1136/oemed-2019-105744</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Occupational and Environmental Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:07:33.732Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1200/JOP.2016.013409</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1200/jop.2016.013409</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467206" path="/0000-0002-1113-1191/work/44467206" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:07:33.732Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:07:33.732Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Access to Care in Vermont: Factors Linked With Time to Chemotherapy for Women With Breast Cancer—A Retrospective Cohort Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/ccff2ed1d2f341c02301b0c678a0387cf589afb6b0b80ffc42d751ab91deabcf</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1200/JOP.2016.013409</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1200/jop.2016.013409</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5022113/</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:09:04.208Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oemed-2015-103152</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oemed-2015-103152</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467230" path="/0000-0002-1113-1191/work/44467230" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:09:04.208Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:09:04.208Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Computer-based coding of free-text job descriptions to efficiently identify occupations in epidemiological studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/5b92584543a92164098af2f02c600a69e20bdc00d517da78825af1d5a2bf71c9</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oemed-2015-103152</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oemed-2015-103152</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4871757/</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T18:59:43.909Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.6084/M9.FIGSHARE.C.2000759</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.6084/m9.figshare.c.2000759</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466720" path="/0000-0002-1113-1191/work/44466720" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T18:59:43.909Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T18:59:43.909Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Estimation of the Probability of Exposure to Machining Fluids in a Population-Based Case-Control Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/50ac77153320184a085d069e35dc9943a9c5ac666137098f91c142936f2becea</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.6084/M9.FIGSHARE.C.2000759</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.6084/m9.figshare.c.2000759</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.6084/M9.FIGSHARE.C.2000759</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T18:59:58.750Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.6084/M9.FIGSHARE.C.2000759.V1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.6084/m9.figshare.c.2000759.v1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466729" path="/0000-0002-1113-1191/work/44466729" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T18:59:58.750Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T18:59:58.750Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Estimation of the Probability of Exposure to Machining Fluids in a Population-Based Case-Control Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/1b4c0f04cd615091579d885cde78eeeaf4cf6ff5c1b03e0190de7bbbc43f6c9a</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.6084/M9.FIGSHARE.C.2000759.V1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.6084/m9.figshare.c.2000759.v1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.6084/M9.FIGSHARE.C.2000759.V1</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:00:29.750Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.6084/M9.FIGSHARE.1183402</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.6084/m9.figshare.1183402</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466816" path="/0000-0002-1113-1191/work/44466816" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:00:29.750Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:00:29.750Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Estimation of the Probability of Exposure to Machining Fluids in a Population-Based Case-Control Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/8856291f8911bf5dac169969521667b71bb416a29c10223a3f62b08c821db78c</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.6084/M9.FIGSHARE.1183402</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.6084/m9.figshare.1183402</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.6084/M9.FIGSHARE.1183402</common:url>
+                    <work:type>data-set</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:00:43.088Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.6084/M9.FIGSHARE.1183402.V1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.6084/m9.figshare.1183402.v1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466904" path="/0000-0002-1113-1191/work/44466904" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:00:43.088Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:00:43.088Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Estimation of the Probability of Exposure to Machining Fluids in a Population-Based Case-Control Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/288ab7c98d102480876eee574a3c07351562d6a03575cc8f8a55df28138d3ff5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.6084/M9.FIGSHARE.1183402.V1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.6084/m9.figshare.1183402.v1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.6084/M9.FIGSHARE.1183402.V1</common:url>
+                    <work:type>data-set</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:10:23.670Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oemed-2013-101801</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oemed-2013-101801</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467303" path="/0000-0002-1113-1191/work/44467303" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:10:23.670Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:10:23.670Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Identifying gender differences in reported occupational information from three U.S. population-based case-control studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/5b3958e9742ae9ca2f7e7a5096c3b0955309b36eaef0931dcf2eb75d2a0d68c3</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oemed-2013-101801</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oemed-2013-101801</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4177972/</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:00:18.132Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466788" path="/0000-0002-1113-1191/work/44466788" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:00:18.132Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:00:18.132Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>de-Mesquita12,23,24, Dimitrios Trichopoulos25–27</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/2f178ed0c87469ad81f6c8d0b74228c23edb4262d39c870b461ba3b65e9c0030</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.460.9379</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:11:42.872Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467413" path="/0000-0002-1113-1191/work/44467413" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:11:42.872Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:11:42.872Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Common Genetic Polymorphisms Modify the Effect of Smoking on Absolute Risk of Bladder Cancer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/79b1ae97f33cfd8e2e584c046c034fa9936e80b42a922fad4cd30490a01de4c8</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.julkari.fi/handle/10024/109174</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:11:10.103Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/annhyg/mes082</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/annhyg/mes082</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467352" path="/0000-0002-1113-1191/work/44467352" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:11:10.103Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:11:10.103Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparison of Algorithm-based Estimates of Occupational Diesel Exhaust Exposure to Those of Multiple Independent Raters in a Population-based Case–Control Study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/f5b1ada75ab7507969bae85c0b07818504faf3becce5ba8776322667b23ddf7d</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/annhyg/mes082</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/annhyg/mes082</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629988</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:12:33.998Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/ijc.28325</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/ijc.28325</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467476" path="/0000-0002-1113-1191/work/44467476" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:12:33.998Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:12:33.998Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Differential urinary specific gravity as a molecular phenotype of the bladder cancer genetic association in the urea transporter gene, SLC14A1</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/8733169caf95c03740d9caaa527e931032eaa9edbcec3ae56969fd66834bf84f</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/ijc.28325</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/ijc.28325</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3797230</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:12:08.662Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/jnci/djs458</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/jnci/djs458</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467429" path="/0000-0002-1113-1191/work/44467429" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:12:08.662Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:12:08.662Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Genetic Variant as a Selection Marker for Anti-Prostate Stem Cell Antigen Immunotherapy of Bladder Cancer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/87ca8788c0d418960b7b93b27ca7329735b67b19727cf63f94a5a622d8cd77cb</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/jnci/djs458</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/jnci/djs458</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1093/jnci/djs458</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:12:56.591Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oemed-2012-100918</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oemed-2012-100918</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467483" path="/0000-0002-1113-1191/work/44467483" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:12:56.591Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:12:56.591Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Inside the black box: starting to uncover the underlying decision rules used in a one-by-one expert assessment of occupational exposure in case-control studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/2ec67075b36b2d2e0a92fa67382662b524066b580bc8ee63ecb2770994e277e6</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oemed-2012-100918</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oemed-2012-100918</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1136/oemed-2012-100918</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:00:57.509Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5402/2012/283670</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5402/2012/283670</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466930" path="/0000-0002-1113-1191/work/44466930" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:00:57.509Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:00:57.509Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of the Distribution and Temporal Trends of Grade and Stage in Urothelial Bladder Cancer in Northern New England from 1994 to 2004</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/c77a6860a259e1ee5e2e7a7b8d1b6a1f14b5678ecc6b02d319a8a8250f68f1f1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5402/2012/283670</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5402/2012/283670</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5402/2012/283670</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:01:14.213Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44466952" path="/0000-0002-1113-1191/work/44466952" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:01:14.213Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:01:14.213Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of the Distribution and Temporal Trends of Grade and Stage in Urothelial Bladder Cancer in Northern New England from 1994 to 2004</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/2026ffeec0a9e533b1675f705d89361e8e710083ac33e9426ff3cdd5cb136643</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5402/2012/283670</common:url>
+                    <work:type>report</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:13:50.511Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1158/1055-9965.EPI-12-0261</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1158/1055-9965.epi-12-0261</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467499" path="/0000-0002-1113-1191/work/44467499" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:13:50.511Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:13:50.511Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cell-Cycle Control in Urothelial Carcinoma: Large-scale Tissue Array Analysis of Tumor Tissue from Maine and Vermont</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/8ff337b4ecaa61bea162dcbe3b6e52b2a0cf488eaed43ebb5a7fbfa9b8ee3d42</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1158/1055-9965.EPI-12-0261</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1158/1055-9965.epi-12-0261</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3480660</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:13:25.626Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467494" path="/0000-0002-1113-1191/work/44467494" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:13:25.626Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:13:25.626Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Common genetic variants in the PSCA gene influence gene expression and bladder cancer risk</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/0780939aad5525cd36367223cf966d3de63b5ada66070702c969a1455a697149</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.julkari.fi/handle/10024/106549</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:14:17.513Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467508" path="/0000-0002-1113-1191/work/44467508" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:14:17.513Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:14:17.513Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale pathway-based analysis of bladder cancer genome-wide association data from five studies of European background</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/d1e1e99dff3e6606878b95809bfb98b5ba3d7b829b3e6be269893e2d91b7d1c6</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.julkari.fi/handle/10024/106729</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:10:46.295Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/ijc.27590</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/ijc.27590</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467347" path="/0000-0002-1113-1191/work/44467347" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:10:46.295Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:10:46.295Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nonsteroidal anti-inflammatory drugs and other analgesic use and bladder cancer in northern New England</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/647f2c3a4a3a661eae8d6e011b342d760b4ad7e1d0252361a03fefaada4a535e</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/ijc.27590</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/ijc.27590</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951299</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:08:12.327Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1136/oem.2009.052571</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1136/oem.2009.052571</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467213" path="/0000-0002-1113-1191/work/44467213" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:08:12.327Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:08:12.327Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Occupation and bladder cancer in a population-based case-control study in Northern New England</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/2b7886166af9f86ede9673e15c38ac6f64c346272a843825f3a3595b2212c759</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1136/oem.2009.052571</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1136/oem.2009.052571</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1136/oem.2009.052571</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:08:20.022Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467214" path="/0000-0002-1113-1191/work/44467214" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:08:20.022Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:08:20.022Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Occupation and bladder cancer in a population-based case-control study in Northern New England</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/a9d8d0f07107ea9963ecebdacc942ab2c5e47eac761b96973e97afd081f0a268</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1136/oem.2009.052571</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:15:14.427Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1200/JOP.200015</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1200/jop.200015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467520" path="/0000-0002-1113-1191/work/44467520" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:15:14.427Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:15:14.427Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Oncology Care in Rural Northern New England</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/690135117f47a793baef9191555713976467edd9dac500f8eeac74f349558caf</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1200/JOP.200015</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1200/jop.200015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835487</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:02:09.004Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467033" path="/0000-0002-1113-1191/work/44467033" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:02:09.004Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:02:09.004Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Kooperberg10,OlivierCussenot11,12,SimoneBenhamou13,14, JenniferPrescott15,16,17,18,19,Stefano</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/9e0cfff02ea867aba66662dd5c1e7ce56114aeb329ae0ac953603da2eee74cee</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.648.4304</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:02:58.002Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0029396</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0029396</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467078" path="/0000-0002-1113-1191/work/44467078" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:02:58.002Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:02:58.002Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale pathway-based analysis of bladder cancer genome-wide association data from five studies of European background.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/6496a235c803d70848ff4dbe4f4a02f06a32434e1581c244e1804f94da8dd16c</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0029396</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0029396</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1371/journal.pone.0029396</common:url>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:01:38.983Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467021" path="/0000-0002-1113-1191/work/44467021" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:01:38.983Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:01:38.983Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Research Article Cell-Cycle Control in Urothelial Carcinoma: Large-scale Tissue Array Analysis of Tumor Tissue from Maine and Vermont</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/1f45f85f368826aa09f6fa28802d692d8de278c4a5d9f852c1129e0e54c4befb</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1031.1207</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-05-08T19:02:31.935Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>BASE:4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-value>
+                        <common:external-id-normalized transient="true">base:4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-normalized>
+                        <common:external-id-url>https://www.base-search.net/Record/4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="44467043" path="/0000-0002-1113-1191/work/44467043" visibility="public" display-index="0">
+                    <common:created-date>2018-05-08T19:02:31.935Z</common:created-date>
+                    <common:last-modified-date>2018-05-08T19:02:31.935Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-HCGH49OO61VH1II3</common:uri>
+                            <common:path>APP-HCGH49OO61VH1II3</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>BASE - Bielefeld Academic Search Engine</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The 19q12 Bladder Cancer GWAS Signal: Association with Cyclin E Function and Aggressive Disease</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>BASE:4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-value>
+                            <common:external-id-normalized transient="true">base:4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-normalized>
+                            <common:external-id-url>https://www.base-search.net/Record/4cc294b2a61f1b28687ee4cdd0e0bd0f1d16b94d77dbd8aefa36e9eff89f1895</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.651.5425</common:url>
+                    <work:type>other</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

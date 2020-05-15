@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4196-3191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4196-3191</common:uri>
+        <common:path>0000-0002-4196-3191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2016-05-05T09:30:10.415Z</history:submission-date>
+        <common:last-modified-date>2019-04-14T12:11:33.583Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4196-3191/person">
+        <common:last-modified-date>2018-08-03T15:27:21.378Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-4196-3191">
+            <common:created-date>2016-05-05T09:30:10.638Z</common:created-date>
+            <common:last-modified-date>2016-05-05T09:30:10.638Z</common:last-modified-date>
+            <personal-details:given-names>Ekaterina</personal-details:given-names>
+            <personal-details:family-name>Stepanova</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4196-3191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4196-3191/researcher-urls">
+            <common:last-modified-date>2018-08-03T15:27:21.378Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1502147" visibility="public" path="/0000-0002-4196-3191/researcher-urls/1502147" display-index="0">
+                <common:created-date>2018-08-03T15:27:21.378Z</common:created-date>
+                <common:last-modified-date>2018-08-03T15:27:21.378Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0001-6478-3604</common:uri>
+                        <common:path>0000-0001-6478-3604</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Elsevier - Mendeley</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Mendeley profile</researcher-url:url-name>
+                <researcher-url:url>https://www.mendeley.com/profiles/ekaterina-stepanova-melnikova/</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0002-4196-3191/email"/>
+        <address:addresses path="/0000-0002-4196-3191/address"/>
+        <keyword:keywords path="/0000-0002-4196-3191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4196-3191/external-identifiers">
+            <common:last-modified-date>2016-05-05T09:53:18.792Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="473071" visibility="public" path="/0000-0002-4196-3191/external-identifiers/473071" display-index="0">
+                <common:created-date>2016-05-05T09:30:13.304Z</common:created-date>
+                <common:last-modified-date>2016-05-05T09:30:13.304Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>H-1603-2016</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/H-1603-2016</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="473087" visibility="public" path="/0000-0002-4196-3191/external-identifiers/473087" display-index="0">
+                <common:created-date>2016-05-05T09:53:18.792Z</common:created-date>
+                <common:last-modified-date>2016-05-05T09:53:18.792Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>36197309800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=36197309800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4196-3191/activities">
+        <common:last-modified-date>2016-05-05T09:53:24.577Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4196-3191/distinctions"/>
+        <activities:educations path="/0000-0002-4196-3191/educations"/>
+        <activities:employments path="/0000-0002-4196-3191/employments">
+            <common:last-modified-date>2016-05-05T09:33:47.116Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-05-05T09:33:47.116Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1804370" display-index="0" path="/0000-0002-4196-3191/employment/1804370" visibility="public">
+                    <common:created-date>2016-05-05T09:33:47.116Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:33:47.116Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4196-3191</common:uri>
+                            <common:path>0000-0002-4196-3191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ekaterina Stepanova</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of General Physics, Institute of Physics and Technology</common:department-name>
+                    <common:role-title>Associate Professor</common:role-title>
+                    <common:organization>
+                        <common:name>National Research Tomsk Polytechnic University</common:name>
+                        <common:address>
+                            <common:city>Tomsk</common:city>
+                            <common:country>RU</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4196-3191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4196-3191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4196-3191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4196-3191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4196-3191/qualifications"/>
+        <activities:research-resources path="/0000-0002-4196-3191/research-resources"/>
+        <activities:services path="/0000-0002-4196-3191/services"/>
+        <activities:works path="/0000-0002-4196-3191/works">
+            <common:last-modified-date>2016-05-05T09:53:24.577Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.573Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4028/www.scientific.net/MSF.838-839.344</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4028/www.scientific.net/msf.838-839.344</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84958074426</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84958074426</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947209" path="/0000-0002-4196-3191/work/23947209" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.573Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.573Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of hydrogen on the development of superplastic deformation in the submicrocrystalline Ti–6Al–4V alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4028/www.scientific.net/MSF.838-839.344</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4028/www.scientific.net/msf.838-839.344</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84958074426</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84958074426</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84958074426&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materials Science Forum</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.548Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4028/www.scientific.net/KEM.683.187</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4028/www.scientific.net/kem.683.187</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84959103607</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84959103607</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947204" path="/0000-0002-4196-3191/work/23947204" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.548Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.548Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Research of hydrogenation and dehydrogenation effect on the structural and phase state of the titanium alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4028/www.scientific.net/KEM.683.187</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4028/www.scientific.net/kem.683.187</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84959103607</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84959103607</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84959103607&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Key Engineering Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.544Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jallcom.2014.12.244</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jallcom.2014.12.244</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84939256705</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84939256705</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947203" path="/0000-0002-4196-3191/work/23947203" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.544Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.544Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of hydrogen on the structural and phase state and the deformation behavior of the ultrafine-grained Zr-1Nb alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jallcom.2014.12.244</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jallcom.2014.12.244</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84939256705</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84939256705</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84939256705&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Alloys and Compounds</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.569Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3103/S0967091215020060</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3103/s0967091215020060</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84930198037</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84930198037</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947208" path="/0000-0002-4196-3191/work/23947208" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.569Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.569Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Forming and deformation behavior of the ultrafine-grained Zr-1Nb alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3103/S0967091215020060</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3103/s0967091215020060</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84930198037</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84930198037</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84930198037&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Steel in Translation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.532Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1063784215070099</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1063784215070099</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84937394910</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84937394910</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947201" path="/0000-0002-4196-3191/work/23947201" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.532Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.532Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Properties of the VT1-0 titanium surface modified by a pulsed ion beam</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1063784215070099</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1063784215070099</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84937394910</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84937394910</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84937394910&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Technical Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.563Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.matpr.2015.04.033</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.matpr.2015.04.033</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84947785612</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84947785612</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947207" path="/0000-0002-4196-3191/work/23947207" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.563Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.563Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structure and Mechanical Properties of a Zr-1Nb Alloy, Obtained by the Method of Severe Plastic Deformation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.matpr.2015.04.033</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.matpr.2015.04.033</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84947785612</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84947785612</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84947785612&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Materials Today: Proceedings</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.523Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84906087213</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84906087213</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11182-014-0257-z</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11182-014-0257-z</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947199" path="/0000-0002-4196-3191/work/23947199" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.523Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.523Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of Hydrogenation on Evolution of Submicrocrystalline Structure of Ti-6Al-4V Alloy upon Exposure to Temperature and Stress</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11182-014-0257-z</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11182-014-0257-z</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84906087213</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84906087213</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84906087213&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Physics Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.577Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4028/www.scientific.net/AMM.302.66</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4028/www.scientific.net/amm.302.66</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84874887907</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84874887907</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947210" path="/0000-0002-4196-3191/work/23947210" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.577Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.577Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of pulsed electron beam treatment and hydrogen on properties of zirconium alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4028/www.scientific.net/AMM.302.66</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4028/www.scientific.net/amm.302.66</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84874887907</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84874887907</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84874887907&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Mechanics and Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.527Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84879495784</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84879495784</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S2075113313020056</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s2075113313020056</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947200" path="/0000-0002-4196-3191/work/23947200" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.527Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.527Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structure and mechanical properties of ultrafine-grained Ti-6Al-4V alloy made by applying reversible hydrogen alloying</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S2075113313020056</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s2075113313020056</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84879495784</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84879495784</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84879495784&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Inorganic Materials: Applied Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.559Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3103/S106287381206024X</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3103/s106287381206024x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84863704616</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84863704616</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947206" path="/0000-0002-4196-3191/work/23947206" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.559Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.559Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Features of the plasma saturation of nanocrystalline and coarse-crystalline titanium samples with hydrogen and deuterium</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3103/S106287381206024X</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3103/s106287381206024x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84863704616</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84863704616</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84863704616&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bulletin of the Russian Academy of Sciences: Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.537Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S1063784212030024</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s1063784212030024</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84858787872</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84858787872</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947202" path="/0000-0002-4196-3191/work/23947202" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.537Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.537Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Properties and structural state of the surface layer in a zirconium alloy modified by a pulsed electron beam and saturated by hydrogen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S1063784212030024</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s1063784212030024</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84858787872</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84858787872</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84858787872&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Technical Physics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.518Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-81955167340</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-81955167340</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s11182-011-9671-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s11182-011-9671-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947198" path="/0000-0002-4196-3191/work/23947198" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.518Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.518Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Strain behavior of the hydrogenated submicrocrystalline Ti-6Al-4V alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s11182-011-9671-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s11182-011-9671-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-81955167340</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-81955167340</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-81955167340&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Physics Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-05-05T09:53:24.552Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1134/S0036029510030134</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1134/s0036029510030134</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77954661602</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77954661602</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="23947205" path="/0000-0002-4196-3191/work/23947205" visibility="public" display-index="0">
+                    <common:created-date>2016-05-05T09:53:24.552Z</common:created-date>
+                    <common:last-modified-date>2016-05-05T09:53:24.552Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of hydrogen on the low-temperature creep of a submicrocrystalline Ti-6Al-4V alloy</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1134/S0036029510030134</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1134/s0036029510030134</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77954661602</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77954661602</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77954661602&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Russian Metallurgy (Metally)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

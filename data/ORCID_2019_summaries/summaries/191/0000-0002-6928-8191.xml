@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6928-8191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6928-8191</common:uri>
+        <common:path>0000-0002-6928-8191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>website</history:creation-method>
+        <history:completion-date>2013-04-02T16:12:35.562Z</history:completion-date>
+        <history:submission-date>2013-04-02T16:11:47.704Z</history:submission-date>
+        <common:last-modified-date>2019-10-03T06:35:02.744Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6928-8191/person">
+        <person:name visibility="public" path="0000-0002-6928-8191">
+            <common:created-date>2016-04-15T22:56:09.768Z</common:created-date>
+            <common:last-modified-date>2019-06-17T12:50:43.352Z</common:last-modified-date>
+            <personal-details:given-names>Manoj Kumar</personal-details:given-names>
+            <personal-details:family-name>Majumder</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6928-8191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-6928-8191/researcher-urls"/>
+        <email:emails path="/0000-0002-6928-8191/email"/>
+        <address:addresses path="/0000-0002-6928-8191/address"/>
+        <keyword:keywords path="/0000-0002-6928-8191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6928-8191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6928-8191/activities">
+        <common:last-modified-date>2019-09-17T04:38:15.210Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6928-8191/distinctions"/>
+        <activities:educations path="/0000-0002-6928-8191/educations">
+            <common:last-modified-date>2014-07-22T02:05:30.497Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-07-22T02:05:30.497Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="200145" display-index="0" path="/0000-0002-6928-8191/education/200145" visibility="public">
+                    <common:created-date>2014-03-28T17:53:21.931Z</common:created-date>
+                    <common:last-modified-date>2014-07-22T02:05:30.497Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-6928-8191</common:uri>
+                            <common:path>0000-0002-6928-8191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Manoj Kumar Majumder</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Electronics and Communication Engineering</common:department-name>
+                    <common:role-title>PhD</common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>07</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Indian Institute of Technology Roorkee</common:name>
+                        <common:address>
+                            <common:city>Roorkee</common:city>
+                            <common:region>Uttar Pradesh</common:region>
+                            <common:country>IN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>30112</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-6928-8191/employments"/>
+        <activities:fundings path="/0000-0002-6928-8191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6928-8191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6928-8191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6928-8191/peer-reviews">
+            <common:last-modified-date>2019-09-17T04:38:15.210Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T04:38:14.781Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:1751-8598</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-17T04:38:14.781Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>t0sGhtTk</common:external-id-value>
+                            <common:external-id-normalized transient="true">t0sghttk</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/t0sGhtTk/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="928618" path="/0000-0002-6928-8191/peer-review/928618" visibility="public" display-index="0">
+                        <common:created-date>2019-09-17T04:38:14.781Z</common:created-date>
+                        <common:last-modified-date>2019-09-17T04:38:14.781Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>t0sGhtTk</common:external-id-value>
+<common:external-id-normalized transient="true">t0sghttk</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/t0sGhtTk/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/t0sGhtTk/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1751-8598</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-17T04:38:13.813Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>4y7iT1jT</common:external-id-value>
+                            <common:external-id-normalized transient="true">4y7it1jt</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/4y7iT1jT/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="928616" path="/0000-0002-6928-8191/peer-review/928616" visibility="public" display-index="0">
+                        <common:created-date>2019-09-17T04:38:13.813Z</common:created-date>
+                        <common:last-modified-date>2019-09-17T04:38:13.813Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>4y7iT1jT</common:external-id-value>
+<common:external-id-normalized transient="true">4y7it1jt</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/4y7iT1jT/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/4y7iT1jT/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1751-8598</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-17T04:38:13.896Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>2K7IsIXK</common:external-id-value>
+                            <common:external-id-normalized transient="true">2k7isixk</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/2K7IsIXK/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="928617" path="/0000-0002-6928-8191/peer-review/928617" visibility="public" display-index="0">
+                        <common:created-date>2019-09-17T04:38:13.896Z</common:created-date>
+                        <common:last-modified-date>2019-09-17T04:38:13.896Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>2K7IsIXK</common:external-id-value>
+<common:external-id-normalized transient="true">2k7isixk</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/2K7IsIXK/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/2K7IsIXK/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2019</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1751-8598</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-17T04:38:15.210Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:1750-0443</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2019-09-17T04:38:15.210Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>jfk0GYIq</common:external-id-value>
+                            <common:external-id-normalized transient="true">jfk0gyiq</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/jfk0GYIq/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="928619" path="/0000-0002-6928-8191/peer-review/928619" visibility="public" display-index="0">
+                        <common:created-date>2019-09-17T04:38:15.210Z</common:created-date>
+                        <common:last-modified-date>2019-09-17T04:38:15.210Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>jfk0GYIq</common:external-id-value>
+<common:external-id-normalized transient="true">jfk0gyiq</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/jfk0GYIq/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/jfk0GYIq/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2018</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1750-0443</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2018-07-25T16:17:18.448Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>XVrkNr5l</common:external-id-value>
+                            <common:external-id-normalized transient="true">xvrknr5l</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/XVrkNr5l/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="333904" path="/0000-0002-6928-8191/peer-review/333904" visibility="public" display-index="0">
+                        <common:created-date>2018-07-25T16:17:18.448Z</common:created-date>
+                        <common:last-modified-date>2018-07-25T16:17:18.448Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>XVrkNr5l</common:external-id-value>
+<common:external-id-normalized transient="true">xvrknr5l</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/XVrkNr5l/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/XVrkNr5l/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2017</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1750-0443</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-10-29T09:25:42.343Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:1941-0085</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2016-10-29T09:25:40.039Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>rsM9xV3p</common:external-id-value>
+                            <common:external-id-normalized transient="true">rsm9xv3p</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/rsM9xV3p/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="17413" path="/0000-0002-6928-8191/peer-review/17413" visibility="public" display-index="0">
+                        <common:created-date>2016-10-29T09:25:40.039Z</common:created-date>
+                        <common:last-modified-date>2016-10-29T09:25:40.039Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>rsM9xV3p</common:external-id-value>
+<common:external-id-normalized transient="true">rsm9xv3p</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/rsM9xV3p/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/rsM9xV3p/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2016</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1941-0085</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2016-10-29T09:25:42.343Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>lBKKvvzM</common:external-id-value>
+                            <common:external-id-normalized transient="true">lbkkvvzm</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/lBKKvvzM/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="17414" path="/0000-0002-6928-8191/peer-review/17414" visibility="public" display-index="0">
+                        <common:created-date>2016-10-29T09:25:42.343Z</common:created-date>
+                        <common:last-modified-date>2016-10-29T09:25:42.343Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>lBKKvvzM</common:external-id-value>
+<common:external-id-normalized transient="true">lbkkvvzm</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/lBKKvvzM/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/lBKKvvzM/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2016</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:1941-0085</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-10-29T09:46:41.843Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>peer-review</common:external-id-type>
+                        <common:external-id-value>issn:0218-1266</common:external-id-value>
+                    </common:external-id>
+                </common:external-ids>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2016-10-29T09:46:41.843Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>g1rZtRDh</common:external-id-value>
+                            <common:external-id-normalized transient="true">g1rztrdh</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/g1rZtRDh/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="17415" path="/0000-0002-6928-8191/peer-review/17415" visibility="public" display-index="0">
+                        <common:created-date>2016-10-29T09:46:41.843Z</common:created-date>
+                        <common:last-modified-date>2016-10-29T09:46:41.843Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>g1rZtRDh</common:external-id-value>
+<common:external-id-normalized transient="true">g1rztrdh</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/g1rZtRDh/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/g1rZtRDh/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2016</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:0218-1266</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+                <activities:peer-review-group>
+                    <common:last-modified-date>2016-10-29T09:36:47.864Z</common:last-modified-date>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>SoDdiN2q</common:external-id-value>
+                            <common:external-id-normalized transient="true">soddin2q</common:external-id-normalized>
+                            <common:external-id-url>https://publons.com/author/review/SoDdiN2q/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <peer-review:peer-review-summary put-code="17412" path="/0000-0002-6928-8191/peer-review/17412" visibility="public" display-index="0">
+                        <common:created-date>2016-10-29T09:36:47.864Z</common:created-date>
+                        <common:last-modified-date>2016-10-29T09:36:47.864Z</common:last-modified-date>
+                        <common:source>
+                            <common:source-client-id>
+<common:uri>https://orcid.org/client/APP-1DSJAQCZ1PW1VN5X</common:uri>
+<common:path>APP-1DSJAQCZ1PW1VN5X</common:path>
+<common:host>orcid.org</common:host>
+                            </common:source-client-id>
+                            <common:source-name>Publons</common:source-name>
+                        </common:source>
+                        <peer-review:reviewer-role>reviewer</peer-review:reviewer-role>
+                        <common:external-ids>
+                            <common:external-id>
+<common:external-id-type>other-id</common:external-id-type>
+<common:external-id-value>SoDdiN2q</common:external-id-value>
+<common:external-id-normalized transient="true">soddin2q</common:external-id-normalized>
+<common:external-id-url>https://publons.com/author/review/SoDdiN2q/</common:external-id-url>
+<common:external-id-relationship>self</common:external-id-relationship>
+                            </common:external-id>
+                        </common:external-ids>
+                        <peer-review:review-url>https://publons.com/author/review/SoDdiN2q/</peer-review:review-url>
+                        <peer-review:review-type>review</peer-review:review-type>
+                        <peer-review:completion-date>
+                            <common:year>2015</common:year>
+                        </peer-review:completion-date>
+                        <peer-review:review-group-id>issn:0218-1266</peer-review:review-group-id>
+                        <peer-review:convening-organization>
+                            <common:name>Publons</common:name>
+                            <common:address>
+<common:city>Wellington</common:city>
+<common:country>NZ</common:country>
+                            </common:address>
+                        </peer-review:convening-organization>
+                    </peer-review:peer-review-summary>
+                </activities:peer-review-group>
+            </activities:group>
+        </activities:peer-reviews>
+        <activities:qualifications path="/0000-0002-6928-8191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6928-8191/research-resources"/>
+        <activities:services path="/0000-0002-6928-8191/services"/>
+        <activities:works path="/0000-0002-6928-8191/works">
+            <common:last-modified-date>2019-09-12T06:12:13.334Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-07-12T05:12:56.044Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/03772063.2019.1637788</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/03772063.2019.1637788</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1080/03772063.2019.1637788</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59409735" path="/0000-0002-6928-8191/work/59409735" visibility="public" display-index="0">
+                    <common:created-date>2019-07-12T05:12:56.044Z</common:created-date>
+                    <common:last-modified-date>2019-07-12T05:12:56.044Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact of Interconnect Spacing on Crosstalk for Multi-layered Graphene Nanoribbon</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/03772063.2019.1637788</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/03772063.2019.1637788</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1080/03772063.2019.1637788</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1080/03772063.2019.1637788</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>07</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>IETE Journal of Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-04T21:49:16.400Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/TNANO.2019.2920679</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/tnano.2019.2920679</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1109/TNANO.2019.2920679</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58660921" path="/0000-0002-6928-8191/work/58660921" visibility="public" display-index="0">
+                    <common:created-date>2019-06-19T20:18:36.085Z</common:created-date>
+                    <common:last-modified-date>2019-07-04T21:49:16.400Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analytical Study of Bundled MWCNT and Edged MLGNR Interconnects: Impact on Propagation Delay and Area</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/TNANO.2019.2920679</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/tnano.2019.2920679</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1109/TNANO.2019.2920679</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1109/TNANO.2019.2920679</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Nanotechnology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T06:12:13.334Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-981-32-9767-8_51</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-981-32-9767-8_51</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/978-981-32-9767-8_51</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60613726" path="/0000-0002-6928-8191/work/60613726" visibility="public" display-index="0">
+                    <common:created-date>2019-08-17T06:14:22.865Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T06:12:13.334Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Novel Approach for Improved Signal Integrity and Power Dissipation Using MLGNR Interconnects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-981-32-9767-8_51</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-981-32-9767-8_51</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/978-981-32-9767-8_51</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/978-981-32-9767-8_51</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-12-10T17:06:39.973Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1155/2013/407301</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1155/2013/407301</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1155/2013/407301</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="39493616" path="/0000-0002-6928-8191/work/39493616" visibility="public" display-index="0">
+                    <common:created-date>2017-12-10T17:06:39.973Z</common:created-date>
+                    <common:last-modified-date>2017-12-10T17:06:39.973Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Signal Integrity Analysis in Single and Bundled Carbon Nanotube Interconnects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1155/2013/407301</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1155/2013/407301</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1155/2013/407301</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1155/2013/407301</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Nanoscience</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-20T22:06:42.401Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ted.2008.922855</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/ted.2008.922855</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="11716576" path="/0000-0002-6928-8191/work/11716576" visibility="public" display-index="0">
+                    <common:created-date>2014-02-05T12:50:07.147Z</common:created-date>
+                    <common:last-modified-date>2015-07-20T22:06:42.401Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Circuit Modeling and Performance Analysis of Multi-Walled Carbon Nanotube Interconnects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0018-9383</common:external-id-value>
+                            <common:external-id-normalized transient="true">0018-9383</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ted.2008.922855</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/ted.2008.922855</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-20T22:06:42.270Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ted.2009.2014429</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/ted.2009.2014429</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="11716574" path="/0000-0002-6928-8191/work/11716574" visibility="public" display-index="0">
+                    <common:created-date>2014-02-05T12:49:08.823Z</common:created-date>
+                    <common:last-modified-date>2015-07-20T22:06:42.270Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Crosstalk Prediction of Single- and Double-Walled Carbon-Nanotube (SWCNT/DWCNT) Bundle Interconnects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0018-9383</common:external-id-value>
+                            <common:external-id-normalized transient="true">0018-9383</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ted.2009.2014429</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/ted.2009.2014429</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-30T22:05:09.118Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/isdrs.2007.4422493</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/isdrs.2007.4422493</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="11716575" path="/0000-0002-6928-8191/work/11716575" visibility="public" display-index="0">
+                    <common:created-date>2014-02-05T12:49:40.210Z</common:created-date>
+                    <common:last-modified-date>2015-07-30T22:05:09.118Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Performance analysis of multi-walled carbon nanotube based interconnects</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/isdrs.2007.4422493</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/isdrs.2007.4422493</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>978-1-4244-1891-6</common:external-id-value>
+                            <common:external-id-normalized transient="true">9781424418916</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

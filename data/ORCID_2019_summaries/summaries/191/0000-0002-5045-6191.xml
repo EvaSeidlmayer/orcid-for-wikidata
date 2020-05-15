@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-5045-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-5045-6191</common:uri>
+        <common:path>0000-0002-5045-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>es</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2015-07-08T09:48:16.776Z</history:submission-date>
+        <common:last-modified-date>2019-09-28T18:40:28.541Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-5045-6191/person">
+        <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-5045-6191">
+            <common:created-date>2016-04-15T22:36:43.772Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:36:43.772Z</common:last-modified-date>
+            <personal-details:given-names>Mudarra</personal-details:given-names>
+            <personal-details:family-name>Matías</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-5045-6191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-5045-6191/researcher-urls"/>
+        <email:emails path="/0000-0002-5045-6191/email"/>
+        <address:addresses path="/0000-0002-5045-6191/address"/>
+        <keyword:keywords path="/0000-0002-5045-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-5045-6191/external-identifiers">
+            <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="299764" visibility="public" path="/0000-0002-5045-6191/external-identifiers/299764" display-index="0">
+                <common:created-date>2015-07-08T09:50:46.499Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>36473922800</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=36473922800&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-5045-6191/activities">
+        <common:last-modified-date>2019-09-28T18:40:28.556Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-5045-6191/distinctions"/>
+        <activities:educations path="/0000-0002-5045-6191/educations"/>
+        <activities:employments path="/0000-0002-5045-6191/employments"/>
+        <activities:fundings path="/0000-0002-5045-6191/fundings"/>
+        <activities:invited-positions path="/0000-0002-5045-6191/invited-positions"/>
+        <activities:memberships path="/0000-0002-5045-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-5045-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-5045-6191/qualifications"/>
+        <activities:research-resources path="/0000-0002-5045-6191/research-resources"/>
+        <activities:services path="/0000-0002-5045-6191/services"/>
+        <activities:works path="/0000-0002-5045-6191/works">
+            <common:last-modified-date>2019-09-28T18:40:28.556Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-28T18:40:28.556Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5194/gi-2019-22</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5194/gi-2019-22</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.5194/gi-2019-22</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="60088241" path="/0000-0002-5045-6191/work/60088241" visibility="public" display-index="0">
+                    <common:created-date>2019-08-01T05:44:06.462Z</common:created-date>
+                    <common:last-modified-date>2019-09-28T18:40:28.556Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A soil moisture monitoring network to characterize karstic recharge and evapotranspiration at five representative sites across the globe</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5194/gi-2019-22</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5194/gi-2019-22</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.5194/gi-2019-22</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.5194/gi-2019-22</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>08</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.158Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85061897605</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85061897605</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1029/2017WR021819</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1029/2017wr021819</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1029/2017WR021819</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52799418" path="/0000-0002-5045-6191/work/52799418" visibility="public" display-index="0">
+                    <common:created-date>2019-01-17T19:52:29.430Z</common:created-date>
+                    <common:last-modified-date>2019-04-01T17:10:27.886Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Combining Experimental Methods and Modeling to Quantify the Complex Recharge Behavior of Karst Aquifers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1029/2017WR021819</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1029/2017wr021819</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1029/2017WR021819</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1029/2017WR021819</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Water Resources Research</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="58858870" path="/0000-0002-5045-6191/work/58858870" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.158Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.158Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Combining Experimental Methods and Modeling to Quantify the Complex Recharge Behavior of Karst Aquifers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1029/2017WR021819</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1029/2017wr021819</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85061897605</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85061897605</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85061897605&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Water Resources Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.140Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85027680908</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85027680908</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10040-017-1652-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10040-017-1652-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858864" path="/0000-0002-5045-6191/work/58858864" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.140Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.140Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A multi-method approach for groundwater resource assessment in coastal carbonate (karst) aquifers: the case study of Sierra Almijara (southern Spain),Une approche multi-méthode pour l’évaluation des ressources en eaux souterraines dans les aquifères côtiers carbonatés (karst): l’étude de cas de la Sierra Almijara (sud de l’Espagne),Uma abordagem multi-método para avaliação de recursos hídricos subterrâneos nos aquíferos carbonáticos costeiros (carste): o estudo de caso de Sierra Almijara (sul da Espanha),Una investigación multi-método para la evaluación de recursos de agua subterránea en acuíferos kársticos costeros: el caso de estudio de Sierra Almijara (sur de España)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10040-017-1652-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10040-017-1652-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85027680908</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85027680908</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85027680908&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Hydrogeology Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.161Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85049243851</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85049243851</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1144/SP466.16</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1144/sp466.16</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858871" path="/0000-0002-5045-6191/work/58858871" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.161Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.161Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrochemical and isotopic characterization of carbonate aquifers under natural flow conditions, Sierra Grazalema Natural Park, southern Spain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1144/SP466.16</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1144/sp466.16</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85049243851</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85049243851</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85049243851&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Geological Society Special Publication</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.148Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jafrearsci.2018.02.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jafrearsci.2018.02.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85044478158</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85044478158</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858867" path="/0000-0002-5045-6191/work/58858867" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.148Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.148Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mapping potential zones for groundwater recharge and its evaluation in arid environments using a GIS approach: Case study of North Gafsa Basin (Central Tunisia)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jafrearsci.2018.02.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jafrearsci.2018.02.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85044478158</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85044478158</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85044478158&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of African Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.164Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10040-017-1638-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10040-017-1638-5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85021748290</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85021748290</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858872" path="/0000-0002-5045-6191/work/58858872" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.164Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.164Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Regional-scale analysis of karst underground flow deduced from tracing experiments: examples from carbonate aquifers in Malaga province, southern Spain,Analyse à l’échelle régionale des écoulements souterrains karstiques à partir des essais de traçage: exemples des aquifères carbonates dans la province de Málaga, sud de l’Espagne,Análises em escala regional do fluxo cárstico subterrâneo deduzido de experimentos com traçadores: exemplos de aquíferos carbonáticos na província de Málaga, sul da Espanha,Análisis regional del flujo subterráneo kárstico a partir de ensayos de trazadores: ejemplos de acuíferos carbonáticos de la provincia de Málaga (sur de España)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10040-017-1638-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10040-017-1638-5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85021748290</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85021748290</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85021748290&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Hydrogeology Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-01-26T17:46:26.513Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>issn</common:external-id-type>
+                        <common:external-id-value>0213-683X</common:external-id-value>
+                        <common:external-id-normalized transient="true">0213-683X</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="40996606" path="/0000-0002-5045-6191/work/40996606" visibility="public" display-index="1">
+                    <common:created-date>2018-01-26T17:46:26.513Z</common:created-date>
+                    <common:last-modified-date>2018-01-26T17:46:26.513Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5045-6191</common:uri>
+                            <common:path>0000-0002-5045-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mudarra Matías</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Consideraciones sobre el funcionamiento hidrogeológico del acuífero carbonático de la sierra de Jarastepar (provincia de Málaga) deducidas a partir de un ensayo de trazadores artificiales</common:title>
+                        <common:translated-title language-code="es">Considerations on the hydrogeological functioning of the carbonate aquifer of Sierra de Jarastepar (province of Málaga) deduced from a multitracer test</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0213-683X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0213-683X</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Geogaceta</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T13:09:25.188Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-45465-8_27</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-45465-8_27</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/978-3-319-45465-8_27</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58859358" path="/0000-0002-5045-6191/work/58859358" visibility="public" display-index="1">
+                    <common:created-date>2019-06-26T13:09:25.188Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T13:09:25.188Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5045-6191</common:uri>
+                            <common:path>0000-0002-5045-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mudarra Matías</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrogeological Characterization of a Geologically Complex Karst Aquifer Using Natural Responses: An Example from Andalusia, Southern Spain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-45465-8_27</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-45465-8_27</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/978-3-319-45465-8_27</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783319454641</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783319454641</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/9783319454641</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9783319454658</common:external-id-value>
+                            <common:external-id-normalized transient="true">9783319454658</common:external-id-normalized>
+                            <common:external-id-url>https://www.worldcat.org/isbn/9783319454658</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2511-2066</common:external-id-value>
+                            <common:external-id-normalized transient="true">2511-2066</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/2511-2066</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>2511-2082</common:external-id-value>
+                            <common:external-id-normalized transient="true">2511-2082</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/2511-2082</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1007/978-3-319-45465-8_27</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>EuroKarst 2016, Neuchâtel</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.143Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jhydrol.2016.11.062</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jhydrol.2016.11.062</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85003638064</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85003638064</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858865" path="/0000-0002-5045-6191/work/58858865" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.143Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.143Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrological and geochemical processes constraining groundwater salinity in wetland areas related to evaporitic (karst) systems. A case study from Southern Spain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jhydrol.2016.11.062</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jhydrol.2016.11.062</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85003638064</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85003638064</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85003638064&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Hydrology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.152Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85021699226</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85021699226</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.5038/1827-806X.46.2.2115</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.5038/1827-806x.46.2.2115</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858868" path="/0000-0002-5045-6191/work/58858868" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.152Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.152Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Karst development of an evaporitic system and its hydrogeological implications inferred from GIS-based analysis and tracing techniques</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.5038/1827-806X.46.2.2115</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.5038/1827-806x.46.2.2115</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85021699226</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85021699226</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85021699226&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Speleology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.155Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3986/ac.v45i2.4504</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3986/ac.v45i2.4504</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85006062716</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85006062716</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858869" path="/0000-0002-5045-6191/work/58858869" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.155Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.155Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrogeological characterization of the salinas-los hoyos evaporitic karst (Malaga province, s Spain) using topographic, hydrodynamic, hydrochemical and isotopic methods,Hidrogeološka opredelitev evaporitnega krasa na območju Salinas-Los Hoyos (provinca Malaga na jugu Španije) z uporabo topografskih, hidrodinamičnih, hidrokemičnih in izotopskih metod</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3986/ac.v45i2.4504</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3986/ac.v45i2.4504</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85006062716</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85006062716</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85006062716&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Acta Carsologica</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.146Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84964426852</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84964426852</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s12665-016-5545-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s12665-016-5545-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858866" path="/0000-0002-5045-6191/work/58858866" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.146Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.146Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hypothesis on the hydrogeological context of wetland areas and springs related to evaporitic karst aquifers (Málaga, Córdoba and Jaén provinces, Southern Spain)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12665-016-5545-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12665-016-5545-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84964426852</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84964426852</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84964426852&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.154Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-17435-3_20</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_20</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84921754796</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84921754796</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319231" path="/0000-0002-5045-6191/work/17319231" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.334Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.154Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Characterization of carbonate aquifers (Sierra de Grazalema, S Spain) by means of hydrodynamic and hydrochemical tools</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-17435-3_20</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_20</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84921754796</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84921754796</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84921754796&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.075Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s12665-015-4307-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s12665-015-4307-9</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84931571129</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84931571129</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319229" path="/0000-0002-5045-6191/work/17319229" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.326Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.075Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrogeochemical tools applied to the study of carbonate aquifers: examples from some karst systems of Southern Spain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12665-015-4307-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12665-015-4307-9</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84931571129</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84931571129</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84931571129&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.116Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84921804638</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84921804638</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-17435-3_39</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_39</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319230" path="/0000-0002-5045-6191/work/17319230" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.331Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.116Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relating land surface information and model parameters for a karst system in southern Spain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-17435-3_39</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_39</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84921804638</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84921804638</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84921804638&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.197Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84921823461</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84921823461</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-17435-3_7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_7</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319232" path="/0000-0002-5045-6191/work/17319232" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.338Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.197Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of the soil-epikarst-unsaturated zone in the hydrogeological functioning of karst aquifers. the case of the sierra gorda de villanueva del trabuco aquifer (Southern Spain)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-17435-3_7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-17435-3_7</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84921823461</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84921823461</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84921823461&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-19T16:39:31.877Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.scitotenv.2015.05.029</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.scitotenv.2015.05.029</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84935029277</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84935029277</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20989485" path="/0000-0002-5045-6191/work/20989485" visibility="public" display-index="0">
+                    <common:created-date>2015-12-19T16:39:31.877Z</common:created-date>
+                    <common:last-modified-date>2015-12-19T16:39:31.877Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Vulnerability mapping and protection zoning of karst springs. Validation by multitracer tests</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.scitotenv.2015.05.029</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.scitotenv.2015.05.029</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84935029277</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84935029277</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84935029277&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Science of the Total Environment</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:00.657Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s10040-014-1117-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s10040-014-1117-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84904703295</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84904703295</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319234" path="/0000-0002-5045-6191/work/17319234" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.344Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:00.657Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Combined use of natural and artificial tracers to determine the hydrogeological functioning of a karst aquifer: The Villanueva del Rosario system (Andalusia, southern Spain),Utilisation combine des traceurs naturels et artificiels pour déterminer le fonctionnement hydrogéologique d'un aquifère karstique: Le système de Villanueva de Rosario (Andalousie, Sud de l'Espagne)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s10040-014-1117-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s10040-014-1117-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84904703295</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84904703295</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84904703295&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Hydrogeology Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:00.938Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s12665-013-2593-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s12665-013-2593-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84921720403</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84921720403</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319235" path="/0000-0002-5045-6191/work/17319235" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.348Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:00.938Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrochemical dynamics of TOC and NO&lt;inf&gt;3&lt;/inf&gt;&lt;sup&gt;−&lt;/sup&gt; contents as natural tracers of infiltration in karst aquifers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12665-013-2593-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12665-013-2593-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84921720403</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84921720403</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84921720403&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:00.844Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/2014WR015685</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/2014wr015685</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85040702896</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85040702896</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319233" path="/0000-0002-5045-6191/work/17319233" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.341Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:00.844Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modeling spatiotemporal impacts of hydroclimatic extremes on groundwater recharge at a mediterranean karst aquifer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/2014WR015685</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/2014wr015685</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85040702896</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85040702896</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85040702896&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Water Resources Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.400Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84859101039</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84859101039</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s12665-011-1032-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s12665-011-1032-x</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319236" path="/0000-0002-5045-6191/work/17319236" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.351Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.400Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Monitoring groundwater in the discharge area of a complex karst aquifer to assess the role of the saturated and unsaturated zones</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s12665-011-1032-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s12665-011-1032-x</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84859101039</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84859101039</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84859101039&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:00.552Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79851504952</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79851504952</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319239" path="/0000-0002-5045-6191/work/17319239" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.362Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:00.552Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analysis of the response to recharge in Alpujárride carbonates via a hydrodynamic, hydrochemical and isotopic study of the Careabal spring at la Peza, Granada,Análisis de la respuesta a la recarga en carbonatos alpujárrides mediante el estudio hidrodinámico, hidroquímico e isotópico del manantial del Carcabal (La Peza, Granada)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79851504952</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79851504952</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79851504952&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Boletin Geologico y Minero</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.458Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-79959706159</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-79959706159</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.scitotenv.2011.05.026</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.scitotenv.2011.05.026</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319237" path="/0000-0002-5045-6191/work/17319237" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.355Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.458Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Characterisation of dissolved organic matter in karst spring waters using intrinsic fluorescence: Relationship with infiltration processes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.scitotenv.2011.05.026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.scitotenv.2011.05.026</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-79959706159</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-79959706159</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-79959706159&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Science of the Total Environment</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.496Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jhydrol.2010.12.005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jhydrol.2010.12.005</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-78651376334</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-78651376334</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319238" path="/0000-0002-5045-6191/work/17319238" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.359Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.496Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relative importance of the saturated and the unsaturated zones in the hydrogeological functioning of karst aquifers: The case of Alta Cadena (Southern Spain)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jhydrol.2010.12.005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jhydrol.2010.12.005</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-78651376334</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-78651376334</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-78651376334&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Hydrology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:01.135Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-642-12486-0_25</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-642-12486-0_25</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85007295953</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85007295953</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58858863" path="/0000-0002-5045-6191/work/58858863" visibility="public" display-index="0">
+                    <common:created-date>2019-06-26T12:57:01.135Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:01.135Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrochemical heterogeneity in the discharge zone of a karstic aquifer</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-642-12486-0_25</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-642-12486-0_25</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85007295953</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85007295953</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85007295953&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Environmental Earth Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-26T12:57:00.752Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-78149427754</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-78149427754</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3986/ac.v39i2.98</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3986/ac.v39i2.98</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319240" path="/0000-0002-5045-6191/work/17319240" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.366Z</common:created-date>
+                    <common:last-modified-date>2019-06-26T12:57:00.752Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hydrogeological functioning of a karst aquifer deduced from hydrochemical components and natural organic tracers present in spring waters. The case of yedra spring(Southern Spain),Razlaga hidrogeološkega delovanja kraškega vodonosnika na podlagi hidrokemičnih elementov in naravnih organskih sledil prisotnih v izvirski vodi. Primer izvira yedra(južn ašpanija)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3986/ac.v39i2.98</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3986/ac.v39i2.98</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-78149427754</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-78149427754</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-78149427754&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Acta Carsologica</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-27T16:12:25.609Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77956577757</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77956577757</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1127/0372-8854/2010/0054S2-0010</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1127/0372-8854/2010/0054s2-0010</common:external-id-normalized>
+                        <common:external-id-url></common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="17319241" path="/0000-0002-5045-6191/work/17319241" visibility="public" display-index="0">
+                    <common:created-date>2015-07-08T09:50:52.369Z</common:created-date>
+                    <common:last-modified-date>2015-07-27T16:12:25.609Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Importance of evaluating karst features in contamination vulnerability and groundwater protection assessment of carbonate aquifers. the case study of Alta Cadena (Southern Spain)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1127/0372-8854/2010/0054S2-0010</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1127/0372-8854/2010/0054s2-0010</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77956577757</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77956577757</common:external-id-normalized>
+                            <common:external-id-url></common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77956577757&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Zeitschrift fur Geomorphologie</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

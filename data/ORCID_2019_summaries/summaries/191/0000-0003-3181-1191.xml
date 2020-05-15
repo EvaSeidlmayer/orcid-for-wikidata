@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-3181-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-3181-1191</common:uri>
+        <common:path>0000-0003-3181-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-04-09T17:04:50.227Z</history:submission-date>
+        <common:last-modified-date>2019-08-04T17:30:54.937Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-3181-1191/person">
+        <common:last-modified-date>2018-11-12T17:12:50.036Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0003-3181-1191">
+            <common:created-date>2016-04-15T23:59:45.674Z</common:created-date>
+            <common:last-modified-date>2018-11-12T16:48:12.747Z</common:last-modified-date>
+            <personal-details:given-names>Kseniya</personal-details:given-names>
+            <personal-details:family-name>Korchagina</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-3181-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-3181-1191/researcher-urls"/>
+        <email:emails path="/0000-0003-3181-1191/email"/>
+        <address:addresses path="/0000-0003-3181-1191/address">
+            <common:last-modified-date>2018-11-12T16:47:46.935Z</common:last-modified-date>
+            <address:address put-code="1108179" visibility="public" path="/0000-0003-3181-1191/address/1108179" display-index="1">
+                <common:created-date>2018-11-12T16:47:46.935Z</common:created-date>
+                <common:last-modified-date>2018-11-12T16:47:46.935Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0003-3181-1191</common:uri>
+                        <common:path>0000-0003-3181-1191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Kseniya Korchagina</common:source-name>
+                </common:source>
+                <address:country>RU</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0003-3181-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-3181-1191/external-identifiers">
+            <common:last-modified-date>2018-11-12T17:12:50.036Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="840480" visibility="public" path="/0000-0003-3181-1191/external-identifiers/840480" display-index="0">
+                <common:created-date>2017-10-23T05:45:28.431Z</common:created-date>
+                <common:last-modified-date>2017-10-23T05:45:28.431Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>R-7735-2017</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/R-7735-2017</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1208307" visibility="public" path="/0000-0003-3181-1191/external-identifiers/1208307" display-index="0">
+                <common:created-date>2018-11-12T17:12:50.035Z</common:created-date>
+                <common:last-modified-date>2018-11-12T17:12:50.036Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56716218300</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56716218300&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-3181-1191/activities">
+        <common:last-modified-date>2018-11-12T17:12:55.486Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-3181-1191/distinctions"/>
+        <activities:educations path="/0000-0003-3181-1191/educations"/>
+        <activities:employments path="/0000-0003-3181-1191/employments">
+            <common:last-modified-date>2018-11-12T16:52:08.627Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-12T16:52:08.627Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6775916" display-index="1" path="/0000-0003-3181-1191/employment/6775916" visibility="public">
+                    <common:created-date>2018-11-12T16:52:08.627Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T16:52:08.627Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3181-1191</common:uri>
+                            <common:path>0000-0003-3181-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Kseniya Korchagina</common:source-name>
+                    </common:source>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Medical Radiological Research Center</common:name>
+                        <common:address>
+                            <common:city>Obninsk</common:city>
+                            <common:country>RU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.415010.1</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-3181-1191/fundings"/>
+        <activities:invited-positions path="/0000-0003-3181-1191/invited-positions"/>
+        <activities:memberships path="/0000-0003-3181-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-3181-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-3181-1191/qualifications">
+            <common:last-modified-date>2018-11-12T17:02:10.114Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-11-12T17:02:10.114Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="6775979" display-index="1" path="/0000-0003-3181-1191/qualification/6775979" visibility="public">
+                    <common:created-date>2018-11-12T17:02:10.114Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:02:10.114Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3181-1191</common:uri>
+                            <common:path>0000-0003-3181-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Kseniya Korchagina</common:source-name>
+                    </common:source>
+                    <common:start-date>
+                        <common:year>2006</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Nizhny Novgorod State Medical Academy</common:name>
+                        <common:address>
+                            <common:city>Nizhny Novgorod</common:city>
+                            <common:country>RU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.416347.3</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0003-3181-1191/research-resources"/>
+        <activities:services path="/0000-0003-3181-1191/services"/>
+        <activities:works path="/0000-0003-3181-1191/works">
+            <common:last-modified-date>2018-11-12T17:12:55.486Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-11-12T17:12:55.486Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1515/plm-2015-0042</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1515/plm-2015-0042</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84969674111</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84969674111</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50502278" path="/0000-0003-3181-1191/work/50502278" visibility="public" display-index="0">
+                    <common:created-date>2018-11-12T17:12:55.486Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:12:55.486Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fluorescence imaging for photodynamic therapy of non-melanoma skin malignancies-A retrospective clinical study</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1515/plm-2015-0042</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1515/plm-2015-0042</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84969674111</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84969674111</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84969674111&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Photonics and Lasers in Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-12T17:12:55.456Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85016837227</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85016837227</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50502271" path="/0000-0003-3181-1191/work/50502271" visibility="public" display-index="0">
+                    <common:created-date>2018-11-12T17:12:55.456Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:12:55.456Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical bioimaging as a tool for prognosis of oncologic and functional results of PDT of non-melanoma skin carcinoma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85016837227</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85016837227</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85016837227&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Optics InfoBase Conference Papers</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-12T17:12:55.477Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1364/TRANSLATIONAL.2016.JM3A.47</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1364/translational.2016.jm3a.47</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85019523934</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85019523934</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50502275" path="/0000-0003-3181-1191/work/50502275" visibility="public" display-index="0">
+                    <common:created-date>2018-11-12T17:12:55.477Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:12:55.477Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical bioimaging as a tool for prognosis of oncologic and functional results of PDT of non-melanoma skin carcinoma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1364/TRANSLATIONAL.2016.JM3A.47</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1364/translational.2016.jm3a.47</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85019523934</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85019523934</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85019523934&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Optics InfoBase Conference Papers</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-12T17:12:55.480Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84936744382</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84936744382</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.17691/stm2015.7.2.10</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.17691/stm2015.7.2.10</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50502276" path="/0000-0003-3181-1191/work/50502276" visibility="public" display-index="0">
+                    <common:created-date>2018-11-12T17:12:55.480Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:12:55.480Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fluorescent monitoring of photodynamic therapy for skin cancer in clinical practice</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.17691/stm2015.7.2.10</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.17691/stm2015.7.2.10</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84936744382</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84936744382</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84936744382&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sovremennye Tehnologii v Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-12T17:12:55.483Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1364/CANCER.2016.JM3A.47</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1364/cancer.2016.jm3a.47</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85019517211</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85019517211</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="50502277" path="/0000-0003-3181-1191/work/50502277" visibility="public" display-index="0">
+                    <common:created-date>2018-11-12T17:12:55.483Z</common:created-date>
+                    <common:last-modified-date>2018-11-12T17:12:55.483Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optical bioimaging as a tool for prognosis of oncologic and functional results of PDT of non-melanoma skin carcinoma</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1364/CANCER.2016.JM3A.47</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1364/cancer.2016.jm3a.47</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85019517211</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85019517211</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85019517211&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Optics InfoBase Conference Papers</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

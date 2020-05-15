@@ -1,0 +1,2532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-5267-0191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-5267-0191</common:uri>
+        <common:path>0000-0002-5267-0191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-05-02T11:25:17.250Z</history:submission-date>
+        <common:last-modified-date>2017-06-20T11:30:20.543Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-5267-0191/person">
+        <common:last-modified-date>2017-06-20T11:29:14.634Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-5267-0191">
+            <common:created-date>2017-05-02T11:25:17.250Z</common:created-date>
+            <common:last-modified-date>2017-05-02T11:25:17.479Z</common:last-modified-date>
+            <personal-details:given-names>Celia</personal-details:given-names>
+            <personal-details:family-name>Garcia Martinez</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-5267-0191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-5267-0191/researcher-urls"/>
+        <email:emails path="/0000-0002-5267-0191/email"/>
+        <address:addresses path="/0000-0002-5267-0191/address"/>
+        <keyword:keywords path="/0000-0002-5267-0191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-5267-0191/external-identifiers">
+            <common:last-modified-date>2017-06-20T11:29:14.634Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="701916" visibility="public" path="/0000-0002-5267-0191/external-identifiers/701916" display-index="2">
+                <common:created-date>2017-05-10T09:21:25.448Z</common:created-date>
+                <common:last-modified-date>2017-06-20T11:29:14.634Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>G-9536-2017</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/G-9536-2017</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-5267-0191/activities">
+        <common:last-modified-date>2017-06-20T11:30:20.734Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-5267-0191/distinctions"/>
+        <activities:educations path="/0000-0002-5267-0191/educations"/>
+        <activities:employments path="/0000-0002-5267-0191/employments"/>
+        <activities:fundings path="/0000-0002-5267-0191/fundings"/>
+        <activities:invited-positions path="/0000-0002-5267-0191/invited-positions"/>
+        <activities:memberships path="/0000-0002-5267-0191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-5267-0191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-5267-0191/qualifications"/>
+        <activities:research-resources path="/0000-0002-5267-0191/research-resources"/>
+        <activities:services path="/0000-0002-5267-0191/services"/>
+        <activities:works path="/0000-0002-5267-0191/works">
+            <common:last-modified-date>2017-06-20T11:30:20.734Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.669Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000336839400041</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000336839400041</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1371/journal.pone.0098109</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1371/journal.pone.0098109</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095387" path="/0000-0002-5267-0191/work/34095387" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.669Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.669Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fatty Acid Transport Protein 1 (FATP1) Localizes in Mitochondria in Mouse Skeletal Muscle and Regulates Lipid and Ketone Body Disposal</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1371/journal.pone.0098109</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1371/journal.pone.0098109</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000336839400041</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000336839400041</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000336839400041&amp;KeyUID=WOS:000336839400041</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Plos One</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.671Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/1471-2091-12-57</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/1471-2091-12-57</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000298163500001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000298163500001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095388" path="/0000-0002-5267-0191/work/34095388" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.671Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.671Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Differential pattern of glycogen accumulation after protein phosphatase 1 glycogen-targeting subunit PPP1R6 overexpression, compared to PPP1R3C and PPP1R3A, in skeletal muscle cells</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/1471-2091-12-57</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/1471-2091-12-57</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000298163500001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000298163500001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000298163500001&amp;KeyUID=WOS:000298163500001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bmc Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.671Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000275629300002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000275629300002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1186/1471-2164-11-125</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1186/1471-2164-11-125</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095389" path="/0000-0002-5267-0191/work/34095389" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.671Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.671Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparative gene expression profiling between human cultured myotubes and skeletal muscle tissue</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1186/1471-2164-11-125</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1186/1471-2164-11-125</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000275629300002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000275629300002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000275629300002&amp;KeyUID=WOS:000275629300002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bmc Genomics</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.673Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000280689701157</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000280689701157</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095390" path="/0000-0002-5267-0191/work/34095390" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.673Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.673Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Insights into the mechanism of FATP1 activating effect on pyruvate dehydrogenase</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000280689701157</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000280689701157</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000280689701157&amp;KeyUID=WOS:000280689701157</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Diabetologia</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.673Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000267584900011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000267584900011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.exger.2009.03.005</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.exger.2009.03.005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095391" path="/0000-0002-5267-0191/work/34095391" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.673Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.673Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of aging and calorie restriction on rat skeletal muscle glycogen synthase and glycogen phosphorylase</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.exger.2009.03.005</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.exger.2009.03.005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000267584900011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000267584900011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000267584900011&amp;KeyUID=WOS:000267584900011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Experimental Gerontology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.674Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.mito.2009.03.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.mito.2009.03.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000267118000007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000267118000007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095392" path="/0000-0002-5267-0191/work/34095392" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.674Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.674Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>FATP1 localizes to mitochondria and enhances pyruvate dehydrogenase activity in skeletal myotubes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.mito.2009.03.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.mito.2009.03.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000267118000007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000267118000007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000267118000007&amp;KeyUID=WOS:000267118000007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Mitochondrion</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.675Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1194/jlr.M800535-JLR200</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1194/jlr.m800535-jlr200</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000269046600007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000269046600007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095393" path="/0000-0002-5267-0191/work/34095393" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.675Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.675Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Novel role of FATP1 in mitochondrial fatty acid oxidation in skeletal muscle cells</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1194/jlr.M800535-JLR200</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1194/jlr.m800535-jlr200</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000269046600007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000269046600007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000269046600007&amp;KeyUID=WOS:000269046600007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Lipid Research</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.676Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000263101000016</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000263101000016</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.febslet.2008.12.023</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.febslet.2008.12.023</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095394" path="/0000-0002-5267-0191/work/34095394" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.676Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.676Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>UCP3 overexpression neutralizes oxidative stress rather than nitrosative stress in mouse myotubes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.febslet.2008.12.023</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.febslet.2008.12.023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000263101000016</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000263101000016</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000263101000016&amp;KeyUID=WOS:000263101000016</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Febs Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.677Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000247758700012</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000247758700012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1042/bj20061572</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1042/bj20061572</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095395" path="/0000-0002-5267-0191/work/34095395" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.677Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Expression and glycogenic effect of glycogen-targeting protein phosphatase 1 regulatory subunit G(L) in cultured human muscle</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1042/bj20061572</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1042/bj20061572</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000247758700012</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000247758700012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000247758700012&amp;KeyUID=WOS:000247758700012</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.678Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000242731800016</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000242731800016</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.gene.2006.07.042</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.gene.2006.07.042</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095396" path="/0000-0002-5267-0191/work/34095396" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.678Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.678Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Long-term cultured human myotubes decrease contractile gene expression and regulate apoptosis-related genes</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.gene.2006.07.042</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.gene.2006.07.042</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000242731800016</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000242731800016</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000242731800016&amp;KeyUID=WOS:000242731800016</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gene</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.680Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.bbagen.2005.10.011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.bbagen.2005.10.011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000236314600016</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000236314600016</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095397" path="/0000-0002-5267-0191/work/34095397" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.680Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.680Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Overexpression of UCP3 in both murine and human myotubes is linked with the activation of proteolytic systems: A role in muscle wasting?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.bbagen.2005.10.011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.bbagen.2005.10.011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000236314600016</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000236314600016</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000236314600016&amp;KeyUID=WOS:000236314600016</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochimica Et Biophysica Acta-General Subjects</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.681Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.febslet.2005.12.084</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.febslet.2005.12.084</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000234937400054</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000234937400054</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095398" path="/0000-0002-5267-0191/work/34095398" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.681Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.681Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The AP-1/CJUN signaling cascade is involved in muscle differentiation: Implications in muscle wasting during cancer cachexia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.febslet.2005.12.084</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.febslet.2005.12.084</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000234937400054</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000234937400054</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000234937400054&amp;KeyUID=WOS:000234937400054</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Febs Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.682Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000229127700009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000229127700009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1152/ajpcell.00271.2004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1152/ajpcell.00271.2004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095399" path="/0000-0002-5267-0191/work/34095399" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.682Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.682Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact on fatty acid metabolism and differential localization of FATP1 and FAT/CD36 proteins delivered in cultured human muscle cells</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1152/ajpcell.00271.2004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1152/ajpcell.00271.2004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000229127700009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000229127700009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000229127700009&amp;KeyUID=WOS:000229127700009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>American Journal of Physiology-Cell Physiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.683Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000231519800015</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000231519800015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nut.2005.02.003</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nut.2005.02.003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095400" path="/0000-0002-5267-0191/work/34095400" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.683Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.683Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mediators involved in the cancer anorexia-cachexia syndrome: past, present, and future</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nut.2005.02.003</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nut.2005.02.003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000231519800015</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000231519800015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000231519800015&amp;KeyUID=WOS:000231519800015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nutrition</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.684Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000181471500022</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000181471500022</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095401" path="/0000-0002-5267-0191/work/34095401" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.684Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.684Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Use of adenoviral vectors with a minimal cytomegalovirus promoter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000181471500022</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000181471500022</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000181471500022&amp;KeyUID=WOS:000181471500022</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2003</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biotechniques</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.685Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000170318500012</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000170318500012</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1096/fj.00-0828fje</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1096/fj.00-0828fje</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095402" path="/0000-0002-5267-0191/work/34095402" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.685Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.685Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Overexpression of UCP3 in cultured human muscle lowers mitochondrial membrane potential, raises ATP/ADP ratio, and favors fatty acid versus glucose oxidation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1096/fj.00-0828fje</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1096/fj.00-0828fje</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000170318500012</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000170318500012</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000170318500012&amp;KeyUID=WOS:000170318500012</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2001</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Faseb Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.686Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000087131600002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000087131600002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0304-4165(00)00050-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0304-4165(00)00050-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095403" path="/0000-0002-5267-0191/work/34095403" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.686Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.686Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Calpain-3 gene expression is decreased during experimental cancer cachexia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0304-4165(00)00050-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0304-4165(00)00050-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000087131600002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000087131600002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000087131600002&amp;KeyUID=WOS:000087131600002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2000</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochimica Et Biophysica Acta-General Subjects</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.688Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1038/sj.gt.3300950</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1038/sj.gt.3300950</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000081264600004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000081264600004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095404" path="/0000-0002-5267-0191/work/34095404" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.688Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.688Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Angiogenesis induced in muscle by a recombinant adenovirus expressing functional isoforms of basic fibroblast growth factor</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1038/sj.gt.3300950</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1038/sj.gt.3300950</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000081264600004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000081264600004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000081264600004&amp;KeyUID=WOS:000081264600004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Gene Therapy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.690Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0197-0186(98)00080-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0197-0186(98)00080-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000079483600007</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000079483600007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095405" path="/0000-0002-5267-0191/work/34095405" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.690Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.690Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ubiquitin gene expression is increased in human muscle undergoing neurogenic involvement</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0197-0186(98)00080-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0197-0186(98)00080-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000079483600007</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000079483600007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000079483600007&amp;KeyUID=WOS:000079483600007</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1999</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Neurochemistry International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.691Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0304-3835(98)00216-x</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0304-3835(98)00216-x</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000077858500011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000077858500011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095406" path="/0000-0002-5267-0191/work/34095406" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.691Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.691Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Different cytokines modulate ubiquitin gene expression in rat skeletal muscle</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0304-3835(98)00216-x</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0304-3835(98)00216-x</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000077858500011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000077858500011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000077858500011&amp;KeyUID=WOS:000077858500011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.694Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0304-3835(98)00137-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0304-3835(98)00137-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000075719000003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000075719000003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095407" path="/0000-0002-5267-0191/work/34095407" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.694Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.694Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Protein turnover in skeletal muscle of tumour-bearing transgenic mice overexpressing the soluble TNF receptor-1</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0304-3835(98)00137-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0304-3835(98)00137-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000075719000003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000075719000003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000075719000003&amp;KeyUID=WOS:000075719000003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.695Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000075934400018</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000075934400018</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0303-7207(98)00105-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0303-7207(98)00105-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095408" path="/0000-0002-5267-0191/work/34095408" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.695Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.695Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Role of TNF receptor 1 in protein turnover during cancer cachexia using gene knockout mice</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0303-7207(98)00105-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0303-7207(98)00105-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000075934400018</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000075934400018</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000075934400018&amp;KeyUID=WOS:000075934400018</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular and Cellular Endocrinology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.696Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000079974700004</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000079974700004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095409" path="/0000-0002-5267-0191/work/34095409" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.696Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.696Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The role of tumor necrosis factor-alpha in muscle wasting disorders</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000079974700004</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000079974700004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000079974700004&amp;KeyUID=WOS:000079974700004</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Basic and Applied Myology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.697Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:000075766500010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:000075766500010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095410" path="/0000-0002-5267-0191/work/34095410" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.697Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.697Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ubiquitin and proteasome gene expression is increased in skeletal muscle of slim AIDS patients</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:000075766500010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:000075766500010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:000075766500010&amp;KeyUID=WOS:000075766500010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1998</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Molecular Medicine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.698Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997WF12000006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997wf12000006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3109/07357909709018916</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3109/07357909709018916</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095411" path="/0000-0002-5267-0191/work/34095411" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.698Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.698Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Is TNF really involved in cachexia?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3109/07357909709018916</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3109/07357909709018916</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997WF12000006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997wf12000006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997WF12000006&amp;KeyUID=WOS:A1997WF12000006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Investigation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.699Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997XV85200011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997xv85200011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/s0303-7207(97)00125-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/s0303-7207(97)00125-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095412" path="/0000-0002-5267-0191/work/34095412" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.699Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.699Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Lipid metabolism in tumour-bearing mice: Studies with knockout mice for tumour necrosis factor receptor 1 protein</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/s0303-7207(97)00125-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/s0303-7207(97)00125-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997XV85200011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997xv85200011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997XV85200011&amp;KeyUID=WOS:A1997XV85200011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular and Cellular Endocrinology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.702Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997WD04200002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997wd04200002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1006/bbrc.1996.5827</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1006/bbrc.1996.5827</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095414" path="/0000-0002-5267-0191/work/34095414" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.702Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.702Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>TNF can directly induce the expression of ubiquitin-dependent proteolytic system in rat soleus muscles</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1006/bbrc.1996.5827</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1006/bbrc.1996.5827</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997WD04200002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997wd04200002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997WD04200002&amp;KeyUID=WOS:A1997WD04200002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.701Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/(sici)1098-1128(199703)17:2&amp;lt;139::aid-med1&amp;gt;3.0.co;2-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/(sici)1098-1128(199703)17:2&lt;139::aid-med1&gt;3.0.co;2-0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1997WK60400001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1997wk60400001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095413" path="/0000-0002-5267-0191/work/34095413" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.701Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.701Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The ubiquitin system: A role in disease?</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/(sici)1098-1128(199703)17:2&amp;lt;139::aid-med1&amp;gt;3.0.co;2-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/(sici)1098-1128(199703)17:2&lt;139::aid-med1&gt;3.0.co;2-0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1997WK60400001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1997wk60400001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1997WK60400001&amp;KeyUID=WOS:A1997WK60400001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1997</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Medicinal Research Reviews</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.703Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1006/bbrc.1996.0651</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1006/bbrc.1996.0651</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1996UH69800028</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1996uh69800028</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095415" path="/0000-0002-5267-0191/work/34095415" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.703Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.703Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Anti-TNF treatment reverts increased muscle ubiquitin gene expression in tumour-bearing rats</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1006/bbrc.1996.0651</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1006/bbrc.1996.0651</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1996UH69800028</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1996uh69800028</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1996UH69800028&amp;KeyUID=WOS:A1996UH69800028</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.704Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1996TR72200002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1996tr72200002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(95)04026-9</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(95)04026-9</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095416" path="/0000-0002-5267-0191/work/34095416" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.704Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.704Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Muscle hypercatabolism during cancer cachexia is not reversed by the glucocorticoid receptor antagonist RU38486</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(95)04026-9</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(95)04026-9</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1996TR72200002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1996tr72200002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1996TR72200002&amp;KeyUID=WOS:A1996TR72200002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1996</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.706Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995RM57000003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995rm57000003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/bf00929498</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/bf00929498</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095417" path="/0000-0002-5267-0191/work/34095417" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.706Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.706Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>AMINO-ACID-UPTAKE IN SKELETAL-MUSCLE OF RATS BEARING THE YOSHIDA AH-130 ASCITES HEPATOMA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/bf00929498</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/bf00929498</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995RM57000003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995rm57000003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995RM57000003&amp;KeyUID=WOS:A1995RM57000003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular and Cellular Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.707Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(94)03719-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(94)03719-y</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QY14000010</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qy14000010</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095418" path="/0000-0002-5267-0191/work/34095418" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.707Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.707Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>ENHANCED LEUCINE OXIDATION IN RATS BEARING AN ASCITES HEPATOMA (YOSHIDA AH-130) AND ITS REVERSAL BY CLENBUTEROL</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(94)03719-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(94)03719-y</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QY14000010</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qy14000010</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QY14000010&amp;KeyUID=WOS:A1995QY14000010</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.708Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995RR83000006</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995rr83000006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(95)03858-t</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(95)03858-t</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095419" path="/0000-0002-5267-0191/work/34095419" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.708Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.708Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>INTERLEUKIN-1 RECEPTOR ANTAGONIST (IL-1RA) IS UNABLE TO REVERSE CACHEXIA IN RATS BEARING AN ASCITES HEPATOMA (YOSHIDA AH-130)</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(95)03858-t</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(95)03858-t</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995RR83000006</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995rr83000006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995RR83000006&amp;KeyUID=WOS:A1995RR83000006</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.711Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995RM57000002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995rm57000002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/bf00929497</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/bf00929497</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095420" path="/0000-0002-5267-0191/work/34095420" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.711Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.711Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>LIPOPOLYSACCHARIDE (LPS) INCREASES THE IN-VIVO OXIDATION OF BRANCHED-CHAIN AMINO-ACIDS IN THE RAT - A CYTOKINE-MEDIATED EFFECT</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/bf00929497</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/bf00929497</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995RM57000002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995rm57000002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995RM57000002&amp;KeyUID=WOS:A1995RM57000002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular and Cellular Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.713Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QW20500052</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qw20500052</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1172/jci117929</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1172/jci117929</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095421" path="/0000-0002-5267-0191/work/34095421" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.713Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.713Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MUSCLE PROTEIN WASTE IN TUMOR-BEARING RATS IS EFFECTIVELY ANTAGONIZED BY A BETA(2)-ADRENERGIC AGONIST (CLENBUTEROL) - ROLE OF THE ATP-UBIQUITIN-DEPENDENT PROTEOLYTIC PATHWAY</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1172/jci117929</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1172/jci117929</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QW20500052</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qw20500052</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QW20500052&amp;KeyUID=WOS:A1995QW20500052</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Clinical Investigation</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.714Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995QQ31700022</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995qq31700022</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/ijc.2910610123</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/ijc.2910610123</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095422" path="/0000-0002-5267-0191/work/34095422" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.714Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.714Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>MUSCLE WASTING ASSOCIATED WITH CANCER CACHEXIA IS LINKED TO AN IMPORTANT ACTIVATION OF THE ATP-DEPENDENT UBIQUITIN-MEDIATED PROTEOLYSIS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/ijc.2910610123</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/ijc.2910610123</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995QQ31700022</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995qq31700022</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995QQ31700022&amp;KeyUID=WOS:A1995QQ31700022</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Cancer</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.716Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1006/bbrc.1995.2848</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1006/bbrc.1995.2848</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1995TM60200019</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1995tm60200019</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095423" path="/0000-0002-5267-0191/work/34095423" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.716Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.716Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ubiquitin gene expression in skeletal muscle is increased during sepsis: Involvement of TNF-alpha but not il-1</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1006/bbrc.1995.2848</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1006/bbrc.1995.2848</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1995TM60200019</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1995tm60200019</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1995TM60200019&amp;KeyUID=WOS:A1995TM60200019</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1995</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.717Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994QA56200001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994qa56200001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(94)90212-7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(94)90212-7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095424" path="/0000-0002-5267-0191/work/34095424" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.717Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.717Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>ALANINE METABOLISM IN RATS BEARING THE YOSHIDA AH-130 ASCITES HEPATOMA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(94)90212-7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(94)90212-7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994QA56200001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994qa56200001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994QA56200001&amp;KeyUID=WOS:A1994QA56200001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.718Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(94)90126-0</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(94)90126-0</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994MW78500001</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994mw78500001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095425" path="/0000-0002-5267-0191/work/34095425" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.718Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.718Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>INTERLEUKIN-6 DOES NOT ACTIVATE PROTEIN BREAKDOWN IN RAT SKELETAL-MUSCLE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(94)90126-0</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(94)90126-0</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994MW78500001</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994mw78500001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994MW78500001&amp;KeyUID=WOS:A1994MW78500001</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.720Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994PA05900008</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994pa05900008</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095426" path="/0000-0002-5267-0191/work/34095426" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.720Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.720Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>THE EFFECT OF CHRONIC TUMOR-NECROSIS-FACTOR-ALPHA TREATMENT ON URINARY NITROGEN-EXCRETION IN THE RAT</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994PA05900008</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994pa05900008</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994PA05900008&amp;KeyUID=WOS:A1994PA05900008</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemistry and Molecular Biology International</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.721Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1006/bbrc.1994.1754</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1006/bbrc.1994.1754</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994NQ80500027</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994nq80500027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095427" path="/0000-0002-5267-0191/work/34095427" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.721Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.721Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>UBIQUITIN GENE-EXPRESSION IN SKELETAL-MUSCLE IS INCREASED BY TUMOR-NECROSIS-FACTOR-ALPHA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1006/bbrc.1994.1754</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1006/bbrc.1994.1754</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994NQ80500027</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994nq80500027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994NQ80500027&amp;KeyUID=WOS:A1994NQ80500027</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biochemical and Biophysical Research Communications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.722Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1994MW15500015</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1994mw15500015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0014-5793(94)80290-4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0014-5793(94)80290-4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095428" path="/0000-0002-5267-0191/work/34095428" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.722Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.722Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>UBIQUITIN GENE-EXPRESSION IS INCREASED IN SKELETAL-MUSCLE OF TUMOR-BEARING RATS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0014-5793(94)80290-4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0014-5793(94)80290-4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1994MW15500015</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1994mw15500015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1994MW15500015&amp;KeyUID=WOS:A1994MW15500015</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1994</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Febs Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.723Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0304-3835(93)90124-r</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0304-3835(93)90124-r</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LX58400005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993lx58400005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095429" path="/0000-0002-5267-0191/work/34095429" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.723Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.723Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A FLOW CYTOMETRIC STUDY OF THE RAT YOSHIDA AH-130 ASCITES HEPATOMA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0304-3835(93)90124-r</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0304-3835(93)90124-r</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LX58400005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993lx58400005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LX58400005&amp;KeyUID=WOS:A1993LX58400005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cancer Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.725Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LZ99100002</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993lz99100002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/bf00926829</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/bf00926829</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095430" path="/0000-0002-5267-0191/work/34095430" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.725Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.725Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>ACUTE TREATMENT WITH TUMOR-NECROSIS-FACTOR-ALPHA INDUCES CHANGES IN PROTEIN-METABOLISM IN RAT SKELETAL-MUSCLE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/bf00926829</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/bf00926829</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LZ99100002</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993lz99100002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LZ99100002&amp;KeyUID=WOS:A1993LZ99100002</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Molecular and Cellular Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.728Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LF08600011</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993lf08600011</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095431" path="/0000-0002-5267-0191/work/34095431" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.728Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.728Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>INTESTINAL GLUCOSE-ABSORPTION IS LOWER IN OBESE THAN IN LEAN ZUCKER RATS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LF08600011</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993lf08600011</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LF08600011&amp;KeyUID=WOS:A1993LF08600011</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Nutrition</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.730Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LR43200009</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993lr43200009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095432" path="/0000-0002-5267-0191/work/34095432" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.730Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.730Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>THE EFFECTS OF ENDOTOXIN ADMINISTRATION ON BLOOD AMINO-ACID-CONCENTRATIONS - SIMILARITIES WITH SEPSIS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LR43200009</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993lr43200009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LR43200009&amp;KeyUID=WOS:A1993LR43200009</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cellular and Molecular Biology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.731Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1993LE46600005</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1993le46600005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0014-5793(93)81341-v</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0014-5793(93)81341-v</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095433" path="/0000-0002-5267-0191/work/34095433" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.731Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.731Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>TUMOR-NECROSIS-FACTOR-ALPHA INCREASES THE UBIQUITINIZATION OF RAT SKELETAL-MUSCLE PROTEINS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0014-5793(93)81341-v</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0014-5793(93)81341-v</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1993LE46600005</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1993le46600005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1993LE46600005&amp;KeyUID=WOS:A1993LE46600005</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1993</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Febs Letters</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.732Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1992JU04800003</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1992ju04800003</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/med.2610120605</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/med.2610120605</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095434" path="/0000-0002-5267-0191/work/34095434" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.732Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.732Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>THE ROLE OF CYTOKINES IN MUSCLE WASTING - ITS RELATION WITH CANCER CACHEXIA</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/med.2610120605</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/med.2610120605</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1992JU04800003</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1992ju04800003</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1992JU04800003&amp;KeyUID=WOS:A1992JU04800003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Medicinal Research Reviews</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-06-20T11:30:20.734Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/0020-711x(92)90339-3</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/0020-711x(92)90339-3</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>wosuid</common:external-id-type>
+                        <common:external-id-value>WOS:A1992HL21000019</common:external-id-value>
+                        <common:external-id-normalized transient="true">wos:a1992hl21000019</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="34095435" path="/0000-0002-5267-0191/work/34095435" visibility="public" display-index="0">
+                    <common:created-date>2017-06-20T11:30:20.734Z</common:created-date>
+                    <common:last-modified-date>2017-06-20T11:30:20.734Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1377-5676</common:uri>
+                            <common:path>0000-0003-1377-5676</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>ResearcherID</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>THE ROLE OF INSULIN IN THE INTESTINAL-ABSORPTION OF GLUCOSE IN THE RAT</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/0020-711x(92)90339-3</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/0020-711x(92)90339-3</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>wosuid</common:external-id-type>
+                            <common:external-id-value>WOS:A1992HL21000019</common:external-id-value>
+                            <common:external-id-normalized transient="true">wos:a1992hl21000019</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcAuth=ORCID&amp;SrcApp=OrcidOrg&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL&amp;KeyUT=WOS:A1992HL21000019&amp;KeyUID=WOS:A1992HL21000019</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1992</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Biochemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

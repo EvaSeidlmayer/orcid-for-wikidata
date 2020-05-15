@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-1067-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+        <common:path>0000-0003-1067-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2018-11-28T02:25:21.629Z</history:submission-date>
+        <common:last-modified-date>2019-08-16T04:13:34.905Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-1067-4191/person">
+        <person:name visibility="public" path="0000-0003-1067-4191">
+            <common:created-date>2018-11-28T02:25:21.629Z</common:created-date>
+            <common:last-modified-date>2018-11-28T02:25:21.867Z</common:last-modified-date>
+            <personal-details:given-names>Zhuo</personal-details:given-names>
+            <personal-details:family-name>Li</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-1067-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-1067-4191/researcher-urls"/>
+        <email:emails path="/0000-0003-1067-4191/email"/>
+        <address:addresses path="/0000-0003-1067-4191/address"/>
+        <keyword:keywords path="/0000-0003-1067-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-1067-4191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-1067-4191/activities">
+        <common:last-modified-date>2018-12-22T07:10:42.553Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-1067-4191/distinctions"/>
+        <activities:educations path="/0000-0003-1067-4191/educations"/>
+        <activities:employments path="/0000-0003-1067-4191/employments">
+            <common:last-modified-date>2018-12-22T01:43:42.680Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-22T01:42:53.552Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7008589" display-index="1" path="/0000-0003-1067-4191/employment/7008589" visibility="public">
+                    <common:created-date>2018-12-22T01:42:53.552Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T01:42:53.552Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <common:department-name>Materials Science</common:department-name>
+                    <common:role-title>Associate Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Fudan University</common:name>
+                        <common:address>
+                            <common:city>Shanghai</common:city>
+                            <common:region>Shanghai</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>12478</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-22T01:43:42.680Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7008591" display-index="1" path="/0000-0003-1067-4191/employment/7008591" visibility="public">
+                    <common:created-date>2018-12-22T01:43:42.680Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T01:43:42.680Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <common:department-name>Materials Science</common:department-name>
+                    <common:role-title>Assistant Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>09</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2018</common:year>
+                        <common:month>03</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Fudan University</common:name>
+                        <common:address>
+                            <common:city>Shanghai</common:city>
+                            <common:region>Shanghai</common:region>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>12478</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-1067-4191/fundings"/>
+        <activities:invited-positions path="/0000-0003-1067-4191/invited-positions"/>
+        <activities:memberships path="/0000-0003-1067-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-1067-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-1067-4191/qualifications"/>
+        <activities:research-resources path="/0000-0003-1067-4191/research-resources"/>
+        <activities:services path="/0000-0003-1067-4191/services"/>
+        <activities:works path="/0000-0003-1067-4191/works">
+            <common:last-modified-date>2018-12-22T07:10:42.553Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.595Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924361" path="/0000-0003-1067-4191/work/51924361" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.595Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.595Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Tribological characteristics of boron nitride nanosheets on silicon wafers obtained by the reaction of MgB 2 and NH 3</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Surface &amp; Coatings Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.508Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924383" path="/0000-0003-1067-4191/work/51924383" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.508Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.508Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A facile method to prepare flexible boron nitride/poly(vinyl alcohol) composites with enhanced thermal conductivity</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composites Science &amp; Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.969Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924370" path="/0000-0003-1067-4191/work/51924370" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.969Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.969Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Conductivity Enhancement of Polymer Composites Using High-Temperature Short-Time Treated Silver Fillers</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composites Part A Applied Science &amp; Manufacturing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.469Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924382" path="/0000-0003-1067-4191/work/51924382" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.469Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.469Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Enhanced through-plane thermal conductivity of boron nitride/epoxy composites</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composites Part A Applied Science &amp; Manufacturing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.343Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924355" path="/0000-0003-1067-4191/work/51924355" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.343Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.343Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>In-situ Generation of Photosensitive Silver Halide for Improving the Conductivity of Electrically Conductive Adhesives</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Acs Applied Materials &amp; Interfaces</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.802Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/acsami.6b15771</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/acsami.6b15771</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51924366" path="/0000-0003-1067-4191/work/51924366" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.802Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.802Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Self-Patterning of Silica/Epoxy Nanocomposite Underfill by Tailored Hydrophilic-Superhydrophobic Surfaces for 3D Integrated Circuit (IC) Stacking</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/acsami.6b15771</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/acsami.6b15771</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1021/acsami.6b15771</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ACS Applied Materials &amp; Interfaces</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.759Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924365" path="/0000-0003-1067-4191/work/51924365" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.759Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.759Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Alternating current line-filter based on electrochemical capacitor utilizing template-patterned graphene</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.009Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924371" path="/0000-0003-1067-4191/work/51924371" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.009Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.009Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Capacitance enhancement by electrochemically active benzene derivatives for graphene-based supercapacitors</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Rsc Advances</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.301Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924378" path="/0000-0003-1067-4191/work/51924378" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.301Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.301Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Rational Design of a Printable, Highly Conductive Silicone‐based Electrically Conductive Adhesive for Stretchable Radio‐Frequency Antennas</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Functional Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.218Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924376" path="/0000-0003-1067-4191/work/51924376" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.218Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.218Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>3D porous graphene with ultrahigh surface area for microscale capacitive deionization</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Nano Energy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:40.830Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924354" path="/0000-0003-1067-4191/work/51924354" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:40.830Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:40.830Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Analytical models for predicting penetration depth during slot die coating onto porous media</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Aiche Journal</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.926Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924369" path="/0000-0003-1067-4191/work/51924369" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.926Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.926Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Carbon nanotubes inhibit the free-radical cross-linking of siloxane polymers</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Applied Polymer Science</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.718Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924364" path="/0000-0003-1067-4191/work/51924364" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.718Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.718Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Towards practical application of paper based printed circuits: capillarity effectively enhances conductivity of the thermoplastic electrically conductive adhesives</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Scientific Reports</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.180Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924375" path="/0000-0003-1067-4191/work/51924375" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.180Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.180Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Carbon nanotube/polymer nanocomposites: Sensing the thermal aging conditions of electrical insulation components</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Carbon</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.056Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924372" path="/0000-0003-1067-4191/work/51924372" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.056Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.056Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Crack-free and scalable transfer of carbon nanotube arrays into flexible and highly thermal conductive composite film</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Acs Applied Materials &amp; Interfaces</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.884Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924368" path="/0000-0003-1067-4191/work/51924368" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.884Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.884Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Highly Conductive, Flexible, Polyurethane-Based Adhesives for Flexible and Printed Electronics</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Advanced Functional Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.138Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924374" path="/0000-0003-1067-4191/work/51924374" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.138Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.138Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Preparation of Water-Based Carbon Nanotube Inks and Application in the Inkjet Printing of Carbon Nanotube Gas Sensors</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Electronic Packaging</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.553Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924384" path="/0000-0003-1067-4191/work/51924384" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.553Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.553Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quality Control of Vertically Aligned Carbon Nanotubes Grown by Chemical Vapor Deposition</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Transactions on Components Packaging &amp; Manufacturing Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.634Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924362" path="/0000-0003-1067-4191/work/51924362" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.634Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.634Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Robust vertically aligned carbon nanotube–carbon fiber paper hybrid as versatile electrodes for supercapacitors and capacitive deionization</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Carbon</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.385Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924356" path="/0000-0003-1067-4191/work/51924356" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.385Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.385Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The conduction development mechanism of silicone-based electrically conductive adhesives</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Materials Chemistry C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.676Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924363" path="/0000-0003-1067-4191/work/51924363" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.676Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.676Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Automatic quantification of filler dispersion in polymer composites</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Polymer</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.427Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924381" path="/0000-0003-1067-4191/work/51924381" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.427Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.427Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Large-scale production of two-dimensional nanosheets</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Materials Chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.552Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924360" path="/0000-0003-1067-4191/work/51924360" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.552Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.552Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>(Keynote) Recent Progress in Facile Preparation of Graphene</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Ecs Transactions</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.342Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924379" path="/0000-0003-1067-4191/work/51924379" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.342Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.342Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Controlled Growth of Multilayer, Few-Layer, and Single-Layer Graphene on Metal Substrates</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>J.phys.chem.c</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.474Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924358" path="/0000-0003-1067-4191/work/51924358" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.474Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.474Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Metal catalyst residues in carbon nanotubes decrease the thermal stability of carbon nanotube/silicone composites</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Carbon</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.259Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924377" path="/0000-0003-1067-4191/work/51924377" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.259Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.259Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Superior Capacitance of Functionalized Graphene</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>J.phys.chem.c</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.843Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924367" path="/0000-0003-1067-4191/work/51924367" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.843Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.843Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Nanocomposites prepared by in situ enzymatic polymerization of phenol with TEMPO-oxidized nanocellulose</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cellulose</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.510Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924359" path="/0000-0003-1067-4191/work/51924359" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.510Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.510Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Solvent-Assisted Thermal Reduction of Graphite Oxide</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Physical Chemistry C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:41.426Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924357" path="/0000-0003-1067-4191/work/51924357" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:41.426Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:41.426Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Ultrafast, dry microwave synthesis of graphene sheets</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Materials Chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.386Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924380" path="/0000-0003-1067-4191/work/51924380" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.386Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.386Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Isolation and characterization of phenanthrene-degrading strains Sphingomonas sp. ZP1 and Tistrella sp. ZP5</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2008</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Hazardous Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-12-22T07:10:42.093Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="51924373" path="/0000-0003-1067-4191/work/51924373" visibility="public" display-index="1">
+                    <common:created-date>2018-12-22T07:10:42.093Z</common:created-date>
+                    <common:last-modified-date>2018-12-22T07:10:42.093Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-1067-4191</common:uri>
+                            <common:path>0000-0003-1067-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Zhuo Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Carbon Nanotube/Polymer Nanocomposites: Improved or Reduced Thermal Stabilities?</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>conference-paper</work:type>
+                    <work:journal-title>Materials Science Forum</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

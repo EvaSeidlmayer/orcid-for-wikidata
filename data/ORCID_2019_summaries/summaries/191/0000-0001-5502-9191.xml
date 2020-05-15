@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5502-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+        <common:path>0000-0001-5502-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>ja</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-09-04T13:19:40.939Z</history:submission-date>
+        <common:last-modified-date>2016-11-09T14:59:24.175Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5502-9191/person">
+        <person:name visibility="public" path="0000-0001-5502-9191">
+            <common:created-date>2016-09-04T13:19:41.169Z</common:created-date>
+            <common:last-modified-date>2016-09-04T13:19:41.169Z</common:last-modified-date>
+            <personal-details:given-names>Yoshifusa</personal-details:given-names>
+            <personal-details:family-name>Kondo</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5502-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5502-9191/researcher-urls"/>
+        <email:emails path="/0000-0001-5502-9191/email"/>
+        <address:addresses path="/0000-0001-5502-9191/address"/>
+        <keyword:keywords path="/0000-0001-5502-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5502-9191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5502-9191/activities">
+        <common:last-modified-date>2016-11-09T14:59:24.187Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5502-9191/distinctions"/>
+        <activities:educations path="/0000-0001-5502-9191/educations">
+            <common:last-modified-date>2016-11-09T12:56:55.112Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-04T13:45:46.532Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2214899" display-index="0" path="/0000-0001-5502-9191/education/2214899" visibility="public">
+                    <common:created-date>2016-09-04T13:45:46.532Z</common:created-date>
+                    <common:last-modified-date>2016-09-04T13:45:46.532Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>Muscle research</common:department-name>
+                    <common:role-title>--/--</common:role-title>
+                    <common:start-date>
+                        <common:year>1984</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1985</common:year>
+                        <common:month>08</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Boston Biomedical Research Institute</common:name>
+                        <common:address>
+                            <common:city>Watertown</common:city>
+                            <common:region>MA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>8433</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-04T13:43:51.558Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2214896" display-index="0" path="/0000-0001-5502-9191/education/2214896" visibility="public">
+                    <common:created-date>2016-09-04T13:43:51.558Z</common:created-date>
+                    <common:last-modified-date>2016-09-04T13:43:51.558Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>Pathology</common:department-name>
+                    <common:role-title>--/--</common:role-title>
+                    <common:start-date>
+                        <common:year>1983</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1984</common:year>
+                        <common:month>10</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Tokai Daigaku Daigakuin Igakubu </common:name>
+                        <common:address>
+                            <common:city>Isehara</common:city>
+                            <common:region>Kanagawa</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>38261</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-11-09T11:50:56.341Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2214881" display-index="0" path="/0000-0001-5502-9191/education/2214881" visibility="public">
+                    <common:created-date>2016-09-04T13:33:19.431Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T11:50:56.341Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>Microbiology</common:department-name>
+                    <common:role-title>MS</common:role-title>
+                    <common:start-date>
+                        <common:year>1981</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1983</common:year>
+                        <common:month>03</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Kitasato Daigaku Daigakuin Eiseigaku Kenkyuka Biseibutugaku senkou</common:name>
+                        <common:address>
+                            <common:city>Sagamihara</common:city>
+                            <common:region>Kanagawa</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>155215</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-11-09T12:56:55.112Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2214890" display-index="0" path="/0000-0001-5502-9191/education/2214890" visibility="public">
+                    <common:created-date>2016-09-04T13:40:00.626Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T12:56:55.112Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>BS</common:role-title>
+                    <common:start-date>
+                        <common:year>1975</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1979</common:year>
+                        <common:month>03</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Aoyama Gakuin Daigaku Riko Gakubu</common:name>
+                        <common:address>
+                            <common:city>Setagaya-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-5502-9191/employments">
+            <common:last-modified-date>2016-11-09T12:55:34.535Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-11-09T12:55:34.535Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2568973" display-index="0" path="/0000-0001-5502-9191/employment/2568973" visibility="public">
+                    <common:created-date>2016-11-09T12:55:34.535Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T12:55:34.535Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>BioMedical Research Lab.</common:department-name>
+                    <common:role-title>Reseach &amp; Consultant/Excutive Maniger</common:role-title>
+                    <common:start-date>
+                        <common:year>2005</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Medical Corporation Ichikawa-Clinic</common:name>
+                        <common:address>
+                            <common:city>Hirata,Ichikawa-city</common:city>
+                            <common:region>Chiba</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-11-09T12:42:50.337Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2568891" display-index="0" path="/0000-0001-5502-9191/employment/2568891" visibility="public">
+                    <common:created-date>2016-11-09T12:41:40.272Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T12:42:50.337Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name> Contract Research Organization (CRO) specializing in the field of cancer./QC &amp; Clinical trials, clinical research management/GLP,GMP,GCP</common:department-name>
+                    <common:role-title>Directorf in QC &amp; Clinical trials, clinical research management/Exutive Maniger</common:role-title>
+                    <common:start-date>
+                        <common:year>2004</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2005</common:year>
+                        <common:month>09</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>TMRC Co., Ltd.</common:name>
+                        <common:address>
+                            <common:city>Akasaka, Minato-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-04T14:19:28.955Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2214989" display-index="0" path="/0000-0001-5502-9191/employment/2214989" visibility="public">
+                    <common:created-date>2016-09-04T14:19:28.955Z</common:created-date>
+                    <common:last-modified-date>2016-09-04T14:19:28.955Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>R&amp;D</common:department-name>
+                    <common:role-title>Microbiologyst</common:role-title>
+                    <common:start-date>
+                        <common:year>1993</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2004</common:year>
+                        <common:month>03</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Coca Cola Asia Pacific R&amp;D Center Inc.</common:name>
+                        <common:address>
+                            <common:city>Shibuya-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>10575</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-04T14:12:04.326Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2214981" display-index="0" path="/0000-0001-5502-9191/employment/2214981" visibility="public">
+                    <common:created-date>2016-09-04T14:12:04.326Z</common:created-date>
+                    <common:last-modified-date>2016-09-04T14:12:04.326Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>central research Institute</common:department-name>
+                    <common:role-title>Senior Researche/R&amp;D of Midicine</common:role-title>
+                    <common:start-date>
+                        <common:year>1989</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1999</common:year>
+                        <common:month>12</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Itoham Kabusiki Kaisha</common:name>
+                        <common:address>
+                            <common:city>Mishinomiya</common:city>
+                            <common:region>Hyogo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-04T13:50:16.542Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2214906" display-index="0" path="/0000-0001-5502-9191/employment/2214906" visibility="public">
+                    <common:created-date>2016-09-04T13:50:16.542Z</common:created-date>
+                    <common:last-modified-date>2016-09-04T13:50:16.542Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <common:department-name>Chemistry</common:department-name>
+                    <common:role-title>Assistant /Lab./Biochemistry</common:role-title>
+                    <common:start-date>
+                        <common:year>1985</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1989</common:year>
+                        <common:month>03</common:month>
+                        <common:day>31</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Aoyama Gakuin Daigaku Riko Gakubu Daigakuin Rikogaku Kenkyuka</common:name>
+                        <common:address>
+                            <common:city>Setagaya-ku</common:city>
+                            <common:region>Tokyo</common:region>
+                            <common:country>JP</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-5502-9191/fundings"/>
+        <activities:invited-positions path="/0000-0001-5502-9191/invited-positions"/>
+        <activities:memberships path="/0000-0001-5502-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5502-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5502-9191/qualifications"/>
+        <activities:research-resources path="/0000-0001-5502-9191/research-resources"/>
+        <activities:services path="/0000-0001-5502-9191/services"/>
+        <activities:works path="/0000-0001-5502-9191/works">
+            <common:last-modified-date>2016-11-09T14:59:24.187Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-11-09T14:59:24.187Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>2606913</common:external-id-value>
+                        <common:external-id-normalized transient="true">2606913</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/?term=J%EF%BC%8EBiochem%EF%BC%8E(Japan)%EF%BC%8C106%EF%BC%8C621%E2%80%90626+(1989)</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>issn</common:external-id-type>
+                        <common:external-id-value>  0021-924X </common:external-id-value>
+                        <common:external-id-normalized transient="true">0021-924X</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>issn</common:external-id-type>
+                        <common:external-id-value>1756-2651  </common:external-id-value>
+                        <common:external-id-normalized transient="true">1756-2651</common:external-id-normalized>
+                        <common:external-id-url>https://www.jstage.jst.go.jp/article/biochemistry1922/106/4/106_4_621/_article</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>2846520 </common:external-id-value>
+                        <common:external-id-normalized transient="true">2846520</common:external-id-normalized>
+                        <common:external-id-url>http://europepmc.org/abstract/med/2846520</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28028666" path="/0000-0001-5502-9191/work/28028666" visibility="public" display-index="1">
+                    <common:created-date>2016-11-09T14:47:09.916Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T14:47:09.916Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Characterization of copper atoms in bilirubin oxidase by spectroscopic analyses.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>2606913</common:external-id-value>
+                            <common:external-id-normalized transient="true">2606913</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/?term=J%EF%BC%8EBiochem%EF%BC%8E(Japan)%EF%BC%8C106%EF%BC%8C621%E2%80%90626+(1989)</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1756-2651  </common:external-id-value>
+                            <common:external-id-normalized transient="true">1756-2651</common:external-id-normalized>
+                            <common:external-id-url>https://www.jstage.jst.go.jp/article/biochemistry1922/106/4/106_4_621/_article</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.jstage.jst.go.jp/article/biochemistry1922/106/4/106_4_621/_article</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1989</common:year>
+                        <common:month>03</common:month>
+                        <common:day>22</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J．Biochem．(Japan)</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="28027821" path="/0000-0001-5502-9191/work/28027821" visibility="public" display-index="1">
+                    <common:created-date>2016-11-09T14:59:24.179Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T14:59:24.187Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Chemical modifications of histidyl and tyrosyl residues of inorganic pyrophosphatase from Escherichia coli. </common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1756-2651</common:external-id-value>
+                            <common:external-id-normalized transient="true">1756-2651</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>  0021-924X </common:external-id-value>
+                            <common:external-id-normalized transient="true">0021-924X</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>2846520 </common:external-id-value>
+                            <common:external-id-normalized transient="true">2846520</common:external-id-normalized>
+                            <common:external-id-url>http://europepmc.org/abstract/med/2846520</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://www.jstage.jst.go.jp/article/biochemistry1922/103/5/103_5_766/_article</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1988</common:year>
+                        <common:month>06</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J Biochem (Tokyo) 103(5), 766-772, 1988</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-11-09T14:25:23.468Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>PMID: 3292530 </common:external-id-value>
+                        <common:external-id-normalized transient="true">3292530</common:external-id-normalized>
+                        <common:external-id-url>http://europepmc.org/abstract/med/PMID: 3292530</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="28028347" path="/0000-0001-5502-9191/work/28028347" visibility="public" display-index="1">
+                    <common:created-date>2016-11-09T14:25:23.468Z</common:created-date>
+                    <common:last-modified-date>2016-11-09T14:25:23.468Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-5502-9191</common:uri>
+                            <common:path>0000-0001-5502-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yoshifusa Kondo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of phosphorylation, MgATP, and ionic strength on the rates of papain degradation of heavy and light chains of smooth muscle heavy meromyosin at the S1-S2 junction.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>PMID: 3292530 </common:external-id-value>
+                            <common:external-id-normalized transient="true">3292530</common:external-id-normalized>
+                            <common:external-id-url>http://europepmc.org/abstract/med/PMID: 3292530</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.jbc.org/content/263/22/10974.long</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>1988</common:year>
+                        <common:month>03</common:month>
+                        <common:day>21</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J Biol Chem. </work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

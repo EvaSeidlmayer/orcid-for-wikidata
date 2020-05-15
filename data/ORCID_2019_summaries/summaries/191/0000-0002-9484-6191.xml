@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-9484-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+        <common:path>0000-0002-9484-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>website</history:creation-method>
+        <history:submission-date>2013-11-28T22:11:25.553Z</history:submission-date>
+        <common:last-modified-date>2016-06-06T15:29:36.952Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-9484-6191/person">
+        <person:name visibility="public" path="0000-0002-9484-6191">
+            <common:created-date>2016-04-15T23:21:37.525Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:21:37.525Z</common:last-modified-date>
+            <personal-details:given-names>António</personal-details:given-names>
+            <personal-details:family-name>Belo</personal-details:family-name>
+            <personal-details:credit-name>António Belo</personal-details:credit-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-9484-6191/other-names"/>
+        <person:biography visibility="public" path="/0000-0002-9484-6191/biography">
+            <common:created-date>2016-04-15T23:21:37.528Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:21:37.528Z</common:last-modified-date>
+            <personal-details:content>Professor at Higher School of Communication and Media Studies (ESCS)
+PhD in Social Communication</personal-details:content>
+        </person:biography>
+        <researcher-url:researcher-urls path="/0000-0002-9484-6191/researcher-urls"/>
+        <email:emails path="/0000-0002-9484-6191/email"/>
+        <address:addresses path="/0000-0002-9484-6191/address"/>
+        <keyword:keywords path="/0000-0002-9484-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-9484-6191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-9484-6191/activities">
+        <common:last-modified-date>2015-07-08T00:05:51.875Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-9484-6191/distinctions"/>
+        <activities:educations path="/0000-0002-9484-6191/educations">
+            <common:last-modified-date>2013-12-10T10:07:15.778Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2013-12-10T10:07:15.778Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="14675" display-index="0" path="/0000-0002-9484-6191/education/14675" visibility="public">
+                    <common:created-date>2013-12-10T10:07:15.778Z</common:created-date>
+                    <common:last-modified-date>2013-12-10T10:07:15.778Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <common:department-name>História de la Comunicación Social</common:department-name>
+                    <common:role-title>Doctor en Comunicación Social</common:role-title>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidad Complutense de Madrid Facultad de Ciencias de la Información</common:name>
+                        <common:address>
+                            <common:city>Madrid</common:city>
+                            <common:country>ES</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2013-12-10T09:59:24.304Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="14653" display-index="0" path="/0000-0002-9484-6191/education/14653" visibility="public">
+                    <common:created-date>2013-12-10T09:59:24.304Z</common:created-date>
+                    <common:last-modified-date>2013-12-10T09:59:24.304Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <common:department-name>Estatística e Investigação Operacional</common:department-name>
+                    <common:role-title>Mestre em Estatística e Investigação Operacional</common:role-title>
+                    <common:start-date>
+                        <common:year>1992</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1994</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidade de Lisboa Faculdade de Ciencias</common:name>
+                        <common:address>
+                            <common:city>Lisboa</common:city>
+                            <common:country>PT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>111161</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2013-12-10T09:57:49.001Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="14649" display-index="0" path="/0000-0002-9484-6191/education/14649" visibility="public">
+                    <common:created-date>2013-12-10T09:57:49.001Z</common:created-date>
+                    <common:last-modified-date>2013-12-10T09:57:49.001Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <common:department-name>Matemática</common:department-name>
+                    <common:role-title>Licenciatura em Ensino da Matemática</common:role-title>
+                    <common:start-date>
+                        <common:year>1985</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1989</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidade de Lisboa Faculdade de Ciencias</common:name>
+                        <common:address>
+                            <common:city>Lisboa</common:city>
+                            <common:region>Lisboa</common:region>
+                            <common:country>PT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>111161</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-9484-6191/employments">
+            <common:last-modified-date>2013-12-10T10:12:54.738Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2013-12-10T10:12:54.738Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="14685" display-index="0" path="/0000-0002-9484-6191/employment/14685" visibility="public">
+                    <common:created-date>2013-12-10T10:12:54.738Z</common:created-date>
+                    <common:last-modified-date>2013-12-10T10:12:54.738Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <common:role-title>Professor Adjunto</common:role-title>
+                    <common:start-date>
+                        <common:year>1990</common:year>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Instituto Politécnico de Lisboa Escola Superior de Comunicação Social</common:name>
+                        <common:address>
+                            <common:city>Lisboa</common:city>
+                            <common:country>PT</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2013-12-10T10:09:43.210Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="14678" display-index="0" path="/0000-0002-9484-6191/employment/14678" visibility="public">
+                    <common:created-date>2013-12-10T10:09:43.210Z</common:created-date>
+                    <common:last-modified-date>2013-12-10T10:09:43.210Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <common:role-title>Professor</common:role-title>
+                    <common:start-date>
+                        <common:year>1989</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1990</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Escola Secundária Herculano Carvalho</common:name>
+                        <common:address>
+                            <common:city>Lisboa</common:city>
+                            <common:country>PT</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-9484-6191/fundings"/>
+        <activities:invited-positions path="/0000-0002-9484-6191/invited-positions"/>
+        <activities:memberships path="/0000-0002-9484-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-9484-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-9484-6191/qualifications"/>
+        <activities:research-resources path="/0000-0002-9484-6191/research-resources"/>
+        <activities:services path="/0000-0002-9484-6191/services"/>
+        <activities:works path="/0000-0002-9484-6191/works">
+            <common:last-modified-date>2015-07-08T00:05:51.875Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:03:07.083Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046759" path="/0000-0002-9484-6191/work/11046759" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:30:06.431Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:03:07.083Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Actors in Foreign News</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:04:07.153Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046744" path="/0000-0002-9484-6191/work/11046744" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:28:46.651Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:04:07.153Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Topics in Foreign and Domestic Television News</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:05:51.875Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046681" path="/0000-0002-9484-6191/work/11046681" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:25:45.999Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:05:51.875Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A informação televisiva na RTP2: o jornal 2</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:03:07.068Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046712" path="/0000-0002-9484-6191/work/11046712" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:27:28.824Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:03:07.068Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Desporto</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:04:06.897Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11045733" path="/0000-0002-9484-6191/work/11045733" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T17:54:43.698Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:04:06.897Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Noticiários de Horário Nobre em Portugal: Duração e Valor Notícia</common:title>
+                    </work:title>
+                    <common:url>http://repositorio.ipl.pt/handle/10400.21/398</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Comunicação Pública</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:05:22.475Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11045500" path="/0000-0002-9484-6191/work/11045500" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T17:47:36.309Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:05:22.475Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Precisão das sondagens em Portugal</common:title>
+                    </work:title>
+                    <common:url>http://repositorio.ipl.pt/handle/10400.21/1962</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Comunicação Pública</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:05:51.800Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046113" path="/0000-0002-9484-6191/work/11046113" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:01:54.141Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:05:51.800Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Caracterização do sector da radiodifusão local</common:title>
+                    </work:title>
+                    <common:url>http://www.erc.pt/download/YToyOntzOjg6ImZpY2hlaXJvIjtzOjM4OiJtZWRpYS9lc3R1ZG9zL29iamVjdG9fb2ZmbGluZS8zMS4xLnBkZiI7czo2OiJ0aXR1bG8iO3M6NDY6ImNhcmFjdGVyaXphY2FvLWRvLXNlY3Rvci1kYS1yYWRpb2RpZnVzYW8tbG9jYWwiO30=/caracterizacao-do-sector-da-radiodifusao-local</common:url>
+                    <work:type>book</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:04:48.504Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046378" path="/0000-0002-9484-6191/work/11046378" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:10:42.251Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:04:48.504Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Direitos Humanos e da Criança</common:title>
+                    </work:title>
+                    <common:url>http://www.ipl.pt/sites/ipl.pt/files/alicerces_5.pdf</common:url>
+                    <work:type>book</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:04:07.133Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046585" path="/0000-0002-9484-6191/work/11046585" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:23:14.185Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:04:07.133Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Método</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:03:07.030Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046596" path="/0000-0002-9484-6191/work/11046596" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:24:19.869Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:03:07.030Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>O Jornal da Noite da SIC</common:title>
+                    </work:title>
+                    <work:type>book-chapter</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-08T00:05:22.611Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="11046208" path="/0000-0002-9484-6191/work/11046208" visibility="public" display-index="0">
+                    <common:created-date>2013-12-03T18:04:58.870Z</common:created-date>
+                    <common:last-modified-date>2015-07-08T00:05:22.611Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-9484-6191</common:uri>
+                            <common:path>0000-0002-9484-6191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>António Belo</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Telejornais no Início do Século XXI</common:title>
+                    </work:title>
+                    <work:type>book</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

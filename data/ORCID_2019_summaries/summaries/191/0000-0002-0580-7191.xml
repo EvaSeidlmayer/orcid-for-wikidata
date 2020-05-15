@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-0580-7191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+        <common:path>0000-0002-0580-7191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2014-12-07T23:28:50.904Z</history:submission-date>
+        <common:last-modified-date>2019-09-09T16:10:09.444Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-0580-7191/person">
+        <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-0580-7191">
+            <common:created-date>2016-04-15T21:47:28.729Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:47:28.729Z</common:last-modified-date>
+            <personal-details:given-names>Cathie</personal-details:given-names>
+            <personal-details:family-name>Burgess</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-0580-7191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-0580-7191/researcher-urls">
+            <common:last-modified-date>2015-04-04T07:04:02.732Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="436711" visibility="public" path="/0000-0002-0580-7191/researcher-urls/436711" display-index="0">
+                <common:created-date>2015-04-04T07:04:02.732Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:04:02.732Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Work homepage</researcher-url:url-name>
+                <researcher-url:url>http://sydney.edu.au/education_social_work/about/staff/profiles/cathie.burgess.php</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0002-0580-7191/email"/>
+        <address:addresses path="/0000-0002-0580-7191/address"/>
+        <keyword:keywords path="/0000-0002-0580-7191/keywords">
+            <common:last-modified-date>2015-04-04T07:02:36.000Z</common:last-modified-date>
+            <keyword:keyword put-code="345866" visibility="public" path="/0000-0002-0580-7191/keywords/345866" display-index="0">
+                <common:created-date>2015-04-04T07:02:35.960Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:35.960Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>Aboriginal / Indigenous education</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="345867" visibility="public" path="/0000-0002-0580-7191/keywords/345867" display-index="0">
+                <common:created-date>2015-04-04T07:02:35.967Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:35.967Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>pedagogy culture identity</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="345868" visibility="public" path="/0000-0002-0580-7191/keywords/345868" display-index="0">
+                <common:created-date>2015-04-04T07:02:35.974Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:35.974Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>teacher professional learning</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="345869" visibility="public" path="/0000-0002-0580-7191/keywords/345869" display-index="0">
+                <common:created-date>2015-04-04T07:02:35.982Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:35.982Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>Aboriginal community education</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="345870" visibility="public" path="/0000-0002-0580-7191/keywords/345870" display-index="0">
+                <common:created-date>2015-04-04T07:02:35.990Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:35.990Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>social justice education</keyword:content>
+            </keyword:keyword>
+            <keyword:keyword put-code="345871" visibility="public" path="/0000-0002-0580-7191/keywords/345871" display-index="0">
+                <common:created-date>2015-04-04T07:02:36.000Z</common:created-date>
+                <common:last-modified-date>2015-04-04T07:02:36.000Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                        <common:path>0000-0002-0580-7191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Cathie Burgess</common:source-name>
+                </common:source>
+                <keyword:content>teacher professional identity</keyword:content>
+            </keyword:keyword>
+        </keyword:keywords>
+        <external-identifier:external-identifiers path="/0000-0002-0580-7191/external-identifiers">
+            <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="2603" visibility="public" path="/0000-0002-0580-7191/external-identifiers/2603" display-index="0">
+                <common:created-date>2014-12-08T01:25:24.400Z</common:created-date>
+                <common:last-modified-date>2018-02-05T22:26:07.419Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>P-2258-2014</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/P-2258-2014</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-0580-7191/activities">
+        <common:last-modified-date>2019-09-09T16:10:09.448Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-0580-7191/distinctions"/>
+        <activities:educations path="/0000-0002-0580-7191/educations">
+            <common:last-modified-date>2014-12-07T23:31:13.204Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-12-07T23:31:13.204Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="609187" display-index="0" path="/0000-0002-0580-7191/education/609187" visibility="public">
+                    <common:created-date>2014-12-07T23:31:13.204Z</common:created-date>
+                    <common:last-modified-date>2014-12-07T23:31:13.204Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <common:role-title>Doctor of Philosophy</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>07</common:month>
+                        <common:day>31</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>04</common:month>
+                        <common:day>07</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Sydney</common:name>
+                        <common:address>
+                            <common:city>Sydney</common:city>
+                            <common:region>NSW</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4334</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-0580-7191/employments">
+            <common:last-modified-date>2014-12-07T23:40:34.387Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2014-12-07T23:40:34.387Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="609191" display-index="0" path="/0000-0002-0580-7191/employment/609191" visibility="public">
+                    <common:created-date>2014-12-07T23:40:34.387Z</common:created-date>
+                    <common:last-modified-date>2014-12-07T23:40:34.387Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <common:department-name>Faculty of Education &amp; Social Work</common:department-name>
+                    <common:role-title>Lecturer in Education, Aboriginal Studies</common:role-title>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                        <common:month>02</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Sydney</common:name>
+                        <common:address>
+                            <common:city>Sydney</common:city>
+                            <common:region>NSW</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4334</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-0580-7191/fundings">
+            <common:last-modified-date>2015-04-04T07:09:52.741Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2015-04-04T07:09:52.741Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="75223" path="/0000-0002-0580-7191/funding/75223" visibility="public" display-index="1">
+                    <common:created-date>2015-04-04T07:09:52.741Z</common:created-date>
+                    <common:last-modified-date>2015-04-04T07:09:52.741Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Developing Teachers’ Pedagogical Cultural Identity through Cultural Immersion: the key to engaging Indigenous Australian students and their families in education</common:title>
+                    </funding:title>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2015</common:year>
+                        <common:month>12</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Sydney</common:name>
+                        <common:address>
+                            <common:city>NSW</common:city>
+                            <common:region>NSW</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100001774</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2014-12-08T01:30:44.727Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="54108" path="/0000-0002-0580-7191/funding/54108" visibility="public" display-index="0">
+                    <common:created-date>2014-12-08T01:30:44.727Z</common:created-date>
+                    <common:last-modified-date>2014-12-08T01:30:44.727Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Connecting to Country Research</common:title>
+                    </funding:title>
+                    <funding:type>contract</funding:type>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>01</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>NSW Department of Education and Communities</common:name>
+                        <common:address>
+                            <common:city>NSW</common:city>
+                            <common:region>NSW</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100002122</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-0580-7191/invited-positions"/>
+        <activities:memberships path="/0000-0002-0580-7191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-0580-7191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-0580-7191/qualifications"/>
+        <activities:research-resources path="/0000-0002-0580-7191/research-resources"/>
+        <activities:services path="/0000-0002-0580-7191/services"/>
+        <activities:works path="/0000-0002-0580-7191/works">
+            <common:last-modified-date>2019-09-09T16:10:09.448Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-09T16:10:09.448Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/17508487.2017.1306576</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/17508487.2017.1306576</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1080/17508487.2017.1306576</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="61408357" path="/0000-0002-0580-7191/work/61408357" visibility="public" display-index="0">
+                    <common:created-date>2019-09-09T16:10:09.448Z</common:created-date>
+                    <common:last-modified-date>2019-09-09T16:10:09.448Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Beyond cultural competence: transforming teacher professional learning through Aboriginal community-controlled cultural immersion</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/17508487.2017.1306576</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/17508487.2017.1306576</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1080/17508487.2017.1306576</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1080/17508487.2017.1306576</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>10</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Critical Studies in Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-06T18:42:19.330Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s13384-019-00315-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s13384-019-00315-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s13384-019-00315-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55345249" path="/0000-0002-0580-7191/work/55345249" visibility="public" display-index="0">
+                    <common:created-date>2019-03-15T21:43:34.118Z</common:created-date>
+                    <common:last-modified-date>2019-09-06T18:42:19.330Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A systematic review of pedagogies that support, engage and improve the educational outcomes of Aboriginal students</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s13384-019-00315-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s13384-019-00315-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s13384-019-00315-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s13384-019-00315-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Australian Educational Researcher</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-19T09:36:44.379Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s13384-019-00323-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s13384-019-00323-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s13384-019-00323-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56338419" path="/0000-0002-0580-7191/work/56338419" visibility="public" display-index="0">
+                    <common:created-date>2019-04-11T04:50:53.970Z</common:created-date>
+                    <common:last-modified-date>2019-04-19T09:36:44.379Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Correction to: ‘Aboriginal Voices’: An overview of the methodology applied in the systematic review of recent research across ten key areas of Australian Indigenous education</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s13384-019-00323-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s13384-019-00323-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s13384-019-00323-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s13384-019-00323-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                        <common:day>11</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Australian Educational Researcher</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-19T09:36:43.998Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s13384-019-00307-5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s13384-019-00307-5</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s13384-019-00307-5</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56328658" path="/0000-0002-0580-7191/work/56328658" visibility="public" display-index="0">
+                    <common:created-date>2019-04-10T20:39:23.178Z</common:created-date>
+                    <common:last-modified-date>2019-04-19T09:36:43.998Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>‘Aboriginal Voices’: An overview of the methodology applied in the systematic review of recent research across ten key areas of Australian Indigenous education</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s13384-019-00307-5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s13384-019-00307-5</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s13384-019-00307-5</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s13384-019-00307-5</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>04</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Australian Educational Researcher</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-25T20:03:39.311Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/s41297-018-0045-y</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/s41297-018-0045-y</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1007/s41297-018-0045-y</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="45981969" path="/0000-0002-0580-7191/work/45981969" visibility="public" display-index="0">
+                    <common:created-date>2018-06-25T08:19:44.210Z</common:created-date>
+                    <common:last-modified-date>2019-06-25T20:03:39.311Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The intellectual quality and inclusivity of Aboriginal and Torres Strait Islander content in the NSW Stage 5 History syllabus</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/s41297-018-0045-y</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/s41297-018-0045-y</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1007/s41297-018-0045-y</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1007/s41297-018-0045-y</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                        <common:day>25</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Curriculum Perspectives</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-08-29T09:01:45.862Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/13613324.2016.1195353</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/13613324.2016.1195353</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1080/13613324.2016.1195353</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="36197838" path="/0000-0002-0580-7191/work/36197838" visibility="public" display-index="0">
+                    <common:created-date>2017-08-23T11:06:04.453Z</common:created-date>
+                    <common:last-modified-date>2017-08-29T09:01:45.862Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>‘Having to say everyday … I’m not black enough … I’m not white enough’. Discourses of Aboriginality in the Australian education context</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/13613324.2016.1195353</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/13613324.2016.1195353</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1080/13613324.2016.1195353</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>11</common:month>
+                        <common:day>02</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Race Ethnicity and Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-18T20:39:12.950Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/jie.2016.20</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/jie.2016.20</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1017/jie.2016.20</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="35420169" path="/0000-0002-0580-7191/work/35420169" visibility="public" display-index="0">
+                    <common:created-date>2017-07-25T09:21:51.448Z</common:created-date>
+                    <common:last-modified-date>2019-04-18T20:39:12.950Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Challenging Lecturer Assumptions About Preservice Teacher Learning in Mandatory Indigenous Studies</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/jie.2016.20</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/jie.2016.20</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1017/jie.2016.20</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1017/jie.2016.20</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Australian Journal of Indigenous Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-19T01:14:46.368Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1017/jie.2015.33</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1017/jie.2015.33</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1017/jie.2015.33</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="35420168" path="/0000-0002-0580-7191/work/35420168" visibility="public" display-index="0">
+                    <common:created-date>2017-07-25T09:21:51.310Z</common:created-date>
+                    <common:last-modified-date>2019-04-19T01:14:46.368Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Cultural Immersion: Developing a Community of Practice of Teachers and Aboriginal Community Members</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1017/jie.2015.33</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1017/jie.2015.33</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1017/jie.2015.33</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1017/jie.2015.33</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The Australian Journal of Indigenous Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.610Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007086" path="/0000-0002-0580-7191/work/16007086" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:54:55.387Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.610Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Pedagogical Approaches in a Mandatory Indigenous Education Subject</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Learning</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.913Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007095" path="/0000-0002-0580-7191/work/16007095" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:58:01.779Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.913Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Real Stories, Extraordinary People: Preliminary Findings from an Aboriginal Community-Controlled Cultural Immersion Program for Local Teachers.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Australian Association for Research in Education (NJ1)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.852Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007092" path="/0000-0002-0580-7191/work/16007092" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:55:29.640Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.852Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Role of Agency in Determining and Enacting the Professional Identities of Early Career Aboriginal Teachers.</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Australian Association for Research in Education (NJ1)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.587Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007085" path="/0000-0002-0580-7191/work/16007085" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:54:39.063Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.587Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aboriginal Preservice Teachers Experiences in the Professional Experience</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Learning</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.897Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007094" path="/0000-0002-0580-7191/work/16007094" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:56:13.210Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.897Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Aboriginal peoples perceptions and beliefs about quality teaching</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>In Peter Jeffrey Proceedings of the 2009 Australian Association for Research in Education (AARE) Conference</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-07-24T19:54:59.871Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="16007093" path="/0000-0002-0580-7191/work/16007093" visibility="public" display-index="0">
+                    <common:created-date>2015-04-04T06:55:52.606Z</common:created-date>
+                    <common:last-modified-date>2015-07-24T19:54:59.871Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-0580-7191</common:uri>
+                            <common:path>0000-0002-0580-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Cathie Burgess</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>What good a national curriculum for Indigenous students?</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                    </common:publication-date>
+                    <work:journal-title>AARE Annual Conference, Canberra, November</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

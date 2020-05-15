@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-3382-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+        <common:path>0000-0002-3382-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2017-03-22T09:20:20.547Z</history:submission-date>
+        <common:last-modified-date>2019-09-12T21:37:04.373Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-3382-4191/person">
+        <common:last-modified-date>2018-12-14T22:04:18.607Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-3382-4191">
+            <common:created-date>2017-03-22T09:20:20.547Z</common:created-date>
+            <common:last-modified-date>2017-03-22T09:20:20.772Z</common:last-modified-date>
+            <personal-details:given-names>Ben</personal-details:given-names>
+            <personal-details:family-name>Davies</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-3382-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-3382-4191/researcher-urls">
+            <common:last-modified-date>2018-12-14T22:04:18.286Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1619620" visibility="public" path="/0000-0002-3382-4191/researcher-urls/1619620" display-index="0">
+                <common:created-date>2018-12-14T22:04:18.285Z</common:created-date>
+                <common:last-modified-date>2018-12-14T22:04:18.286Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                        <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>University of Portsmouth</common:source-name>
+                </common:source>
+                <researcher-url:url-name>University of Portsmouth profile page</researcher-url:url-name>
+                <researcher-url:url>https://researchportal.port.ac.uk/portal/en/persons/ben-davies(ebba5c0e-d6d0-456e-80b7-bfc6c0895f27).html</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0002-3382-4191/email"/>
+        <address:addresses path="/0000-0002-3382-4191/address"/>
+        <keyword:keywords path="/0000-0002-3382-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-3382-4191/external-identifiers">
+            <common:last-modified-date>2018-12-14T22:04:18.607Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="672970" visibility="public" path="/0000-0002-3382-4191/external-identifiers/672970" display-index="0">
+                <common:created-date>2017-03-22T09:32:17.051Z</common:created-date>
+                <common:last-modified-date>2017-03-22T09:32:17.051Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57192158909</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57192158909&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1245019" visibility="public" path="/0000-0002-3382-4191/external-identifiers/1245019" display-index="0">
+                <common:created-date>2018-12-14T22:04:18.461Z</common:created-date>
+                <common:last-modified-date>2018-12-14T22:04:18.462Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                        <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>University of Portsmouth</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>23967649000</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/authid/detail.url?authorId=23967649000</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1245020" visibility="public" path="/0000-0002-3382-4191/external-identifiers/1245020" display-index="0">
+                <common:created-date>2018-12-14T22:04:18.606Z</common:created-date>
+                <common:last-modified-date>2018-12-14T22:04:18.607Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                        <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>University of Portsmouth</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57192158909</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/authid/detail.url?authorId=57192158909</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-3382-4191/activities">
+        <common:last-modified-date>2019-09-12T21:37:04.388Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-3382-4191/distinctions"/>
+        <activities:educations path="/0000-0002-3382-4191/educations">
+            <common:last-modified-date>2017-05-15T15:58:09.415Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-15T15:31:10.078Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3860271" display-index="0" path="/0000-0002-3382-4191/education/3860271" visibility="public">
+                    <common:created-date>2017-05-15T15:31:10.078Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:31:10.078Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <common:department-name>English</common:department-name>
+                    <common:role-title>PhD</common:role-title>
+                    <common:start-date>
+                        <common:year>2007</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of St Andrews</common:name>
+                        <common:address>
+                            <common:city>St Andrews</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-15T15:58:09.415Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3860283" display-index="0" path="/0000-0002-3382-4191/education/3860283" visibility="public">
+                    <common:created-date>2017-05-15T15:33:44.620Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:58:09.415Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <common:department-name>English</common:department-name>
+                    <common:role-title>MSt</common:role-title>
+                    <common:start-date>
+                        <common:year>2005</common:year>
+                        <common:month>10</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2006</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Oxford</common:name>
+                        <common:address>
+                            <common:city>Oxford</common:city>
+                            <common:region>Oxfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6396</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-15T15:34:40.011Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3860287" display-index="0" path="/0000-0002-3382-4191/education/3860287" visibility="public">
+                    <common:created-date>2017-05-15T15:34:40.011Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:34:40.011Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <common:department-name>English</common:department-name>
+                    <common:role-title>MA(Hons) English</common:role-title>
+                    <common:start-date>
+                        <common:year>2001</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2005</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of St Andrews</common:name>
+                        <common:address>
+                            <common:city>St Andrews</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-3382-4191/employments">
+            <common:last-modified-date>2018-12-14T22:04:19.119Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-12-14T22:04:19.119Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6973156" display-index="0" path="/0000-0002-3382-4191/employment/6973156" visibility="public">
+                    <common:created-date>2018-12-14T22:04:19.119Z</common:created-date>
+                    <common:last-modified-date>2018-12-14T22:04:19.119Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>University of Portsmouth</common:name>
+                        <common:address>
+                            <common:city>N/A</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-05-15T15:35:14.466Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3860291" display-index="0" path="/0000-0002-3382-4191/employment/3860291" visibility="public">
+                    <common:created-date>2017-05-15T15:35:14.466Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:35:14.466Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <common:department-name>English</common:department-name>
+                    <common:role-title>Lecturer in English Literature</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Portsmouth</common:name>
+                        <common:address>
+                            <common:city>Portsmouth</common:city>
+                            <common:region>Hampshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6697</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-3382-4191/fundings">
+            <common:last-modified-date>2017-05-15T15:45:27.547Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-05-15T15:45:27.547Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="299408" path="/0000-0002-3382-4191/funding/299408" visibility="public" display-index="1">
+                    <common:created-date>2017-05-15T15:40:06.927Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:45:27.547Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Edinburgh-St Andrews Sexualities Conference, ‘Sexualities In and Out of Time’</common:title>
+                    </funding:title>
+                    <common:external-ids/>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2008</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Arts and Humanities Research Council</common:name>
+                        <common:address>
+                            <common:city>Swindon</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000267</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-3382-4191/invited-positions"/>
+        <activities:memberships path="/0000-0002-3382-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-3382-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-3382-4191/qualifications"/>
+        <activities:research-resources path="/0000-0002-3382-4191/research-resources"/>
+        <activities:services path="/0000-0002-3382-4191/services"/>
+        <activities:works path="/0000-0002-3382-4191/works">
+            <common:last-modified-date>2019-09-12T21:37:04.388Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:03.500Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>0675b26e-761e-488b-994f-d3f644996ca2</common:external-id-value>
+                        <common:external-id-normalized transient="true">0675b26e-761e-488b-994f-d3f644996ca2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/0950236x.2019.1627404</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/0950236x.2019.1627404</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1080/0950236x.2019.1627404</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58530190" path="/0000-0002-3382-4191/work/58530190" visibility="public" display-index="1">
+                    <common:created-date>2019-06-16T09:32:48.414Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:32:48.414Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The darkness-within-the-light of contemporary fiction: Agamben’s missing reader and Ben Lerner’s 10:04</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/0950236x.2019.1627404</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/0950236x.2019.1627404</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1080/0950236x.2019.1627404</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0950-236X</common:external-id-value>
+                            <common:external-id-normalized transient="true">0950-236X</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/0950-236X</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1470-1308</common:external-id-value>
+                            <common:external-id-normalized transient="true">1470-1308</common:external-id-normalized>
+                            <common:external-id-url>https://portal.issn.org/resource/ISSN/1470-1308</common:external-id-url>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1080/0950236x.2019.1627404</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Textual Practice</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="61176020" path="/0000-0002-3382-4191/work/61176020" visibility="public" display-index="0">
+                    <common:created-date>2019-09-02T21:06:37.479Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:03.500Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The darkness-within-the-light of contemporary fiction: Agamben’s missing reader and Ben Lerner’s 10:04</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>0675b26e-761e-488b-994f-d3f644996ca2</common:external-id-value>
+                            <common:external-id-normalized transient="true">0675b26e-761e-488b-994f-d3f644996ca2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/0950236X.2019.1627404</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/0950236x.2019.1627404</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/the-darknesswithinthelight-of-contemporary-fiction-agambens-missing-reader-and-ben-lerners1004(0675b26e-761e-488b-994f-d3f644996ca2).html</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                        <common:day>08</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Textual Practice</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-16T09:30:36.885Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85060207751</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85060207751</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58530156" path="/0000-0002-3382-4191/work/58530156" visibility="public" display-index="0">
+                    <common:created-date>2019-06-16T09:30:36.885Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.885Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prequel ontology and temporality: The thresholds of John Updike's Gertrude and Claudius</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4324/9780429438059</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4324/9780429438059</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85060207751</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85060207751</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85060207751&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Prequels, Coquels and Sequels in Contemporary Anglophone Fiction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:03.128Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1386/ejac.36.3.257_5</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1386/ejac.36.3.257_5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>da66d3cf-8eab-483f-b949-9ad6c93504d5</common:external-id-value>
+                        <common:external-id-normalized transient="true">da66d3cf-8eab-483f-b949-9ad6c93504d5</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="52498435" path="/0000-0002-3382-4191/work/52498435" visibility="public" display-index="0">
+                    <common:created-date>2019-01-10T22:04:43.464Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:03.128Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Book review: Time, Tense, and American Literature: When Is Now? </common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>da66d3cf-8eab-483f-b949-9ad6c93504d5</common:external-id-value>
+                            <common:external-id-normalized transient="true">da66d3cf-8eab-483f-b949-9ad6c93504d5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1386/ejac.36.3.257_5</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1386/ejac.36.3.257_5</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/book-review-time-tense-and-american-literature-when-is-now(da66d3cf-8eab-483f-b949-9ad6c93504d5).html</common:url>
+                    <work:type>book-review</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>European Journal of American Culture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:02.935Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>e1a59bbc-1c7d-407c-90ee-a727da239bb7</common:external-id-value>
+                        <common:external-id-normalized transient="true">e1a59bbc-1c7d-407c-90ee-a727da239bb7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84995486137</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84995486137</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/00111619.2016.1249785</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00111619.2016.1249785</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31263411" path="/0000-0002-3382-4191/work/31263411" visibility="public" display-index="0">
+                    <common:created-date>2017-03-22T09:32:51.584Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.741Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Auricular Erotics: Sexual Listening in (and to) Philip Roth’s Sabbath’s Theater</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00111619.2016.1249785</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00111619.2016.1249785</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84995486137</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84995486137</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84995486137&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Critique - Studies in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="51681935" path="/0000-0002-3382-4191/work/51681935" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.102Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:02.935Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Auricular erotics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>e1a59bbc-1c7d-407c-90ee-a727da239bb7</common:external-id-value>
+                            <common:external-id-normalized transient="true">e1a59bbc-1c7d-407c-90ee-a727da239bb7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84995486137</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84995486137</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00111619.2016.1249785</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00111619.2016.1249785</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/auricular-erotics(e1a59bbc-1c7d-407c-90ee-a727da239bb7).html</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Critique: Studies in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/978-1-137-48589-2_1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/978-1-137-48589-2_1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31264145" path="/0000-0002-3382-4191/work/31264145" visibility="public" display-index="0">
+                    <common:created-date>2017-03-22T09:52:08.545Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Introduction: Exceptionality</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/978-1-137-48589-2_1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/978-1-137-48589-2_1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Time, and Space in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/978-1-137-48589-2</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/978-1-137-48589-2</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85008950181</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85008950181</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31263412" path="/0000-0002-3382-4191/work/31263412" visibility="public" display-index="0">
+                    <common:created-date>2017-03-22T09:32:51.585Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sex, time, and space in contemporary fiction: Exceptional intercourse</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/978-1-137-48589-2</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/978-1-137-48589-2</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85008950181</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85008950181</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85008950181&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Time, and Space in Contemporary Fiction: Exceptional Intercourse</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-16T09:30:36.897Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84973442948</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84973442948</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58530159" path="/0000-0002-3382-4191/work/58530159" visibility="public" display-index="0">
+                    <common:created-date>2019-06-16T09:30:36.897Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.897Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Address, temporality and misdelivery: The postal effects of ali smith's short stories</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84973442948</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84973442948</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84973442948&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>British Women Short Story Writers</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:03.317Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>4ff0f4d7-20a4-4ee0-a652-3c77f1161678</common:external-id-value>
+                        <common:external-id-normalized transient="true">4ff0f4d7-20a4-4ee0-a652-3c77f1161678</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51681936" path="/0000-0002-3382-4191/work/51681936" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.113Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:03.317Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Slow reading</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>4ff0f4d7-20a4-4ee0-a652-3c77f1161678</common:external-id-value>
+                            <common:external-id-normalized transient="true">4ff0f4d7-20a4-4ee0-a652-3c77f1161678</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/slow-reading(4ff0f4d7-20a4-4ee0-a652-3c77f1161678).html</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:03.853Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/fmls/cqt051</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/fmls/cqt051</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>3ab38298-4773-46f4-bef2-e1aac4646799</common:external-id-value>
+                        <common:external-id-normalized transient="true">3ab38298-4773-46f4-bef2-e1aac4646799</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51681938" path="/0000-0002-3382-4191/work/51681938" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.122Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:03.853Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Book Review: The deaths of the author: reading and writing in time</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>3ab38298-4773-46f4-bef2-e1aac4646799</common:external-id-value>
+                            <common:external-id-normalized transient="true">3ab38298-4773-46f4-bef2-e1aac4646799</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/fmls/cqt051</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/fmls/cqt051</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/book-review-the-deaths-of-the-author-reading-and-writing-in-time(3ab38298-4773-46f4-bef2-e1aac4646799).html</common:url>
+                    <work:type>book-review</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Forum for Modern Language Studies</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:04.206Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>ae98e328-e6e3-4e38-89b4-6c33eb193851</common:external-id-value>
+                        <common:external-id-normalized transient="true">ae98e328-e6e3-4e38-89b4-6c33eb193851</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1093/fmls/cqr048</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1093/fmls/cqr048</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51681940" path="/0000-0002-3382-4191/work/51681940" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.134Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:04.206Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>After Sex?: On Writing since Queer Theory. Eds. Janet Halley and Andrew Parker. Durham, NC: Duke University Press (Series Q), 2011. 336 pp. £16.99. ISBN 978–0–8223–4909–9.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>ae98e328-e6e3-4e38-89b4-6c33eb193851</common:external-id-value>
+                            <common:external-id-normalized transient="true">ae98e328-e6e3-4e38-89b4-6c33eb193851</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1093/fmls/cqr048</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1093/fmls/cqr048</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/after-sex-on-writing-since-queer-theory-eds-janet-halley-and-andrew-parker-durham-nc-duke-university-press-series-q-2011-336-pp-1699-isbn-9780822349099(ae98e328-e6e3-4e38-89b4-6c33eb193851).html</common:url>
+                    <work:type>book-review</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>07</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:03.677Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>cae2ce60-97e1-4fd0-b4a6-cb10d9c6abda</common:external-id-value>
+                        <common:external-id-normalized transient="true">cae2ce60-97e1-4fd0-b4a6-cb10d9c6abda</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="51681937" path="/0000-0002-3382-4191/work/51681937" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.118Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:03.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Irish Company: Joyce &amp; Beckett and More (Edition ReJoycE, 2010) by Friedhelm Rathjen</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>cae2ce60-97e1-4fd0-b4a6-cb10d9c6abda</common:external-id-value>
+                            <common:external-id-normalized transient="true">cae2ce60-97e1-4fd0-b4a6-cb10d9c6abda</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/irish-company-joyce--beckett-and-more-edition-rejoyce-2010-by-friedhelm-rathjen(cae2ce60-97e1-4fd0-b4a6-cb10d9c6abda).html</common:url>
+                    <work:type>book-review</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>other-id</common:external-id-type>
+                        <common:external-id-value>E5E590CD83E20C9C85257AF0007D0E48</common:external-id-value>
+                        <common:external-id-normalized transient="true">e5e590cd83e20c9c85257af0007d0e48</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31263371" path="/0000-0002-3382-4191/work/31263371" visibility="public" display-index="0">
+                    <common:created-date>2017-03-22T09:28:08.546Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-C2RLHVNFEFIHAT4Q</common:uri>
+                            <common:path>APP-C2RLHVNFEFIHAT4Q</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>MLA International Bibliography</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hymenal Exceptionality</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>other-id</common:external-id-type>
+                            <common:external-id-value>E5E590CD83E20C9C85257AF0007D0E48</common:external-id-value>
+                            <common:external-id-normalized transient="true">e5e590cd83e20c9c85257af0007d0e48</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-16T09:30:36.894Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84998772636</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84998772636</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58530158" path="/0000-0002-3382-4191/work/58530158" visibility="public" display-index="0">
+                    <common:created-date>2019-06-16T09:30:36.894Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.894Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hymenal exceptionality</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/9780230307087</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/9780230307087</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84998772636</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84998772636</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84998772636&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Gender and Time in Fiction and Culture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-05-15T15:56:42.388Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="32739262" path="/0000-0002-3382-4191/work/32739262" visibility="public" display-index="1">
+                    <common:created-date>2017-05-15T15:56:42.388Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:56:42.388Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Introduction: Sexual Temporalities (with Jana Funke)</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>book-chapter</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Gender and Time in Fiction and Culture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-06-16T09:30:36.891Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84998773756</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84998773756</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="58530157" path="/0000-0002-3382-4191/work/58530157" visibility="public" display-index="0">
+                    <common:created-date>2019-06-16T09:30:36.891Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.891Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Introduction: Sexual temporalities</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/9780230307087</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/9780230307087</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84998773756</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84998773756</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84998773756&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Gender and Time in Fiction and Culture</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:04.388Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>isbn</common:external-id-type>
+                        <common:external-id-value>9780230275478</common:external-id-value>
+                        <common:external-id-normalized transient="true">9780230275478</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84998717595</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84998717595</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1057/9780230307087</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1057/9780230307087</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>d54e2a45-f076-43c4-841a-813ad7ab7c5c</common:external-id-value>
+                        <common:external-id-normalized transient="true">d54e2a45-f076-43c4-841a-813ad7ab7c5c</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="31263410" path="/0000-0002-3382-4191/work/31263410" visibility="public" display-index="0">
+                    <common:created-date>2017-03-22T09:32:51.583Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:45:30.743Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sex, gender and time in fiction and culture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1057/9780230307087</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1057/9780230307087</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84998717595</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84998717595</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84998717595&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Sex, Gender and Time in Fiction and Culture</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="51681941" path="/0000-0002-3382-4191/work/51681941" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.139Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:04.388Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sex, Gender and Time in Fiction and Culture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>d54e2a45-f076-43c4-841a-813ad7ab7c5c</common:external-id-value>
+                            <common:external-id-normalized transient="true">d54e2a45-f076-43c4-841a-813ad7ab7c5c</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84998717595</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84998717595</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>isbn</common:external-id-type>
+                            <common:external-id-value>9780230275478</common:external-id-value>
+                            <common:external-id-normalized transient="true">9780230275478</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/sex-gender-and-time-in-fiction-and-culture(d54e2a45-f076-43c4-841a-813ad7ab7c5c).html</common:url>
+                    <work:type>edited-book</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>03</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-09-12T21:37:04.031Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>source-work-id</common:external-id-type>
+                        <common:external-id-value>944e93ff-3c4c-4079-8149-f33995727f79</common:external-id-value>
+                        <common:external-id-normalized transient="true">944e93ff-3c4c-4079-8149-f33995727f79</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85019126997</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85019126997</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>http://dx.doi.org/10.1080/00111619.2017.1318820</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/00111619.2017.1318820</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1080/00111619.2017.1318820</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="32737442" path="/0000-0002-3382-4191/work/32737442" visibility="public" display-index="1">
+                    <common:created-date>2017-05-15T15:48:08.127Z</common:created-date>
+                    <common:last-modified-date>2017-05-15T15:48:08.127Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3382-4191</common:uri>
+                            <common:path>0000-0002-3382-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Ben Davies</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Complexities of Dwelling in Ali Smith's There but for the</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>http://dx.doi.org/10.1080/00111619.2017.1318820</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00111619.2017.1318820</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1080/00111619.2017.1318820</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>Critique: Studies in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="51681939" path="/0000-0002-3382-4191/work/51681939" visibility="public" display-index="0">
+                    <common:created-date>2018-12-14T22:04:17.129Z</common:created-date>
+                    <common:last-modified-date>2019-09-12T21:37:04.031Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-6CS2P9ZNSCUJAJ8S</common:uri>
+                            <common:path>APP-6CS2P9ZNSCUJAJ8S</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Portsmouth</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The complexities of dwelling in Ali Smith's There but for the</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>source-work-id</common:external-id-type>
+                            <common:external-id-value>944e93ff-3c4c-4079-8149-f33995727f79</common:external-id-value>
+                            <common:external-id-normalized transient="true">944e93ff-3c4c-4079-8149-f33995727f79</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85019126997</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85019126997</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00111619.2017.1318820</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00111619.2017.1318820</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://researchportal.port.ac.uk/portal/en/publications/the-complexities-of-dwelling-in-ali-smiths-there-but-for-the(944e93ff-3c4c-4079-8149-f33995727f79).html</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>10</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Critique: Studies in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="58530160" path="/0000-0002-3382-4191/work/58530160" visibility="public" display-index="0">
+                    <common:created-date>2019-06-16T09:30:36.900Z</common:created-date>
+                    <common:last-modified-date>2019-06-16T09:30:36.900Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The Complexities of Dwelling in Ali Smith’s There but for the</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/00111619.2017.1318820</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/00111619.2017.1318820</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85019126997</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85019126997</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85019126997&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Critique - Studies in Contemporary Fiction</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

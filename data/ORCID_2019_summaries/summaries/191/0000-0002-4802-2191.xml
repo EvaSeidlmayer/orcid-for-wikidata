@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-4802-2191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+        <common:path>0000-0002-4802-2191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>zh_CN</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-09-20T00:40:12.351Z</history:submission-date>
+        <common:last-modified-date>2019-05-18T11:13:51.753Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-4802-2191/person">
+        <common:last-modified-date>2019-03-03T14:05:07.840Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-4802-2191">
+            <common:created-date>2018-09-20T00:40:12.351Z</common:created-date>
+            <common:last-modified-date>2018-11-16T16:05:07.689Z</common:last-modified-date>
+            <personal-details:given-names>Wenjuan</personal-details:given-names>
+            <personal-details:family-name>Wu</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-4802-2191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-4802-2191/researcher-urls"/>
+        <email:emails path="/0000-0002-4802-2191/email"/>
+        <address:addresses path="/0000-0002-4802-2191/address"/>
+        <keyword:keywords path="/0000-0002-4802-2191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-4802-2191/external-identifiers">
+            <common:last-modified-date>2019-03-03T14:05:07.840Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1324971" visibility="public" path="/0000-0002-4802-2191/external-identifiers/1324971" display-index="0">
+                <common:created-date>2019-03-03T09:47:05.717Z</common:created-date>
+                <common:last-modified-date>2019-03-03T09:47:05.718Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56401297200</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56401297200&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1325102" visibility="public" path="/0000-0002-4802-2191/external-identifiers/1325102" display-index="0">
+                <common:created-date>2019-03-03T14:05:07.840Z</common:created-date>
+                <common:last-modified-date>2019-03-03T14:05:07.840Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>E-2142-2019</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/E-2142-2019</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-4802-2191/activities">
+        <common:last-modified-date>2019-03-03T09:47:35.254Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-4802-2191/distinctions"/>
+        <activities:educations path="/0000-0002-4802-2191/educations">
+            <common:last-modified-date>2018-09-21T01:32:57.314Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-09-21T01:32:57.314Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="6463241" display-index="1" path="/0000-0002-4802-2191/education/6463241" visibility="public">
+                    <common:created-date>2018-09-21T01:32:57.314Z</common:created-date>
+                    <common:last-modified-date>2018-09-21T01:32:57.314Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <common:department-name>light industry and food engineering</common:department-name>
+                    <common:role-title>博士</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                        <common:day>21</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Nanjing Forestry University</common:name>
+                        <common:address>
+                            <common:city>Nanjing</common:city>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>74584</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-4802-2191/employments">
+            <common:last-modified-date>2018-09-21T01:34:10.811Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-09-21T01:34:10.811Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6463243" display-index="1" path="/0000-0002-4802-2191/employment/6463243" visibility="public">
+                    <common:created-date>2018-09-21T01:34:10.811Z</common:created-date>
+                    <common:last-modified-date>2018-09-21T01:34:10.811Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <common:department-name>light industry and food engineering</common:department-name>
+                    <common:role-title>Dr.</common:role-title>
+                    <common:start-date>
+                        <common:year>2004</common:year>
+                        <common:month>07</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Nanjing Forestry University</common:name>
+                        <common:address>
+                            <common:city>Nanjing</common:city>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>74584</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-4802-2191/fundings"/>
+        <activities:invited-positions path="/0000-0002-4802-2191/invited-positions"/>
+        <activities:memberships path="/0000-0002-4802-2191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-4802-2191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-4802-2191/qualifications"/>
+        <activities:research-resources path="/0000-0002-4802-2191/research-resources"/>
+        <activities:services path="/0000-0002-4802-2191/services"/>
+        <activities:works path="/0000-0002-4802-2191/works">
+            <common:last-modified-date>2019-03-03T09:47:35.254Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.220Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1080/02773813.2017.1388821</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1080/02773813.2017.1388821</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85044388629</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85044388629</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816878" path="/0000-0002-4802-2191/work/54816878" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.220Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.220Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of Green Liquor (GL) and Sodium Carbonate (SC) Pretreatment on Structural Characteristics of Wheat Stem Lignin</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1080/02773813.2017.1388821</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1080/02773813.2017.1388821</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85044388629</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85044388629</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85044388629&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Wood Chemistry and Technology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.208Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85041297611</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85041297611</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15376/biores.13.1.231-240</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15376/biores.13.1.231-240</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816875" path="/0000-0002-4802-2191/work/54816875" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.208Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.208Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Isolation of lignin from Masson pine by liquid-liquid extraction based on complete dissolution in NaOH aqueous solution</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15376/biores.13.1.231-240</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15376/biores.13.1.231-240</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85041297611</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85041297611</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85041297611&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>BioResources</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.204Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ijbiomac.2018.05.063</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ijbiomac.2018.05.063</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85047220504</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85047220504</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816874" path="/0000-0002-4802-2191/work/54816874" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.204Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.204Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structural elucidation and antioxidant activity of lignin isolated from rice straw and alkali‑oxygen black liquor</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ijbiomac.2018.05.063</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ijbiomac.2018.05.063</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85047220504</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85047220504</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85047220504&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Biological Macromolecules</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.212Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/acssuschemeng.6b01710</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/acssuschemeng.6b01710</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85008517592</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85008517592</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816876" path="/0000-0002-4802-2191/work/54816876" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.212Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.212Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparison of the Structural Characteristics of Cellulolytic Enzyme Lignin Preparations Isolated from Wheat Straw Stem and Leaf</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/acssuschemeng.6b01710</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/acssuschemeng.6b01710</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85008517592</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85008517592</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85008517592&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ACS Sustainable Chemistry and Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.254Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1021/acssuschemeng.6b02884</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1021/acssuschemeng.6b02884</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85018389100</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85018389100</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816881" path="/0000-0002-4802-2191/work/54816881" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.254Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.254Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Novel Approach to Prepare Ultrathin Lignocellulosic Film for Monitoring Enzymatic Hydrolysis Process by Quartz Crystal Microbalance</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1021/acssuschemeng.6b02884</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1021/acssuschemeng.6b02884</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85018389100</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85018389100</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85018389100&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ACS Sustainable Chemistry and Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.186Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85055514420</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85055514420</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816871" path="/0000-0002-4802-2191/work/54816871" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.186Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.186Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Research progress on application of lignin in asphalt,木质素在沥青中的应用研究进展</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85055514420</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85055514420</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85055514420&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Zhongguo Zaozhi Xuebao/Transactions of China Pulp and Paper</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T10:04:15.916Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741609" path="/0000-0002-4802-2191/work/50741609" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T10:04:15.913Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T10:04:15.916Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Characterization of lignin isolated from wheat leaf based on LiCl/DMSO dissolution and regeneration</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Bioresources</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.245Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.15376/biores.11.3.6017-6025</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.15376/biores.11.3.6017-6025</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84988622316</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84988622316</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816880" path="/0000-0002-4802-2191/work/54816880" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.245Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.245Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Complete dissolution of ball-milled masson pine using an aqueous sodium hydroxide solvent</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.15376/biores.11.3.6017-6025</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.15376/biores.11.3.6017-6025</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84988622316</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84988622316</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84988622316&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>BioResources</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.216Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.indcrop.2015.06.002</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.indcrop.2015.06.002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84930939074</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84930939074</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816877" path="/0000-0002-4802-2191/work/54816877" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.216Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.216Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of complete dissolution in LiCl/DMSO on the isolation and characteristics of lignin from wheat straw internode</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.indcrop.2015.06.002</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.indcrop.2015.06.002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84930939074</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84930939074</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84930939074&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Industrial Crops and Products</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.229Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.biombioe.2014.09.021</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.biombioe.2014.09.021</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84911900976</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84911900976</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816879" path="/0000-0002-4802-2191/work/54816879" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.229Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.229Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of LiCl/DMSO dissolution and enzymatic hydrolysis on the chemical composition and lignin structure of rice straw</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.biombioe.2014.09.021</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.biombioe.2014.09.021</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84911900976</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84911900976</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84911900976&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Biomass and Bioenergy</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.200Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-77954477433</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-77954477433</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816873" path="/0000-0002-4802-2191/work/54816873" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.200Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.200Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Preparation of superabsorbent resin from wood flour by grafting-copolymerization</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-77954477433</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-77954477433</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-77954477433&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Zhongguo Zaozhi Xuebao/Transactions of China Pulp and Paper</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-03-03T09:47:35.197Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-33847316920</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-33847316920</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="54816872" path="/0000-0002-4802-2191/work/54816872" visibility="public" display-index="0">
+                    <common:created-date>2019-03-03T09:47:35.197Z</common:created-date>
+                    <common:last-modified-date>2019-03-03T09:47:35.197Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Preparation of superabsorbent resin from cellulose by grafting-copolymerization</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-33847316920</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-33847316920</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-33847316920&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Chung-kuo Tsao Chih/China Pulp and Paper</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:56:57.314Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741613" path="/0000-0002-4802-2191/work/50741613" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:56:57.314Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:56:57.314Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Comparison of the structural characteristics of cellulolytic enzyme lignin preparations isolated from wheat straw stem and leaf</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:55:56.377Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741607" path="/0000-0002-4802-2191/work/50741607" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:55:56.377Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:55:56.377Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Complete dissolution of ball-milled masson pine using an aqueous sodium hydroxide solvent</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:55:12.933Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741602" path="/0000-0002-4802-2191/work/50741602" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:55:12.933Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:55:12.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of complete dissolution in LiCl/DMSO on the isolation and characteristics of lignin from wheat straw internode</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:54:45.855Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741600" path="/0000-0002-4802-2191/work/50741600" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:54:45.855Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:54:45.855Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of LiCl/DMSO dissolution and enzymatic hydrolysis on the chemical composition and lignin structure of rice straw</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>magazine-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:59:29.529Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741634" path="/0000-0002-4802-2191/work/50741634" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:59:29.529Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:59:29.529Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effects of green liquor (GL) and sodium carbonate (SC) pretreatment on structural characteristics of wheat stem ligni</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:54:19.339Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741597" path="/0000-0002-4802-2191/work/50741597" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:54:19.339Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:54:19.339Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Isolation of cellulolytic enzyme lignin from rice straw enhanced by LiCl/DMSO dissolution and regeneration</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:58:39.927Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741631" path="/0000-0002-4802-2191/work/50741631" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:58:39.927Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:58:39.927Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Isolation of lignin from Masson pine by liquid-liquid extraction based on complete dissolution in NaOH aqueous solution</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:57:18.913Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741628" path="/0000-0002-4802-2191/work/50741628" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:57:18.913Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:57:18.913Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Novel approach to prepare ultrathin lignocellulosic film for monitoring enzymatic hydrolysis process by quartz crystal microbalance</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T10:00:01.092Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741637" path="/0000-0002-4802-2191/work/50741637" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T10:00:01.092Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T10:00:01.092Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Structural elucidation and antioxidant activity of lignin isolated fromrice straw and alkali oxygen black liquor</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-11-18T09:53:20.815Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="50741580" path="/0000-0002-4802-2191/work/50741580" visibility="public" display-index="1">
+                    <common:created-date>2018-11-18T09:53:20.815Z</common:created-date>
+                    <common:last-modified-date>2018-11-18T09:53:20.815Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-4802-2191</common:uri>
+                            <common:path>0000-0002-4802-2191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Wenjuan Wu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Synthesis and characterization of stearyl-group-terminated dendrimers and thermosensitivity of their toluene solutions</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-6512-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-6512-1191</common:uri>
+        <common:path>0000-0002-6512-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>pt</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2016-02-25T03:42:39.989Z</history:submission-date>
+        <common:last-modified-date>2018-07-04T17:02:29.582Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-6512-1191/person">
+        <person:name visibility="public" path="0000-0002-6512-1191">
+            <common:created-date>2016-04-15T22:51:52.720Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:51:52.720Z</common:last-modified-date>
+            <personal-details:given-names>Maria Júlia</personal-details:given-names>
+            <personal-details:family-name>Canazza Dall Acqua</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-6512-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-6512-1191/researcher-urls"/>
+        <email:emails path="/0000-0002-6512-1191/email"/>
+        <address:addresses path="/0000-0002-6512-1191/address"/>
+        <keyword:keywords path="/0000-0002-6512-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-6512-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-6512-1191/activities">
+        <common:last-modified-date>2018-06-19T19:24:21.665Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-6512-1191/distinctions"/>
+        <activities:educations path="/0000-0002-6512-1191/educations"/>
+        <activities:employments path="/0000-0002-6512-1191/employments">
+            <common:last-modified-date>2018-05-30T19:39:19.643Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-05-30T19:39:19.643Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5912231" display-index="0" path="/0000-0002-6512-1191/employment/5912231" visibility="public">
+                    <common:created-date>2018-05-30T19:39:19.643Z</common:created-date>
+                    <common:last-modified-date>2018-05-30T19:39:19.643Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <common:department-name>Departamento de Psicologia da Educação</common:department-name>
+                    <common:start-date>
+                        <common:year>1990</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Universidade Estadual Paulista (UNESP), Faculdade de Ciências e Letras, Araraquara</common:name>
+                        <common:address>
+                            <common:city>Araraquara</common:city>
+                            <common:region>São Paulo</common:region>
+                            <common:country>BR</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-6512-1191/fundings"/>
+        <activities:invited-positions path="/0000-0002-6512-1191/invited-positions"/>
+        <activities:memberships path="/0000-0002-6512-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-6512-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-6512-1191/qualifications"/>
+        <activities:research-resources path="/0000-0002-6512-1191/research-resources"/>
+        <activities:services path="/0000-0002-6512-1191/services"/>
+        <activities:works path="/0000-0002-6512-1191/works">
+            <common:last-modified-date>2018-06-19T19:24:21.665Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-05-30T19:39:21.769Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/140088</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/140088</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/140088</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828257" path="/0000-0002-6512-1191/work/27828257" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.198Z</common:created-date>
+                    <common:last-modified-date>2018-05-30T19:39:21.769Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Núcleos de Ensino da Unesp: artigos 2012: volume 6: formação de professores e trabalho docente</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/140088</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/140088</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/140088</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/140088</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Coleção PROGRAD (UNESP)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:15.475Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4236/ce.2014.57057</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4236/ce.2014.57057</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.4236%2Fce.2014.57057</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/130664</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/130664</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/130664</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828256" path="/0000-0002-6512-1191/work/27828256" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.197Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:15.475Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>School inclusion: analyzing the establishment and organization of a special needs education service in a brazilian municipality</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/130664</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/130664</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/130664</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4236/ce.2014.57057</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4236/ce.2014.57057</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.4236%2Fce.2014.57057</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/130664</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Creative Education</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:16.262Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124953</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124953</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124953</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828260" path="/0000-0002-6512-1191/work/27828260" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.200Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:16.262Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A disciplina Língua Brasileira de Sinais nos currículos dos cursos de Pedagogia</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124953</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124953</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124953</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124953</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Boletim Técnico do SENAC</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:16.994Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124959</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124959</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124959</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828259" path="/0000-0002-6512-1191/work/27828259" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.199Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:16.994Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Análise e reflexão sobre a educação especial inclusiva em Maringá/BR e em Guadalajara /ES</common:title>
+                        <common:translated-title language-code="en">Special education inclusive in Maringá/BR and Guadalajara/ES</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124959</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124959</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124959</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124959</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Revista Ibero-Americana de Estudos em Educação</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:17.775Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124969</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124969</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124969</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828258" path="/0000-0002-6512-1191/work/27828258" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.199Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:17.775Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Formação inicial de professores e educação de jovens e adultos: possibilidades da extensão universitária</common:title>
+                        <common:translated-title language-code="en">Initial teacher training and youth and adult education: academic extension possibilities</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124969</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124969</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124969</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124969</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Revista Eletrônica de Educação</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:18.546Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124958</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124958</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124958</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828261" path="/0000-0002-6512-1191/work/27828261" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.201Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:18.546Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Análise das diretrizes curriculares dos  cursos de licenciatura em relação à  formação de professores para inclusão  de alunos com necessidades especiais</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124958</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124958</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124958</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124958</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Teias</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:19.331Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124977</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124977</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124977</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828262" path="/0000-0002-6512-1191/work/27828262" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.201Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:19.331Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Mediação como base de estratégias pedagógicas voltadas a alunos com deficiência mental severa: indicadores para a prática docente</common:title>
+                        <common:translated-title language-code="en">Mediation as the basis for teaching strategies geared to students with severe learning disabilities: indicators for teaching pratice</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124977</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124977</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124977</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124977</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Revista Ibero-Americana de Estudos em Educação</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:20.111Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/124972</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/124972</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/124972</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828263" path="/0000-0002-6512-1191/work/27828263" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.202Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:20.111Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Inclusão escolar com apoio: uma análise do serviço do ensino itinerante</common:title>
+                        <common:translated-title language-code="en">Inclusion in school with support: a review of the service of education itinerant Brazilian</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/124972</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/124972</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/124972</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/124972</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>01</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Revista Ibero-Americana de Estudos em Educação</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:20.899Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/106865</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/106865</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/106865</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828264" path="/0000-0002-6512-1191/work/27828264" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.202Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:20.899Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Programa de Educação de Jovens e Adultos como Processo Formativo: relato de experiência acerca da extensão universitária na atuação do PEJA/Araraquara</common:title>
+                        <common:translated-title language-code="en">Program for Education of Young Adults and Format as Procedure: report of experience on the role of the university extension PEJA/Araraquara</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/106865</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/106865</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/106865</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/106865</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                        <common:month>11</common:month>
+                        <common:day>30</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Educação: Teoria e Prática</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-06-19T19:24:21.665Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1590/S0103-863X2007000100011</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1590/s0103-863x2007000100011</common:external-id-normalized>
+                        <common:external-id-url>http://dx.doi.org/10.1590%2FS0103-863X2007000100011</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>handle</common:external-id-type>
+                        <common:external-id-value>11449/29529</common:external-id-value>
+                        <common:external-id-normalized transient="true">11449/29529</common:external-id-normalized>
+                        <common:external-id-url>http://hdl.handle.net/11449/29529</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="27828265" path="/0000-0002-6512-1191/work/27828265" visibility="public" display-index="0">
+                    <common:created-date>2016-11-01T15:09:18.203Z</common:created-date>
+                    <common:last-modified-date>2018-06-19T19:24:21.665Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-NZJ8J43KJL15NZOV</common:uri>
+                            <common:path>APP-NZJ8J43KJL15NZOV</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Universidade Estadual Paulista "Júlio de Mesquita Filho"</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Atuação de professores do ensino itinerante face à inclusão de crianças com baixa visão na educação infantil</common:title>
+                        <common:translated-title language-code="en">Teacher&amp;acute;s performance of itinerant teaching in relation to the inclusion of low vision children in elementary education</common:translated-title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>handle</common:external-id-type>
+                            <common:external-id-value>11449/29529</common:external-id-value>
+                            <common:external-id-normalized transient="true">11449/29529</common:external-id-normalized>
+                            <common:external-id-url>http://hdl.handle.net/11449/29529</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1590/S0103-863X2007000100011</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1590/s0103-863x2007000100011</common:external-id-normalized>
+                            <common:external-id-url>http://dx.doi.org/10.1590%2FS0103-863X2007000100011</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://hdl.handle.net/11449/29529</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2007</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Paidéia (Ribeirão Preto)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

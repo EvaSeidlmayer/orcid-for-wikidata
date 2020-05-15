@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1400-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+        <common:path>0000-0002-1400-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-07-03T19:14:31.054Z</history:submission-date>
+        <common:last-modified-date>2019-07-03T19:35:36.942Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1400-9191/person">
+        <person:name visibility="public" path="0000-0002-1400-9191">
+            <common:created-date>2019-07-03T19:14:31.054Z</common:created-date>
+            <common:last-modified-date>2019-07-03T19:35:36.939Z</common:last-modified-date>
+            <personal-details:given-names>Rachel-Ann</personal-details:given-names>
+            <personal-details:family-name>Garibsingh</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1400-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1400-9191/researcher-urls"/>
+        <email:emails path="/0000-0002-1400-9191/email"/>
+        <address:addresses path="/0000-0002-1400-9191/address"/>
+        <keyword:keywords path="/0000-0002-1400-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1400-9191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1400-9191/activities">
+        <common:last-modified-date>2019-07-03T19:33:13.774Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1400-9191/distinctions"/>
+        <activities:educations path="/0000-0002-1400-9191/educations"/>
+        <activities:employments path="/0000-0002-1400-9191/employments">
+            <common:last-modified-date>2019-07-03T19:23:25.402Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-03T19:22:20.660Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8192293" display-index="1" path="/0000-0002-1400-9191/employment/8192293" visibility="public">
+                    <common:created-date>2019-07-03T19:22:20.660Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:22:20.660Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <common:role-title>Teaching Assistant</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Icahn School of Medicine at Mount Sinai</common:name>
+                        <common:address>
+                            <common:city>New York</common:city>
+                            <common:region>NY</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>5925</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-03T19:23:25.402Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="8192298" display-index="1" path="/0000-0002-1400-9191/employment/8192298" visibility="public">
+                    <common:created-date>2019-07-03T19:23:25.402Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:23:25.402Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <common:role-title>Management Trainee</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>03</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>National Radiotherapy Centre</common:name>
+                        <common:address>
+                            <common:city>Saint James</common:city>
+                            <common:country>TT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>157923</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-1400-9191/fundings">
+            <common:last-modified-date>2019-07-03T19:31:50.040Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-07-03T19:31:50.040Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>T32 CA 78207-18</common:external-id-value>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="671897" path="/0000-0002-1400-9191/funding/671897" visibility="public" display-index="1">
+                    <common:created-date>2019-07-03T19:31:50.040Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:31:50.040Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Homology modeling informs ligand discovery for the glutamine transporter, ASCT2</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>T32 CA 78207-18</common:external-id-value>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>National Cancer Institute</common:name>
+                        <common:address>
+                            <common:city>Md.</common:city>
+                            <common:region>Md.</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/100000054</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-1400-9191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1400-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1400-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1400-9191/qualifications">
+            <common:last-modified-date>2019-07-03T19:27:40.524Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-03T19:27:40.524Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="8192314" display-index="1" path="/0000-0002-1400-9191/qualification/8192314" visibility="public">
+                    <common:created-date>2019-07-03T19:27:40.524Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:27:40.524Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <common:role-title>Graduate Assistant (PhD)</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Icahn School of Medicine at Mount Sinai</common:name>
+                        <common:address>
+                            <common:city>New York</common:city>
+                            <common:region>New York</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-07-03T19:27:08.157Z</common:last-modified-date>
+                <common:external-ids/>
+                <qualification:qualification-summary put-code="8192313" display-index="1" path="/0000-0002-1400-9191/qualification/8192313" visibility="public">
+                    <common:created-date>2019-07-03T19:27:08.157Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:27:08.157Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <common:role-title>Graduate Assistant (Master's student)</common:role-title>
+                    <common:start-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Icahn School of Medicine at Mount Sinai</common:name>
+                        <common:address>
+                            <common:city>New York</common:city>
+                            <common:region>NY</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>5925</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </qualification:qualification-summary>
+            </activities:affiliation-group>
+        </activities:qualifications>
+        <activities:research-resources path="/0000-0002-1400-9191/research-resources"/>
+        <activities:services path="/0000-0002-1400-9191/services"/>
+        <activities:works path="/0000-0002-1400-9191/works">
+            <common:last-modified-date>2019-07-03T19:33:13.774Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-07-03T19:33:13.774Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>30718375</common:external-id-value>
+                        <common:external-id-normalized transient="true">30718375</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/30718375</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1085/jgp.201812276</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1085/jgp.201812276</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1085/jgp.201812276</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59118968" path="/0000-0002-1400-9191/work/59118968" visibility="public" display-index="1">
+                    <common:created-date>2019-07-03T19:33:13.774Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:33:13.774Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Novel alanine serine cysteine transporter 2 (ASCT2) inhibitors based on sulfonamide and sulfonic acid ester scaffolds.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>30718375</common:external-id-value>
+                            <common:external-id-normalized transient="true">30718375</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/30718375</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1085/jgp.201812276</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1085/jgp.201812276</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1085/jgp.201812276</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>https://doi.org/10.1085/jgp.201812276</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>02</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                    <work:journal-title>The Journal of general physiology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-03T19:32:57.895Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC6066518</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC6066518</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC6066518</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>30137742</common:external-id-value>
+                        <common:external-id-normalized transient="true">30137742</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/30137742</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.3389/fchem.2018.00279</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.3389/fchem.2018.00279</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.3389/fchem.2018.00279</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59118967" path="/0000-0002-1400-9191/work/59118967" visibility="public" display-index="1">
+                    <common:created-date>2019-07-03T19:32:57.895Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:32:57.895Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Homology Modeling Informs Ligand Discovery for the Glutamine Transporter ASCT2.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>30137742</common:external-id-value>
+                            <common:external-id-normalized transient="true">30137742</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/30137742</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC6066518</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC6066518</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC6066518</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.3389/fchem.2018.00279</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.3389/fchem.2018.00279</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.3389/fchem.2018.00279</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC6066518</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>07</common:month>
+                        <common:day>24</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Frontiers in chemistry</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-07-03T19:32:42.188Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.18632/oncotarget.9117</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.18632/oncotarget.9117</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.18632/oncotarget.9117</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmid</common:external-id-type>
+                        <common:external-id-value>27144834</common:external-id-value>
+                        <common:external-id-normalized transient="true">27144834</common:external-id-normalized>
+                        <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/27144834</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>pmc</common:external-id-type>
+                        <common:external-id-value>PMC5045355</common:external-id-value>
+                        <common:external-id-normalized transient="true">PMC5045355</common:external-id-normalized>
+                        <common:external-id-url>https://europepmc.org/articles/PMC5045355</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="59118966" path="/0000-0002-1400-9191/work/59118966" visibility="public" display-index="1">
+                    <common:created-date>2019-07-03T19:32:42.188Z</common:created-date>
+                    <common:last-modified-date>2019-07-03T19:32:42.188Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1400-9191</common:uri>
+                            <common:path>0000-0002-1400-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Rachel-Ann Garibsingh</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Angiomotin stabilization by tankyrase inhibitors antagonizes constitutive TEAD-dependent transcription and proliferation of human tumor cells with Hippo pathway core component mutations.</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>pmid</common:external-id-type>
+                            <common:external-id-value>27144834</common:external-id-value>
+                            <common:external-id-normalized transient="true">27144834</common:external-id-normalized>
+                            <common:external-id-url>https://www.ncbi.nlm.nih.gov/pubmed/27144834</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>pmc</common:external-id-type>
+                            <common:external-id-value>PMC5045355</common:external-id-value>
+                            <common:external-id-normalized transient="true">PMC5045355</common:external-id-normalized>
+                            <common:external-id-url>https://europepmc.org/articles/PMC5045355</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.18632/oncotarget.9117</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.18632/oncotarget.9117</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.18632/oncotarget.9117</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://europepmc.org/articles/PMC5045355</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Oncotarget</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

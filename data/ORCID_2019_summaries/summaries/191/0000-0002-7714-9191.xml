@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-7714-9191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-7714-9191</common:uri>
+        <common:path>0000-0002-7714-9191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-09-18T14:36:14.658Z</history:submission-date>
+        <common:last-modified-date>2019-06-09T11:46:35.500Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-7714-9191/person">
+        <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-7714-9191">
+            <common:created-date>2016-04-15T23:03:58.009Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:03:58.009Z</common:last-modified-date>
+            <personal-details:given-names>DANIEL GAETANO</personal-details:given-names>
+            <personal-details:family-name>RIVIELLO</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-7714-9191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-7714-9191/researcher-urls"/>
+        <email:emails path="/0000-0002-7714-9191/email"/>
+        <address:addresses path="/0000-0002-7714-9191/address"/>
+        <keyword:keywords path="/0000-0002-7714-9191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-7714-9191/external-identifiers">
+            <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="335223" visibility="public" path="/0000-0002-7714-9191/external-identifiers/335223" display-index="0">
+                <common:created-date>2015-09-18T14:49:24.254Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56353193100</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56353193100&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="389138" visibility="public" path="/0000-0002-7714-9191/external-identifiers/389138" display-index="0">
+                <common:created-date>2015-12-18T15:41:28.271Z</common:created-date>
+                <common:last-modified-date>2018-02-05T23:27:36.636Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>56964297700</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=56964297700&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-7714-9191/activities">
+        <common:last-modified-date>2019-03-14T15:53:51.369Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-7714-9191/distinctions"/>
+        <activities:educations path="/0000-0002-7714-9191/educations">
+            <common:last-modified-date>2016-06-28T15:55:20.878Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-06-28T15:55:20.878Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1958462" display-index="0" path="/0000-0002-7714-9191/education/1958462" visibility="public">
+                    <common:created-date>2016-06-28T15:55:20.878Z</common:created-date>
+                    <common:last-modified-date>2016-06-28T15:55:20.878Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7714-9191</common:uri>
+                            <common:path>0000-0002-7714-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DANIEL GAETANO RIVIELLO</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Electronics and Telecommunications</common:department-name>
+                    <common:role-title>Ph.D.</common:role-title>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>03</common:month>
+                        <common:day>15</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>04</common:month>
+                        <common:day>15</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Politecnico di Torino</common:name>
+                        <common:address>
+                            <common:city>Torino</common:city>
+                            <common:region>Piemonte</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>19032</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-7714-9191/employments">
+            <common:last-modified-date>2019-03-14T15:53:51.369Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-03-14T15:53:35.753Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7495384" display-index="1" path="/0000-0002-7714-9191/employment/7495384" visibility="public">
+                    <common:created-date>2019-03-14T15:53:35.753Z</common:created-date>
+                    <common:last-modified-date>2019-03-14T15:53:35.753Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7714-9191</common:uri>
+                            <common:path>0000-0002-7714-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DANIEL GAETANO RIVIELLO</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Electronics and Telecommunications</common:department-name>
+                    <common:role-title>Research Assistant</common:role-title>
+                    <common:start-date>
+                        <common:year>2018</common:year>
+                        <common:month>12</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Politecnico di Torino</common:name>
+                        <common:address>
+                            <common:city>Torino</common:city>
+                            <common:region>Piemonte</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>19032</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                    <common:url>http://www.det.polito.it/personale/scheda/(nominativo)/daniel.riviello</common:url>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-03-14T15:53:51.369Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2818558" display-index="1" path="/0000-0002-7714-9191/employment/2818558" visibility="public">
+                    <common:created-date>2016-12-20T22:58:04.239Z</common:created-date>
+                    <common:last-modified-date>2019-03-14T15:53:51.369Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7714-9191</common:uri>
+                            <common:path>0000-0002-7714-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DANIEL GAETANO RIVIELLO</common:source-name>
+                    </common:source>
+                    <common:department-name>DEIB</common:department-name>
+                    <common:role-title>Postdoctoral research assistant</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>11</common:month>
+                        <common:day>16</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>11</common:month>
+                        <common:day>15</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Politecnico di Milano</common:name>
+                        <common:address>
+                            <common:city>Milano</common:city>
+                            <common:region>Lombardia</common:region>
+                            <common:country>IT</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>18981</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-7714-9191/fundings"/>
+        <activities:invited-positions path="/0000-0002-7714-9191/invited-positions"/>
+        <activities:memberships path="/0000-0002-7714-9191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-7714-9191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-7714-9191/qualifications"/>
+        <activities:research-resources path="/0000-0002-7714-9191/research-resources"/>
+        <activities:services path="/0000-0002-7714-9191/services"/>
+        <activities:works path="/0000-0002-7714-9191/works">
+            <common:last-modified-date>2016-06-28T15:47:46.253Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2016-06-28T15:40:33.566Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-40352-6_6</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-40352-6_6</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25023047" path="/0000-0002-7714-9191/work/25023047" visibility="public" display-index="0">
+                    <common:created-date>2016-06-28T15:40:33.566Z</common:created-date>
+                    <common:last-modified-date>2016-06-28T15:40:33.566Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Effect of Primary User Traffic on Largest Eigenvalue Based Spectrum Sensing Technique</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-40352-6_6</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-40352-6_6</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cognitive Radio Oriented Wireless Networks</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-28T15:47:46.253Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/RG.2.1.5100.2009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/rg.2.1.5100.2009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25023646" path="/0000-0002-7714-9191/work/25023646" visibility="public" display-index="0">
+                    <common:created-date>2016-06-28T15:47:45.317Z</common:created-date>
+                    <common:last-modified-date>2016-06-28T15:47:46.253Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multi-Antenna Energy Detector Under Unknown Primary User Traffic</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/RG.2.1.5100.2009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/rg.2.1.5100.2009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Unpublished</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-28T15:46:15.384Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.6092/POLITO/PORTO/2641328</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.6092/polito/porto/2641328</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="25023629" path="/0000-0002-7714-9191/work/25023629" visibility="public" display-index="0">
+                    <common:created-date>2016-06-28T15:46:14.317Z</common:created-date>
+                    <common:last-modified-date>2016-06-28T15:46:15.384Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectrum sensing algorithms and software-defined radio implementation for cognitive radio system</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.6092/POLITO/PORTO/2641328</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.6092/polito/porto/2641328</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Politecnico di Torino</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:33.315Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84947293571</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84947293571</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/SPIN.2015.7095339</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/spin.2015.7095339</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="20977608" path="/0000-0002-7714-9191/work/20977608" visibility="public" display-index="2">
+                    <common:created-date>2015-12-18T15:41:33.315Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:33.315Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the use of eigenvectors in multi-antenna spectrum sensing with noise variance estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/SPIN.2015.7095339</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/spin.2015.7095339</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84947293571</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84947293571</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84947293571&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2nd International Conference on Signal Processing and Integrated Networks, SPIN 2015</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="18581425" path="/0000-0002-7714-9191/work/18581425" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:59:04.427Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>On the use of eigenvectors in multi-antenna spectrum sensing with noise variance estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/spin.2015.7095339</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/spin.2015.7095339</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2015 2nd International Conference on Signal Processing and Integrated Networks (SPIN)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/RG.2.1.2646.3204</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/rg.2.1.2646.3204</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18634331" path="/0000-0002-7714-9191/work/18634331" visibility="public" display-index="0">
+                    <common:created-date>2015-09-22T13:38:00.848Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Performance Analysis of Multi-Antenna Hybrid Detectors and Optimization with Noise Variance Estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/RG.2.1.2646.3204</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/rg.2.1.2646.3204</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-01718-1_12</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-01718-1_12</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581428" path="/0000-0002-7714-9191/work/18581428" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:59:12.829Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Designing a CR Test Bed: Practical Issues</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-01718-1_12</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-01718-1_12</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>07</common:month>
+                        <common:day>07</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Cognitive Radio and Networking for Heterogeneous Wireless Networks</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/2.1.1890.3367</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/2.1.1890.3367</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581539" path="/0000-0002-7714-9191/work/18581539" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T15:05:36.390Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Hybrid Approach Analysis of Energy Detection and Eigenvalue Based Spectrum Sensing Algorithms with Noise Power Estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/2.1.1890.3367</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/2.1.1890.3367</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ICC.2014.6883512</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/icc.2014.6883512</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84906996357</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84906996357</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18580694" path="/0000-0002-7714-9191/work/18580694" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:49:32.185Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact of noise estimation on energy detection and eigenvalue based spectrum sensing algorithms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ICC.2014.6883512</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/icc.2014.6883512</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84906996357</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84906996357</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84906996357&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2014 IEEE International Conference on Communications, ICC 2014</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="18581417" path="/0000-0002-7714-9191/work/18581417" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:58:42.570Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact of noise estimation on energy detection and eigenvalue based spectrum sensing algorithms</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/icc.2014.6883512</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/icc.2014.6883512</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2014 IEEE International Conference on Communications (ICC)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/ISWCS.2014.6933440</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/iswcs.2014.6933440</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84911968335</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84911968335</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18580695" path="/0000-0002-7714-9191/work/18580695" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:49:32.192Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SNR Wall analysis of multi-sensor energy detection with noise variance estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/ISWCS.2014.6933440</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/iswcs.2014.6933440</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84911968335</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84911968335</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84911968335&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>2014 11th International Symposium on Wireless Communications Systems, ISWCS 2014 - Proceedings</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="18581388" path="/0000-0002-7714-9191/work/18581388" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:55:59.296Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>SNR Wall analysis of multi-sensor energy detection with noise variance estimation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/iswcs.2014.6933440</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/iswcs.2014.6933440</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>2014 11th International Symposium on Wireless Communications Systems (ISWCS)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1007/978-3-319-01402-9_4</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1007/978-3-319-01402-9_4</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581404" path="/0000-0002-7714-9191/work/18581404" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T14:58:12.356Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectrum Sensing Algorithms for Cognitive TV White-Spaces Systems</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1007/978-3-319-01402-9_4</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1007/978-3-319-01402-9_4</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Cognitive Communication and Cooperative HetNet Coexistence</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="18593394" path="/0000-0002-7714-9191/work/18593394" visibility="public" display-index="1">
+                    <common:created-date>2015-09-19T16:03:20.288Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7714-9191</common:uri>
+                            <common:path>0000-0002-7714-9191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>DANIEL GAETANO RIVIELLO</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Spectrum Sensing in the TV White Spaces</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1942-2601</common:external-id-value>
+                            <common:external-id-normalized transient="true">1942-2601</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>International Journal o n Advances in Telecommunications</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/2.1.3883.0401</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/2.1.3883.0401</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581542" path="/0000-0002-7714-9191/work/18581542" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T15:06:00.791Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Impact of noise estimation on eigenvalue based spectrum sensing in cognitive radio systems</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/2.1.3883.0401</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/2.1.3883.0401</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/2.1.2480.1606</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/2.1.2480.1606</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581538" path="/0000-0002-7714-9191/work/18581538" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T15:05:28.374Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sensing of DVB-T Signals for White Space Cognitive Radio Systems</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/2.1.2480.1606</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/2.1.2480.1606</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.13140/2.1.1261.6001</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.13140/2.1.1261.6001</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="18581540" path="/0000-0002-7714-9191/work/18581540" visibility="public" display-index="0">
+                    <common:created-date>2015-09-18T15:05:41.611Z</common:created-date>
+                    <common:last-modified-date>2015-12-18T15:41:28.274Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-8099-6984</common:uri>
+                            <common:path>0000-0001-8099-6984</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>DataCite</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A comparison between multi-sensor and CP-based spectrum sensing for TV white spaces</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.13140/2.1.1261.6001</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.13140/2.1.1261.6001</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-7841-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+        <common:path>0000-0001-7841-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-09-17T10:15:11.424Z</history:submission-date>
+        <common:last-modified-date>2018-10-16T11:26:06.064Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-7841-5191/person">
+        <person:name visibility="public" path="0000-0001-7841-5191">
+            <common:created-date>2018-09-17T10:15:11.424Z</common:created-date>
+            <common:last-modified-date>2018-09-17T10:15:11.646Z</common:last-modified-date>
+            <personal-details:given-names>Julia</personal-details:given-names>
+            <personal-details:family-name>Grebenovich</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-7841-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-7841-5191/researcher-urls"/>
+        <email:emails path="/0000-0001-7841-5191/email"/>
+        <address:addresses path="/0000-0001-7841-5191/address"/>
+        <keyword:keywords path="/0000-0001-7841-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-7841-5191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-7841-5191/activities">
+        <common:last-modified-date>2018-10-16T11:26:06.067Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-7841-5191/distinctions"/>
+        <activities:educations path="/0000-0001-7841-5191/educations"/>
+        <activities:employments path="/0000-0001-7841-5191/employments">
+            <common:last-modified-date>2018-10-16T11:25:43.994Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-10-16T11:25:43.994Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="6604587" display-index="1" path="/0000-0001-7841-5191/employment/6604587" visibility="public">
+                    <common:created-date>2018-10-16T11:25:43.994Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:25:43.994Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+                            <common:path>0000-0001-7841-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Julia Grebenovich</common:source-name>
+                    </common:source>
+                    <common:start-date>
+                        <common:year>2000</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Bohdan Khmelnytsky National University of Cherkasy</common:name>
+                        <common:address>
+                            <common:city>Cherkasy</common:city>
+                            <common:country>UA</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>grid.464562.7</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>GRID</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-7841-5191/fundings"/>
+        <activities:invited-positions path="/0000-0001-7841-5191/invited-positions"/>
+        <activities:memberships path="/0000-0001-7841-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-7841-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-7841-5191/qualifications"/>
+        <activities:research-resources path="/0000-0001-7841-5191/research-resources"/>
+        <activities:services path="/0000-0001-7841-5191/services"/>
+        <activities:works path="/0000-0001-7841-5191/works">
+            <common:last-modified-date>2018-10-16T11:26:06.067Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T11:26:06.067Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="49384507" path="/0000-0001-7841-5191/work/49384507" visibility="public" display-index="1">
+                    <common:created-date>2018-10-16T11:26:06.067Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:26:06.067Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+                            <common:path>0000-0001-7841-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Julia Grebenovich</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Методичні вказівки до виконання та оформлення курсової роботи з дисципліни" Об'єктно-орієнтоване програмування""</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T11:26:05.572Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="49384505" path="/0000-0001-7841-5191/work/49384505" visibility="public" display-index="1">
+                    <common:created-date>2018-10-16T11:26:05.572Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:26:05.572Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+                            <common:path>0000-0001-7841-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Julia Grebenovich</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>АПРОКСИМАЦІЙНІ РОЗВ’ЯЗАННЯ ІНТЕГРО-ДИФЕРЕНЦІАЛЬНИХ РІВНЯНЬ НЕЦІЛОГО (ДРОБОВОГО) ПОРЯДКУ ЗА МЕТОДОМ КІНЦЕВИХ ЕЛЕМЕНТІВ</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Електроніка та системи управління</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T11:26:05.532Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="49384504" path="/0000-0001-7841-5191/work/49384504" visibility="public" display-index="1">
+                    <common:created-date>2018-10-16T11:26:05.532Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:26:05.532Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+                            <common:path>0000-0001-7841-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Julia Grebenovich</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Розв’язання задач з дисципліни “Чисельні методи в інформатиці”. Ч. 1</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-10-16T11:26:05.998Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="49384506" path="/0000-0001-7841-5191/work/49384506" visibility="public" display-index="1">
+                    <common:created-date>2018-10-16T11:26:05.998Z</common:created-date>
+                    <common:last-modified-date>2018-10-16T11:26:05.998Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-7841-5191</common:uri>
+                            <common:path>0000-0001-7841-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Julia Grebenovich</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>АППРОКСИМАЦИОННЫЕ РЕШЕНИЯ ИНТЕГРО-ДИФФЕРЕНЦИАЛЬНЫХ УРАВНЕНИЙ НЕЦЕЛОГО (ДРОБНОГО) ПОРЯДКА ПО МЕТОДУ КОНЕЧНЫХ ЭЛЕМЕНТОВ</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Електронiка та системи управлiння</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

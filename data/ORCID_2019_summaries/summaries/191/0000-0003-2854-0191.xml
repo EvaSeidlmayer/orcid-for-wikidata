@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-2854-0191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+        <common:path>0000-0003-2854-0191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-01-18T04:10:14.061Z</history:submission-date>
+        <common:last-modified-date>2019-05-08T13:24:36.249Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-2854-0191/person">
+        <person:name visibility="public" path="0000-0003-2854-0191">
+            <common:created-date>2016-04-15T23:56:21.521Z</common:created-date>
+            <common:last-modified-date>2016-04-15T23:56:21.521Z</common:last-modified-date>
+            <personal-details:given-names>Yang</personal-details:given-names>
+            <personal-details:family-name>Liu</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-2854-0191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-2854-0191/researcher-urls"/>
+        <email:emails path="/0000-0003-2854-0191/email"/>
+        <address:addresses path="/0000-0003-2854-0191/address"/>
+        <keyword:keywords path="/0000-0003-2854-0191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-2854-0191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-2854-0191/activities">
+        <common:last-modified-date>2019-05-08T13:23:24.775Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-2854-0191/distinctions"/>
+        <activities:educations path="/0000-0003-2854-0191/educations"/>
+        <activities:employments path="/0000-0003-2854-0191/employments">
+            <common:last-modified-date>2019-05-08T12:45:26.883Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-05-08T12:45:26.883Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="7846100" display-index="1" path="/0000-0003-2854-0191/employment/7846100" visibility="public">
+                    <common:created-date>2019-05-08T12:45:26.883Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T12:45:26.883Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>quantaeye</common:name>
+                        <common:address>
+                            <common:city>beijing</common:city>
+                            <common:country>CN</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-2854-0191/fundings"/>
+        <activities:invited-positions path="/0000-0003-2854-0191/invited-positions"/>
+        <activities:memberships path="/0000-0003-2854-0191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-2854-0191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-2854-0191/qualifications"/>
+        <activities:research-resources path="/0000-0003-2854-0191/research-resources"/>
+        <activities:services path="/0000-0003-2854-0191/services"/>
+        <activities:works path="/0000-0003-2854-0191/works">
+            <common:last-modified-date>2019-05-08T13:23:24.775Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T12:47:42.420Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/physreva.99.042307</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physreva.99.042307</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1103/physreva.99.042307</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>arXiv:1808.04567v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1808.04567v1</common:external-id-normalized>
+                        <common:external-id-url>http://arxiv.org/abs/1808.04567v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57204944" path="/0000-0003-2854-0191/work/57204944" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T12:47:42.420Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T12:47:42.420Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Geometry and symmetry in quantum Boltzmann machine</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>arXiv:1808.04567v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1808.04567v1</common:external-id-normalized>
+                            <common:external-id-url>http://arxiv.org/abs/1808.04567v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/physreva.99.042307</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physreva.99.042307</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1103/physreva.99.042307</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>preprint</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>08</common:month>
+                        <common:day>14</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Phys. Rev. A 99, 042307 (2019)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:13:10.682Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1367-2630/18/2/023024</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1367-2630/18/2/023024</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1088/1367-2630/18/2/023024</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57205742" path="/0000-0003-2854-0191/work/57205742" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:13:10.682Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:13:10.682Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Irreducible many-body correlations in topologically ordered systems</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1367-2630/18/2/023024</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1367-2630/18/2/023024</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1088/1367-2630/18/2/023024</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1367-2630</common:external-id-value>
+                            <common:external-id-normalized transient="true">1367-2630</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1088/1367-2630/18/2/023024</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                        <common:month>02</common:month>
+                        <common:day>04</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:23:24.775Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>arxiv</common:external-id-type>
+                        <common:external-id-value>arXiv:1501.07009v1</common:external-id-value>
+                        <common:external-id-normalized transient="true">arXiv:1501.07009v1</common:external-id-normalized>
+                        <common:external-id-url>http://arxiv.org/abs/1501.07009v1</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/physreva.91.052318</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physreva.91.052318</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1103/physreva.91.052318</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57205895" path="/0000-0003-2854-0191/work/57205895" visibility="public" display-index="3">
+                    <common:created-date>2019-05-08T13:17:04.791Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:22:33.677Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quantum state transfer along a ring with time-reversal asymmetry</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/physreva.91.052318</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physreva.91.052318</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1103/physreva.91.052318</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1050-2947</common:external-id-value>
+                            <common:external-id-normalized transient="true">1050-2947</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1094-1622</common:external-id-value>
+                            <common:external-id-normalized transient="true">1094-1622</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1103/physreva.91.052318</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>05</common:month>
+                        <common:day>18</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+                <work:work-summary put-code="57206143" path="/0000-0003-2854-0191/work/57206143" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:23:24.775Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:23:24.775Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Turnplate of quantum state</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>arxiv</common:external-id-type>
+                            <common:external-id-value>arXiv:1501.07009v1</common:external-id-value>
+                            <common:external-id-normalized transient="true">arXiv:1501.07009v1</common:external-id-normalized>
+                            <common:external-id-url>http://arxiv.org/abs/1501.07009v1</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/physreva.91.052318</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physreva.91.052318</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1103/physreva.91.052318</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>preprint</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>01</common:month>
+                        <common:day>28</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Phys. Rev. A 91, 052318 (2015)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:20:53.093Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1367-2630/17/1/013032</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1367-2630/17/1/013032</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1088/1367-2630/17/1/013032</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57206002" path="/0000-0003-2854-0191/work/57206002" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:20:53.093Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:20:53.093Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Transfer of an arbitrary photon state along a cavity array without initialization</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1367-2630/17/1/013032</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1367-2630/17/1/013032</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1088/1367-2630/17/1/013032</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1367-2630</common:external-id-value>
+                            <common:external-id-normalized transient="true">1367-2630</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1088/1367-2630/17/1/013032</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>01</common:month>
+                        <common:day>20</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:15:54.270Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1103/physreva.89.062331</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1103/physreva.89.062331</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1103/physreva.89.062331</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57205799" path="/0000-0003-2854-0191/work/57205799" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:15:54.270Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:15:54.270Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optimized quantum state transfer through anXYspin chain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1103/physreva.89.062331</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1103/physreva.89.062331</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1103/physreva.89.062331</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1050-2947</common:external-id-value>
+                            <common:external-id-normalized transient="true">1050-2947</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1094-1622</common:external-id-value>
+                            <common:external-id-normalized transient="true">1094-1622</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1103/physreva.89.062331</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                        <common:month>06</common:month>
+                        <common:day>26</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:15:25.852Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1209/0295-5075/102/50003</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1209/0295-5075/102/50003</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1209/0295-5075/102/50003</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57205791" path="/0000-0003-2854-0191/work/57205791" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:15:25.852Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:15:25.852Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Optimal transfer of an unknown state via a bipartite quantum operation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1209/0295-5075/102/50003</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1209/0295-5075/102/50003</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1209/0295-5075/102/50003</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>0295-5075</common:external-id-value>
+                            <common:external-id-normalized transient="true">0295-5075</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1286-4854</common:external-id-value>
+                            <common:external-id-normalized transient="true">1286-4854</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1209/0295-5075/102/50003</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2013</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-05-08T13:20:31.464Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1140/epjd/e2012-30296-8</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1140/epjd/e2012-30296-8</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1140/epjd/e2012-30296-8</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="57205992" path="/0000-0003-2854-0191/work/57205992" visibility="public" display-index="1">
+                    <common:created-date>2019-05-08T13:20:31.464Z</common:created-date>
+                    <common:last-modified-date>2019-05-08T13:20:31.464Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2854-0191</common:uri>
+                            <common:path>0000-0003-2854-0191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Yang Liu</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Sudden switch of correlation building velocity in a strong transverse field Ising spin chain</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1140/epjd/e2012-30296-8</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1140/epjd/e2012-30296-8</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1140/epjd/e2012-30296-8</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1434-6060</common:external-id-value>
+                            <common:external-id-normalized transient="true">1434-6060</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1434-6079</common:external-id-value>
+                            <common:external-id-normalized transient="true">1434-6079</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://dx.doi.org/10.1140/epjd/e2012-30296-8</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>10</common:month>
+                    </common:publication-date>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

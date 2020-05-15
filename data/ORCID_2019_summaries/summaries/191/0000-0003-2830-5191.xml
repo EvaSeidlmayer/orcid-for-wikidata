@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-2830-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+        <common:path>0000-0003-2830-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2017-02-10T13:36:25.738Z</history:submission-date>
+        <common:last-modified-date>2019-07-11T17:32:01.452Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>false</history:verified-email>
+        <history:verified-primary-email>false</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-2830-5191/person">
+        <common:last-modified-date>2019-02-13T17:28:13.707Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0003-2830-5191">
+            <common:created-date>2017-02-10T13:36:25.956Z</common:created-date>
+            <common:last-modified-date>2017-02-10T13:36:25.956Z</common:last-modified-date>
+            <personal-details:given-names>Audrey</personal-details:given-names>
+            <personal-details:family-name>Blewer</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-2830-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-2830-5191/researcher-urls">
+            <common:last-modified-date>2019-02-13T17:28:13.707Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="1660501" visibility="public" path="/0000-0003-2830-5191/researcher-urls/1660501" display-index="0">
+                <common:created-date>2019-02-13T17:28:13.707Z</common:created-date>
+                <common:last-modified-date>2019-02-13T17:28:13.707Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0001-6478-3604</common:uri>
+                        <common:path>0000-0001-6478-3604</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Elsevier - Mendeley</common:source-name>
+                </common:source>
+                <researcher-url:url-name>Mendeley profile</researcher-url:url-name>
+                <researcher-url:url>https://www.mendeley.com/profiles/audrey-blewer/</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0003-2830-5191/email"/>
+        <address:addresses path="/0000-0003-2830-5191/address"/>
+        <keyword:keywords path="/0000-0003-2830-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-2830-5191/external-identifiers">
+            <common:last-modified-date>2017-02-10T14:13:15.904Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="645933" visibility="public" path="/0000-0003-2830-5191/external-identifiers/645933" display-index="0">
+                <common:created-date>2017-02-10T14:13:15.904Z</common:created-date>
+                <common:last-modified-date>2017-02-10T14:13:15.904Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>C-4529-2017</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/C-4529-2017</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-2830-5191/activities">
+        <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-2830-5191/distinctions"/>
+        <activities:educations path="/0000-0003-2830-5191/educations">
+            <common:last-modified-date>2017-02-10T13:39:18.474Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-10T13:39:18.474Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3166219" display-index="0" path="/0000-0003-2830-5191/education/3166219" visibility="public">
+                    <common:created-date>2017-02-10T13:39:18.474Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T13:39:18.474Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Biostatistics and Epidemiology</common:department-name>
+                    <common:role-title>Doctor of Philosophy/Epidemiology </common:role-title>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Pennsylvania</common:name>
+                        <common:address>
+                            <common:city>Philadelphia</common:city>
+                            <common:region>PA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6572</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-10T13:38:36.806Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3166213" display-index="0" path="/0000-0003-2830-5191/education/3166213" visibility="public">
+                    <common:created-date>2017-02-10T13:38:36.806Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T13:38:36.806Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <common:department-name>School of Public Health and Health Professions </common:department-name>
+                    <common:role-title>Masters in Public Health</common:role-title>
+                    <common:start-date>
+                        <common:year>2005</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2008</common:year>
+                        <common:month>08</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Florida</common:name>
+                        <common:address>
+                            <common:city>Gainesville</common:city>
+                            <common:region>FL</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>3463</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-2830-5191/employments">
+            <common:last-modified-date>2017-02-10T13:39:51.342Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-10T13:39:51.342Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3166224" display-index="0" path="/0000-0003-2830-5191/employment/3166224" visibility="public">
+                    <common:created-date>2017-02-10T13:39:51.342Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T13:39:51.342Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Emergency Medicine </common:department-name>
+                    <common:role-title>Researcher </common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>04</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>University of Pennsylvania</common:name>
+                        <common:address>
+                            <common:city>Philadelphia</common:city>
+                            <common:region>PA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6572</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-2830-5191/fundings">
+            <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="265471" path="/0000-0003-2830-5191/funding/265471" visibility="public" display-index="1">
+                    <common:created-date>2017-02-10T13:42:09.763Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Quantifying the national prevalence and associated disparities with cardiopulmonary resuscitation education </common:title>
+                    </funding:title>
+                    <common:external-ids/>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>06</common:month>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>American Heart Association</common:name>
+                        <common:address>
+                            <common:city>TX</common:city>
+                            <common:region>TX</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/100000968</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="265482" path="/0000-0003-2830-5191/funding/265482" visibility="public" display-index="1">
+                    <common:created-date>2017-02-10T13:58:21.006Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Using a virtual reality sudden cardiac arrest program to examine bystander response</common:title>
+                    </funding:title>
+                    <common:external-ids/>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>12</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Laerdal Foundation for Acute Medicine</common:name>
+                        <common:address>
+                            <common:city>Wappinger Falls, NY</common:city>
+                            <common:country>NO</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100004102</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="265486" path="/0000-0003-2830-5191/funding/265486" visibility="public" display-index="1">
+                    <common:created-date>2017-02-10T14:00:37.952Z</common:created-date>
+                    <common:last-modified-date>2017-02-10T14:13:15.933Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-2830-5191</common:uri>
+                            <common:path>0000-0003-2830-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Audrey Blewer</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Increasing nursing motivation to conduct clinical research in a pragmatic clinical trial</common:title>
+                    </funding:title>
+                    <common:external-ids/>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>12</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>06</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>ITMAT/CTSA Pilot Grant</common:name>
+                        <common:address>
+                            <common:city>Philadelphia, PA </common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000272</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0003-2830-5191/invited-positions"/>
+        <activities:memberships path="/0000-0003-2830-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-2830-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-2830-5191/qualifications"/>
+        <activities:research-resources path="/0000-0003-2830-5191/research-resources"/>
+        <activities:services path="/0000-0003-2830-5191/services"/>
+        <activities:works path="/0000-0003-2830-5191/works"/>
+    </activities:activities-summary>
+</record:record>

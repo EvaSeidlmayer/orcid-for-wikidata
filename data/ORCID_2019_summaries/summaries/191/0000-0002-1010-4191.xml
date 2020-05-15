@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1010-4191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1010-4191</common:uri>
+        <common:path>0000-0002-1010-4191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2018-04-13T06:31:55.889Z</history:submission-date>
+        <common:last-modified-date>2019-07-11T18:31:02.546Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1010-4191/person">
+        <common:last-modified-date>2019-03-08T16:34:37.453Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-1010-4191">
+            <common:created-date>2018-04-13T06:31:55.889Z</common:created-date>
+            <common:last-modified-date>2018-04-13T06:31:56.114Z</common:last-modified-date>
+            <personal-details:given-names>Dmytro</personal-details:given-names>
+            <personal-details:family-name>Vasiukov</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1010-4191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-1010-4191/researcher-urls"/>
+        <email:emails path="/0000-0002-1010-4191/email"/>
+        <address:addresses path="/0000-0002-1010-4191/address">
+            <common:last-modified-date>2018-04-13T07:31:39.044Z</common:last-modified-date>
+            <address:address put-code="945816" visibility="public" path="/0000-0002-1010-4191/address/945816" display-index="1">
+                <common:created-date>2018-04-13T07:31:39.044Z</common:created-date>
+                <common:last-modified-date>2018-04-13T07:31:39.044Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-1010-4191</common:uri>
+                        <common:path>0000-0002-1010-4191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Dmytro Vasiukov</common:source-name>
+                </common:source>
+                <address:country>FR</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0002-1010-4191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1010-4191/external-identifiers">
+            <common:last-modified-date>2019-03-08T16:34:37.453Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="1001645" visibility="public" path="/0000-0002-1010-4191/external-identifiers/1001645" display-index="0">
+                <common:created-date>2018-04-13T06:42:19.148Z</common:created-date>
+                <common:last-modified-date>2018-04-13T06:42:19.148Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>55538296900</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=55538296900&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+            <external-identifier:external-identifier put-code="1332170" visibility="public" path="/0000-0002-1010-4191/external-identifiers/1332170" display-index="0">
+                <common:created-date>2019-03-08T16:34:37.453Z</common:created-date>
+                <common:last-modified-date>2019-03-08T16:34:37.453Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0003-1377-5676</common:uri>
+                        <common:path>0000-0003-1377-5676</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>ResearcherID</common:source-name>
+                </common:source>
+                <common:external-id-type>ResearcherID</common:external-id-type>
+                <common:external-id-value>E-6579-2019</common:external-id-value>
+                <common:external-id-url>http://www.researcherid.com/rid/E-6579-2019</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1010-4191/activities">
+        <common:last-modified-date>2019-04-02T13:38:53.404Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1010-4191/distinctions"/>
+        <activities:educations path="/0000-0002-1010-4191/educations"/>
+        <activities:employments path="/0000-0002-1010-4191/employments">
+            <common:last-modified-date>2018-04-13T06:45:36.013Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-04-13T06:45:36.013Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5678853" display-index="0" path="/0000-0002-1010-4191/employment/5678853" visibility="public">
+                    <common:created-date>2018-04-13T06:45:36.013Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:45:36.013Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1010-4191</common:uri>
+                            <common:path>0000-0002-1010-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Dmytro Vasiukov</common:source-name>
+                    </common:source>
+                    <common:department-name>Department of Polymers and Composites Technology &amp; Mechanical Engineering</common:department-name>
+                    <common:start-date>
+                        <common:year>2013</common:year>
+                        <common:month>09</common:month>
+                        <common:day>17</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name> Ecole Nationale Supérieure Mines Télécom Lille Douai (IMT Lille Douai)</common:name>
+                        <common:address>
+                            <common:city>Douai</common:city>
+                            <common:country>FR</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-1010-4191/fundings"/>
+        <activities:invited-positions path="/0000-0002-1010-4191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1010-4191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1010-4191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1010-4191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1010-4191/research-resources"/>
+        <activities:services path="/0000-0002-1010-4191/services"/>
+        <activities:works path="/0000-0002-1010-4191/works">
+            <common:last-modified-date>2019-04-02T13:38:53.404Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T13:38:53.401Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85062386105</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85062386105</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>https://doi.org/10.1016/j.cma.2019.02.017</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.cma.2019.02.017</common:external-id-normalized>
+                        <common:external-id-url>https://doi.org/10.1016%2Fj.cma.2019.02.017</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="55049111" path="/0000-0002-1010-4191/work/55049111" visibility="public" display-index="1">
+                    <common:created-date>2019-03-08T16:55:45.697Z</common:created-date>
+                    <common:last-modified-date>2019-03-08T16:55:45.706Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-1010-4191</common:uri>
+                            <common:path>0000-0002-1010-4191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Dmytro Vasiukov</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A FFT solver for variational phase-field modeling of brittle fracture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>https://doi.org/10.1016/j.cma.2019.02.017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.cma.2019.02.017</common:external-id-normalized>
+                            <common:external-id-url>https://doi.org/10.1016%2Fj.cma.2019.02.017</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Computer Methods in Applied Mechanics and Engineering</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="56002317" path="/0000-0002-1010-4191/work/56002317" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T13:38:53.401Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T13:38:53.401Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A FFT solver for variational phase-field modeling of brittle fracture</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.cma.2019.02.017</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.cma.2019.02.017</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85062386105</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85062386105</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85062386105&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Computer Methods in Applied Mechanics and Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T13:38:53.391Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85047624002</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85047624002</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56002316" path="/0000-0002-1010-4191/work/56002316" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T13:38:53.391Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T13:38:53.391Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>3D textile-reinforced composites: From manufacturing to structural design</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85047624002</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85047624002</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85047624002&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>JEC Composites Magazine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2019-04-02T13:38:53.404Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1757-899X/406/1/012006</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1757-899x/406/1/012006</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85054269498</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85054269498</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="56002318" path="/0000-0002-1010-4191/work/56002318" visibility="public" display-index="0">
+                    <common:created-date>2019-04-02T13:38:53.404Z</common:created-date>
+                    <common:last-modified-date>2019-04-02T13:38:53.404Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of voids presence on mechanical properties of 3D textile composites</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1757-899X/406/1/012006</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1757-899x/406/1/012006</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85054269498</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85054269498</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85054269498&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                    </common:publication-date>
+                    <work:journal-title>IOP Conference Series: Materials Science and Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.843Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85015214826</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85015214826</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.compositesa.2017.03.009</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.compositesa.2017.03.009</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596032" path="/0000-0002-1010-4191/work/43596032" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.843Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.843Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Influence of off-axis in-plane yarns on the mechanical properties of 3D composites</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.compositesa.2017.03.009</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.compositesa.2017.03.009</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85015214826</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85015214826</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85015214826&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composites Part A: Applied Science and Manufacturing</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.864Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85026747614</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85026747614</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.compstruct.2017.07.066</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.compstruct.2017.07.066</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596036" path="/0000-0002-1010-4191/work/43596036" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.864Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.864Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Prediction of linear and non-linear behavior of 3D woven composite using mesoscopic voxel models reconstructed from X-ray micro-tomography</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.compstruct.2017.07.066</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.compstruct.2017.07.066</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85026747614</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85026747614</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85026747614&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composite Structures</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.841Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85035097747</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85035097747</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596031" path="/0000-0002-1010-4191/work/43596031" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.841Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.841Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Fatigue modelling of composite materials for industrial applications</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85035097747</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85035097747</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85035097747&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>other</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>JEC Composites Magazine</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.826Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85018545260</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85018545260</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596029" path="/0000-0002-1010-4191/work/43596029" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.826Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.826Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Multi-scale material model for 3D composite using Micro CT Images geometry reconstruction</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85018545260</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85018545260</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85018545260&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>ECCM 2016 - Proceeding of the 17th European Conference on Composite Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.838Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85013922350</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85013922350</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596030" path="/0000-0002-1010-4191/work/43596030" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.838Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.838Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Strategies and numerical implementation of fatigue life models for continuous fiber reinforced polymers</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85013922350</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85013922350</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85013922350&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2016</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Proceedings of the American Society for Composites - 31st Technical Conference, ASC 2016</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.854Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84908440005</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84908440005</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.ijfatigue.2014.10.004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.ijfatigue.2014.10.004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596035" path="/0000-0002-1010-4191/work/43596035" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.854Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.854Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Direct method for life prediction of fibre reinforced polymer composites based on kinematic of damage potential</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.ijfatigue.2014.10.004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.ijfatigue.2014.10.004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84908440005</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84908440005</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84908440005&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>International Journal of Fatigue</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T06:42:24.848Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.compstruct.2015.05.027</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.compstruct.2015.05.027</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84931275612</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84931275612</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596034" path="/0000-0002-1010-4191/work/43596034" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.848Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.848Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Non-linear material modeling of fiber-reinforced polymers based on coupled viscoelasticity-viscoplasticity with anisotropic continuous damage mechanics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.compstruct.2015.05.027</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.compstruct.2015.05.027</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84931275612</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84931275612</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84931275612&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Composite Structures</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T07:30:01.261Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1002/pamm.201410171</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1002/pamm.201410171</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43597311" path="/0000-0002-1010-4191/work/43597311" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T07:30:01.261Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T07:30:01.261Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Life Prediction of FRP Composites by a Direct Method</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1002/pamm.201410171</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1002/pamm.201410171</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1617-7061</common:external-id-value>
+                            <common:external-id-normalized transient="true">1617-7061</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2014</common:year>
+                    </common:publication-date>
+                    <work:journal-title>PAMM</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2018-04-13T07:30:16.450Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.4028/www.scientific.net/AMM.232.492</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.4028/www.scientific.net/amm.232.492</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84871571310</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84871571310</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="43596033" path="/0000-0002-1010-4191/work/43596033" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T06:42:24.846Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T06:42:24.846Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Direct computational method for life prediction of UD fibre reinforced polymers based-on plasticity-damage simulation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4028/www.scientific.net/AMM.232.492</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4028/www.scientific.net/amm.232.492</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84871571310</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84871571310</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84871571310&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>book</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Applied Mechanics and Materials</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="43597314" path="/0000-0002-1010-4191/work/43597314" visibility="public" display-index="0">
+                    <common:created-date>2018-04-13T07:30:16.450Z</common:created-date>
+                    <common:last-modified-date>2018-04-13T07:30:16.450Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Direct Computational Method for Life Prediction of UD Fibre Reinforced Polymers Based-on Plasticity-Damage Simulation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.4028/www.scientific.net/amm.232.492</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.4028/www.scientific.net/amm.232.492</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>issn</common:external-id-type>
+                            <common:external-id-value>1662-7482</common:external-id-value>
+                            <common:external-id-normalized transient="true">1662-7482</common:external-id-normalized>
+                            <common:external-id-relationship>part-of</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2012</common:year>
+                        <common:month>11</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Applied Mechanics and Materials</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

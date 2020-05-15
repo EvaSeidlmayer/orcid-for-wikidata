@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0003-3840-7191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+        <common:path>0000-0003-3840-7191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2016-12-18T02:06:45.750Z</history:submission-date>
+        <common:last-modified-date>2017-03-19T15:48:44.123Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0003-3840-7191/person">
+        <person:name visibility="public" path="0000-0003-3840-7191">
+            <common:created-date>2016-12-18T02:06:45.984Z</common:created-date>
+            <common:last-modified-date>2016-12-18T02:06:45.984Z</common:last-modified-date>
+            <personal-details:given-names>William</personal-details:given-names>
+            <personal-details:family-name>Gardner</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0003-3840-7191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0003-3840-7191/researcher-urls"/>
+        <email:emails path="/0000-0003-3840-7191/email"/>
+        <address:addresses path="/0000-0003-3840-7191/address"/>
+        <keyword:keywords path="/0000-0003-3840-7191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0003-3840-7191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0003-3840-7191/activities">
+        <common:last-modified-date>2017-02-19T22:37:28.901Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0003-3840-7191/distinctions"/>
+        <activities:educations path="/0000-0003-3840-7191/educations">
+            <common:last-modified-date>2017-02-19T22:22:16.342Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:12.559Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3236268" display-index="0" path="/0000-0003-3840-7191/education/3236268" visibility="public">
+                    <common:created-date>2017-02-19T21:36:53.816Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:12.559Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Electrical &amp; Computer Engineering</common:department-name>
+                    <common:role-title>Ph.D.</common:role-title>
+                    <common:start-date>
+                        <common:year>1969</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1972</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Massachusetts Amherst</common:name>
+                        <common:address>
+                            <common:city>Amherst</common:city>
+                            <common:region>MA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>14707</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:14.549Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3236273" display-index="0" path="/0000-0003-3840-7191/education/3236273" visibility="public">
+                    <common:created-date>2017-02-19T21:40:36.528Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:14.549Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Electrical Engineering</common:department-name>
+                    <common:role-title>Graduate  Student (part time, sponsored by Bell Telephone Laboratories)</common:role-title>
+                    <common:start-date>
+                        <common:year>1968</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1968</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Massachusetts Institute of Technology</common:name>
+                        <common:address>
+                            <common:city>Cambridge</common:city>
+                            <common:region>MA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>2167</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:15.457Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3236271" display-index="0" path="/0000-0003-3840-7191/education/3236271" visibility="public">
+                    <common:created-date>2017-02-19T21:38:27.279Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:15.457Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Electrical Engineering</common:department-name>
+                    <common:role-title>M.S.</common:role-title>
+                    <common:start-date>
+                        <common:year>1966</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1967</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Stanford University</common:name>
+                        <common:address>
+                            <common:city>Stanford</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6429</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:16.342Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="3236275" display-index="0" path="/0000-0003-3840-7191/education/3236275" visibility="public">
+                    <common:created-date>2017-02-19T21:43:15.533Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:16.342Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Electrical Engineering</common:department-name>
+                    <common:role-title>Undergraduate Student (transferred to M.S. program in University Division)</common:role-title>
+                    <common:start-date>
+                        <common:year>1964</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1966</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Stanford University</common:name>
+                        <common:address>
+                            <common:city>Stanford</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6429</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0003-3840-7191/employments">
+            <common:last-modified-date>2017-02-19T22:22:25.471Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:20.565Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3236326" display-index="0" path="/0000-0003-3840-7191/employment/3236326" visibility="public">
+                    <common:created-date>2017-02-19T22:06:28.203Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:20.565Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Signal Processing Research, Advanced Technology Center</common:department-name>
+                    <common:role-title>Research Scientist, Senior Principal </common:role-title>
+                    <common:start-date>
+                        <common:year>2011</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2013</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Lockheed Martin Space Systems</common:name>
+                        <common:address>
+                            <common:city>Sunnyvale</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>325340</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:21.299Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3236309" display-index="0" path="/0000-0003-3840-7191/employment/3236309" visibility="public">
+                    <common:created-date>2017-02-19T22:01:13.649Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:21.299Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Corporate </common:department-name>
+                    <common:role-title>Chief Executive Officer and Chief Scientist</common:role-title>
+                    <common:start-date>
+                        <common:year>1986</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Statistical Signal Processing, Inc</common:name>
+                        <common:address>
+                            <common:city>Napa</common:city>
+                            <common:region>California</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:22.074Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3236284" display-index="0" path="/0000-0003-3840-7191/employment/3236284" visibility="public">
+                    <common:created-date>2017-02-19T21:48:11.416Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:22.074Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Electrical &amp; Computer Emgineering</common:department-name>
+                    <common:role-title>Assistant Prof to Assoc Prof to Full Prof, Step VII</common:role-title>
+                    <common:start-date>
+                        <common:year>1972</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2000</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of California Davis</common:name>
+                        <common:address>
+                            <common:city>Davis</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>8789</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:22.907Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3236288" display-index="0" path="/0000-0003-3840-7191/employment/3236288" visibility="public">
+                    <common:created-date>2017-02-19T21:52:01.015Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:22.907Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Transmission Systems Lab</common:department-name>
+                    <common:role-title>Member of Technical Staff</common:role-title>
+                    <common:start-date>
+                        <common:year>1967</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1969</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Bell Telephone Laboratories</common:name>
+                        <common:address>
+                            <common:city>North Andover</common:city>
+                            <common:region>Massacusetts</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-02-19T22:22:25.471Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="3236293" display-index="0" path="/0000-0003-3840-7191/employment/3236293" visibility="public">
+                    <common:created-date>2017-02-19T21:55:59.873Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:22:25.471Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <common:department-name>Materials Science  / Electrical Engineering </common:department-name>
+                    <common:role-title>Undergraduate Research Assistant,1966)/ Graduate Research Assistant, summer 1969</common:role-title>
+                    <common:start-date>
+                        <common:year>1966</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>1969</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Stanford University</common:name>
+                        <common:address>
+                            <common:city>Stanford</common:city>
+                            <common:region>CA</common:region>
+                            <common:country>US</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6429</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0003-3840-7191/fundings">
+            <common:last-modified-date>2017-02-19T22:29:12.241Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-02-19T22:29:12.241Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>grant_number</common:external-id-type>
+                        <common:external-id-value>For Grant&amp; Contract  numbers, click on "Show Details"</common:external-id-value>
+                        <common:external-id-url>https://faculty.engineering.ucdavis.edu/gardner/research/grants/</common:external-id-url>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <funding:funding-summary put-code="268484" path="/0000-0003-3840-7191/funding/268484" visibility="public" display-index="1">
+                    <common:created-date>2017-02-19T22:20:48.597Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:29:12.241Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>Signal Theory and Algorithms (click on "Show Details")</common:title>
+                    </funding:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>grant_number</common:external-id-type>
+                            <common:external-id-value>For Grant&amp; Contract  numbers, click on "Show Details"</common:external-id-value>
+                            <common:external-id-url>https://faculty.engineering.ucdavis.edu/gardner/research/grants/</common:external-id-url>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>1980</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>For Agencies, click on "Show Details"</common:name>
+                        <common:address>
+                            <common:city>mostly Washington DC</common:city>
+                            <common:country>US</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0003-3840-7191/invited-positions"/>
+        <activities:memberships path="/0000-0003-3840-7191/memberships"/>
+        <activities:peer-reviews path="/0000-0003-3840-7191/peer-reviews"/>
+        <activities:qualifications path="/0000-0003-3840-7191/qualifications"/>
+        <activities:research-resources path="/0000-0003-3840-7191/research-resources"/>
+        <activities:services path="/0000-0003-3840-7191/services"/>
+        <activities:works path="/0000-0003-3840-7191/works">
+            <common:last-modified-date>2017-02-19T22:37:28.901Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-02-19T22:37:28.901Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="30493433" path="/0000-0003-3840-7191/work/30493433" visibility="public" display-index="1">
+                    <common:created-date>2017-02-19T22:36:24.188Z</common:created-date>
+                    <common:last-modified-date>2017-02-19T22:37:28.901Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0003-3840-7191</common:uri>
+                            <common:path>0000-0003-3840-7191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>William Gardner</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>For multiple titles, go to URL:  https://faculty.engineering.ucdavis.edu/gardner/publications/</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <common:url>https://faculty.engineering.ucdavis.edu/gardner/publications/</common:url>
+                    <work:type>journal-article</work:type>
+                    <work:journal-title>For multiple titles, go to URL:  https://faculty.engineering.ucdavis.edu/gardner/publications/</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

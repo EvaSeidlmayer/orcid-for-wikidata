@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-7021-1191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+        <common:path>0000-0002-7021-1191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2015-05-20T10:04:00.069Z</history:submission-date>
+        <common:last-modified-date>2017-06-08T23:43:07.144Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-7021-1191/person">
+        <person:name visibility="public" path="0000-0002-7021-1191">
+            <common:created-date>2016-04-15T22:57:02.968Z</common:created-date>
+            <common:last-modified-date>2016-04-15T22:57:02.968Z</common:last-modified-date>
+            <personal-details:given-names>Foteini</personal-details:given-names>
+            <personal-details:family-name>Kavvoura</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-7021-1191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0002-7021-1191/researcher-urls"/>
+        <email:emails path="/0000-0002-7021-1191/email"/>
+        <address:addresses path="/0000-0002-7021-1191/address"/>
+        <keyword:keywords path="/0000-0002-7021-1191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-7021-1191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-7021-1191/activities">
+        <common:last-modified-date>2016-09-29T07:35:35.070Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-7021-1191/distinctions"/>
+        <activities:educations path="/0000-0002-7021-1191/educations">
+            <common:last-modified-date>2016-09-29T07:35:35.070Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-29T07:33:17.879Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2340070" display-index="0" path="/0000-0002-7021-1191/education/2340070" visibility="public">
+                    <common:created-date>2016-09-29T07:33:17.879Z</common:created-date>
+                    <common:last-modified-date>2016-09-29T07:33:17.879Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+                            <common:path>0000-0002-7021-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Foteini Kavvoura</common:source-name>
+                    </common:source>
+                    <common:department-name>Oxford Centre for Diabetes, Endocrinology And Metabolism</common:department-name>
+                    <common:role-title>Specialist Training in Diabetes, Endocrinology &amp; General Internal Medicine </common:role-title>
+                    <common:start-date>
+                        <common:year>2010</common:year>
+                        <common:month>08</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>University of Oxford</common:name>
+                        <common:address>
+                            <common:city>Oxford</common:city>
+                            <common:region>Oxfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6396</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-29T07:35:35.070Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="2340075" display-index="0" path="/0000-0002-7021-1191/education/2340075" visibility="public">
+                    <common:created-date>2016-09-29T07:34:55.782Z</common:created-date>
+                    <common:last-modified-date>2016-09-29T07:35:35.070Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+                            <common:path>0000-0002-7021-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Foteini Kavvoura</common:source-name>
+                    </common:source>
+                    <common:role-title>Membership of the Royal College of Physicians</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2010</common:year>
+                        <common:month>11</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Royal College of Physicians</common:name>
+                        <common:address>
+                            <common:city>London</common:city>
+                            <common:region>London</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>4846</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0002-7021-1191/employments">
+            <common:last-modified-date>2016-09-20T19:16:42.099Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-20T19:16:42.099Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1246866" display-index="0" path="/0000-0002-7021-1191/employment/1246866" visibility="public">
+                    <common:created-date>2015-10-13T08:53:01.672Z</common:created-date>
+                    <common:last-modified-date>2016-09-20T19:16:42.099Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-4407-7742</common:uri>
+                            <common:path>0000-0002-4407-7742</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>ORCID Integration at the University of Oxford</common:source-name>
+                    </common:source>
+                    <common:department-name>RDM OCDEM</common:department-name>
+                    <common:organization>
+                        <common:name>University of Oxford</common:name>
+                        <common:address>
+                            <common:city>Oxford</common:city>
+                            <common:region>Oxfordshire</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>6396</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2016-09-20T19:15:30.970Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="2291689" display-index="0" path="/0000-0002-7021-1191/employment/2291689" visibility="public">
+                    <common:created-date>2016-09-20T19:15:30.970Z</common:created-date>
+                    <common:last-modified-date>2016-09-20T19:15:30.970Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+                            <common:path>0000-0002-7021-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Foteini Kavvoura</common:source-name>
+                    </common:source>
+                    <common:department-name>Centre for Diabetes and Endocrinology</common:department-name>
+                    <common:role-title>Consultant Physician</common:role-title>
+                    <common:start-date>
+                        <common:year>2016</common:year>
+                        <common:month>05</common:month>
+                        <common:day>23</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Royal Berkshire Hospital</common:name>
+                        <common:address>
+                            <common:city>Reading</common:city>
+                            <common:region>Reading</common:region>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>156748</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0002-7021-1191/fundings">
+            <common:last-modified-date>2015-10-13T09:00:32.948Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2015-10-13T09:00:32.948Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="117910" path="/0000-0002-7021-1191/funding/117910" visibility="public" display-index="1">
+                    <common:created-date>2015-10-13T09:00:13.277Z</common:created-date>
+                    <common:last-modified-date>2015-10-13T09:00:32.948Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+                            <common:path>0000-0002-7021-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Foteini Kavvoura</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>NIHR Clinical Lecturer in Diabetes &amp; Endocrinology</common:title>
+                    </funding:title>
+                    <funding:type>contract</funding:type>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>03</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>03</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>National Institute for Health Research</common:name>
+                        <common:address>
+                            <common:city>Leeds</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>http://dx.doi.org/10.13039/501100000272</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>FUNDREF</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2015-10-13T08:56:45.388Z</common:last-modified-date>
+                <common:external-ids/>
+                <funding:funding-summary put-code="117908" path="/0000-0002-7021-1191/funding/117908" visibility="public" display-index="0">
+                    <common:created-date>2015-10-13T08:56:45.388Z</common:created-date>
+                    <common:last-modified-date>2015-10-13T08:56:45.388Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-7021-1191</common:uri>
+                            <common:path>0000-0002-7021-1191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Foteini Kavvoura</common:source-name>
+                    </common:source>
+                    <funding:title>
+                        <common:title>OUCAGS Career Development Support for Clinical Lecturers</common:title>
+                    </funding:title>
+                    <funding:type>grant</funding:type>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>10</common:month>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2016</common:year>
+                        <common:month>04</common:month>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Oxford University Clinical Academic Graduate School</common:name>
+                        <common:address>
+                            <common:city>Oxford</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </funding:funding-summary>
+            </activities:group>
+        </activities:fundings>
+        <activities:invited-positions path="/0000-0002-7021-1191/invited-positions"/>
+        <activities:memberships path="/0000-0002-7021-1191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-7021-1191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-7021-1191/qualifications"/>
+        <activities:research-resources path="/0000-0002-7021-1191/research-resources"/>
+        <activities:services path="/0000-0002-7021-1191/services"/>
+        <activities:works path="/0000-0002-7021-1191/works"/>
+    </activities:activities-summary>
+</record:record>

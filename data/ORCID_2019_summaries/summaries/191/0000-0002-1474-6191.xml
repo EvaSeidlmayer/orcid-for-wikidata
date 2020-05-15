@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0002-1474-6191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0002-1474-6191</common:uri>
+        <common:path>0000-0002-1474-6191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2016-06-07T13:15:40.261Z</history:submission-date>
+        <common:last-modified-date>2019-04-09T13:41:07.149Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0002-1474-6191/person">
+        <common:last-modified-date>2017-08-15T08:21:40.475Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0002-1474-6191">
+            <common:created-date>2016-06-07T13:15:40.487Z</common:created-date>
+            <common:last-modified-date>2016-06-07T13:15:40.487Z</common:last-modified-date>
+            <personal-details:given-names>Ralf</personal-details:given-names>
+            <personal-details:family-name>Keidel</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0002-1474-6191/other-names">
+            <common:last-modified-date>2017-08-15T08:21:40.475Z</common:last-modified-date>
+            <other-name:other-name put-code="983848" visibility="public" path="/0000-0002-1474-6191/other-names/983848" display-index="1">
+                <common:created-date>2017-08-15T08:21:40.475Z</common:created-date>
+                <common:last-modified-date>2017-08-15T08:21:40.475Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0002-1474-6191</common:uri>
+                        <common:path>0000-0002-1474-6191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Ralf Keidel</common:source-name>
+                </common:source>
+                <other-name:content>R. Keidel</other-name:content>
+            </other-name:other-name>
+        </other-name:other-names>
+        <researcher-url:researcher-urls path="/0000-0002-1474-6191/researcher-urls"/>
+        <email:emails path="/0000-0002-1474-6191/email"/>
+        <address:addresses path="/0000-0002-1474-6191/address"/>
+        <keyword:keywords path="/0000-0002-1474-6191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0002-1474-6191/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0002-1474-6191/activities">
+        <common:last-modified-date>2017-08-15T08:27:00.661Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0002-1474-6191/distinctions"/>
+        <activities:educations path="/0000-0002-1474-6191/educations"/>
+        <activities:employments path="/0000-0002-1474-6191/employments"/>
+        <activities:fundings path="/0000-0002-1474-6191/fundings"/>
+        <activities:invited-positions path="/0000-0002-1474-6191/invited-positions"/>
+        <activities:memberships path="/0000-0002-1474-6191/memberships"/>
+        <activities:peer-reviews path="/0000-0002-1474-6191/peer-reviews"/>
+        <activities:qualifications path="/0000-0002-1474-6191/qualifications"/>
+        <activities:research-resources path="/0000-0002-1474-6191/research-resources"/>
+        <activities:services path="/0000-0002-1474-6191/services"/>
+        <activities:works path="/0000-0002-1474-6191/works">
+            <common:last-modified-date>2017-08-15T08:27:00.661Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2017-08-15T08:27:00.661Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.physletb.2017.05.060</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.physletb.2017.05.060</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="35988364" path="/0000-0002-1474-6191/work/35988364" visibility="public" display-index="0">
+                    <common:created-date>2017-08-15T08:27:00.661Z</common:created-date>
+                    <common:last-modified-date>2017-08-15T08:27:00.661Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Measurement of the production of high- p T  electrons from heavy-flavour hadron decays in Pb–Pb collisions at                                                                                                                                         s                                                                                                                NN                                                                                                                            =                            2.76                             TeV</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.physletb.2017.05.060</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.physletb.2017.05.060</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>08</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Physics Letters B</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-08-15T08:14:35.206Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1140/epjc/s10052-016-4571-1</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1140/epjc/s10052-016-4571-1</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="35988171" path="/0000-0002-1474-6191/work/35988171" visibility="public" display-index="0">
+                    <common:created-date>2017-08-15T08:14:35.206Z</common:created-date>
+                    <common:last-modified-date>2017-08-15T08:14:35.206Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Charged-particle multiplicities in proton–proton collisions at $$\sqrt{s} = 0.9$$ s = 0.9 to 8 TeV</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1140/epjc/s10052-016-4571-1</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1140/epjc/s10052-016-4571-1</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                        <common:month>01</common:month>
+                    </common:publication-date>
+                    <work:journal-title>The European Physical Journal C</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:25:42.003Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/589/1/012015</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/589/1/012015</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562839" path="/0000-0002-1474-6191/work/24562839" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:25:42.003Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:25:42.003Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Measurements of jets in ALICE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/589/1/012015</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/589/1/012015</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>03</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:25:50.535Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/589/1/012014</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/589/1/012014</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562840" path="/0000-0002-1474-6191/work/24562840" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:25:50.535Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:25:50.535Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Upgrade and physics perspective of ALICE at the LHC</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/589/1/012014</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/589/1/012014</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>03</common:month>
+                        <common:day>10</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:25:58.567Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/312/1/012004</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/312/1/012004</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562841" path="/0000-0002-1474-6191/work/24562841" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:25:58.567Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:25:58.567Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Strangeness measurements at LHC with ALICE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/312/1/012004</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/312/1/012004</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>09</common:month>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:26:25.843Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/293/1/012026</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/293/1/012026</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562847" path="/0000-0002-1474-6191/work/24562847" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:26:25.843Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:26:25.843Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>From raw data to physics results with ALICE PHOS</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/293/1/012026</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/293/1/012026</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:26:35.681Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/293/1/012046</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/293/1/012046</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562848" path="/0000-0002-1474-6191/work/24562848" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:26:35.681Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:26:35.681Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Relative pre-calibration of the ALICE electromagnetic calorimeter EMCAL</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/293/1/012046</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/293/1/012046</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2011</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:26:12.649Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/230/1/012042</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/230/1/012042</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562845" path="/0000-0002-1474-6191/work/24562845" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:26:12.649Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:26:12.649Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Quarkonia measurements with ALICE</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/230/1/012042</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/230/1/012042</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:26:04.750Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/230/1/012023</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/230/1/012023</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562844" path="/0000-0002-1474-6191/work/24562844" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:26:04.750Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:26:04.750Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The ALICE TPC: Status and perspectives</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/230/1/012023</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/230/1/012023</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2010</common:year>
+                        <common:month>06</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:26:19.402Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1088/1742-6596/160/1/012045</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1088/1742-6596/160/1/012045</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562846" path="/0000-0002-1474-6191/work/24562846" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:26:19.402Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:26:19.402Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The ALICE PHOS calorimeter</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1088/1742-6596/160/1/012045</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1088/1742-6596/160/1/012045</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2009</common:year>
+                        <common:month>04</common:month>
+                        <common:day>01</common:day>
+                    </common:publication-date>
+                    <work:journal-title>J. Phys.: Conf. Ser.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:19:25.519Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/tns.2006.874726</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/tns.2006.874726</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562797" path="/0000-0002-1474-6191/work/24562797" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:19:25.519Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:19:25.519Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The control system for the front-end electronics of the ALICE time projection chamber</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/tns.2006.874726</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/tns.2006.874726</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                        <common:month>06</common:month>
+                    </common:publication-date>
+                    <work:journal-title>IEEE Trans. Nucl. Sci.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:24:28.600Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.nima.2005.11.208</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.nima.2005.11.208</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562825" path="/0000-0002-1474-6191/work/24562825" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:24:28.600Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:24:28.600Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Front-End-Electronics Communication software for multiple detectors in the ALICE experiment</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.nima.2005.11.208</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.nima.2005.11.208</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2006</common:year>
+                        <common:month>02</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:23:45.267Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/rtc.2005.1547426</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/rtc.2005.1547426</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562819" path="/0000-0002-1474-6191/work/24562819" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:23:45.267Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:23:45.267Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>The control system for the front-end electronics of the ALICE time projection chamber</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/rtc.2005.1547426</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/rtc.2005.1547426</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <common:publication-date>
+                        <common:year>2005</common:year>
+                    </common:publication-date>
+                    <work:journal-title>14th IEEE-NPSS Real Time Conference, 2005.</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2016-06-07T13:24:39.640Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1109/icppw.2005.7</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1109/icppw.2005.7</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24562827" path="/0000-0002-1474-6191/work/24562827" visibility="public" display-index="0">
+                    <common:created-date>2016-06-07T13:24:39.640Z</common:created-date>
+                    <common:last-modified-date>2016-06-07T13:24:39.640Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0002-3054-1567</common:uri>
+                            <common:path>0000-0002-3054-1567</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref Metadata Search</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>A Distributed, Heterogeneous Control System for the ALICE TPC Electronics</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1109/icppw.2005.7</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1109/icppw.2005.7</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>conference-paper</work:type>
+                    <work:journal-title>2005 International Conference on Parallel Processing Workshops (ICPPW'05)</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

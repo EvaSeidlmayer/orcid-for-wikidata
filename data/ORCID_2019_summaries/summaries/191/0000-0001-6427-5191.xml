@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-6427-5191">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+        <common:path>0000-0001-6427-5191</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2014-11-20T07:33:44.079Z</history:submission-date>
+        <common:last-modified-date>2018-10-24T01:50:11.163Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-6427-5191/person">
+        <common:last-modified-date>2017-08-04T00:54:41.728Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-6427-5191">
+            <common:created-date>2016-04-15T21:02:16.869Z</common:created-date>
+            <common:last-modified-date>2016-04-15T21:02:16.869Z</common:last-modified-date>
+            <personal-details:given-names>Mitchell</personal-details:given-names>
+            <personal-details:family-name>Peters</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-6427-5191/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-6427-5191/researcher-urls"/>
+        <email:emails path="/0000-0001-6427-5191/email"/>
+        <address:addresses path="/0000-0001-6427-5191/address">
+            <common:last-modified-date>2017-08-04T00:54:41.728Z</common:last-modified-date>
+            <address:address put-code="756632" visibility="public" path="/0000-0001-6427-5191/address/756632" display-index="1">
+                <common:created-date>2017-08-04T00:54:41.728Z</common:created-date>
+                <common:last-modified-date>2017-08-04T00:54:41.728Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                        <common:path>0000-0001-6427-5191</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Mitchell Peters</common:source-name>
+                </common:source>
+                <address:country>AU</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-6427-5191/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-6427-5191/external-identifiers">
+            <common:last-modified-date>2017-07-28T09:43:55.742Z</common:last-modified-date>
+            <external-identifier:external-identifier put-code="769058" visibility="public" path="/0000-0001-6427-5191/external-identifiers/769058" display-index="0">
+                <common:created-date>2017-07-28T09:43:55.742Z</common:created-date>
+                <common:last-modified-date>2017-07-28T09:43:55.742Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/0000-0002-5982-8983</common:uri>
+                        <common:path>0000-0002-5982-8983</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>Scopus - Elsevier</common:source-name>
+                </common:source>
+                <common:external-id-type>Scopus Author ID</common:external-id-type>
+                <common:external-id-value>57188679617</common:external-id-value>
+                <common:external-id-url>http://www.scopus.com/inward/authorDetails.url?authorID=57188679617&amp;partnerID=MN8TOARS</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </external-identifier:external-identifier>
+        </external-identifier:external-identifiers>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-6427-5191/activities">
+        <common:last-modified-date>2018-10-24T01:50:11.166Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-6427-5191/distinctions"/>
+        <activities:educations path="/0000-0001-6427-5191/educations">
+            <common:last-modified-date>2017-08-04T00:50:41.936Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-08-04T00:50:41.936Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="1818537" display-index="0" path="/0000-0001-6427-5191/education/1818537" visibility="public">
+                    <common:created-date>2016-05-11T03:44:46.439Z</common:created-date>
+                    <common:last-modified-date>2017-08-04T00:50:41.936Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                            <common:path>0000-0001-6427-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mitchell Peters</common:source-name>
+                    </common:source>
+                    <common:role-title>Bachelor of Radiation Therapy</common:role-title>
+                    <common:start-date>
+                        <common:year>2009</common:year>
+                        <common:month>01</common:month>
+                        <common:day>28</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2011</common:year>
+                        <common:month>12</common:month>
+                        <common:day>11</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Queensland University of Technology</common:name>
+                        <common:address>
+                            <common:city>Brisbane</common:city>
+                            <common:region>QLD</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>1969</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-6427-5191/employments">
+            <common:last-modified-date>2018-01-09T02:22:49.243Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2017-12-11T05:16:40.560Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5043109" display-index="0" path="/0000-0001-6427-5191/employment/5043109" visibility="public">
+                    <common:created-date>2017-12-11T05:14:47.639Z</common:created-date>
+                    <common:last-modified-date>2017-12-11T05:16:40.560Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                            <common:path>0000-0001-6427-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mitchell Peters</common:source-name>
+                    </common:source>
+                    <common:department-name>Clinical Trials Unit</common:department-name>
+                    <common:role-title>Clinical Trial Coordinator</common:role-title>
+                    <common:start-date>
+                        <common:year>2017</common:year>
+                        <common:month>11</common:month>
+                        <common:day>06</common:day>
+                    </common:start-date>
+                    <common:organization>
+                        <common:name>Princess Alexandra Hospital</common:name>
+                        <common:address>
+                            <common:city>Woolloongabba</common:city>
+                            <common:region>QLD</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>1966</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-09T02:21:28.987Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="1818540" display-index="0" path="/0000-0001-6427-5191/employment/1818540" visibility="public">
+                    <common:created-date>2016-05-11T03:46:48.997Z</common:created-date>
+                    <common:last-modified-date>2018-01-09T02:21:28.987Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                            <common:path>0000-0001-6427-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mitchell Peters</common:source-name>
+                    </common:source>
+                    <common:department-name>Radiation Oncology Princess Alexandra - Raymond Terrace</common:department-name>
+                    <common:role-title>Radiation Therapist</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>12</common:month>
+                        <common:day>23</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2017</common:year>
+                        <common:month>11</common:month>
+                        <common:day>03</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Princess Alexandra Hospital</common:name>
+                        <common:address>
+                            <common:city>Woolloongabba</common:city>
+                            <common:region>QLD</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>1966</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+            <activities:affiliation-group>
+                <common:last-modified-date>2018-01-09T02:22:49.243Z</common:last-modified-date>
+                <common:external-ids/>
+                <employment:employment-summary put-code="5177794" display-index="0" path="/0000-0001-6427-5191/employment/5177794" visibility="public">
+                    <common:created-date>2018-01-09T02:22:49.243Z</common:created-date>
+                    <common:last-modified-date>2018-01-09T02:22:49.243Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                            <common:path>0000-0001-6427-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mitchell Peters</common:source-name>
+                    </common:source>
+                    <common:department-name>Radiation Oncology PAH Raymond Terrace</common:department-name>
+                    <common:role-title>Graduate Radiation Therapist</common:role-title>
+                    <common:start-date>
+                        <common:year>2012</common:year>
+                        <common:month>01</common:month>
+                        <common:day>09</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2012</common:year>
+                        <common:month>12</common:month>
+                        <common:day>22</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>Princess Alexandra Hospital</common:name>
+                        <common:address>
+                            <common:city>Woolloongabba</common:city>
+                            <common:region>QLD</common:region>
+                            <common:country>AU</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>1966</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </employment:employment-summary>
+            </activities:affiliation-group>
+        </activities:employments>
+        <activities:fundings path="/0000-0001-6427-5191/fundings"/>
+        <activities:invited-positions path="/0000-0001-6427-5191/invited-positions"/>
+        <activities:memberships path="/0000-0001-6427-5191/memberships"/>
+        <activities:peer-reviews path="/0000-0001-6427-5191/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-6427-5191/qualifications"/>
+        <activities:research-resources path="/0000-0001-6427-5191/research-resources"/>
+        <activities:services path="/0000-0001-6427-5191/services"/>
+        <activities:works path="/0000-0001-6427-5191/works">
+            <common:last-modified-date>2018-10-24T01:50:11.166Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2018-10-24T01:50:11.166Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="49701316" path="/0000-0001-6427-5191/work/49701316" visibility="public" display-index="1">
+                    <common:created-date>2018-10-24T01:50:11.161Z</common:created-date>
+                    <common:last-modified-date>2018-10-24T01:50:11.166Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-6427-5191</common:uri>
+                            <common:path>0000-0001-6427-5191</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Mitchell Peters</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Modification of a modulated arc total body irradiation technique: Implementation and first clinical experience for paediatric patients</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2018</common:year>
+                        <common:month>09</common:month>
+                        <common:day>19</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Medical Radiation Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-28T09:44:01.505Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-85020288281</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-85020288281</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1111/1754-9485.12583</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1111/1754-9485.12583</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="35563650" path="/0000-0001-6427-5191/work/35563650" visibility="public" display-index="0">
+                    <common:created-date>2017-07-28T09:44:01.505Z</common:created-date>
+                    <common:last-modified-date>2017-07-28T09:44:01.505Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Efficacy of flattening-filter-free beam in stereotactic body radiation therapy planning and treatment: A systematic review with meta-analysis</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1111/1754-9485.12583</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1111/1754-9485.12583</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-85020288281</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-85020288281</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-85020288281&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2017</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Medical Imaging and Radiation Oncology</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+            <activities:group>
+                <common:last-modified-date>2017-07-28T09:44:01.266Z</common:last-modified-date>
+                <common:external-ids>
+                    <common:external-id>
+                        <common:external-id-type>doi</common:external-id-type>
+                        <common:external-id-value>10.1016/j.jmir.2015.09.007</common:external-id-value>
+                        <common:external-id-normalized transient="true">10.1016/j.jmir.2015.09.007</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                    <common:external-id>
+                        <common:external-id-type>eid</common:external-id-type>
+                        <common:external-id-value>2-s2.0-84962241855</common:external-id-value>
+                        <common:external-id-normalized transient="true">2-s2.0-84962241855</common:external-id-normalized>
+                        <common:external-id-relationship>self</common:external-id-relationship>
+                    </common:external-id>
+                </common:external-ids>
+                <work:work-summary put-code="24062977" path="/0000-0001-6427-5191/work/24062977" visibility="public" display-index="0">
+                    <common:created-date>2016-05-11T03:43:20.922Z</common:created-date>
+                    <common:last-modified-date>2017-07-28T09:43:55.750Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                            <common:path>0000-0001-9884-1913</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>Crossref</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Evidence-Based Review of Total Body Irradiation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jmir.2015.09.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jmir.2015.09.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                        <common:month>12</common:month>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Medical Imaging and Radiation Sciences</work:journal-title>
+                </work:work-summary>
+                <work:work-summary put-code="35563649" path="/0000-0001-6427-5191/work/35563649" visibility="public" display-index="0">
+                    <common:created-date>2017-07-28T09:44:01.266Z</common:created-date>
+                    <common:last-modified-date>2017-07-28T09:44:01.266Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0002-5982-8983</common:uri>
+                            <common:path>0000-0002-5982-8983</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Scopus - Elsevier</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>An Evidence-Based Review of Total Body Irradiation</common:title>
+                    </work:title>
+                    <common:external-ids>
+                        <common:external-id>
+                            <common:external-id-type>doi</common:external-id-type>
+                            <common:external-id-value>10.1016/j.jmir.2015.09.007</common:external-id-value>
+                            <common:external-id-normalized transient="true">10.1016/j.jmir.2015.09.007</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                        <common:external-id>
+                            <common:external-id-type>eid</common:external-id-type>
+                            <common:external-id-value>2-s2.0-84962241855</common:external-id-value>
+                            <common:external-id-normalized transient="true">2-s2.0-84962241855</common:external-id-normalized>
+                            <common:external-id-relationship>self</common:external-id-relationship>
+                        </common:external-id>
+                    </common:external-ids>
+                    <common:url>http://www.scopus.com/inward/record.url?eid=2-s2.0-84962241855&amp;partnerID=MN8TOARS</common:url>
+                    <work:type>journal-article</work:type>
+                    <common:publication-date>
+                        <common:year>2015</common:year>
+                    </common:publication-date>
+                    <work:journal-title>Journal of Medical Imaging and Radiation Sciences</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>
