@@ -120,7 +120,7 @@ def item_exists(row, wikidata_cli_executable):
             {{ ?item rdfs:label "{name}" }} UNION
             {{ ?item skos:altLabel "{name}" .
                 SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}}
-        }}'''
+        }} }}'''
         output_fh.write(sparql_query)
         print(sparql_query)
     try:
