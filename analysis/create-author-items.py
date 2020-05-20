@@ -69,7 +69,7 @@ def create_new_item(row, wikidata_cli_executable, log_file_name):
         with open(tmp_json_file, "w") as entity_json_fh:
             entity_json_fh.write(json.dumps(entity_dict))
 
-        creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file}".split(), capture_output=True)
+        creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file} --dry".split(), capture_output=True)
         print(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
@@ -115,10 +115,11 @@ def item_exists(row, wikidata_cli_executable):
 
     with open(tmp_sparql_file, "w") as output_fh:
         sparql_query = f'''SELECT ?item WHERE {{
-            {{ ?item wdt:P31 wd:Q5 }} .
+            
             {{ ?item wdt:P496 "{orcid}" }} UNION
             {{ ?item rdfs:label "{name}" }} UNION
             {{ ?item skos:altLabel "{name}" .
+            {{ ?item wdt:P31 wd:Q5 }} .
                 SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}}
         }} }}'''
         output_fh.write(sparql_query)

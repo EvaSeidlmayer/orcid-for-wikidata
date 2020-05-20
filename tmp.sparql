@@ -1,0 +1,8 @@
+SELECT ?item WHERE {
+            
+            { ?item wdt:P496 "0000-0002-0010-1595" } UNION
+            { ?item rdfs:label "Seh Hong Lim" } UNION
+            { ?item skos:altLabel "Seh Hong Lim" .
+            { ?item wdt:P31 wd:Q5 } .
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}
+        } }
