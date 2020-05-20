@@ -76,12 +76,17 @@ def create_new_item(item, wikidata_cli_executable, log_file_name):
             entity_json_fh.write(json.dumps(item))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file} --dry".split(), capture_output=True)
         print(creation_result)
 =======
         creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file}".split(), capture_output=True)
         logging.info(creation_result)
 >>>>>>> Add option --dry
+=======
+        creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file}".split(), capture_output=True)
+        logging.info(creation_result)
+>>>>>>> 6269b9d39cfc61000d8c572dad765e7fefae98de
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
             f.write(str(result) + '\n')
