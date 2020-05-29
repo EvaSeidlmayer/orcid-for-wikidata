@@ -39,7 +39,7 @@ def main():
             if args.dry:
                 logging.info(json.dumps(item))
             else:
-                create_new_item(item, args.wikidata_cli_executable, args.log_file_name)
+                create_new_item(row, args.wikidata_cli_executable, args.log_file_name)
                 time.sleep(3)
 
 
@@ -65,7 +65,7 @@ def row_to_item(row):
         }
     }
 
-def create_new_item(item, wikidata_cli_executable, log_file_name):
+def create_new_item(row, wikidata_cli_executable, log_file_name):
 
     # create logging-file
     with open(log_file_name, 'a') as f:
@@ -87,8 +87,9 @@ def _generate_name_list(row):
     '''
     create a 'complete name' from given_name and family_name
     '''
+    name = ''
     if (not "given_name" in row.keys()) or (not "family_name" in row.keys()):
-             pass
+            pass
     else:
             given = row['given_name']
             family = row['family_name']
