@@ -29,6 +29,7 @@ def main():
     parser.add_argument("--quiet", action='store_true')
     parser.add_argument("orcid_summaries_csv")
     parser.add_argument("log_file_name")
+    parser.add_argument("date")
     args = parser.parse_args()
 
     if (args.quiet):
@@ -37,12 +38,13 @@ def main():
         logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     orcid_data = read_csv(args.orcid_summaries_csv)
+    date = args.date
 
     for _, row in orcid_data.iterrows():
         if item_exists(row, wd_url):
             continue
         else:
-            item = row_to_item(row)
+            item = row_to_item(row, date)
             if args.dry:
                 print(json.dumps(item))
             else:
@@ -51,7 +53,7 @@ def main():
 
 
 # create json_dictionary with information for uploading to wikidata
-def row_to_item(row):
+def row_to_item(row, date):
     name = _generate_name_list(row)
     #date = _generate_date_list(row)
     affiliation = row['affiliation_name']
@@ -62,10 +64,13 @@ def row_to_item(row):
         "claims": {
             "P31": "Q5", # human
             "P496": row['orcid'], # orcid
-            "P106": "Q42240", # researcher
+            "P106": "Q1650915", # occupation researcher
             "P6424": {'value': affiliation,
                        "qualifiers": {
-                        "P580": row['affiliation_year'] } 
+                        "P580": row['affiliation_year'],
+                        "P248": "Q51044",
+                        "P813": date
+                    }
                      }    # start date employment
             #"P735": row['given_name'].title(),  # given_name
             #"P734": row['family_name'].title(),  # family_name
@@ -125,7 +130,6 @@ def item_exists(row, wd_url):
     name = _generate_name_list(row)
     orcid = row['orcid']
 
-    #with open(tmp_sparql_file, "w") as output_fh:
     query = f'''SELECT ?item WHERE {{
         {{ ?item wdt:P496 "{orcid}" }} UNION
         {{ ?item rdfs:label "{name}" }} UNION
@@ -133,13 +137,12 @@ def item_exists(row, wd_url):
             ?item wdt:P31 wd:Q5 .
             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
     }} }}'''
-    #output_fh.write(query)
     logging.debug(query)
 
     wd_url.setQuery(query)
     wd_url.setReturnFormat(JSON)
     results = wd_url.query().convert()
-    print('WIKIDATA answer', results)
+    #print('WIKIDATA answer', results)
     if len(results['results']['bindings']) > 0:
         qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
         print('item exists already:',qnr)
