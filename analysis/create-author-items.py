@@ -21,7 +21,6 @@ user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlm
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 
 
-
 def main():
     parser = argparse.ArgumentParser(description=__description__)
     parser.add_argument("--wikidata_cli_executable", default="wd")
@@ -125,7 +124,6 @@ def item_exists(row, wd_url):
     name = _generate_name_list(row)
     orcid = row['orcid']
 
-    #with open(tmp_sparql_file, "w") as output_fh:
     query = f'''SELECT ?item WHERE {{
         {{ ?item wdt:P496 "{orcid}" }} UNION
         {{ ?item rdfs:label "{name}" }} UNION
@@ -133,33 +131,18 @@ def item_exists(row, wd_url):
             ?item wdt:P31 wd:Q5 .
             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
     }} }}'''
-    #output_fh.write(query)
     logging.debug(query)
 
     wd_url.setQuery(query)
     wd_url.setReturnFormat(JSON)
     results = wd_url.query().convert()
-    print('WIKIDATA answer', results)
+    logging.debug(results)
+
     if len(results['results']['bindings']) > 0:
         qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
-        print('item exists already:',qnr)
+        logging.info(f'skipping {orcid}: {qnr}')
+        return True
     else:
-        return True
-
-
-
-    '''
-    try:
-        query_result = subprocess.check_output(
-            f"{wikidata_cli_executable} sparql "
-            f"{tmp_sparql_file} -e https://query.wikidata.org/sparql".split()
-        )
-    except subprocess.CalledProcessError:
-        logging.warning("SPARQL request failed! Skipping entry...")
-        return True
-
-    # If this string is return the item is not existing
-    return "no result found by name" in str(query_result)
-    '''
+        return False
 
 main()
