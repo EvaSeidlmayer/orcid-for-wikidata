@@ -17,17 +17,21 @@ import time
 from pandas import read_csv
 import logging
 
-logging.basicConfig(format='%(message)s', level=logging.DEBUG)
-
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)
     parser.add_argument("--wikidata_cli_executable", default="wd")
     parser.add_argument("--dry", action='store_true')
+    parser.add_argument("--quiet", action='store_true')
     parser.add_argument("orcid_summaries_csv")
     parser.add_argument("log_file_name")
     args = parser.parse_args()
+
+    if (args.quiet):
+        logging.basicConfig(format='%(message)s', level=logging.WARNING)
+    else:
+        logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     orcid_data = read_csv(args.orcid_summaries_csv)
 

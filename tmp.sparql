@@ -1,6 +1,6 @@
 SELECT ?item WHERE {
-            { ?item wdt:P496 "0000-0003-4818-1595" } UNION
-            { ?item rdfs:label "Maureen Walsh" } UNION
-            { ?item skos:altLabel "Maureen Walsh" .
+            { ?item wdt:P496 "0000-0002-9076-8595" } UNION
+            { ?item rdfs:label "Thavamanithevi Subramaniam" } UNION
+            { ?item skos:altLabel "Thavamanithevi Subramaniam" .
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}
         } }
