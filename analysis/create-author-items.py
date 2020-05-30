@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __description__ = "harvesting an dimplementing ORCID information for Wikidata applying SPARQLWrapper and Wikidata-CLI"
-__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Jakob Voß <>, Konrad Foerstner <konrad@foerstner.org >"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Jakob Voß <voss@gbv.de>, Konrad Foerstner <konrad@foerstner.org>"
 __copyright__ = "2020 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
