@@ -141,12 +141,8 @@ def item_exists(row, wd_url):
     wd_url.setQuery(query)
     wd_url.setReturnFormat(JSON)
     results = wd_url.query().convert()
-<<<<<<< HEAD
-    #print('WIKIDATA answer', results)
-=======
     logging.debug(results)
 
->>>>>>> 8bfdd755e77975bbc595ef703c907fe3e626cf4a
     if len(results['results']['bindings']) > 0:
         qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
         logging.info(f'skipping {orcid}: {qnr}')
