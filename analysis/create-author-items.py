@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __description__ = "harvesting an dimplementing ORCID information for Wikidata applying SPARQLWrapper and Wikidata-CLI"
-__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Jakob Voß <>, Konrad Foerstner <konrad@foerstner.org >"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Jakob Voß <voss@gbv.de>, Konrad Foerstner <konrad@foerstner.org>"
 __copyright__ = "2020 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
@@ -19,7 +19,6 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
-
 
 
 def main():
@@ -142,27 +141,17 @@ def item_exists(row, wd_url):
     wd_url.setQuery(query)
     wd_url.setReturnFormat(JSON)
     results = wd_url.query().convert()
+<<<<<<< HEAD
     #print('WIKIDATA answer', results)
+=======
+    logging.debug(results)
+
+>>>>>>> 8bfdd755e77975bbc595ef703c907fe3e626cf4a
     if len(results['results']['bindings']) > 0:
         qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
-        print('item exists already:',qnr)
+        logging.info(f'skipping {orcid}: {qnr}')
+        return True
     else:
-        return True
-
-
-
-    '''
-    try:
-        query_result = subprocess.check_output(
-            f"{wikidata_cli_executable} sparql "
-            f"{tmp_sparql_file} -e https://query.wikidata.org/sparql".split()
-        )
-    except subprocess.CalledProcessError:
-        logging.warning("SPARQL request failed! Skipping entry...")
-        return True
-
-    # If this string is return the item is not existing
-    return "no result found by name" in str(query_result)
-    '''
+        return False
 
 main()
