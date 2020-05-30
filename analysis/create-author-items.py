@@ -10,20 +10,23 @@ __version__ = "2 - adaption for ORCID"
 
 
 import argparse
-import logging
 import json
 import subprocess
 import time
 from pandas import read_csv
 import logging
+import SPARQLWrapper
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
+wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
+
+
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)
-    parser.add_argument("--wikidata_cli_executable", default="wd")
-    parser.add_argument("--dry", action='store_true')
-    parser.add_argument("--quiet", action='store_true')
+    #parser.add_argument("--wikidata_cli_executable", default="wd")
+    #parser.add_argument("--dry", action='store_true')
+    #parser.add_argument("--quiet", action='store_true')
     parser.add_argument("orcid_summaries_csv")
     parser.add_argument("log_file_name")
     args = parser.parse_args()
@@ -36,7 +39,7 @@ def main():
     orcid_data = read_csv(args.orcid_summaries_csv)
 
     for _, row in orcid_data.iterrows():
-        if item_exists(row, args.wikidata_cli_executable):
+        if item_exists(row, wd_url, args.wikidata_cli_executable):
             continue
         else:
             item = row_to_item(row)
@@ -115,7 +118,7 @@ def _generate_date_list(row):
 
 
 
-def item_exists(row, wikidata_cli_executable):
+def item_exists(row, wd_url, wikidata_cli_executable):
     """
     Check by querying for items with a specific name, alias, or orcid.
     """
@@ -125,14 +128,21 @@ def item_exists(row, wikidata_cli_executable):
     tmp_sparql_file = "tmp.sparql"
 
     with open(tmp_sparql_file, "w") as output_fh:
-        sparql_query = f'''SELECT ?item WHERE {{
+        query = f'''SELECT ?item WHERE {{
             {{ ?item wdt:P496 "{orcid}" }} UNION
             {{ ?item rdfs:label "{name}" }} UNION
             {{ ?item skos:altLabel "{name}" .
                 SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}}
         }} }}'''
-        output_fh.write(sparql_query)
-        logging.debug(sparql_query)
+        output_fh.write(query)
+        logging.debug(query)
+
+        wd_url.setQuery(query)
+        wd_url.setReturnFormat(JSON)
+        results = wd_url.query().convert()
+        print(results)
+
+    '''
     try:
         query_result = subprocess.check_output(
             f"{wikidata_cli_executable} sparql "
@@ -144,5 +154,6 @@ def item_exists(row, wikidata_cli_executable):
 
     # If this string is return the item is not existing
     return "no result found by name" in str(query_result)
+    '''
 
 main()
