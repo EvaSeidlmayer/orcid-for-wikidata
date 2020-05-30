@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-__description__ = "adaption of wikidata CLI for ORCID data"
-__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Konrad Foerstner <konrad@foerstner.org, Jakob Voß <> >"
-__copyright__ = "2020 by Eva Seidlmayer, Konrad Foerstner and Jakob Voß"
+__description__ = "harvesting an dimplementing ORCID information for Wikidata applying SPARQLWrapper and Wikidata-CLI"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Jakob Voß <>, Konrad Foerstner <konrad@foerstner.org >"
+__copyright__ = "2020 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
-__version__ = "2 - adaption for ORCID"
+__version__ = "1 "
 
 
 import argparse
@@ -31,15 +31,15 @@ def main():
     parser.add_argument("log_file_name")
     args = parser.parse_args()
 
-    #if (args.quiet):
-     #   logging.basicConfig(format='%(message)s', level=logging.WARNING)
-    #else:
-     #   logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+    if (args.quiet):
+        logging.basicConfig(format='%(message)s', level=logging.WARNING)
+    else:
+        logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     orcid_data = read_csv(args.orcid_summaries_csv)
 
     for _, row in orcid_data.iterrows():
-        if item_exists(row, wd_url, args.wikidata_cli_executable):
+        if item_exists(row, wd_url):
             continue
         else:
             item = row_to_item(row)
@@ -118,33 +118,34 @@ def _generate_date_list(row):
 
 
 
-def item_exists(row, wd_url, wikidata_cli_executable):
+def item_exists(row, wd_url):
     """
     Check by querying for items with a specific name, alias, or orcid.
     """
-
     name = _generate_name_list(row)
     orcid = row['orcid']
-    tmp_sparql_file = "tmp.sparql"
 
-    with open(tmp_sparql_file, "w") as output_fh:
-        query = f'''SELECT ?item WHERE {{
-            {{ ?item wdt:P496 "{orcid}" }} UNION
-            {{ ?item rdfs:label "{name}" }} UNION
-            {{ ?item skos:altLabel "{name}" .
-                SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en"}}
-        }} }}'''
-        output_fh.write(query)
-        logging.debug(query)
+    #with open(tmp_sparql_file, "w") as output_fh:
+    query = f'''SELECT ?item WHERE {{
+        {{ ?item wdt:P496 "{orcid}" }} UNION
+        {{ ?item rdfs:label "{name}" }} UNION
+        {{ ?item skos:altLabel "{name}" .
+            ?item wdt:P31 wd:Q5 .
+            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+    }} }}'''
+    #output_fh.write(query)
+    logging.debug(query)
 
-        wd_url.setQuery(query)
-        wd_url.setReturnFormat(JSON)
-        results = wd_url.query().convert()
-        print('WIKIDATA answer', results)
-        if len(results['results']['bindings']) > 0:
-            print('item exists already')
-        else:
-            return True
+    wd_url.setQuery(query)
+    wd_url.setReturnFormat(JSON)
+    results = wd_url.query().convert()
+    print('WIKIDATA answer', results)
+    if len(results['results']['bindings']) > 0:
+        qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
+        print('item exists already:',qnr)
+    else:
+        return True
+
 
 
     '''
