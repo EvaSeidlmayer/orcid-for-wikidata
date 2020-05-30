@@ -15,7 +15,7 @@ import subprocess
 import time
 from pandas import read_csv
 import logging
-import SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
@@ -24,17 +24,17 @@ wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)
-    #parser.add_argument("--wikidata_cli_executable", default="wd")
-    #parser.add_argument("--dry", action='store_true')
-    #parser.add_argument("--quiet", action='store_true')
+    parser.add_argument("--wikidata_cli_executable", default="wd")
+    parser.add_argument("--dry", action='store_true')
+    parser.add_argument("--quiet", action='store_true')
     parser.add_argument("orcid_summaries_csv")
     parser.add_argument("log_file_name")
     args = parser.parse_args()
 
-    if (args.quiet):
-        logging.basicConfig(format='%(message)s', level=logging.WARNING)
-    else:
-        logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+    #if (args.quiet):
+     #   logging.basicConfig(format='%(message)s', level=logging.WARNING)
+    #else:
+     #   logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     orcid_data = read_csv(args.orcid_summaries_csv)
 
@@ -140,7 +140,12 @@ def item_exists(row, wd_url, wikidata_cli_executable):
         wd_url.setQuery(query)
         wd_url.setReturnFormat(JSON)
         results = wd_url.query().convert()
-        print(results)
+        print('WIKIDATA answer', results)
+        if len(results['results']['bindings']) > 0:
+            print('item exists already')
+        else:
+            return True
+
 
     '''
     try:
