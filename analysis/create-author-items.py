@@ -41,7 +41,7 @@ def main():
         else:
             item = row_to_item(row)
             if args.dry:
-                logging.info(json.dumps(item))
+                print(json.dumps(item))
             else:
                 create_new_item(row, args.wikidata_cli_executable, args.log_file_name)
                 time.sleep(3)
