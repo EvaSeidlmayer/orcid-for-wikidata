@@ -15,11 +15,11 @@ Scripts in this repository requiry
 
 * Python 3
 * Python libraries listed in `requirements.txt` (install with `pip3 install -r requirements.txt`)
-* [wikidata-cli]
+* [wikibase-edit]
 
 To process full ORCID dumps you also need enough disk space and some time.
 
-[wikidata-cli]: https://www.npmjs.com/package/wikidata-cli
+[wikibase-edit]: https://www.npmjs.com/package/wikibase-edit
 
 ## Usage
 
