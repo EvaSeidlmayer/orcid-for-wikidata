@@ -11,7 +11,13 @@ This work is part of the project *[Nachnutzung von strukturierten Daten aus Wiki
 
 ## Requirements
 
-Scripts in this repository requiry Python 3 and [wikidata-cli]. To process ORCID dumps you need enough disk space and some time.
+Scripts in this repository requiry 
+
+* Python 3
+* Python libraries listed in `requirements.txt` (install with `pip3 install -r requirements.txt`)
+* [wikidata-cli]
+
+To process full ORCID dumps you also need enough disk space and some time.
 
 [wikidata-cli]: https://www.npmjs.com/package/wikidata-cli
 
@@ -29,11 +35,11 @@ First **harvest author summaries** from extracted `orcid_summaries.xml` with **O
 
 An short example CSV file is given in directory `data`.
 
-Then use the author summaries to create Wikidata items for missing authors:
+Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
 
-    ./analysis/create-author-items.py orcid_summaries.csv logfile.txt
+    ./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019
 
-To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). The script calls [wikidata-cli] for write-access to Wikidata.
+To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata.
    
 ### Affiliation history
 
