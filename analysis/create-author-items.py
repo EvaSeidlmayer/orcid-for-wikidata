@@ -28,7 +28,7 @@ def main():
     parser.add_argument("--quiet", action='store_true')
     parser.add_argument("orcid_summaries_csv")
     parser.add_argument("log_file_name")
-    parser.add_argument("date")
+    parser.add_argument("year")
     args = parser.parse_args()
 
     if (args.quiet):
@@ -37,7 +37,7 @@ def main():
         logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     orcid_data = read_csv(args.orcid_summaries_csv)
-    date = args.date
+    date = args.year
 
     for _, row in orcid_data.iterrows():
         if item_exists(row, wd_url):
