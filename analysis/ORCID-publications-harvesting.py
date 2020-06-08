@@ -21,6 +21,7 @@ def maybe_map(apply_fn, maybe_list):
         return [apply_fn(item) for item in maybe_list]
     else:
         return [apply_fn(maybe_list)]
+    print('maybe_map klappt')
 
 def get_single_identifier(ext_id):
     """ Returns (type, value) tuple from a single external-id """
@@ -34,10 +35,15 @@ def get_identifiers(orcid_work):
         identifiers = []
     return defaultdict(str, identifiers)
 
-def harvest_author_paper(path):
+def harvest_author_paper(args.orcid_path):
     author_paper = []
-    with tarfile.open(path) as tf:
-        for member in tqdm(tf, desc=path):
+    parser = argparse.ArgumentParser()
+    parser.add_argument('orcid_path')
+    args = parser.parse_args()
+    tarfile_path = glob.glob(f'{args.orcid_path}/**.tar.gz')
+
+    with tarfile.open(tarfile_path) as tf:
+        for member in tqdm(tf, desc=tarfile_path):
             if not member.isfile(): continue
             m = WORKS_RE.match(member.name)
             if m:
@@ -54,11 +60,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('orcid_path')
     args = parser.parse_args()
-    tarfile_path = glob.glob(f'{args.orcid_path}/**.tar.gz')
-    print('hallo', tarfile_path)
+
+    #tarfile_path = glob.glob(f'{args.orcid_path}/**.tar.gz')
+    #print('hallo', tarfile_path)
     print('hallo2')
     author_paper = []
-    author_paper.extend(harvest_author_paper(tarfile_path))
+    author_paper.extend(harvest_author_paper(args.orcid_path))
 
     df_author_paper = pd.DataFrame(author_paper, columns=['orcid', 'pmid', 'doi'])
     df_author_paper.to_csv("authorship.csv", index=False)
