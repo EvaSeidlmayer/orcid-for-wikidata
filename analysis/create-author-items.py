@@ -88,6 +88,7 @@ def create_new_item(row, wikidata_cli_executable, log_file_name):
 
         creation_result = subprocess.run(f"{wikidata_cli_executable} create-entity ./{tmp_json_file}".split(), capture_output=True)
         logging.info(creation_result)
+        print(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
             f.write(str(result) + '\n')
