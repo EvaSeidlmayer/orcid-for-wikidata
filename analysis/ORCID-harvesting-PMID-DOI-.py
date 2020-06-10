@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __description__ = " check if PMID or DOI are already listed in Wikidata"
-__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>, Lukas Galke "
 __copyright__ = "2020 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
