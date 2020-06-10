@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+__description__ = " check if PMID or DOI are already listed in Wikidata"
+__author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>"
+__copyright__ = "2020 by Eva Seidlmayer"
+__license__ = "ISC license"
+__email__ = "seidlmayer@zbmed.de"
+__version__ = "1 "
+
+
+
 import tarfile
 import xmltodict
 import re
@@ -61,9 +73,6 @@ def main():
     parser.add_argument('orcid_path')
     args = parser.parse_args()
 
-    #tarfile_path = glob.glob(f'{args.orcid_path}/**.tar.gz')
-    #print('hallo', tarfile_path)
-    print('hallo2')
     author_paper = []
     author_paper.extend(harvest_author_paper(args.orcid_path))
 
