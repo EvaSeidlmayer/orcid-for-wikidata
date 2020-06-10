@@ -34,21 +34,34 @@ Download the ORCID database dump (see <https://orcid.org/content/orcid-public-da
 
 ### Check for existing articles in Wikidata
 
-With ORCID-PMID-DOI-harvesting.py you harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive.
+With ORCID-PMID-DOI-harvesting.py you **harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
 
-python3 analysis/ORCID-PMID-DOI-harvesting.py ../ORCID_2019_activities_1.tar.gz data/ORCID-PMID-DOI_activities-1.csv
+     ./analysis/ORCID-PMID-DOI-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-PMID-DOI_activities-1.csv
 
 ...you get a csv like this: 
+
 orcid,pmid,doi
 0000-0002-3406-2942,,10.21914/anziamj.v56i0.9343
 0000-0002-3406-2942,,10.1051/mmnp/2018047
 
 
-Afterwards we can check if those articles indicated with PMID and/or DOI are listed in Wikidata applying check-PMID-DOI-in-wd.py. Use it like this: 
-python3 analysis/check-PMID-DOI-in-wd.py data/ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
+Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
+     
+     ./analysis/check-PMID-DOI-in-wd.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
 
 Use the file you just created in the step before as input-file!
+As output-file you get information like this: 
+
+orcid,pmid,doi,qnr
+0000-0003-3891-0942,20504363,10.1186/1758-3284-2-12,Q33931069
+0000-0003-4898-3942,nan,10.1016/S0924-9338(13)76302-8,Q59191594
+
+If we check we see these Q-Nr refer to:
+"Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" (Q33931069) 
+"Executive functions, visuoconstructive ability and memory in institutionalized elderly" (Q59191594) 
+
+
 
 ### Basic author information
 
