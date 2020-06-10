@@ -7,7 +7,12 @@ This repository contains scripts to import authors with information about affili
 
 ## Background
 
-This work is part of the project *[Nachnutzung von strukturierten Daten aus Wikidata für bibliometrische Analysen](https://de.wikiversity.org/wiki/Wikiversity:Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Nachnutzung_von_strukturierten_Daten_aus_Wikidata_f%C3%BCr_bibliometrische_Analysen)*. During this project it turned out that many researchers are referenced in Wikidata by author name string ([P2093](https://www.wikidata.org/wiki/Property:P2093)) only but lack an item in Wikidata for disambiguation.
+This work is part of the project *[Nachnutzung von strukturierten Daten aus Wikidata für bibliometrische Analysen](https://de.wikiversity.org/wiki/Wikiversity:Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Nachnutzung_von_strukturierten_Daten_aus_Wikidata_f%C3%BCr_bibliometrische_Analysen)*.  
+Although we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)), most of the publications are not connected with an author item. In order to allocate researchers and articles we like to introduce information on researchers from ORCID. 
+
+As a first step we harvest articles with PMID and DOI listed in ORCID. Second, we request Wikidata Public API for existing items of articles in Wikidata. Only for already existing publications we import basic author items, if there is no item already. If there is an author item we enhanche information registered in wikidata. One of those information is the qualifier "is author of an publication" (wdt:P50) annotated with the PMID and/or DOI. By this the matching of authors and publications is fullfilled. 
+
+
 
 ## Requirements
 
@@ -26,6 +31,9 @@ To process full ORCID dumps you also need enough disk space and some time.
 ### Preparation
 
 Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019.
+
+### Check for existing articles in Wikidata
+
 
 ### Basic author information
 
