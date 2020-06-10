@@ -59,7 +59,6 @@ def harvest_author_paper(path):
     Calling get_identifiers
     """
     author_paper = []
-
     tars = glob.glob(f'{path}/**.tar.gz')
     for tar in tars:
         with tarfile.open(tar) as f:
@@ -75,7 +74,8 @@ def harvest_author_paper(path):
                         row = orcid, identifiers['pmid'], identifiers['doi']
                         print(row)
                         author_paper.append(row)
-    return author_paper
+
+        return author_paper
 
 
 def main():
