@@ -34,6 +34,21 @@ Download the ORCID database dump (see <https://orcid.org/content/orcid-public-da
 
 ### Check for existing articles in Wikidata
 
+With ORCID-PMID-DOI-harvesting.py you harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive.
+With adding the ORCID.tar.gz path as input-file and an output file:
+
+python3 analysis/ORCID-PMID-DOI-harvesting.py ../ORCID_2019_activities_1.tar.gz data/ORCID-PMID-DOI_activities-1.csv
+
+...you get a csv like this: 
+orcid,pmid,doi
+0000-0002-3406-2942,,10.21914/anziamj.v56i0.9343
+0000-0002-3406-2942,,10.1051/mmnp/2018047
+
+
+Afterwards we can check if those articles indicated with PMID and/or DOI are listed in Wikidata applying check-PMID-DOI-in-wd.py. Use it like this: 
+python3 analysis/check-PMID-DOI-in-wd.py data/ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
+
+Use the file you just created in the step before as input-file!
 
 ### Basic author information
 
