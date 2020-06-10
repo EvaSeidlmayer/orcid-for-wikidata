@@ -81,14 +81,14 @@ def harvest_author_paper(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('orcid_path')
-    parser.add_argument('output-file')
+    parser.add_argument('output_file')
     args = parser.parse_args()
     path = args.orcid_path
 
     author_paper = harvest_author_paper(path)
 
     df_author_paper = pd.DataFrame(author_paper, columns=['orcid', 'pmid', 'doi'])
-    df_author_paper.to_csv('args.output-file', index=False)
+    df_author_paper.to_csv(args.output_file, index=False)
 
 
 if __name__ == '__main__':
