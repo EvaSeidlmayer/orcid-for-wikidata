@@ -47,6 +47,7 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
 
 From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.
+From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI.
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
@@ -66,7 +67,7 @@ If we check in Wikidata we see these Q-Nrs refer to:
 
 "Executive functions, visuoconstructive ability and memory in institutionalized elderly" [Q59191594](https://www.wikidata.org/wiki/Q59191594) 
 
-**Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata.**
+**Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata. Of 2 785 993 identified publications from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
 
 
