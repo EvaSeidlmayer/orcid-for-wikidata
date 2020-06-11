@@ -62,6 +62,7 @@ As output-file you get information like this:
 
 If we check in Wikidata we see these Q-Nrs refer to:
 "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" [Q33931069](https://www.wikidata.org/wiki/Q33931069) 
+
 "Executive functions, visuoconstructive ability and memory in institutionalized elderly" [Q59191594](https://www.wikidata.org/wiki/Q59191594) 
 
 **Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata.**
