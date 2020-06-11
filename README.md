@@ -41,9 +41,10 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 ...you get a csv like this: 
 
-orcid,pmid,doi
-0000-0002-3406-2942,,10.21914/anziamj.v56i0.9343
-0000-0002-3406-2942,,10.1051/mmnp/2018047
+| orcid | pmid | doi |
+|----|:----:|----:|
+| 0000-0002-3406-2942| |10.21914/anziamj.v56i0.9343 |
+| 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
 
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
@@ -53,9 +54,10 @@ Afterwards we can **check if those articles indicated with PMID and/or DOI are l
 Use the file you just created in the step before as input-file!
 As output-file you get information like this: 
 
-orcid,pmid,doi,qnr
-0000-0003-3891-0942,20504363,10.1186/1758-3284-2-12,Q33931069
-0000-0003-4898-3942,nan,10.1016/S0924-9338(13)76302-8,Q59191594
+| orcid | pmid | doi | qnr|
+|----|:-----:|-----:|
+| 0000-0003-3891-0942 | 20504363 | 10.1186/1758-3284-2-12 | Q33931069 |
+| 0000-0003-4898-3942 | nan | 10.1016/S0924-9338(13)76302-8 | Q59191594 |
 
 If we check we see these Q-Nr refer to:
 "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" (Q33931069) 
