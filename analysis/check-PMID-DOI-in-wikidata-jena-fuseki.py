@@ -15,8 +15,9 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import csv
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
-wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
-#wd_url = SPARQLWrapper("http://134.95.56.241:3030/dataset.html?tab=query&ds=/wikidata", agent=user_agent)
+#wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
+wd_url = SPARQLWrapper("http://134.95.56.241:3030/wikidata/query", agent=user_agent)
+
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)
@@ -35,11 +36,15 @@ def main():
 
         try:
             for pmid in orcid_data.values:
-                query = f'''SELECT ?item WHERE {{
+                query = f'''
+                PREFIX wd: <http://www.wikidata.org/entity/>
+                PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
+
+                     SELECT ?item WHERE {{
                 {{ ?item wdt:P698  "{pmid[1]}" }} 
                     ?item wdt:P31 wd:Q13442814.
-                    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
-                    }}'''
+                     }}'''
                 #print(query)
                 wd_url.setQuery(query)
                 wd_url.setReturnFormat(JSON)
