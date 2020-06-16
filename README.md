@@ -63,9 +63,9 @@ As output-file you get information like this:
 
 If we check in Wikidata we see these Q-Nrs refer to:
 
-"Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" [Q33931069](https://www.wikidata.org/wiki/Q33931069) 
+[Q33931069](https://www.wikidata.org/wiki/Q33931069)  "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" 
 
-"Executive functions, visuoconstructive ability and memory in institutionalized elderly" [Q59191594](https://www.wikidata.org/wiki/Q59191594) 
+ [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
 
 **Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata. Of 2 785 993 identified publications from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
@@ -73,11 +73,19 @@ If we check in Wikidata we see these Q-Nrs refer to:
 
 ### Basic author information
 
-First **harvest author summaries** from extracted `orcid_summaries.xml` with **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
+Prepare basic information on authors for the given article-Q-Nrs. ORCID-summaries-harvesting retrieves **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
 
      ./analysis/ORCID-summaries-harvesting.py orcid_summaries.xml orcid_summaries.csv
 
-An short example CSV file is given in directory `data`.
+The result looks like this:
+| orcid | given_name | family_name | affiliation_name |  affiliation_adress | affiliation_year | affiliation_month | affiliation_day |
+|----|:---:|:---:|:---:|:---:|:---:|:---:|----:| 
+| 0000-0002-8237-0595 | CARLOS MANUEL | RECUAY CONDOR | "Islamic Azad University, Karaj"| | 2015 | 07 | 01 |
+| 0000-0001-7773-0595 | Chimezie | Festus | "Islamic Azad University , Karaj"| | 2015 | 07 | 01 |
+| 0000-0002-1894-2595 | Fereshteh | Narenji | Arak University of Medical Sciences | | 1999  | 03 | 03 |
+| 0000-0002-5633-2595 | tushar | vaidya | Università degli Studi di Cassino | | 2006 | 02 | 01 |
+
+
 
 Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
 
