@@ -60,7 +60,7 @@ class ORCIDData:
                 self.orcid = self.xmldict['record:record']['common:orcid-identifier'].get('common:path')
             except:
                 pass
-
+        ## get name
             try:
                 self.given_name = self.xmldict['record:record']['person:person']['person:name'].get('personal-details:given-names')
                 self.family_name = self.xmldict['record:record']['person:person']['person:name'].get('personal-details:family-name')
