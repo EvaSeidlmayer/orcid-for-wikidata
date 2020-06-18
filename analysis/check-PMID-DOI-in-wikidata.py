@@ -16,7 +16,6 @@ import csv
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
-#wd_url = SPARQLWrapper("http://134.95.56.241:3030/dataset.html?tab=query&ds=/wikidata", agent=user_agent)
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)
