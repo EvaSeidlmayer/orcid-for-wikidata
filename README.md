@@ -107,15 +107,15 @@ Here we get:
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
 
-'''
 
-### Basic author information
 
-Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
+<!-- ### Basic author information
 
-    ./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019
+<!--Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
 
-To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata.
+    <!--./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019
+
+<!--To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata.
    
 ### Affiliation history
 
@@ -126,15 +126,15 @@ To avoid creation of duplicates, a new item is only created if no Wikidata item 
 
 * to be continued: upload script for **enrich basic items of researchers in Wikidata with further information about affiliation, education, and other**
 
-### Publications
+<!-- ### Publications
 
-Harvest publications and matching publication items and author items in Wikidata  
+<!-- Harvest publications and matching publication items and author items in Wikidata  
 
-**Harvest publications** by using ORCID-works-harvesting.py for **ORCID of author, title and subtitle of publication, ids of publication** with args-statements for path of extracted ORCID-activities.xml and output-csv
+<!--**Harvest publications** by using ORCID-works-harvesting.py for **ORCID of author, title and subtitle of publication, ids of publication** with args-statements for path of extracted ORCID-activities.xml and output-csv
 
-      ./analysis/ORCID-works-harvesting.py orcid_activities_1.xml orcid-publications_1.csv
+    <!--  ./analysis/ORCID-works-harvesting.py orcid_activities_1.xml orcid-publications_1.csv
 
-* upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**
+<!-- * upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**
 
 ### Education information
 
