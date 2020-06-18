@@ -32,7 +32,7 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019.
 
-### Check for existing articles in Wikidata
+### Harvest publication-IDs in ORCID
 
 With ORCID-PMID-DOI-harvesting.py you **harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
@@ -48,6 +48,10 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.
 From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI.
+
+Check for existing articles in Wikidata
+
+### Check for existing publication-items in Wikidata
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
@@ -71,21 +75,41 @@ If we check in Wikidata we see these Q-Nrs refer to:
 
 
 
+### Harvest author-information in ORCID
+
+The script ORCID-author-infos-harvesting.py we harvest basic informations  as name and affiliation from ORCID_year_summaries.tar.gz archive. 
+
+     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
+     
+..this delivers:
+
+| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
+| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
+| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
+| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
+
+
+### Check for existing author-items in Wikidata
+
+Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
+
+     ./analysis/check-author-in-wikidata.py ORCID-author-infos.csv available-authors-in-wd.csv
+     
+Here we get: 
+
+| author_qnr| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
+| 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
+| Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
+| Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
+| Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
+
+
+'''
+
 ### Basic author information
-
-Prepare basic information on authors for the given article-Q-Nrs. ORCID-summaries-harvesting retrieves **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
-
-     ./analysis/ORCID-summaries-harvesting.py orcid_summaries.xml orcid_summaries.csv
-
-The result looks like this:
-| orcid | given_name | family_name | affiliation_name |  affiliation_adress | affiliation_year | affiliation_month | affiliation_day |
-|----|:---:|:---:|:---:|:---:|:---:|:---:|----:| 
-| 0000-0002-8237-0595 | CARLOS MANUEL | RECUAY CONDOR | "Islamic Azad University, Karaj"| | 2015 | 07 | 01 |
-| 0000-0001-7773-0595 | Chimezie | Festus | "Islamic Azad University , Karaj"| | 2015 | 07 | 01 |
-| 0000-0002-1894-2595 | Fereshteh | Narenji | Arak University of Medical Sciences | | 1999  | 03 | 03 |
-| 0000-0002-5633-2595 | tushar | vaidya | Università degli Studi di Cassino | | 2006 | 02 | 01 |
-
-
 
 Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
 
@@ -116,8 +140,7 @@ Harvest publications and matching publication items and author items in Wikidata
 
 Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
 
- 
-   
+'''
   
     
    
