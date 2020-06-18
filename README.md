@@ -109,14 +109,8 @@ Here we get:
 
 
 
-<!-- ### Basic author information --!>
 
-<!--Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year: --!>
 
-    <!--./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019 --!>
-
-<!--To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata. --!>
-   
 ### Affiliation history
 
 * Harvesting of affiliation information and upload to basic item in Wikidata
@@ -126,6 +120,24 @@ Here we get:
 
 * to be continued: upload script for **enrich basic items of researchers in Wikidata with further information about affiliation, education, and other**
 
+### Education information
+
+Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
+   
+## License
+
+All source code licensed under [ISC license](https://www.isc.org/downloads/software-support-policy/isc-license/)
+
+
+
+<!-- ### Basic author information --!>
+
+<!--Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year: --!>
+
+    <!--./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019 --!>
+
+<!--To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata. --!>
+   
 <!-- ### Publications --!>
 
 <!-- Harvest publications and matching publication items and author items in Wikidata  --!>
@@ -136,14 +148,3 @@ Here we get:
 
 <!-- * upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**  --!>
 
-### Education information
-
-Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
-
-'''
-  
-    
-   
-## License
-
-All source code licensed under [ISC license](https://www.isc.org/downloads/software-support-policy/isc-license/)
