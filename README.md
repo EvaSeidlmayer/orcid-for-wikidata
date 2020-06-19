@@ -30,9 +30,9 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 ### Preparation
 
-Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019.
+Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containg informations on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic informations on the researchers called _summaries_. 
 
-### Harvest publication-IDs in ORCID
+### 1. Harvest publication-IDs in ORCID
 
 With ORCID-PMID-DOI-harvesting.py you **harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
@@ -46,12 +46,11 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-3406-2942| |10.21914/anziamj.v56i0.9343 |
 | 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
 
-From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.
-From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI.
+**From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI. From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.**
 
-Check for existing articles in Wikidata
+Then check if those articles are already listed in Wikidata.
 
-### Check for existing publication-items in Wikidata
+### 2. Check for existing publication-items in Wikidata
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
@@ -71,17 +70,16 @@ If we check in Wikidata we see these Q-Nrs refer to:
 
  [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
 
-**Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata. Of 2 785 993 identified publications from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
+Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata**. The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
 
 
-### Harvest author-information in ORCID
-
-The script ORCID-author-infos-harvesting.py we harvest basic informations  as name and affiliation from ORCID_year_summaries.tar.gz archive. 
+### 3. Harvest author-information in ORCID
+In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
 
      ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
      
-..this delivers:
+..this delivers something like:
 
 | orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
 |----|:---:|:----:|:----:|:----:|:----:|----:|
@@ -89,6 +87,8 @@ The script ORCID-author-infos-harvesting.py we harvest basic informations  as na
 | 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
 | 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
 | 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
+
+**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
 
 
 ### Check for existing author-items in Wikidata
