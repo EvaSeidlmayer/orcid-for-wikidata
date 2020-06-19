@@ -91,7 +91,7 @@ In order to match the publications-items in Wikidata with their author-items we 
 **From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
 
 
-### Check for existing author-items in Wikidata
+### 4. Check for existing author-items in Wikidata
 
 Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
@@ -107,6 +107,10 @@ Here we get:
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
 
+### 5. Combining information on publications in Wikidata and authors
+
+Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
+For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.   
 
 
 
