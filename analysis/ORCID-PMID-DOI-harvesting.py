@@ -70,8 +70,8 @@ def harvest_author_paper(path):
                     xf = f.extractfile(member)
                     data = xmltodict.parse(xf.read())
                     identifiers = get_identifiers(data['work:work'])
-                    if identifiers['pmid'] or identifiers['doi']:
-                        row = orcid, identifiers['pmid'], identifiers['doi']
+                    if identifiers['pmid'] or identifiers['pmc'] or identifiers['doi'] or identifiers['wosuid'] or identifiers['eid'] or identifiers['dnb'] :
+                        row = orcid, identifiers['pmid'], identifiers['pmc'], identifiers['doi'], identifiers['wosuid'], identifiers['eid'], identifiers['dnb']
                         print(row)
                         author_paper.append(row)
 
