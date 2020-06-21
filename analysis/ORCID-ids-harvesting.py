@@ -13,8 +13,8 @@ import xmltodict
 import re
 import glob
 from collections import defaultdict
-import pandas as pd
 import argparse
+import csv
 
 
 WORKS_RE = re.compile(r".*/(.*)_works_\d*.xml")
@@ -53,42 +53,52 @@ def get_identifiers(orcid_work):
 
 
 
-def harvest_author_paper(path):
+def harvest_author_paper(path, output):
     """
     Extract ORCID-activities.tar.gz archive
     Calling get_identifiers
     """
-    author_paper = []
-    tars = glob.glob(f'{path}/**.tar.gz')
-    for tar in tars:
-        with tarfile.open(tar) as f:
+
+    with open(output, 'w') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerow(['orcid', 'pmid', 'pmc', 'doi', 'wosuid', 'eid', 'dnb'])
+
+        author_paper = []
+        with tarfile.open(path) as f:
             for member in f:
                 if not member.isfile(): continue
-                m = WORKS_RE.match(member.name)
+                m =WORKS_RE.match(member.name)
                 if m:
+                    #print(m)
                     orcid = m[1]
                     xf = f.extractfile(member)
                     data = xmltodict.parse(xf.read())
+                try:
                     identifiers = get_identifiers(data['work:work'])
                     if identifiers['pmid'] or identifiers['pmc'] or identifiers['doi'] or identifiers['wosuid'] or identifiers['eid'] or identifiers['dnb'] :
                         row = orcid, identifiers['pmid'], identifiers['pmc'], identifiers['doi'], identifiers['wosuid'], identifiers['eid'], identifiers['dnb']
                         print(row)
+                        csv_writer.writerow(row)
                         author_paper.append(row)
+                except:
+                    pass
 
-        return author_paper
 
 
 def main():
+    tarfile_path = glob.glob("*.tar.gz")
+    author_paper= []
+    for tarfile_path in tarfile_path:
+        author_paper.extend(harvest_author_paper(tarfile_path))
     parser = argparse.ArgumentParser()
     parser.add_argument('orcid_path')
     parser.add_argument('output_file')
     args = parser.parse_args()
     path = args.orcid_path
+    output = args.output_file
 
-    author_paper = harvest_author_paper(path)
+    harvest_author_paper(path, output)
 
-    df_author_paper = pd.DataFrame(author_paper, columns=['orcid', 'pmid', 'doi'])
-    df_author_paper.to_csv(args.output_file, index=False)
 
 
 if __name__ == '__main__':
