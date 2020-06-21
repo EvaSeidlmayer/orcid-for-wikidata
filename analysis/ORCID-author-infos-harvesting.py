@@ -12,11 +12,8 @@ import tarfile
 import xmltodict
 import csv
 import glob
-from collections import defaultdict
-import pandas as pd
 import argparse
-import sys
-import os
+
 
 
 def get_orcid(orcid):
@@ -54,7 +51,6 @@ def harvest_author_paper(path, output):
         csv_writer.writerow(['orcid', 'given_name', 'family_name', 'affiliation',
                              'affiliation_id', 'affiliation_id_source', 'start_date_year'])
 
-        #author_infos = []
         tars = glob.glob(f'{path}/ORCID_2019_summaries.tar.gz')
         for tar in tars:
             with tarfile.open(tar) as f:
@@ -76,9 +72,6 @@ def harvest_author_paper(path, output):
                             csv_writer.writerow(row)
                         except:
                             pass
-                    #sys.exit()
-                    #author_infos.append(row)
-            #return author_infos
 
 
 def main():
@@ -90,12 +83,6 @@ def main():
     output = args.output_file
 
     harvest_author_paper(path, output)
-    #author_infos = harvest_author_paper(path)
-
-
-    #df_author_paper = pd.DataFrame(author_infos, columns=['orcid', 'given_name', 'family_name', 'affiliation',
-     #                                                     'affiliation_id', 'affiliation_id_source', 'start_date_year'])
-    #df_author_paper.to_csv(os.path.abspath(args.output_file), index=False)
 
 
 if __name__ == '__main__':
