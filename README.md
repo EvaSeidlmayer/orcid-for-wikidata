@@ -50,6 +50,9 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 Then check if those articles are already listed in Wikidata.
 
+
+
+*******************************
 ### 2. Check for existing publication-items in Wikidata
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
@@ -74,42 +77,8 @@ Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we 
 
 
 
-### 3. Harvest author-information in ORCID
-In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
-
-     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
-     
-..this delivers something like:
-
-| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
-|----|:---:|:----:|:----:|:----:|:----:|----:|
-| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
-| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
-| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
-| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
-
-**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
-
-
-### 4. Check for existing author-items in Wikidata
-
-Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
-
-     ./analysis/check-author-in-wikidata.py ORCID-author-infos.csv available-authors-in-wd.csv
-     
-Here we get: 
-
-| author_qnr| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
-|----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
-| 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
-| Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
-| Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
-| Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
-
-**By checking PMID and DOI we identified 1 560 publications in Wikidata.**
-
-
-### 5. Combining information on publications in Wikidata and authors
+*******************************
+### 3. Combining information on publications in Wikidata and authors
 
 Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
 For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
@@ -126,6 +95,46 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
 
 
+****************
+
+### 4. Harvest author-information in ORCID
+In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
+
+     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
+     
+..this delivers something like:
+
+| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
+| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
+| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
+| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
+
+**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
+
+
+*******************
+
+### 5. Check for existing author-items in Wikidata
+
+Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
+
+     ./analysis/check-author-in-wikidata.py ORCID-author-infos.csv available-authors-in-wd.csv
+     
+Here we get: 
+
+| author_qnr| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
+| 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
+| Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
+| Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
+| Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
+
+**of 673 058 authors listed in ORCID_2019_summaries.tar.gz we detected 134 843 authors rgistered in Wikidata.
+
+
+************************
 ### Affiliation history
 
 * Harvesting of affiliation information and upload to basic item in Wikidata
