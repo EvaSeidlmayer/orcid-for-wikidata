@@ -15,9 +15,13 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import csv
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
+<<<<<<< HEAD:analysis/check-PMID-DOI-in-wikidata-jena-fuseki.py
 #wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 wd_url = SPARQLWrapper("http://134.95.56.241:3030/wikidata/query", agent=user_agent)
 
+=======
+wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
+>>>>>>> 2146f80c20e3b508f6923b46889a44a88c24cae4:analysis/check-PMID-DOI-in-wikidata.py
 
 def main():
     parser = argparse.ArgumentParser(description=__description__)

@@ -41,35 +41,51 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 ...you get a csv like this: 
 
-orcid,pmid,doi
-0000-0002-3406-2942,,10.21914/anziamj.v56i0.9343
-0000-0002-3406-2942,,10.1051/mmnp/2018047
+| orcid | pmid | doi |
+|----|:----:|----:|
+| 0000-0002-3406-2942| |10.21914/anziamj.v56i0.9343 |
+| 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
 
+From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.
+From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI.
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
      ./analysis/check-PMID-DOI-in-wd.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
 
-Use the file you just created in the step before as input-file!
+Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
 
-orcid,pmid,doi,qnr
-0000-0003-3891-0942,20504363,10.1186/1758-3284-2-12,Q33931069
-0000-0003-4898-3942,nan,10.1016/S0924-9338(13)76302-8,Q59191594
+| orcid | pmid | doi | qnr|
+|----|:-----:|:-----:|-----:|
+| 0000-0003-3891-0942 | 20504363 | 10.1186/1758-3284-2-12 | Q33931069 |
+| 0000-0003-4898-3942 | nan | 10.1016/S0924-9338(13)76302-8 | Q59191594 |
 
-If we check we see these Q-Nr refer to:
-"Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" (Q33931069) 
-"Executive functions, visuoconstructive ability and memory in institutionalized elderly" (Q59191594) 
+If we check in Wikidata we see these Q-Nrs refer to:
+
+[Q33931069](https://www.wikidata.org/wiki/Q33931069)  "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" 
+
+ [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
+
+**Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata. Of 2 785 993 identified publications from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
 
 
 ### Basic author information
 
-First **harvest author summaries** from extracted `orcid_summaries.xml` with **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
+Prepare basic information on authors for the given article-Q-Nrs. ORCID-summaries-harvesting retrieves **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
 
      ./analysis/ORCID-summaries-harvesting.py orcid_summaries.xml orcid_summaries.csv
 
-An short example CSV file is given in directory `data`.
+The result looks like this:
+| orcid | given_name | family_name | affiliation_name |  affiliation_adress | affiliation_year | affiliation_month | affiliation_day |
+|----|:---:|:---:|:---:|:---:|:---:|:---:|----:| 
+| 0000-0002-8237-0595 | CARLOS MANUEL | RECUAY CONDOR | "Islamic Azad University, Karaj"| | 2015 | 07 | 01 |
+| 0000-0001-7773-0595 | Chimezie | Festus | "Islamic Azad University , Karaj"| | 2015 | 07 | 01 |
+| 0000-0002-1894-2595 | Fereshteh | Narenji | Arak University of Medical Sciences | | 1999  | 03 | 03 |
+| 0000-0002-5633-2595 | tushar | vaidya | Università degli Studi di Cassino | | 2006 | 02 | 01 |
+
+
 
 Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
 
