@@ -30,9 +30,9 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 ### Preparation
 
-Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019.
+Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containg informations on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic informations on the researchers called _summaries_. 
 
-### Check for existing articles in Wikidata
+### 1. Harvest publication-IDs in ORCID
 
 With ORCID-PMID-DOI-harvesting.py you **harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
@@ -46,8 +46,11 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-3406-2942| |10.21914/anziamj.v56i0.9343 |
 | 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
 
-From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.
-From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI.
+**From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI. From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.**
+
+Then check if those articles are already listed in Wikidata.
+
+### 2. Check for existing publication-items in Wikidata
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
@@ -67,32 +70,51 @@ If we check in Wikidata we see these Q-Nrs refer to:
 
  [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
 
-**Of 2 742 008 publications identified with PMID and DOI from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata. Of 2 785 993 identified publications from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
+Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata**. The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
 
 
-### Basic author information
+### 3. Harvest author-information in ORCID
+In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
 
-Prepare basic information on authors for the given article-Q-Nrs. ORCID-summaries-harvesting retrieves **ORCID, given name, family name, current affiliation (including its start date)** written as CSV:
+     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
+     
+..this delivers something like:
 
-     ./analysis/ORCID-summaries-harvesting.py orcid_summaries.xml orcid_summaries.csv
+| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
+| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
+| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
+| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
 
-The result looks like this:
-| orcid | given_name | family_name | affiliation_name |  affiliation_adress | affiliation_year | affiliation_month | affiliation_day |
-|----|:---:|:---:|:---:|:---:|:---:|:---:|----:| 
-| 0000-0002-8237-0595 | CARLOS MANUEL | RECUAY CONDOR | "Islamic Azad University, Karaj"| | 2015 | 07 | 01 |
-| 0000-0001-7773-0595 | Chimezie | Festus | "Islamic Azad University , Karaj"| | 2015 | 07 | 01 |
-| 0000-0002-1894-2595 | Fereshteh | Narenji | Arak University of Medical Sciences | | 1999  | 03 | 03 |
-| 0000-0002-5633-2595 | tushar | vaidya | Università degli Studi di Cassino | | 2006 | 02 | 01 |
-
+**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
 
 
-Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year:
+### 4. Check for existing author-items in Wikidata
 
-    ./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019
+Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
-To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata.
-   
+     ./analysis/check-author-in-wikidata.py ORCID-author-infos.csv available-authors-in-wd.csv
+     
+Here we get: 
+
+| author_qnr| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
+| 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
+| Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
+| Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
+| Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
+
+
+### 5. Combining information on publications in Wikidata and authors
+
+Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
+For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.   
+
+
+
+
 ### Affiliation history
 
 * Harvesting of affiliation information and upload to basic item in Wikidata
@@ -102,25 +124,31 @@ To avoid creation of duplicates, a new item is only created if no Wikidata item 
 
 * to be continued: upload script for **enrich basic items of researchers in Wikidata with further information about affiliation, education, and other**
 
-### Publications
-
-Harvest publications and matching publication items and author items in Wikidata  
-
-**Harvest publications** by using ORCID-works-harvesting.py for **ORCID of author, title and subtitle of publication, ids of publication** with args-statements for path of extracted ORCID-activities.xml and output-csv
-
-      ./analysis/ORCID-works-harvesting.py orcid_activities_1.xml orcid-publications_1.csv
-
-* upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**
-
 ### Education information
 
 Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
-
- 
-   
-  
-    
    
 ## License
 
 All source code licensed under [ISC license](https://www.isc.org/downloads/software-support-policy/isc-license/)
+
+
+
+<!-- ### Basic author information --!>
+
+<!--Then use the author summaries to create Wikidata items for missing authors, based on an ORCID dump of given year: --!>
+
+    <!--./analysis/create-author-items.py orcid_summaries.csv logfile.txt 2019 --!>
+
+<!--To avoid creation of duplicates, a new item is only created if no Wikidata item of a person (Q5) exists with the same ORCID identifier or with the same (as label or alias). Add option `--dry` to never add new items and in addition option `--quiet` to only emit what would be added to Wikidata. Otherwise the script calls [wikidata-cli] for write-access to Wikidata. --!>
+   
+<!-- ### Publications --!>
+
+<!-- Harvest publications and matching publication items and author items in Wikidata  --!>
+
+<!--**Harvest publications** by using ORCID-works-harvesting.py for **ORCID of author, title and subtitle of publication, ids of publication** with args-statements for path of extracted ORCID-activities.xml and output-csv --!>
+
+    <!--  ./analysis/ORCID-works-harvesting.py orcid_activities_1.xml orcid-publications_1.csv  --!>
+
+<!-- * upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**  --!>
+
