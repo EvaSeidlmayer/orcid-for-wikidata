@@ -50,11 +50,14 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 Then check if those articles are already listed in Wikidata.
 
+
+
+*******************************
 ### 2. Check for existing publication-items in Wikidata
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
-     ./analysis/check-PMID-DOI-in-wd.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
+     ./analysis/check-PMID-DOI-in-wikidata.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
 
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
@@ -74,7 +77,27 @@ Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we 
 
 
 
-### 3. Harvest author-information in ORCID
+*******************************
+### 3. Combining information on publications in Wikidata and authors
+
+Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
+For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
+
+     ./analysis/check-authors-of-available-articles.py available-articles-in-wd.csv available-articles-available-authors.csv
+
+| orcid_origin | pmid | doi | article_qnr | all_authors_qnr |
+|----|:---:|:----:|:----:|----:|
+| 0000-0001-8724-3942 | 20530968.0 | 10.1159/000315458 | Q33597585 | "['Q42798270', 'Q43055649', 'Q43055657', 'Q64764410'] |
+| 0000-0001-8724-3942 | 19258708.0 | 10.1159/000206635 | Q43481032 | "['Q37828665', 'Q41111247', 'Q42798270', 'Q43055649', 'Q53203014', 'Q64495393']" |
+| 0000-0001-8724-3942 | 23435897.0 | 10.1128/AEM.03207-12 | Q39761768 | "['Q16733372', 'Q42798270']" |
+| 0000-0001-8724-3942 | 16415592.0 | 10.1159/000089647 | Q36369661 | "['Q42798270', 'Q43055649']" |
+
+
+
+
+****************
+
+### 4. Harvest author-information in ORCID
 In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
 
      ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
@@ -91,7 +114,9 @@ In order to match the publications-items in Wikidata with their author-items we 
 **From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
 
 
-### 4. Check for existing author-items in Wikidata
+*******************
+
+### 5. Check for existing author-items in Wikidata
 
 Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
@@ -106,15 +131,10 @@ Here we get:
 | Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
-
-### 5. Combining information on publications in Wikidata and authors
-
-Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
-For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.   
+**of 673 058 authors listed in ORCID_2019_summaries.tar.gz we detected 134 843 authors rgistered in Wikidata.
 
 
-
-
+************************
 ### Affiliation history
 
 * Harvesting of affiliation information and upload to basic item in Wikidata
