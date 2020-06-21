@@ -54,7 +54,7 @@ Then check if those articles are already listed in Wikidata.
 
 Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
      
-     ./analysis/check-PMID-DOI-in-wd.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
+     ./analysis/check-PMID-DOI-in-wikidata.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
 
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
@@ -106,11 +106,22 @@ Here we get:
 | Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
+**By checking PMID and DOI we identified 1 560 publications in Wikidata.**
+
 
 ### 5. Combining information on publications in Wikidata and authors
 
 Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
-For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.   
+For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
+
+     ./analysis/check-authors-of-available-articles.py available-articles-in-wd.csv available-articles-available-authors.csv
+
+| orcid_origin | pmid | doi | article_qnr | all_authors_qnr |
+|----|:---:|:----:|:----:|----:|
+| 0000-0001-8724-3942 | 20530968.0 | 10.1159/000315458 | Q33597585 | "['Q42798270', 'Q43055649', 'Q43055657', 'Q64764410'] |
+| 0000-0001-8724-3942 | 19258708.0 | 10.1159/000206635 | Q43481032 | "['Q37828665', 'Q41111247', 'Q42798270', 'Q43055649', 'Q53203014', 'Q64495393']" |
+| 0000-0001-8724-3942 | 23435897.0 | 10.1128/AEM.03207-12 | Q39761768 | "['Q16733372', 'Q42798270']" |
+| 0000-0001-8724-3942 | 16415592.0 | 10.1159/000089647 | Q36369661 | "['Q42798270', 'Q43055649']" |
 
 
 
