@@ -34,21 +34,23 @@ Download the ORCID database dump (see <https://orcid.org/content/orcid-public-da
 
 ### 1. Harvest publication-IDs in ORCID
 
-With ORCID-PMID-DOI-harvesting.py you **harvest PMID, DOI and author ORCID from the ORCID.tar.gz archive**.
+With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
 
-     ./analysis/ORCID-PMID-DOI-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-PMID-DOI_activities-1.csv
+     ./analysis/ORCID-ids-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-PMID-DOI_activities-1.csv
 
 ...you get a csv like this: 
 
-| orcid | pmid | doi |
-|----|:----:|----:|
-| 0000-0002-3406-2942| |10.21914/anziamj.v56i0.9343 |
-| 0000-0002-3406-2942 | |10.1051/mmnp/2018047 |
+| orcid | pmid | pmc | doi | wosuid | eid | dnb |
+|----|:----:|:----:|:----:|:----:|:----:|----:|
+| 0000-0003-2760-1191 | | | 10.1111/j.1540-8175.2010.01316.x | | 2-s2.0-79952755968 | |
+| 0000-0001-9154-8191 | 26093915 | PMC4491368 | 10.1007/s10482-015-0502-7 | | | |
+| 0000-0002-8639-5191 | |  | 10.1111/J.1747-4949.2007.00119.X | WOS:000247202000017 | | |
 
-**From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI. From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.**
 
-Then check if those articles are already listed in Wikidata.
+**From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
+
+Then we check if those articles are already listed in Wikidata.
 
 
 
