@@ -64,18 +64,18 @@ Afterwards we can **check if those articles indicated with PMID and/or DOI are l
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
 
-| orcid | pmid | pmc | doi | wosuid | eid | dnb | article-qnr|
-|----|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
+| orcid | pmid | pmc | doi | eid | dnb | article-qnr|
+|----|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
 | 0000-0002-7499-1391 | 17147832 | nan | 10.1186/1471-2458-6-293 | 000242933800001 | 2-s2.0-33845506869 | Q33265524 |
 | 0000-0002-7499-1391 | 8478144 | nan | nan | nan | 2-s2.0-0027309495 | Q70670731 |
 | 0000-0002-2255-0391 | 28583742 | PMC5478201 | 10.1016/j.ebiom.2017.04.029 | nan | nan | Q29571127 |
 
 
 If we check in Wikidata we see these Q-Nrs refer to:
+ [Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
+ 
+[Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
-[Q33931069](https://www.wikidata.org/wiki/Q33931069)  "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" 
-
- [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
 
 Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata**. The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
