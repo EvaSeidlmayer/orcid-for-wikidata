@@ -64,10 +64,12 @@ Afterwards we can **check if those articles indicated with PMID and/or DOI are l
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
 
-| orcid | pmid | doi | qnr|
-|----|:-----:|:-----:|-----:|
-| 0000-0003-3891-0942 | 20504363 | 10.1186/1758-3284-2-12 | Q33931069 |
-| 0000-0003-4898-3942 | nan | 10.1016/S0924-9338(13)76302-8 | Q59191594 |
+| orcid | pmid | pmc | doi | wosuid | eid | dnb | article-qnr|
+|----|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
+| 0000-0002-7499-1391 | 17147832 | nan | 10.1186/1471-2458-6-293 | 000242933800001 | 2-s2.0-33845506869 | Q33265524 |
+| 0000-0002-7499-1391 | 8478144 | nan | nan | nan | 2-s2.0-0027309495 | Q70670731 |
+| 0000-0002-2255-0391 | 28583742 | PMC5478201 | 10.1016/j.ebiom.2017.04.029 | nan | nan | Q29571127 |
+
 
 If we check in Wikidata we see these Q-Nrs refer to:
 
