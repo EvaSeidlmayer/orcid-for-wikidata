@@ -48,9 +48,9 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-8639-5191 | |  | 10.1111/J.1747-4949.2007.00119.X | WOS:000247202000017 | | |
 
 
-**From ORCID_2019_activites_1.tar.gz we retrieved 2 785 993 publications indicated by PMID and DOI. From ORCID_2019_activites_2.tar.gz we retrieved 2 742 008 publications indicated by PMID and DOI.**
+**From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
 
-Then check if those articles are already listed in Wikidata.
+Then we check if those articles are already listed in Wikidata.
 
 
 
