@@ -72,7 +72,8 @@ As output-file you get information like this:
 
 
 If we check in Wikidata we see these Q-Nrs refer to:
- [Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
+
+[Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
  
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
@@ -82,7 +83,7 @@ Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we 
 
 
 *******************************
-### 3. Combining information on publications in Wikidata and authors
+### 3. Check for existing author items of publications in Wikidata 
 
 Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
 For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
