@@ -37,7 +37,7 @@ Download the ORCID database dump (see <https://orcid.org/content/orcid-public-da
 With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and author ORCID from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
 
-     ./analysis/ORCID-ids-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-PMID-DOI_activities-1.csv
+     ./analysis/ORCID-ids-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-ids_1.csv
 
 ...you get a csv like this: 
 
@@ -57,35 +57,39 @@ Then we check if those articles are already listed in Wikidata.
 *******************************
 ### 2. Check for existing publication-items in Wikidata
 
-Afterwards we can **check if those articles indicated with PMID and/or DOI are listed in Wikidata** applying check-PMID-DOI-in-wd.py. Use it like this: 
+Afterwards we can **check if those articles indicated with PMID, PMC, DOI, Scopus ID (eid) and/or DNB are listed in Wikidata** applying check-ids-in-wd.py. Use it like this: 
      
-     ./analysis/check-PMID-DOI-in-wikidata.py ORCID-PMID-DOI_activities-1.csv available-articles-in-wd-1.csv 
+     ./analysis/check-ids-in-wikidata.py ORCID-ids_1.csv available-articles-in-wd_1.csv 
 
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
 
-| orcid | pmid | doi | qnr|
-|----|:-----:|:-----:|-----:|
-| 0000-0003-3891-0942 | 20504363 | 10.1186/1758-3284-2-12 | Q33931069 |
-| 0000-0003-4898-3942 | nan | 10.1016/S0924-9338(13)76302-8 | Q59191594 |
+| orcid | pmid | pmc | doi | eid | dnb | article-qnr|
+|----|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
+| 0000-0002-7499-1391 | 17147832 | nan | 10.1186/1471-2458-6-293 | 000242933800001 | 2-s2.0-33845506869 | Q33265524 |
+| 0000-0002-7499-1391 | 8478144 | nan | nan | nan | 2-s2.0-0027309495 | Q70670731 |
+| 0000-0002-2255-0391 | 28583742 | PMC5478201 | 10.1016/j.ebiom.2017.04.029 | nan | nan | Q29571127 |
+
+The Web of Science-ID wosuid is not supported by Wikidata and can not be used for retrieval. 
 
 If we check in Wikidata we see these Q-Nrs refer to:
 
-[Q33931069](https://www.wikidata.org/wiki/Q33931069)  "Sustained response of carcinoma ex pleomorphic adenoma treated with trastuzumab and capecitabine" 
+[Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
+ 
+[Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
- [Q59191594](https://www.wikidata.org/wiki/Q59191594)  "Executive functions, visuoconstructive ability and memory in institutionalized elderly"
 
 Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata**. The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
 
 
 
 *******************************
-### 3. Combining information on publications in Wikidata and authors
+### 3. Check for existing author items of publications in Wikidata 
 
 Take the file we produced in step 2. containig all the publications listed in wikidata indicated by an existing Q-Nr. 
 For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
 
-     ./analysis/check-authors-of-available-articles.py available-articles-in-wd.csv available-articles-available-authors.csv
+     ./analysis/check-authors-of-available-articles.py available-articles-in-wd_1.csv available-articles-available-authors_1.csv
 
 | orcid_origin | pmid | doi | article_qnr | all_authors_qnr |
 |----|:---:|:----:|:----:|----:|
@@ -134,6 +138,17 @@ Here we get:
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
 **of 673 058 authors listed in ORCID_2019_summaries.tar.gz we detected 134 843 authors rgistered in Wikidata.
+
+
+
+******************************
+### 6. Create author-items for not existing authors of publications listed in Wikidata
+
+In order to pepare for matching publication-items and author-items in the following we create the author-items in Wikidata that are not existing yet. 
+
+
+
+
 
 
 ************************
