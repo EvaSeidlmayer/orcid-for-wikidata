@@ -138,6 +138,9 @@ def main():
                                                                                             infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
                                                                                             print('infos', infos)
                                                                                             csv_writer.writerow(infos)
+                                                                                            
+                                                                                    else:
+                                                                                        continue
                                                                         except:
                                                                             pass
                                                         except:
