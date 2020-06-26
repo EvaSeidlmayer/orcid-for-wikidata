@@ -21,7 +21,7 @@ wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 def main():
     parser = argparse.ArgumentParser(description=__description__)
     parser.add_argument("input_file_name")
-    parser.add_argument("log_file_name")
+    parser.add_argument("output_file_name")
     args = parser.parse_args()
 
 
@@ -30,7 +30,7 @@ def main():
     orcid_data = orcid_data.fillna(0)
     print(orcid_data)
 
-    with open(args.log_file_name, 'w') as csvfile:
+    with open(args.output_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['orcid','pmid','pmc','doi','wosuid','eid','dnb', 'article-qnr'])
 
@@ -126,7 +126,7 @@ def main():
                                                                                         {{ ?item wdt:P1292 "{id[6]}"}}.
                                                                                     SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
                                                                                     }}'''
-                                                                                    time.sleep(3)
+                                                                                    time.sleep(1)
                                                                                     print(query)
                                                                                     wd_url.setQuery(query)
                                                                                     wd_url.setReturnFormat(JSON)
