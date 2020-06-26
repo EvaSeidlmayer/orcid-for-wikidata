@@ -63,8 +63,8 @@ def main():
             try:
                 #doi
                 for id in csv_reader:
-                    if id[3]  != 0:
-                        print("id[3]", id[3])
+                    if id[3]:
+                        print("doi:", id[3])
                         query = f'''SELECT ?item WHERE {{
                             {{ ?item wdt:P356 "{id[3]}" }}.
                             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
@@ -75,8 +75,8 @@ def main():
 
 
                     #pmid
-                    if id[1] != 0:
-                        print(id[1])
+                    if id[1]:
+                        print("pmid:", id[1])
                         query = f'''SELECT ?item WHERE {{
                             {{ ?item wdt:P698  "{id[1]}" }} 
                             ?item wdt:P31 wd:Q13442814.
@@ -87,9 +87,8 @@ def main():
                             csv_writer.writerow(infos)
 
 
-                    if id[2] != 0:
-                        print(id[2])
-                        print('PMC')
+                    if id[2]:
+                        print("PMC:", id[2])
                         PMC = id[2][3:]
                         query = f'''SELECT ?item WHERE {{
                                 {{ ?item wdt:P932  "{PMC}" }} .
@@ -99,8 +98,8 @@ def main():
                         if infos:
                             csv_writer.writerow(infos)
 
-                    if id[5] != 0:
-                        print(id[5])
+                    if id[5]:
+                        print("scopus:", id[5])
                         query = f'''SELECT ?item WHERE {{
                                     {{ ?item wdt:P1154 "{id[5]}"}}.
                                 SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
@@ -109,8 +108,8 @@ def main():
                         if infos:
                             csv_writer.writerow(infos)
 
-                    if id[6] != 0:
-                        print(id[6])
+                    if id[6]:
+                        print("DNB:", id[6])
                         query = f'''SELECT ?item WHERE {{
                             {{ ?item wdt:P1292 "{id[6]}"}}.
                         SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
