@@ -20,18 +20,19 @@ wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 
 
 def get_result(query, id):
-    wd_url.setQuery(query)
-    print(query)
-    wd_url.setReturnFormat(JSON)
-    results = wd_url.query().convert()
-    print('result:', results)
     infos = None
-    if (len(results['results']['bindings'])) > 0:
-        for res in results['results']['bindings']:
-            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-            # print(article_qnr)
-            infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
-            print('infos', infos)
+    if id:
+        wd_url.setQuery(query)
+        print(query)
+        wd_url.setReturnFormat(JSON)
+        results = wd_url.query().convert()
+        print('result:', results)
+        if (len(results['results']['bindings'])) > 0:
+            for res in results['results']['bindings']:
+                article_qnr = res['item']['value'].rsplit('/', 1)[1]
+                # print(article_qnr)
+                infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
+                print('infos', infos)
     return infos
 
 
@@ -46,23 +47,15 @@ def main():
     parser.add_argument("output_file_name")
     args = parser.parse_args()
 
-
-    '''
-    orcid_data = open(args.input_file_name)
-    orcid_data.to_dict()
-    orcid_data = orcid_data.fillna(0)
-    print(orcid_data)
-    '''
     with open(args.output_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qnr'])
 
         with open(args.input_file_name) as csvfile:
             csv_reader = csv.reader(csvfile)
-            print(csv_reader)
+
 
             try:
-                #doi
                 for id in csv_reader:
                     if id[3]:
                         print("doi:", id[3])
@@ -75,7 +68,6 @@ def main():
                             csv_writer.writerow(infos)
 
 
-                    #pmid
                     if id[1]:
                         print("pmid:", id[1])
                         query = f'''SELECT ?item WHERE {{
@@ -86,7 +78,6 @@ def main():
                         infos = get_result(query, id)
                         if infos:
                             csv_writer.writerow(infos)
-
 
                     if id[2]:
                         print("PMC:", id[2])
