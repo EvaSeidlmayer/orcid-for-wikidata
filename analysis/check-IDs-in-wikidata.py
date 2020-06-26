@@ -18,6 +18,28 @@ import time
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
 
+
+def get_result(query, id):
+    wd_url.setQuery(query)
+    print(query)
+    wd_url.setReturnFormat(JSON)
+    results = wd_url.query().convert()
+    print('result:', results)
+    infos = None
+    if (len(results['results']['bindings'])) > 0:
+        for res in results['results']['bindings']:
+            article_qnr = res['item']['value'].rsplit('/', 1)[1]
+            # print(article_qnr)
+            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
+            print('infos', infos)
+    return infos
+
+
+#def print_infos():
+
+
+
+
 def main():
     parser = argparse.ArgumentParser(description=__description__)
     parser.add_argument("input_file_name")
@@ -25,129 +47,81 @@ def main():
     args = parser.parse_args()
 
 
-    orcid_data = pd.read_csv(args.input_file_name)
+    '''
+    orcid_data = open(args.input_file_name)
     orcid_data.to_dict()
     orcid_data = orcid_data.fillna(0)
     print(orcid_data)
-
+    '''
     with open(args.output_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['orcid','pmid','pmc','doi','wosuid','eid','dnb', 'article-qnr'])
+        csv_writer.writerow(['orcid','pmid','pmc','doi','eid','dnb', 'article-qnr'])
 
-        try:
-            for id in orcid_data.values:
-                print("id[3]", id[3])
-                if id[3]  != 0:
-                    query = f'''SELECT ?item WHERE {{
-                        {{ ?item wdt:P356 "{id[3]}" }}.
+        with open(args.input_file_name) as csvfile:
+            csv_reader = csv.reader(csvfile)
+
+            try:
+                #doi
+                for id in csv_reader:
+                    if id[3]  != 0:
+                        print("id[3]", id[3])
+                        query = f'''SELECT ?item WHERE {{
+                            {{ ?item wdt:P356 "{id[3]}" }}.
+                            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+                            }}'''
+                        infos = get_result(query, id)
+                        if infos:
+                            csv_writer.writerow(infos)
+
+
+                    #pmid
+                    if id[1] != 0:
+                        print(id[1])
+                        query = f'''SELECT ?item WHERE {{
+                            {{ ?item wdt:P698  "{id[1]}" }} 
+                            ?item wdt:P31 wd:Q13442814.
+                            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+                            }}'''
+                        infos = get_result(query, id)
+                        if infos:
+                            csv_writer.writerow(infos)
+
+
+                    if id[2] != 0:
+                        print(id[2])
+                        print('PMC')
+                        PMC = id[2][3:]
+                        query = f'''SELECT ?item WHERE {{
+                                {{ ?item wdt:P932  "{PMC}" }} .
+                                    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+                                }}'''
+                        infos = get_result(query, id)
+                        if infos:
+                            csv_writer.writerow(infos)
+
+                    if id[5] != 0:
+                        print(id[5])
+                        query = f'''SELECT ?item WHERE {{
+                                    {{ ?item wdt:P1154 "{id[5]}"}}.
+                                SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+                                }}'''
+                        infos = get_result(query, id)
+                        if infos:
+                            csv_writer.writerow(infos)
+
+                    if id[6] != 0:
+                        print(id[6])
+                        query = f'''SELECT ?item WHERE {{
+                            {{ ?item wdt:P1292 "{id[6]}"}}.
                         SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
                         }}'''
-                    print(query)
-                    wd_url.setQuery(query)
-                    wd_url.setReturnFormat(JSON)
-                    results = wd_url.query().convert()
-                    print('doi result:', results)
-                    if (len(results['results']['bindings'])) > 0:
-                        for res in results['results']['bindings']:
-                            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                            #print(article_qnr)
-                            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
-                            print('infos', infos)
+                        infos = get_result(query, id)
+                        if infos:
                             csv_writer.writerow(infos)
-                    else:
-                        try:
-                            for id in orcid_data.values:
-                                if id[1] != 0:
-                                    query = f'''SELECT ?item WHERE {{
-                                    {{ ?item wdt:P698  "{id[1]}" }} 
-                                    ?item wdt:P31 wd:Q13442814.
-                                    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
-                                    }}'''
-                                    print(query)
-                                    wd_url.setQuery(query)
-                                    wd_url.setReturnFormat(JSON)
-                                    results = wd_url.query().convert()
-                                    print('pmid results:', results)
-                                    if (len(results['results']['bindings'])) > 0:
-                                        for res in results['results']['bindings']:
-                                            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                                            print(article_qnr)
-                                            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
-                                            print('infos', infos)
-                                            csv_writer.writerow(infos)
 
-                                    else:
-                                        try:
-                                            for id in orcid_data.values:
-                                                if id[2] != 0:
-                                                    PMC = id[2][3:]
-                                                    query = f'''SELECT ?item WHERE {{
-                                                            {{ ?item wdt:P932  "{PMC}" }} .
-                                                                SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
-                                                            }}'''
-                                                    print(query)
-                                                    wd_url.setQuery(query)
-                                                    wd_url.setReturnFormat(JSON)
-                                                    results = wd_url.query().convert()
-                                                    print('pmc result:', results)
-                                                    if (len(results['results']['bindings'])) > 0:
-                                                        for res in results['results']['bindings']:
-                                                            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                                                            print(article_qnr)
-                                                            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
-                                                            print('infos', infos)
-                                                            csv_writer.writerow(infos)
-                                                    else:
-                                                        try:
-                                                            for id in orcid_data.values:
-                                                                if id[5] != 0:
-                                                                    query = f'''SELECT ?item WHERE {{
-                                                                                {{ ?item wdt:P1154 "{id[5]}"}}.
-                                                                            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
-                                                                            }}'''
-                                                                    print(query)
-                                                                    wd_url.setQuery(query)
-                                                                    wd_url.setReturnFormat(JSON)
-                                                                    results = wd_url.query().convert()
-                                                                    print('scopus result:', results)
-                                                                    if (len(results['results']['bindings'])) > 0:
-                                                                        for res in results['results']['bindings']:
-                                                                            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                                                                            print(article_qnr)
-                                                                            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
-                                                                            print('infos', infos)
-                                                                            csv_writer.writerow(infos)
 
-                                                                    else:
-                                                                        try:
-                                                                            for id in orcid_data.values:
-                                                                                if id[6] != 0:
-                                                                                    query = f'''SELECT ?item WHERE {{
-                                                                                        {{ ?item wdt:P1292 "{id[6]}"}}.
-                                                                                    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
-                                                                                    }}'''
-                                                                                    time.sleep(1)
-                                                                                    print(query)
-                                                                                    wd_url.setQuery(query)
-                                                                                    wd_url.setReturnFormat(JSON)
-                                                                                    results = wd_url.query().convert()
-                                                                                    print('DNB result:', results)
-                                                                                    if (len(results['results']['bindings'])) > 0:
-                                                                                        for res in results['results']['bindings']:
-                                                                                            article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                                                                                            print(article_qnr)
-                                                                                            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
-                                                                                            print('infos', infos)
-                                                                                            csv_writer.writerow(infos)
-                                                                        except:
-                                                                            pass
-                                                        except:
-                                                            pass
-                                        except:
-                                            pass
-                        except:
-                            pass
-        except:
-            pass
+            except Exception as e:
+                print(e)
+
 
 main()
