@@ -30,7 +30,7 @@ def get_result(query, id):
         for res in results['results']['bindings']:
             article_qnr = res['item']['value'].rsplit('/', 1)[1]
             # print(article_qnr)
-            infos = id[0], id[1], id[2], id[3], id[4], id[5], article_qnr
+            infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
             print('infos', infos)
     return infos
 
@@ -55,10 +55,11 @@ def main():
     '''
     with open(args.output_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['orcid','pmid','pmc','doi','eid','dnb', 'article-qnr'])
+        csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qnr'])
 
         with open(args.input_file_name) as csvfile:
             csv_reader = csv.reader(csvfile)
+            print(csv_reader)
 
             try:
                 #doi
