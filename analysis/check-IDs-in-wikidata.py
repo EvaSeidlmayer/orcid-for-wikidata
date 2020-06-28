@@ -27,17 +27,16 @@ def get_result(query, id):
         wd_url.setReturnFormat(JSON)
         results = wd_url.query().convert()
         print('result:', results)
-        if (len(results['results']['bindings'])) > 0:
-            for res in results['results']['bindings']:
-                article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                # print(article_qnr)
-                infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
-                print('infos', infos)
+        try:
+            if (len(results['results']['bindings'])) > 0:
+                for res in results['results']['bindings']:
+                    article_qnr = res['item']['value'].rsplit('/', 1)[1]
+                    # print(article_qnr)
+                    infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
+                    print('infos', infos)
+        except Exception as e:
+            print(e)
     return infos
-
-
-#def print_infos():
-
 
 
 
@@ -110,9 +109,7 @@ def main():
                         if infos:
                             csv_writer.writerow(infos)
 
-
             except Exception as e:
                 print(e)
-
 
 main()
