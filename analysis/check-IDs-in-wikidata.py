@@ -58,6 +58,12 @@ def main():
             try:
                 for id in csv_reader:
                     if id[3]:
+                        print('doi', id[3])
+                        if '\n' in id[3]:
+                            #ID =  id[3].split('\n')[1]
+                            continue
+
+
                         if ' ' in id[3]:
                             ID = id[3].split(' ')[1]
                             query = f'''SELECT ?item WHERE {{
@@ -67,6 +73,7 @@ def main():
                             infos = get_result(query, id)
                             if infos:
                                 csv_writer.writerow(infos)
+
                         else:
                             query = f'''SELECT ?item WHERE {{
                             {{ ?item wdt:P356 "{id[3]}" }}.
