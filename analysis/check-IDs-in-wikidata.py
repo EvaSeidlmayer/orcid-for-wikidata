@@ -14,6 +14,7 @@ import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
 import csv
 import time
+from re import search
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
@@ -57,14 +58,23 @@ def main():
             try:
                 for id in csv_reader:
                     if id[3]:
-                        print("doi:", id[3])
-                        query = f'''SELECT ?item WHERE {{
+                        if ' ' in id[3]:
+                            ID = id[3].split(' ')[1]
+                            query = f'''SELECT ?item WHERE {{
+                                {{ ?item wdt:P356 "{ID}" }}.
+                                SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
+                                }}'''
+                            infos = get_result(query, id)
+                            if infos:
+                                csv_writer.writerow(infos)
+                        else:
+                            query = f'''SELECT ?item WHERE {{
                             {{ ?item wdt:P356 "{id[3]}" }}.
                             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
                             }}'''
-                        infos = get_result(query, id)
-                        if infos:
-                            csv_writer.writerow(infos)
+                            infos = get_result(query, id)
+                            if infos:
+                                csv_writer.writerow(infos)
 
 
                     if id[1]:
