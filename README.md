@@ -108,7 +108,7 @@ In order to match the publications-items in Wikidata with their author-items we 
 
      ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
      
-..this delivers something like:
+..this delivers content like:
 
 | orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
 |----|:---:|:----:|:----:|:----:|:----:|----:|
@@ -122,7 +122,7 @@ In order to match the publications-items in Wikidata with their author-items we 
 
 *******************
 
-### 5. Check for existing author-items for complete ORCID-authors in Wikidata
+### 5. Check for existing author-items in Wikidata for complete number of ORCID-authors
 
 Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
@@ -142,12 +142,18 @@ Here we get:
 
 
 ******************************
-### 6. Create author-items for not existing authors of publications listed in Wikidata
+### 6. Register miysing authors in Wikidata-article-items
+
+Via Wikibase-CLI we retrieve the json files of article items. We check the P50 qualifier for listed authors and add the missing ones applying our prepared data. 
+
+
+
+
+*******************
+### 7. Create author-items for not existing authors of publications listed in Wikidata
 
 In order to pepare for matching publication-items and author-items in the following we create the author-items in Wikidata that are not existing yet. 
 
-*******************
-### 7. 
 
 
 
