@@ -142,9 +142,9 @@ Here we get:
 
 
 ******************************
-### 6. Register miysing authors in Wikidata-article-items
+### 6. Register missing authors in Wikidata-article-items
 
-Via Wikibase-CLI we retrieve the json files of article items. We check the P50 qualifier for listed authors and add the missing ones applying our prepared data. 
+Via Wikibase-CLI we retrieve the json files of article items. We check the P50 qualifier for listed authors and add the missing ones applying our prepared data from step 3. 
 
 
 
@@ -157,21 +157,6 @@ In order to pepare for matching publication-items and author-items in the follow
 
 
 
-
-************************
-### Affiliation history
-
-* Harvesting of affiliation information and upload to basic item in Wikidata
-* **Harvest affiliations** by using ORCID-affiliations-harvesting.py for **ORCID, affiliation name, affiliation adress, affiliation id for disambiguation** with args-statements for path of extracted ORCID-activities.xml and output-csv
-
-      ./analysis/ORCID-affiliations-harvesting.py orcid_activities_1.xml orcid-affiliations_1.csv
-
-* to be continued: upload script for **enrich basic items of researchers in Wikidata with further information about affiliation, education, and other**
-
-### Education information
-
-Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
-   
 ## License
 
 All source code licensed under [ISC license](https://www.isc.org/downloads/software-support-policy/isc-license/)
@@ -196,3 +181,17 @@ All source code licensed under [ISC license](https://www.isc.org/downloads/softw
 
 <!-- * upload script for **matching publications recoreded in Wikidata and ORCID of authors in order to establish connection between publications and authors.**  --!>
 
+<!--
+### Affiliation history
+
+<!-- * Harvesting of affiliation information and upload to basic item in Wikidata
+* **Harvest affiliations** by using ORCID-affiliations-harvesting.py for **ORCID, affiliation name, affiliation adress, affiliation id for disambiguation** with args-statements for path of extracted ORCID-activities.xml and output-csv
+
+     <!-- ./analysis/ORCID-affiliations-harvesting.py orcid_activities_1.xml orcid-affiliations_1.csv
+
+<!-- * to be continued: upload script for **enrich basic items of researchers in Wikidata with further information about affiliation, education, and other**
+
+<!-- ### Education information
+
+<!-- Harvesting of education information and upload to basic item in Wikidata: *not implemented yet*
+   
