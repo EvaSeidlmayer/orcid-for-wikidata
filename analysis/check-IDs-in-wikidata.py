@@ -26,8 +26,12 @@ def get_result(query, id):
         wd_url.setQuery(query)
         print(query)
         wd_url.setReturnFormat(JSON)
-        results = wd_url.query().convert()
-        print('result:', results)
+        try:
+            results = wd_url.query().convert()
+            print('result:', results)
+        except Exception as e:
+            print('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+            print(f'incorrect ID at {e}')
         try:
             if (len(results['results']['bindings'])) > 0:
                 for res in results['results']['bindings']:
@@ -35,8 +39,10 @@ def get_result(query, id):
                     # print(article_qnr)
                     infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
                     print('infos', infos)
-        except Exception as e:
-            print(e)
+            #if results == QueryBadFormed :
+             #   continue
+        except Exception:
+            pass
     return infos
 
 
@@ -57,13 +63,12 @@ def main():
 
             try:
                 for id in csv_reader:
-                    if id[3]:
+                    if id[3] and id[3].isspace():
                         print('doi', id[3])
+
                         if '\n' in id[3]:
                             #ID =  id[3].split('\n')[1]
                             continue
-
-
                         if ' ' in id[3]:
                             ID = id[3].split(' ')[1]
                             query = f'''SELECT ?item WHERE {{
