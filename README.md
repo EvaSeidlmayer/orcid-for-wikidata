@@ -79,7 +79,7 @@ If we check in Wikidata we see these Q-Nrs refer to:
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
 
-Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we we found 751 Wikidata-items.** Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata**. The relatively small quantity of items detached could also be related to the poor performance of the public API for large query volumns. 
+Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we found 457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata by PMID and DOI**. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
 
 
 
