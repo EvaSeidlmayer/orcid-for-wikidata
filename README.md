@@ -30,7 +30,7 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 ### Preparation
 
-Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containg informations on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic informations on the researchers called _summaries_. 
+Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
 
 ### 1. Harvest publication-IDs in ORCID
 
