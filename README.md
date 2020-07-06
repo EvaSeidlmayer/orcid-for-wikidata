@@ -50,7 +50,7 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 **From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
 
-Then we check if those articles are already listed in Wikidata.
+Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to spam the Wikidata platform with scientific papers.
 
 
 
