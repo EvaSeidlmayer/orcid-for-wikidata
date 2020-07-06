@@ -99,6 +99,9 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 | 0000-0001-8724-3942 | 16415592.0 | 10.1159/000089647 | Q36369661 | "['Q42798270', 'Q43055649']" |
 
 
+For 134 843 articles from ORCID_2019_activites_1.tar.gz we identified registered authors.
+
+In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **322 574 articles-items currently not connected to their authors can be improved with data enrichment based on ORCID only for ORCID_2019_activites_1.tar.gz.**  
 
 
 ****************
