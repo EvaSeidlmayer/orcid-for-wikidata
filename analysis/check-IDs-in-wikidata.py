@@ -30,7 +30,6 @@ def get_result(query, id):
             results = wd_url.query().convert()
             print('result:', results)
         except Exception as e:
-            print('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             print(f'incorrect ID at {e}')
         try:
             if (len(results['results']['bindings'])) > 0:
