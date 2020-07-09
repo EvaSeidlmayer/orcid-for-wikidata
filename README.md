@@ -90,9 +90,9 @@ We can proof the retrieved Q-Nrs. They refer to:
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
 
-Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we found 457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. 
+Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz** we found **457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. 
 
-The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
+side info: Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
 
 
 
@@ -114,7 +114,7 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
 For 134 843 articles from ORCID_2019_activites_1.tar.gz we identified registered authors.
 
-In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **Both numbers together, it's 322 574 articles-items currently not connected to their authors only for ORCID_2019_activites_1.tar.gz. They can be improved with data enrichment based on ORCID.**   
+In the previous step we had been able to deteced 457 417 papers listed in Wikidata. Both numbers together, **it's 322 574 articles-items currently not connected to their authors** only for ORCID_2019_activites_1.tar.gz. They could get improved with data enrichment based on ORCID. However, this would mean to create new items for authors which is not planned in this project (compare introduction and Bonus section).   
 
 
 ****************
