@@ -45,7 +45,7 @@ Download the ORCID database dump (see <https://orcid.org/content/orcid-public-da
 
 ### 1. Harvest publication-IDs in ORCID
 
-With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and author ORCID from the ORCID.tar.gz archive**.
+With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and ORCID of the author from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
 
      ./analysis/ORCID-ids-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-ids_1.csv
@@ -59,7 +59,7 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-8639-5191 | |  | 10.1111/J.1747-4949.2007.00119.X | WOS:000247202000017 | | |
 
 
-**From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
+From ORCID_2019_activites_1.tar.gz we retrieved **3 804 784 4 publications** indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved **3 752 394 publications** indicated by these IDs.
 
 Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to flood the Wikidata platform with scientific papers.
 
@@ -90,7 +90,7 @@ We can proof the retrieved Q-Nrs. They refer to:
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
 
-Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz** we found **457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. 
+**Of 2 785 993 identified publications** from ORCID_2019_activites_1.tar.gz we found **457 417 Wikidata-items of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB.** 
 
 side info: Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
 
@@ -99,8 +99,8 @@ side info: Applying only PMID and DOI in a former check, we had been able to det
 *******************************
 ### 3. Check for existing author items of publications in Wikidata 
 
-Take the file we produced in step 2. containig all the publications listed in Wikidata indicated by an existing Q-Nr. 
-For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
+Take the file we produced in step 2. containing all the publications listed in Wikidata indicated by an existing Q-Nr. 
+For every article-Q-Nr we request the public Wikidata-API if there is already an author listed.  
 
      ./analysis/check-authors-of-available-articles.py available-articles-in-wd_1.csv available-articles-available-authors_1.csv
 
@@ -134,7 +134,7 @@ Here we get:
 | Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
-**of 673 058 authors listed in ORCID_2019_summaries.tar.gz we detected 134 843 authors registered in Wikidata.
+**of 673 058 authors** listed in ORCID_2019_summaries.tar.gz we detected **134 843 authors registered in Wikidata.**
 
 
 
@@ -174,7 +174,7 @@ We prepare a set of basic information containing ORCID, name and current affilia
 | 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
 | 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
 
-**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.** Now we can use these information to set up a basic information item for authors if needed.
+From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers. We could use these information to set up a basic information item for authors if needed.
 
 
 
