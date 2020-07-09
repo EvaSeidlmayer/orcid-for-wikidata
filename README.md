@@ -68,7 +68,7 @@ Then we check if those articles are already listed in Wikidata. Only already exi
 *******************************
 ### 2. Check for existing publication-items in Wikidata
 
-Afterwards we can **check if those articles indicated with PMID, PMC, DOI, Scopus ID (eid) and/or DNB are listed in Wikidata** applying check-ids-in-wd.py. Use it like this: 
+Afterwards we can **check if those articles** indicated with PMID, PMC, DOI, Scopus ID (eid) and/or DNB **are listed in Wikidata** applying check-ids-in-wd.py. Use it like this: 
      
      ./analysis/check-IDs-in-wikidata.py ORCID-ids_1.csv available-articles-in-wd_1.csv 
 
@@ -83,7 +83,7 @@ As output-file you get information like this:
 
 The Web of Science-ID (wosuid) is not supported by Wikidata yet and can not be used for retrieval. 
 
-If we check in Wikidata we see these Q-Nrs refer to:
+We can proof the retrieved Q-Nrs. They refer to:
 
 [Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
  
