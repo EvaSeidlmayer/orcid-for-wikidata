@@ -41,7 +41,7 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 ### Preparation
 
-Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
+Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the registered researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
 
 ### 1. Harvest publication-IDs in ORCID
 
@@ -61,7 +61,7 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 
 **From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
 
-Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to spam the Wikidata platform with scientific papers.
+Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to flood the Wikidata platform with scientific papers.
 
 
 
