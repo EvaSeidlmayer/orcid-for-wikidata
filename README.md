@@ -103,31 +103,12 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
 For 134 843 articles from ORCID_2019_activites_1.tar.gz we identified registered authors.
 
-In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **Both numbers together, it's 322 574 articles-items currently not connected to their authors only for ORCID_2019_activites_1.tar.gz. They can be improved with data enrichment based on ORCID.** For the purpose to create a basic set of information for these not-in-Wikidata-listed-authors we harvest ORCID for elementary details in step 4.  
+In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **Both numbers together, it's 322 574 articles-items currently not connected to their authors only for ORCID_2019_activites_1.tar.gz. They can be improved with data enrichment based on ORCID.**   
 
 
 ****************
 
-### 4. Harvest author-information in ORCID
-In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive.  
-
-     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
-     
-..this delivers content like:
-
-| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
-|----|:---:|:----:|:----:|:----:|:----:|----:|
-| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
-| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
-| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
-| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
-
-**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.** In step 7 we can use these information to set up a basic information item for authors if needed.
-
-
-*******************
-
-### 5. Check for existing author-items in Wikidata for complete number of ORCID-authors
+### 4. Check for existing author-items in Wikidata for complete number of ORCID-authors
 
 Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
@@ -147,7 +128,7 @@ Here we get:
 
 
 ******************************
-### 6. Register missing authors in Wikidata-article-items
+### 5. Register missing authors in Wikidata-article-items
 
 Applying the ORCID-ids of the rows we merge the just created csv-file of authors available in Wikidata and the csv containing the listed authors in article items. 
 
@@ -165,10 +146,24 @@ If the author is not listed yet the code creates a template and push it to Wikid
 
 
 *******************
-### 7. Create author-items for not existing authors of publications listed in Wikidata
+### Bonus: Create author-items for not existing authors of publications listed in Wikidata
 
-In order to pepare for matching publication-items and author-items in the following we create the author-items in Wikidata that are not existing yet. 
+In order to create a basic set of information for the authors not listed in Wikidata yet, we harvest ORCID for elementary details.
+In step 3 we detected those articles, listed in Wikidata that do not have articles-items. 
+We prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive.  
 
+     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
+     
+..this delivers content like:
+
+| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
+| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
+| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
+| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
+
+**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.** Now we can use these information to set up a basic information item for authors if needed.
 
 
 
