@@ -8,11 +8,11 @@ This repository contains scripts to import authors with information about affili
 ## Background
 
 This work is part of the project *[Nachnutzung von strukturierten Daten aus Wikidata für bibliometrische Analysen](https://de.wikiversity.org/wiki/Wikiversity:Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Nachnutzung_von_strukturierten_Daten_aus_Wikidata_f%C3%BCr_bibliometrische_Analysen)*.  
-While we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)) only 8.9% represent humans in general, not even researchers in particular. Often the publication are not linked to their creators which is a pitty for users of Wikidata.
+While we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)) only 8.9% represent humans in general, not even researchers in particular. Often the publications are not linked to their creators which is a pitty for users of Wikidata.
 
 Not only bibliometrical analysis would benefit from an improved data basis that connects article-items to their authors-items.  
 Missing author-items are one issue. Another problem we see is the frequent absent of relations between the publication and the authors although the author is already listed.
-To fill this gap and to improve the databasis for bibliographic purposes in general, we established a workflow for matching authors and papers applying ORCID data base.
+To fill this gap and to improve the databasis of Wikidata in general we established a workflow for matching authors and papers applying ORCID data base.
 
 As we prefer to avoid to spam Wikidata with additional articles and authors, we concentrate on the matching of existing author-items and article-items.  If there is an author-item we enhanche information registered in Wikidata. 
 
