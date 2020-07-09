@@ -79,7 +79,9 @@ If we check in Wikidata we see these Q-Nrs refer to:
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
 
-Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we found 457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata by PMID and DOI**. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
+Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we found 457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. 
+
+The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
 
 
 
@@ -101,13 +103,13 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
 For 134 843 articles from ORCID_2019_activites_1.tar.gz we identified registered authors.
 
-In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **322 574 articles-items currently not connected to their authors can be improved with data enrichment based on ORCID only for ORCID_2019_activites_1.tar.gz.**  
+In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **Both numbers together, it's 322 574 articles-items currently not connected to their authors only for ORCID_2019_activites_1.tar.gz. They can be improved with data enrichment based on ORCID.** For the purpose to create a basic set of information for these not-in-Wikidata-listed-authors we harvest ORCID for elementary details in step 4.  
 
 
 ****************
 
 ### 4. Harvest author-information in ORCID
-In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
+In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive.  
 
      ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
      
@@ -120,7 +122,7 @@ In order to match the publications-items in Wikidata with their author-items we 
 | 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
 | 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
 
-**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
+**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.** In step 7 we can use these information to set up a basic information item for authors if needed.
 
 
 *******************
@@ -147,9 +149,19 @@ Here we get:
 ******************************
 ### 6. Register missing authors in Wikidata-article-items
 
-Via Wikibase-CLI we retrieve the json files of article items. We check the P50 qualifier for listed authors and add the missing ones applying our prepared data from step 3. 
+Applying the ORCID-ids of the rows we merge the just created csv-file of authors available in Wikidata and the csv containing the listed authors in article items. 
+
+     analysis/modify-author-statements-in-article-items.py  available-articles-available-authors_1.csv  log_2020-07-09.log 
 
 
+| author_qnr| orcid | given_name | family_name | ... | article_qnr | all_authors_qnr |
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q41076907 |['Q44536697', 'Q64676460'] |
+| Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q48935002 |['Q44536697'] |
+| Q47701823 | 0000-0002-5466-8191 | 'Rafael' | 'de Assis da Silva' | ... | Q39900762 | ['Q85737930'] |
+
+The code checks if the author_qnr of an article is already listed in the item (= all_author_qnr).
+If the author is not listed yet the code creates a template and push it to Wikidata. (Actually, it does not as we do not have Bot-rights.)  
 
 
 *******************
