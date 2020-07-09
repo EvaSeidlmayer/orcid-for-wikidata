@@ -8,9 +8,18 @@ This repository contains scripts to import authors with information about affili
 ## Background
 
 This work is part of the project *[Nachnutzung von strukturierten Daten aus Wikidata für bibliometrische Analysen](https://de.wikiversity.org/wiki/Wikiversity:Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Nachnutzung_von_strukturierten_Daten_aus_Wikidata_f%C3%BCr_bibliometrische_Analysen)*.  
-Although we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)), most of the publications are not connected with an author item. In order to allocate researchers and articles we like to introduce information on researchers from ORCID. 
+While we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)) only 8.9% represent humans in general, not even researchers in particular. Often the publication are not linked to their creators which is a pitty for users of Wikidata.
+Not only bibliometrical analysis would benefit from an improved data basis, that connects article-items to their authors-items.  
+In the absent of author-items we see one reason for the weak data basis. An other reason we see is the frequent absent of relations between the paper and the author although the author is already listed.
+To fill the gap and to improve the databasis for bibliographic purposes in general, we established a workflow for matching authors and papers applying ORCID data base.
 
-As a first step we harvest articles with PMID and DOI listed in ORCID. Second, we request Wikidata Public API for existing items of articles in Wikidata. Only for already existing publications we import basic author items, if there is no item already. If there is an author item we enhanche information registered in wikidata. One of those information is the qualifier "is author of an publication" (wdt:P50) annotated with the PMID and/or DOI. By this the matching of authors and publications is fullfilled. 
+As we prefer to avoid to spam Wikidata with additional articles and authors, we concentrate on the matching of existing author-items and article-items.  If there is an author-item we enhanche information registered in Wikidata. 
+
+**Bonus-Section**
+We made some basis steps also to create author-items for not existing researcher. 
+
+As further improvement we can easily expand the workflow for introducing further information from ORCID as education or biographical details to the author-items. 
+
 
 
 
