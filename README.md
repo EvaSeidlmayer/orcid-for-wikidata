@@ -8,9 +8,20 @@ This repository contains scripts to import authors with information about affili
 ## Background
 
 This work is part of the project *[Nachnutzung von strukturierten Daten aus Wikidata für bibliometrische Analysen](https://de.wikiversity.org/wiki/Wikiversity:Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Nachnutzung_von_strukturierten_Daten_aus_Wikidata_f%C3%BCr_bibliometrische_Analysen)*.  
-Although we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)), most of the publications are not connected with an author item. In order to allocate researchers and articles we like to introduce information on researchers from ORCID. 
+While we find a lot of scientific articles in Wikidata (actually 31,5% (Jan 2020 see Wikidata-statistics)) only 8.9% represent humans in general, not even researchers in particular. Often the publications are not linked to their creators which is a pitty for users of Wikidata.
 
-As a first step we harvest articles with PMID and DOI listed in ORCID. Second, we request Wikidata Public API for existing items of articles in Wikidata. Only for already existing publications we import basic author items, if there is no item already. If there is an author item we enhanche information registered in wikidata. One of those information is the qualifier "is author of an publication" (wdt:P50) annotated with the PMID and/or DOI. By this the matching of authors and publications is fullfilled. 
+Missing author-items are one reason for this problem. Another issue we see is the frequent absent of relations between the publication and the authors although the author is already listed.
+To fill this gap and to improve the databasis of Wikidata in general we established a workflow for matching authors and papers applying ORCID data base. Not only bibliometrical analysis would benefit from an improved data basis that connects article-items to their authors-items.
+
+**As we prefer to avoid spamming Wikidata with additional articles and authors, we concentrate on the matching of existing author-items and article-items.** Only if there is an existing author-item we enhanche information registered in Wikidata. 
+
+
+**Bonus-Section**
+
+We made some basic steps also to create author-items for not existing researchers. This approach could be easily implemeted.
+
+As further improvement we can easily expand the workflow for introducing additinal information from ORCID as on education or other biographical details to the author-items. 
+
 
 
 
@@ -30,11 +41,11 @@ To process full ORCID dumps you also need enough disk space and some time.
 
 ### Preparation
 
-Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the regirsterd researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
+Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the registered researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
 
 ### 1. Harvest publication-IDs in ORCID
 
-With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and author ORCID from the ORCID.tar.gz archive**.
+With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and ORCID of the author from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
 
      ./analysis/ORCID-ids-harvesting.py ORCID_2019_activities_1.tar.gz ORCID-ids_1.csv
@@ -48,16 +59,16 @@ With adding the ORCID.tar.gz path as input-file and an output file:
 | 0000-0002-8639-5191 | |  | 10.1111/J.1747-4949.2007.00119.X | WOS:000247202000017 | | |
 
 
-**From ORCID_2019_activites_1.tar.gz we retrieved 3 804 784 4publications indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved 3 752 394 publications indicated by these IDs.**
+From ORCID_2019_activites_1.tar.gz we retrieved **3 804 784 4 publications** indicated by PMID, PMC, DOI, WOS-id, Scopus-ID, DNB. From ORCID_2019_activites_2.tar.gz we retrieved **3 752 394 publications** indicated by these IDs.
 
-Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to spam the Wikidata platform with scientific papers.
+Then we check if those articles are already listed in Wikidata. Only already existing paper-items shall enriched, in order not to flood the Wikidata platform with scientific papers.
 
 
 
 *******************************
 ### 2. Check for existing publication-items in Wikidata
 
-Afterwards we can **check if those articles indicated with PMID, PMC, DOI, Scopus ID (eid) and/or DNB are listed in Wikidata** applying check-ids-in-wd.py. Use it like this: 
+Afterwards we can **check if those articles** indicated with PMID, PMC, DOI, Scopus ID (eid) and/or DNB **are listed in Wikidata** applying check-ids-in-wd.py. Use it like this: 
      
      ./analysis/check-IDs-in-wikidata.py ORCID-ids_1.csv available-articles-in-wd_1.csv 
 
@@ -72,22 +83,24 @@ As output-file you get information like this:
 
 The Web of Science-ID (wosuid) is not supported by Wikidata yet and can not be used for retrieval. 
 
-If we check in Wikidata we see these Q-Nrs refer to:
+We can proof the retrieved Q-Nrs. They refer to:
 
 [Q70670731](https://www.wikidata.org/wiki/Q70670731)  "Calcium intake and 28-year gastro-intestinal cancer mortality in Dutch civil servants"
  
 [Q29571127](https://www.wikidata.org/wiki/Q29571127)  "Visual and Motor Deficits in Grown-up Mice with Congenital Zika Virus Infection" 
 
 
-Of 2 785 993 identified publications **from ORCID_2019_activites_1.tar.gz we found 457 417 Wikidata-items** of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB. Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. Of 2 742 008 publications identified with PMID and DOI **from ORCID_2019_activites_2.tar.gz we retrieved 1 560 items in Wikidata by PMID and DOI**. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
+**Of 2 785 993 identified publications** from ORCID_2019_activites_1.tar.gz we found **457 417 Wikidata-items of scientific papers identified by PMID, PMC, DOI, Scopus-ID (eid) and DNB.** 
+
+side info: Applying only PMID and DOI in a former check, we had been able to detected only 751 Wikidata-items. The relatively small quantity of items detected could also be related to the poor performance of the public API for large query volumns. 
 
 
 
 *******************************
 ### 3. Check for existing author items of publications in Wikidata 
 
-Take the file we produced in step 2. containig all the publications listed in Wikidata indicated by an existing Q-Nr. 
-For every article-Q-Nr we request the public Wikidata-API if there is already an author indicated.  
+Take the file we produced in step 2. containing all the publications listed in Wikidata indicated by an existing Q-Nr. 
+For every article-Q-Nr we request the public Wikidata-API if there is already an author listed.  
 
      ./analysis/check-authors-of-available-articles.py available-articles-in-wd_1.csv available-articles-available-authors_1.csv
 
@@ -101,31 +114,12 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
 For 134 843 articles from ORCID_2019_activites_1.tar.gz we identified registered authors.
 
-In the previous step we had been able to deteced 457 417 papers listed in Wikidata. **322 574 articles-items currently not connected to their authors can be improved with data enrichment based on ORCID only for ORCID_2019_activites_1.tar.gz.**  
+In the previous step we had been able to deteced 457 417 papers listed in Wikidata. Both numbers together, **it's 322 574 articles-items currently not connected to their authors** only for ORCID_2019_activites_1.tar.gz. They could get improved with data enrichment based on ORCID. However, this would mean to create new items for authors which is not planned in this project (compare introduction and Bonus section).   
 
 
 ****************
 
-### 4. Harvest author-information in ORCID
-In order to match the publications-items in Wikidata with their author-items we prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive. 
-
-     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
-     
-..this delivers content like:
-
-| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
-|----|:---:|:----:|:----:|:----:|:----:|----:|
-| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
-| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
-| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
-| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
-
-**From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers.**
-
-
-*******************
-
-### 5. Check for existing author-items in Wikidata for complete number of ORCID-authors
+### 4. Check for existing author-items in Wikidata for complete number of ORCID-authors
 
 Analogue to the check for existing Q-Nr for publication-items in Wikidata, we also check for existing author-items. Applying the just poduced file we request the public Wikidata-API for items containig the given ORCID (wdt:P496) or names as alias (skos:altLabel) or label (rdfs:label).
 
@@ -140,23 +134,47 @@ Here we get:
 | Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
 | Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
-**of 673 058 authors listed in ORCID_2019_summaries.tar.gz we detected 134 843 authors registered in Wikidata.
+**of 673 058 authors** listed in ORCID_2019_summaries.tar.gz we detected **134 843 authors registered in Wikidata.**
 
 
 
 ******************************
-### 6. Register missing authors in Wikidata-article-items
+### 5. Register missing authors in Wikidata-article-items
 
-Via Wikibase-CLI we retrieve the json files of article items. We check the P50 qualifier for listed authors and add the missing ones applying our prepared data from step 3. 
+Applying the ORCID-ids of the rows we merge the just created csv-file of authors available in Wikidata and the csv containing the listed authors in article items. 
+
+     analysis/modify-author-statements-in-article-items.py  available-articles-available-authors_1.csv  log_2020-07-09.log 
 
 
+| author_qnr| orcid | given_name | family_name | ... | article_qnr | all_authors_qnr |
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q41076907 |['Q44536697', 'Q64676460'] |
+| Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q48935002 |['Q44536697'] |
+| Q47701823 | 0000-0002-5466-8191 | 'Rafael' | 'de Assis da Silva' | ... | Q39900762 | ['Q85737930'] |
+
+The code checks if the author_qnr of an article is already listed in the item (= all_author_qnr).
+If the author is not listed yet the code creates a template and push it to Wikidata. (Actually, it does not as we do not have Bot-rights.)  
 
 
 *******************
-### 7. Create author-items for not existing authors of publications listed in Wikidata
+### Bonus: Create author-items for not existing authors of publications listed in Wikidata
 
-In order to pepare for matching publication-items and author-items in the following we create the author-items in Wikidata that are not existing yet. 
+In order to create a basic set of information for the authors not listed in Wikidata yet, we harvest ORCID for elementary details.
+In step 3 we detected those articles, listed in Wikidata that do not have articles-items. 
+We prepare a set of basic information containing ORCID, name and current affiliation. The script ORCID-author-infos-harvesting.py harvests the basic informations from ORCID_year_summaries.tar.gz archive.  
 
+     ./analysis/ORCID-author-infos-harvesting.py ORCID_2019_summaries.tar.gz ORCID-author-infos.csv
+     
+..this delivers content like:
+
+| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|----|:---:|:----:|:----:|:----:|:----:|----:|
+| 0000-0002-4807-379X | 'Esha' | 'Kundu' | 'Curtin University', '1649', 'RINGGOLD', '2019' |
+| 0000-0002-8182-679X | 'Alla' | None | 'Pavlo Tychyna Uman State Pedagogical University' |  '416526' | 'RINGGOLD' | '1971' |
+| 0000-0002-1792-079X | 'Cilene' | 'Canda' | 'Universidade Federal da Bahia' | '28111' | 'RINGGOLD' | '2015' |
+| 0000-0003-0554-179X | 'Shinya' | 'Ariyasu' | 'Nagoya University' | 'http://dx.doi.org/10.13039/501100004823' | 'FUNDREF' | '2016' |
+
+From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers. We could use these information to set up a basic information item for authors if needed.
 
 
 
