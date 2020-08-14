@@ -16,6 +16,9 @@ import subprocess
 from pandas import read_csv
 import logging
 import pandas as pd
+import sys
+from ast import literal_eval
+import pprint as pp
 
 # create a template with article_qnr, missing author statement P50, author_qnr and name string of author
 
@@ -36,7 +39,6 @@ def create_template_article_item(row):
 def edit_item(row, wikidata_cli_executable, log_file_name):
     with open(log_file_name, 'a') as f:
         item = create_template_article_item(row)
-        print(item)
         logging.info(f'item is {item}')
         tmp_json_file = "tmp.json"
 
@@ -49,6 +51,7 @@ def edit_item(row, wikidata_cli_executable, log_file_name):
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
             f.write(str(result) + '\n')
+        sys.exit()
 
 
 def main():
@@ -69,6 +72,10 @@ def main():
     orcid_authors = read_csv("../available-authors-in-wd-2020-06-20.csv")
     wikidata_authors = wikidata_authors.rename(columns={'orcid_origin' : 'orcid'})
     all_df = pd.merge(orcid_authors, wikidata_authors, how='right', on='orcid')
+    all_df['all_authors_qnr'].fillna('[]', inplace=True)
+    all_df['all_authors_qnr'] = all_df['all_authors_qnr'].apply(literal_eval)
+    #pp.pprint((all_df.head().to_string()))
+
 
 
 
@@ -79,37 +86,34 @@ def main():
     needs_to_be_registered = 0
 
     for index, row in all_df.iterrows():
+        #print("type author qnr", type(row['author_qnr']))
+        #print(row['author_qnr'])
+        #print("type all authors qnr", type(row['all_authors_qnr']))
+        #print(row['all_authors_qnr'])
         try:
             if pd.isna(row['author_qnr']):
                 no_author += 1
-                #print('CASE 1: author with orcid row["orcid"] needs to be registered')
-            if pd.isna(row['all_authors_qnr']):
+            if not row['all_authors_qnr']:
                 no_all_authors += 1
-                #print('CASE 2: no authors in article item', row['article_qnr'], 'needs to be registered')
+            if row['author_qnr'] in row['all_authors_qnr']:
+                already_registered += 1
 
-            else:
-                if row['author_qnr'] in row['all_authors_qnr']:
-                    already_registered += 1
-                    #print('CASE 3 already registered')
-                if row['author_qnr'] == row['all_authors_qnr']:
-                    already_registered += 1
-                    #print('CASE 3: already registered')
-                else:
-                    needs_to_be_registered += 1
-                    #print('CASE 4: article-qnr:', row['article_qnr'], 'needs to be registered')
-                    edit_item(row, args.wikidata_cli_executable, args.log_file_name)
-
+            if  not (pd.isna(row['author_qnr'])) and not (row['author_qnr'] in row['all_authors_qnr']):
+                needs_to_be_registered += 1
+                print('this author', row['author_qnr'], 'is not part of all authors:', row['all_authors_qnr'], 'of article', row['article_qnr'])
+                edit_item(row, args.wikidata_cli_executable, args.log_file_name)
         except Exception as e:
-            print(e)
+            print("Exeption", e)
+
 
     print('CASE 1: authors_qnr is NaN', no_author)
     print('CASE 2: all_authors_qnr is NaN:', no_all_authors)
     print('CASE 3: author is in all_author_qnr', already_registered)
     print('CASE 4: author-items exist but needed to be introduced to article_item:', needs_to_be_registered)
 
-    print('all:', len(all_df))
-    print('wikidata authors', len(wikidata_authors))
-    print('orcid authors', len(orcid_authors))
+    #print('all:', len(all_df))
+    #print('wikidata authors', len(wikidata_authors))
+    #print('orcid authors', len(orcid_authors))
 
 
 main()
