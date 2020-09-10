@@ -26,7 +26,7 @@ def main():
 
     orcid_data = pd.read_csv(args.input_file_name)
     orcid_data.to_dict()
-
+    print(orcid_data)
 
 
     with open(args.log_file_name, 'w') as csvfile:
@@ -37,7 +37,10 @@ def main():
                 authors = []
                 query= f'''SELECT distinct ?author
                         WHERE {{wd:{id[7]} wdt:P50 ?author }}'''
+                #
                 time.sleep(1)
+
+                print(query)
                 wd_url.setQuery(query)
                 wd_url.setReturnFormat(JSON)
                 results = wd_url.query().convert()

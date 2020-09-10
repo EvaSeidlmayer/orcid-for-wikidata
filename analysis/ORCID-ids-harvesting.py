@@ -43,7 +43,7 @@ def get_single_identifier(ext_id):
 
 def get_identifiers(orcid_work):
     """
-    Returns defaultdict filled with (type, value) tuples from an orcid work
+    Returns default dict filled with (type, value) tuples from an orcid work
     """
     if 'common:external-ids' in orcid_work and orcid_work['common:external-ids']:
         identifiers = maybe_map(get_single_identifier, orcid_work['common:external-ids'].get('common:external-id'))

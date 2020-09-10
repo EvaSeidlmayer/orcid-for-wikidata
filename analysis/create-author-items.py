@@ -81,7 +81,7 @@ def create_new_item(row, wikidata_cli_executable, log_file_name):
     # create logging-file
     with open(log_file_name, 'a') as f:
         item = row_to_item(row)
-        tmp_json_file = "tmp.json"
+        tmp_json_file = "Q212733.json"
 
         with open(tmp_json_file, "w") as entity_json_fh:
             entity_json_fh.write(json.dumps(item))
