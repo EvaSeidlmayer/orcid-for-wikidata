@@ -34,24 +34,39 @@ def create_template_article_item(row):
     }
 
 
+# create template for test-instance containing specific properties
+'''
+def create_template_article_item(row):
+    return {
+        "id":row['article_qnr'],
+        "claims": {
+            "P242": {
+                "value": row['author_qnr'],
+                "qualifier": [{"P80807": row['given_name']}]
+            }
+        }
+    }
+'''
+
 # start a subprocess applying Wikibase-CLI to modify the article item using the above created template containig the missing author statement
 
 def edit_item(row, wikidata_cli_executable, log_file_name):
     with open(log_file_name, 'a') as f:
         item = create_template_article_item(row)
         logging.info(f'item is {item}')
-        tmp_json_file = "tmp.json"
+        tmp_json_file = f"{row['article_qnr']}.json"
+        #tmp_json_file = "tmp.json"
 
         with open(tmp_json_file, "w") as entity_json_fh:
             entity_json_fh.write(json.dumps(item))
 
-        creation_result = subprocess.run(f"{wikidata_cli_executable} edit-entity ./{tmp_json_file} --dry".split(), capture_output=True)
+        creation_result = subprocess.run(f"{wikidata_cli_executable} edit-entity ./{tmp_json_file} ".split(), capture_output=True)
         logging.info(creation_result)
         print(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
             f.write(str(result) + '\n')
-        sys.exit()
+            counter =+1
 
 
 def main():
@@ -62,20 +77,20 @@ def main():
     parser.add_argument("available_articles_available_authors_csv")
     parser.add_argument("log_file_name")
     args = parser.parse_args()
-
+    counter = 0
     if (args.quiet):
         logging.basicConfig(format='%(message)s', level=logging.WARNING)
     else:
         logging.basicConfig(format='%(message)s', level=logging.DEBUG)
-
+    if counter == 5:
+        sys.exit()
     wikidata_authors = read_csv(args.available_articles_available_authors_csv)
     orcid_authors = read_csv("../available-authors-in-wd-2020-06-20.csv")
+    orcid_authors = orcid_authors.drop_duplicates()
     wikidata_authors = wikidata_authors.rename(columns={'orcid_origin' : 'orcid'})
     all_df = pd.merge(orcid_authors, wikidata_authors, how='right', on='orcid')
     all_df['all_authors_qnr'].fillna('[]', inplace=True)
     all_df['all_authors_qnr'] = all_df['all_authors_qnr'].apply(literal_eval)
-    #pp.pprint((all_df.head().to_string()))
-
 
 
 
@@ -86,10 +101,6 @@ def main():
     needs_to_be_registered = 0
 
     for index, row in all_df.iterrows():
-        #print("type author qnr", type(row['author_qnr']))
-        #print(row['author_qnr'])
-        #print("type all authors qnr", type(row['all_authors_qnr']))
-        #print(row['all_authors_qnr'])
         try:
             if pd.isna(row['author_qnr']):
                 no_author += 1
@@ -110,10 +121,5 @@ def main():
     print('CASE 2: all_authors_qnr is NaN:', no_all_authors)
     print('CASE 3: author is in all_author_qnr', already_registered)
     print('CASE 4: author-items exist but needed to be introduced to article_item:', needs_to_be_registered)
-
-    #print('all:', len(all_df))
-    #print('wikidata authors', len(wikidata_authors))
-    #print('orcid authors', len(orcid_authors))
-
 
 main()
