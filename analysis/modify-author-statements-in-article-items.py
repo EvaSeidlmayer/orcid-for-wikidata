@@ -60,7 +60,7 @@ def edit_item(row, wikidata_cli_executable, log_file_name):
         with open(tmp_json_file, "w") as entity_json_fh:
             entity_json_fh.write(json.dumps(item))
 
-        creation_result = subprocess.run(f"{wikidata_cli_executable} edit-entity ./{tmp_json_file} ".split(), capture_output=True)
+        creation_result = subprocess.run(f"{wikidata_cli_executable} edit-entity ./{tmp_json_file}".split())
         logging.info(creation_result)
         print(creation_result)
         if creation_result.returncode == 0:
