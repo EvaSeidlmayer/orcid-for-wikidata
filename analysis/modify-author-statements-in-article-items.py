@@ -20,14 +20,14 @@ import sys
 from ast import literal_eval
 
 
-# create a template with article_qnr, missing author statement P50, author_qnr and name string of author
+# create a template with article_qID, missing author statement P50, author_qID and name string of author
 
 def create_template_article_item(row):
     return {
-        "id": row['article_qnr'],
+        "id": row['article_qID'],
         "claims": {
             "P50": {
-                "value": row['author_qnr'],
+                "value": row['author_qID'],
                 "qualifier": [{"P1932": row['given_name']}]
             }
         }
@@ -38,10 +38,10 @@ def create_template_article_item(row):
 '''
 def create_template_article_item(row):
     return {
-        "id":row['article_qnr'],
+        "id":row['article_qID'],
         "claims": {
             "P242": {
-                "value": row['author_qnr'],
+                "value": row['author_qID'],
                 "qualifier": [{"P80807": row['given_name']}]
             }
         }
@@ -54,7 +54,7 @@ def edit_item(row, wikidata_cli_executable, log_file_name):
     with open(log_file_name, 'a') as f:
         item = create_template_article_item(row)
         logging.info(f'item is {item}')
-        tmp_json_file = f"{row['article_qnr']}.json"
+        tmp_json_file = f"{row['article_qID']}.json"
         #tmp_json_file = "tmp.json"
 
         with open(tmp_json_file, "w") as entity_json_fh:
@@ -89,8 +89,8 @@ def main():
     orcid_authors = orcid_authors.drop_duplicates()
     wikidata_authors = wikidata_authors.rename(columns={'orcid_origin' : 'orcid'})
     all_df = pd.merge(orcid_authors, wikidata_authors, how='right', on='orcid')
-    all_df['all_authors_qnr'].fillna('[]', inplace=True)
-    all_df['all_authors_qnr'] = all_df['all_authors_qnr'].apply(literal_eval)
+    all_df['all_authors_qID'].fillna('[]', inplace=True)
+    all_df['all_authors_qID'] = all_df['all_authors_qID'].apply(literal_eval)
 
 
 
@@ -102,24 +102,24 @@ def main():
 
     for index, row in all_df.iterrows():
         try:
-            if pd.isna(row['author_qnr']):
+            if pd.isna(row['author_qID']):
                 no_author += 1
-            if not row['all_authors_qnr']:
+            if not row['all_authors_qID']:
                 no_all_authors += 1
-            if row['author_qnr'] in row['all_authors_qnr']:
+            if row['author_qID'] in row['all_authors_qID']:
                 already_registered += 1
 
-            if  not (pd.isna(row['author_qnr'])) and not (row['author_qnr'] in row['all_authors_qnr']):
+            if  not (pd.isna(row['author_qID'])) and not (row['author_qID'] in row['all_authors_qID']):
                 needs_to_be_registered += 1
-                print('this author', row['author_qnr'], 'is not part of all authors:', row['all_authors_qnr'], 'of article', row['article_qnr'])
+                print('this author', row['author_qID'], 'is not part of all authors:', row['all_authors_qID'], 'of article', row['article_qID'])
                 edit_item(row, args.wikidata_cli_executable, args.log_file_name)
         except Exception as e:
             print("Exeption", e)
 
 
-    print('CASE 1: authors_qnr is NaN', no_author)
-    print('CASE 2: all_authors_qnr is NaN:', no_all_authors)
-    print('CASE 3: author is in all_author_qnr', already_registered)
+    print('CASE 1: authors_qID is NaN', no_author)
+    print('CASE 2: all_authors_qID is NaN:', no_all_authors)
+    print('CASE 3: author is in all_author_qID', already_registered)
     print('CASE 4: author-items exist but needed to be introduced to article_item:', needs_to_be_registered)
 
 main()

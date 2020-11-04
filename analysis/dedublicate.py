@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-__description__ = " check if PMID or DOI are already listed in Wikidata"
+__description__ = "dedublicate dataset"
 __author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>"
 __copyright__ = "2020 by Eva Seidlmayer"
 __license__ = "ISC license"
@@ -11,10 +11,6 @@ __version__ = "1 "
 
 import argparse
 import pandas as pd
-from SPARQLWrapper import SPARQLWrapper, JSON
-import csv
-import time
-from re import search
 
 
 def main():
@@ -25,7 +21,7 @@ def main():
 
 #    with open(args.output_file_name, 'w') as csvfile:
  #       csv_writer = csv.writer(csvfile)
-  #      csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qnr'])
+  #      csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qID'])
 
     df = pd.read_csv(args.input_file_name)
     print(len(df))

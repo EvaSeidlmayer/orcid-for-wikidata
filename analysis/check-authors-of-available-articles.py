@@ -31,13 +31,12 @@ def main():
 
     with open(args.log_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['orcid_origin', 'pmid','pmc', 'doi', 'wosuid', 'eid', 'dnb', 'article_qnr', 'all_authors_qnr'])
+        csv_writer.writerow(['orcid_origin', 'pmid','pmc', 'doi', 'wosuid', 'eid', 'dnb', 'article_qID', 'all_authors_qID'])
         try:
             for id in orcid_data.values:
                 authors = []
                 query= f'''SELECT distinct ?author
                         WHERE {{wd:{id[7]} wdt:P50 ?author }}'''
-                #
                 time.sleep(1)
 
                 print(query)
@@ -47,10 +46,10 @@ def main():
                 if (len(results['results']['bindings'])) > 0:
                     for res in results['results']['bindings']:
                         authors.append(res['author']['value'].rsplit('/', 1)[1])
-                    author_qnr = authors
+                    author_qID = authors
                 else:
-                    author_qnr = ''
-                infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], id[7],  author_qnr
+                    author_qID = ''
+                infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], id[7],  author_qID
                 print(infos)
                 csv_writer.writerow(infos)
 

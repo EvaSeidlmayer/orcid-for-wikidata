@@ -31,9 +31,9 @@ def get_result(query, id):
         try:
             if (len(results['results']['bindings'])) > 0:
                 for res in results['results']['bindings']:
-                    article_qnr = res['item']['value'].rsplit('/', 1)[1]
-                    # print(article_qnr)
-                    infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qnr
+                    article_qID = res['item']['value'].rsplit('/', 1)[1]
+                    # print(article_qID)
+                    infos = id[0], id[1], id[2], id[3], id[4], id[5], id[6], article_qID
                     print('infos', infos)
             #if results == QueryBadFormed :
              #   continue
@@ -51,7 +51,7 @@ def main():
 
     with open(args.output_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qnr'])
+        csv_writer.writerow(['orcid','pmid','pmc','doi', 'wosuid', 'eid','dnb', 'article-qID'])
 
         with open(args.input_file_name) as csvfile:
             csv_reader = csv.reader(csvfile)
