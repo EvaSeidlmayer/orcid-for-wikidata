@@ -18,7 +18,7 @@ import logging
 import pandas as pd
 import sys
 from ast import literal_eval
-import pprint as pp
+
 
 # create a template with article_qnr, missing author statement P50, author_qnr and name string of author
 

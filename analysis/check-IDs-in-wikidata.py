@@ -10,11 +10,8 @@ __version__ = "1 "
 
 
 import argparse
-import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
 import csv
-import time
-from re import search
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
