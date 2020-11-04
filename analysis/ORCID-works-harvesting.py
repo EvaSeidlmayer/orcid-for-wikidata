@@ -1,25 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+__description__ = "Extraction of publications (author ORCID, IDs as DOI, WOS, PubMed-ID, title, subtitel) from ORCID XML"
 __author__ = "Eva Seidlmayer"
-__copyright__ = ""
 __credits__ = ["Eva Seidlmayer", "Konrad U. Foerstner"]
-__license__ = ""
+__license__ = "ISC license"
 __version__ = "1.0"
 __maintainer__ = "Eva Seidlmayer"
 __github__ = "https://github.com/foerstner-lab/TIP-lib"
 __status__ = "Production"
-__description__ = "Extraction of publications (author ORCID, IDs as DOI, WOS, PubMed-ID, title, subtitel) from ORCID XML"
 
-import urllib.request
-import csv
-import re
-import sys
+
+
 import pandas as pd
-import tarfile
 import xmltodict
-from pprint import pprint
-import subprocess
 from collections import defaultdict
 import glob
 import argparse
@@ -38,7 +32,6 @@ class ORCIDData:
 
         if works_xml_txt is not None:
             self._preprocess_data()
-            #print('funktioniert auch 1')
         else:
             print('Enter ORCID archive or download URL')
 
@@ -112,8 +105,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     files = glob.glob(f'{args.orcid_xml_path}/**/*works*.xml' , recursive=True)
-    #print(files)
-    #sys.exit()
+
 
     for file in files:
         publication = ORCIDData(works_xml_txt=file)
