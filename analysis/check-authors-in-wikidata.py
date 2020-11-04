@@ -13,7 +13,7 @@ import argparse
 import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
 import csv
-import time
+
 
 user_agent = "TakeItPersonally, https://github.com/foerstner-lab/TIP-lib, seidlmayer@zbmed.de"
 wd_url = SPARQLWrapper("https://query.wikidata.org/sparql", agent=user_agent)
@@ -29,7 +29,7 @@ def main():
 
     with open(args.log_file_name, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(['author_qnr', 'orcid', 'given_name', 'family_name', 'affiliation',
+        csv_writer.writerow(['author_qID', 'orcid', 'given_name', 'family_name', 'affiliation',
                                                           'affiliation_id', 'affiliation_id_source', 'start_date_year'])
         try:
             for orcid in orcid_data.values:
@@ -39,23 +39,20 @@ def main():
                             ?item wdt:P31 wd:Q5 .
                             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE], ar,be,bg,bn,ca,cs,da,de,el,en,es,et,fa,fi, fr,he,hi,hu,hy,id,it,ja,jv,ko,nb,nl,eo,pa,pl,pt,ro,ru,sh,sk,sr,sv,sw,te,th,tr,uk,yue,vec,vi,zh"}}
                             }}'''
-                #time.sleep(3)
                 wd_url.setQuery(query)
                 wd_url.setReturnFormat(JSON)
                 results = wd_url.query().convert()
                 if (len(results['results']['bindings'])) > 0:
                     for res in results['results']['bindings']:
-                        author_qnr = res['item']['value'].rsplit('/', 1)[1]
+                        author_qID = res['item']['value'].rsplit('/', 1)[1]
                 else:
-                    author_qnr = ''
+                    author_qID = ''
 
-                infos = author_qnr, orcid[0], orcid[1], orcid[2], orcid[3], orcid[4], orcid[5], orcid[6]
+                infos = author_qID, orcid[0], orcid[1], orcid[2], orcid[3], orcid[4], orcid[5], orcid[6]
                 print(infos)
                 csv_writer.writerow(infos)
 
         except:
             pass
-
-
 
 main()

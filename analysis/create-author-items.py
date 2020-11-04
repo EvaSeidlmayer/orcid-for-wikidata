@@ -145,8 +145,8 @@ def item_exists(row, wd_url):
     logging.debug(results)
 
     if len(results['results']['bindings']) > 0:
-        qnr = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
-        logging.info(f'skipping {orcid}: {qnr}')
+        qID = results['results']['bindings'][0]['item']['value'].rsplit('/', 1)[1]
+        logging.info(f'skipping {orcid}: {qID}')
         return True
     else:
         return False
