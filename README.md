@@ -75,7 +75,7 @@ Afterwards we can **check if those articles** indicated with PMID, PMC, DOI, Sco
 Use the file you just created in the last step as input-file!
 As output-file you get information like this: 
 
-| orcid | pmid | pmc | doi | eid | dnb | article-qnr|
+| orcid | pmid | pmc | doi | eid | dnb | article-qID|
 |----|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
 | 0000-0002-7499-1391 | 17147832 | nan | 10.1186/1471-2458-6-293 | 000242933800001 | 2-s2.0-33845506869 | Q33265524 |
 | 0000-0002-7499-1391 | 8478144 | nan | nan | nan | 2-s2.0-0027309495 | Q70670731 |
@@ -104,7 +104,7 @@ For every article-Q-Nr we request the public Wikidata-API if there is already an
 
      ./analysis/check-authors-of-available-articles.py available-articles-in-wd_1.csv available-articles-available-authors_1.csv
 
-| orcid_origin | pmid | doi | article_qnr | all_authors_qnr |
+| orcid_origin | pmid | doi | article_qID | all_authors_qID |
 |----|:---:|:----:|:----:|----:|
 | 0000-0001-8724-3942 | 20530968.0 | 10.1159/000315458 | Q33597585 | "['Q42798270', 'Q43055649', 'Q43055657', 'Q64764410'] |
 | 0000-0001-8724-3942 | 19258708.0 | 10.1159/000206635 | Q43481032 | "['Q37828665', 'Q41111247', 'Q42798270', 'Q43055649', 'Q53203014', 'Q64495393']" |
@@ -127,7 +127,7 @@ Analogue to the check for existing Q-Nr for publication-items in Wikidata, we al
      
 Here we get: 
 
-| author_qnr| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+| author_qID| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
 |----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
 | 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
 | Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
@@ -146,13 +146,13 @@ Applying the ORCID-ids of the rows we merge the just created csv-file of authors
      analysis/modify-author-statements-in-article-items.py  available-articles-available-authors_1.csv  log_2020-07-09.log 
 
 
-| author_qnr| orcid | given_name | family_name | ... | article_qnr | all_authors_qnr |
+| author_qID| orcid | given_name | family_name | ... | article_qID | all_authors_qID |
 |----|:---:|:----:|:----:|:----:|:----:|----:|
 | Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q41076907 |['Q44536697', 'Q64676460'] |
 | Q44536697 | 0000-0002-6882-4191 | 'Alexander' | 'Liberzon' | ... | Q48935002 |['Q44536697'] |
 | Q47701823 | 0000-0002-5466-8191 | 'Rafael' | 'de Assis da Silva' | ... | Q39900762 | ['Q85737930'] |
 
-The code checks if the author_qnr of an article is already listed in the item (= all_author_qnr).
+The code checks if the author_qID of an article is already listed in the item (= all_author_qID).
 If the author is not listed yet the code creates a template and push it to Wikidata. (Actually, it does not as we do not have Bot-rights.)  
 
 
