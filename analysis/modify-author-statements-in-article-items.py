@@ -33,21 +33,6 @@ def create_template_article_item(row):
         }
     }
 
-
-# create template for test-instance containing specific properties
-'''
-def create_template_article_item(row):
-    return {
-        "id":row['article_qID'],
-        "claims": {
-            "P242": {
-                "value": row['author_qID'],
-                "qualifier": [{"P80807": row['given_name']}]
-            }
-        }
-    }
-'''
-
 # start a subprocess applying Wikibase-CLI to modify the article item using the above created template containig the missing author statement
 
 def edit_item(row, wikidata_cli_executable, log_file_name):
@@ -75,6 +60,7 @@ def main():
     parser.add_argument("--dry", action='store_true')
     parser.add_argument("--quiet", action='store_true')
     parser.add_argument("available_articles_available_authors_csv")
+    parser.add_argument("available_ORCID_authors_in_WD")
     parser.add_argument("log_file_name")
     args = parser.parse_args()
     counter = 0
@@ -85,9 +71,15 @@ def main():
     if counter == 5:
         sys.exit()
     wikidata_authors = read_csv(args.available_articles_available_authors_csv)
-    orcid_authors = read_csv("../available-authors-in-wd-2020-06-20.csv")
+    wikidata_authors = wikidata_authors.rename(columns={'qID' : 'article_qID', 'allauthors_QID':'all_authors_qID'})
+    print(wikidata_authors.head())
+    print('hhhj')
+
+    orcid_authors = read_csv(args.available_ORCID_authors_in_WD)
     orcid_authors = orcid_authors.drop_duplicates()
-    wikidata_authors = wikidata_authors.rename(columns={'orcid_origin' : 'orcid'})
+    orcid_authors = orcid_authors.rename(columns={'qID':'author_qID'})
+    print(orcid_authors.head())
+
     all_df = pd.merge(orcid_authors, wikidata_authors, how='right', on='orcid')
     all_df['all_authors_qID'].fillna('[]', inplace=True)
     all_df['all_authors_qID'] = all_df['all_authors_qID'].apply(literal_eval)
