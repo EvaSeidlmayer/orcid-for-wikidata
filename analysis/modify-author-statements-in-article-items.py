@@ -50,8 +50,8 @@ def edit_item(row, wikidata_cli_executable, log_file_name):
         print(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode('utf-8'))
-            f.write(str(result) + '\n')
-            counter =+1
+            f.write(json.dumps(result) + '\n')
+            counter +1
 
 
 def main():
@@ -73,7 +73,6 @@ def main():
     wikidata_authors = read_csv(args.available_articles_available_authors_csv)
     wikidata_authors = wikidata_authors.rename(columns={'qID' : 'article_qID', 'allauthors_QID':'all_authors_qID'})
     print(wikidata_authors.head())
-    print('hhhj')
 
     orcid_authors = read_csv(args.available_ORCID_authors_in_WD)
     orcid_authors = orcid_authors.drop_duplicates()
