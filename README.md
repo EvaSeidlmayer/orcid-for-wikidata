@@ -45,7 +45,7 @@ Since this, harvesting of the needed information by the provided shell script ca
 
 ***************
 
-### 1. Preparation ORCID data
+### 1. Preparation _ORCID_ data
 
 Download the ORCID database dump (see <https://orcid.org/content/orcid-public-data-file-use-policy>), e.g. <https://doi.org/10.23640/07243.9988322.v2> for October 2019. You do not need to unpack the  tar.gz-archive. Besides the multiple _activities_-files containing information on works, affiliation, education, fundings, memberships etc. of the registered researchers only a single meta-file contains the basic information on the researchers called _summaries_. 
 The ORCID data consists of eleven "activity" files containing information on publications, education, employement etc.
@@ -55,7 +55,7 @@ From ORCID we create a data set on publications an IDs (1.1) and a data set on t
 
 *********************
 
-#### 1.1  Harvest publication IDs from ORCID
+#### 1.1  Harvest _publication_ IDs from ORCID
 
 With ORCID-ids-harvesting.py you **harvest PMID, PMC, DOI, WOS-ID, DNB and ORCID of the author from the ORCID.tar.gz archive**.
 With adding the ORCID.tar.gz path as input-file and an output file:
@@ -77,7 +77,7 @@ Then we check if those articles are already listed in Wikidata. Only already exi
 
 ********************
 
-#### 1.2 Harvest author information from ORCID
+#### 1.2 Harvest _author_ information from ORCID
 
 We use ORCID-author-infos-harvesting.py to **harvest information on authors**.
 Please add the summary file as input and define an output file name. 
@@ -95,13 +95,13 @@ From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 6
 
 ******************************
 
-### 2. Preparation Wikidata data 
+### 2. Preparation _Wikidata_ data 
 As we experienced a much better result by using the Wikidata dump instead of the Wikidata API (ORCID-for-Wikidata v.1), we recommend to download a Wikidata dump:
  https://dumps.wikimedia.org/wikidatawiki/entities/latest-truthy.nt.bz2 (currently, 25GB compressed!) 
 
-*********************************++++++
+*********************************
 
-#### 2.1  Harvest data on publications from Wikdiata
+#### 2.1  Harvest data on _publications_ from Wikdiata
 Extract all properties on identifiers with the following  shell commands:
 *DOI (Digital Object Identifier) = P356:  
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > doi.txt
@@ -139,7 +139,7 @@ Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-
 
 ********************
 
-#### 2.2 Harvest data on registered authors from Wikidata
+#### 2.2 Harvest data on registered _authors_ from Wikidata
 
 * registered authors: P50
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P50>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
@@ -153,7 +153,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 ***************
 
-### 3.1 Compiling the data set on publications by combining data from Wikidata and ORCID
+### 3.1 Compiling the data set on _publications_ by combining data from Wikidata and ORCID
 
 * Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script wikidata-orcid-publication-ids-mapping.py   
 
@@ -161,7 +161,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 The result looks as follows:
 
-|qID | orcid | doi | pmc | pmid | dnb |eid |
+|publication_qID | orcid | doi | pmc | pmid | dnb |eid |
 |----|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
 | Q61449719 | 0000-0003-4861-0636 | 10.3987/COM-14-S(K)73 ||||
 | Q60656124 | 0000-0003-4861-0636 | 10.1039/C6RA14435G ||||
@@ -175,7 +175,7 @@ It contains the subset of all publications listed in the chosen ORCID-file that 
 
 The script wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
    
-| publication QID | all_authors QID| 
+| publication_qID | all_authors_qID| 
 |----|:----:|
 | Q101012477 |  Q1655369 Q25350074 Q1114742 Q25350074 |
 | Q101010935 | Q57912454 Q2158896 Q6270412 |
@@ -184,14 +184,14 @@ The script wikidata_allauthors.py groups all listed authors of an article QID an
 
 The final shape of the publication data set is:
 
-|qID | orcid | doi | pmc | pmid | dnb | eid | all_authors_qID |
+|publication_qID | orcid | doi | pmc | pmid | dnb | eid | all_authors_qID |
 |----|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|-----:|
 | Q42530171 | 0000-0003-2743-0337 ||| 16647637.0 ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
 | Q48003384 | 0000-0002-0997-4384 |||| 2-s2.0-84994508140,"['Q47067377', 'Q60393087']" |
 
 *******************
 
-### 3.2 Limiting down ORCID researchers to those who are registered to Wikidata
+### 3.2 Limiting down ORCID _auhtors_ to those who are registered to Wikidata
 
 * In order to create the data set on authors based on ORCID supplemented with the Q-ID from Wikidata we just combine the data set we created from ORCID in 1.2 (ORCID-author-infos.csv) and
 match it with the data we harvested from Wikidata in 2.2. (orcid.txt)
@@ -209,9 +209,9 @@ We call the generated data final-author-data.csv
 
 
 ******************************
-### 4. Register missing authors to Wikidata publication items
+### 4. Register missing authors to Wikidata publication items (OrcBot)
 
-the script combines both datasets generated in 3. using "orcid" as key. It checks if the author who claims in ORCID database to be originator of a work is already listed as author with property  P50.
+The script combines both datasets generated in 3. using "orcid" as key. It checks if the author who claims in ORCID database to be originator of a work is already listed as author with property  P50.
      
      analysis/modify-author-statements-in-article-items.py  final-publication-data-1.csv final-author-data.csv log_2020-11-25.json
 
@@ -221,3 +221,5 @@ It generates a json file like this:
 
 ..and uploads it using Wikidata CLI tool. 
 example: Q27019745.json
+
+Voilà!
