@@ -43,7 +43,7 @@ Also the check for registered originator to an article item depend on the API.
 Ass we had a great loss during the recall we changed to download the complete Wikdiata dump. 
 Since this, harvesting of the needed information by the provided shell script can be carried out much more fast and much more efficient in terms of quantity. 
 
-***************+
+***************
 
 ### 1. Preparation ORCID data
 
@@ -88,8 +88,8 @@ It will give you information like this:
 
 | orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
 |----|:---:|:----:|:----:|:----:|:----:|----:|
-0000-0002-4807-379X,"('Esha', 'Kundu')","('Curtin University', '1649', 'RINGGOLD', '2019')"
-0000-0002-8182-679X,"('Alla', None)","('Pavlo Tychyna Uman State Pedagogical University', '416526', 'RINGGOLD', '1971')"         
+| 0000-0002-4807-379X |"('Esha'| 'Kundu')" |"('Curtin University'| '1649' |'RINGGOLD'| '2019')" |
+| 0000-0002-8182679X |"('Alla'| None)" | "('Pavlo Tychyna Uman State Pedagogical University' | '416526' | 'RINGGOLD' | '1971')" |        
 
 From the ORCID_summaries_2019.tar.gz archive we retrieved basic information on 673 058 researchers. We could use these information to set up a basic information item for authors if needed.
 
@@ -132,10 +132,10 @@ Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-
 
 | qID | pmc | dnb | pmid | doi | eid |
 |----|:----:|:----:|:----:|:----:|:----:|
-Q17485067,3121651,,21609473,10.1186/1475-2875-10-144,
-Q17485680,3274487,,22185615,10.1186/1475-2875-10-378,
-Q17485684,2885984,,20563310,10.1371/JOURNAL.PMED.1000290,
-Q17485685,3146776,,21893544,10.1098/RSTB.2011.0091,
+| Q17485067 | 3121651 | | 21609473 | 10.1186/1475-2875-10-144 | 
+| Q17485680 | 3274487 | | 22185615 | 10.1186/1475-2875-10-378 | 
+| Q17485684 | 2885984 | | 20563310 | 10.1371/JOURNAL.PMED.1000290 | 
+| Q17485685 | 3146776  | | 21893544 |10.1098/RSTB.2011.0091 | 
 
 ********************
 
@@ -163,9 +163,9 @@ The result looks as follows:
 
 |qID | orcid | doi | pmc | pmid | dnb |eid |
 |----|:-----:|:-----:|:-----:|:-----:|:-----:|-----:|
-Q61449719,0000-0003-4861-0636,10.3987/COM-14-S(K)73,,,,
-Q60656124,0000-0003-4861-0636,10.1039/C6RA14435G,,,,
-Q57858467,0000-0003-4861-0636,10.1039/C7GC00571G,,,,
+| Q61449719 | 0000-0003-4861-0636 | 10.3987/COM-14-S(K)73 ||||
+| Q60656124 | 0000-0003-4861-0636 | 10.1039/C6RA14435G ||||
+| Q57858467 | 0000-0003-4861-0636 | 10.1039/C7GC00571G |||| 
 
 It contains the subset of all publications listed in the chosen ORCID-file that have Q-IDs. Since they have a Q-ID we know they are registered in Wikidata.  
 
@@ -177,8 +177,8 @@ The script wikidata_allauthors.py groups all listed authors of an article QID an
    
 | publication QID | all_authors QID| 
 |----|:----:|
-Q101012477, Q1655369 Q25350074 Q1114742 Q25350074
-Q101010935, Q57912454 Q2158896 Q6270412 
+| Q101012477 |  Q1655369 Q25350074 Q1114742 Q25350074 |
+| Q101010935 | Q57912454 Q2158896 Q6270412 |
 
 ...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using QID as key.
 
@@ -186,8 +186,8 @@ The final shape of the publication data set is:
 
 |qID | orcid | doi | pmc | pmid | dnb | eid | all_authors_qID |
 |----|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|-----:|
-Q42530171,0000-0003-2743-0337,,,16647637.0,,,"['Q42114754', 'Q42305518', 'Q89834128']"
-Q48003384,0000-0002-0997-4384,,,,,2-s2.0-84994508140,"['Q47067377', 'Q60393087']"
+| Q42530171 | 0000-0003-2743-0337 ||| 16647637.0 ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
+| Q48003384 | 0000-0002-0997-4384 |||| 2-s2.0-84994508140,"['Q47067377', 'Q60393087']" |
 
 *******************
 
