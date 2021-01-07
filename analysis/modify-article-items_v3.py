@@ -147,7 +147,7 @@ def create_p2093_template(p2093name, author_dict, row):
             "P50": {
                 "value": row["author_qID"],
                 "qualifiers": [
-                    {"P1932": row["given_name"]},
+                    {"P1932": row["name"]},
                     {"P1545": author_dict.get(p2093name)},
                 ],
                 "references": [{"P248": "Q104707600"}],
@@ -163,7 +163,7 @@ def create_plain_template(row):
         "claims": {
             "P50": {
                 "value": row["author_qID"],
-                "qualifiers": [{"P1932": row["given_name"]}],
+                "qualifiers": [{"P1932": row["name"]}],
                 "references": [{"P248": "Q104707600"}],
             }
         },
@@ -202,7 +202,7 @@ def main():
     print(wikidata_authors.head())
 
     # open data set containing all information on authors from ORCID including author QID (if existing)
-    orcid_authors = read_csv(args.available_ORCID_authors_in_WD)
+    orcid_authors = read_csv(args.available_ORCID_authors_in_WD, index_col=False)
     orcid_authors = orcid_authors.drop_duplicates()
     orcid_authors = orcid_authors.rename(columns={"qID": "author_qID"})
     print(orcid_authors.head())
@@ -212,6 +212,7 @@ def main():
     all_df = pd.merge(orcid_authors, wikidata_authors, how="right", on="orcid")
     all_df["all_authors_qID"].fillna("[]", inplace=True)
     all_df["all_authors_qID"] = all_df["all_authors_qID"].apply(literal_eval)
+    print('0: data sets had been merged')
 
     # setting counters for statistical use
     no_author = 0
