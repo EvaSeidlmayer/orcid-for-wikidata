@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 __description__ = "Harvest work-files from ORCID database; output ORCID of authors, author's publication PMID and DOI"
-__author__ = "Lukas Galke, Eva Seidlmayer <eva.seidlmayer@gmx.net>"
-__copyright__ = "2020 by Lukas Galke & Eva Seidlmayer"
+__author__ = " Eva Seidlmayer <eva.seidlmayer@gmx.net>"
+__copyright__ = "2021 Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
-__version__ = "1 "
+__version__ = "3"
 
 import tarfile
 import xmltodict
@@ -40,7 +40,7 @@ def get_affiliation(affiliation):
            affiliation['common:organization']['common:disambiguated-organization'].get('common:disambiguation-source'), \
            affiliation['common:start-date'].get('common:year')
 
-def harvest_author_paper(path, output):
+def harvest_author_paper(orcid, output):
     """
     Extract ORCID-summaries.tar.gz archive
     Calling get infos functions
@@ -51,7 +51,7 @@ def harvest_author_paper(path, output):
         csv_writer.writerow(['orcid', 'given_name', 'family_name', 'affiliation',
                              'affiliation_id', 'affiliation_id_source', 'start_date_year'])
 
-        tars = glob.glob(f'{path}/ORCID_2019_summaries.tar.gz')
+        tars = glob.glob(orcid)
         for tar in tars:
             with tarfile.open(tar) as f:
                 for member in f:
@@ -76,13 +76,13 @@ def harvest_author_paper(path, output):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--orcid_path')
-    parser.add_argument('--output_file')
+    parser.add_argument('orcid_summaries_archive')
+    parser.add_argument('output_file')
     args = parser.parse_args()
-    path = args.orcid_path
+    orcid = args.orcid_summaries_archive
     output = args.output_file
 
-    harvest_author_paper(path, output)
+    harvest_author_paper(orcid, output)
 
 
 if __name__ == '__main__':
