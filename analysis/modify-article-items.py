@@ -146,7 +146,19 @@ def create_p2093_template(p2093name, author_dict, row):
         "claims": {
             "P50": {
                 "value": row["author_qID"],
-                "qualifiers": [
+                "qualifier":  {"P1545": author_dict.get(p2093name)},
+                "references": [{"P248": "Q104707600"}],
+            }
+        },
+    }
+
+'''
+
+        "id": row["article_qID"],
+        "claims": {
+            "P50": {
+                "value": row["author_qID"],
+                "qualifier": [
                     {"P1932": row["name"]},
                     {"P1545": author_dict.get(p2093name)},
                 ],
@@ -154,8 +166,7 @@ def create_p2093_template(p2093name, author_dict, row):
             }
         },
     }
-
-
+'''
 def create_plain_template(row):
     print("5b: Create plain template")
     return {
@@ -163,7 +174,7 @@ def create_plain_template(row):
         "claims": {
             "P50": {
                 "value": row["author_qID"],
-                "qualifiers": [{"P1932": row["name"]}],
+                "qualifier": [{"P1932": row["name"]}],
                 "references": [{"P248": "Q104707600"}],
             }
         },
