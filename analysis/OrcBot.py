@@ -150,7 +150,7 @@ def create_p2093_template(p2093name, author_dict, row):
                     {"P1932": row["name"]},
                     {"P1545": author_dict.get(p2093name)},
                 ],
-                "references": [{"P248": "Q104707600"}],
+            "references": [{"P248": "Q104707600"}],
             }
         },
     }
