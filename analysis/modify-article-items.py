@@ -111,7 +111,7 @@ def edit_item_p2093(p2093name, author_dict, row, log_file_name):
             entity_json_fh.write(json.dumps(item))
 
         creation_result = subprocess.run(
-            f"wb edit-entity ./{tmp_json_file}".split(), capture_output=True
+            f"wb edit-entity ./{tmp_json_file} --dry".split(), capture_output=True
         )
         logging.info(creation_result)
         if creation_result.returncode == 0:
@@ -146,18 +146,6 @@ def create_p2093_template(p2093name, author_dict, row):
         "claims": {
             "P50": {
                 "value": row["author_qID"],
-                "qualifier":  {"P1545": author_dict.get(p2093name)},
-                "references": [{"P248": "Q104707600"}],
-            }
-        },
-    }
-
-'''
-
-        "id": row["article_qID"],
-        "claims": {
-            "P50": {
-                "value": row["author_qID"],
                 "qualifier": [
                     {"P1932": row["name"]},
                     {"P1545": author_dict.get(p2093name)},
@@ -166,7 +154,7 @@ def create_p2093_template(p2093name, author_dict, row):
             }
         },
     }
-'''
+
 def create_plain_template(row):
     print("5b: Create plain template")
     return {
