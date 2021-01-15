@@ -4,7 +4,7 @@
 __description__ = (
     "compares known authors from ORCID with author statements in Wikidata article item; "
     "if the author statement is not complete the article item is modified applying Wikibase CLI"
-    "we introduce reference statement 'ORCID public data' "
+    "we introduce reference statement 'ORCID public data 2020' (Q104707600)"
     "we transfer P1545 series ordinal if given in P2093 author string name to the P50 statement "
     "we delete the P2093 author string name claim after registration of P50"
 )
