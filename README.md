@@ -213,7 +213,7 @@ The final shape of the publication data set is:
 
 *******************
 
-### 3.2 Limiting down ORCID _auhtors_ to those who are registered to Wikidata
+### 3.2 Limiting down ORCID _authors_ to those who are registered to Wikidata
 
 * In order to create the data set on authors based on ORCID supplemented with the Q-ID from Wikidata we just combine the data set we created from ORCID in 1.2 (ORCID-author-infos.csv) and
 match it with the data we harvested from Wikidata in 2.2. (orcid.txt)
@@ -235,7 +235,7 @@ We call the generated data final-author-data.csv
 
 The script combines both datasets generated in 3. using "orcid" as key. It checks if the author who claims in ORCID database to be originator of a work is already listed as author with property  P50.
      
-     analysis/modify-article-items.py  final-publication-data-1.csv final-author-data.csv log_2020-11-25.json
+     analysis/OrcBot.py  final-publication-data-1.csv final-author-data.csv log_2020-11-25.json
 
 
 It generates a json file like this:
