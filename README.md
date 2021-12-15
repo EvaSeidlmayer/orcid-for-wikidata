@@ -92,7 +92,7 @@ It will give you information like this:
 | 0000-0002-8182679X |"('Alla'| None)" | "('Pavlo Tychyna Uman State Pedagogical University' | '416526' | 'RINGGOLD' | '1971')" |        
 
 From the ORCID_2020_10_summaries.tar.gz archive we retrieved basic information on 877 616 researchers. We could use the information to set up a basic information item for authors if needed.
-
+From the ORCID 2021 file we retrieved information  on 1 061 170 researchers.  
 ******************************
 
 ### 2. Preparation _Wikidata_ data 
