@@ -86,18 +86,20 @@ def harvest_author_paper(path, output):
 
 
 def main():
-    tarfile_path = glob.glob("*.tar.gz")
-    author_paper= []
-    for tarfile_path in tarfile_path:
-        author_paper.extend(harvest_author_paper(tarfile_path))
     parser = argparse.ArgumentParser()
     parser.add_argument('orcid_path')
     parser.add_argument('output_file')
     args = parser.parse_args()
-    path = args.orcid_path
+    #path = args.orcid_path
     output = args.output_file
+    tarfile_paths = glob.glob("*.tar.gz")
+    author_paper= []
+    for tarfile_path in tarfile_paths:
+        author_paper.extend(harvest_author_paper(tarfile_path, output))
 
-    harvest_author_paper(path, output)
+
+
+    #harvest_author_paper(path, output)
 
 
 
