@@ -95,7 +95,10 @@ def main():
     tarfile_paths = glob.glob("*.tar.gz")
     author_paper= []
     for tarfile_path in tarfile_paths:
-        author_paper.extend(harvest_author_paper(tarfile_path, output))
+        try:
+            author_paper.extend(harvest_author_paper(tarfile_path, output))
+        except:
+            continue
 
 
 

@@ -102,7 +102,7 @@ As we experienced a much better result by using the Wikidata dump instead of the
 *********************************
 
 #### 2.1  Harvest data on _publications_ from Wikdiata
-Extract all properties on identifiers with the following  shell commands:
+Extract all identifiers (DOI, PMID, PMC, EID, DNB) and Q-IDs of articles with the following shell commands:
 
 *DOI (Digital Object Identifier) = P356:  
 
@@ -144,7 +144,33 @@ result: Q655717 P1292 041382137 .
 
 reads: An Article with Q-ID Q655717 has a DNB (P1292) that is: 041382137.
 
-Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-ids.csv which looks like:
+
+Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-ids.csv. As the files are so hugh we 
+first merged doi.txt, pmid.txt and pmc.txt in a first step. And incleded eid.txt an dnb.txt in a second stript.
+
+######first step:
+ _load txt data - only those columns we need: article-QID and identifier_
+
+    doi_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
+    pmc_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmc.txt', sep= " ",   error_bad_lines=False, usecols=[0,2], low_memory=False)
+    pmid_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmid.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False, nrows=6863158, skiprows=20589474)
+
+_rename columns_
+
+    doi_df.rename(columns={doi_df.columns[0]:"article-QID",doi_df.columns[1]:"DOI"}, inplace = True)
+    pmc_df.rename(columns={pmc_df.columns[0]:"article-QID",pmc_df.columns[1]:"PMC"}, inplace = True)
+    pmid_df.rename(columns={pmid_df.columns[0]:"article-QID",pmid_df.columns[1]:"PMID"}, inplace = True)
+
+_merge data frames in chunks_
+
+    df_doi_pmc = pd.merge(doi_df,pmc_df, on='article-QID', how='outer')
+    df_doi_pmc_pmid = pd.merge(df_doi_pmc, pmid_df, on="article-QID", how = 'outer')
+
+_save to csv_
+
+    df_doi_pmc_pmid.to_csv('../data/Wikidata-publications-ids.csv')
+
+and again, the same for eid.txt and dnb.txt in a second step.  WIKIDATA-publications-ids.csv looks like:
 
 | qID | pmc | dnb | pmid | doi | eid |
 |----|:----:|:----:|:----:|:----:|:----:|
@@ -156,6 +182,8 @@ Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-
 ********************
 
 #### 2.2 Harvest data on registered _authors_ from Wikidata
+In order to add information only on those authors who are already listed in Wikidata we also harvest existing authors and ORCID-IDs. 
+We need this file in 3.2.
 
 * registered authors: P50
 
