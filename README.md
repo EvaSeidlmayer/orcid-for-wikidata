@@ -153,13 +153,13 @@ first merged doi.txt, pmid.txt and pmc.txt in a first step. And incleded eid.txt
 
     doi_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
     pmc_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmc.txt', sep= " ",   error_bad_lines=False, usecols=[0,2], low_memory=False)
-    pmid_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmid.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False, nrows=6863158, skiprows=20589474)
+    pmid_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmid.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
 
 _rename columns_
 
-    doi_df.rename(columns={doi_df.columns[0]:"article-QID",doi_df.columns[1]:"DOI"}, inplace = True)
-    pmc_df.rename(columns={pmc_df.columns[0]:"article-QID",pmc_df.columns[1]:"PMC"}, inplace = True)
-    pmid_df.rename(columns={pmid_df.columns[0]:"article-QID",pmid_df.columns[1]:"PMID"}, inplace = True)
+    doi_df.rename(columns={doi_df.columns[0]:"qID",doi_df.columns[1]:"doi"}, inplace = True)
+    pmc_df.rename(columns={pmc_df.columns[0]:"qID",pmc_df.columns[1]:"pmc"}, inplace = True)
+    pmid_df.rename(columns={pmid_df.columns[0]:"qID",pmid_df.columns[1]:"pmid"}, inplace = True)
 
 _merge data frames in chunks_
 

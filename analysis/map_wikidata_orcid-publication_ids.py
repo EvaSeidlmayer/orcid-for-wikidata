@@ -14,7 +14,7 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(description=__description__)
     parser.add_argument("ORCID_publication_ID_file")
-    parser.add_argument("Wikidiata_publication_ID_file")
+    parser.add_argument("Wikidata_publication_ID_file")
     parser.add_argument("orcid_for_wikidata_publications")
     args = parser.parse_args()
 
