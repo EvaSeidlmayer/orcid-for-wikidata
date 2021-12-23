@@ -185,15 +185,15 @@ and again, the same for eid.txt and dnb.txt in a second step.  WIKIDATA-publicat
 In order to add information only on those authors who are already listed in Wikidata we also harvest existing authors and ORCID-IDs. 
 We need this file in 3.2.
 
-* registered authors: P50
+registered authors: P50
 
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P50>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
 
 result: Q101012477 P50 Q1655369 .
 
-reads: An article Q101012477 has an author (P50) with has the Wikidata Q-ID: Q1655369 .
+reads: An article Q101012477 has an author (P50) who has the Wikidata Q-ID: Q1655369 .
 
-* author who have an ORCID iD: P496 
+author who have an ORCID iD: P496 
 
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P496>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > orcid.txt
 
@@ -205,7 +205,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 ### 3.1 Compiling the data set on _publications_ by combining data from Wikidata and ORCID
 
-* Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script wikidata-orcid-publication-ids-mapping.py   
+Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script wikidata-orcid-publication-ids-mapping.py   
 
     ./map_wikidata_orcid-publication_ids.py ORCID-ids_1.csv WIKIDATA-publication-ids.csv ORCID_publications_qid-1.csv
 
@@ -220,7 +220,8 @@ The result looks as follows:
 It contains the subset of all publications listed in the chosen ORCID-file that have Q-IDs. Since they have a Q-ID we know they are registered in Wikidata.  
 
 
-* Adding registered authors to the data set containing publication IDs
+Adding registered authors to the data set containing publication IDs
+
     ./analysis/wikidata_allauthors.py ORCID-ids-1.csv  orcid.txt final-publication-data-1.csv
 
 The script wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
@@ -234,10 +235,10 @@ The script wikidata_allauthors.py groups all listed authors of an article QID an
 
 The final shape of the publication data set is:
 
-|publication_qID | orcid | doi | pmc | pmid | dnb | eid | all_authors_qID |
-|----|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|-----:|
-| Q42530171 | 0000-0003-2743-0337 ||| 16647637.0 ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
-| Q48003384 | 0000-0002-0997-4384 |||| 2-s2.0-84994508140,"['Q47067377', 'Q60393087']" |
+|publication_qID | orcid |                         doi                         | pmc | pmid | dnb | eid | all_authors_qID |
+|----|:-----:|:---------------------------------------------------:|:-----:|:-----:|:-----:|:----:|-----:|
+| Q42530171 | 0000-0003-2743-0337 |||                     16647637.0                      ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
+| Q48003384 | 0000-0002-0997-4384 |||| 2-s2.0-84994508140 /// "['Q47067377', 'Q60393087']" |
 
 *******************
 
