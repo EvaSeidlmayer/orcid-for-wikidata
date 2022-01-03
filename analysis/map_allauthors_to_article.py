@@ -25,7 +25,7 @@ def main():
     ORCID = pd.read_csv(args.ORCID_publication_ids, dtype=str)
     print(ORCID.head())
 
-    #reading file harvetsed from Wikidata dump: bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
+    #reading file harvested from Wikidata dump: bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
     col_list = ['qID','property', 'allauthors_QID', 'dot']
     _WD = pd.read_csv(args.allauthors_QID, sep=' ',  names=col_list, dtype=str)
     _WD.drop(columns={'property', 'dot'}, inplace=True)

@@ -214,14 +214,13 @@ The result looks as follows:
 | Q60656124 | 0000-0003-4861-0636 | 10.1039/C6RA14435G ||||
 | Q57858467 | 0000-0003-4861-0636 | 10.1039/C7GC00571G |||| 
 
-It contains the subset of all publications listed in the chosen ORCID-file that have Q-IDs. Since they have a Q-ID we know they are registered in Wikidata.  
+It contains the subset of all publications listed in the chosen ORCID-file that have QIDs. Since they have a QID we know they are registered in Wikidata.  
 
+Now we like to add also the authors QID to the data set:
 
-Adding registered authors to the data set containing publication IDs
+    ./analysis/map_allauthors_to_article.py ORCID-ids-1.csv orcid.txt final-publication-data-1.csv
 
-    ./analysis/map_wikidata_allauthors.py ORCID-ids-1.csv allauthors.txt final-publication-data-1.csv
-
-The script map_wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
+The script map_allauthors_to_article.py groups all listed authors of an article QID and produces internally a structure like this:
    
 | publication_qID | all_authors_qID| 
 |----|:----:|
@@ -230,7 +229,7 @@ The script map_wikidata_allauthors.py groups all listed authors of an article QI
 
 ...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using QID as key.
 
-The final shape of the publication data set is:
+The final format of the publication data set is:
 
 |publication_qID | orcid |                         doi                         |                    pmc                    | pmid | dnb | eid | all_authors_qID |
 |----|:-----:|:---------------------------------------------------:|:-----------------------------------------:|:-----:|:-----:|:----:|-----:|
@@ -241,18 +240,18 @@ The final shape of the publication data set is:
 
 ### 3.2 Limiting down ORCID _authors_ to those who are registered to Wikidata
 
-* In order to create the data set on authors based on ORCID supplemented with the Q-ID from Wikidata we just combine the data set we created from ORCID in 1.2 (ORCID-author-infos.csv) and
+* In order to create the data set on authors based on ORCID supplemented with the QID from Wikidata we combine the data set we created from ORCID in 1.2 (ORCID-author-infos.csv) and
 match it with the data we harvested from Wikidata in 2.2. (orcid.txt)
 
-Performing an outer join of both data set on key "orcid" will give us a set of all ORCID researcher who are listed in Wikidata. Additionally, the author Q-ID will be added to the entry.
+Performing an outer join of both data set on key "orcid" will give us a set of all ORCID researcher who are listed in Wikidata. Additionally, the author QID will be added to the entry.
 We call the generated data final-author-data.csv
   
-| author_qID| orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
-|----|:---:|:----:|:----:|:----:|:----:|:----:|----:|
-| 59151132 | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
-| Q54452584 | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
-| Q61110015 | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
-| Q60042671 | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
+| author_qID | orcid | given_name | family_name | affiliation | affiliation_id | affiliation_id_source | start_date_year|
+|------------|:---:|:----:|:----:|:----:|:----:|:----:|----:|
+| Q59151132  | 0000-0003-1808-679X | 'Marek' | 'Radkowski' | 'Medical University of Warsaw' |  'grid.13339.3b' | 'GRID' | '1986' | nan | nan | nan | nan |
+| Q54452584  | 0000-0002-0171-879X | 'Barbara' | 'van Asch'| 'Stellenbosch University | '26697' | 'RINGGOLD' | '2015'| nan | nan | nan | nan |
+| Q61110015  | 0000-0002-7844-079X | 'Janika' | 'Nättinen' | 'Tampere University' | 'grid.5509.9' | 'GRID' | '2014' | nan | nan | nan | nan |
+| Q60042671  | 0000-0001-9494-179X | 'Georgios' | 'Dimitriadis' | 'University of California Santa Cruz' | '8787' | 'RINGGOLD' | '2017' | nan | nan | nan | nan |
 
 
 
