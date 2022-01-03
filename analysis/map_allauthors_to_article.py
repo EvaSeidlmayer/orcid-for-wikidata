@@ -4,7 +4,7 @@
 __description__ = "merging all authors listed in Wikidata related to an article QID; " \
                   "creating a file with all in Wikidata available articles and its available authors"
 __author__ = "Eva Seidlmayer <eva.seidlmayer@gmx.net>"
-__copyright__ = "2020 by Eva Seidlmayer"
+__copyright__ = "2021 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
 __version__ = "1 "
@@ -22,7 +22,7 @@ def main():
     args = parser.parse_args()
 
     #reading file containing publication IDs harvested from ORCID
-    ORCID = pd.read_csv(args.ORCID_publication-IDs, dtype=str)
+    ORCID = pd.read_csv(args.ORCID_publication_ids, dtype=str)
 
     #reading file harvetsed from Wikidata dump: bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
     col_list = ['qID','property', 'allauthors_QID', 'dot']

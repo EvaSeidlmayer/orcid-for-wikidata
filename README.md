@@ -202,7 +202,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 ### 3.1 Reducing _publications_ data set to those which are already registered in Wikidata by combining Wikidata based data set and ORCID based data set
 
-Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script wikidata-orcid-publication-ids-mapping.py   
+Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script map_wikidata-orcid-publication-ids.py   
 
     ./map_wikidata_orcid-publication_ids.py ORCID-ids_1.csv WIKIDATA-publication-ids.csv ORCID_publications_qid-1.csv
 
@@ -219,9 +219,9 @@ It contains the subset of all publications listed in the chosen ORCID-file that 
 
 Adding registered authors to the data set containing publication IDs
 
-    ./analysis/wikidata_allauthors.py ORCID-ids-1.csv  orcid.txt final-publication-data-1.csv
+    ./analysis/map_wikidata_allauthors.py ORCID-ids-1.csv  orcid.txt final-publication-data-1.csv
 
-The script wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
+The script map_wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
    
 | publication_qID | all_authors_qID| 
 |----|:----:|
@@ -234,8 +234,8 @@ The final shape of the publication data set is:
 
 |publication_qID | orcid |                         doi                         | pmc | pmid | dnb | eid | all_authors_qID |
 |----|:-----:|:---------------------------------------------------:|:-----:|:-----:|:-----:|:----:|-----:|
-| Q42530171 | 0000-0003-2743-0337 |||                     16647637.0                      ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
-| Q48003384 | 0000-0002-0997-4384 |||| 2-s2.0-84994508140 /// "['Q47067377', 'Q60393087']" |
+| Q42530171 | 0000-0003-2743-0337 |||    16647637.0    ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
+| Q48003384 | 0000-0002-0997-4384 ||| 2-s2.0-84994508140 /// "['Q47067377', 'Q60393087']" |
 
 *******************
 
