@@ -23,17 +23,18 @@ def main():
 
     #reading file containing publication IDs harvested from ORCID
     ORCID = pd.read_csv(args.ORCID_publication_ids, dtype=str)
+    print(ORCID.head)
 
     #reading file harvetsed from Wikidata dump: bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
     col_list = ['qID','property', 'allauthors_QID', 'dot']
     _WD = pd.read_csv(args.allauthors_QID, sep=' ',  names=col_list, dtype=str)
     _WD.drop(columns={'property', 'dot'}, inplace=True)
     WD = _WD.groupby(['qID'])['allauthors_QID'].apply(list)
-    print(WD)
+    print(WD.head())
 
 
     print("processing!")
-    result =  pd.merge(ORCID, WD, how= 'left', on='orcid')
+    result =  pd.merge(ORCID, WD, how= 'left', on='qID')
 
 
     print("done!")

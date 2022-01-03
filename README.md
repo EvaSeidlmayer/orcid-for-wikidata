@@ -228,7 +228,7 @@ The script map_wikidata_allauthors.py groups all listed authors of an article QI
 | Q101012477 |  Q1655369 Q25350074 Q1114742 Q25350074 |
 | Q101010935 | Q57912454 Q2158896 Q6270412 |
 
-...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using ORCID as key.
+...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using QID as key.
 
 The final shape of the publication data set is:
 
