@@ -145,10 +145,11 @@ result: Q655717 P1292 041382137 .
 reads: An Article with Q-ID Q655717 has a DNB (P1292) that is: 041382137.
 
 
-Those datasets needs to be combined in a csv-file we call WIKIDATA-publications-ids.csv. As the files are so hugh we 
-first merged doi.txt, pmid.txt and pmc.txt in a first step. And incleded eid.txt an dnb.txt in a second stript.
+Those datasets need to be combined in a csv-file we call WIKIDATA-publications-ids.csv. Since the files are hugh we 
+first merged doi.txt, pmid.txt and pmc.txt . In a second step we merge eid.txt and dnb.txt. It might also help to split big files (pmid.txt, doi.txt) in chunks
+Your approach depends on your RAM.
 
-######first step:
+###### first step:
  _load txt data - only those columns we need: article-QID and identifier_
 
     doi_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
@@ -170,7 +171,7 @@ _save to csv_
 
     df_doi_pmc_pmid.to_csv('../data/Wikidata-publications-ids.csv')
 
-and again, the same for eid.txt and dnb.txt in a second step.  WIKIDATA-publications-ids.csv looks like:
+Repeat the process for eid.txt and dnb.txt.  WIKIDATA-publications-ids.csv looks like:
 
 | qID | pmc | dnb | pmid | doi | eid |
 |----|:----:|:----:|:----:|:----:|:----:|
@@ -182,18 +183,14 @@ and again, the same for eid.txt and dnb.txt in a second step.  WIKIDATA-publicat
 ********************
 
 #### 2.2 Harvest data on registered _authors_ from Wikidata
-In order to add information only on those authors who are already listed in Wikidata we also harvest existing authors and ORCID-IDs. 
+In order to add information only on those authors who are already listed in Wikidata (P50) we also harvest existing authors and ORCID-IDs. 
 We need this file in 3.2.
-
-registered authors: P50
 
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P50>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
 
 result: Q101012477 P50 Q1655369 .
 
 reads: An article Q101012477 has an author (P50) who has the Wikidata Q-ID: Q1655369 .
-
-author who have an ORCID iD: P496 
 
     bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P496>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > orcid.txt
 
@@ -203,7 +200,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 ***************
 
-### 3.1 Compiling the data set on _publications_ by combining data from Wikidata and ORCID
+### 3.1 Reducing _publications_ data set to those which are already registered in Wikidata by combining Wikidata based data set and ORCID based data set
 
 Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script wikidata-orcid-publication-ids-mapping.py   
 
