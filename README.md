@@ -265,7 +265,8 @@ The script combines both datasets generated in 3. using "orcid" as key. It check
      
      analysis/OrcBot.py  final-publication-data-1.csv final-author-data.csv log_2020-11-25.json
 
-
+_basic functionality_
+![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/OrcBot.png "basic functionality of OrcBot")
 It generates a json file like this:
 {"id": "Q27016918", "claims": {"P50": {"value": "Q18026282", "qualifier": [{"P1932": "('Natalie', 'Batalha')"}]}}}
 
