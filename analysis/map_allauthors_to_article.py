@@ -33,7 +33,7 @@ def main():
 
 
     print("processing!")
-    result =  pd.merge(ORCID, WD, how= 'left', on='qID')
+    result =  pd.merge(ORCID, WD, how= 'left', on='orcid')
 
 
     print("done!")

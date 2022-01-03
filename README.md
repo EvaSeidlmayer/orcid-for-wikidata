@@ -219,7 +219,7 @@ It contains the subset of all publications listed in the chosen ORCID-file that 
 
 Adding registered authors to the data set containing publication IDs
 
-    ./analysis/map_wikidata_allauthors.py ORCID-ids-1.csv  orcid.txt final-publication-data-1.csv
+    ./analysis/map_wikidata_allauthors.py ORCID-ids-1.csv allauthors.txt final-publication-data-1.csv
 
 The script map_wikidata_allauthors.py groups all listed authors of an article QID and produces internally a structure like this:
    
@@ -228,14 +228,14 @@ The script map_wikidata_allauthors.py groups all listed authors of an article QI
 | Q101012477 |  Q1655369 Q25350074 Q1114742 Q25350074 |
 | Q101010935 | Q57912454 Q2158896 Q6270412 |
 
-...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using QID as key.
+...then the script merges the authors of articles to the just generated publication file (ORCID-publications_qid-1.csv) using ORCID as key.
 
 The final shape of the publication data set is:
 
-|publication_qID | orcid |                         doi                         | pmc | pmid | dnb | eid | all_authors_qID |
-|----|:-----:|:---------------------------------------------------:|:-----:|:-----:|:-----:|:----:|-----:|
+|publication_qID | orcid |                         doi                         |                    pmc                    | pmid | dnb | eid | all_authors_qID |
+|----|:-----:|:---------------------------------------------------:|:-----------------------------------------:|:-----:|:-----:|:----:|-----:|
 | Q42530171 | 0000-0003-2743-0337 |||    16647637.0    ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
-| Q48003384 | 0000-0002-0997-4384 ||| 2-s2.0-84994508140 /// "['Q47067377', 'Q60393087']" |
+| Q48003384 | 0000-0002-0997-4384 ||| 2-s2.0-84994508140 |||        "['Q47067377', 'Q60393087']"       |
 
 *******************
 
