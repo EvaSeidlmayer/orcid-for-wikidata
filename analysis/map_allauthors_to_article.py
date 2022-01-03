@@ -22,15 +22,18 @@ def main():
     args = parser.parse_args()
 
     #reading file containing publication IDs harvested from ORCID
+    # format: qID,orcid,doi,pmc,pmid,dnb,eid
+    # Q63502045,0000-0002-3619-6741,10.1039/C7RA12938F,,,,
+
     ORCID = pd.read_csv(args.ORCID_publication_ids, dtype=str)
-    print(ORCID.head())
+
 
     #reading file harvested from Wikidata dump: bzcat latest-truthy.nt.bz2 | grep 'prop/direct/P356>' | perl -pe 's|<.+?/([^/]+)>|\1|g;s|"||g' > allauthors.txt
+    # format: Q2013 P50 Q56035565 .
     col_list = ['qID','property', 'allauthors_QID', 'dot']
     _WD = pd.read_csv(args.allauthors_QID, sep=' ',  names=col_list, dtype=str)
     _WD.drop(columns={'property', 'dot'}, inplace=True)
     WD = _WD.groupby(['qID'])['allauthors_QID'].apply(list)
-    print(WD.head())
 
 
     print("processing!")

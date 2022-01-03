@@ -149,7 +149,7 @@ Those datasets need to be combined in a csv-file we call WIKIDATA-publications-i
 first merged doi.txt, pmid.txt and pmc.txt . In a second step we merge eid.txt and dnb.txt. It might also help to split big files (pmid.txt, doi.txt) in chunks
 Your approach depends on your RAM.
 
-###### first step:
+
  _load txt data - only those columns we need: article-QID and identifier_
 
     doi_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
@@ -202,6 +202,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 
 ### 3.1 Reducing _publications_ data set to those which are already registered in Wikidata by combining Wikidata based data set and ORCID based data set
 
+_map_wikipedia_orcid-publication_ids.py_
 Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script map_wikidata-orcid-publication-ids.py   
 
     ./map_wikidata_orcid-publication_ids.py ORCID-ids_1.csv WIKIDATA-publication-ids.csv ORCID_publications_qid-1.csv
@@ -216,11 +217,13 @@ The result looks as follows:
 
 It contains the subset of all publications listed in the chosen ORCID-file that have QIDs. Since they have a QID we know they are registered in Wikidata.  
 
+*******************
+_map_allauthors_to_article.py_
 Now we like to add also the authors QID to the data set:
 
-    ./analysis/map_allauthors_to_article.py ORCID-ids-1.csv orcid.txt final-publication-data-1.csv
+    ./analysis/map_allauthors_to_article.py ORCID_publications_qid-1.csv allauthors.txt final-publication-data-1.csv
 
-The script map_allauthors_to_article.py groups all listed authors of an article QID and produces internally a structure like this:
+The script map_allauthors_to_article.py groups all listed authors of an article QID and produces a structure like this internally:
    
 | publication_qID | all_authors_qID| 
 |----|:----:|
