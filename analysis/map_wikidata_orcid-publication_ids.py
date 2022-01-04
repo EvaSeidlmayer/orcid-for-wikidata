@@ -21,7 +21,7 @@ def main():
     #available columns: orcid,pmid,pmc,doi,wosuid,eid,dnb
     col_list = ['orcid','pmid','pmc','doi','eid','dnb']
     ORCID = pd.read_csv(args.ORCID_publication_ID_file, dtype=str, usecols=col_list, chunksize=1000000)
-    print(ORCID.head())
+    print(type(ORCID))
 
     wd = pd.read_csv(args.Wikidata_publication_ID_file, dtype=str)
     print(wd.head())
