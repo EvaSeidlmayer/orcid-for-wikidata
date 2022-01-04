@@ -18,8 +18,8 @@ def main():
     parser.add_argument("orcid_for_wikidata_publications")
     args = parser.parse_args()
 
-    #available columns: orcid,pmid,pmc,doi,eid,dnb
-    col_list = ['qID', 'orcid','pmid','pmc','doi','eid','dnb']
+    #available columns: orcid,pmid,pmc,doi,wosuid,eid,dnb
+    col_list = ['orcid','pmid','pmc','doi','eid','dnb']
     ORCID = pd.read_csv(args.ORCID_publication_ID_file, dtype=str, usecols=col_list, chunksize=1000000)
     print(ORCID.head())
 

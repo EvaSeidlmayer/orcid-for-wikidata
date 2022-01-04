@@ -21,7 +21,7 @@ def main():
     parser.add_argument("ORCID_publication_qID")
     args = parser.parse_args()
 
-    #reading file containing publication IDs harvested from ORCID
+    #reading file containing publication IDs harvested from ORCID and enriched with QID
     # format: qID,orcid,doi,pmc,pmid,dnb,eid
     # Q63502045,0000-0002-3619-6741,10.1039/C7RA12938F,,,,
 
