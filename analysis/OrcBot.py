@@ -9,7 +9,7 @@ __description__ = (
     "we delete the P2093 author string name claim after registration of P50"
 )
 __author__ = "Eva Seidlmayer <seidlmayer@zbmed.de>"
-__copyright__ = "2021 by Eva Seidlmayer"
+__copyright__ = "2022 by Eva Seidlmayer"
 __license__ = "ISC license"
 __email__ = "seidlmayer@zbmed.de"
 __version__ = "3.1"

@@ -203,6 +203,7 @@ reads: A researcher with Q-ID Q26322 has an ORCID-iD (P496) which is: 0000-0002-
 ### 3.1 Reducing _publications_ data set to those which are already registered in Wikidata by combining Wikidata based data set and ORCID based data set
 
 _map_wikipedia_orcid-publication_ids.py_
+
 Merging ORCID based publication IDs created in 1.1 and Wikidata based publication IDs created in 2.1 with script map_wikidata-orcid-publication-ids.py   
 
     ./map_wikidata_orcid-publication_ids.py ORCID-ids_1.csv WIKIDATA-publication-ids.csv ORCID_publications_qid-1.csv
@@ -219,6 +220,7 @@ It contains the subset of all publications listed in the chosen ORCID-file that 
 
 *******************
 _map_allauthors_to_article.py_
+
 Now we like to add also the authors QID to the data set:
 
     ./analysis/map_allauthors_to_article.py ORCID_publications_qid-1.csv allauthors.txt final-publication-data-1.csv
