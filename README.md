@@ -6,7 +6,7 @@ _Basic data work of Orcbot_
 ![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/OrcBot.png "Basic functionality of Orcbot")
 
 _Basic workflow of Orcbot_
-![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/orcbot_workflow_small_2.png "Orcbot workflows")
+![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/orcbot_workflow_small.png "Orcbot workflows")
 
 
 
