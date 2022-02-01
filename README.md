@@ -1,6 +1,14 @@
 # ORCID for Wikidata
 
-This repository contains scripts to import authors with information about affiliation and education from [ORCID database] into [Wikidata]. Afterwards the author items can be connected to their scienctific articles in Wikidata.
+This repository contains scripts to import authors with information about affiliation and education from [ORCID database] into [Wikidata]. Afterwards the author items can be connected to their scienctific articles in Wikidata by the script Orcbot. 
+
+_Basic data work of Orcbot_
+![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/OrcBot.png "Basic functionality of Orcbot")
+
+_Basic workflow of Orcbot_
+![alt text]()
+
+
 
 [ORCID database]: https://orcid.org/
 [Wikidata]: https://www.wikidata.org/
@@ -30,6 +38,7 @@ Scripts in this repository requiry
 * Python 3
 * Python libraries listed in `requirements.txt` (install with `pip3 install -r requirements.txt`)
 * [wikibase-edit]
+* Wikidata bot permission
 
 Bot rights are required to write to the desired wikibase instance (e.g. Wikidata) on a large scale. 
 To process full ORCID dumps and full Wikidata dump you also need enough disk space and some time.
@@ -41,8 +50,14 @@ To process full ORCID dumps and full Wikidata dump you also need enough disk spa
 From our experiences the Wikidata API does not deal very well with huge amounts of queries. 
 In the previous version we relied on the performance of the Wikidata API for the check, if publications and authors already exist as items in Wikidata. 
 Also, the check for registered originator to an article item depend on the API. 
-Ass we had a great loss during the recall we changed to download the complete Wikdiata dump. 
+As we had a great loss during the recall we changed to download the complete Wikdiata dump. 
 Since this, harvesting of the needed information by the provided shell script can be carried out much more fast and much more efficient in terms of quantity. 
+
+***************
+In order to use Orcbot an expensive preparation of data is required. 
+
+
+
 
 ***************
 
@@ -262,7 +277,7 @@ We call the generated data final-author-data.csv
 
 
 ******************************
-### 4. Register missing authors to Wikidata publication items (OrcBot)
+### 4. Register missing authors to Wikidata publication items (Orcbot)
 
 The script combines both datasets generated in 3. using "orcid" as key. It checks if the author who claims in ORCID database to be originator of a work is already listed as author with property  P50.
      
