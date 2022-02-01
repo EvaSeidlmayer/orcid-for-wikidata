@@ -8,6 +8,7 @@ __description__ = (
     "if already given in P2093 author string name we transfer P1545 series ordinal to the P50 statement "
     "we delete the P2093 author string name claim after registration of P50"
 )
+
 __author__ = "Eva Seidlmayer <seidlmayer@zbmed.de>"
 __copyright__ = "2022 by Eva Seidlmayer"
 __license__ = "ISC license"
@@ -53,7 +54,7 @@ def create_author_string_dict(row):
     )
     p2093_infos = []
     article_qID = row["article_qID"]
-    tmp_json_file = "tmp_20210105.json"
+    tmp_json_file = "tmp_20220110.json"
     with open(tmp_json_file, "w") as f:
         creation_result = subprocess.run(
             f"wb gt {article_qID} --format json".split(), capture_output=True
@@ -84,23 +85,24 @@ def create_author_string_dict(row):
 def check_name_variations_in_p2093(
     author_variants, p2093_infos, guid, row, log_file_name
 ):
-    print("4: check if the author is already listed as author name string P2093")
-    try:
+    print("4: check if the author is already listed as author name string (P2093)")
+    if True:
         for names in author_variants.values():
             for name in names:
                 for author_dict in p2093_infos:
                     for p2093name in author_dict.keys():
                         if name == p2093name:
-                            print("yes")
-                            edit_item_p2093(p2093name, author_dict, row, log_file_name)
-                            remove_p2093_claims(guid)
-    except:
-        edit_item_plain(row, log_file_name)
+                            print("yes, already listed in P2093")
+                            edit_item_p2093(p2093name, author_dict, row, log_file_name, guid)
+
+    else:
+        print("5: author is not listed yet with author name string (P2093)")
+        edit_item_plain(row, guid, log_file_name)
         print("Article", row["article_qID"], "was operated")
 
 
 # start a subprocess applying Wikibase-CLI to modify the article item using the above created template containig the missing author statement
-def edit_item_p2093(p2093name, author_dict, row, log_file_name):
+def edit_item_p2093(p2093name, author_dict, row, log_file_name, guid):
     print("4a: Edit Wikidata item under consideration of P2093 infos")
     with open(log_file_name, "a") as f:
         item = create_p2093_template(p2093name, author_dict, row)
@@ -111,16 +113,47 @@ def edit_item_p2093(p2093name, author_dict, row, log_file_name):
             entity_json_fh.write(json.dumps(item))
 
         creation_result = subprocess.run(
-            f"wb edit-entity ./{tmp_json_file} --dry".split(), capture_output=True
+            f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
         logging.info(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode("UTF-8"))
             f.write(json.dumps(result) + "\n")
+        remove_p2093_claims(guid)
+
+# create a template with article_qID, missing author statement P50, author_qID and name string of author
+def create_p2093_template(p2093name, author_dict, row):
+    print("4b: Create template including P2093 (author string) infos")
+    print(row)
+    print(p2093name)
+    return {
+        "id": row["article_qID"],
+        "claims": {
+            "P50": {
+                "value": row["author_qID"],
+                "qualifier": [
+                    {"P1932": p2093name},
+                    {"P1545": author_dict.get(p2093name)},
+                ],
+            "references": [{"P248": "p"}],
+            }
+        },
+    }
+
+def remove_p2093_claims(guid):
+    print("4c: Remove P2093 statement")
+    creation_result = subprocess.run(
+        f"wb  remove-claim {guid}".split(), capture_output=True
+    )
+    logging.info(creation_result)
 
 
-def edit_item_plain(row, log_file_name):
-    print("4b: Edit Wikidata item")
+
+
+
+
+def edit_item_plain(row, guid, log_file_name):
+    print("5a: Edit Wikidata item without deleting P2093")
     with open(log_file_name, "a") as f:
         item = create_plain_template(row)
         logging.info(f"item is {item}")
@@ -130,7 +163,7 @@ def edit_item_plain(row, log_file_name):
             entity_json_fh.write(json.dumps(item))
 
         creation_result = subprocess.run(
-            f"wb edit-entity ./{tmp_json_file} --dry".split(), capture_output=True
+            f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
         logging.info(creation_result)
         if creation_result.returncode == 0:
@@ -138,22 +171,6 @@ def edit_item_plain(row, log_file_name):
             f.write(json.dumps(result) + "\n")
 
 
-# create a template with article_qID, missing author statement P50, author_qID and name string of author
-def create_p2093_template(p2093name, author_dict, row):
-    print("5a: Create template including P2093 infos")
-    return {
-        "id": row["article_qID"],
-        "claims": {
-            "P50": {
-                "value": row["author_qID"],
-                "qualifier": [
-                    {"P1932": row["name"]},
-                    {"P1545": author_dict.get(p2093name)},
-                ],
-            "references": [{"P248": "Q104707600"}],
-            }
-        },
-    }
 
 def create_plain_template(row):
     print("5b: Create plain template")
@@ -163,18 +180,12 @@ def create_plain_template(row):
             "P50": {
                 "value": row["author_qID"],
                 "qualifier": [{"P1932": row["name"]}],
-                "references": [{"P248": "Q104707600"}],
+                "references": [{"P248": "Q110411020"}],
             }
         },
     }
 
 
-def remove_p2093_claims(guid):
-    print("6: Remove P2093 statement")
-    creation_result = subprocess.run(
-        f"wb  remove-claim {guid} --dry".split(), capture_output=True
-    )
-    logging.info(creation_result)
 
 
 def main():

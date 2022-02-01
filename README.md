@@ -31,6 +31,7 @@ Scripts in this repository requiry
 * Python libraries listed in `requirements.txt` (install with `pip3 install -r requirements.txt`)
 * [wikibase-edit]
 
+Bot rights are required to write to the desired wikibase instance (e.g. Wikidata) on a large scale. 
 To process full ORCID dumps and full Wikidata dump you also need enough disk space and some time.
 
 [wikibase-edit]: https://www.npmjs.com/package/wikibase-edit
