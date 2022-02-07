@@ -47,7 +47,6 @@ def create_author_QID_dict(row):
     return author_variants
 
 
-
 # harvest author name string P2093 and - if existing - related series ordinal P1545 for a given article_QID via Wikibase CLI
 def create_author_string_dict(row, log_file_name):
     flag = True
@@ -66,7 +65,7 @@ def create_author_string_dict(row, log_file_name):
         author_plain = {}
         try:
             # more than one already listed author_name_string
-            if type(result['claims']['P2093']) is list:
+            if type(result["claims"]["P2093"]) is list:
                 for element in result["claims"]["P2093"]:
                     author = element.get("value")
                     guid = element.get("id")
@@ -80,10 +79,10 @@ def create_author_string_dict(row, log_file_name):
 
             # only one already listed author_name_string
             else:
-                author = result['claims']['P2093']['value']
-                guid = result['claims']['P2093']['id']
+                author = result["claims"]["P2093"]["value"]
+                guid = result["claims"]["P2093"]["id"]
                 try:
-                    series_ordinal = result['claims']['P2093']["qualifiers"]["P1545"]
+                    series_ordinal = result["claims"]["P2093"]["qualifiers"]["P1545"]
                 except KeyError:
                     series_ordinal = ""
                 info = [series_ordinal, guid]
@@ -93,7 +92,9 @@ def create_author_string_dict(row, log_file_name):
         # no author_name_string yet listed
         except KeyError:
             print("4: No P2093 author name string for article", article_qID)
-            print("5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093")
+            print(
+                "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093"
+            )
             with open(log_file_name, "a") as f:
                 item = create_plain_template(row)
                 print(item)
@@ -105,7 +106,7 @@ def create_author_string_dict(row, log_file_name):
                 creation_result = subprocess.run(
                     f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
                 )
-                print('5c: item was edited')
+                print("5c: item was edited")
                 logging.info(creation_result)
                 if creation_result.returncode == 0:
                     result = json.loads(creation_result.stdout.decode("UTF-8"))
@@ -117,7 +118,9 @@ def create_author_string_dict(row, log_file_name):
 
 # compare if the P50 author is already listed as P2093 author name string and has a series ordinal.
 def check_name_variations_in_p2093(author_variants, p2093_infos):
-    print("4: make use of information if author is already listed as author name string (P2093)")
+    print(
+        "4: make use of information if author is already listed as author name string (P2093)"
+    )
     flag = False
     for alias in author_variants.values():
         print(alias)
@@ -133,7 +136,7 @@ def check_name_variations_in_p2093(author_variants, p2093_infos):
             if flag == True:
                 break
     else:
-        p2093name = ''
+        p2093name = ""
         author_dict = {}
         print("5: author is not listed yet with author name string (P2093)")
         flag = False
@@ -143,10 +146,10 @@ def check_name_variations_in_p2093(author_variants, p2093_infos):
 # start a subprocess applying Wikibase-CLI to modify the article item using the above created template containig the missing author statement
 def edit_item_p2093(p2093name, author_dict, row, log_file_name):
     print("4a: Prepare for edit of Wikidata item under consideration of P2093 infos")
-    print('p2093name', p2093name)
-    print('author_dict', author_dict)
+    print("p2093name", p2093name)
+    print("author_dict", author_dict)
     with open(log_file_name, "a") as f:
-        item = create_p2093_template(author_dict,p2093name, row)
+        item = create_p2093_template(author_dict, p2093name, row)
         logging.info(f"item is {item}")
         tmp_json_file = f"{row['article_qID']}.json"
 
@@ -156,18 +159,19 @@ def edit_item_p2093(p2093name, author_dict, row, log_file_name):
         creation_result = subprocess.run(
             f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
-        #print(creation_result)
-        print('4c: Item was edited under consideration of P2093 infos')
+        # print(creation_result)
+        print("4c: Item was edited under consideration of P2093 infos")
         logging.info(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode("UTF-8"))
             f.write(json.dumps(result) + "\n")
         remove_p2093_claims(p2093name, author_dict)
 
+
 # create a template with article_qID, missing author statement P50, author_qID and name string of author
 def create_p2093_template(author_dict, p2093name, row):
     print("4b: Create template including P2093 (author string) infos")
-    print('author_dict', author_dict)
+    print("author_dict", author_dict)
     # no series ordinal
     if not author_dict[p2093name][0]:
         return {
@@ -175,11 +179,8 @@ def create_p2093_template(author_dict, p2093name, row):
             "claims": {
                 "P50": {
                     "value": row["author_qID"],
-                    "qualifiers":
-                        {
-                        "P1932": p2093name
-                        },
-                "references": [{"P248": "Q110411020"}],
+                    "qualifiers": {"P1932": p2093name},
+                    "references": [{"P248": "Q110411020"}],
                 }
             },
         }
@@ -190,11 +191,10 @@ def create_p2093_template(author_dict, p2093name, row):
             "claims": {
                 "P50": {
                     "value": row["author_qID"],
-                    "qualifiers":
-                        {
-                            "P1932": p2093name,
-                            "P1545": author_dict[p2093name][0]
-                        },
+                    "qualifiers": {
+                        "P1932": p2093name,
+                        "P1545": author_dict[p2093name][0],
+                    },
                     "references": [{"P248": "Q110411020"}],
                 }
             },
@@ -207,12 +207,14 @@ def remove_p2093_claims(p2093name, author_dict):
     creation_result = subprocess.run(
         f"wb  remove-claim {guid} ".split(), capture_output=True
     )
-    print('4e:', 'P2093 removed')
+    print("4e:", "P2093 removed")
     logging.info(creation_result)
 
 
 def edit_item_plain(row, log_file_name):
-    print("5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093")
+    print(
+        "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093"
+    )
     with open(log_file_name, "a") as f:
         item = create_plain_template(row)
         print(item)
@@ -224,16 +226,15 @@ def edit_item_plain(row, log_file_name):
         creation_result = subprocess.run(
             f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
-        print('5c: item was edited')
+        print("5c: item was edited")
         logging.info(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode("UTF-8"))
             f.write(json.dumps(result) + "\n")
 
 
-
 def create_plain_template(row):
-    #no alias or lable
+    # no alias or lable
     print("5b: Create plain template")
     return {
         "id": row["article_qID"],
@@ -279,7 +280,7 @@ def main():
     all_df = pd.merge(orcid_authors, wikidata_authors, how="right", on="orcid")
     all_df["all_authors_qID"].fillna("[]", inplace=True)
     all_df["all_authors_qID"] = all_df["all_authors_qID"].apply(literal_eval)
-    print('0: data sets had been merged', all_df.head())
+    print("0: data sets had been merged", all_df.head())
 
     # setting counters for statistical use
     no_author = 0
@@ -319,7 +320,9 @@ def main():
 
                 # we combine both information and check if there is information  in P2093 on the person that should be introduced as P50 to the article.
                 if flag == True:
-                    flag, p2093name, author_dict = check_name_variations_in_p2093(author_variants, p2093_infos)
+                    flag, p2093name, author_dict = check_name_variations_in_p2093(
+                        author_variants, p2093_infos
+                    )
                     if flag == True:
                         edit_item_p2093(p2093name, author_dict, row, args.log_file_name)
                     else:
@@ -339,5 +342,6 @@ def main():
         needs_to_be_registered,
     )
     print("program done")
+
 
 main()
