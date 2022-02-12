@@ -29,9 +29,8 @@ import time
 
 # harvest all name labels and alias for an author_QID from Wikidata and put the in a dictionary
 def create_author_QID_dict(row):
-    print(
-        "2: check for all labels and alias of author identified with author QID and not registered to article yet"
-    )
+    #print(
+     #   "2: check for all labels and alias of author identified with author QID and not registered to article yet")
     author_QID = row["author_qID"]
     author_variants = {}
     creation_result = subprocess.run(
@@ -50,9 +49,8 @@ def create_author_QID_dict(row):
 # harvest author name string P2093 and - if existing - related series ordinal P1545 for a given article_QID via Wikibase CLI
 def create_author_string_dict(row, log_file_name):
     flag = True
-    print(
-        "3: check for all listed author string names and related series ordinal for a given article"
-    )
+    #print(
+     #   "3: check for all listed author string names and related series ordinal for a given article")
     p2093_infos = []
     article_qID = row["article_qID"]
     tmp_json_file = "tmp_Orcbot.json"
@@ -91,22 +89,22 @@ def create_author_string_dict(row, log_file_name):
                 flag = True
         # no author_name_string yet listed
         except KeyError:
-            print("4: No P2093 author name string for article", article_qID)
-            print(
-                "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093"
-            )
+            #print("4: No P2093 author name string for article", article_qID)
+            #print(
+             #   "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093")
             with open(log_file_name, "a") as f:
                 item = create_plain_template(row)
-                print(item)
+                #print(item)
                 logging.info(f"item is {item}")
-                tmp_json_file = f"{row['article_qID']}.json"
+                #tmp_json_file = f"{row['article_qID']}.json"
+                tmp_json_file = "tmp_Orcbot.json"
                 with open(tmp_json_file, "w") as entity_json_fh:
                     entity_json_fh.write(json.dumps(item))
 
                 creation_result = subprocess.run(
                     f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
                 )
-                print("5c: item was edited")
+                #print("5c: item was edited")
                 logging.info(creation_result)
                 if creation_result.returncode == 0:
                     result = json.loads(creation_result.stdout.decode("UTF-8"))
@@ -118,14 +116,11 @@ def create_author_string_dict(row, log_file_name):
 
 # compare if the P50 author is already listed as P2093 author name string and has a series ordinal.
 def check_name_variations_in_p2093(author_variants, p2093_infos):
-    print(
-        "4: make use of information if author is already listed as author name string (P2093)"
-    )
+    #print(
+      #  "4: make use of information if author is already listed as author name string (P2093)")
     flag = False
     for alias in author_variants.values():
-        print(alias)
         for name in alias:
-            print(name)
             for author_dict in p2093_infos:
                 for p2093name in author_dict.keys():
                     if name == p2093name:
@@ -138,16 +133,14 @@ def check_name_variations_in_p2093(author_variants, p2093_infos):
     else:
         p2093name = ""
         author_dict = {}
-        print("5: author is not listed yet with author name string (P2093)")
+        #print("5: author is not listed yet with author name string (P2093)")
         flag = False
         return flag, p2093name, author_dict
 
 
 # start a subprocess applying Wikibase-CLI to modify the article item using the above created template containig the missing author statement
 def edit_item_p2093(p2093name, author_dict, row, log_file_name):
-    print("4a: Prepare for edit of Wikidata item under consideration of P2093 infos")
-    print("p2093name", p2093name)
-    print("author_dict", author_dict)
+    #print("4a: Prepare for edit of Wikidata item under consideration of P2093 infos")
     with open(log_file_name, "a") as f:
         item = create_p2093_template(author_dict, p2093name, row)
         logging.info(f"item is {item}")
@@ -159,8 +152,7 @@ def edit_item_p2093(p2093name, author_dict, row, log_file_name):
         creation_result = subprocess.run(
             f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
-        # print(creation_result)
-        print("4c: Item was edited under consideration of P2093 infos")
+        #print("4c: Item was edited under consideration of P2093 infos")
         logging.info(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode("UTF-8"))
@@ -170,8 +162,7 @@ def edit_item_p2093(p2093name, author_dict, row, log_file_name):
 
 # create a template with article_qID, missing author statement P50, author_qID and name string of author
 def create_p2093_template(author_dict, p2093name, row):
-    print("4b: Create template including P2093 (author string) infos")
-    print("author_dict", author_dict)
+    #print("4b: Create template including P2093 (author string) infos")
     # no series ordinal
     if not author_dict[p2093name][0]:
         return {
@@ -202,22 +193,21 @@ def create_p2093_template(author_dict, p2093name, row):
 
 
 def remove_p2093_claims(p2093name, author_dict):
-    print("4d: Remove P2093 statement")
+    #print("4d: Remove P2093 statement")
     guid = author_dict[p2093name][1]
     creation_result = subprocess.run(
         f"wb  remove-claim {guid} ".split(), capture_output=True
     )
-    print("4e:", "P2093 removed")
+    #print("4e:", "P2093 removed")
     logging.info(creation_result)
 
 
 def edit_item_plain(row, log_file_name):
-    print(
-        "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093"
-    )
+    #print(
+     #   "5a: Prepare for edit of Wikidata item without P2093 and without deleting P2093")
     with open(log_file_name, "a") as f:
         item = create_plain_template(row)
-        print(item)
+        #print(item)
         logging.info(f"item is {item}")
         tmp_json_file = f"{row['article_qID']}.json"
         with open(tmp_json_file, "w") as entity_json_fh:
@@ -226,7 +216,7 @@ def edit_item_plain(row, log_file_name):
         creation_result = subprocess.run(
             f"wb edit-entity ./{tmp_json_file} ".split(), capture_output=True
         )
-        print("5c: item was edited")
+        #print("5c: item was edited")
         logging.info(creation_result)
         if creation_result.returncode == 0:
             result = json.loads(creation_result.stdout.decode("UTF-8"))
@@ -235,7 +225,7 @@ def edit_item_plain(row, log_file_name):
 
 def create_plain_template(row):
     # no alias or lable
-    print("5b: Create plain template")
+    #print("5b: Create plain template")
     return {
         "id": row["article_qID"],
         "claims": {
@@ -245,7 +235,7 @@ def create_plain_template(row):
             }
         },
     }
-    print("5b: Create plain template")
+    #print("5b: Create plain template")
 
 
 def main():

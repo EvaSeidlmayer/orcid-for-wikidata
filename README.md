@@ -168,9 +168,9 @@ Your approach depends on your RAM.
 
  _load txt data - only those columns we need: article-QID and identifier_
 
-    doi_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
-    pmc_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmc.txt', sep= " ",   error_bad_lines=False, usecols=[0,2], low_memory=False)
-    pmid_df = pd.read_csv('/home/ruth/ProgrammingProjects/enrich_with_orcid/data/WD-2021-Orcbot2.0_pmid.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
+    doi_df = pd.read_csv('doi.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
+    pmc_df = pd.read_csv('pmc.txt', sep= " ",   error_bad_lines=False, usecols=[0,2], low_memory=False)
+    pmid_df = pd.read_csv('pmid.txt', sep= " ", error_bad_lines=False, usecols=[0,2], low_memory=False)
 
 _rename columns_
 
@@ -185,7 +185,7 @@ _merge data frames in chunks_
 
 _save to csv_
 
-    df_doi_pmc_pmid.to_csv('../data/Wikidata-publications-ids.csv')
+    df_doi_pmc_pmid.to_csv('Wikidata-publications-ids.csv')
 
 Repeat the process for eid.txt and dnb.txt.  WIKIDATA-publications-ids.csv looks like:
 
