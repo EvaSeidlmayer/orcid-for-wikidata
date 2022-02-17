@@ -124,7 +124,7 @@ def check_name_variations_in_p2093(author_variants, p2093_infos):
             for author_dict in p2093_infos:
                 for p2093name in author_dict.keys():
                     if name == p2093name:
-                        print("yes, already listed in P2093")
+                        #print("yes, already listed in P2093")
                         flag = True
                         return flag, p2093name, author_dict
                         break
@@ -270,7 +270,7 @@ def main():
     all_df = pd.merge(orcid_authors, wikidata_authors, how="right", on="orcid")
     all_df["all_authors_qID"].fillna("[]", inplace=True)
     all_df["all_authors_qID"] = all_df["all_authors_qID"].apply(literal_eval)
-    print("0: data sets had been merged", all_df.head())
+    #print("0: data sets had been merged", all_df.head())
 
     # setting counters for statistical use
     no_author = 0
@@ -292,14 +292,13 @@ def main():
                 row["author_qID"] in row["all_authors_qID"]
             ):
                 needs_to_be_registered += 1
-                print(
-                    "1: this author",
-                    row["author_qID"],
-                    "is not part of all authors:",
-                    row["all_authors_qID"],
-                    "of article",
-                    row["article_qID"],
-                )
+                #print(
+                 #   "1: this author",
+                  #  row["author_qID"],
+                   # "is not part of all authors:",
+                    #row["all_authors_qID"],
+                    #"of article",
+                    #row["article_qID"])
 
                 # if the author is not yet listed as P50 author in article
                 # we check for all labels and alias - all other writings of the name listed in author QID

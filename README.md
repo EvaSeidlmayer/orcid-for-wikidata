@@ -257,6 +257,17 @@ The final format of the publication data set is:
 | Q42530171 | 0000-0003-2743-0337 |||    16647637.0    ||| "['Q42114754', 'Q42305518', 'Q89834128']" |
 | Q48003384 | 0000-0002-0997-4384 ||| 2-s2.0-84994508140 |||        "['Q47067377', 'Q60393087']"       |
 
+******************************
+
+In practice, we have noticed that authors have repeatedly entered the same publication twice or more in ORCID. 
+To eliminate this source of error, we propose a duplication of the data along the columns QID and ORCID-ID. 
+
+   
+df = pd.read_csv('ORCID-publications_qid-1.csv')
+df.drop_duplicates(subset=['qID', 'orcid'], keep = 'first', inplace=True)
+df.to_csv('ORCID-publications_qid_deduplicatedgit -1.csv', index=False)
+
+
 *******************
 
 ### 3.2 Limiting down ORCID _authors_ to those who are registered to Wikidata
