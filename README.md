@@ -8,7 +8,8 @@ _Basic data work of Orcbot_
 _Basic workflow of Orcbot_
 ![alt text](https://github.com/EvaSeidlmayer/orcid-for-wikidata/blob/master/orcbot_workflow_small.png "Orcbot workflows")
 
-
+_ short video on OrcBot (status November, 2020)_ 
+¹[10.5281/zenodo.7969884](Doi:10.5281/zenodo.7969884)
 
 [ORCID database]: https://orcid.org/
 [Wikidata]: https://www.wikidata.org/
