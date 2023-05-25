@@ -1,6 +1,6 @@
 # ORCID for Wikidata
 
-This repository contains scripts to import authors with information about affiliation and education from [ORCID database] into [Wikidata]. Afterwards the author items can be connected to their scienctific articles in Wikidata by the script Orcbot. A short video on OrcBot (status November, 2020) you can find on Zenodo: [10.5281/zenodo.7969884](Doi:10.5281/zenodo.7969884)
+This repository contains scripts to import authors with information about affiliation and education from [ORCID database] into [Wikidata]. Afterwards the author items can be connected to their scienctific articles in Wikidata by the script Orcbot. A short video on OrcBot (status November, 2020) you can find on Zenodo: [DOI: 10.5281/zenodo.7969884](https://zenodo.org/record/7969884).
 
 
 
